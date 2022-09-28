@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4548">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From E. A. Darwin   30 June [1864]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8619</idno>
+            
+            
+            
+            
+            <date when="2001">2001</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4548 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4548.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4548.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="12">12</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="publication">
+                <bibl>DAR 105: B30</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 12: 262</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 105: B30</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>105: B30</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1211.xml">Darwin, E. A.</persName>
+                <placeName>unstated</placeName>
+                <date when="1864-06-30">30 June [1864]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Henry Holland thought CD would be interested to know that Buxton’s brewery cannot go on with their own yeast, but are obliged to interchange with other breweries.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">yeast</term>
+                <term type="people" ref="#subject_2337">Holland, Henry</term>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="societal" ref="#">Buxton’s brewery</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00105-000-00311_files/8/0_0.jpg" width="2989px" height="5318px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00105-000-00311_files/11/1_1.jpg" width="2989px" height="5318px"/>
+        <surface n="B:30r" xml:id="i311">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00105-000-00311.jpg" width="2989px" height="5318px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00105-000-00311_files/8/0_0.jpg" width="2989px" height="5318px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00105-000-00311.dzi" width="2989px" height="5318px"/>
+        </surface>
+        <surface n="B:30v" xml:id="i312">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00105-000-00312.jpg" width="2989px" height="5318px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00105-000-00312_files/8/0_0.jpg" width="2989px" height="5318px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00105-000-00312.dzi" width="2989px" height="5318px"/>
+        </surface>
+    </facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <date>June 30</date>
+                    <salute>Dear Charles.</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Sir H H<ref target="#foot.f2"/> told me yesterday that he had been going over Buxtons brewery<ref target="#foot.f3"/> &amp; he was told as a certain fact that they cannot go on with their own yeast but are obliged to interchange with other breweries. He thought this might interest you.</p>
+<p>Yours aff. | E D</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-4641.xml" resp="#mjhawkins">letter from Charles Buxton, 21 October 1864</ref>.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_2337.xml" resp="#mjhawkins">Henry Holland</ref>.</note>
+            <note xml:id="foot.f3">The reference is to the brewery of <ref target="../nameregs/nameregs_780.xml" resp="#mjhawkins">Charles Buxton</ref>; Buxton was a partner in the brewery of <ref target="../nameregs/nameregs_6898.xml" resp="#mjhawkins">Truman, Hanbury, Buxton &amp; Co.</ref> and was Holland’s son-in-law (<ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref>). See <ref target="./DCP-LETT-4633.xml" resp="#mjhawkins">letter to Charles Buxton, 12 October [1864]</ref>, and <ref target="./DCP-LETT-4641.xml" resp="#mjhawkins">letter from Charles Buxton, 21 October 1864</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

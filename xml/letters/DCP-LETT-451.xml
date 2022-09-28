@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-451">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To George Robert Gray   [4 December 1838]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13972</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-451 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-451.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-451.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">** 3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Sotheby’s (dealers) (14 December 1976)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_395.xml">Sotheby’s</repository>
+                    <collection>14 Dec 1976</collection>
+                    <idno/>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Gt Marlborough St, 36</placeName>
+                <date when="1838-12-04">[4 Dec 1838]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1958.xml">Gray, G. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends GRG a few pages of proofs [of <hi rend="italic">Birds</hi>]. Asks him to make any observations that might occur to him and to check passages in French and Latin.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Birds</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">reception of Darwinism</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>36 Great Marlborough Street</placeName>
+                    <date>Tuesday</date>
+                </opener>
+                <div type="transcription">
+<p>[Sends a few pages of proofs<ref target="#foot.f2"/> on which he asks Gray to make any observations that might occur to him (“… I am ashamed of my work, but I cannot do it better …”) and particularly requesting him to check passages in French (“… if you would compare the French sentence at p. 20 with M. D’Orbigny’s work …”)<ref target="#foot.f3"/> and Latin (“… I find I have quite forgotten the little I ever knew …”). CD also says that he is sending the manuscript of the ‘Natatores’ which Gray had said he would look at.]</p>
+<p>Believe me | Yours truly | Chas. Darwin<ref target="#foot.f4"/></p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">For the basis for the date of this letter, see <ref target="./DCP-LETT-454.xml" resp="#mjhawkins">letter to G. R. Gray, [6 December 1838]</ref>, n. 1.</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_650.xml" resp="#mjhawkins"><hi rend="italic">Birds</hi></ref> No. 2, which was published in January 1839. Gray completed <ref target="../bibliographies/bibl_650.xml" resp="#mjhawkins"><hi rend="italic">Birds</hi></ref> following <ref target="../nameregs/nameregs_1935.xml" resp="#mjhawkins">John Gould’s</ref> departure for Australia.</note>
+            <note xml:id="foot.f3"><ref target="../bibliographies/bibl_6005.xml" resp="#mjhawkins">Orbigny 1835–47</ref>, vol. 4 pt 3 (Oiseaux), p. 52.</note>
+            <note xml:id="foot.f4">The valediction is reproduced in facsimile in the catalogue.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

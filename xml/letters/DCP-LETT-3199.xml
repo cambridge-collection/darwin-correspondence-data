@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3199">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To George Gordon   4 July [1861]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20319</idno>
+            
+            
+            
+            
+            <date when="1994">1994</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3199 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3199.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3199.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="09">9</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Elgin Museum (Gordon Archive 61.11)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_619.xml">Elgin Museum</repository>
+                    <collection>Gordon Archive</collection>
+                    <idno>61.11</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Torquay</placeName>
+                <date when="1861-07-04">4 July [1861]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1920.xml">Gordon, George (b)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks GG for his great kindness about <hi rend="italic">Corallorhiza</hi>. CD will try to get plants from J. H. Balfour.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Corallorhiza</term>
+                <term type="people" ref="#subject_259">Balfour, J. H.</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>2. Hesketh Crescent | Torquay</placeName>
+                    <date>July 4<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I must thank you for your extraordinary kindness to me about Corallorhiza.<ref target="#foot.f2"/> M<hi rend="superscript">r</hi> Watson forwarded to me your note to him<ref target="#foot.f3"/> &amp; he suggested Prof. Balfour to whom I have written.<ref target="#foot.f4"/> I fear that there is no chance of my succeeding; but I am sure I am not the less obliged to you for your great kindness.—</p>
+<p>My dear Sir | Yours truly obliged | Charles Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is given by reference to the Darwins’ stay in Torquay.</note>
+            <note xml:id="foot.f2">Gordon had offered to assist CD in acquiring specimens of the orchid <hi rend="italic">Corallorhiza</hi>. See <ref target="./DCP-LETT-3191.xml" resp="#mjhawkins">letter to George Gordon, 22 June [1861]</ref>.</note>
+            <note xml:id="foot.f3">The letter from <ref target="../nameregs/nameregs_4975.xml" resp="#mjhawkins">Hewett Cottrell Watson</ref> has not been found. Gordon may have written to him after receiving CD’s letter of 17 June [1861].</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_259.xml" resp="#mjhawkins">John Hutton Balfour</ref> was professor of botany at <ref target="../nameregs/nameregs_1454.xml" resp="#mjhawkins">Edinburgh University</ref> and director of the Royal Botanic Garden.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

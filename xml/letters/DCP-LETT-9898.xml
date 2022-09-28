@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9898">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From E. J. Johnston   22 March 1875</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17698</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9898 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9898.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9898.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 168: 75</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>168: 75</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_7452.xml">Johnston, E. J.</persName>
+                <placeName>London, Wycliffe Grove, 14</placeName>
+                <date when="1875-03-22">22 Mar 1875</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>He will write to Portugal for the insect-capturing <hi rend="italic">Araujia</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">insects</term>
+                <term type="plants" ref="#">Araujia</term>
+                <term type="people" ref="#subject_2592">Johnston, E. J.</term>
+                <term type="places" ref="#">Portugal</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">fertilisation and generation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="scientific_terms" ref="#">predators</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">relation of organism to organism</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>14 Wycliffe Grove, | Lavender Hill, | Wandsworth Road. | S.W.</placeName>
+                    <date>22nd March 1875.</date>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I duly received your letter of the 17th, and would have acknowledged it sooner, had I not been hindered by engagements in town.<ref target="#foot.f1"/> I shall have great pleasure in writing to a botanical friend in Oporto for seeds of the Araujia sericofera.<ref target="#foot.f2"/> If you will only investigate the matter when you have leisure, my design in writing to you will be fully accomplished.</p>
+<p>Since receiving your letter, I was discoursing about the Araujia to a friend who has lived in Portugal. I asked him whether he had ever actually witnessed the capture of an insect, and he replied that he had not, but that on one occasion he came very near it. He was approaching the plant, and, when quite close to it, he saw a hawk-moth flying before him in the same direction. By the time he had arrived at the spot, the insect was firmly caught by the trunk. It was making great efforts with its wings to escape, but without success. The capture was the work of a moment. He spontaneously compared the shape of the part by which the insect was caught (viz., the stigma) to the figure formed by the two large feathers in the tail of the lyre bird.<ref target="#foot.f3"/></p>
+<p>I note with much interest the subject which you are now investigating, and am glad to find that what Knapp says of the Apocynum androsæmifolium is, (in part at least) confirmed by your own later observations.<ref target="#foot.f4"/></p>
+<p>I shall write to you again when I have a reply from my botanical friend. In the mean time I remain, | Yours faithfully, | Edwin J. Johnston Jr.</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD’s letter has not been found, but see the <ref target="./DCP-LETT-9890.xml" resp="#mjhawkins">letter from E. J. Johnston, 16 March 1875</ref>.</note>
+            <note xml:id="foot.f2">Johnston’s friend has not been identified. CD evidently wanted to grow specimens of <hi rend="italic">Araujia sericifera</hi> in order to observe how flowers of this species caught insects (see <ref target="./DCP-LETT-9890.xml" resp="#mjhawkins">letter from E. J. Johnston, 16 March 1875</ref> and n. 2). <hi rend="italic">Araujia sericifera</hi> is the common moth-vine or cruel plant; ‘sericofera’ was an incorrect spelling that had appeared in publication.</note>
+            <note xml:id="foot.f3">Johnston uses ‘trunk’ to refer to the proboscis of the moth. Hawk moths are in the family Sphingidae. The moth is trapped when its proboscis becomes wedged between the rigid anther wings of the flower. Male lyre-birds (genus <hi rend="italic">Menura</hi>) have distinctive tail feathers, the two largest of which resemble a lyre.</note>
+            <note xml:id="foot.f4">In his letter of 16 March 1875, Johnston had compared the trapping mechanism of <hi rend="italic">Araujia sericifera</hi> with a similar feature in <hi rend="italic">Apocynum androsaemifolium</hi> (fly-trap dogbane) as described by John Leonard Knapp. CD may have informed Johnston that he had observed <hi rend="italic">A. androsaemifolium</hi> in his father’s garden and noted its fly-trapping ability (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 8, <ref target="./DCP-LETT-2987.xml" resp="#mjhawkins">letter to Daniel Oliver, [21 November 1860]</ref>, and <ref target="./DCP-LETT-2995A.xml" resp="#mjhawkins">letter from Daniel Oliver, 23 November 1860</ref>). CD had suggested to <ref target="../nameregs/nameregs_3070.xml" resp="#mjhawkins">Fritz Müller</ref> that he observe fly catching in the Apocynaceae, noting that he had never determined a purpose for the phenomenon (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 14, <ref target="./DCP-LETT-5050.xml" resp="#mjhawkins">letter to Fritz Müller, [9 and] 15 April [1866]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

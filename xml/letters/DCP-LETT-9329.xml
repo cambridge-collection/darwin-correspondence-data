@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9329">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To the Royal Society of London<ref target="#foot.f1"/>   2 March [1874]<ref target="#foot.f2"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1639</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9329 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9329.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9329.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Cleveland Health Sciences Library (Robert M. Stecher collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_93.xml">Cleveland</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1874-03-02">2 Mar [1874]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4110.xml">Royal Society of London</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>A certificate for admission [of Robert Swinhoe] to Royal Society with many signatures has been lost by the Post Office. Asks for another so he can get the signatures anew.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_4642">Swinhoe, Robert</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">Post Office</term>
+                <term type="societal" ref="#">Royal Society of London</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>March 2<hi rend="superscript">d</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>A form of certificate for admission to Royal Soc. to which I had got a lot of signatures has been lost by the Post-office, &amp; I must set to work again &amp; get all the signatures anew!<ref target="#foot.f3"/> Will you therefore be so good as to send me by return of Post a new certificate, &amp; kindly inform me the latest date at which they can be suspended this year<ref target="#foot.f4"/></p>
+<p>yours sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.2 again] <hi rend="italic">interl</hi> </note>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The secretaries of the <ref target="../nameregs/nameregs_4110.xml" resp="#mjhawkins">Royal Society of London</ref> in 1874 were <ref target="../nameregs/nameregs_2486.xml" resp="#mjhawkins">Thomas Henry Huxley</ref> and <ref target="../nameregs/nameregs_4573.xml" resp="#mjhawkins">George Gabriel Stokes</ref>; since CD usually addressed Huxley as ‘My dear Huxley’ this letter was probably intended for Stokes, whom CD addressed as ‘My dear Sir’ at least until the end of 1875.</note>
+            <note xml:id="foot.f2">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-9277.xml" resp="#mjhawkins">letter from Robert Swinhoe, 9 February 1874</ref>, and by the form of the printed address, which CD used only until November 1874. Swinhoe was put forward for election as a fellow of the Royal Society twice; he was unsuccessful in 1874, but was elected in 1876 (<ref target="../bibliographies/bibl_6563.xml" resp="#mjhawkins"><hi rend="italic">Record of the Royal Society of London</hi></ref>).</note>
+            <note xml:id="foot.f3">Swinhoe had asked CD to propose him as a fellow of the Royal Society (see <ref target="./DCP-LETT-9277.xml" resp="#mjhawkins">letter from Robert Swinhoe, 9 February 1874</ref>); this involved CD’s obtaining six signatures on a certificate for admission (<ref target="../bibliographies/bibl_6563.xml" resp="#mjhawkins"><hi rend="italic">Record of the Royal Society of London</hi></ref>, p. 301; see also <ref target="./DCP-LETT-9330.xml" resp="#mjhawkins">letter to H. B. Tristram, 3 March [1874]</ref>).</note>
+            <note xml:id="foot.f4">The certificates had to be suspended in the society’s meeting room at the first ordinary meeting in March; the names of all the proposed candidates, including Swinhoe’s, were read out at a meeting on 5 March 1874 (<hi rend="italic">Proceedings of the Royal Society of London</hi> 22 (1873–4): 228). Only fifteen candidates, selected by the council of the society in May, would be put forward for election in June (<ref target="../bibliographies/bibl_6563.xml" resp="#mjhawkins"><hi rend="italic">Record of the Royal Society of London</hi></ref>, p. 302).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

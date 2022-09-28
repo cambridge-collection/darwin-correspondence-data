@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9968">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Lubbock   3 May [1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9422</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9968 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9968.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9968.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 146: 130</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">The British Library (Add MS 49644: 79–80)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_43.xml">The British Library</repository>
+                    <idno>Add 49644: 79–80</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1875-05-03">3 May [1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3026.xml">Lubbock, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Arrangements to meet a Duke [unidentified] at High Elms [Lubbock residence].</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="places" ref="#">High Elms</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">meeting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, Beckenham, Kent.</hi> (<hi rend="print">Railway Station | Orpington. S.E.R.</hi>)</placeName>
+                    <date>May 3<hi rend="superscript">d</hi></date>
+                    <salute>My dear Sir John</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>As I have a chance of sending this note <hi rend="underline">early</hi> to London, it will be better than a telegram.<ref target="#foot.f2"/> Tuesday week will suit me just as well as Friday.— Seeing anyone here tires me less than elswhere, but I think High Elms would be much better, if you do not object, as I could get away pretty soon, &amp; I do not see how I could get a sort of living Royal Duke out of my house within the short time I can talk to anyone.—<ref target="#foot.f3"/></p>
+<p>Pray do the best you can for me &amp; settle whatever you think best. | Yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 (<hi rend="italic">Railway …S.E.R.</hi>)] <hi rend="italic">parentheses added ink</hi> </note>
+                <note xml:id="tnote.n2">1.1 note] <hi rend="italic">interl</hi> </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the proposed visit from the duke of Teck (see n. 3, below).</note>
+            <note xml:id="foot.f2">Lubbock was a banker in the City of London.</note>
+            <note xml:id="foot.f3">CD was expecting a visit from Francis, duke of Teck; High Elms was Lubbock’s house and estate near Down. In the event, the duke was unable to visit because he had to attend a party at Windsor Castle on that day (<hi rend="italic">The Times</hi>, 13 May 1875, p. 11). Elizabeth Darwin expressed the Darwin family’s relief that the visit had been put off and their hope that it would never take place in her <ref target="" resp="#automat">letter to G. H. Darwin, [14 May 1875]</ref> (DAR 251: 1408). The meeting eventually took place on 9 August 1875, when the duke visited CD at Down House before going on to High Elms for lunch (<ref target="../nameregs/nameregs_3026.xml" resp="#mjhawkins">John Lubbock’s</ref> diary, BL Add mss 62680).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4901">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. D. Hooker   27 [or 28 September 1865]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">4450</idno>
+            
+            
+            
+            
+            <date when="2002">2002</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4901 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4901.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4901.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="13">13</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="endorsement" subtype="letter">Sept/65</note>
+            <note type="physdesc" n="ALS">7pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 151: 174</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">LL</hi> 3: 39</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 13</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 115: 275</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>115: 275</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+            <date xml:id="date1" when="1865-09-27" exclude="#date2">27 Sept 1865</date>
+            <date xml:id="date2" when="1865-09-28" exclude="#date1">28 Sept 1865</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2357.xml">Hooker, J. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Agrees with JDH on difference in grief over loss of father and of child. His love of his father.</p> 
+<p>The <hi rend="italic">Reader</hi>.</p> 
+            <p>Politics and science.</p>
+            <p>Health improved by Bence Jones’s diet.</p>
+            <p>[Dated "Thursday 27th" by CD.]</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin himself, good or improving</term>
+                <term type="it" ref="#">Reader</term>
+                <term type="listb" ref="#">unc</term>
+                <term type="people" ref="#subject_2601">Jones, H. B.</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">Other people</term>
+                <term type="societal" ref="#">politics and science</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-000-00001_files/8/0_0.jpg" width="3731px" height="5891px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-000-00001_files/11/1_1.jpg" width="3731px" height="5891px"/>
+        <surface xml:id="i1" n="1r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-000-00001.jpg" rend="portrait" width="3731px" height="5891px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-000-00001_files/8/0_0.jpg" width="3731px" height="5891px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-000-00001.dzi" width="3731px" height="5891px"/>
+        </surface>
+        <surface xml:id="i2" n="1v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-000-00002.jpg" rend="portrait" width="3731px" height="5891px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-000-00002_files/8/0_0.jpg" width="3731px" height="5891px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-000-00002.dzi" width="3731px" height="5891px"/>
+        </surface>
+        <surface xml:id="i3" n="2r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-000-00003.jpg" rend="portrait" width="3731px" height="5891px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-000-00003_files/8/0_0.jpg" width="3731px" height="5891px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-000-00003.dzi" width="3731px" height="5891px"/>
+        </surface>
+        <surface xml:id="i4" n="2v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-000-00004.jpg" rend="portrait" width="3731px" height="5891px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-000-00004_files/8/0_0.jpg" width="3731px" height="5891px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-000-00004.dzi" width="3731px" height="5891px"/>
+        </surface>
+        <surface xml:id="i5" n="3r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-B-000-00001.jpg" rend="portrait" width="3731px" height="5891px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-B-000-00001_files/8/0_0.jpg" width="3731px" height="5891px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-B-000-00001.dzi" width="3731px" height="5891px"/>
+        </surface>
+        <surface xml:id="i6" n="3v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-B-000-00002.jpg" rend="portrait" width="3731px" height="5891px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-B-000-00002_files/8/0_0.jpg" width="3731px" height="5891px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-B-000-00002.dzi" width="3731px" height="5891px"/>
+        </surface>
+        <surface xml:id="i7" n="4r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-B-000-00003.jpg" rend="portrait" width="3731px" height="5891px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-B-000-00003_files/8/0_0.jpg" width="3731px" height="5891px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-B-000-00003.dzi" width="3731px" height="5891px"/>
+        </surface>
+        <surface xml:id="i8" n="4v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-B-000-00004.jpg" rend="portrait" width="3731px" height="5891px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-B-000-00004_files/8/0_0.jpg" width="3731px" height="5891px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00275-B-000-00004.dzi" width="3731px" height="5891px"/>
+        </surface>
+    </facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down. Bromley Kent</placeName>
+                    <date>Thursday 27<hi rend="superscript">th</hi></date>
+                    <salute>My dear Hooker</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I had intended writing this morning to thank M<hi rend="superscript">rs</hi>. Hooker most sincerely for her last &amp; several notes about you,<ref target="#foot.f2"/> &amp; now your own note in your hand has rejoiced me.<ref target="#foot.f3"/> To walk between 5 &amp; 6 miles is splendid, &amp; with a little patience you must soon be well. I knew you had been very ill, but I hardly knew how ill, until yesterday, when Bentham (from the Cranworths) called here &amp; I was able to see him for 10 minutes.<ref target="#foot.f4"/> He told me, also, a little about the last days of your Father.<ref target="#foot.f5"/> I wish I had known your Father better; my impression is confined to his remarkably cordial, courteous &amp; frank bearing.<ref target="#foot.f6"/> I fully concur &amp; understand what you say about the difference of feeling in the loss of a father &amp; child.<ref target="#foot.f7"/> I do not think anyone could love a Father much more than I did mine &amp; I do not believe three or four days ever pass without my still thinking of him, but his death at 84 caused me nothing of that insufferable grief, which the loss of poor dear Annie caused.<ref target="#foot.f8"/> And this seems to me perfectly natural, for one knows for years previously that one’s Father’s death is drawing slowly nearer &amp; nearer; whilst the death of one’s child is a sudden &amp; dreadful wrench.</p>
+<p>What a wonderful deal you read: it is a horrid evil for me that I cannot read hardly anything, for it makes my head almost immediately begin to sing violently.<ref target="#foot.f9"/> My good women-kind read to me a great deal, but I dare not ask for much science &amp; am not sure that I could stand it.<ref target="#foot.f10"/> I enjoyed Tylor <hi rend="underline">extremely</hi> &amp; the first part of Lecky; but I think the latter is often vague &amp; gives a false appearance of throwing light on his subject, by such phrases, as “spirit of the age” “spread of civilization” &amp;c.—<ref target="#foot.f11"/> I confine my reading to <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>4</mn></mfrac></math></formula> or <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> hour per day in skimming through the back volumes of the Annals &amp; Mag. of N. H. &amp; find much that interests me.—<ref target="#foot.f12"/> I miss my climbing plants very much, as I could observe them when very poorly. By the way Asa Gray approves of my paper on them.<ref target="#foot.f13"/> Did I ever tell you that I have put myself under Bence Jones, &amp; I am sure he has done me good by rigorous diet. I have been half starved to death &amp; am 15 lb lighter, but I have gained in walking power &amp; my vomiting is immensely reduced.<ref target="#foot.f14"/> I have now hopes of again some day resuming scientific work, which is my sole enjoyment in life.—</p>
+<p>I did not enjoy the “Mill on the Floss” so much as you, but from what you say we will read it again.<ref target="#foot.f15"/> Do you know Silas Marner:<ref target="#foot.f16"/> it is a charming little<ref target="#foot.f17"/>   It is a charming little story if you run short &amp; like to have it we c<hi rend="superscript">d</hi> send it by post.</p>
+<p>We are now reading some American novels viz. Rutledge &amp; Christine.<ref target="#foot.f18"/> The latter we c<hi rend="superscript">d</hi> lend you. We like them much but I think they are of too mild a nature for you, for I remember you were once awfully indignant at some novel I recommended. We have almost finished the first vol of Palgrave &amp; I like it much; but did you ever see a book so badly arranged.<ref target="#foot.f19"/> The frequently of the allusions to what will be told in the future are quite laughable. I know nothing about the Reader but hope soon to hear something from Wallace on the subject.<ref target="#foot.f20"/> Did you read Miller’s address to the chemical section at Birm.?<ref target="#foot.f21"/> it seemed to me very good. I have not attempted Jamieson or Geikie or Frost &amp; Fire;<ref target="#foot.f22"/> perhaps the latter may not be too strong a dose for Emma,<ref target="#foot.f23"/> who, however, is not very tolerant of science; Jamieson some day I shall certainly read to myself, &amp; then there is Wallace’s great paper,<ref target="#foot.f24"/> which will be a tough job. By the way I was very much pleased by the footnote about Wallace in Lubbock’s last chapter.<ref target="#foot.f25"/> I had not heard that Huxley had backed up Lubbock about parliament.<ref target="#foot.f26"/> I suspect Lady L.<ref target="#foot.f27"/> is very ambitious, &amp; to the world how grand parliament &amp; politicks appear. Did you see a sneer some time ago in the Times, about how incomparably more interesting Politicks were compared with Science even to scientific men.<ref target="#foot.f28"/> Remember what Trollope says in “Can you Forgive her” about getting into parliament, as the highest earthly ambition.<ref target="#foot.f29"/> Jeffreys in one of his letters, I remember, says that making an effective speech in parliament is a far grander thing than writing the grandest History.<ref target="#foot.f30"/> All this seems to me a poor short-sighted view. I cannot tell you how it has rejoiced me once again seeing your hand-writing, my best of old friends.</p>
+<p>Yours affectionately | Ch. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">3.2 It is a … very good. 4.8] <hi rend="italic">in hand of amanuensis</hi></note>
+                    <note xml:id="tnote.n2">4.13 footnote] ‘foot’ <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n3">4.21 a poor] ‘a’ <hi rend="italic">interl</hi></note>
+                </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the endorsement. In 1865, 27 September was a Wednesday, not a Thursday.</note>
+            <note xml:id="foot.f2">See letters from F. H. Hooker, <ref target="./DCP-LETT-4883.xml" resp="#mjhawkins">[17 August 1865]</ref>, <ref target="./DCP-LETT-4887.xml" resp="#mjhawkins">[21 or 28 August 1865]</ref>, <ref target="./DCP-LETT-4890.xml" resp="#mjhawkins">6 September [1865]</ref>, <ref target="./DCP-LETT-4893.xml" resp="#mjhawkins">13 September [1865]</ref>, and <ref target="./DCP-LETT-4898.xml" resp="#mjhawkins">22 September [1865]</ref>.</note>
+            <note xml:id="foot.f3"><ref target="./DCP-LETT-4899.xml" resp="#mjhawkins">Letter from J. D. Hooker, [26 September 1865]</ref>.</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_398.xml" resp="#mjhawkins">George Bentham</ref>, a colleague of Hooker’s at Kew, had been visiting CD’s neighbours, Robert Monsey and <ref target="../nameregs/nameregs_4065.xml" resp="#mjhawkins">Laura Rolfe</ref> (Lord and Lady Cranworth; <ref target="../bibliographies/bibl_4110.xml" resp="#mjhawkins">Jackson 1906</ref>, p. 204).</note>
+            <note xml:id="foot.f5">Bentham visited the Hookers at Kew on 16 August 1865; Hooker’s father, <ref target="../nameregs/nameregs_2367.xml" resp="#mjhawkins">William Jackson Hooker</ref> had died on 12 August 1865 (<ref target="../bibliographies/bibl_4110.xml" resp="#mjhawkins">Jackson 1906</ref>, p. 203).</note>
+            <note xml:id="foot.f6">CD had maintained a cordial acquaintance with W. J. Hooker (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 4, letter to W. J. Hooker, [<hi rend="italic">c</hi>. February 1849], and <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 7, <ref target="./DCP-LETT-2315.xml" resp="#automat">letter to W. J. Hooker [30 July 1858]</ref>).</note>
+            <note xml:id="foot.f7">See <ref target="./DCP-LETT-4899.xml" resp="#mjhawkins">letter from J. D. Hooker, [26 September 1865]</ref>.</note>
+            <note xml:id="foot.f8">CD’s father, Robert Waring Darwin, died in 1848 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 4, <ref target="./DCP-LETT-1207.xml" resp="#mjhawkins">letter from Catherine Darwin, [13 November 1848]</ref>). Anne Elizabeth, CD’s eldest daughter, died in 1851, aged 10 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 5). For more on the effect of her death on CD, see <ref target="../bibliographies/bibl_829.xml" resp="#mjhawkins">Bowlby 1990</ref>, pp. 291–8, A. Desmond and Moore 1991, pp. 275–87, and <ref target="../bibliographies/bibl_4341.xml" resp="#mjhawkins">R. Keynes 2001</ref>, pp. 180–98.</note>
+            <note xml:id="foot.f9">For more on CD’s symptoms brought on by reading, see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 13, Appendix IV.</note>
+            <note xml:id="foot.f10">Emma, Henrietta Emma, and Elizabeth Darwin often read to CD (see <ref target="./DCP-LETT-4882.xml" resp="#mjhawkins">letter to Asa Gray, 15 August [1865]</ref> and n. 9, and <ref target="./DCP-LETT-4896.xml" resp="#mjhawkins">letter to A. R. Wallace, 22 September [1865]</ref>).</note>
+            <note xml:id="foot.f11">CD refers to <ref target="../bibliographies/bibl_7898.xml" resp="#mjhawkins">Tylor 1865</ref> and <ref target="../bibliographies/bibl_4637.xml" resp="#mjhawkins">Lecky 1865</ref>; Hooker had recommended them in his letters of [26 May 1865] and 13 July 1865.</note>
+            <note xml:id="foot.f12">CD’s bound volumes, many with annotations, of the <hi rend="italic">Annals and Magazine of Natural History</hi>, ser. 1: vols. 1–20 (1838–47); ser. 2: vols. 1–14 (1848–54), ser. 3: vols. 15–16 (1865), are in the Darwin Library–CUL. In addition, there are unbound issues for the years 1855 and 1866 to 1873 in the collection of unbound pamphlets, Darwin Library–CUL, many of which are annotated.</note>
+            <note xml:id="foot.f13">CD refers to <ref target="../bibliographies/bibl_1456.xml" resp="#mjhawkins">‘Climbing plants’</ref>. For Gray’s comments on the paper, see the <ref target="./DCP-LETT-4877.xml" resp="#mjhawkins">letter from Asa Gray, 24 July 1865</ref>.</note>
+            <note xml:id="foot.f14">CD first consulted <ref target="../nameregs/nameregs_2601.xml" resp="#mjhawkins">Henry Bence Jones</ref> in July 1865 (see <ref target="./DCP-LETT-4882.xml" resp="#mjhawkins">letter to Asa Gray, 15 August [1865]</ref>, n. 12). From 22 August 1865, <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242) records CD’s weight at weekly intervals. His weight on 22 August was 11 st. 4 lb and on 26 September it was 10 st. 10 <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> lb. He had numerous bouts of sickness in August but only two in September. See also Appendix IV.</note>
+            <note xml:id="foot.f15"><ref target="../bibliographies/bibl_2309.xml" resp="#mjhawkins">Eliot 1860</ref>. See <ref target="./DCP-LETT-4899.xml" resp="#mjhawkins">letter from J. D. Hooker, [26 September 1865]</ref> and n. 4.</note>
+            <note xml:id="foot.f16"><ref target="../bibliographies/bibl_2310.xml" resp="#mjhawkins">Eliot 1861</ref>.</note>
+            <note xml:id="foot.f17">The letter is in CD’s hand until this point, and is the first known letter in his own hand since his letter to Hooker of 16 August, which he curtailed complaining of ill health. <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin</ref> continued the letter, repeating the words ‘It is a charming little’; CD resumed writing and completed the letter from the words ‘I have not attempted Jamieson or Geikie’.</note>
+            <note xml:id="foot.f18"><ref target="../bibliographies/bibl_3374.xml" resp="#mjhawkins">M. C. Harris 1860</ref>, <ref target="../bibliographies/bibl_1060.xml" resp="#mjhawkins">Bullard 1856</ref>.</note>
+            <note xml:id="foot.f19"><ref target="../bibliographies/bibl_6155.xml" resp="#mjhawkins">Palgrave 1865</ref>. For Hooker’s opinion of the book, see the <ref target="./DCP-LETT-4873.xml" resp="#mjhawkins">letter from J. D. Hooker, 13 July 1865</ref> and n. 19.</note>
+            <note xml:id="foot.f20">On the purchase of the <hi rend="italic">Reader</hi>, see the <ref target="./DCP-LETT-4890.xml" resp="#mjhawkins">letter from F. H. Hooker, 6 September [1865]</ref> and n. 7. After hearing about the sale, CD had asked for more information from <ref target="../nameregs/nameregs_4935.xml" resp="#mjhawkins">Alfred Russel Wallace</ref> (see <ref target="./DCP-LETT-4896.xml" resp="#mjhawkins">letter to A. R. Wallace, 22 September [1865]</ref>).</note>
+            <note xml:id="foot.f21">An abstract of <ref target="../nameregs/nameregs_3332.xml" resp="#mjhawkins">William Hallowes Miller’s</ref> address as president of the chemical section of the British Association meeting at Birmingham in 1865 was printed in the <hi rend="italic">Reader</hi>, 23 September 1865, pp. 350–2. Miller had discussed the place of science in modern education and reviewed recent developments in chemistry (<hi rend="italic">Report of the thirty-fifth meeting of the British Association for the Advancement of Science; held at Birmingham in September 1865,</hi> Transactions of the sections, pp. 22–7).</note>
+            <note xml:id="foot.f22"><ref target="../bibliographies/bibl_4145.xml" resp="#mjhawkins">Jamieson 1865</ref>, <ref target="../bibliographies/bibl_2770.xml" resp="#mjhawkins">Geikie 1865</ref>, J. F. Campbell 1865a. See <ref target="./DCP-LETT-4899.xml" resp="#mjhawkins">letter from J. D. Hooker, [26 September 1865]</ref> and n. 5.</note>
+            <note xml:id="foot.f23"><ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin</ref>.</note>
+            <note xml:id="foot.f24">CD refers to ‘On the phenomena of variation and geographical distribution as illustrated by the <hi rend="italic">Papilionidae</hi> of the Malayan region’ (A. R. Wallace 1864d). See <ref target="./DCP-LETT-4896.xml" resp="#mjhawkins">letter to A. R. Wallace, 22 September [1865]</ref> and n. 6.</note>
+            <note xml:id="foot.f25">CD refers to Lubbock 1865. For the text of the note, see the <ref target="./DCP-LETT-4896.xml" resp="#mjhawkins">letter to A. R. Wallace, 22 September [1865]</ref>, n. 9.</note>
+            <note xml:id="foot.f26">CD refers to <ref target="../nameregs/nameregs_2486.xml" resp="#mjhawkins">Thomas Henry Huxley</ref> and <ref target="../nameregs/nameregs_3026.xml" resp="#mjhawkins">John Lubbock</ref>. See <ref target="./DCP-LETT-4899.xml" resp="#mjhawkins">letter from J. D. Hooker, [26 September 1865]</ref> and n. 15.</note>
+            <note xml:id="foot.f27"><ref target="../nameregs/nameregs_3021.xml" resp="#mjhawkins">Ellen Frances Lubbock</ref>.</note>
+            <note xml:id="foot.f28">CD may be referring to an article in <hi rend="italic">The Times</hi>, 11 September 1865, p. 6, that reported on a meeting of the statistics and political economy section of the British Association for the Advancement of Science meeting held at Birmingham (referred to in the article as the British Association for the Promotion of Science). The author of the article wrote: <quote type="quote"> It is curious to see the avidity with which every opportunity is laid hold of to quit the passionless domain of pure science, and to plunge into the stormy hemisphere of politics. </quote></note>
+            <note xml:id="foot.f29">The passage to which CD refers is probably the following, in which Alice Vavasor writes to accept the marriage proposal of her cousin (<ref target="../bibliographies/bibl_7845.xml" resp="#mjhawkins">Trollope 1864–5</ref>, 1: 256): <quote type="quote"> Dear George, let me have the honour and glory of marrying a man who has gained a seat in the Parliament of Great Britain! Of all positions which a man may attain that, to me, is the grandest. </quote></note>
+            <note xml:id="foot.f30">CD refers to <ref target="../nameregs/nameregs_2547.xml" resp="#mjhawkins">Francis Jeffrey</ref>. CD read the <hi rend="italic">Life of Lord Jeffrey</hi> (<ref target="../bibliographies/bibl_1482.xml" resp="#mjhawkins">Cockburn 1852</ref>) in 1853 (see CD’s reading notebooks, <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 4, Appendix IV, 128: 5). The second volume of <ref target="../bibliographies/bibl_1482.xml" resp="#mjhawkins">Cockburn 1852</ref> contains a large selection of letters; however, the letter to which CD refers has not been identified.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

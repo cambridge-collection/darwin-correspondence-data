@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11107">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From R. F. Cooke   15 August 1877</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9660</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11107 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11107.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11107.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 490</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 490</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent" subtype="personGrp">
+                <persName key="../nameregs/nameregs_1053.xml">Cooke, R. F.</persName>
+                <persName key="../nameregs/nameregs_2575.xml">John Murray, Publishers</persName>
+                <placeName>London, Albemarle St, 50a</placeName>
+                <date when="1877-08-15">15 Aug 1877</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Electrotypes of woodcuts [of <hi rend="italic">Forms of flowers</hi>] are ready for Koch [of Schweizerbart]. Murray has printed 1250 copies, instead of 1000 as planned.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Forms of flowers</term>
+                <term type="people" ref="#subject_2732">Koch, Eduard</term>
+                <term type="people" ref="#subject_3463">Murray, John (b)</term>
+                <term type="scientific_terms" ref="#">dimorphism</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">type and morphology</term>
+                <term type="societal" ref="#">E. Schweizerbart’sche Verlagsbuchhandlung</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">50A, Albemarle Street, London. W.</hi></placeName>
+                    <date>Aug<hi rend="superscript">t</hi>. 15 <hi rend="print">187</hi>7</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>We have now the set of Electrotypes of the woodcuts in yr last work for Herr Koch &amp; the cost will be 20<hi rend="superscript">s</hi>/-.<ref target="#foot.f1"/></p>
+<p>It would be as well for him to say, how he wishes them sent.</p>
+<p>Yours faithfully | Rob<hi rend="superscript">t</hi>. Cooke <lb resp="#mjhawkins"/></p>
+<p rend="left">Cha<hi rend="superscript">s</hi>. Darwin Esq</p>
+<p>We have printed 1250 Copies &amp; not 1000 of your “Forms of Flowers”<ref target="#foot.f2"/></p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_2732.xml" resp="#mjhawkins">Eduard Koch</ref> was head of the German firm <ref target="../nameregs/nameregs_4246.xml" resp="#mjhawkins">E. Schweizerbart’sche Verlagsbuchhandlung</ref>, which was publishing a collected edition of CD’s works (Carus trans. 1875–87). The translation of <ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref> was published as the third part of volume 9 of this edition (Carus trans. 1877e).</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-11031.xml" resp="#mjhawkins">letter from R. F. Cooke, 2 July 1877</ref>. <ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref> was published on 9 July 1877 (<ref target="../bibliographies/bibl_2661.xml" resp="#mjhawkins">Freeman 1977</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

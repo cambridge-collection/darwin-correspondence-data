@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6993F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To ?   17 November [1870]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">21176</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6993F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6993F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6993F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Staatsbibliothek zu Berlin – Preußischer Kulturbesitz (Slg. Autogr. Darwin, Charles Robert, Bl. 3–4)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_379.xml">SB zu Berlin - Preußischer KB</repository>
+                    <collection>Slg. Autogr.</collection>
+                    <idno>Darwin, Charles Robert, Bl. 3–4</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1870-11-17">17 Nov [1870]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_9999.xml">Unidentified</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>CD has already agreed that Julius Victor Carus will translate his next book.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_849">Carus, J. V.</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down.</hi> | Beckenham | <hi rend="print">Kent. S.E.</hi></placeName>
+                    <date>Nov 17</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am much obliged for your note to M<hi rend="superscript">r</hi> Murray;<ref target="#foot.f2"/> but I have to inform you that I have already agreed with Prof. Victor Carus to translate my next book—</p>
+<p>Dear Sir | yours faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the style of the address, with ‘Bromley’ deleted and ‘Beckenham’ added by hand, which CD used from April 1869 until May 1871, and from the reference to an agreement with <ref target="../nameregs/nameregs_849.xml" resp="#mjhawkins">Julius Victor Carus</ref>. Carus confirmed his willingness to translate <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> into German in his <ref target="./DCP-LETT-7332.xml" resp="#mjhawkins" cert="high">letter of 2 October 1870</ref>. In November 1869, CD seems still to have been uncertain whether Carus would accept the task and was asking him to consider other candidates (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 17, letters to J. V. Carus, <ref target="./DCP-LETT-6981.xml" resp="#mjhawkins">9 November [1869]</ref> and <ref target="./DCP-LETT-6999.xml" resp="#mjhawkins">20 November 1869</ref>).</note>
+            <note xml:id="foot.f2">John Murray may have enclosed the note with his <ref target="./DCP-LETT-7372.xml" resp="#mjhawkins" cert="high">letter of 16 November [1870]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

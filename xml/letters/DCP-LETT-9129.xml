@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9129">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Gerard Krefft   3 November 1873</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17827</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9129 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9129.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9129.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 169: 122</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>169: 122</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2760.xml">Krefft, J. L. G.</persName>
+                <placeName>Australian Museum, Sydney</placeName>
+                <date when="1873-11-03">3 Nov 1873</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Letter of introduction for Mr Bradley, an expert on spiders.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">spiders</term>
+                <term type="people" ref="#subject_583">Bradley, H. B.</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">introduction</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Australian Museum Sydney</hi></placeName>
+                    <date>Novbr 3 1873</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>The Bearer, whom I should like to introduce to you, is Mr Bradley<ref target="#foot.f1"/> a keen observer as regards spiders <hi rend="underline">in particular</hi>   Mr Bradley may probably remember something about the flowering of the Eucalypti—at any rate the many insects who visit the flowers when the pollen is almost shed.<ref target="#foot.f2"/> If you care about the habits of snakes my friend will be able to give you some information</p>
+<p>I remain | dear Sir | yours very sincerely | Gerard Krefft <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin Esq | FRS | Down | Beckenham Kent</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_583.xml" resp="#mjhawkins">Henry Houghton Burton Bradley</ref>.</note>
+            <note xml:id="foot.f2">For CD’s query whether <hi rend="italic">Eucalyptus</hi> was a dichogamous genus, see the <ref target="./DCP-LETT-9037.xml" resp="#mjhawkins">letter to Gerard Krefft, [September 1873]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3400">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Henry Holland   [21 January 1862?]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14350</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3400 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3400.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3400.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 166.2: 236</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>166: 236</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2337.xml">Holland, Henry</persName>
+                <placeName>London, Brook St</placeName>
+                <date when="1862-01-21">[21 Jan 1862?]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Has received a satisfactory answer from Lord Tankerville.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_2118">Tankerville, Lord</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Brook Street</placeName>
+                    <date>Tuesday</date>
+                    <salute>My dear Charles,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>At last I have received an answer from Lord Tankerville;<ref target="#foot.f2"/> &amp; I think a very satisfactory one.— I enclose his letter, &amp; hope you will regard it in the same light</p>
+<p>I trust you are all getting better.<ref target="#foot.f3"/> Ever your’s aff<hi rend="superscript">ly</hi> | H Holland</p>
+<p><hi rend="underline">P.S</hi> | I wrote the other day to thank you for your paper on the Primula—<ref target="#foot.f4"/></p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is conjectured from the relationship to other letters of this period (see nn. 2 and 3, below). In 1862, 21 January fell on a Tuesday.</note>
+            <note xml:id="foot.f2">For CD’s interest in the Chillingham cattle, a breed kept on the Northumberland estate of Charles Augustus Bennet, sixth earl of Tankerville, see the letters from <ref target="../nameregs/nameregs_2337.xml" resp="#mjhawkins">Henry Holland</ref>, <ref target="./DCP-LETT-3388.xml" resp="#mjhawkins">[3–14] January [1862]</ref> and <ref target="./DCP-LETT-3390.xml" resp="#mjhawkins">15 January [1862]</ref>, and the <ref target="./DCP-LETT-3389.xml" resp="#mjhawkins">letter to Ludwig Rütimeyer, 15 [and 16] January [1862]</ref>. See also <ref target="./DCP-LETT-3441.xml" resp="#automat">letter from C. A. Bennet, [9 February 1862]</ref>.</note>
+            <note xml:id="foot.f3">Holland had heard of the incidence of influenza in the Darwin household (see <ref target="./DCP-LETT-3390.xml" resp="#mjhawkins">letter from Henry Holland, 15 January [1862]</ref>).</note>
+            <note xml:id="foot.f4"><ref target="./DCP-LETT-3390.xml" resp="#mjhawkins">Letter from Henry Holland, 15 January [1862]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

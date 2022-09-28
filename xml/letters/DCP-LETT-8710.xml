@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8710">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Felix Choice   [1873?]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16415</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8710 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8710.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8710.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 161: 145</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>161: 145</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_917.xml">Choice, Felix</persName>
+                <placeName>London, Newington Causeway, 130</placeName>
+                <date notBefore="1873-01-01" notAfter="1873-12-31">[1873?]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Has read <hi rend="italic">Expression</hi>, and assures CD some people cry when happy.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Expression</term>
+                <term type="scientific_terms" ref="#">expression, emotion</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>130 Newington | Causeway</placeName>
+                    <seg type="supplemental">To Mr Darwin</seg>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>allow me to call your attention to the following remark in your new work.<ref target="#foot.f2"/> in page 175 upon weeping, occur the following remark, “Tears are actually recognised as a sign of happiness; but we should require better evidence on this head than that of a passing voyager.</p>
+<p>Now I can state from positive observation that weeping is as much a sign of happiness as laughing with some nervously sensitive people: my wife, and, Daughters<ref target="#foot.f3"/> all cry if I make them a present or take them to any place of amusement and I have known and seen.—numbers of other persons do the same. I could convince you of it, if you would give me five minutes audience. I am a bad correspondent, and have very little time to spare or I would write you a more detailed account of my observations in this matter</p>
+<p>Yours Respectfully | Felix Choice</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is conjectured from the fact that this letter is a response to <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref>, which was published in November 1872 (<ref target="../bibliographies/bibl_2661.xml" resp="#mjhawkins">Freeman 1977</ref>).</note>
+            <note xml:id="foot.f2"><hi rend="italic">Expression.</hi></note>
+            <note xml:id="foot.f3">Choice’s wife was <ref target="../nameregs/nameregs_5380.xml" resp="#mjhawkins">Jane Choice</ref>; their daughters were Jane Emily and <ref target="../nameregs/nameregs_5382.xml" resp="#mjhawkins">Jessie Choice</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1642">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From G. R. Waterhouse   [7 March 1855]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1479</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1642 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1642.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1642.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp inc</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 181: 20</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>181: 20</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4972.xml">Waterhouse, G. R.</persName>
+                <placeName>unstated</placeName>
+                <date when="1855-03-07">[7 Mar 1855]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Comparison of skulls of <hi rend="italic">Ichthyosaurus</hi> and Cetacea.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Cetacea</term>
+                <term type="animals" ref="#">Ichthyosaurus</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+<p rend="left">be sent tomorrow—</p>
+<p><anchor xml:id="ann.a1" type="annotationStart"/>I have lately been studying the head of the Ichthyosaurus<ref target="#foot.f1"/> — how like it is in all its superficial characters to the Cetacean skull, and yet in essential—or type characters, it is <hi rend="underline">totally</hi> different— even the upper jaw of the one, is not the upper jaw of the other— the snout with its teeth in the Ichthyosaurus is made up of the intermaxillaries in the Cetacean it is the maxillaries—&amp;c— I don’t know a grander example of difference of types, (combined with much superficial resemblance), than is offered by the two beasts—<anchor xml:id="ann.a2" type="annotationEnd"/></p>
+<p>Yours faithfully | Geo. R. Waterhouse</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note target="#ann.a1" targetEnd="#ann.a2"><hi rend="italic">scored pencil</hi></note>
+                <note> <hi rend="italic">End of letter</hi>: ‘11’<ref target="#foot.f2"/> <hi rend="italic">brown crayon, circled brown crayon</hi> </note>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">A genus of extinct marine animals combining the characters of saurian reptiles with some features of whales.</note>
+            <note xml:id="foot.f2">CD’s portfolio containing notes and references pertaining to classification.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

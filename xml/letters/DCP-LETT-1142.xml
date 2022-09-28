@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1142">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Josiah Wedgwood III   [July 1848]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9094</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1142 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1142.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1142.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp, encl 2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">V&amp;A / Wedgwood Collection (MS W/M 1019)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_521.xml">V&amp;A / Wedgwood Collection</repository>
+                    <idno>(MS W/M 1019)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1848-07-01" notAfter="1848-07-31">[July 1848]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_5027.xml">Wedgwood, Josiah, III</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Writes about Emma’s trust account investments and calls due upon them. Sends his record and asks JW to bring it up to date.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin family</term>
+                <term type="people" ref="#subject_1218">Darwin, Emma</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down</placeName>
+                    <date>Sunday</date>
+                    <salute>Dear Jos.</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am sorry to hear about the Calls due, for I thought all had been paid up in <hi rend="underline">advance</hi>; some certainly was, as I remember requesting &amp; have received interest. But I have never received latterly any particulars, except of the <hi rend="underline">first</hi> great purchases, in the 4 Railways, in which Emma’s money is placed.—<ref target="#foot.f2"/> I do not understand, whether it is capital or interest, which you expect as perhaps coming in before this call of 45£ is due. It would require (supposing that the calls have not been already paid &amp; overlooked by the N.W. Railway, &amp; they are capable of mistakes, as I have just detected them in overcharging as they have acknowledged me 10£) 162£, besides the 45£ now due, to pay off the whole of these nine 25£. If capital was coming in, I sh<hi rend="superscript">d</hi> be very glad to pay off all at once.— Otherwise of course I must pay the <hi rend="underline">calls</hi> myself, as they come due, for I cannnot advance 162 + 45 = 207£.— Please to let me know, when I must send the 45£.</p>
+<p>Are you sure that I have <hi rend="doubleUnderline">nine</hi> shares of 25£; I never heard of it before, that I can remember:<ref target="#foot.f3"/> Are you trustee for anyone else, who has shares in L. &amp; N.W. Railway? As I have said I have never received the later particulars of all the money invested in Railways in your &amp; Eras’ name’s:<ref target="#foot.f4"/> I have occasionally known that calls &amp;c have been paid, but not the precise sums &amp; dates: I have long been intending to ask you to let me know all the money thus invested with as full particulars as you know. It has occurred to me, as least trouble to you to copy out <hi rend="doubleUnderline">all</hi> that I have in my own Book,<ref target="#foot.f5"/> about Emma’s property, &amp; will you kindly make it complete.</p>
+<p>Yours affect. | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 &amp; have received interest.] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">1.3 latterly] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n3">1.8 as they have acknowledged] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n4">1.10 capital] <hi rend="italic">after del</hi> ‘the’</note>
+                    <note xml:id="tnote.n5">1.11 advance] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n6">1.12 Please … the 45#.] <hi rend="italic">added</hi></note>
+                    <note xml:id="tnote.n7">2.3 later] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n8">2.6 with as … know. 2.7] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n9">2.7 to you] <hi rend="italic">interl</hi></note>
+                </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated from an entry of 1 August 1848 in CD’s Account Book (Down House MS): ‘Paid calls July for Emma 45£ [<hi rend="italic">interl</hi>] in N. W. Railway’.</note>
+            <note xml:id="foot.f2">The four railways mentioned as part of Emma’s trust in CD’s Investment Book (Down House MS) are the London and North Western, Grand Junction, Great Western, and North Staffordshire.</note>
+            <note xml:id="foot.f3">CD’s Investment Book lists ‘9 new [shares] at 25£’ under London and North Western Railway at the head of an entry, dated June 1846, under ‘Emma’s Trust Property’.</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_5027.xml" resp="#mjhawkins">Josiah Wedgwood III</ref> and <ref target="../nameregs/nameregs_1211.xml" resp="#mjhawkins">Erasmus Alvey Darwin</ref> were the trustees of the fund set up for Emma on her marriage to CD.</note>
+            <note xml:id="foot.f5">With this letter there is an enclosure detailing Emma’s investments, evidently copied out of CD’s Investment Book (Down House MS). The enclosed account lists payments totalling £441 11<hi rend="italic">s</hi>. 2<hi rend="italic">d</hi>. made by CD on calls, deposits, and instalments debited to Emma’s trust account during 1846 and 1847. The account is credited with £350 4<hi rend="italic">s</hi>. 7<hi rend="italic">d</hi>., leaving a balance due to CD of £91 6<hi rend="italic">s</hi>. 7<hi rend="italic">d</hi>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

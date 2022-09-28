@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8848A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Francis Darwin   [before 15 April 1873]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20814</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8848A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8848A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8848A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 271.4: 6</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>271.4: 6</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <date notBefore="1809-01-01" notAfter="1873-04-14">[before 15 Apr 1873]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1222.xml">Darwin, Francis</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends to Pantlludw [North Wales] bottle of formic acid. FD and Amy [Darwin] can search for spawn. If found, keep in two basins and add 6 drops of acid to one and look for differences.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">frog</term>
+                <term type="animals" ref="#">toad</term>
+                <term type="places" ref="#">Pantlludw</term>
+                <term type="places" ref="#">Wales, North</term>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+                <term type="scientific_terms" ref="#">embryology</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">instructions</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <date>Monday—</date>
+                    <salute>Dear Frank</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I send straight to Pantlludw<ref target="#foot.f2"/> a bottle of formic acid &amp; litmus paper (you can blue it with smelling salts) will you &amp; Amy search some mountain tarns immediately &amp; if you can find any not developed spawn, keep 2 basons in a warm room &amp; add 6 drops of acid to one; &amp; then even in a fortnight you ought to perceive a difference; &amp; I dare say Amy w<hi rend="superscript">d</hi> observe for another week or two after you are gone— that is if the whole thing does not go squash<ref target="#foot.f3"/></p>
+<p>Yours affectly | Ch. D.</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter and the <ref target="./DCP-LETT-8862.xml" resp="#mjhawkins">letter to Francis Darwin, 16 April [1873]</ref>.</note>
+            <note xml:id="foot.f2">Pantlludw was the home of the Ruck family in Wales; Amy Ruck was Francis’s fiancée.</note>
+            <note xml:id="foot.f3">Litmus paper is used to test the acidity or alkalinity of materials. It is purple if neutral, pink if acid, and blue if alkaline. Smelling salts contain ammonium carbonate, an alkaline substance. The precise nature of CD’s experiment is not known, but CD was interested in the possibility that formic acid could prevent germination of seeds (see <ref target="./DCP-LETT-8805.xml" resp="#mjhawkins">letter to J. T. Moggridge, 10 March 1873</ref> and n. 1). He may have decided to extend the experiment to determine whether the acid would have a similar retarding effect on the spawn of aquatic animals.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

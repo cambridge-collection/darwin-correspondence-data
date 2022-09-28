@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-365">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Adam Sedgwick to the Geological Society of London   10 July 1837</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9293</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-365 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-365.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-365.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Geological Society of London (GSL/COM/P/4/2/49)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_147.xml">Geological Society</repository>
+                    <idno>GSL/COM/P/4/2/49</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4276.xml">Sedgwick, Adam</persName>
+                <placeName>unstated</placeName>
+                <date when="1837-07-10">10 July 1837</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1841.xml">Geological Society of London</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Referee’s report on "Elevation on the coast of Chili" [(1838), <hi rend="italic">Collected papers</hi> 1: 41–3] and paper by Alexander Caldcleugh on same subject. Recommends printing CD’s in <hi rend="italic">Transactions</hi> and shortening Caldcleugh’s. [W. Lonsdale’s note shows CD’s paper withdrawn 15 Nov 1837, Caldcleugh’s ordered not printed 15 Nov 1837.]</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Collected papers</term>
+                <term type="people" ref="#subject_1">Darwin, C. R.</term>
+                <term type="people" ref="#subject_2989">Lonsdale, William</term>
+                <term type="places" ref="#">coast</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">subsidence and elevation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>London</placeName>
+                    <date>July 10. 1837</date>
+                    <salute>Gentlemen</salute>
+                </opener>
+                <div type="transcription">
+<p>I have read M<hi rend="superscript">r</hi>. Darwin’s paper On the proofs of recent Elevation on the coast of Chili and decidedly think that it ought to be printed. Also a paper by M<hi rend="superscript">r</hi>. Caldcleugh on the same subject:<ref target="#foot.f1"/> but I think his version diffuse &amp; unnecessarily expanded; &amp;, if printed at all in the Society’s Transactions, that it ought to appear in condensed form.—<ref target="#foot.f2"/></p>
+<p>I am gentlemen | Your faithful servant | A Sedgwick</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../bibliographies/bibl_1162.xml" resp="#mjhawkins">Caldcleugh 1837</ref>.</note>
+            <note xml:id="foot.f2">A note on Sedgwick’s report reads: ‘M<hi rend="superscript">r</hi>. Darwin’s was withdrawn 15th Nov. 1837 | M<hi rend="superscript">r</hi>. Caldcleugh’s ordered not to be printed—15 Nov 1837’. No reason appears in the Geological Society records, but CD may have withdrawn the paper from possible publication in the <hi rend="italic">Transactions</hi> for the same reason that he later withdrew his paper of 31 May 1837 on coral islands, namely that he did not wish to publish any results of the voyage of the <hi rend="italic">Beagle</hi> in advance of FitzRoy’s <ref target="../bibliographies/bibl_5784.xml" resp="#mjhawkins"><hi rend="italic">Narrative</hi></ref> (see <ref target="./DCP-LETT-370.xml" resp="#mjhawkins">letter to William Lonsdale, 3 August [1837]</ref>). Abstracts of both papers by CD were, however, printed in the <hi rend="italic">Proceedings</hi> of the Society (see <ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 1: 41–3, 46–9).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

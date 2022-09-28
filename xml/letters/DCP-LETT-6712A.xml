@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6712A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To P. G. King   24 April 1869</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20686</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6712A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6712A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6712A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">3pp</note>
+            <relatedItem type="publication">
+                <bibl>Nicholas (1989): 137</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Mitchell Library, Sydney (MLMSS 3447/2, Item 2, pp. 5–8)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_270.xml">Mitchell</repository>
+                    <idno>FM4/6900</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1869-04-24">24 Apr 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2696.xml">King, P. G.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks PGK for his aid in reporting the curious case of the parrot.</p>
+            <p>Will consult John Gould about rosella [Australian parakeet].</p> 
+<p>Recalls with pleasure their friendship on board the <hi rend="italic">Beagle</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">parakeet</term>
+                <term type="animals" ref="#">parrot</term>
+                <term type="animals" ref="#">rosella</term>
+                <term type="people" ref="#subject_1935">Gould, John</term>
+                <term type="places" ref="#">Australia</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="ships" ref="#">Beagle</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">friendship</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down.</hi> | Beckenham | <hi rend="print">Kent. S.E.</hi></placeName>
+                    <date>Ap. 24. 1869</date>
+                    <salute>My dear King</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Although you tell me not to write I must send a line for auld lang syne &amp; to thank you for yr note.<ref target="#foot.f1"/></p>
+<p>Living the quiet life which I do I often think of old days, &amp; I remember the friendship of no one on board the Beagle with more pleasure than yours.<ref target="#foot.f2"/></p>
+<p>The cases of the parrot seem very curious, but at present I do not know what species the rosella is; I will however when next in London, shew the paragraph to Mr Gould &amp; find it out.<ref target="#foot.f3"/> Many thanks for your kind wish to aid me about expression.</p>
+<p>I can give you no news about any other of our old shipmates as I have heard of none of them for some months. As for myself my health continues &amp; will ever be weak, but I am better than I was a few years ago. Should you come to England it would be a real pleasure to me to see you.</p>
+<p>Believe me my dear King | Yours very sincerely | Charles Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-6635.xml" resp="#automat">letter from P. G. King, 25 February 1869</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-6635.xml" resp="#automat">letter from P. G. King, 25 February 1869</ref> and n. 4.</note>
+            <note xml:id="foot.f3">CD refers to information in an enclosure to King’s letter of 25 February 1869 that has not been identified. Rosellas are Australian parrots in the genus <hi rend="italic">Platycercus.</hi> CD also refers to <ref target="../nameregs/nameregs_1935.xml" resp="#mjhawkins">John Gould</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1272">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. S. Henslow   20 November [1849]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1167</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1272 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1272.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1272.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Princeton University Library (General MSS)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_330.xml">Princeton</repository>
+                    <idno>General</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1849-11-20">20 Nov [1849]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2235.xml">Henslow, J. S.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Has had his portrait taken;</p>
+            <p>is anxious about scarlet fever among his children.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin family</term>
+                <term type="people" ref="#subject_1201">Darwin children</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Nov. 20<hi rend="superscript">th</hi></date>
+                    <salute>My dear Henslow</salute>
+                </opener>
+                <div type="transcription">
+<p>I write you one line to thank you much for informing me of the Subscription of which I had not heard. I sh<hi rend="superscript">d</hi>. have been very sorry not to have had my name down.—<ref target="#foot.f2"/></p>
+<p>My portrait has been taken;<ref target="#foot.f3"/> I do not know when I shall have any copies, but when I do, you must let me give you one— I can leave it at any place in London.— But there is plenty of time yet.—</p>
+<p>We have scarlet fever amongst our children<ref target="#foot.f4"/> &amp; are anxious.</p>
+<p>Yours Ever | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.1 portrait] ‘rt’ <hi rend="italic">over</hi> ‘tr’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The reference to scarlet fever among the children makes 1849 the probable year (see n. 4, below).</note>
+            <note xml:id="foot.f2">In CD’s Account Book (Down House MS) there is an entry on 8 January 1850: ‘Subscription. per. L. Reeve for Portrait of G. Ransome’ for a sum of 10<hi rend="italic">s</hi>. 6<hi rend="italic">d</hi>.</note>
+            <note xml:id="foot.f3">This probably refers to the lithograph portrait by <ref target="../nameregs/nameregs_3128.xml" resp="#mjhawkins">Thomas Herbert Maguire</ref> for the Ipswich Museum portraits commissioned by <ref target="../nameregs/nameregs_3930.xml" resp="#mjhawkins">George Ransome</ref>.</note>
+            <note xml:id="foot.f4">The Darwin family Bible at Down House, which lists many of the illnesses in the family, records that Anne, Henrietta, and Elizabeth had scarlet fever in 1849. <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin</ref> noted in her diary that on 12 November 1849, ‘Annie began scarlet fever’ and on 19 November ‘Etty &amp; Bessy began with scarlet fever’.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

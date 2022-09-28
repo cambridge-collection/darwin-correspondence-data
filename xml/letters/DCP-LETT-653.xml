@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-653">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Charles Lyell   [November–December 1842]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20152</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-653 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-653.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-653.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+            <notesStmt>
+            <note type="physdesc" n="ALS">(photocopy) 3pp</note>
+                <relatedItem type="publication">
+                    <bibl><hi rend="italic">Correspondence</hi> 2: 340</bibl>
+                </relatedItem>
+                <relatedItem type="copy" subtype="CUL">
+                    <bibl>CUL DAR 146: 151</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">The British Library (Surrogate RP 7381(i))</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_43.xml">The British Library</repository>
+                    <collection>Surrogate</collection>
+                    <idno>RP 7381(i)</idno>
+                </msIdentifier>
+            </msDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1842-11-01" notAfter="1842-12-31">[Nov–Dec 1842]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3051.xml">Lyell, Charles</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Believes "absurd letter" hastily read at last Geological Society Council meeting was from Charlesworth’s solicitor. Suggests that it may have been sent to entrap the Council and that it should be read over carefully.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">scientific controversy, confrontation</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">Geological Society council</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down near Bromley | Kent.</placeName>
+                    <date>Sunday Morning</date>
+                    <salute>My dear Lyell</salute>
+                </opener>
+                <div type="transcription">
+                    <p>I have just taken down the controversial pamphlet of Charlsworth<ref target="#foot.f1"/> &amp; I see his solicitor is M<hi rend="superscript">r</hi>. <hi rend="underline">Richardson</hi> &amp; Talbot of <hi rend="underline">Bedford Row</hi>, therefore no doubt the same man, who wrote that absurd letter to last Council, stating that he should propose so &amp; so.<ref target="#foot.f2"/> Now as Charlsworth talked of legal proceedings, is it not probable that this letter has been deliberately written somehow to intrap the Council? Had it not better be carefully read over,— I think it was only hastily read aloud &amp; voted absurd. &amp; not even ordered to be acknowledged. I would have written direct to Murchison, but it may be foolish caution on my part, if you think otherwise, you can inform Murchison or forward this note.— We shall certainly have this attorney on his legs next Wednesday. or when special general meeting is called.</p>
+<p>Ever yours | C Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-649.xml" resp="#mjhawkins">letter to Charles Lyell, [5 and 7 October 1842]</ref> for CD’s account of Charlesworth’s efforts to become Curator of the Geological Society. The ‘controversial pamphlet’ has not been identified.</note>
+            <note xml:id="foot.f2">Possibly the letter to Austen mentioned in the <ref target="./DCP-LETT-649.xml" resp="#mjhawkins">letter to Charles Lyell, [5 and 7 October 1842]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

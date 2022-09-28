@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11375">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. H. Flower   25 February 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13343</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11375 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11375.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11375.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 144: 126</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">John Innes Foundation Historical Collections</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_203.xml">John Innes Foundation</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1878-02-25">25 Feb 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1670.xml">Flower, W. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Encloses letter from R. A. Blair concerning goose with abnormal wing. Hopes WHF will look at bones.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">goose</term>
+                <term type="people" ref="#subject_476">Blair, R. A.</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">monstrosity</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="italic">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Feb. 25. 1878</date>
+                    <salute>Dear Flower,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I received the enclosed letter some time ago &amp; the case seems so curious that I asked the writer to send me a wing from one of the offspring, which is herewith enclosed.<ref target="#foot.f1"/> Please to read the letter, &amp; I hope that you will think it worth while to have the bones cleaned &amp; look at them yourself. Until Brown Séquards statements, I could hardly believe that mutilations were ever inherited but now every additional case seems to me worth recording<ref target="#foot.f2"/> Will you be so kind as to send me a few words briefly describing the state of the bones &amp; if there is anything remarkable I would send your account with an extract from M<hi rend="superscript">r</hi> Blair’s letter to ‘Nature’.<ref target="#foot.f3"/> Or what would be better, for you to do it yourself, that is if you think it worth while. I do not want the specimen returned.</p>
+<p>Believe me, yours very sincerely | Ch. Darwin</p>
+                    <p>P.S. | If you do not write to Nature please return me the letter, otherwise I do not want it again</p> 
+                </div>
+            </div>
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The letter from <ref target="../nameregs/nameregs_476.xml" resp="#mjhawkins">Reuben Almond Blair</ref> has not been found, but it concerned the apparent inheritance of the effects of injury to a goose (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 25, <ref target="./DCP-LETT-11290.xml" resp="#mjhawkins">letter to R. A. Blair, 27 December 1877</ref>).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_674.xml" resp="#mjhawkins">Charles Édouard Brown-Séquard</ref> had induced epileptic convulsions in guinea pigs by means of surgical operations; he claimed that the epileptic tendency was transmitted to offspring (<ref target="../bibliographies/bibl_1000.xml" resp="#mjhawkins">Brown-Séquard 1860</ref>); see also <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 2: 24. CD cited Brown-Séquard’s updated summary of his results (<ref target="../bibliographies/bibl_8823.xml" resp="#mjhawkins">Brown-Séquard 1875</ref>) in <ref target="../bibliographies/bibl_7952.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi> 2d ed.</ref> 1: 468–70.</note>
+            <note xml:id="foot.f3">For Flower’s description of the bones, see the <ref target="./DCP-LETT-11471.xml" resp="#mjhawkins">letter from W. H. Flower, 12 April 1878</ref>. No account appeared in <hi rend="italic">Nature</hi>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

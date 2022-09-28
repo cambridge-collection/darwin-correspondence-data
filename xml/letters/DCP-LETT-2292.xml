@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2292">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To R. I. Murchison   24 [June 1858]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">5529</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2292 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2292.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2292.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Wellcome Collection (MS.5220/149)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_437.xml">Wellcome</repository>
+                    <collection>MS.5220/</collection>
+                    <idno>149</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1858-06-24">24 [June 1858]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3453.xml">Murchison, R. I.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Extremely sorry for trouble he has given about his signature.</p>
+            <p>One child dangerously ill with diphtheria, another with much fever.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin family</term>
+                <term type="people" ref="#subject_1201">Darwin children</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>24<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir Roderick</salute>
+                </opener>
+                <div type="transcription">
+<p>I am <hi rend="underline">extremely</hi> sorry that you sh<hi rend="superscript">d</hi>. have had so much trouble about my signature.<ref target="#foot.f2"/> But I am sure you will at once excuse me, when you hear that I have had one of my children dangerously ill with Diptheria, &amp; another now sickening with much fever.—<ref target="#foot.f3"/></p>
+<p>In Haste | Yours very sincerely | C. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the relationship to the <ref target="./DCP-LETT-2286.xml" resp="#automat">letter to R. I. Murchison, 19 June [1858]</ref>, and by CD’s reference to the ill-health of his children.</note>
+            <note xml:id="foot.f2">CD refers to Murchison’s petition to keep the natural history collections of the <ref target="../nameregs/nameregs_8646.xml" resp="#mjhawkins">British Museum</ref> on the same site as the library and other collections (see <ref target="./DCP-LETT-2286.xml" resp="#automat">letter to R. I. Murchison, 19 June [1858]</ref>). The petition is transcribed in Appendix VI.</note>
+            <note xml:id="foot.f3">See the letters to J. D. Hooker, <ref target="./DCP-LETT-2290.xml" resp="#mjhawkins">23 [June 1858]</ref>, and to W. D. Fox, 24 June [1858].</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

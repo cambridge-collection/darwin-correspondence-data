@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1141">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Innes<ref target="#foot.f1"/>   [1848?]<ref target="#foot.f2"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1501</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1141 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1141.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1141.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 145: 313</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl>Stecher (1961): 203</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 4: 102</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Cleveland Health Sciences Library</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_93.xml">Cleveland</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1848-01-01" notAfter="1848-12-31">[1848?]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2502.xml">Innes, J. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Suggests various remedies for toothache.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">pathology, disease</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Down]</placeName>
+                    <salute>My dear M<hi rend="superscript">r</hi> Innes</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am extremely sorry to hear of your toothache.— You must not put, I think more than <hi rend="underline">one</hi> drop of Chloroform on the tooth..—<ref target="#foot.f3"/> I send Tincture of Arnica<ref target="#foot.f4"/> which smarts the skin (<hi rend="underline">deadly Poison</hi>) to put <hi rend="underline">outside</hi>.— M<hi rend="superscript">rs</hi> Darwin finds hot fomentations do best.— Many find cold water applications best.—</p>
+<p>I have found two or three drops of Alum &amp; Sw<hi rend="superscript">t</hi> Spirits of Nitre<ref target="#foot.f5"/> (in bottle with a label) <hi rend="underline">sometimes</hi> do my teeth <hi rend="underline">great</hi> good. I was not in when your note came</p>
+<p>Yours | C. Darwin</p>
+<p>I send my bottles which you can return afterwards</p>
+<p>I send <hi rend="underline">Creosote</hi>,<ref target="#foot.f6"/> some find a drop of this do much good</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 on the tooth.] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">1.3 which smarts the skin] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n3">1.3 (<hi rend="italic">deadly Poison</hi>)] <hi rend="italic">square brackets in MS</hi></note>
+                    <note xml:id="tnote.n4">1.4 water] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n5">2.1 two] <hi rend="italic">after del</hi> ‘one dro’</note>
+                    <note xml:id="tnote.n6">2.1 with a] <hi rend="italic">above del</hi> ‘without’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Curate of Down since 1846; he became a life-long friend of the Darwin family (see <ref target="../bibliographies/bibl_7430.xml" resp="#mjhawkins">Stecher 1961</ref> and <ref target="../bibliographies/bibl_5565.xml" resp="#mjhawkins">Moore 1985</ref>).</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_7430.xml" resp="#mjhawkins">Stecher 1961</ref> dates this letter 1848 but no reasons are given. The form of the salutation indicates that it is early in their friendship, but no evidence for a precise date has been found.</note>
+            <note xml:id="foot.f3">Applied externally chloroform was used as an antiseptic and local anaesthetic (<ref target="../bibliographies/bibl_478.xml" resp="#mjhawkins">Beasley 1852</ref>, p. 245).</note>
+            <note xml:id="foot.f4">Tincture of arnica was a common ingredient of mouthwashes at the time and acted primarily as a disinfectant (<ref target="../bibliographies/bibl_1598.xml" resp="#mjhawkins">Court 1982</ref>).</note>
+            <note xml:id="foot.f5">Sweet spirits of nitre (ethyl nitrite) and finely-powdered alum were the ingredients of a proprietory product for toothache called ‘Mr. Blake’s tincture’ (<ref target="../bibliographies/bibl_478.xml" resp="#mjhawkins">Beasley 1852</ref>, p. 245).</note>
+            <note xml:id="foot.f6">Creosote, obtained from wood tar, was also used locally as an antiseptic; ‘it frequently affords immediate relief in toothache’ (<ref target="../bibliographies/bibl_479.xml" resp="#mjhawkins">Beasley 1854</ref>, p. 199).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

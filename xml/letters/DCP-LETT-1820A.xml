@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1820A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Edward Gray   14 January [1856]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20393</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1820A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1820A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1820A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp encl 4pp</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 6: 19–20</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">British Museum (Department of the Middle East, correspondence 1826–67: 1490, 1488)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_65.xml">BM</repository>
+                    <collection>Dept of the Middle East corres 1826–67</collection>
+                    <idno>1490, 1488</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1856-01-14">14 Jan [1856]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1959.xml">Gray, J. E.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Requests that JEG secure the assistance of Samuel Birch in regard to information about varieties of domesticated animals and plants in China. Encloses memorandum.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_453">Birch, Samuel</term>
+                <term type="places" ref="#">China</term>
+                <term type="scientific_terms" ref="#">cultivation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Jan<hi rend="superscript">y</hi>. 14<hi rend="superscript">th</hi></date>
+                    <salute>My dear Gray</salute>
+                </opener>
+                <div type="transcription">
+<p>You have often helped me,<ref target="#foot.f2"/> will you be so kind as to help me this time in regard to the enclosed memorandum, with M<hi rend="superscript">r</hi>. Birch.<ref target="#foot.f3"/> It is my only imaginable channel by which I can ever learn anything about the varieties of our domesticated animals &amp; plants in China.—<ref target="#foot.f4"/> Do pray use your interest for me with M<hi rend="superscript">r</hi>. Birch; I could not ask myself.—</p>
+<p>My dear Gray | Yours very truly | C. Darwin</p>
+<p>[Enclosure]</p>
+<p>Is there any translation of any Chinese work, ancient or modern, descriptive, or even simply enumerative, of the varieties of <hi rend="underline">domestic</hi> Pigeons &amp; Fowls or Ducks kept by the Chinese; &amp; likewise of the Dogs, sheep, cattle &amp;c; but I care more about the former even than the latter.— And the same in regard to the varieties of cultivated plants, but more especially of tobacco &amp; maize; for these latter plants, the work, of course, must not be ancient.—</p>
+<p>If any such Chinese agricultural work or Encyclopædia exists in the British Museum but has not been translated, would it be possible for M<hi rend="superscript">r</hi> Birch, &amp; would he be so very kind as to take the trouble as to look at it (&amp; as probably saving him a little trouble) &amp; let me be present to note down names of any varieties mentioned, if such are specified.. This would be of extreme interest to me; but I hardly know how great a favour I am asking, for Chinese seems to be so wonderfully difficult to read.—</p>
+<p>C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.1 helped] <hi rend="italic">over</hi> ‘<hi rend="italic">[</hi>me<hi rend="italic">]</hi>’</note>
+                    <note xml:id="tnote.n2">3.2 <hi rend="italic">domestic</hi>] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n3">3.2 or Ducks] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the relationship to subsequent letters to <ref target="../nameregs/nameregs_453.xml" resp="#mjhawkins">Samuel Birch</ref> and <ref target="../nameregs/nameregs_1730.xml" resp="#mjhawkins">William Darwin Fox</ref> (see n. 4, below).</note>
+            <note xml:id="foot.f2">In particular, Gray had assisted CD in obtaining permission to borrow the <ref target="../nameregs/nameregs_8646.xml" resp="#mjhawkins">British Museum’s</ref> collection of Cirripedia while CD was working on his monograph of the group (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 4, letters to J. E. Gray, <ref target="./DCP-LETT-1139.xml" resp="#mjhawkins" cert="high">[18 December 1847]</ref>, <ref target="./DCP-LETT-1139.xml" resp="#mjhawkins">18 December 1847</ref>, and [5 or 6 February 1848]).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_453.xml" resp="#mjhawkins">Samuel Birch</ref> was assistant keeper of the department of antiquities, <ref target="../nameregs/nameregs_8646.xml" resp="#mjhawkins">British Museum</ref>. Gray was keeper of the zoological collections.</note>
+            <note xml:id="foot.f4">See letters to <ref target="../nameregs/nameregs_453.xml" resp="#mjhawkins">Samuel Birch</ref>, <ref target="./DCP-LETT-1829A.xml" resp="#mjhawkins">6 February [1856]</ref> and <ref target="./DCP-LETT-1841A.xml" resp="#mjhawkins">[12 March 1856]</ref>, and to W. D. Fox, 15 March [1856]. In both <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref> and <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref>, CD cited Birch as having translated for him passages from ancient Chinese, Japanese, and Egyptian texts that described breeds of pigeons and fowls. See <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>, pp. 27–8, and <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 205, 230, 238, 246 n. 33, and 247.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

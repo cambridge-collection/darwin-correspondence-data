@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9347A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Edward Frankland   9 March [1874]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20648</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9347A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9347A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9347A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">The John Rylands Library, The University of Manchester</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_371.xml">Rylands</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1874-03-09">9 Mar [1874]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1739.xml">Frankland, Edward</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Requests EF’s vote and support in favour of Henry Parker for membership in the Athenaeum.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_3676">Parker, Henry (b)</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">Athenaeum Club</term>
+                <term type="societal" ref="#">membership</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>March 9<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>If you ever attend the ballotting at the Athenæum will you be so kind as to give your vote, &amp; exert any influence which you properly can, in favour of my nephew Henry Parker. He is a fellow of Oriel, &amp; I can assure you that he is a fitting man for election from his abilities &amp; in every other respect.</p>
+<p>He will be ballotted for at the first meeting on the 16<hi rend="superscript">th</hi> of this month.<ref target="#foot.f2"/></p>
+<p>Pray forgive me for troubling you, &amp; believe me | yours sincerely | Ch. Darwin <lb resp="#mjhawkins"/></p>
+<p rend="left">To Professor Frankland</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to Henry Parker’s election to the Athenaeum Club, which took place in March 1874 (see <ref target="../bibliographies/bibl_8216.xml" resp="#mjhawkins">Waugh [1888]</ref>).</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-9347.xml" resp="#mjhawkins">letter to George Bentham, 9 March [1874]</ref>, nn. 2–4.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

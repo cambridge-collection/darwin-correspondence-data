@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8901F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To William Ogle   5 May [1873]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20915</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8901F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8901F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8901F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p cov</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">James P. Evans (private collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_130.xml">Evans, Dr James P.</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1873-05-05">5 May [1873]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3579.xml">Ogle, William</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Recommends H. Müller’s <hi rend="italic">Die Befruchtung den Blumen durch Insekten</hi> (1873).</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Die Befruchtung den Blumen durch Insekten</term>
+                <term type="rx" ref="#">Müller, Hermann 1873</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">fertilisation and generation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">relation of organism to organism</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>May 5<hi rend="superscript">th</hi></date>
+                    <salute>My dear D<hi rend="superscript">r</hi>. Ogle</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I think the “Die Befruchtung der Blumen durch Insekten by D<hi rend="superscript">r</hi>. H. Müller 1873 Leipzig” (1 vol. with 478 pages), would be well worth your getting; for besides many excellent original observations, it seems a perfect index for Germany &amp; Italy of all that has been done.—<ref target="#foot.f2"/></p>
+<p>Yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.2 (1 … with)] <hi rend="italic">interl</hi>; ‘with’ <hi rend="italic">after interl del</hi> ‘in’ </note>
+                <note xml:id="tnote.n2">1.2 478] <hi rend="italic">after del</hi> ‘p.’ </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to <ref target="../bibliographies/bibl_5698.xml" resp="#mjhawkins">H. Müller 1873</ref>. CD was reading the book in May 1873 (see <ref target="./DCP-LETT-8901.xml" resp="#mjhawkins">letter to Hermann Müller, 5 May 1873</ref>).</note>
+            <note xml:id="foot.f2">Ogle had published three papers on the fertilisation of plants (see <ref target="../bibliographies/bibl_5942.xml" resp="#mjhawkins">Ogle 1869</ref>, 1870a, and 1870b). CD had lent Ogle a paper on this topic; see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 16, <ref target="./DCP-LETT-6346.xml" resp="#mjhawkins">letter from William Ogle, 2 September 1868</ref>. <ref target="../bibliographies/bibl_5698.xml" resp="#mjhawkins">H. Müller 1873</ref>, pp. 3–27, included a review of all the literature on the subject.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

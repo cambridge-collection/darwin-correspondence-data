@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-9268" status="draft">
+   <persName>
+      <forename>Eleanor</forename>
+      <forename>Mildred</forename>
+      <choice>
+         <seg><surname notBefore="1845" notAfter="1876">Balfour</surname></seg>
+         <seg><surname notBefore="1876" notAfter="1936">Sidgwick</surname></seg>
+      </choice>
+   </persName>
+   <persName type="additional" subtype="preferred">Nora</persName>
+   
+   <note type="dates"><date>1845–1936</date></note>
+   <sex value="F"/>
+   <note type="biography">
+      <p>College head. Sister of Arthur James Balfour. Married Henry Sedgwick in 1876. Worked for the Society for Psychical Research, founded by Henry Sedgwick. Taught mathematics at Newnham College, Cambridge, and worked on measurements of electricity with her brother-in-law, John William Strutt, Lord Rayleigh. Vice-principal of Newnham College, 1880; principal, 1891–1910.</p></note>
+   <note type="sources">
+      <p><hi rend="italic">ODNB</hi></p>
+   </note>
+   <note type="volume">28</note>
+   <note type="keywords">
+      <term type="p">college head</term>
+      <term type="p">Newnham College</term>
+   </note>
+   
+</person>

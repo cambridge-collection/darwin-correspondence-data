@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9677">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From W. H. M. Christie   12 October 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16416</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9677 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9677.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9677.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 161: 147</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>161: 147</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_920.xml">Christie, W. H. M.</persName>
+                <placeName>Royal Observatory, Greenwich</placeName>
+                <date when="1874-10-12">12 Oct 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Announces arrival of the <hi rend="italic">Merope</hi> [Leonard Darwin’s ship] at Canterbury, New Zealand.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1230">Darwin, Leonard</term>
+                <term type="places" ref="#">Canterbury</term>
+                <term type="places" ref="#">New Zealand</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+                <term type="ships" ref="#">Merope</term>
+                <term type="ships" ref="#">ship</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Royal Observatory, Greenwich, | London, S.E.</hi></placeName>
+                    <date>1874 Oct. 12</date>
+                    <salute>Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>The Astronomer Royal requests me to inform you that a telegram has just been received announcing the arrival of the “Merope” at Canterbury, but that no date was mentioned.<ref target="#foot.f1"/></p>
+<p>I am, Sir | Yours faithfully | W. H. M. Christie <lb resp="#mjhawkins"/></p>
+<p rend="left">C. Darwin Esq<hi rend="superscript">re</hi> F.R.S. | &amp;c &amp;c</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The expedition to observe the transit of Venus was on board the <hi rend="italic">Merope</hi>, which had arrived at Lyttelton, near Christchurch, Canterbury province, New Zealand, on 27 September 1874 (Airy ed. 1881, p. 483; <ref target="./DCP-LETT-9517F.xml" resp="#mjhawkins">letter from Leonard Darwin to Emma Darwin, [after 26 June – 28 September 1874]</ref>). CD’s son Leonard joined the expedition in Plymouth in June 1874 (see <ref target="./DCP-LETT-6405F.xml" resp="#mjhawkins">letter from Emma Darwin to J. B. Innes, 24 June [1874]</ref>). The astronomer royal was <ref target="../nameregs/nameregs_50.xml" resp="#mjhawkins">George Biddell Airy</ref>; for more on the expedition, see G. B. Airy ed. 1881.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

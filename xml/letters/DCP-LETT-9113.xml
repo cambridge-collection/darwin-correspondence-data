@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9113">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From J. D. Hooker   25 October 1873</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">4772</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9113 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9113.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9113.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="inc">†</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 152: 583</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl>Huxley (1918) 2: 154</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 103: 175</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>103: 175</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2357.xml">Hooker, J. D.</persName>
+                <placeName>Kew</placeName>
+                <date when="1873-10-25">25 Oct 1873</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Describes his experiments on <hi rend="italic">Nepenthes</hi>; finds action analogous to that in <hi rend="italic">Drosera</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Drosera</term>
+                <term type="plants" ref="#">Nepenthes</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00103-000-00351_files/8/0_0.jpg" width="3421px" height="5551px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00103-000-00351_files/11/1_1.jpg" width="3421px" height="5551px"/>
+        <surface xml:id="i1" n="175r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00103-000-00351.jpg" rend="portrait" width="3421px" height="5551px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00103-000-00351_files/8/0_0.jpg" width="3421px" height="5551px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00103-000-00351.dzi" width="3421px" height="5551px"/>
+        </surface>
+        <surface xml:id="i2" n="175v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00103-000-00352.jpg" rend="portrait" width="3421px" height="5551px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00103-000-00352_files/8/0_0.jpg" width="3421px" height="5551px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00103-000-00352.dzi" width="3421px" height="5551px"/>
+        </surface>
+    </facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Royal Gardens Kew</hi></placeName>
+                    <date>Oct 25<hi rend="superscript">th</hi>/73</date>
+                    <salute>Dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Dyer &amp; I have been busy over <hi rend="underline">Nepenthes</hi> &amp; have produced an analogous action to that in the cells of <hi rend="underline">Drosera</hi>, in those of the glands of <hi rend="underline">Nepenthes</hi>— viz a decided aggregation of protoplasm on application of the Ammon. Carb.—<ref target="#foot.f1"/></p>
+<p>We are now trying the egg process. The pieces I put into <hi rend="underline">old</hi> pitchers last night were unaffected this morning. Did I understand you that the pieces should be <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>20</mn></mfrac></math></formula> in square? I put in big lumps. We have still a great deal to do before 〈ar〉riving at any satisfactory results. The constant presence of insects in all <hi rend="underline">open</hi> pitchers is a draw back: &amp; we are going to experiment on virgin pitchers.</p>
+<p>I thought I had in my last letter referred you to Voelcker’s analysis of the fluid at Kew in 1849.<ref target="#foot.f2"/></p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note>2.2 Did I understand] <hi rend="italic">cross in left margin, ink</hi></note>
+                <note>2.4 The constant … draw back: 2.5] <hi rend="italic">scored red crayon</hi>; ‘Roast meat’ <hi rend="italic">left margin, blue crayon</hi></note>
+                <note><hi rend="italic">Top of letter</hi>: ‘Suspend one &amp; let one fall to <hi rend="italic">bottom</hi> | So with <hi rend="italic">[</hi>roast meat<hi rend="italic">]</hi> | <hi rend="italic">Cubes</hi>’ <hi rend="italic">blue crayon</hi>; ‘Desmodium with 3 leaflets’ <hi rend="italic">blue crayon</hi></note>
+                <note><hi rend="italic">First page, left margin</hi>: ‘Cutting strike in a month or two’<ref target="#foot.f3"/><hi rend="italic">blue crayon</hi></note>
+                <note><hi rend="italic">Bottom of second page, left margin</hi>: <hi rend="italic">illeg blue crayon del blue crayon</hi></note>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Hooker refers to <ref target="../nameregs/nameregs_4712.xml" resp="#mjhawkins">William Turner Thiselton-Dyer</ref>. CD discussed the effect of carbonate of ammonia on <hi rend="italic">Drosera rotundifolia</hi> (the common or round-leaved sundew) in <ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref>, pp. 43–8. He did not mention the effect of carbonate of ammonia (now usually referred to as ammonium carbonate) on <hi rend="italic">Nepenthes</hi> (the tropical pitcher-plant).</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-9102.xml" resp="#mjhawkins">letter from J. D. Hooker, 20 October 1873</ref>, and <ref target="./DCP-LETT-9792.xml" resp="#mjhawkins">letter from W. T. Thiselton-Dyer, [after 20 October 1873?]</ref>. Some of the plants that <ref target="../nameregs/nameregs_6935.xml" resp="#mjhawkins">Augustus Voelcker</ref> experimented on were from the Royal Botanic Gardens, Kew (<ref target="../bibliographies/bibl_7992.xml" resp="#mjhawkins">Voelcker 1849</ref>, p. 238).</note>
+            <note xml:id="foot.f3">CD’s annotations are notes for his <ref target="./DCP-LETT-9114.xml" resp="#automat" cert="medium">letter to Hooker of 26 October [1873]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5384">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Murray   31 January [1867]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9167</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5384 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5384.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5384.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">National Library of Scotland (John Murray Archive) (Ms.42152 ff. 164–165)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_278.xml">Murray Archive</repository>
+                    <idno>Ms.42152 ff.164-165</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1867-01-31">31 Jan [1867]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Is convinced his chapter on man [for <hi rend="italic">Variation</hi>] will excite plenty of attention and abuse, which he supposes is as good as praise for selling a book.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="it" ref="#">Variation</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">negative attitude/assessment</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">variation</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Jan 31<hi rend="superscript">st</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Many thanks. After all I now find, on account of my servant &amp; Horses, I cannot send till Saturday for the M.S. &amp; then my servant can bring all &amp; I will, as soon as it is marked, send all to Mess. Clowes in Stamford St—<ref target="#foot.f2"/></p>
+<p>I feel a full conviction that my Chapter on man will excite attention &amp; plenty of abuse &amp; I suppose abuse is as good as praise for selling a Book.—<ref target="#foot.f3"/></p>
+<p>Yours sincerely | C. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-5383.xml" resp="#mjhawkins">letter from John Murray, 30 January [1867]</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-5383.xml" resp="#mjhawkins">letter from John Murray, 30 January [1867]</ref>. CD refers to the printer <ref target="../nameregs/nameregs_979.xml" resp="#mjhawkins">William Clowes &amp; Sons</ref>.</note>
+            <note xml:id="foot.f3">CD had been writing an additional chapter on humans for <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> that was not included in the manuscript he had sent to Murray (see <ref target="./DCP-LETT-5379.xml" resp="#mjhawkins">letter to John Murray, 27 January [1867]</ref> and n. 2). Material in the chapter was ultimately used in <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> and <hi rend="italic">Expression.</hi></note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11793">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Raphael Meldola   14 December [1878]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">2679</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11793 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11793.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11793.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <note type="postmark">14 DE 78</note>
+            <relatedItem type="publication">
+                <bibl>Poulton (1896): 211</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Oxford University Museum of Natural History (Hope Entomological Collections 1350: Hope/Westwood Archive, Darwin folder)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_312.xml">Oxford Hope</repository>
+                    <collection>Entomological Collections 1350:</collection>
+                    <idno>Hope/Westwood, Darwin folder</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1878-12-14">14 Dec [1878]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3289.xml">Meldola, Raphael</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Is glad book progresses; answers translation query.</p>
+            <p>Francis Darwin does not have time to lecture.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1222">Darwin, Francis</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="social" ref="#">Darwin family</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Dec. 14<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I am very glad that you are making good progress with the book.— You could not apply to a worse person than myself on any philological question. I presume that “phyletische” has been adopted or modified from Häckel.<ref target="#foot.f1"/> As the latter uses the word, it has nearly the sense of genealogical. It always applies to the line of descent, &amp; therefore differs somewhat from “innate”; for an inherited character, though derived from the father alone or only a single generation, would be innate in the child, I sh<hi rend="superscript">d</hi> think “phyletic” w<hi rend="superscript">d</hi>. do very well, if you gave the German word &amp; an explanation, in a foot-note.<ref target="#foot.f2"/></p>
+                    <p>There has been a delay in answering your letter, but I have just heard from my son who is away from home, &amp; he says that he is sorry but he cannot well spare the time to Lecture.—<ref target="#foot.f3"/></p>
+<p>My dear Sir | Yours very faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.2 14] ‘4’ <hi rend="italic">over</hi> ‘3’ </note>
+                <note xml:id="tnote.n2">1.00 an inherited] <hi rend="italic">above del</hi> ‘a’ </note>
+                <note xml:id="tnote.n3">1.00 alone] <hi rend="italic">interl</hi> </note>
+            </div>
+        </div>
+        
+        
+        <div type="footnotes">           
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_2048.xml" resp="#mjhawkins">Ernst Haeckel</ref>. See <ref target="./DCP-LETT-11785.xml">letter from Raphael Meldola, 11 December 1878</ref> and n. 4. </note>
+            <note xml:id="foot.f2">In his translator’s preface to <ref target="../bibliographies/bibl_10041.xml" resp="#mjhawkins">Weismann 1882</ref>, p. xiii, Meldola wrote, ‘I have intentionally adopted literal translations of certain technical expressions which might, I think, be advantageously introduced into our biological vocabularies’. Meldola used the term ‘phyletic’ throughout <ref target="../bibliographies/bibl_10041.xml" resp="#mjhawkins">Weismann 1882</ref>.</note>
+            <note xml:id="foot.f3">In his letter of <ref target="./DCP-LETT-11785.xml">11 December 1878</ref>, Meldola had asked whether <ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin</ref> would give an evening lecture on a botanical topic. Francis was in Cambridge (see <ref target="./DCP-LETT-11796.xml">letter from G. H. Darwin, 14 December 1878</ref>); his letter has not been found.</note>
+        </div>   
+       
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6653">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From R. F. Cooke   10 March 1869</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9536</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6653 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6653.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6653.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 366</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 366</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent" subtype="personGrp">
+                <persName key="../nameregs/nameregs_1053.xml">Cooke, R. F.</persName>
+                <persName key="../nameregs/nameregs_2575.xml">John Murray, Publishers</persName>
+                <placeName>London, Albemarle St, 50a</placeName>
+                <date when="1869-03-10">10 Mar 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends statement [missing] of cost and proceeds of publishing <hi rend="italic">Facts and arguments for Darwin</hi> at 6s. Asks whether CD agrees to this price.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="it" ref="#">Facts and arguments for Darwin</term>
+                <term type="rx" ref="#">Müller, J. F. T. 1869</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="societal" ref="#">John Murray, Publishers</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">50<hi rend="superscript">A</hi>, Albemarle S<hi rend="superscript">t</hi>. | W.</hi></placeName>
+                    <date>March 10. 1869</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>On the otherside I send you a statement of the actual expenses of Fritz Muller &amp; what the Vol will produce, if sold at 6/—<ref target="#foot.f1"/></p>
+<p>I shall wait to hear, if you agree to 6/— before I publish.</p>
+<p>By this post I also send you a copy, so that you will see the thickness. The lettering in all other copies will be as you wished.<ref target="#foot.f2"/></p>
+<p><hi rend="underline">I hope</hi> to send off your other copies tomorrow evening.</p>
+<p>Yrs faithfully | Rob<hi rend="superscript">t</hi> Cooke <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">C. Darwin Esq</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The statement referred to has not been found. Cooke refers to Dallas trans. 1869.</note>
+            <note xml:id="foot.f2">Cooke refers to CD’s request regarding the lettering on the spine of the book (see <ref target="./DCP-LETT-6648.xml" resp="#mjhawkins">letter to R. F. Cooke, 9 March [1869]</ref>). The lettering in the end read, ‘Facts | For | Darwin | Muller’.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9257">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From V. O. Kovalevsky   27 January 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17806</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9257 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9257.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9257.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 169: 96</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>169: 96</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2751.xml">Kovalevsky, V. O.</persName>
+                <placeName>Berlin</placeName>
+                <date when="1874-01-27">27 Jan 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>On obtaining Clerk Maxwell’s memoir on Saturn for his wife, Sofya.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_2750">Kovalevsky, Sophie</term>
+                <term type="people" ref="#subject_3237">Maxwell, J. C.</term>
+                <term type="places" ref="#">Saturn</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Berlin | 27A. Potsdamerstrasse.</placeName>
+                    <date>27 January 1874.</date>
+                    <salute>Dear Sir!</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have been absend for a couple of days and found Your very kind letter only yesterday upon coming back.—<ref target="#foot.f1"/> You are really too kind and I am ashamed of having given You this trouble with Maxwell’ Saturn,<ref target="#foot.f2"/> the memoir is in reality so seldom met, that even the President of the Paris Academy M<hi rend="superscript">r</hi> Faye,<ref target="#foot.f3"/> presenting an asbtract upon another paper on Saturn said that he could not see the memoir of Cl. Maxwell anywhere, but only a short notice on it by the Astr. Royal Pr. Airy.<ref target="#foot.f4"/> But indeed this was too much of having made Your Son, whom I present my best thanks, write to Profess. Maxwell.—<ref target="#foot.f5"/></p>
+<p>I have a good hope of beeing in England in the spring and to see You if Your health will allow Your receiving visitors</p>
+<p>With my best thanks | Your very truly | W. Kowalevsky</p>
+<p>P.S. My wife presents her best thanks to You and is really ashamed that my former letter led You into such trouble, she is very much obliged to M<hi rend="superscript">r</hi> G. Darwin for having written to Cl. Maxwell.—<ref target="#foot.f6"/></p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-9253.xml" resp="#mjhawkins">letter to V. O. Kovalevsky, 24 January [1874]</ref>.</note>
+            <note xml:id="foot.f2">Kovalevsky had been unable to find a work by <ref target="../nameregs/nameregs_3237.xml" resp="#mjhawkins">James Clerk Maxwell</ref> on the rings of Saturn; CD had arranged to have it sent by his bookseller (<ref target="../bibliographies/bibl_5326.xml" resp="#mjhawkins">Maxwell 1859</ref>; see <ref target="./DCP-LETT-9253.xml" resp="#mjhawkins">letter to V. O. Kovalevsky, 24 January [1874]</ref> and n. 2).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_7278.xml" resp="#mjhawkins">Hervé-Auguste-Étienne-Albans Faye</ref> had been president of the <ref target="../nameregs/nameregs_15.xml" resp="#mjhawkins">Académie des sciences</ref> in 1872 (<ref target="../bibliographies/bibl_1892.xml" resp="#mjhawkins"><hi rend="italic">DBF</hi></ref>).</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_50.xml" resp="#mjhawkins">George Biddell Airy</ref> had abstracted <ref target="../bibliographies/bibl_5326.xml" resp="#mjhawkins">Maxwell 1859</ref> in <hi rend="italic">Monthly Notices of the Royal Astronomical Society</hi> 19 (1859): 297–304.</note>
+            <note xml:id="foot.f5">CD had enclosed a short note written by Maxwell to <ref target="../nameregs/nameregs_1224.xml" resp="#mjhawkins">George Howard Darwin</ref>, informing him of other work on the subject of Saturn’s rings (see <ref target="./DCP-LETT-9253.xml" resp="#mjhawkins">letter to V. O. Kovalevsky, 24 January [1874]</ref> and n. 4).</note>
+            <note xml:id="foot.f6"><ref target="../nameregs/nameregs_2750.xml">Sofia Vasilyevna Kovalevskaya</ref> was investigating the form of the rings of Saturn (see <ref target="./DCP-LETT-9251.xml" resp="#mjhawkins">letter from V. O. Kovalevsky, 20 January 1874</ref> and n. 11).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

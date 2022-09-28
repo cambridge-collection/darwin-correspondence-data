@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3870">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To George William Johnson or Robert Hogg<ref target="#foot.f1"/>   20 December [1862]<ref target="#foot.f2"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">2745</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3870 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3870.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3870.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">C. H. Hughes-Johnson (private collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_186.xml">Hughes-Johnson, C. H.</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1862-12-20">20 Dec [1862]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2584.xml">Johnson, G. W.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks correspondent for sending him a strawberry hybrid.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">strawberry</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">hybrids</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Dec. 20<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am extremely much obliged to you for your kindness in sending me the Strawberry Hybrid, which I have planted.<ref target="#foot.f3"/> When the communication appears in the Journal will be in ample time for my purpose.—<ref target="#foot.f4"/></p>
+<p>Dear Sir | Yours faithfully | Charles Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The correspondent is identified by the reference to his having sent CD a strawberry hybrid (see n. 3, below); Johnson and Hogg were the editors of the <hi rend="italic">Journal of Horticulture.</hi></note>
+            <note xml:id="foot.f2">The year is established by the reference to William Smith’s letter to the <hi rend="italic">Journal of Horticulture</hi> (see n. 3, below).</note>
+            <note xml:id="foot.f3">The reference is to three runners of a hybrid strawberry, which were sent to Johnson and Hogg by William Smith of York, in response to CD’s letter to the <hi rend="italic">Journal of Horticulture</hi> of [before 25 November 1862]. Smith requested that the editors send CD the runners if they thought he might be interested in them (<hi rend="italic">Journal of Horticulture</hi> n.s. 3 (1862): 779). No letter on this subject from Hogg or Johnson has been found. Smith’s letter to the <hi rend="italic">Journal of Horticulture</hi> was published in the number for 30 December 1862, with the editorial comment: ‘Mr. Darwin, to whom we forwarded all the runners, is very much obliged, and has planted them.’</note>
+            <note xml:id="foot.f4">This appears to be a reference to Smith’s letter to the <hi rend="italic">Journal of Horticulture</hi> (see n. 3, above).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

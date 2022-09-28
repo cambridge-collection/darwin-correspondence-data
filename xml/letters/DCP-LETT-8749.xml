@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8749">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From R. F. Cooke   24 January 1873</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9604</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8749 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8749.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8749.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 434</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 434</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent" subtype="personGrp">
+                <persName key="../nameregs/nameregs_1053.xml">Cooke, R. F.</persName>
+                <persName key="../nameregs/nameregs_2575.xml">John Murray, Publishers</persName>
+                <placeName>London, Albemarle St, 50a</placeName>
+                <date when="1873-01-24">24 Jan 1873</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Popular Edition [6th] of <hi rend="italic">Origin</hi> has sold out 3000 copies. Asks CD whether he has found any errors that should be corrected.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Origin</term>
+                <term type="societal" ref="#">John Murray, Publishers</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">50A, Albemarle Street, London, W.</hi></placeName>
+                    <date>Jan<hi rend="superscript">y</hi> 24 <hi rend="print">187</hi>3</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>It will be requisite to send the Popular edition of the “Origin of Species” to press, as we have exhausted the first edition of <hi rend="underline">3000 Copies</hi>.!!!<ref target="#foot.f1"/></p>
+<p>There are of course plenty of copies in the hands of the booksellers, but we are <hi rend="underline">out</hi> &amp; owe the trade some, on account of our last Trade Sale.<ref target="#foot.f2"/></p>
+<p>I write therefore to ask you if you have found any errors which had better be corrected in the stereotype plates?</p>
+<p>We are getting together the various items of expense of your new work<ref target="#foot.f3"/> &amp; you will hear shortly from M<hi rend="superscript">r</hi> Murray</p>
+<p>Yours faithfully | Rob<hi rend="superscript">t</hi>. Cooke <lb resp="#mjhawkins"/></p>
+<p rend="left">Cha<hi rend="superscript">s</hi>. Darwin Esq</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note><hi rend="italic">End of letter</hi>: ‘With the Kind Regards of the Author | Alter thousands &amp; Put in Expression book a list of my books’<ref target="#foot.f4"/> <hi rend="italic">pencil</hi></note>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The first printing of the sixth edition of <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>, which was cheaper than the previous editions, was published in February 1872 (<ref target="../bibliographies/bibl_2661.xml" resp="#mjhawkins">Freeman 1977</ref>).</note>
+            <note xml:id="foot.f2">John Murray’s sale dinner took place on 8 November 1872 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 20, <ref target="./DCP-LETT-8616.xml" resp="#mjhawkins">letter from John Murray, 9 November 1872</ref>).</note>
+            <note xml:id="foot.f3"><hi rend="italic">Expression.</hi></note>
+            <note xml:id="foot.f4">CD’s reply to Cooke has not been found; he evidently wanted to remind Cooke to alter the number of thousands printed to date on the title page of <ref target="../bibliographies/bibl_6019.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 6th ed.</ref> and to include a list of his publications in <hi rend="italic">Expression.</hi> The number of thousands was not changed (<ref target="../bibliographies/bibl_2661.xml" resp="#mjhawkins">Freeman 1977</ref>). <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref> already included a list of CD’s works on the verso of the title page.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1560">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Higgins   18 March [1854]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1977</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1560 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1560.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1560.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Lincolnshire Archives (HIG/4/2/1/75)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_237.xml">Lincolnshire RO</repository>
+                    <collection>Correspondence with John Higgins</collection>
+                    <idno>HIG/4/2/1/75</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1854-03-18">18 Mar [1854]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2279.xml">Higgins, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Discusses price of a farm.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="places" ref="#">farm</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>March 18<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>As this note requires no sort of answer, I send it to say that on considering “ways &amp; means”, I sh<hi rend="superscript">d</hi>. be sorry to hear of a Farm at above, fifteen-thousand pounds; &amp; one, like my present one, at 12, or 13, or 14 thousand would suit me very well.—</p>
+<p>The money from L<hi rend="superscript">d</hi>. Powis<ref target="#foot.f1"/> will, I hear, be paid up on 1<hi rend="superscript">st</hi> of July; but it can very well lie a little in the Bank until you can hear of something which you can recommend.—</p>
+<p>My dear Sir | Your’s very faithfully | C. Darwin <lb resp="#mjhawkins"/> J. Higgins Esq<hi rend="superscript">e</hi></p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 to hear] <hi rend="italic">after del</hi> ‘if’</note>
+                    <note xml:id="tnote.n2">2.2 lie] <hi rend="italic">above del</hi> ‘wait’</note>
+                    <note xml:id="tnote.n3">2.2 in the Bank] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_2242.xml" resp="#mjhawkins">Edward James Herbert</ref>, Earl of Powis, had borrowed £13,000 from CD in November 1849, a continuation of the loan extended to Herbert by Robert Waring Darwin. According to CD’s Investment book (Down House MS), the capital was repaid on 1 July 1854.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11672">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Francis Darwin to ?   23 August 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8073</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11672 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11672.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11672.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Yale University: Beinecke Rare Book and Manuscript Library (GEN MSS MISC Group 104 F-1)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_480.xml">Yale Beinecke</repository>
+                    <collection>GEN MSS MISC</collection>
+                    <idno>Group 104 F-1</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1222.xml">Darwin, Francis</persName>
+                <placeName>Down</placeName>
+                <date when="1878-08-23">23 Aug 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_9999.xml">Unidentified</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Writes for CD. Thanks correspondent for curious case of inheritance, which CD cannot use as he is working in different directions.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1">Darwin, C. R.</term>
+                <term type="scientific_terms" ref="#">heredity</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Aug 23. 78</date>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>My father begs me to express his thanks to you for your letter containing the curious case of inheritance.<ref target="#foot.f1"/> He regrets that being engaged in other directions the fact cannot be made use of by him. As you are no doubt aware, some similar cases are recorded in Animals &amp; Plants 2<hi rend="superscript">nd</hi> Edit II p 319.<ref target="#foot.f2"/></p>
+                    <p>My father can form no opinion as to the nature of the bough of the laburnum. If however the flowers were purple &amp; not yellow, it is probable that your tree is <hi rend="underline">Cytisus Adami</hi> &amp; the variation is a case of reversion   You will find this case described Animals &amp; Plants 2<hi rend="superscript">nd</hi> edit I p 413<ref target="#foot.f3"/></p>
+<p>Yours faithfully | Francis Darwin</p> 
+                </div>
+            </div>
+        </div>
+            
+            
+            <div type="footnotes">
+                <note xml:id="foot.f1">The letter has not been found; the correspondent has not been identified.</note>
+                <note xml:id="foot.f2">In <ref target="../bibliographies/bibl_7952.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi> 2d ed.</ref> 2: 319ff., CD had discussed cases in which inherited baldness was associated with an inherited deficiency in teeth, as well as other cases of correlated variation.</note>
+                <note xml:id="foot.f3"><hi rend="italic">Cytisus adami</hi> (a synonym of +<hi rend="italic">Laburnocytisus adamii</hi>) was a graft hybrid of the common yellow laburnum, <hi rend="italic">C. laburnum</hi> (a synonym of <hi rend="italic">Laburnum anagyroides</hi>), and <hi rend="italic">C. purpureus</hi> (a synonym of <hi rend="italic">Chamaecytisus purpureus</hi>, purple broom; <ref target="../bibliographies/bibl_477.xml" resp="#mjhawkins">Bean 1970–88</ref>, 2: 510–11). <hi rend="italic">Cytisus adami</hi> was noted for its red, sterile flowers, but frequently some branches would revert to either parent form, bearing yellow or purple flowers. For CD’s discussion of the case, see <ref target="../bibliographies/bibl_7952.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi> 2d ed.</ref> 1: 413–17.</note>
+            </div>               
+                   
+    </body>
+    </text>
+</TEI>

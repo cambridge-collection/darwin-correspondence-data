@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-3027" status="released">
+    <persName>
+        <forename>Mary</forename>
+        <forename>Harriet</forename>
+        <choice>
+            <seg><surname notBefore="1835" notAfter="1857">Lubbock</surname></seg>
+            <seg><surname notBefore="1858" notAfter="1910">Birkbeck</surname></seg>
+        </choice>
+            </persName>
+    
+    <note type="dates"><date>1835/6–1910</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>John Lubbock’s elder sister. Married Robert Birkbeck in 1857.</p></note>
+    <note type="sources">
+        <p>Census returns of England and Wales 1851 (The National Archives: Public Record Office HO107/1606/245/1)</p>
+        <p><ref target="../bibliographies/bibl_1095.xml" resp="#mjhawkins"><hi rend="italic">Burke’s landed gentry</hi></ref> 1898.</p>
+    </note>
+    <note type="volume">6,15,22</note>
+    <note type="keywords">
+        <term type="name">Lubbock, John</term>
+        <term type="name">Birkbeck, Robert</term>
+    </note>
+    
+    
+</person>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3514">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From C. W. Crocker   22 April 1862</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16551</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3514 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3514.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3514.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 161.2: 257</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>161: 257</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1123.xml">Crocker, C. W.</persName>
+                <placeName>Chichester</placeName>
+                <date when="1862-04-22">22 Apr 1862</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Certain there are three forms of <hi rend="italic">Primula sinensis</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Primula sinensis</term>
+                <term type="scientific_terms" ref="#">dimorphism</term>
+                <term type="scientific_terms" ref="#">flora</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>South St.   Chichester</placeName>
+                    <date>April 22<hi rend="superscript">nd</hi>. 62</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I fear you will have thought me neglectful ere this—but I have been in sad grief and trouble lately. There has been nothing but illness and death in our family for the last six months.<ref target="#foot.f1"/> I hardly expect my poor Mother to get through the night— It is impossible she can last long.<ref target="#foot.f2"/> With so many troubles and anxieties one’s thoughts are seldom free.—</p>
+<p>After receiving your first note with regard to Prim: sin: I went to all the gardens in our neighbourhood. But it was then too late.<ref target="#foot.f3"/> Where ten or twelve dozen plants are grown annually I could only find four or five exhausted plants—almost bloomed to death and not fair specimens to judge by. That there are <hi rend="underline">three</hi> forms I am quite certain. I took notes of the numbers but as no garden furnished more than 2 or 3 <hi rend="underline">good</hi> i.e. healthy plants I dont think it is any use.<ref target="#foot.f4"/></p>
+<p>My own little garden has been terribly neglected of late, for as every hour during the last fortnight, might have been my Mother’s last I hardly like to leave the house. And my garden is some little distance away. However brighter times must surely come at last, and I try to look forward hopefully to the time when this tide of trouble which has has been running in so long will once more ebb</p>
+<p>Yours very respectfully | C. W. Crocker <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">C. Darwin Esq.</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Crocker’s father, the poet and former shoemaker, <ref target="../nameregs/nameregs_1124.xml" resp="#mjhawkins">Charles Crocker</ref>, died on 6 October 1861. See <ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref> and <hi rend="italic">Journal of Horticulture</hi> n.s. 14 (1868): 206–7.</note>
+            <note xml:id="foot.f2">Crocker’s mother, Mrs <ref target="../nameregs/nameregs_1124.xml" resp="#mjhawkins">Charles Crocker</ref>, died on 27 April 1862 (see <ref target="" resp="#automat">letter from C. W. Crocker, 17 May 1862)</ref>.</note>
+            <note xml:id="foot.f3">CD’s letter about <hi rend="italic">Primula sinensis</hi> has not been found, but, regarding Crocker’s willingness to carry out experiments or observations for CD, see the letters from C. W. Crocker, <ref target="./DCP-LETT-3449.xml" resp="#automat">17 February 1862</ref> and [before 13 March 1862]. <hi rend="italic">P. sinensis</hi>, the Chinese primrose, flowers in England in the winter and early spring (<ref target="../bibliographies/bibl_2248.xml" resp="#mjhawkins"><hi rend="italic">EB</hi></ref>).</note>
+            <note xml:id="foot.f4">CD had been carrying out crossing experiments on <hi rend="italic">P. sinensis</hi>, which he had hitherto considered dimorphic, since the end of January. In the course of his experiments he had come across what he believed to be an ‘equal-styled’ form of the flower, in addition to the familiar long- and short-styled forms, and he had examined plants in a number of collections in order to establish the prevalence or otherwise of this third form (see <ref target="./DCP-LETT-3468.xml" resp="#mjhawkins">letter to J. D. Hooker, 7 March [1862]</ref> and n. 10). There is a note recording Crocker’s observation in DAR 108: 64. See also <ref target="" resp="#automat">letter from C. W. Crocker, 17 May 1862</ref> and n. 6.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

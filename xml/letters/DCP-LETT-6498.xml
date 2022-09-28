@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6498">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From T. H. Huxley   18 December 1868</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3411</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6498 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6498.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6498.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 166: 316</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>166: 316</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2486.xml">Huxley, T. H.</persName>
+                <placeName>London, Jermyn St</placeName>
+                <date when="1868-12-18">18 Dec 1868</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends letter [from Haeckel?] opened by mistake.</p>
+            <p>August Schleicher a great loss.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Other people</term>
+                <term type="people" ref="#subject_2048">Haeckel, E. P. A.</term>
+                <term type="people" ref="#subject_4216">Schleicher, August</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Geological Survey of England and Wales</hi></placeName>
+                    <salute>My dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>It’s lucky this letter contains no secrets for I opened it &amp; read it without looking at the outside—as it came enclosed with other matters—<ref target="#foot.f1"/></p>
+<p>Schleicher is a great loss—<ref target="#foot.f2"/></p>
+<p>Ever yours | T H Huxley <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Jermyn S<hi rend="superscript">t</hi></p>
+<p rend="left">Dec 18<hi rend="superscript">th</hi> 1868 <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p>Haeckel evidently thinks that a grateful country has knighted you</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The enclosure has not been found, but was evidently a letter from <ref target="../nameregs/nameregs_2048.xml" resp="#mjhawkins">Ernst Haeckel</ref> to CD, of 12 December 1868 (see <ref target="./DCP-LETT-6509.xml" resp="#mjhawkins">letter to Ernst Haeckel, 20 December 1868</ref>). Haeckel accidentally enclosed the letter to CD in his letter to Huxley, also written on 12 December 1868 and containing other enclosures (Imperial College of Science, Technology and Medicine Archives, <hi rend="italic">Huxley papers</hi>, 17: 196).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_4216.xml" resp="#mjhawkins">August Schleicher</ref> died on 6 December 1868 (<ref target="../bibliographies/bibl_25.xml" resp="#mjhawkins"><hi rend="italic">ADB</hi></ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

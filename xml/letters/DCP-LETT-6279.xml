@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6279">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. D. Hooker   [18 July 1868]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">4600</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6279 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6279.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6279.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="endorsement" subtype="letter">/July 68.</note>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 150: 420</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 94: 78–9</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>94: 78–9</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Freshwater</placeName>
+                <date when="1868-07-18">[18 July 1868]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2357.xml">Hooker, J. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Looks forward to seeing JDH and hearing about address.</p>
+            <p>Feels better already.</p>
+            <p>Disappointed in house [they have taken at Freshwater].</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin himself, good or improving</term>
+                <term type="places" ref="#">Freshwater</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">renting</term>
+                <term type="societal" ref="#">BAAS</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Dumbola<ref target="#foot.f2"/> Lodge | Freshwater. | I. of Wight</placeName>
+                    <date>Saturday 17<hi rend="superscript">th</hi></date>
+                    <salute>My dear Hooker</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Even two days from home have done my head so much good that I shall be up any time for a moderate amount of talk, &amp; shall much enjoy seeing you &amp; hearing about your Address.—<ref target="#foot.f3"/></p>
+<p>It will not signify to you, but we are much disappointed in this place, which strikes us as very far from beautiful, &amp; our House proves much too small.— But I daresay things will improve, &amp; if I can keep better it will answer for me.—</p>
+<p>You must come by S.W Railway to Lymington &amp; cross to Yarmouth<ref target="#foot.f4"/> &amp; Coach thence passes our door.—</p>
+<p>Yours affect. | C. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">2.3 keep] <hi rend="italic">above del</hi> ‘get’ </note>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the endorsement and by the fact that the first Saturday that the Darwins spent at Freshwater was 18 July 1868 (see n. 3, below).</note>
+            <note xml:id="foot.f2">The name of the lodge was in fact ‘Dimbola’ (<ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref> s.v. Cameron, Julia Margaret).</note>
+            <note xml:id="foot.f3">According to <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242), the Darwins went to London on Thursday 16 July and arrived in Freshwater on Friday 17 July; this letter was presumably written on Saturday 18 July, and CD’s date is in error. See also <ref target="./DCP-LETT-6272.xml" resp="#mjhawkins">letter from J. D. Hooker, 12 July [1868]</ref> and n. 3.</note>
+            <note xml:id="foot.f4">Lymington in Hampshire is a coastal town from which the crossing to Yarmouth on the north-west coast of the Isle of Wight could be made.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

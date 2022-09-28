@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2330">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To the Secretary, Royal Society<ref target="#foot.f1"/>   28 September 1858</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1246</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2330 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2330.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2330.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">The Royal Society (RR3: 41)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_364.xml">Royal Society</repository>
+                    <idno>RR3: 41</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1858-09-28">28 Sept 1858</date>
+            </correspAction>
+            <correspAction type="received">
+                <orgName key="../nameregs/nameregs_4110.xml">Royal Society</orgName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Recommends W. B. Carpenter’s latest part of memoir on Foraminifera be published in <hi rend="italic">Philosophical Transactions</hi> [<hi rend="italic">R. Soc. Lond.</hi> 149 (1859): 1–41].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Foraminifera</term>
+                <term type="it" ref="#">Philosophical Transactions R. Soc. Lond.</term>
+                <term type="rx" ref="#">Carpenter, W. B. 1859</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Sept. 28/58</date>
+                    <salute>Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>There can, I apprehend, be no doubt that the present valuable Parts of D<hi rend="superscript">r</hi>. Carpenter’s Researches on the Foraminefera, though in my opinion somewhat too lengthy, should be published in full in the Transactions, in conformity with the previous Parts.<ref target="#foot.f2"/> The memoir will require ample illustrations.</p>
+<p>Sir | Your obed. servt | Ch. Darwin <lb resp="#mjhawkins"/> To the | Secretary | Royal. Soc<hi rend="superscript">y</hi>.—</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_4314.xml" resp="#mjhawkins">William Sharpey</ref> and <ref target="../nameregs/nameregs_4573.xml" resp="#mjhawkins">George Gabriel Stokes</ref> were the secretaries of the Royal Society in 1858.</note>
+            <note xml:id="foot.f2">CD refers to the third part of <ref target="../nameregs/nameregs_839.xml" resp="#mjhawkins">William Benjamin Carpenter’s</ref> researches on the Foraminifera (<ref target="../bibliographies/bibl_1262.xml" resp="#mjhawkins">Carpenter 1859</ref>), which had been read at a meeting of the Royal Society on 17 June 1858. CD had refereed the previous parts of the work and recommended their publication in the <hi rend="italic">Philosophical Transactions of the Royal Society of London</hi> (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 5, <ref target="./DCP-LETT-1744.xml" resp="#mjhawkins">letter to the Council of the Royal Society, 18 August 1855</ref>, and vol. 6, <ref target="./DCP-LETT-1930.xml" resp="#mjhawkins">letter to the Secretary, Royal Society, 18 July 1856</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

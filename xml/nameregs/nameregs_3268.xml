@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-3268" status="released">
+    <persName>
+        <forename>Maria</forename>
+        <choice>
+            <seg><surname notBefore="1819" notAfter="1846">Hooker</surname></seg>
+            <seg><surname notBefore="1846" notAfter="1889">McGilvray</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1819–89</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of William Jackson Hooker and his wife Maria Sarah Turner. Sister of Joseph Dalton Hooker. Married Walter McGilvray in 1846.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_117.xml" resp="#mjhawkins">Allan 1967</ref> s.v. ‘Hooker pedigree’.</p>
+    </note>
+    <note type="volume">3,11,20,22,24</note>
+    <note type="keywords">
+        <term type="name">Hooker, W. J.</term>
+        <term type="name">Maria Turner</term>
+        <term type="name">Walter McGilvray</term>
+    </note>
+</person>

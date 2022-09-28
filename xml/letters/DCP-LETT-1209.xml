@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1209">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Maria Hooker   [17 December 1848]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1099</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1209 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1209.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1209.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+            <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+                <relatedItem type="publication">
+                    <bibl> <hi rend="italic">Correspondence</hi> 4: 186</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">McGill University Library, Department of Rare Books</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_250.xml">McGill</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1848-12-17">[17 Dec 1848]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2361.xml">Hooker, Maria (a)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Returns letters [from her son, J. D. Hooker, in India].</p>
+            <p>Asks that B. H. Hodgson’s zoological pamphlets be sent to him at Athenaeum.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_2357">Hooker, J. D.</term>
+                <term type="places" ref="#">India</term>
+                <term type="rx" ref="#">Hodgson, B. H. 1833</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">instructions</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="societal" ref="#">Athenaeum Club</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Sunday</date>
+                    <salute>Dear Lady Hooker</salute>
+                </opener>
+                <div type="transcription">
+<p>I am <hi rend="underline">extremely</hi> much obliged to your Ladyship for the enclosed very interesting letters, which sh<hi rend="superscript">d</hi>. have been returned a day earlier, had I not been prevented returning home by unwellness in London.—</p>
+<p>I am truly glad to hear so much better an account of Miss Hooker, to whom I beg my kind remembrances.—</p>
+<p>Your son tells me he will send me some Zoolog. pamphlets from Hodgson through Sir William,<ref target="#foot.f2"/> will you ask him to be so kind as to send them, whenever convenient, directed to me to the Athenæum Club.—</p>
+<p>With my sincere thanks for the pleasure I have received from knowing familiarly about your sons proceedings.</p>
+<p>I remain Your Ladyships | Truly obliged | C. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the reference to the <ref target="./DCP-LETT-1203.xml" resp="#mjhawkins">letter from J. D. Hooker, 13 October 1848</ref>, and the date of a visit to London. On 17 December, CD recorded in his Account Book (Down House MS) the expenses of a trip to London and also payment of a fee to Dr <ref target="../nameregs/nameregs_2337.xml" resp="#mjhawkins">Henry Holland</ref> during his stay in the city. According to <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary, CD went to London on Wednesday, 13 December, where he was taken ill.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-1203.xml" resp="#mjhawkins">letter from J. D. Hooker, 13 October 1848</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9761">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From O. G. Rejlander   15 December 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10495</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9761 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9761.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9761.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 176: 118</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>176: 118</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3973.xml">Rejlander, O. G.</persName>
+                <placeName>London, Victoria St</placeName>
+                <date when="1874-12-15">15 Dec 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Awakened by a mouse scratching at night, he mewed like a cat and the mouse disappeared.</p>
+            <p>Sending a group of stuffed sparrows.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">cat</term>
+                <term type="animals" ref="#">mouse</term>
+                <term type="animals" ref="#">sparrows</term>
+                <term type="scientific_terms" ref="#">behaviour</term>
+                <term type="scientific_terms" ref="#">communication</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">relation of organism to organism</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="social" ref="#">Other people</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">1, | Albert Mansions, | Victoria Street, | S.W.</hi></placeName>
+                    <date>Dec 15/74</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I dare say I shall not see you again—see the enclosed emaciated fig<hi rend="superscript">s</hi>.—<ref target="#foot.f1"/> Altho’ friends say I want no more Doctors but good looks— But I have a good thing to tell you and a good thing to give you—if I can send it—safely to a Town-adr.s—</p>
+<p>The telling is this: the other cold night I was awoke out of my first slumber by the vigorous attack on the wainscote by a rat or big mouse— I was too ill to get up &amp; had nothing to throw at the place so I bethought myself of what I had tried before—successefuly—but taken to be chance or coincident— I mewed, very-like a Cat. and the mouse stopped ceased its labor to get in for a warming expecting to be pounced upon— — After some time my wife<ref target="#foot.f2"/>—I did not know she was awake—jogged me with her elbow and laughed out-right— “Well I never” “She’s gone— I couldn’t have believed it— I did not believe it when you told me before”</p>
+<p>I laid awake for hours afterwards—but no mousie— I have drawn my conclusion   You will draw yours.</p>
+<p>What I have to give you is a groupe of stuffed sparrows. i.e. A hen with a little one on either side—with fluttering wings—feeding—one at a time— I saw it 15 years ago when my dog brought the crumbs for the birds— I <hi rend="underline">sketched it then</hi> but have this year got it represented like Nature—</p>
+<p>I am yours very truly | O G Rejlander <lb resp="#mjhawkins"/></p>
+<p rend="left">Chas. Darwin Esqr</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The enclosures have not been found. Rejlander died of Bright’s disease (nephritis) on 18 January 1875 (<ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref>; <ref target="../bibliographies/bibl_6446.xml" resp="#mjhawkins">Prodger 2009</ref>, p. 202).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_6603.xml" resp="#mjhawkins">Mary Rejlander</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

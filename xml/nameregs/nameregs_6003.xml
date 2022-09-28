@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-6003" status="released">
+    <persName>
+        <forename>Maria</forename>
+        <forename>Jane</forename>
+        <choice>
+            <seg><surname notBefore="1798" notAfter="1820">Gambier</surname></seg>
+            <seg><surname notBefore="1820" notAfter="1867">Jenyns</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1798/9–1867</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of Sir James Gambier, consul-general in the Netherlands; married George Jenyns in London in 1820.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_144.xml" resp="#mjhawkins"><hi rend="italic">Alum. Cantab</hi></ref>. s.v. Jenyns, George</p>
+        <p><ref target="../bibliographies/bibl_9153.xml" resp="#mjhawkins"><hi rend="italic">BMD</hi></ref> (<hi rend="italic">Death index</hi></p>
+        <p><ref target="../bibliographies/bibl_1095.xml"><hi rend="italic">Burke’s landed gentry</hi></ref> 1850</p>
+        <p><hi rend="italic">Bury and Norwich Post</hi>, 31 May 1820, p. 2</p>
+    </note>
+    <note type="volume">21</note>
+    
+</person>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10202">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. T. Thiselton-Dyer   16 October [1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6718</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10202 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10202.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10202.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">ML</hi> 1: 365</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Royal Botanic Gardens, Kew (Thiselton-Dyer, W.T., Letters from Charles Darwin 1873–81: 33–4)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_213.xml">Kew</repository>
+                    <idno>Thiselton-Dyer, W. T. letters: 33–4</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1875-10-16">16 Oct [1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4712.xml">Thiselton-Dyer, W. T.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks for information. Absorption of ammonium carbonate by glandular hairs.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">plant physiology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Oct 16<hi rend="superscript">th</hi></date>
+                    <salute>My dear Dyer</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I write to thank you for all your varied information. I am particularly glad to hear about the Imatophyllum, for if I can get the plants to flower I am particularly curious to know whether Beatons story of the direct action of the pollen is true.<ref target="#foot.f2"/></p>
+<p>The arms of the anemone do rotate splendidly, but Frank has made only one trial as yet about their power of burying themselves.<ref target="#foot.f3"/> These seeds were some which one of my sons gathered in Switzerland, &amp; Hooker told us nothing of your being sent any, which we sh<hi rend="superscript">d</hi> be glad of<ref target="#foot.f4"/>   I have no doubt D<hi rend="superscript">r</hi>. Heckel is right, for I have shown that certain (though not all) glandular hairs especially of Saxifrages do absorb weak carbonate of Ammonia, &amp; I have attempted to show how this gave rise to power of digestion.—<ref target="#foot.f5"/></p>
+<p>With many thanks for all your kindness | yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.2 plants] <hi rend="italic">after del</hi> ‘flow’ </note>
+                <note xml:id="tnote.n2">2.1 the] <hi rend="italic">interl</hi> </note>
+                <note xml:id="tnote.n3">2.5 especially of Saxifrages] <hi rend="italic">interl</hi> </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-10197.xml" resp="#mjhawkins">letter from J. D. Hooker, 14 October 1875</ref>.</note>
+            <note xml:id="foot.f2">Thiselton-Dyer’s letter with information on <hi rend="italic">Imantophyllum</hi> has not been found, but <ref target="../nameregs/nameregs_2357.xml" resp="#mjhawkins">Joseph Dalton Hooker</ref> had informed CD that they were inquiring about the plant (see <ref target="./DCP-LETT-10197.xml" resp="#mjhawkins">letter from J. D. Hooker, 14 October 1875</ref> and n. 6). <hi rend="italic">Imantophyllum</hi> is now <hi rend="italic">Clivia</hi>, a South African genus of the family Amaryllidaceae; <hi rend="italic">Imatophyllum</hi> was an alternative spelling. CD received a plant of <hi rend="italic">Imantophyllum cyrtanthiflorum</hi> (now <hi rend="italic">Clivia × cyrtanthiflora</hi>) on 15 October 1875 (see <ref target="./DCP-LETT-10200.xml" resp="#mjhawkins">letter to J. D. Hooker, 15 October [1875]</ref> and n. 7, and <ref target="./DCP-LETT-10201F.xml" resp="#mjhawkins">letter from W. T. Thiselton-Dyer, [16–22 October 1875]</ref> and n. 2). <ref target="../nameregs/nameregs_345.xml" resp="#mjhawkins">Donald Beaton</ref> had reported that when two species of <hi rend="italic">Imatophyllum</hi> were crossed, the pods of the female parent took on the appearance of pods characteristic of the male parent (<ref target="../bibliographies/bibl_482.xml" resp="#mjhawkins">Beaton 1860</ref>, p. 254; see also <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 11, letter to <hi rend="italic">Journal of Horticulture and Cottage Gardener</hi>, [before 27 January 1863] and n. 4).</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-10197.xml" resp="#mjhawkins">letter from J. D. Hooker, 14 October 1875</ref> and n. 4. <ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin</ref> was experimenting with a number of seeds that could bury themselves in the ground.</note>
+            <note xml:id="foot.f4">It is not known which of CD’s sons collected the seeds, but Francis had made botanical observations while on his honeymoon in Switzerland (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 22, <ref target="./DCP-LETT-9595.xml" resp="#mjhawkins">letter from Francis and Amy Darwin, 8 August [1874]</ref>).</note>
+            <note xml:id="foot.f5">Edouard Marie Heckel’s observation may have related to his experiments on the ability of the glands of <hi rend="italic">Parnassia palustris</hi> (marsh grass of Parnassus) to dissolve and absorb animal matter. His results were published in 1876 (<ref target="../bibliographies/bibl_9106.xml" resp="#mjhawkins">Heckel 1876</ref>). CD had also been interested in the species (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 22, <ref target="./DCP-LETT-9595.xml" resp="#mjhawkins">letter from Francis and Amy Darwin, 8 August [1874]</ref> and n. 4). See also <ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref>, pp. 345–8 (on <hi rend="italic">Saxifraga</hi>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

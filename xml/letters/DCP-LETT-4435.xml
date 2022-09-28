@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4435">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Alfred Newton   24 March [1863]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8398</idno>
+            
+            
+            
+            
+            <date when="1999">1999</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4435 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4435.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4435.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="11">11</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="publication">
+                <bibl>De Beer (1959): 43</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 11: 260</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Cambridge University Library (MS Add. 9839/1D/53)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>MS Add. 9839/</collection>
+                    <idno>1D/53</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1863-03-24">24 Mar [1863]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3517.xml">Newton, Alfred</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks for potatoes, which may be useful in crossing.</p>
+            <p>Germination of seeds in earth on partridge’s foot.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">partridge</term>
+                <term type="plants" ref="#">potatoes</term>
+                <term type="scientific_terms" ref="#">crossing</term>
+                <term type="scientific_terms" ref="#">dispersion</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">fertilisation and generation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">relation of organism to organism</term>
+                <term type="scientific_terms" ref="#">seeds</term>
+                <term type="scientific_terms" ref="#">soil and other substrates</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>March 24<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I thank you sincerely for the potatoes, which arrived safely &amp; are planted; they may come in very useful in crossing, as our cultivated potatoes present some odd peculiarities in their reproduction.—<ref target="#foot.f2"/></p>
+<p>I shall be exceedingly glad of the foot of the Partridge, if you can get it for me: I will weigh the earth &amp; then see, with due precautions, whether it contains any seeds capable of germination:<ref target="#foot.f3"/> I presume the foot will turn out to be a wounded one. I suppose you feel sure it is not a stupid hoax.—</p>
+<p>With my sincere thanks for your kindness— | My dear Sir | Yours sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is provided by the relationship between this letter and the <ref target="./DCP-LETT-4054.xml" resp="#mjhawkins">letter from Alfred Newton, 21 March 1863</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-4054.xml" resp="#mjhawkins">letter from Alfred Newton, 21 March 1863</ref>. See also <ref target="./DCP-LETT-4039.xml" resp="#mjhawkins">letter to J. D. Hooker, 13 [March 1863]</ref>, n. 9. Newton annotated this letter: ‘<hi rend="italic">Wild</hi> Potatoes given me by Mr. Colchester who brought them from the W. coast of S. America &amp; was my fellow passenger from S<hi rend="superscript">t</hi>. Thos. to England in Jan<hi rend="superscript">y</hi>./63.’</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-4054.xml" resp="#mjhawkins">letter from Alfred Newton, 21 March 1863</ref> and nn. 4 and 5.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6735">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To T. H. Huxley   8 May [1869]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3311</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6735 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6735.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6735.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">1p</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 145: 256</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Imperial College of Science, Technology, and Medicine Archives (Huxley 5: 268)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_192.xml">Imperial College</repository>
+                    <idno>Huxley 5: 268</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1869-05-08">8 May [1869]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2486.xml">Huxley, T. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks for [D. D. Cunningham’s] letter. Had hoped for a better haul but delighted to hear of the curious fossil.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_115">Cunningham, D. D.</term>
+                <term type="scientific_terms" ref="#">fossils</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down.</hi> | Beckenham | <hi rend="print">Kent. S.E.</hi></placeName>
+                    <date>May 8</date>
+                    <salute>My dear Huxley</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Thanks for the enclosed letter which I return.<ref target="#foot.f2"/></p>
+<p>I remember the circumstances &amp; hoped for a better haul, but am delighted to hear of the one very curious fossil—<ref target="#foot.f3"/></p>
+<p>ever yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-6732.xml" resp="#mjhawkins">letter from T. H. Huxley, 7 May 1869</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-6732.xml" resp="#mjhawkins">letter from T. H. Huxley, 7 May 1869</ref> and n. 2.</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-6732.xml" resp="#mjhawkins">letter from T. H. Huxley, 7 May 1869</ref> and n. 3.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

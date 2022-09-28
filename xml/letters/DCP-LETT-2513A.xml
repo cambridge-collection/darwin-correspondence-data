@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2513A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Murray   2 November 1859</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20674</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2513A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2513A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2513A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="CC"/>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 7: 364–5</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">National Library of Scotland (John Murray Archive) (Ms. 41913 pp. 53–4)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_278.xml">Murray Archive</repository>
+                    <idno>Ms. 41913 pp. 53-4</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+                <date when="1859-11-02">2 Nov 1859</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>By this post he sends for approval specimen copy of CD’s book [<hi rend="italic">Origin of species</hi>]. At 14 <hi rend="italic">s.</hi>, 1250 copies will yield £240, two-thirds of which will go to author. Arrangements for early copies.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="it" ref="#">Origin</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <date>Nov. 2. 1859</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>By this day’s post I send you a specimen copy of your book bound— I hope it may receive your approval. Please reply by return &amp; not a moment shall be lost in getting ready the early copies—your instructions seem quite clear &amp; shall be carefully followed.</p>
+<p>Now as to price—the book from its bulk &amp; size will not be dear at 14/. &amp; this is the price I propose. At this price the edition of 1250 copies will yield about £240—<formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>2</mn><mn>3</mn></mfrac></math></formula> <hi rend="superscript">rds</hi> of which will go to the author— The only alternative is 12/.—which will yield no more than £150—<ref target="#foot.f1"/></p>
+<p>At 14/. the lowest trade allowance will be 9/6 My Trade Sale is unavoidably put off to the 22<hi rend="superscript">nd</hi>—this will give more time for your copies to circulate— I will do the best for the foreign ones</p>
+<p>I am dear Sir (in great haste) | Yours very faithfully, (signed) John Murray.</p>
+<p>In the above statement of probable profits, I have not deducted anything for corrections &amp; omissions— They amount in Clowes’ bill to £72:8:—but I do not wish to deduct any part of them in your case, but to let them go into the general account of expenses<ref target="#foot.f2"/> <lb resp="#mjhawkins"/> Charles Darwin Esq.</p>
+<p>Terrace, Ilkley Wells, Ottley.<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Murray’s itemised records of the publishing costs of <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref> are transcribed in Peckham ed. 1959,p. 775. See also letters to John Murray, <ref target="./DCP-LETT-2506.xml" resp="#mjhawkins">15 October [1859]</ref> and <ref target="./DCP-LETT-2514.xml" resp="#mjhawkins">[3 November 1859]</ref>. CD received £180 as his share of the profits from the first edition of <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>.</note>
+            <note xml:id="foot.f2">CD had offered to pay for some of the extensive alterations he had made to the proof-sheets. See letters to John Murray, <ref target="./DCP-LETT-2469.xml" resp="#mjhawkins">14 June [1859]</ref> and <ref target="./DCP-LETT-2506.xml" resp="#mjhawkins">15 October [1859]</ref>.</note>
+            <note xml:id="foot.f3">Murray’s version of CD’s address was not quite right: the correct address was Wells Terrace, Ilkley, near Otley, Yorkshire.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

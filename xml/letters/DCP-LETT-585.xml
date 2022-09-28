@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-585">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. C. Redfield   [22 December 1840]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1034</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-585 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-585.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-585.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Yale University: Beinecke Rare Book and Manuscript Library (Letters to William C. Redfield vol. 2 Scientific 1831-41(z117 00151 2) pp. 335–8)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_480.xml">Yale Beinecke</repository>
+                    <collection>Letters to William C. Redfield (z117 00151 2)</collection>
+                    <idno>pp. 441–4</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Athenaeum Club</placeName>
+                <date when="1840-12-22">[22 Dec 1840]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3954.xml">Redfield, W. C.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Illness has long delayed CD’s thanks for WCR’s meteorological pamphlets and geological reports. Mentions a reference to whirlwinds leaving rotary patterns in desert sand.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin himself, bad or deteriorating</term>
+                <term type="rx" ref="#">Redfield, W. C. 1839a</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">soil and other substrates</term>
+                <term type="scientific_terms" ref="#">wind and weather</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Athenæum Club</placeName>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I have been prevented by long continued illness from not having many months since sent you my sincere thanks for your most valuable pamphlets on meter-eology<ref target="#foot.f1"/> (which, however, I do not feel worthy to receive from the little attention I have paid to that great branch of science), and the Geological Reports<ref target="#foot.f2"/> some of which I have been able to peruse &amp; have been much interested by them.</p>
+<p>As I am yet far from recovered I beg you will excuse the lateness &amp; briefness of this letter &amp; believe me dear Sir | Yours very faithfully | Charles Darwin</p>
+<p>Postscript | With respect to the late discussions on the <hi rend="underline">rotatory </hi> action of whirlwinds, I will just mention a <hi rend="underline">trifling</hi> observation I noticed in Bruce’s travels,<ref target="#foot.f3"/> where he describes the sublime appearances, presented by the great whirling columns of sand, on his return home across the Nubian desert.— He especially says that the <hi rend="underline">whirling movement</hi> had left traces or concentric furrows (?) on the <hi rend="underline">pointed</hi> conical hillocks of sand, with which the plain in parts were scattered.— These hillocks having been left, when the columnar mass of sand broke.— I quote only from memory.—</p>
+<p>P.S. 2<hi rend="superscript">d</hi>. As I have mislaid your letter, I am compelled to direct this to the care of Prof. Silliman, who, I daresay, will excuse the liberty.—</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.4 some of] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">3.5 or … furrows (?)] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Possibly a reprint of Redfield’s discussion of <ref target="../nameregs/nameregs_1538.xml" resp="#mjhawkins">James Pollard Espy’s</ref> rival theory of storms (Redfield 1839b).</note>
+            <note xml:id="foot.f2">The Darwin Archive (DAR 136, 137) contains geological reports of New Jersey, New York, and Pennsylvania dating from this period, some of which bear Redfield’s inscription.</note>
+            <note xml:id="foot.f3"><ref target="../bibliographies/bibl_1001.xml" resp="#mjhawkins">Bruce 1813</ref>, 6: 345.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

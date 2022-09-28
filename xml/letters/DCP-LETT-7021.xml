@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7021">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Francis Darwin   5 December [1870]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19807</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7021 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7021.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7021.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 211: 4</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>211: 4</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1870-12-05">5 Dec [1870]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1222.xml">Darwin, Francis</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends a cheque to clear FD’s debts. Hopes he will be more careful in the future.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down</placeName>
+                    <date>Dec. 5<hi rend="superscript">th</hi></date>
+                    <salute>My dear Frank</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I send a cheque for <hi rend="superscript">£</hi>50 which will clear all the bills mentioned by you.<ref target="#foot.f2"/> From what you say in your last note, I feel sure that you will be more careful for the future &amp; watch the money as it ouzes out. Altogether it is a rather heavy sum; but I know you &amp; trust you as a good dear affectionate son.—</p>
+<p>Ever yours | C. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by a reference in CD’s Classed account books (Down House MS) dated 5 December 1870 to a payment to Francis of £50.</note>
+            <note xml:id="foot.f2">Francis was still at <ref target="../nameregs/nameregs_795.xml" resp="#mjhawkins">Cambridge University</ref>; see <ref target="./DCP-LETT-7400.xml" resp="#mjhawkins">letter to B. J. Sulivan, 20 December [1870]</ref> and n. 3.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

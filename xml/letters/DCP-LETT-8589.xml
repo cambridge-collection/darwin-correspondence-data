@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8589">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To George King   November 1872</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13440</idno>
+            
+            
+            
+            
+            <date when="2013">2013</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8589 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8589.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8589.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="20">20</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Copy</note>
+            <note type="physdesc" n="C">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 146: 13</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>146: 13</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1872-11-01" notAfter="1872-11-30">Nov 1872</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2693.xml">King, George</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Obliged for letter on worm-castings. Asks GK to observe them in southern Europe.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">worm</term>
+                <term type="places" ref="#">Europe, southern</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">soil and other substrates</term>
+                <term type="scientific_terms" ref="#">worms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down, | Beckenham, Kent.</placeName>
+                    <date>November | 1872</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very much obliged for your letter, which has interested me much. I intend to put together my notes this winter or next summer, so that I fear any future observations in India would be too late.—<ref target="#foot.f1"/> As far as I know no one has ever attended in any way the worm-castings except myself; and I did not even know before hearing from M<hi rend="superscript">r</hi>. Scott, whether the worms thus acted in Tropical countries:—<ref target="#foot.f2"/> I hear from Professor Asa Gray that worms are as troublesome in lawns in the united states as with us.—<ref target="#foot.f3"/> I hope that your residence in south Europe will suit you &amp; be pleasant.<ref target="#foot.f4"/> Perhaps you will be so kind as just to observe &amp; inform me—whether there are many worm-castings there. I now remember your having written to me about the abnormal tree;<ref target="#foot.f5"/> though I had forgotten it when I wrote to you, as I receive a large number of letters from persons with whom I am personally unacquainted.</p>
+<p>Pray believe me | My dear Sir | Yours very faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">King’s letter has not been found, but see the <ref target="./DCP-LETT-8582.xml" resp="#mjhawkins">letter to George King, 28 October 1872</ref>. <ref target="../bibliographies/bibl_2241.xml" resp="#mjhawkins"><hi rend="italic">Earthworms</hi></ref> was not published until 1881, and it contained observations by King on worm castings in both India and the south of France.</note>
+            <note xml:id="foot.f2">See letters from John Scott, <ref target="./DCP-LETT-8249.xml" resp="#mjhawkins">22 March 1872</ref> and <ref target="./DCP-LETT-8534.xml" resp="#mjhawkins">25 September 1872</ref>.</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-8194.xml" resp="#mjhawkins">letter from Asa Gray, 2 February 1872</ref>.</note>
+            <note xml:id="foot.f4">See <ref target="./DCP-LETT-8578.xml" resp="#mjhawkins">letter from J. D. Hooker, 26 October 1872</ref>.</note>
+            <note xml:id="foot.f5">King had sent CD specimens of <hi rend="italic">Paritium tricuspis</hi> (now <hi rend="italic">Talipariti hastatum</hi>) that produced flowers and leaves resembling those of another species (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 19, <ref target="./DCP-LETT-7461.xml" resp="#mjhawkins">letter to George King, 27 January [1871]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

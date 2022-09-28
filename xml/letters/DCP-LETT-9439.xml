@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9439">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To F. S. B. François de Chaumont   4 May 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3850</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9439 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9439.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9439.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS(A)</note>
+            <note type="physdesc" n="LS(A)">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Wellcome Collection (RAMC/473/5) Trustees of the Army Medical Services Museum</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_437.xml">Wellcome</repository>
+                    <idno>RAMC/474/5</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1874-05-04">4 May 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_898.xml">François de Chaumont, F. S. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Returns FDeC’s certificate for the Royal Society signed.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">Royal Society of London</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>May 4 1874</date>
+                    <salute>Dear D<hi rend="superscript">r</hi> de Chaumont</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I return the enclosed signed. I observe the qualifications, viz. the subjects to which you have attended, &amp; any papers which you may have published, are not entered in the certificate; &amp; this ought to be done.<ref target="#foot.f1"/></p>
+<p>yours very sincerely | Ch. Darwin</p>
+<p>P.S. Look to the back of the certificate for Instructions.—</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">3.1 for Instructions.—] <hi rend="italic">added in CD’s hand</hi> </note>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">François de Chaumont’s name was being put forward for election to the <ref target="../nameregs/nameregs_4110.xml" resp="#mjhawkins">Royal Society of London</ref>; he had asked CD for support (see the <ref target="./DCP-LETT-9434.xml" resp="#mjhawkins">letter to F. S. B. François de Chaumont, 30 April 1874</ref> and n. 1).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

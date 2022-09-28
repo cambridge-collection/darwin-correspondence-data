@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5602A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Asa Gray   8 August [1867]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20742</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5602A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5602A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5602A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">incomplete</note>
+            <note type="physdesc">inc</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">J. L. Gray ed. 1893, 2: 557</bibl>
+            <bibl type="printedSource">Gray, J. L. 1893 2: 557</bibl>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1867-08-08">8 Aug [1867]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1957.xml">Gray, Asa</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks AG for sending W. M. Canby’s letter on <hi rend="italic">Dionaea</hi>. Although already familiar with the facts concerning the secretions, the letter "fires me up to complete and publish on Drosera, Dionæa, etc."</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Drosera</term>
+                <term type="it" ref="#">Dionaea</term>
+                <term type="people" ref="#subject_810">Canby, W. M.</term>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                
+                <term type="tag" ref="#asa_gray_set">Asa Gray Letters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down, Bromley, Kent,</placeName>
+                    <date>August 8.</date>
+                    <salute>My dear Gray,—</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have been glad to see Mr. Canby’s interesting letter on Dionæa, and I thank you for sending it; but unfortunately the facts are not new to me.<ref target="#foot.f2"/> Several years ago I observed the secretion of the “gastric juices” and the close adhesion of the two sides of the leaf when a fly was caught. I keep my notes in such an odd fashion that it would take me some time to find them. I am almost sure I ascertained the acid reaction of the secretion and its antiseptic power, but I cannot remember whether in this, or in analogous cases, I found its subsequent reabsorption.<ref target="#foot.f3"/> This letter fires me up to complete and publish on Drosera, Dionæa, etc., but when I shall get time I know not. I am working like a slave to complete my book.<ref target="#foot.f4"/></p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-5580.xml" resp="#mjhawkins">letter from Asa Gray to J. D. Hooker, [after 6 July 1867]</ref>.</note>
+            <note xml:id="foot.f2">CD refers to a <ref target="" resp="#automat">letter from William Marriott Canby to Asa Gray of 6 July 1867</ref>, in which Canby described his experiments with the insectivorous plant <hi rend="italic">Dionaea</hi> (see enclosure to <ref target="./DCP-LETT-5580.xml" resp="#mjhawkins">letter from Asa Gray to J. D. Hooker, [after 6 July 1867]</ref>).</note>
+            <note xml:id="foot.f3">See <ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref>, p. 296. Most of CD’s extant notes on his experiments with insectivorous plants, dated between 1860 and 1875, are in DAR 54 to 61. Notes made in September 1861 on the application of various substances to the leaves of <hi rend="italic">Dionaea</hi> are in DAR 54: 50–61. See also <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 8.</note>
+            <note xml:id="foot.f4">CD was working on the proof-sheets of <hi rend="italic">Variation.</hi></note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

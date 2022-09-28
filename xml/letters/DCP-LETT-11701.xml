@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11701">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From J. V. Carus   21 September 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8739</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11701 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11701.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11701.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 161: 112</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>161: 112</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_849.xml">Carus, J. V.</persName>
+                <placeName>Leipzig</placeName>
+                <date when="1878-09-21">21 Sept 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Inquires about a rumour that CD or Francis Darwin is preparing a new book on the "Power of inheritance".</p> 
+<p>Tells CD of his new periodical: <hi rend="italic">Zoologische Anzeiger</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Zoologische Anzeiger</term>
+                <term type="people" ref="#subject_1222">Darwin, Francis</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">heredity</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Leipzig</placeName>
+                    <date>Sept 21<hi rend="superscript">st</hi> 1878.</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Herr Koch writes me, that there is a rumour going about that you are preparing a new book on the <hi rend="underline">Power of Inheritance</hi>. Although we have now completed our edition of your “Collected Works”, we should be most happy, if we could bring out this new one in German.<ref target="#foot.f1"/> Herr Koch wants me particularly to tell you, that in the case, your Son Mr Francis Darwin was the author, he would be equally happy to get it for publication in Germany.</p>
+<p>From the 1<hi rend="superscript">st</hi>. of July I am publishing a small zoological periodical, the Zoologische Anzeiger, of which I beg to send you two proof-numbers. My object is, to give a view of the current litterature and every sort of new important notices. I am happy to say that I found everywhere amongst the fellow-Zoologists a most hearty welcome, and although I have a good deal of work with it, yet I found very kind help from all sides. I intend to publish short original notes, which the colleagues will kindly entrust to me, besides in German, also in the other three principal European languages, French, English and Italian. So, if you should have a few lines, I should be proud of bringing them out.<ref target="#foot.f2"/></p>
+<p>I hope your health is satisfactory.</p>
+<p>A kind answer would oblige me exceedingly | Believe me| Yours ever most sincerely | J. Victor Carus</p> 
+                </div>
+            </div>
+
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_2732.xml" resp="#mjhawkins">Eduard Koch</ref> was the director of Carus’s publisher, E. Schweizerbart’sche Verlagshandlung. The complete collected German translation of CD’s works was Carus trans. 1875–87.</note>
+            <note xml:id="foot.f2">The proof copies of <hi rend="italic">Zoologische Anzeiger</hi> have not been found in the Darwin Archive–CUL. The first two issues of <hi rend="italic">Zoologische Anzeiger</hi> are dated 1 and 15 July 1878. CD did not contribute any notes.</note>
+        </div>
+    
+    </body>
+    </text>
+</TEI>

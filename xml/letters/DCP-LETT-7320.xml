@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7320">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From V. O. Kovalevsky   15 September 1870</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17780</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7320 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7320.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7320.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 169: 81</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>169: 81</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2751.xml">Kovalevsky, V. O.</persName>
+                <placeName>London, Bloomsbury St, 31</placeName>
+                <date when="1870-09-15">15 Sept 1870</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Requests a copy of <hi rend="italic">[Living</hi>] <hi rend="italic">Cirripedia</hi> to send to his brother, Alexander, who is working in Naples and wishes to verify CD’s discovery of complementary males.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Living Cirripedia</term>
+                <term type="people" ref="#subject_2749">Kovalevsky, A. O.</term>
+                <term type="places" ref="#">Naples</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">parasites</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">sex</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>London</placeName>
+                    <date>15 Sept. 1870.</date>
+                    <salute>Dear Sir!</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have just received a letter from my brother<ref target="#foot.f1"/> in which he says that he set himself to verify Your old discovery about the supplementary males, but unhappily in whole Naples there is not a single copy of Your monography of the Cirripedia, so I make use of Your kind proposition to lend me for a short time Your own copy which I shall immediately forward to Naples, as soon as my brother has done with the book he schall send it back to You.<ref target="#foot.f2"/></p>
+<p>At the time when he send me the letter, he was able to see only some of the Scalpellum preserved in Spirit in the museum, but has a good hope of getting a plenty supply of living ones<ref target="#foot.f3"/></p>
+<p>Your very truly | W. Kowalevsky <lb resp="#mjhawkins"/></p>
+<p rend="left">31 Bloomsb. Str. | Bedf. Square.</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Kovalevsky’s brother was <ref target="../nameregs/nameregs_2749.xml" resp="#mjhawkins">Alexander Onufrievich Kovalevsky</ref>.</note>
+            <note xml:id="foot.f2">For CD’s discussion of complemental males in the barnacle genera <hi rend="italic">Scalpellum</hi> and <hi rend="italic">Ibla</hi> see <ref target="../bibliographies/bibl_4837.xml" resp="#mjhawkins"><hi rend="italic">Living Cirripedia</hi> (1851)</ref>, pp. 281–93 (see also <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 4, Appendix II, and <ref target="../bibliographies/bibl_5843.xml" resp="#mjhawkins">Newman 1993</ref>, pp. 377–82, for a discussion of CD’s work on complemental males). On CD’s concern to have his observations verified, see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 13, <ref target="./DCP-LETT-4881.xml" resp="#mjhawkins">letter to Fritz Müller, 10 August [1865]</ref>.</note>
+            <note xml:id="foot.f3">Kovalevsky refers to the Zoology Museum of Naples.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

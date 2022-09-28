@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-616" status="released">
+    <persName>
+        <forename>Jane</forename>
+        <forename>Kirk</forename>
+        <choice>
+            <seg><surname notBefore="1827" notAfter="1857">Purnell</surname></seg>
+            <seg><surname notBefore="1857" notAfter="1921">Brewster</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1827–1921</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Second daughter of Thomas Purnell of Scarborough, Yorkshire. Married David Brewster as his second wife in Nice, France, in 1857.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref> s.v. Brewster, David</p>
+        <p>Scotland statutory deaths 799/1 47 (Scotlandspeople.gov.uk, accessed 12 January 2018)</p>
+    </note>
+    <note type="volume">8</note>
+    <note type="keywords">
+        <term type="name">David Brewster</term>
+    </note>
+    
+</person>

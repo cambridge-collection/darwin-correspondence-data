@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8116">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To A. C. Ramsay   21 December [1871]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17944</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8116 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8116.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8116.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 261.9: 6 (EH 88205979)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>261.9: 6 (EH 88205979)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Queen Anne St, 6 Down letterhead</placeName>
+                <date when="1871-12-21">21 Dec [1871]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3922.xml">Ramsay, A. C.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Requests further information on subsidence of flagstones because of action of worms.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">worms</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">worms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi> [6 Queen Anne Street, London.]</placeName>
+                    <date>Dec. 21</date>
+                    <salute>My dear Ramsay</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>If you are able to judge of amount of subsidence of the flag-stones, please observe whether anything indicates that the subsidence is not due to their having been originally laid on yielding earth.—<ref target="#foot.f2"/> Are they continued under cover where worms would not act? About what sized squares are the stones? What is age of your House? I think I understood that you had often actually seen worm-castings over the joints.— I have written to Prof. Geikie.<ref target="#foot.f3"/></p>
+<p>Yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.3 Are] <hi rend="italic">after del</hi> ‘About’ </note>
+                <note xml:id="tnote.n2">1.4 the] <hi rend="italic">interl</hi> </note>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-8122.xml" resp="#mjhawkins">letter from A. C. Ramsay, 27 December 1871</ref>.</note>
+            <note xml:id="foot.f2">Ramsay’s letter to CD on this subject has not been found. He had evidently written about a pavement between his house and his garden that had subsided owing to the activity of worms (see <ref target="../bibliographies/bibl_2241.xml" resp="#mjhawkins"><hi rend="italic">Earthworms</hi></ref>, pp. 192–3).</note>
+            <note xml:id="foot.f3"><ref target="./DCP-LETT-8112.xml" resp="#mjhawkins">Letter to Archibald Geikie, 20 December [1871]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

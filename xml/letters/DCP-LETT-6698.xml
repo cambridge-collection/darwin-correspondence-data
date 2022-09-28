@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6698">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. B. Tegetmeier   17 April 1869</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1391</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6698 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6698.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6698.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 148: 57</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Archives of the New York Botanical Garden (Charles Finney Cox Collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_302.xml">NYBG</repository>
+                    <collection>Charles Finney Cox</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1869-04-17">17 Apr 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4682.xml">Tegetmeier, W. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Wants information on plumage of chickens</p>
+            <p>and table of sex ratios in greyhounds.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">chickens</term>
+                <term type="animals" ref="#">greyhounds</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+                <term type="scientific_terms" ref="#">physical ‘external’ characters</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">sex</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down.</hi> | Beckenham | <hi rend="print">Kent. S.E.</hi></placeName>
+                    <date>Ap 17. 1869.</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>If not inconvenient I sh<hi rend="superscript">d</hi> be grateful for any scraps of information about the plumage of the chickens of Cuckoo breeds &amp; Seabright bantams, if you have been able to obtain such.<ref target="#foot.f1"/> Also the table of the greyhound births, if you have been able to set the clerk to work.<ref target="#foot.f2"/> I must, in about a week’s time, begin on subjects which lead me much to require the above information.</p>
+<p>Have you had any success about eggs?<ref target="#foot.f3"/></p>
+<p>Forgive me for being so troublesome &amp; believe me | yours very faithfully | Ch. Darwin</p>
+<p>P.S. If you sh<hi rend="superscript">d</hi> ever meet any one who breeds Sebastopol geese, c<hi rend="superscript">d</hi> you find out at what age the curled feathers first appear?<ref target="#foot.f4"/></p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-6633.xml" resp="#mjhawkins">letter to W. B. Tegetmeier, 25 February [1869]</ref> and n. 1.</note>
+            <note xml:id="foot.f2">CD had asked Tegetmeier to tabulate male and female births per year among greyhounds using the <hi rend="italic">Coursing Calendar</hi> (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 16, <ref target="./DCP-LETT-5878.xml" resp="#mjhawkins">letter from W. B. Tegetmeier, [before 15 February 1868]</ref> and n. 4, <ref target="./DCP-LETT-5879.xml" resp="#mjhawkins">letter to W. B. Tegetmeier, 15 February [1868]</ref>, and <ref target="./DCP-LETT-5882.xml" resp="#mjhawkins">letter from W. B. Tegetmeier, [16–20 February 1868]</ref>).</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-6633.xml" resp="#mjhawkins">letter to W. B. Tegetmeier, 25 February [1869]</ref>.</note>
+            <note xml:id="foot.f4">Sebastopol geese have curled feathers on parts of their bodies (see <ref target="../bibliographies/bibl_7661.xml" resp="#mjhawkins">Tegetmeier 1867</ref>, pp. 312, 316).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

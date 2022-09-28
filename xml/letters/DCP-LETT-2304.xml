@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2304">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. D. Fox   6 July [1858]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3086</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2304 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2304.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2304.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 144: 256</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 7: 129</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">University of British Columbia Library, Rare Books and Special Collections (Pearce/Darwin Fox collection RBSC-ARC-1721-1-73)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_64.xml">British Columbia</repository>
+                    <collection>Pearce/Darwin Fox collection </collection>
+                    <idno>RBSC-ARC-1721-1-73</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1858-07-06">6 July [1858]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1730.xml">Fox, W. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>The crisis is abating – no further scarlet fever in the family.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin family</term>
+                <term type="people" ref="#subject_1202">Darwin family</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>July 6<hi rend="superscript">th</hi></date>
+                    <salute>My dear Fox</salute>
+                </opener>
+                <div type="transcription">
+<p>I write one line to thank you for your second most kind letter. All is going on well. The nurse has had it pretty severely, but the crisis is over. No one else has taken it &amp; I hope now will not, but we had a fear about our Governess, but she is out of House,<ref target="#foot.f2"/> &amp; we are getting less frightened &amp; in every way, more composed, I have been much knocked up &amp; so has my poor dear wife but we are now much better.</p>
+<p>Etty is too weak to move yet: she has not even put on her clothes, but our D<hi rend="superscript">r</hi>.is strong for her moving as soon as ever she can.— We go first to Elizabeth Wedgwoods &amp; thence to the sea;<ref target="#foot.f3"/> but where is our puzzle. We should much like S. side of the Isle of Wight; but it is indispensable on account of Etty that the House sh<hi rend="superscript">d</hi> be very near the sea, &amp; I fear such does not occur on account of cliffs.— Sh<hi rend="superscript">d</hi>. you know anything on this head, will you let me have a line; but do not otherwise trouble yourself to write.<ref target="#foot.f4"/></p>
+<p>My dear Fox, with cordial thanks for all your affection. Ever yours | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.4 on account of Etty] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the reference to illness in the house (see <ref target="./DCP-LETT-2300.xml" resp="#mjhawkins">letter to W. D. Fox, 2 July [1858]</ref>) and by the broad mourning border on the letter. <ref target="../nameregs/nameregs_1209.xml" resp="#mjhawkins">Charles Waring Darwin</ref> had died on 28 June 1858.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary records that on 4 July 1858 ‘Miss Pugh went’. <ref target="../nameregs/nameregs_3880.xml">Mary Ann Pugh</ref> had been engaged as governess to the Darwin children in April 1857.</note>
+            <note xml:id="foot.f3">CD and <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin</ref> took <ref target="../nameregs/nameregs_1225.xml" resp="#mjhawkins">Henrietta Emma Darwin</ref> to Sarah Elizabeth Wedgwood’s house in Hartfield on 9 July 1858 and left for the Isle of Wight on 16 July (‘Journal’; Appendix II).</note>
+            <note xml:id="foot.f4">Fox had spent several recuperative holidays on the Isle of Wight (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vols. 1 and 2).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

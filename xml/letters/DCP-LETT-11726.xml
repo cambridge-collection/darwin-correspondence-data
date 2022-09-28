@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11726">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From R. M. Middleton   22 October 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10033</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11726 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11726.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11726.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 178</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 178</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3321.xml">Middleton, R. M.</persName>
+                <placeName>West Hartlepool</placeName>
+                <date when="1878-10-22">22 Oct 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Did cats and dogs become pets because they are scrupulous in the discharge of their faeces? He has a pet parakeet whose behaviour supports this view.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">cats</term>
+                <term type="animals" ref="#">dogs</term>
+                <term type="animals" ref="#">parakeet</term>
+                <term type="scientific_terms" ref="#">behaviour</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Fountain House, | West Hartlepool.</hi></placeName>
+                    <date>22 Oct:, 1878.</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>A scientific friend once remarked to me that he supposed the chief reason why dogs &amp; cats were the principal animals kept in houses was the power they possessed of controlling their evacuations. This led me to say that my favourite South American parrakeet (Conurus guianensis)<ref target="#foot.f1"/> invariably restrained himself in this respect while being handled or when sitting on the head or dress of any person, &amp; that, when being fed on the dining-table, he would always back to the edge of the table, &amp; sometimes almost overbalance himself, in his effort to save the table-cover or cloth from defilement.— This bird has now been in my possession for nearly three years, so that I have had abundant opportunities of observing his habits.</p>
+<p>Will you kindly pardon me for troubling you with these facts; &amp; may I venture to ask if you are aware of any analogous instance of scrupulous care in the discharge of the fæces on the part of birds,—or of mammals other than those mentioned?</p>
+<p>I am, Dear Sir, | Faithfully yours, | R. Morton Middleton, | J<hi rend="superscript">r</hi>. <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin, | Esq<hi rend="superscript">re</hi>. | etc. etc.—</p> 
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1"><hi rend="italic">Conorus guianensis</hi> (‘Conurus’ is a misspelling; a synonym of <hi rend="italic">Psittacara leucophthalmus</hi>) is the white-eyed parakeet. A bird of the same species was kept as a pet by <ref target="../nameregs/nameregs_317.xml" resp="#mjhawkins">Henry Walter Bates</ref> and described in <ref target="../bibliographies/bibl_447.xml" resp="#mjhawkins">Bates 1863</ref>, 2: 103–4.</note>
+        </div>  
+      
+    </body>
+    </text>
+</TEI>

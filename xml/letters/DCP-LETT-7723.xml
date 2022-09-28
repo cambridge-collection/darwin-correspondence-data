@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7723">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To F. T. Köppen   28 April [1871]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3738</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7723 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7723.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7723.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="publication">
+                <bibl>Sobol (1959): 116</bibl>
+            </relatedItem>
+        </notesStmt>
+            <sourceDesc>
+                <bibl type="provenance">Archive of the Russian Academy of Sciences, St Petersburg branch: SPBB ARAS (Fond 92. Register 1. Folder 112. P. 1, 1 r)</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="../repo/repo_368.xml">Russian Academy of Sciences (SPBB ARAS)</repository>
+                        <idno>Fond 92. Register 1. Folder 112. P. 1, 1 r</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1871-04-28">28 Apr [1871]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2629.xml">Köppen, F. T.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks for FTK’s locust paper ["Die geographische Verbreitung der Wanderheuschrecke", <hi rend="italic">Petermann’s Geogr. Mittheil.</hi> (1871)].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">locust</term>
+                <term type="animals" ref="#">locust, migratory</term>
+                <term type="it" ref="#">Petermann’s Geogr. Mittheil.</term>
+                <term type="rx" ref="#">Koppen, F. T. 1871</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down.</hi> | Beckenham | <hi rend="print">Kent. S.E.</hi></placeName>
+                    <date>April 28<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am greatly indebted to you for your valuable present of your Heuschrecken in Südrussland &amp; for your interesting letter.<ref target="#foot.f2"/> I have no doubt I shall find much matter of value to me in your volume; but unfortunately I am a poor German scholar &amp; read the language with much difficulty, which has been an irreparable loss to me.— The facts which you mention in your letter in relation to the increase of mice &amp;c from the invasion of the grasshoppers are very curious; &amp; it is a subject which always possesses a special interest for me.<ref target="#foot.f3"/></p>
+<p>With much respect &amp; my best thanks, I remain | Dear Sir | Yours faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 Beckenham] <hi rend="italic">before del</hi> ‘<hi rend="italic">Bromley.</hi>’ </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-7716.xml" resp="#mjhawkins">letter from F. T. Köppen, 25 April 1871</ref>.</note>
+            <note xml:id="foot.f2">CD refers to <ref target="../bibliographies/bibl_4449.xml" resp="#mjhawkins">Köppen 1865</ref> (On locusts in south Russia) and to the <ref target="./DCP-LETT-7716.xml" resp="#mjhawkins">letter from F. T. Köppen, 25 April 1871</ref>.</note>
+            <note xml:id="foot.f3">CD touched on a similar relationship between mammal, insect, and plant in <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>, pp. 73–4, where he discussed the interactions of bees, cats, and mice in clover fields.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

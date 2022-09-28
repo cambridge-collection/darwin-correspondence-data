@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11486">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Thomas Whitelegge   28 April 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8057</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11486 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11486.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11486.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Mitchell Library, Sydney (MLMSS 5833)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_270.xml">Mitchell</repository>
+                    <idno>MLMSS 5833</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Bassett Down letterhead</placeName>
+                <date when="1878-04-28">28 Apr 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_5103.xml">Whitelegge, Thomas</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Has not studied <hi rend="italic">Geum</hi>, but suppression of one sex is not rare in plants.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Geum</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">sex</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>April 28— 1878</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I sincerely wish that I could give you any information about your specimens; but I have never studied the genus Geum or attended to monstrosities or sudden deviations of structure.<ref target="#foot.f1"/></p>
+                    <p>I may, however, remark that the supression of one sex is not a rare abnormality.<ref target="#foot.f2"/></p>
+<p>Wishing you success in your observations, I remain | Dear Sir | Yours faithfully | Charles Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+           
+            
+            
+        </div> 
+         
+         
+        <div type="footnotes">
+            <note xml:id="foot.f1"><hi rend="italic">Geum</hi> is a genus of about fifty species in the rose family; it is closely related to <hi rend="italic">Potentilla</hi>. Whitelegge had evidently sent specimens of <hi rend="italic">Geum</hi>, but no letter from him discussing these has been found.</note>
+            <note xml:id="foot.f2">Whitelegge continued to investigate forms of <hi rend="italic">Geum rivale</hi> that had only male and hermaphrodite flowers on the same stem (see <ref target="./DCP-LETT-11522.xml" resp="#mjhawkins">letter from Thomas Whitelegge, 21 May 1878</ref>). <ref target="../nameregs/nameregs_3069.xml" resp="#mjhawkins">Hermann Müller</ref> later mentioned Whitelegge’s discovery that <hi rend="italic">Geum rivale</hi> was occasionally andromonoecious (<ref target="../bibliographies/bibl_5700.xml" resp="#mjhawkins">H. Müller 1883</ref>, p. 229).</note>	
+        </div>   
+       
+    </body>
+    </text>
+</TEI>

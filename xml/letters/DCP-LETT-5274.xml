@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5274">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Armand de Quatrefages<choice><seg type="original"><ref target="#foot.f1"/></seg><seg type="translation"><ref target="#foot_trans.f1"/></seg></choice>   10 November 1866</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10342</idno>
+            
+            
+            
+            
+            <date when="2004">2004</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5274 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5274.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5274.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="14">14</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p (French)</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 175: 4</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>175: 4</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3892.xml">Quatrefages de Bréau, J. L. A. de</persName>
+                <placeName>Paris</placeName>
+                <date when="1866-11-10">10 Nov 1866</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends his book [<hi rend="italic">Histoire naturelle des annelés marins et d’eau douce</hi>, 2 vols. (1865)].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Histoire naturelle des anneles marins et d’eau douce</term>
+                <term type="rx" ref="#">Quatrefages de Bréau, J. L. A. de 1865</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Paris</placeName>
+                    <date>10 9<hi rend="superscript">bre</hi>. 66<ref target="#foot.f2"/></date>
+                    <salute>Monsieur et cher confrère</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>MM Williams et Norgate libr. sont chargés de vous faire parvenir un exemplaire de mon Histoire des Annélides (fig. col.)<ref target="#foot.f3"/> Si mon livre tardait trop a vous arriver, Soyez assez bon pour le faire reclamer. Cet ouvrage m’a couté bien de la peine car je ne sais pas d’animaux plus pénibles à déterminer que les Annélides et j’ai mis tout mon soin a être exact. Accueillez le comme bon souvenir de votre bien dévoué confrere qui desirerait fort faire votre connaissance personnelle | De Quatrefages</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+        
+        
+        <div type="translation">
+            <div type="text">
+                <opener>
+                </opener>
+                <div type="transcription">
+                     
+<p>Paris 10 November. 66 Dear Sir and Colleague, Messrs Williams and Norgate bksellr have been instructed to send you a copy of my History of the Annelids (fig. col.)<ref target="#foot.f2"/> If my book is too slow in reaching you, be so good as to make a request for it. This work has cost me a great deal of trouble, for I do not know of any animals that are more of a nuisance to classify than the Annelids and I have taken every care to be accurate. Receive it as a memento from your very devoted colleague who would so much like to meet you in person | De Quatrefages</p> 
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">For a translation of this letter, see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol.14, Appendix I.</note>
+            <note xml:id="foot_trans.f1">For a transcription of this letter in its original French, see p. 384.</note>
+            <note xml:id="foot.f2">‘9<hi rend="superscript">bre</hi>’: Novembre (from the Latin for ‘nine’: novem).</note>
+            <note xml:id="foot.f3">The booksellers and publishers <ref target="../nameregs/nameregs_5147.xml" resp="#mjhawkins">Williams &amp; Norgate</ref> specialised in foreign scientific literature. CD’s copy of Quatrefages 1865 is in the Darwin Library–Down. ‘Fig. col.’ is probably an abbreviation for ‘figures colorés’, referring to the coloured plates of the work.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

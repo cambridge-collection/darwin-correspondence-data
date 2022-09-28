@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-13872">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To ?   31 December [1852–3]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3130</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-13872 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-13872.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-13872.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 5: 109</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Houghton Library, Harvard University (Autograph File, D)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_180.xml">Harvard Houghton</repository>
+                    <collection>Autograph File, D</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+            <date xml:id="date1" when="1852-12-31" exclude="#date2">31 Dec 1852</date>
+            <date xml:id="date2" when="1853-12-31" exclude="#date1">31 Dec 1853</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_9999.xml">Unidentified</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Responds to correspondent’s request for information about shells from the Coquimbo beds in Chile. Difficulty in deciding on age of deposits and species. Notes views of Alcide d’Orbigny.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">shells</term>
+                <term type="geology" ref="#">beds</term>
+                <term type="places" ref="#">Chile</term>
+                <term type="places" ref="#">Coquimbo</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">fossils</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">geological time, epochs</term>
+                <term type="scientific_terms" ref="#">identification</term>
+                <term type="scientific_terms" ref="#">shells</term>
+                <term type="scientific_terms" ref="#">species, speciation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Dec. 31<hi rend="superscript">st</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>It would give me real pleasure to assist you in any, the slightest, manner. The Coquimbo beds are described in my “Geological observations on S. America” p. 128— There were altogether 24 shells in the Carcharias bed,<ref target="#foot.f2"/> of which M<hi rend="superscript">r</hi> Sowerby<ref target="#foot.f3"/> c<hi rend="superscript">d</hi>. not distinguish a Artemis &amp; great Mytilus from recent species; &amp; I feel sure that Balanus psittacus<ref target="#foot.f4"/> is recent, &amp; I conclude that B. Coquimbensis is only a variety of another recent species, viz. B. lævis.<ref target="#foot.f5"/> There is much difficulty in deciding on age of the isolated Tertiary deposits on coast of Chile; the most probable conclusion seems to be that they are old Miocene or Eocene.— The generic character, <hi rend="underline">I believe</hi>, is Miocene, but nearly all the species are distinct, &amp; all according to M. d’Orbigny.—<ref target="#foot.f6"/></p>
+<p>If you think it worth while you will see in work referred to, which is at Geolog. Soc, what little I have said on this subject.—</p>
+<p>I sh<hi rend="superscript">d</hi>. add that M. d’Orbigny does not agree with M<hi rend="superscript">r</hi> Sowerby that the Artemis &amp; Mytilus are recent species.—<ref target="#foot.f7"/></p>
+<p>My dear Sir | Yours very sincerely | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.4 Artemis] <hi rend="italic">after del</hi> ‘great’</note>
+                    <note xml:id="tnote.n2">1.8 old] <hi rend="italic">after del</hi> ‘ver’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated on the assumption that CD wrote the letter before publishing <ref target="../bibliographies/bibl_4838.xml" resp="#mjhawkins"><hi rend="italic">Living Cirripedia</hi> (1854)</ref>, to which he does not refer. He had recommenced working on <hi rend="italic">Balanus</hi> late in 1852 (see ‘Journal’; <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 5, Appendix I).</note>
+            <note xml:id="foot.f2">The Tertiary bed at Herradura Bay, Chile, characterised by the great numbers of bones of Cetacea and sharks teeth ‘closely resembling those of the <hi rend="italic">Carcharias megalodon</hi>.’ (<ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref>, pp. 128–9).</note>
+            <note xml:id="foot.f3">George Brettingham Sowerby had described CD’s collection of fossil shells for <ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref>.</note>
+            <note xml:id="foot.f4">See <ref target="../bibliographies/bibl_4838.xml" resp="#mjhawkins"><hi rend="italic">Living Cirripedia</hi> (1854): </ref>207–8. <hi rend="italic">Balanus psittacus</hi> is a synonym of <hi rend="italic">Austromegabalanus psittacus</hi>, the giant barnacle. CD stated that he had seen one specimen attached to <hi rend="italic">Mytilus magellanicus</hi> (a synonym of <hi rend="italic">Aulacomya atra</hi>, the Magellan mussel).</note>
+            <note xml:id="foot.f5">See <ref target="../bibliographies/bibl_4838.xml" resp="#mjhawkins"><hi rend="italic">Living Cirripedia</hi> (1854): </ref>227–8. <hi rend="italic">Balanus coquimbensis</hi> is a synonym of <hi rend="italic">B. laevis</hi> subsp. <hi rend="italic">coquimbensis</hi>.</note>
+            <note xml:id="foot.f6">Alcide Charles Victor Dessalines d’Orbigny had also examined CD’s South American fossil shells (<ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref>, p. iv). See <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 3.</note>
+            <note xml:id="foot.f7">See <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 3, <ref target="./DCP-LETT-829.xml">letter from A. C. V. D. d’Orbigny, 14 February 1845</ref>, and n. 5.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-4152" status="released">
+    <persName>
+        <forename>Richard</forename>
+        <forename>Anthony</forename>
+       <choice>
+           <seg><surname notBefore="1761" notAfter="1785">Markham</surname></seg>
+           <seg><surname notBefore="1785" notAfter="1829">Salisbury</surname></seg>
+       </choice>
+    </persName>
+    
+    <note type="dates"><date>1761–1829</date></note>
+    <sex value="M"/>
+    <note type="biography">
+        <p>Botanist. In 1785, changed his name from Markham to Salisbury, possibly as the condition of a gift of £10,000. Secretary of the Horticultural Society of London, 1805–16. FRS 1787.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_1985.xml" resp="#mjhawkins">R. Desmond 1994</ref></p>
+            <p><ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref></p>
+    </note>
+    <note type="volume">10,14</note>
+    <note type="keywords">
+        <term type="society">FRS</term>
+        <term type="societal">Horticultural Society</term>
+        <term type="place">London</term>
+        <term type="a">Botanist</term>
+    </note>
+    
+</person>

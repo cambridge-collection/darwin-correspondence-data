@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6668F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To George Cupples   18 March [1869]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">21659</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6668F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6668F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6668F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Former collection of Pr. Georges Teissier (private collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_502.xml">Georges Teissier</repository>
+                    <collection>(private collection)</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1869-03-18">18 Mar [1869]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1163.xml">Cupples, George</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Suggests that Cupples weigh puppies from one week old, rather than two weeks old.</p>
+        </abstract>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>March 18</date>
+                    <salute>My dear Mr Cupples.</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I add a P.S. to my last note.— If you weigh any more puppies, I do not see any advantage in the weighing being at age of 2 weeks, the first week w<hi rend="superscript">d</hi> be better.<ref target="#foot.f2"/></p>
+<p>But perhaps it is more difficult at so young an age.</p>
+<p>On reflection I daresay the Bitch puppies so soon exceeding in weight the Dog puppies was caused by their foster mother having fewer to nurse.—<ref target="#foot.f3"/></p>
+<p>Yours very sincerely | C. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">3.00 exceeding] ‘ing’ <hi rend="italic">over</hi> ‘ed’</note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the letters from <ref target="../nameregs/nameregs_1163.xml" resp="#mjhawkins">George Cupples</ref>, <ref target="./DCP-LETT-6657.xml" resp="#mjhawkins">11 March 1869</ref> and <ref target="./DCP-LETT-6679.xml" resp="#mjhawkins">22 March 1869</ref> (<hi rend="italic">Correspondence</hi> vol. 17).</note>
+            <note xml:id="foot.f2">In his reply to this letter, Cupples promised that he would weigh every litter of puppies from the age of one week (<hi rend="italic">Correspondence</hi> vol. 17, <ref target="./DCP-LETT-6679.xml" resp="#mjhawkins">letter from George Cupples, 22 March 1869</ref>). In <hi rend="italic">Descent</hi> 2: 261–2, CD cited Cupples for information on the relative weights of male and female Scotch deer-hounds, but noted that Cupples began taking measurements when the puppies were a fortnight old.</note>
+            <note xml:id="foot.f3">In his <ref target="./DCP-LETT-6657.xml" resp="#mjhawkins">letter of 11 March 1869</ref> (<hi rend="italic">Correspondence</hi> vol. 17), Cupples had explained that, in the litter he measured, the four dog puppies were nursed by their own mother while the three bitches were nursed by a foster mother.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

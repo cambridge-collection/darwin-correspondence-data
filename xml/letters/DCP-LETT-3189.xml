@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3189">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Frederick Smith   19 June [1861]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">255</idno>
+            
+            
+            
+            
+            <date when="1994">1994</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3189 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3189.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3189.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="09">9</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="endorsement" subtype="letter">Wednesday</note>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.255)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>255</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1861-06-19">19 June [1861]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4408.xml">Smith, Frederick (a)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Discusses pollen-masses found on various insects.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">insects</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">pollen</term>
+                <term type="scientific_terms" ref="#">relation of organism to organism</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>June 19<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>The pollen-masses attached to the Bombus hortorum positively belong to no British orchid &amp; I believe I may say as positively that they belong to an exotic orchid of the group of Epidendreæ.—<ref target="#foot.f2"/> It would be worth knowing whether this Bee was caught very far from a hot-house.— I fear you have not one of the sand-wasps with pollen-masses attached alluded to; else I sh<hi rend="superscript">d</hi>. so much like to see it. It would be very easy to ascertain whether the leaf on the S. American Wasp was pollen.— I suppose there is no chance of any of the insects in your own collection having pollen-masses attached.—</p>
+<p>Will you kindly remember &amp; ask M<hi rend="superscript">r</hi> Walker.<ref target="#foot.f3"/></p>
+<p>With many thanks for your interesting note, | pray believe me | Yours very sincerely | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 an] <hi rend="italic">altered from</hi> ‘a’</note>
+                    <note xml:id="tnote.n2">1.5 with pollen-masses attached] <hi rend="italic">interl</hi></note>
+                </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the reference to CD’s study of orchids, which was published in May 1862. The year is confirmed by Smith’s endorsement ‘Wednesday’: in 1861, 19 June fell on a Wednesday.</note>
+            <note xml:id="foot.f2">A passage in <ref target="../bibliographies/bibl_6010.xml" resp="#mjhawkins"><hi rend="italic">Orchids</hi></ref>, p. 164, mentions the case discussed in the letter: <quote type="quote"> Sir W. C. Trevelyan sent to Mr. Smith of the <ref target="../nameregs/nameregs_8646.xml" resp="#mjhawkins">British Museum</ref> (who forwarded to me) a Bombus hortorum—caught in his hot-house, where a Cattleya was in flower—with its whole back, between the wings, smeared with dry viscid matter, and with the four pollinia attached to it by their caudicles, and ready to be caught by the stigma of another flower if the bee had entered one. </quote> CD refers to <ref target="../nameregs/nameregs_4800.xml" resp="#mjhawkins">Walter Calverley Trevelyan</ref>.</note>
+            <note xml:id="foot.f3">Smith and the entomologist <ref target="../nameregs/nameregs_4929.xml" resp="#mjhawkins">Francis Walker</ref> were both members of the Entomological Society of London (<hi rend="italic">Transactions of the Entomological Society of London</hi> n.s. 5 (1858–61): xx).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

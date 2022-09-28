@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1907">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From H. C. Watson   20 June 1856</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6167</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1907 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1907.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1907.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">6pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 181: 34</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>181: 34</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4975.xml">Watson, H. C.</persName>
+                <placeName>Thames Ditton</placeName>
+                <date when="1856-06-20">20 June 1856</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Conveys [? J. T. I. Boswell-]Syme’s opinion of variability of agrarian weeds and ranges of species common to U. S. and W. Europe. The Hispano-Hibernian connection.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">weeds</term>
+                <term type="people" ref="#subject_555">Boswell-Syme, J. T. I.</term>
+                <term type="places" ref="#">Europe, W.</term>
+                <term type="places" ref="#">U. S.</term>
+                <term type="scientific_terms" ref="#">common forms</term>
+                <term type="scientific_terms" ref="#">continuous or ‘broken’ land</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">species, speciation</term>
+                <term type="scientific_terms" ref="#">variation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Thames Ditton</placeName>
+                    <date>June 20. 1856</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>The title page of my ‘Remarks on Geogr. Distr. Brit. Plts.’ bears the date of 1835. The published data towards compiling such a List as that termed ‘Geog<hi rend="superscript">l</hi>. Extension’ have been greatly increased &amp; corrected in the past score years. So that many gaps in the List would now be filled, &amp; sundry corrections should be made.<ref target="#foot.f1"/> Still, the general fact remains as there imperfectly appearing, that plants common to Europe &amp; America range far northward, in one or both, with few exceptions.<ref target="#foot.f2"/></p>
+<p>Since giving my own reply I communicated your two queries to Mr. J. T. Syme, a good European botanist, &amp; asked his opinion.<ref target="#foot.f3"/> He writes:—</p>
+<p>l<hi rend="superscript">st</hi>. “I quite agree with you that plants of cultivated ground do <hi rend="underline">not</hi> vary more than others of the same genus, growing in other situations”.</p>
+<p>2<hi rend="superscript">d</hi>. “I agree with you that very few European species are wild in U.S. except such as pass 55<hi rend="superscript">o</hi>.”<anchor xml:id="ann.a2" type="annotationEnd"/></p>
+<p>Mr S. illustrates the first of these two opinions, by naming several agrestal species<ref target="#foot.f4"/> which do not vary so much as allied species which grow in other situations than tilled ground.</p>
+<p><anchor xml:id="ann.a3" type="annotationStart"/>In illustrating the second, he gives a list of 22 species, noted in running thro’ Gray’s Botany of the N. States,<ref target="#foot.f5"/> which he thinks may not pass much north of 55 in Europe. i.e. “which do not occur in Scandinavia, or beyond 55 in Britain.”<anchor xml:id="ann.a4" type="annotationEnd"/></p>
+<p><anchor xml:id="ann.a5" type="annotationStart"/>The paucity of this list is the essential point; &amp; even in this short list of 22, some 5 or 6 may likely have passed by human agency from Europe to America, or vice versa. Two are common to America &amp; the British Isles, without reaching European continent. Two are common to Europe &amp; E. America, but not British. Three connect with America better by way of E. Asia &amp; W. America, than by way of W. Europe &amp; E. America. Two are littoral plants. Four are natant aquatics; &amp; such plants are often difficult to discriminate specifically, &amp; are widely diffused either in seeming or really.<anchor xml:id="ann.a6" type="annotationEnd"/></p>
+<p>I am not prepared to say whether the number of species common to E. Asia &amp; W. America is less or more than of those common to W. Europe &amp; E. America. I doubt whether the botany of E. Asia &amp; W. America is sufficiently known to allow of a true comparison.— Under existing knowledge, the list for W. Europe &amp; E. America would proby. be the more numerous.</p>
+<p>Truly I cannot at all say whether the Americo-<anchor xml:id="ann.a1" type="annotationStart"/>European species, as a prevailing rule, could have spread from one Continent to the other by way of Kamchatka &amp; Aleoutia, with some moderate changes of the land. <anchor xml:id="ann.a7" type="annotationStart"/>Perhaps there are too many of these plants not yet known on the two coasts of the upper part of the N. Pacific, &amp; intervening islands, to allow of the hypothesis, that they did so spread.<anchor xml:id="ann.a8" type="annotationEnd"/></p>
+<p>As to the Hispano-Hibernians. These are few, &amp; you are aware chiefly Heaths &amp; Saxifrages. Unite Ireland, England, &amp; France, &amp; project a few promontories into the Oceanic Bay thus formed, or throw up some few Volcanic cones between Spain &amp; Ireland,—breakwaters to be gradually washed away again,—&amp; you would <anchor xml:id="ann.a9" type="annotationStart"/>make the physical conditions by which those Heaths &amp; Saxifrages might pass from Ireland to Spain, or from Spain to Ireland. The Hispano-Hibernian Heaths (Arbutus Unedo, Menziesia polifolia, Erica Mediterranea, ciliaris, Mackaiana) are less patient of cold than the Saxifrages. I suppose all are “semi-alpine” in the latitude of Spain;<anchor xml:id="ann.a10" type="annotationEnd"/> the Saxifrages are so in that of Ireland. And if the latter naturalize themselves in Britain, it is in the Dales of Yorkshire, about the Lakes of Engl<hi rend="superscript">d</hi>., or the borders of the Highlands. Whether they could exist on a coast cold enough to admit of Glaciers, seems doubtful &amp; scarcely probable.—</p>
+<p>Sorry I can give no better answers or comments on your queries.— I suspect they must be passed down to a future generation for solution—</p>
+<p>Very truly | Hewett C. Watson</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note> 1.5 plants . . exceptions. 1.6] <hi rend="italic">scored brown crayon</hi> </note>
+                <note> 3.1 1<hi rend="superscript">st</hi>… . situations”. 3.2] <hi rend="italic">scored brown crayon</hi> </note>
+                <note target="#ann.a1" targetEnd="#ann.a2"><hi rend="italic">scored brown crayon</hi></note>
+                <note target="#ann.a3" targetEnd="#ann.a4"><hi rend="italic">scored brown crayon</hi></note>
+                <note target="#ann.a5" targetEnd="#ann.a6"><hi rend="italic">scored brown crayon</hi></note>
+                <note target="#ann.a7" targetEnd="#ann.a8"><hi rend="italic">scored brown crayon</hi></note>
+                <note target="#ann.a9" targetEnd="#ann.a10"><hi rend="italic">scored brown crayon</hi></note>
+                <note> <hi rend="italic">Top of first page</hi>: ‘3’<ref target="#foot.f6"/> <hi rend="italic">brown crayon</hi> </note>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Watson had begun to publish a revised edition of his <hi rend="italic">Remarks on the geographical distribution of British plants</hi> (<ref target="../bibliographies/bibl_8197.xml" resp="#mjhawkins">Watson 1835</ref>) in 1843. Only the first part was published (<ref target="../bibliographies/bibl_8200.xml" resp="#mjhawkins">Watson 1843</ref>).</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-1898.xml" resp="#mjhawkins">letter from H. C. Watson, 10 June 1856</ref>, and <ref target="./DCP-LETT-1899.xml" resp="#mjhawkins">letter to H. C. Watson, [after 10 June 1856]</ref>. CD appended a note in the manuscript of <ref target="../bibliographies/bibl_5799.xml" resp="#mjhawkins"><hi rend="italic">Natural selection</hi></ref> concerning this point: ‘<ref target="../nameregs/nameregs_1957.xml" resp="#mjhawkins">Asa Gray</ref> thinks there are not a few plants common to U.S. &amp; Europe, which do <hi rend="italic">not</hi> range to Arctic regions.’ To this <ref target="../nameregs/nameregs_2357.xml" resp="#mjhawkins">Joseph Dalton Hooker</ref> added, when commenting on the chapter, ‘Certainly’ (<ref target="../bibliographies/bibl_5799.xml" resp="#mjhawkins"><hi rend="italic">Natural selection</hi></ref>, p. 539 n.).</note>
+            <note xml:id="foot.f3">John Thomas Irvine Boswell-Syme was the co-editor, with Watson, of <hi rend="italic">The London catalogue of British plants</hi> (Watson and Syme eds. 1853), a work used by CD in his study of variation (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 5).</note>
+            <note xml:id="foot.f4">Species that grow wild in cultivated land (<ref target="../bibliographies/bibl_5936.xml" resp="#mjhawkins"><hi rend="italic">OED</hi></ref>).</note>
+            <note xml:id="foot.f5"><ref target="../bibliographies/bibl_3001.xml" resp="#mjhawkins">A. Gray 1848</ref>.</note>
+            <note xml:id="foot.f6">CD numbered this series of Watson’s letters sequentially.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

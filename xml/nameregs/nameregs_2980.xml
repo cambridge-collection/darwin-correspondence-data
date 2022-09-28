@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-2980" status="released">
+    <persName>
+        <forename>Elizabeth</forename>
+        <choice>
+            <seg><surname notBefore="1820" notAfter="1853">Hooker</surname></seg>
+            <seg><surname notBefore="1853" notAfter="1863">Evans</surname></seg>
+            <seg><surname notBefore="1864" notAfter="1898">Lombe</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1820–98</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of William Jackson Hooker and his wife Maria. Sister of Joseph Dalton Hooker. Married in 1853 Thomas Robert Evans, who changed his surname to Lombe 1863–4.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_117.xml" resp="#mjhawkins">Allan 1967</ref></p>
+        <p><ref target="../bibliographies/bibl_3990.xml">L. Huxley ed. 1918</ref></p>
+        <p><ref target="../bibliographies/bibl_5344.xml" resp="#mjhawkins"><hi rend="italic">Medical directory</hi></ref></p>
+    </note>
+    <note type="volume">3,4,14,16,19,20,22,29</note>
+    <note type="keywords">
+        <term type="name">Hooker, W. J.</term>
+        <term type="name">Turner, Maria</term>
+        <term type="name">Lombe, T. R. E.</term>
+    </note>
+</person>

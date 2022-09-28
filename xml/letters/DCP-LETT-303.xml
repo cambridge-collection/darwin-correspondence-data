@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-303">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To <hi rend="italic">South African Christian Recorder</hi><ref target="#foot.f1"/>   28 June 1836</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20178</idno>
+            
+            
+            
+            
+            <date when="1985">1985</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-303 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-303.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-303.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="01">1</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Collected papers</hi> 1: 19–38 </bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 1: 499</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance"> <hi rend="italic">South African Christian Recorder</hi> 2(1836): 238 Reprint in Darwin Library—CUL: ‘Philosophical tracts’</bibl> 
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent" subtype="personGrp">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <persName key="../nameregs/nameregs_1650.xml">FitzRoy, Robert</persName>
+                <placeName>HMS Beagle, at sea</placeName>
+                <date when="1836-06-28">28 June 1836</date>
+            </correspAction>
+            <correspAction type="received">
+                <orgName key="../nameregs/nameregs_4473.xml"><hi rend="italic">South African Christian Recorder</hi></orgName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>A defence of the work of missionaries in the Pacific islands and Australia. [The letter was apparently written by RF with supporting evidence quoted from CD’s journal. The letter is signed by RF alone. A summary conclusion, as printed, is signed by both:] "On the whole, balancing all that we have heard, and all that we ourselves have seen concerning the missionaries in the Pacific, we are very much satisfied that they thoroughly deserve the warmest support, not only of individuals, but of the British Government."</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1187">missionaries</term>
+                <term type="places" ref="#">Australia</term>
+                <term type="places" ref="#">Pacific islands</term>
+                <term type="social" ref="#">Other people</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+                     
+<p>On the whole, balancing all that we have heard, and all that we ourselves have seen concerning the missionaries in the Pacific, we are very much satisfied that they thoroughly deserve the warmest support, not only of individuals, but of the British Government.</p> 
+<figure type="diagram"> 
+<p>Robt. FitzRoy Charles Darwin</p> </figure> 
+<p>*S 2</p>
+<p rend="left">At sea, 28th June, 1836</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The original communication, published under the title ‘A Letter, Containing Remarks on the Moral State of Tahiti, New Zealand, &amp;c.’ was in two parts: the first, longer section, written in the first person except for the three introductory paragraphs, and signed by FitzRoy alone, contained excerpts from CD’s journal. Both parts are published in <ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 1: 19–38.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

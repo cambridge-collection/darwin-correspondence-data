@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7355">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To George Cupples   3 November [1870]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3746</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7355 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7355.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7355.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <note type="postmark">Beckenham NO 3 70</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Smithsonian Libraries and Archives (Dibner Library of the History of Science and Technology MSS 405 A. Gift of the Burndy Library)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_393.xml">Smithsonian</repository>
+                    <collection>Dibner</collection>
+                    <idno>MSS 405 A Burndy</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1870-11-03">3 Nov [1870]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1163.xml">Cupples, George</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Will collect the "precious animal" [deerhound puppy] from King’s Cross.</p>
+            <p>Thanks GC for information on the perch.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">deerhound</term>
+                <term type="animals" ref="#">perch</term>
+                <term type="places" ref="#">King’s Cross</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">young, offspring</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down.</hi> | Beckenham | <hi rend="print"> Kent. S.E.</hi></placeName>
+                    <date>Nov. 3<hi rend="superscript">d</hi></date>
+                    <salute>My dear M<hi rend="superscript">r</hi> Cupples</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>A servant shall be at King’s Cross on Tuesday 8<hi rend="superscript">th</hi>. at 9 <hi rend="smallCaps">a.m.</hi> ready to receive the precious animal.<ref target="#foot.f2"/> He shall then take him to some inn &amp; give him water &amp; let him loose for a short time in a stable, &amp; then bring him here at once. So please direct C. Darwin “to be called for”.— We are all infinitely obliged for this valuable present &amp; for your most clear instructions which we will endeavour to keep to the letter.</p>
+<p>You have been most kind to take so much trouble in giving us such full particulars.</p>
+<p>With many thanks | Yours very sincerely | Ch. Darwin</p>
+<p>Is the Hamper worth returning? or will you not let me pay for it?</p>
+<p>Thanks about the Perch: I cannot but suspect some error; though Serranus is an ally of the Perch &amp; has often been said on good authority to be an Hermaphrodite, but D<hi rend="superscript">r</hi> Günther does not believe even in this case, except as an abnormality—<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 Beckenham] <hi rend="italic">interl before del</hi> ‘<hi rend="italic">Bromley.</hi>’ </note>
+                <note xml:id="tnote.n2">1.4 C. Darwin] <hi rend="italic">interl</hi> </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-7338.xml" resp="#mjhawkins">letter from George Cupples, 8 October 1870</ref>.</note>
+            <note xml:id="foot.f2">Cupples was sending a Scottish deer-hound puppy; see <ref target="./DCP-LETT-7338.xml" resp="#mjhawkins">letter from George Cupples, 8 October 1870</ref>. Cupples’s letter announcing the date and time of the puppy’s arrival in London has not been found.</note>
+            <note xml:id="foot.f3">Cupples’s letter about perch has not been found. CD mentioned <ref target="../nameregs/nameregs_1779.xml" resp="#mjhawkins">Albert Günther’s</ref> view of <hi rend="italic">Serranus</hi> in <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> 1: 208 n. 25. The Percidae (perch) and the Serranidae (of which <hi rend="italic">Serranus</hi> is a member) are both families in the order Perciformes.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

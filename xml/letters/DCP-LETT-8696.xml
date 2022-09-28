@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8696">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From F. P. Cobbe   25 December [1872]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16458</idno>
+            
+            
+            
+            
+            <date when="2013">2013</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8696 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8696.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8696.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="20">20</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 161: 189</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>161: 189</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_984.xml">Cobbe, F. P.</persName>
+                <placeName>London, Hereford Square, 26</placeName>
+                <date when="1872-12-25">25 Dec [1872]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends story of a dog’s suicide.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">dog</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">killing</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>26, Hereford Sq</placeName>
+                    <date>Xmas</date>
+                    <salute>Dear M<hi rend="superscript">r</hi>. Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I think the enclosed story of a dog-suicide will interest you. It seems to be better authenticated than any I had heard of when I wrote my article.<ref target="#foot.f2"/> It is sent to me by Rev<hi rend="superscript">d</hi>. C. Conybeare of Itchen Stoke.<ref target="#foot.f3"/> Perhaps some of your party will kindly return it to me when you have read it— Miss Lloyd<ref target="#foot.f4"/> &amp; I have come to Brighton for Xmas but intend to return to Hereford Sq in a day or two—</p>
+<p>A friend of mine begs me to tell you that she has twice seen an Ourang Outang <hi rend="underline">stare a baboon out of countenance</hi>:—the baboon retreating before the fixed &amp; threatening gaze of the Ourang. tho’ there was no minatory <hi rend="underline">action</hi> whatever</p>
+<p>Very truly y<hi rend="superscript">rs</hi>. | Frances P. Cobbe</p>
+<p>The animal my friend believes to have been an Ourang was kept in the Crystal Palace<ref target="#foot.f5"/></p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-8652.xml" resp="#mjhawkins">letter to F. P. Cobbe, 28 November 1872</ref>.</note>
+            <note xml:id="foot.f2">In the <ref target="./DCP-LETT-8652.xml" resp="#mjhawkins">letter to F. P. Cobbe, 28 November 1872</ref>, CD had doubted Cobbe’s claim that dogs committed suicide ([Cobbe] 1872a, pp. 445–6). Cobbe’s enclosure, presumably returned to her as requested, has not been found.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_5434.xml" resp="#mjhawkins">Charles Ranken Conybeare</ref>.</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_2965.xml" resp="#mjhawkins">Mary Charlotte Lloyd</ref>.</note>
+            <note xml:id="foot.f5">There is no record of an orang-utan being kept at the Crystal Palace (the glass structure erected in Hyde Park for the Great Exhibition in 1851, and later moved to Sydenham). It is possible that one was exhibited at the Crystal Palace; in 1864, for example, Wombwell’s Menagerie displayed wild animals there (see <ref target="../bibliographies/bibl_6307.xml" resp="#mjhawkins">Piggott 2004</ref>, p. 184).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

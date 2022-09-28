@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1255">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Johan Georg Forchhammer   25 September [1849]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1110</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1255 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1255.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1255.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="publication">
+                <bibl>Clement (1926): 1</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 4: 255</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">University of Copenhagen, Mineralogical Museum Archives</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_100.xml">Copenhagen MM</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1849-09-25">25 Sept [1849]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1682.xml">Forchhammer, J. G.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks to borrow cirripede specimens. Describes his research.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">cirripede</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">identification</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Sept 25<hi rend="superscript">th</hi>.</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>You will be surprised to hear so soon from me;<ref target="#foot.f1"/> indeed, perhaps this letter will get to Copenhagen, before you do yourself.— On reflexion, I should be extremely much obliged to you, if you could lend me the Cirripedes, which you with so much kindness, offered me, <hi rend="doubleUnderline">as soon</hi> <hi rend="underline">as you conveniently can</hi>. I have now got many valves of fossil Pollicipes in my house, &amp; before returning them, I sh<hi rend="superscript">d</hi> be particularly glad to compare them with Steentrup’s fossil species.—<ref target="#foot.f2"/> I have now almost finished the Pedunculata, &amp; shall soon commence with the Sessile species, so that upon the whole the present time would be the best time for me to examine your specimens.— I could return the fossil &amp; recent Pedunculata first, &amp; afterwards the Sessile species; paying the carriage of course to Copenhagen.— I sh<hi rend="superscript">d</hi> be greatly obliged for any specimens which you could spare, &amp; especially some from any arctic country.—</p>
+<p>These specimens will be of the most essential service to my monograph, &amp; I am sure I feel much indebted to your kindness in offering them to me.—</p>
+<p>Pray believe me my dear Sir | Your’s very sincerely | C. Darwin</p>
+<p>The parcel had better be directed thus (namely to my Brother’s House, &amp; he will inform me of their arrival)  C. Darwin Es<hi rend="superscript">re</hi> 7. Park St<hi rend="superscript">t</hi>.— Grosvenor Sq<hi rend="superscript">re</hi>. London</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.4 valves of] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">1.8 present time] ‘time’ <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n3">1.12 arctic] <hi rend="italic">altered from</hi> ‘artic’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had met <ref target="../nameregs/nameregs_1682.xml" resp="#mjhawkins">Johan Georg Forchhammer</ref> at the British Association meeting in Birmingham, where Forchhammer had read two papers to section B (chemistry).</note>
+            <note xml:id="foot.f2">Forchhammer had evidently offered to send CD specimens from the Geological Museum of Copenhagen University and to ask Johannes Japetus Smith Streenstrup to make his own collection available (<ref target="../bibliographies/bibl_2621.xml" resp="#mjhawkins"><hi rend="italic">Fossil Cirripedia</hi> (1851): </ref>v).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

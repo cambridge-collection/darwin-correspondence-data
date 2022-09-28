@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2609">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. H. Miller   27 December [1860]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13498</idno>
+            
+            
+            
+            
+            <date when="1993">1993</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2609 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2609.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2609.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="08">8</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Copy</note>
+            <note type="physdesc" n="C">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 146</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>146: 369</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1860-12-27">27 Dec [1860]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3332.xml">Miller, W. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Discusses measurements of bees’ cells.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">bees</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">nesting and other home-making or web-making behaviour</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent.</placeName>
+                    <date>Dec 27</date>
+                    <salute>My dear Miller,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I hope this will come in time to save you any more trouble.<ref target="#foot.f2"/> I have just measured some walls in the same manner as I did before and I find the same thickness in both basal plates and hexagonal prism, viz about <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>5</mn><mn>2000</mn></mfrac></math></formula> which is rather thicker than you made them. I can only account for my strange blunder by my having two micrometers, one ruled with lines exactly twice as far apart. I will take average of your six measurements and give that as <hi rend="underline">about</hi> the thickness of walls.<ref target="#foot.f3"/> With cordial thanks for all your kindness, and grief at causing you so much trouble by my scandalous blunder which I will correct.</p>
+<p>Believe me yours very sincerely | C Darwin</p>
+<p>P.S. | Unless you happen to have made more measurements, I will give the thickness not on your authority; but if you do give me accurate thickness I will then say that you measured thickness for me.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is given by the reference to the preparation of the third edition of <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref> (see n. 3, below).</note>
+            <note xml:id="foot.f2">CD probably refers to work carried out by Miller in response to the <ref target="./DCP-LETT-2564.xml" resp="#mjhawkins">letter to W. H. Miller, 1 December [1860]</ref>. No letter from Miller detailing his results has been found.</note>
+            <note xml:id="foot.f3">The ‘blunder’ to which CD alludes is his statement in the first edition of <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>, p. 231, that the walls of bees’ cells were ‘about one four-hundredth of an inch in thickness; the plates of the pyramidal basis being about twice as thick.’ The third edition was corrected to read (<ref target="../bibliographies/bibl_6016.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 3d ed.</ref>, p. 252): <quote type="quote"> These walls, as Professor Miller has kindly ascertained for me, vary greatly in thickness; being, on an average of twelve measurements made near the border of the comb, 1\/353 of an inch in thickness; whereas the basal rhomboidal plates are thicker nearly in the proportion of three to two, having a mean thickness, from twenty-one measurements, of 1\/229 of an inch. </quote></note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

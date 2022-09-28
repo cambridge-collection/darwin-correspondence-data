@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7481">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To R. F. Cooke   14 February [1871]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13179</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7481 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7481.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7481.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Copy</note>
+            <note type="physdesc" n="C">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 143: 279</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>143: 279</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1871-02-14">14 Feb [1871]</date>
+            </correspAction>
+            <correspAction type="received" subtype="personGrp">
+                <persName key="../nameregs/nameregs_1053.xml">Cooke, R. F.</persName>
+                <persName key="../nameregs/nameregs_2575.xml">John Murray, Publishers</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Discusses presentation copies [of <hi rend="italic">Descent</hi>]. Dallas returned proofs of index on Friday. Asks for John Stuart Mill’s address.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Descent</term>
+                <term type="people" ref="#subject_3327">Mill, J. S.</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">sexual selection</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down, Beckenham, Kent. S.E.</placeName>
+                    <date>Feb. 14th.</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>There is no end to my presentation copies, and I add two addresses on next page.<ref target="#foot.f2"/></p>
+<p>Mr. Dallas returned all proofs of Index on Friday and I told Mr. Clowes not to send revises to him.<ref target="#foot.f3"/> So thank God the book is off my hands and will soon appear.</p>
+<p>I want to beg the favour of you to let me hear, how soon, (if you can judge at all accurately) I shall receive the copies which are to be sent to Orpington to distribute. I particularly want to know on account of leaving home for a short time.<ref target="#foot.f4"/></p>
+<p>My dear Sir | Yours very sincerely | Ch. Darwin</p>
+<p>P.S. Do you by chance know J. Stuart Mill’s address?<ref target="#foot.f5"/></p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-7480.xml" resp="#mjhawkins">letter to R. F. Cooke, 10 February [1871]</ref>.</note>
+            <note xml:id="foot.f2">CD refers to presentation copies of <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 19, Appendix IV); the two addresses were not included in the copyist’s transcription.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_1179.xml" resp="#mjhawkins">William Sweetland Dallas</ref> was the indexer of <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref>; <ref target="../nameregs/nameregs_978.xml" resp="#mjhawkins">William Clowes</ref> was the printer.</note>
+            <note xml:id="foot.f4">CD stayed at the house of his brother, <ref target="../nameregs/nameregs_1211.xml" resp="#mjhawkins">Erasmus Alvey Darwin</ref>, in London, from 23 February to 2 March 1871 (CD’s ‘Journal’ (Appendix II)).</note>
+            <note xml:id="foot.f5">No correspondence between CD and <ref target="../nameregs/nameregs_3327.xml" resp="#mjhawkins">John Stuart Mill</ref> survives. CD cited Mill in <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> 1: 71 n. 5, 97 n. 32, and 2: 328 n. 23.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

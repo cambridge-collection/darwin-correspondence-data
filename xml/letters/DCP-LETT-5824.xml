@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5824">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Henry Johnson   31 January 1868</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17691</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5824 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5824.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5824.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 168: 68</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>168: 68</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2586.xml" resp="high">Johnson, Henry (a)</persName>
+                <placeName>Shrewsbury</placeName>
+                <date when="1868-01-31">31 Jan 1868</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml" resp="high">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Congratulations on George Darwin’s success at Cambridge</p>
+            <p>and CD’s world-wide reputation.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1224">Darwin, G. H.</term>
+                <term type="scientific_terms" ref="#">positive self-criticism</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="societal" ref="#">tripos success</term>
+                <term type="societal" ref="#">University of Cambridge</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Shrewsbury</placeName>
+                    <date>Jan 31 | 1868</date>
+                    <salute>My dear Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I see by the Papers that one of your sons has greatly distinguished himself at Cambridge.<ref target="#foot.f1"/> I know how great the pleasure of this must be to you—&amp; I cannot help writing a line to tell you how glad I am &amp; how much I congratulate you. The natural-hereditary talent of your family is not extinct, but is cropping out in a new direction.</p>
+<p>I dare say you know that I have lost a dear Son (Herbert)   He was just ready to go in for his moderations &amp; did so—but could not do what he ought—being at the time too ill to attempt it— if I had only known it.<ref target="#foot.f2"/></p>
+<p>I dare say you are still working at your various &amp; interesting pursuits Geology, Zoology &amp;c   You have acquired for yourself a world wide reputation. It must be very pleasant to look back upon your former days of travel.</p>
+<p>I hope you are better. Will you never come to Shrewsbury.— where there is now no one of your name?<ref target="#foot.f3"/></p>
+<p>Yours | very | sincerely | Henry Johnson</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_1224.xml" resp="#mjhawkins">George Howard Darwin</ref> was second in the final examination for the mathematical tripos at Cambridge (<ref target="../bibliographies/bibl_1170.xml" resp="#mjhawkins"><hi rend="italic">Cambridge University calendar</hi></ref> 1868).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_6014.xml" resp="#mjhawkins">Herbert Johnson</ref> matriculated at Christ Church, Oxford in 1864 (<ref target="../bibliographies/bibl_146.xml" resp="#mjhawkins"><hi rend="italic">Alum. Oxon.</hi></ref>). Moderations are the first public examination taken in certain faculties of Oxford University for the degree of BA (<ref target="../bibliographies/bibl_5936.xml" resp="#mjhawkins"><hi rend="italic">OED</hi></ref>).</note>
+            <note xml:id="foot.f3">CD’s elder sister, <ref target="../nameregs/nameregs_1239.xml" resp="#mjhawkins">Susan Elizabeth Darwin</ref>, was the last member of CD’s immediate family to live in Shrewsbury. She had continued to live at The Mount, the family home, until her death in October 1866.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5699">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. J. Moulinié   30 November [1867]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3109</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5699 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5699.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5699.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Bibliothèque de Genève (Ms suppl. 66, ff. 3–4)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_59.xml">Bibliothèque de Genève</repository>
+                    <idno>Ms suppl. 66, ff. 3–4</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Queen Anne St, 6 Down letterhead</placeName>
+                <date when="1867-11-30">30 Nov [1867]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3428.xml">Moulinié, J. J.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Glad that Reinwald does not intend separate publication of [<hi rend="italic">Variation</hi>] volumes. Book had large sale at [Murray’s] auction.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="it" ref="#">Variation</term>
+                <term type="people" ref="#subject_3970">Reinwald, C.-F.</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">variation</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi> [6 Queen Anne Street, London]</placeName>
+                    <date>Nov. 30<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very much obliged for your note.—<ref target="#foot.f2"/> I am particularly glad that M. Reinwald does not intend to publish the 1<hi rend="superscript">st</hi>. vol. separately.<ref target="#foot.f3"/> I quite agree with you that in all cases it is desirable that the whole work sh<hi rend="superscript">d</hi>. appear at the same time, and in the present case it is especially desirable, as I hope &amp; think that the second volume is a little more interesting than the first; &amp; if it had been possible, ought to have formed the first volume.—<ref target="#foot.f4"/></p>
+<p>The remaining sheets of Vol. 2 will soon be sent to you.</p>
+<p>Whenever the work is complete &amp; nearly ready for publication, perhaps you be so kind as to inform me.</p>
+<p>You will rejoice when your labour is over, as I do myself.— How far the book is worth publication, I from the first, as you may remember, doubted. But it has had by anticipation a large sale, my publisher having disposed of 1263 copies at a sort of auction which he holds at the commencement of our publishing season.—<ref target="#foot.f5"/></p>
+<p>With much respect &amp; thanks for the honour which you have done me in under taking the Translation I remain Dear Sir | Yours very faithfully | Charles Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-5697.xml" resp="#mjhawkins">letter from J. J. Moulinié, 25 November 1867</ref>.</note>
+            <note xml:id="foot.f2"><ref target="./DCP-LETT-5697.xml" resp="#mjhawkins">Letter from J. J. Moulinié, 25 November 1867</ref>.</note>
+            <note xml:id="foot.f3">CD refers to <ref target="../nameregs/nameregs_3970.xml" resp="#mjhawkins">Charles-Ferdinand Reinwald</ref> and to the French translation of <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> (Moulinié trans. 1868).</note>
+            <note xml:id="foot.f4">See <ref target="./DCP-LETT-5697.xml" resp="#mjhawkins">letter from J. J. Moulinié, 25 November 1867</ref>.</note>
+            <note xml:id="foot.f5">See also <ref target="./DCP-LETT-5678.xml" resp="#mjhawkins">letter to J. V. Carus, 14 November [1867]</ref> and n. 6.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

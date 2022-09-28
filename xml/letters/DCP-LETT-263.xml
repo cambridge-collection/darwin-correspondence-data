@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-263">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. S. Henslow   8 November 1834</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">5227</idno>
+            
+            
+            
+            
+            <date when="1985">1985</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-263 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-263.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-263.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="01">1</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 145: 32</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Darwin and Henslow</hi>: 99</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 1: 420</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Royal Botanic Gardens, Kew (Henslow letters: 24 DAR/1/1/24)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_213.xml">Kew</repository>
+                    <idno>Henslow letters: 24 DAR/1/1/24</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>HMS Beagle, Valparaiso</placeName>
+                <date when="1834-11-08">8 Nov 1834</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2235.xml">Henslow, J. S.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends two boxes of specimens and part of his "hum-drum letter-like" journal.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Beagle. Valparaiso</placeName>
+                    <date>November 8<hi rend="superscript">th</hi>. 1834</date>
+                    <salute>My dear Henslow.—</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>This letter is merely to inform you that I send by H.M.S. Challenger two boxes, with Specimens.— She does not sail from this port till January, &amp; will not arrive in England for at least 4 months afterwards.<ref target="#foot.f1"/> This letter goes by the Challenger to England.— In one of the Cases, I have given you an account of all our proceedings &amp; future prospects &amp;c &amp;c.— I have also sent a part of my Journal.— would you be kind enough to direct &amp; book it by some Coach to D<hi rend="superscript">r</hi> Darwin Shrewsbury.— I did not think of sending it till five minutes before closing the Box, otherwise I would have directed it.— Of course, if you are inclined, you can look at any part of my hum-drum letter-like journal There are three small parcels of seeds; the one in the oblong box I have labelled as coming from T. del Fuego. it comes from Chiloe: (Climate &amp;c &amp;c like T. del Fuego but considerably warmer).— I do not much expect, that any one seed will grow.—</p>
+<p>Continue to direct Valparaiso: if you know any person in Liverpool who would post your letters to me by any of the numerous ships to this port I should receive them a couple of months sooner.— in this case, they must be directed <hi rend="underline">to the care of R. Corfield Esq<hi rend="superscript">r</hi>.—</hi> Yours most truly obliged | Chas. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.2 your] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">2.2 to] <hi rend="italic">after del</hi> ‘f’</note>
+                    <note xml:id="tnote.n3"><hi rend="italic">point omitted after</hi>: 1.5 ‘prospects’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The <hi rend="italic">Challenger</hi> sailed from Coquimbo on 5 February 1835, but did not proceed to England. After arriving at Rio de Janeiro in March, she set out on 1 April on her ill-fated voyage to the west coast of South America (see ‘Loss of His Majesty’s frigate <hi rend="italic">Challenger</hi>’ 1835). CD’s cases, if they were shipped in the <hi rend="italic">Challenger</hi>, may have been transferred to another vessel at Rio de Janeiro.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

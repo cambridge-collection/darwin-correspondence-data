@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1285">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. J. Hooker   [January 1850]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19630</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1285 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1285.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1285.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 152: 747</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Royal Botanic Gardens, Kew (Directors’ Correspondence English letters A–H 1850, 29: 201)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_213.xml">Kew</repository>
+                    <collection>Directors’ Correspondence</collection>
+                    <idno>English letters A-H 1850, 29: 201</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1850-01-01" notAfter="1850-01-31">[Jan 1850]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2367.xml">Hooker, W. J.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks WJH for information about J. D. Hooker; CD was very anxious to hear something about his safety.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_2357">Hooker, J. D.</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough | Kent</placeName>
+                    <date>Tuesday</date>
+                    <salute>My dear Sir William</salute>
+                </opener>
+                <div type="transcription">
+<p>I write merely to thank you very sincerely for your <hi rend="underline">great</hi> kindness in taking the trouble to inform me about your son. I was very anxious to hear something about his safety.<ref target="#foot.f1"/> Your account is far better than I had ventured to anticipate; I feared that his collection would have gone to rack &amp; ruin— If nothing worse comes of it, it will be in after years a striking episode in his Himmalaya wanderings. How anxious Lady Hooker &amp; yourself must be to see him back, &amp; I am sure that he has very very many friends who cordially unite in this feeling.</p>
+<p>With my best thanks | Pray believe me | Yours sincerely obliged | C. Darwin</p>
+<p>Some time since Henslow forwarded to you a Geological letter from your son to me; no doubt you will keep it securely, which I mention because your son asked me to keep all his letters.—</p>
+<p>I trust Miss Hooker is well— pray remember me very kindly to her.—</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.4 that] <hi rend="italic">added</hi></note>
+                    <note xml:id="tnote.n2">1.6 that] <hi rend="italic">before del</hi> ‘that’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Hooker and his travelling companion, <ref target="../nameregs/nameregs_799.xml">Archibald Campbell</ref>, political agent to Sikkim, had been made captives on 7 November 1849 by a Sikkim band under instructions from the Sikkim Dewan, who bore a grudge against Campbell. On 12 November, Hooker wrote a letter to his family reporting that, though kept under detention, he was not in danger. Both hostages were released on 23 December 1849 as a result of a threat of force by the British Government. The incident led to the annexation of southern Sikkim by the British. See J. D. Hooker 1854, 2: 203–41, and L. Huxley ed. 1918, 1: 313–19.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

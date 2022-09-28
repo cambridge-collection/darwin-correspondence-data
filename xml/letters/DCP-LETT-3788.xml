@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3788">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Lubbock   30 October 1862</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6827</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3788 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3788.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3788.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 170: 33</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>170: 33</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3026.xml">Lubbock, John</persName>
+                <placeName>London</placeName>
+                <date when="1862-10-30">30 Oct 1862</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Hopes to visit tomorrow if CD is up to it.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin himself, good or improving</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>London</placeName>
+                    <date>30 Oct 1862</date>
+                    <salute>My dear M<hi rend="superscript">r</hi>. Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am looking forward with real pleasure to the prospect of a talk with you.<ref target="#foot.f1"/></p>
+<p>If however you do not feel up to it, please send me word to the <hi rend="underline">Bickley Station</hi> &amp; <hi rend="underline">not to Chiselhurst</hi> as I shall not go home.<ref target="#foot.f2"/></p>
+<p>Hoping to see you so soon I will only add that I am always</p>
+<p>Your affectn— | John Lubbock</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242) records that <ref target="../nameregs/nameregs_3026.xml" resp="#mjhawkins">John Lubbock</ref> dined at Down House on Friday 31 October 1862.</note>
+            <note xml:id="foot.f2">Lubbock worked in London and lived in Chislehurst, Kent. Bickley railway station, situated between Chislehurst and Bromley, was probably the one used by Lubbock in travelling to and from work (<ref target="../bibliographies/bibl_6375.xml" resp="#mjhawkins"><hi rend="italic">Post Office directory of the six home counties</hi></ref> 1862).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

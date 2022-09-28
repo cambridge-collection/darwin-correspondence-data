@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2416">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Mary Butler<ref target="#foot.f1"/>   20 February [1859]<ref target="#foot.f2"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3031</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2416 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2416.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2416.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">John Hay Library, Brown University (Albert E. Lownes Manuscript Collection, MS 84.2 (Box 3, Folder 37))</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_67.xml">Brown</repository>
+                    <collection>Albert E. Lownes</collection>
+                    <idno>MS 84.2 (Box 3, Folder 37</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1859-02-20">20 Feb [1859]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_769.xml">Butler, Mary</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends naturalists’ autographs.</p>
+            <p>Enjoyed fortnight at Moor Park.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin himself, good or improving</term>
+                <term type="places" ref="#">Moor Park</term>
+                <term type="social" ref="#">Other people</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Feb. 20<hi rend="superscript">th</hi></date>
+                    <salute>My dear Miss Butler</salute>
+                </opener>
+                <div type="transcription">
+                    
+<p>I send you some autographs with a list of the men, as you, perhaps, would not know who were who. You will now be well stocked with the autographs of <hi rend="underline">Naturals</hi>.</p>
+<p>I made myself very pleasant at home with ghost stories &amp; other plumes borrowed from you.—</p>
+<p>I enjoyed my fortnight extremely at Moor Park, but if I were long exposed to the very pleasant temptation of sitting between Miss Craik &amp; you, I wonder what I should not come to believe:<ref target="#foot.f3"/> Honeysuckles turning into oaks would be a mere trifle &amp; new species springing up on every Railway embankment.</p>
+<p>Will you tell D<hi rend="superscript">r</hi> Lane that I found Etty looking as well &amp; as fat as before her illness.<ref target="#foot.f4"/></p>
+<p>Pray give my kindest remembrances to all the very pleasant party at Moor Park &amp; believe me with much respect | My dear Miss Butler | Yours Truly obliged | Charles Darwin</p>
+<p>Please to tell Lady Drysdale<ref target="#foot.f5"/> that I reached the Station only 14 minutes before the Train started &amp; I should like to know when she will ever have such a triumph as that.—</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin</ref> in his <ref target="../bibliographies/bibl_6562.xml" resp="#mjhawkins">‘Recollections’</ref> (DAR 140: 86) states that CD ‘made friends at Moor Park with an Irish lady, a Miss Butler who amused him with bright anecdoty talk, &amp; who used to be celebrated among us as having seen the ghost of her father when he <hi rend="italic">didn't</hi> die. He used to tell how he made friends with Miss Butler through the fact that she like himself put salt on the table cloth to eat with her bread.’ Mary Butler was the unmarried elder sister of Richard Butler, vicar of Trim in Ireland.</note>
+            <note xml:id="foot.f2">The year is given by CD’s reference to Moor Park hydropathic establishment: 1859 was the only year in which CD visited the establishment in February.</note>
+            <note xml:id="foot.f3">CD had met <ref target="../nameregs/nameregs_1104.xml" resp="#mjhawkins">Georgiana Marion Craik</ref>, the novelist, on earlier visits to Moor Park (see <ref target="./DCP-LETT-2261.xml" resp="#mjhawkins">letter to Emma Darwin, [28 April 1858]</ref>).</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_1225.xml" resp="#mjhawkins">Henrietta Emma Darwin</ref> had been a patient at Moor Park on several occasions in 1858. CD had probably discussed her recent bout of ill health with <ref target="../nameregs/nameregs_2802.xml" resp="#mjhawkins">Edward Wickstead Lane</ref> during his stay.</note>
+            <note xml:id="foot.f5">Lady Drysdale was Lane’s mother-in-law.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

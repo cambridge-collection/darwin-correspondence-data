@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1470">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To <hi rend="italic">Gardeners’ Chronicle</hi>   [before 10 January 1852]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">15607</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1470 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1470.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1470.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Collected papers</hi> 1: 252</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl><hi rend="italic">Correspondence</hi> 5: 78</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance"><hi rend="italic">Gardeners’ Chronicle and Agricultural Gazette</hi>, no. 2, 10 January 1852, p. 22</bibl>
+            <bibl type="printedSource">Gard. Chron. 1852: 22</bibl>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1809-01-01" notAfter="1852-01-09">[before 10 Jan 1852]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1808.xml">Gardeners’ Chronicle</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Asks readers of <hi rend="italic">Gardeners’ Chronicle</hi> whether they have experience with light wire rope instead of chain in drawing water buckets from deep wells. Describes the problem of his own well with its 325 foot chain.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">cultivation</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+<p>I suffer from the serious misfortune of a well 325 feet deep. It is worked by two buckets, and a chain, which, from its great length, is necessarily very heavy. Would a wire rope (galvanised) answer?<ref target="#foot.f1"/> This, I presume, might be tight and thin; it would have to carry, at each end, a strong and heavy bucket, holding 12 gallons. The rope would have to work over, and, I presume, once quite round, a wheel only 14 inches in diameter. Would any of your correspondents have the charity to give the result of any actual experience of light wire rope; such would be of value, probably to others, as well as to myself.<ref target="#foot.f2"/> <hi rend="underline">C. R. D.</hi></p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Galvanised wire had been popular since the first patent for ‘hot dip galvanizing’ was taken out in 1837 (<ref target="../bibliographies/bibl_2248.xml" resp="#mjhawkins"><hi rend="italic">EB</hi></ref>).</note>
+            <note xml:id="foot.f2">A response appeared in the next issue, no. 3, 17 January 1852, p. 38: ‘<hi rend="italic">Wire Rope</hi> (see p. 22).— I certainly cannot recommend wire rope when it is required to work round a sheave, unless the diameter of the sheave or drum is at least 3 feet. One broke with me in a very few weeks, though only 10 feet long, and the weight at the end only 70 lbs., being worn and broken where it worked over the sheave. <hi rend="italic">C. L. C.</hi>’</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

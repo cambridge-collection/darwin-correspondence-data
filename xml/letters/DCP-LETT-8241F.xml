@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8241F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Bartholomäus von Carneri   12 March 1872</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">21143</idno>
+            
+            
+            
+            
+            <date when="2013">2013</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8241F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8241F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8241F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="20">20</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Wienbibliothek im Rathaus, Handschriftensammlung (H.I.N. 39418)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_503.xml">Wienbibliothek</repository>
+                    <collection>Handschriftensammlung</collection>
+                    <idno>(H.I.N. 39418)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <date when="1872-03-12">12 Mar 1872</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_835.xml">Carneri, Bartholomäus von</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Offers to send German editions of his works when he return home.</p>
+        </abstract>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi> [9 Devonshire Street, London.]</placeName>
+                    <date>Mar 12. 1872</date>
+                    <salute>Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am at present staying away from home,<ref target="#foot.f1"/> but on my return to Down in a fortnight’s time I will look for some German translations of my works, which I shall have much pleasure in sending to yr Society.<ref target="#foot.f2"/></p>
+<p>If I have no German translations to spare I will send some English editions.</p>
+<p>With my best wishes for the success of your Society, I have the honour to remain, Sir, | your obedient servt | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD was in London from 16 February to 21 March 1872 (CD’s ‘Journal’ (Appendix II)).</note>
+            <note xml:id="foot.f2">Carneri may have asked for books for the Naturwissenschaftlicher Verein für Steiermark (Natural science association of Steiermark), of which he was a member. CD’s current German translator was <ref target="../nameregs/nameregs_849.xml" resp="#mjhawkins">Julius Victor Carus</ref>; earlier translations had been made by <ref target="../nameregs/nameregs_657.xml" resp="#mjhawkins">Heinrich Georg Bronn</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

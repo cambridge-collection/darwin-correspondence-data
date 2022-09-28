@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1990">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. W. Lubbock   18 November [1856]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1273</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1990 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1990.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1990.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">The Royal Society (LUB: D24)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_364.xml">Royal Society</repository>
+                    <idno>LUB: D24</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1856-11-18">18 Nov [1856]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3025.xml">Lubbock, J. W. (b)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Obliged for JWL’s note [missing]. Will forward it to Mr Wedgwood.</p>
+            <p>Remarks, "it was … blunder of A. Woods about your wanting the Furniture."</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#">Wedgwood, Mr</term>
+                <term type="people" ref="#">Woods, A.</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down.</placeName>
+                    <date>Nov. 18<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir John Lubbock</salute>
+                </opener>
+                <div type="transcription">
+<p>I am much obliged for your note, which I will forward to M<hi rend="superscript">r</hi>. Wedgwood. I will speak about the Cards of Admission.—<ref target="#foot.f2"/></p>
+<p>I see it was an entire blunder of A. Woods about your wanting the Furniture.<ref target="#foot.f3"/></p>
+<p>Pray believe me | Yours sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated on the basis that the letter refers to the auction of Sarah Elizabeth (Sarah) Wedgwood’s effects (see n. 2, below).</note>
+            <note xml:id="foot.f2">This is probably a reference to admission to the auction of Sarah Wedgwood’s house and its contents. The auction was to be held on 9 December (see <ref target="./DCP-LETT-2000.xml" resp="#mjhawkins">letter to W. E. Darwin, 25 [November 1856]</ref>).</note>
+            <note xml:id="foot.f3">A. Wood was probably overseeing the sale of Sarah Wedgwood’s house and effects. CD’s Account book (Down House MS) records a payment of £4 to him, on behalf of <ref target="../nameregs/nameregs_5027.xml" resp="#mjhawkins">Josiah Wedgwood III</ref>, on 20 November 1856.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

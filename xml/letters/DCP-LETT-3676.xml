@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3676">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From J. O. Westwood   1 August 1862</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17924</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3676 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3676.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3676.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 181</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>181: 91</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_5077.xml">Westwood, J. O.</persName>
+                <placeName>Oxford</placeName>
+                <date when="1862-08-01">1 Aug 1862</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Bee with adhering orchid pollinia lent to Charles Daubeny. Pollen-masses shaken off but if CD still interested he is welcome to specimen.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">bee</term>
+                <term type="plants" ref="#">orchid</term>
+                <term type="people" ref="#subject_1248">Daubeny, C. G. B.</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">pollen</term>
+                <term type="scientific_terms" ref="#">relation of organism to organism</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Oxford</placeName>
+                    <date>1 Aug<hi rend="superscript">t</hi>. 1862</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I lent my bee to D<hi rend="superscript">r</hi>. Daubeny for his lecture on your Book,<ref target="#foot.f1"/> &amp; unfortunately the pollinia got shaken off in transitu.<ref target="#foot.f2"/> If you like to see the insect &amp; the detached appendage, I will send you the bottle. I suppose it was Orchis Maculata as it was in flower &amp; I had one or two plants in my garden</p>
+<p>Yours very sincerely | Jno O Westwood</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Westwood, who was professor of zoology at Oxford University, refers to the lecture on <ref target="../bibliographies/bibl_6010.xml" resp="#mjhawkins"><hi rend="italic">Orchids</hi></ref> given at the end of June by the professor of botany, <ref target="../nameregs/nameregs_1248.xml" resp="#mjhawkins">Charles Giles Bridle Daubeny</ref> (see <ref target="./DCP-LETT-3643.xml" resp="#automat" cert="low">letter from C. G. B. Daubeny, 5 July 1862)</ref>.</note>
+            <note xml:id="foot.f2">In the <ref target="./DCP-LETT-3547.xml" resp="#automat">letter from J. O. Westwood, 14 May 1862</ref>, Westwood offered to send CD a preserved bee specimen with pollen masses attached to its head. <hi rend="italic">Orchis maculata</hi> is a synonym of <hi rend="italic">Dactylorhiza maculata</hi>, the heath spotted orchid.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10160">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Woodward Emery   17 September 1875</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16794</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10160 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10160.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10160.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 163: 18</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>163: 18</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1505.xml">Emery, Woodward</persName>
+                <placeName>Boston, Mass.</placeName>
+                <date when="1875-09-17">17 Sept 1875</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Informs CD of Chauncey Wright’s death.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Other people</term>
+                <term type="people" ref="#subject_5254">Wright, Chauncey</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <seg type="supplemental">Mr. Charles Darwin</seg>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>This communication is made to inform you of the death of Mr Chauncey Wright of Cambridge, which took place on the twelfth day of September.<ref target="#foot.f1"/> Mr. Wright was found on Sunday morning in his room in a state of profound coma, from which he never rallied, dying within half an hour after medical aid was summoned. The result of the autopsy, conducted under the direction of D<hi rend="superscript">r</hi>. Morril Wyman<ref target="#foot.f2"/> seems to point to congestion of the brain as the cause of death—</p>
+<p>Mr Wright was last seen on Saturday evening about eleven o’clock in his apartments in his usual state of health, and was discovered about seven on Sunday morning in the condition above described. Lying open on the table beside him was your recent work on insectivorous plants.<ref target="#foot.f3"/> The remains have been taken to and interred in his family tomb at Northampton Mass. The minute examination of the brain is not yet concluded, but the brain is pronounced to be of a high type—<ref target="#foot.f4"/></p>
+<p>As an intimate friend of Mr. Wright, occupying the same apartments, it seems to me proper that I should inform you of the foregoing facts—</p>
+<p>I have the honor to be, My dear Sir, | Your obedient servant, | Woodward Emery</p>
+<p><lb resp="#mjhawkins"/></p>
+<p rend="left">8 Barristers Hall | 7 Court Sq. | Boston, Mass.</p>
+<p rend="left">Sept. 17<hi rend="superscript">th</hi> 1875</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Wright, of Cambridge, Massachusetts, was 44 years old; he had corresponded with CD since 1871.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_7060.xml" resp="#mjhawkins">Morrill Wyman</ref>.</note>
+            <note xml:id="foot.f3"><ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref> was published in London in July 1875 (CD’s ‘Journal’ (Appendix II)). The US edition was published from stereotypes in the same year (<ref target="../bibliographies/bibl_2661.xml" resp="#mjhawkins">Freeman 1977</ref>).</note>
+            <note xml:id="foot.f4">The size and convolutions of the brain had long been thought to have a bearing on intelligence; see, for example, <ref target="../bibliographies/bibl_8923.xml" resp="#mjhawkins">Solly 1847</ref>, pp. 124, 131–2. More recently, <ref target="../nameregs/nameregs_643.xml" resp="#mjhawkins">Paul Broca</ref> had worked on brain anatomy (<ref target="../bibliographies/bibl_8924.xml" resp="#mjhawkins">Schiller 1979</ref>, pp. 166–205).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

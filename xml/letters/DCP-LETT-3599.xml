@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3599">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Leonard Horner   13 June [1862]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1212</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3599 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3599.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3599.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">National Library of Scotland (MS.2216: 167)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_292.xml">NL Scotland</repository>
+                    <collection>MS.2216:</collection>
+                    <idno> 167</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1862-06-13">13 June [1862]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2392.xml">Horner, Leonard</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends condolences on death of LH’s wife. Recalls many pleasant hours in Bedford Place. He and Emma thank LH for sending the memorial paper.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Other people</term>
+                <term type="people" ref="#subject_2388">Horner, A. S. (a)</term>
+                <term type="places" ref="#">Bedford Place</term>
+                <term type="social" ref="#">Darwin family</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>June 13<hi rend="superscript">th</hi></date>
+                    <salute>My dear M<hi rend="superscript">r</hi>. Horner</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I hope that you will forgive me troubling you with this note, but I wish to say how sincerely sorry we are at your great loss &amp; at all the grief which you must have suffered.<ref target="#foot.f2"/> This event has recalled vividly to my mind the great kindness which I received, &amp; the many pleasant hours which I have spent, in old days in Bedford Place.<ref target="#foot.f3"/> Emma desires me to thank you for having remembered us and sent her the Memorial paper; she feels that she has lost a most kind friend; and she most sincerely joins me in sympathising with you &amp; all your family.</p>
+<p>Pray believe me my dear M[r] Horner | Yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.5 us] <hi rend="italic">over</hi> ‘&amp;’</note>
+                </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by reference to the death of Anne <ref target="../nameregs/nameregs_2389.xml" resp="#mjhawkins">Susan Horner</ref> (see n. 2, below).</note>
+            <note xml:id="foot.f2">Horner’s wife, Anne <ref target="../nameregs/nameregs_2389.xml" resp="#mjhawkins">Susan Horner</ref>, died on 22 May 1862 (K. M. Lyell ed. 1890, 2: 352).</note>
+            <note xml:id="foot.f3">During the 1830s and 1840s, the Horners lived at 2 Bedford Place, London (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 2, <ref target="./DCP-LETT-408.xml" resp="#mjhawkins">letter from Leonard Horner, 7 April [1838]</ref>, and <ref target="../bibliographies/bibl_6380.xml" resp="#mjhawkins"><hi rend="italic">Post Office London directory</hi></ref> 1846, 1848). CD had visited the Horners as a bachelor; he and Emma lived in London from their marriage in 1839 until their removal to Down House in 1842 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 2).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11144">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To L. A. Errera   18 September 1877</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">521</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11144 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11144.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11144.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 144: 9</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.521)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>521</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1877-09-18">18 Sept 1877</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1524.xml">Errera, L. A.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Agrees to look over MS.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">fertilisation and generation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">type and morphology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Sep 18. 1877</date>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I shall be happy to look at your M.S., in order to see whether you have rightly understood my meaning.<ref target="#foot.f1"/> But will you be so good as to mark the passages, (if the paper is long), with respect to which you wish for my opinion, as I am at present much engaged. When your paper is published I shall be very glad to read the whole.<ref target="#foot.f2"/></p>
+                    <p>I may mention that I have lately published a volume “The Different Forms of Flowers” in which I give the result of some experiments on <hi rend="underline">P. elatior</hi>.<ref target="#foot.f3"/></p>
+<p>Dear Sir | Yours faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">  
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-11142.xml" resp="#mjhawkins">letter from L. A. Errera, 15 September 1877</ref>.</note>
+            <note xml:id="foot.f2">The paper, ‘Sur la structure et les modes de fécondation des fleurs et en particulier sur l’hétérostylie du <hi rend="italic">Primula elatior</hi>’ (On the structure and methods of fertilisation of flowers and in particular on the heterostyly of <hi rend="italic">Primula elatior</hi>; Errera and Gevaert 1878), was published in 1878. CD’s copy is in the Darwin Pamphlet Collection–CUL. </note>
+            <note xml:id="foot.f3">See <ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref>, pp. 32–4 and <hi rend="italic">passim</hi>.</note>
+        </div>
+    
+    </body>
+    </text>
+</TEI>

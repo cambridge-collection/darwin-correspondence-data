@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-333">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Sarah Elizabeth (Sarah) Wedgwood   23 December [1836]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">5092</idno>
+            
+            
+            
+            
+            <date when="1985">1985</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-333 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-333.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-333.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="01">1</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 204: 149</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>204: 149</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_5038.xml">Wedgwood, S. E. (a)</persName>
+                <placeName>Camp Hill</placeName>
+                <date when="1836-12-23">23 Dec [1836]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Has been presenting wedding gifts to her nieces and nephews during CD’s absence, without asking whether they are ready for them, so she sends him £40.</p>
+            <p>Caroline says CD has taken a lecture room for his work at Cambridge.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin family</term>
+                <term type="people" ref="#subject_1208">Darwin, C. S.</term>
+                <term type="people" ref="#">Wedgwood, S. E. (a)’s nephews</term>
+                <term type="people" ref="#">Wedgwood, S. E. (a)’s nieces</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">wedding</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Camp Hill near Woore | Stafford</placeName>
+                    <date>Dec<hi rend="superscript">r</hi>. 23<hi rend="superscript">d</hi>.</date>
+                    <salute>My dear Charles</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>As I like to take time by the forelock I have during your absence been presenting my wedding gifts to my nieces &amp; nephews without too curiously inquiring whether they were ready for the same, I wish now to close my account by begging you will do me the kindness to accept the 40 pounds enclosed &amp; to consider it as a wedding offering.</p>
+<p>I was sorry to hear that you were very unwell after you left Maer, I hope you are well again and stronger than you were. Caroline rather puzzled me by saying that you have taken a lecture room at Cambridge, but I suppose you mean to employ it not exactly in its own line.</p>
+<p>All our people hereabouts are pretty well, the Seabridgians<ref target="#foot.f1"/> are spending a week at Maer: they expect Susan next week at Seabridge. I was surprised to see Miss Martineaus book advertised,<ref target="#foot.f2"/> I think that must be a sign of its coming out in less than a year.</p>
+<p>Good bye my dear Charles | ever yours affectionately. | S Wedgwood</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Harry and <ref target="../nameregs/nameregs_5023.xml" resp="#mjhawkins">Jessie Wedgwood</ref>.</note>
+            <note xml:id="foot.f2">Probably a reference to <ref target="../bibliographies/bibl_5260.xml" resp="#mjhawkins">Martineau 1837</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

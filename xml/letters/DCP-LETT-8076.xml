@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8076">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To ?   20 November [1871]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">5486</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8076 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8076.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8076.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">incomplete</note>
+            <note type="physdesc" n="ALS">** 1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Sotheby’s (dealers) (9 April 1963)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_395.xml">Sotheby’s</repository>
+                    <collection>9 Apr 1963)</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1871-11-20">20 Nov [1871]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_9999.xml">Unidentified</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Asks for some pamphlets, the titles of which have been sent to him by Dr Spengel [see <hi rend="doubleUnderline">8053</hi>].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_4497">Spengel, J. W.</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, Beckenham, Kent</hi>.</placeName>
+                    <date>Nov. 20</date>
+                </opener>
+                <div type="transcription">
+                     
+<p>[A. L. s. to an unnamed correspondent asking for some pamphlets, the titles of which have been sent him by Dr. Spengel from Germany.<ref target="#foot.f2"/> <hi rend="underline">1 page 8vo.</hi> At the foot of this letter Darwin has written ‘The Titles are next Page’ but this is missing.]</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-8053.xml" resp="#mjhawkins">letter from J. W. Spengel, 4 November 1871</ref>.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_4497.xml" resp="#mjhawkins">Johann Wilhelm Spengel</ref> had sent CD a revised bibliography of works on Darwinian theory published mainly in German (see <ref target="./DCP-LETT-8053.xml" resp="#mjhawkins">letter from J. W. Spengel, 4 November 1871</ref> and n. 3).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

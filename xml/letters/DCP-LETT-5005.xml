@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5005">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From James Shaw   14 February 1866</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10724</idno>
+            
+            
+            
+            
+            <date when="2004">2004</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5005 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5005.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5005.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="14">14</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 177: 150</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>177: 150</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4321.xml">Shaw, James</persName>
+                <placeName>Tynron</placeName>
+                <date when="1866-02-14">14 Feb 1866</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Reports instances of birds admiring their images in mirrors or on pictures.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">birds</term>
+                <term type="scientific_terms" ref="#">behaviour</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Tynron, Dumfriesshire,</placeName>
+                    <date>14 Feby 1866</date>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I rec<hi rend="superscript">d</hi> your kind and encouraging letter.<ref target="#foot.f1"/> I had but very lately remarked the fact to which you refer about butterflies wings and am thankful to you for the hint concerning the male foreign butterflies being prettier than the females, as I did not know that.<ref target="#foot.f2"/></p>
+<p>With regard to birds admiring themselves and showing courtesy to their image in mirror or picture my chief authority was second-hand. It is quoted from Bennett (I suspect he who was Vice-President of the Zoological Society) in the article “Birds of Paradise” Knight’s English Encyclopaedia. It was a male nine years caged. The picture was full-length drawn by a Chinese artist. Bennett says he was the eye-witness.<ref target="#foot.f3"/></p>
+<p>A gentleman, whose name I could get yet, came up to me after I had read my paper<ref target="#foot.f4"/> and said—“I believe you. I have a pet Canary which flew out of my cage. I searched all the room for it and espied it on the top of a small statuette pluming its feathers before the mirror. Previously I had shown it its likeness there”.</p>
+<p>I had a kitten which used to divert itself before the mirror and even (as I thought) peeped behind it like a child, often altering its position with its paw.</p>
+<p>I am in a situation here where I have considerable leisure time, and now that, with your encouragement, I have got thoroughly alive to this most interesting question, I will endeavour, through time, to pick up any more precise facts of the sort through my own experience or that of my scholars when I may trouble you with a selection of them.<ref target="#foot.f5"/></p>
+<p>I am | Dear Sir, | Yours most respectfully, | James Shaw.</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-5004.xml" resp="#mjhawkins">letter to James Shaw, 11 February [1866]</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-5004.xml" resp="#mjhawkins">letter to James Shaw, 11 February [1866]</ref> and n. 6. Shaw remarked on differences in beauty between female and male butterflies in Shaw 1866b.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_6455.xml" resp="#mjhawkins">Edward Turner Bennett</ref>, vice-secretary of the <ref target="../nameregs/nameregs_5302.xml" resp="#mjhawkins">Zoological Society of London</ref> until 1831, then secretary (<ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref>), was not the source. <hi rend="italic">The English cyclopædia</hi>, edited by Charles Knight, gave <ref target="../nameregs/nameregs_6456.xml" resp="#mjhawkins">George Bennett’s</ref> <hi rend="italic">Wanderings</hi> (<ref target="../bibliographies/bibl_553.xml" resp="#mjhawkins">Bennett 1834</ref>) as the source of a description of a male <hi rend="italic">Paradisea apoda</hi> that reacted with comparable courtesy to a portrait of itself, painted by an unnamed Chinese artist, and to its own reflection in a mirror (<ref target="../bibliographies/bibl_2360.xml"><hi rend="italic">English cyclopædia</hi></ref> 1: 474–80); the original account, published in <ref target="../bibliographies/bibl_553.xml" resp="#mjhawkins">Bennett 1834</ref>, 2: 41–8, did not refer to self-admiration. CD later questioned whether jealousy of a supposed rival or other causes led birds to observe themselves in mirrors (<ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> 2: 111).</note>
+            <note xml:id="foot.f4">Shaw 1866a; see memorandum from <ref target="../nameregs/nameregs_4321.xml" resp="#mjhawkins">James Shaw</ref>, [6–10 February 1866].</note>
+            <note xml:id="foot.f5">Shaw was master of the rural parish school of Tynron, Dumfriesshire, from 1862; this post enabled him to devote much time to natural history and literature (R. Wallace ed. 1899, pp. xxiii–xxxi). After CD’s death, Shaw referred to CD’s interest in beauty and sexual selection in an essay entitled ‘Dandies – animal and human’ (published in R. Wallace ed. 1899, pp. 250–62).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

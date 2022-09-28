@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8883">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Herbert Spencer   26 April 1873</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14577</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8883 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8883.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8883.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl>Duncan (1908): 167</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 177: 232</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>177: 232</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4495.xml">Spencer, Herbert</persName>
+                <placeName>Athenaeum Club</placeName>
+                <date when="1873-04-26">26 Apr 1873</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Wants to use CD’s support to put pressure on Michael Foster to enable Huxley to take an immediate holiday.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1699">Foster, Michael</term>
+                <term type="people" ref="#subject_2486">Huxley, T. H.</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">holiday</term>
+                <term type="social" ref="#">Other people</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Athenæum Club | Pall Mall</hi></placeName>
+                    <date>26 April 73</date>
+                    <salute>Dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I rejoice with you that our plot has succeeded so well—beyond expectation indeed.<ref target="#foot.f1"/></p>
+<p>One thing I think remains to be done. Huxley talks of taking a long holiday “in the <hi rend="underline">summer</hi>”. I think he must not be allowed to postpone taking it. He must go away at once, and to that end we ought to put pressure on Foster.<ref target="#foot.f2"/></p>
+<p>I have just been to see Tyndall<ref target="#foot.f3"/> about it and he agrees in my proposal to write and ask your opinion.</p>
+<p>We might send a joint letter to Foster (which you would write) giving emphatic expression to our opinion on the matter; and judging from what Farrer<ref target="#foot.f4"/> said when I saw him, there will probably be no difficulty.</p>
+<p>ever yours truly | Herbert Spencer</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Spencer was one of the friends who had organised the subscription for <ref target="../nameregs/nameregs_2486.xml" resp="#mjhawkins">Thomas Henry Huxley</ref> (see <ref target="./DCP-LETT-8851.xml" resp="#mjhawkins">letter to William Spottiswoode, [8 April 1873]</ref>).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_1699.xml" resp="#mjhawkins">Michael Foster</ref> had succeeded Huxley as Fullerian Professor of physiology at the <ref target="../nameregs/nameregs_7845.xml" resp="#mjhawkins">Royal Institution of Great Britain</ref> in 1869 and had been recommended by Huxley in 1870 for the newly created praelectorship in physiology at Cambridge (<ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref>). In his letter of 26 April 1873, Huxley had mentioned giving up a course of lectures planned for the summer, but noted he still had to fulfil other obligations. Spencer evidently hoped that Foster could be persuaded to stand in for Huxley in some capacity. Huxley began his holiday in the summer, travelling to the Auvergne in France on 2 July 1873 (L. Huxley ed. 1900, 1: 391).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_4839.xml" resp="#mjhawkins">John Tyndall</ref>.</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_1599.xml" resp="#mjhawkins">Thomas Henry Farrer</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

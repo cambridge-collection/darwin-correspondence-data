@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11472">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From G. E. Dobson   12 April 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16746</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11472 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11472.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11472.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 162: 193</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>162: 193</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1341.xml">Dobson, G. E.</persName>
+                <placeName>R. Victoria Hosp., Netley</placeName>
+                <date when="1878-04-12">12 Apr 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends CD two specimens of <hi rend="italic">Fuchsia</hi> monstrosities.</p> 
+            <p>He is writing on the geographical distribution of Cheiroptera and can find no information on presence or absence of bats in the Galapagos. Did CD see any there?</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">bats</term>
+                <term type="animals" ref="#">Cheiroptera</term>
+                <term type="plants" ref="#">Fuchsia</term>
+                <term type="places" ref="#">Galapagos</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">isolation, islands</term>
+                <term type="scientific_terms" ref="#">monstrosity</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="italic">Royal Victoria Hospital,</hi> | <hi rend="italic">Netley,</hi> | <hi rend="italic">Southampton.</hi></placeName>
+                    <date>12<hi rend="superscript">th</hi>. April 1878.</date>
+                    <salute>Dear D<hi rend="superscript">r</hi>. Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>By same post I send you two specimens of monstrous fuchsia flowers in which the connective of the anthers of some of the stamens appears to have assumed a petaloid structure and appearance. They were the first flowers that appeared upon a fuchsia tree in my greenhouse, subsequent flowers have developed all their organs symmetrically. Perhaps you have seen this monstrosity before; however I send them on the chance that they may prove interesting to you in connection with your studies on the morpology of the flower.</p>
+                    <p>I would feel greatly obliged if you would kindly spare me a little of your valuable time to let me know whether, during your visit to the Galapagos Islands you observed any Bats there. I am writing the introduction to my Natural History of the Order Chiroptera (which will be published about the end of this month in the form of a Brit. Mus. Catalogue)<ref target="#foot.f1"/> and in treating of the Geographical Distribution of the Species I find it impossible to obtain any information as to the presence or absence of Bats in the Galapagos Group, and in this difficulty I take the liberty of asking your kind assistance.</p>
+                    <p>I remain, | dear D<hi rend="superscript">r</hi>. Darwin, | very faithfully yours | G E Dobson</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dobson refers to his <hi rend="italic">Catalogue of the Chiroptera in the collection of the British Museum</hi> (<ref target="../bibliographies/bibl_10407.xml" resp="#automat" cert="low">Dobson 1878</ref>).</note>	
+        </div> 
+     
+    </body>
+    </text>
+</TEI>

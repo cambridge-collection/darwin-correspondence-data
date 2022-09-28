@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-643">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Elizabeth Wedgwood<ref target="#foot.f1"/>   [25 September 1842]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">2707</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-643 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-643.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-643.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">AL</note>
+            <note type="physdesc" n="AL">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">V&amp;A / Wedgwood Collection (MS W/M 260)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_521.xml">V&amp;A / Wedgwood Collection</repository>
+                    <idno>(MS W/M 260)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_5039.xml">Wedgwood, S. E. (b)</persName>
+                <placeName>Maer</placeName>
+                <date when="1842-09-25">[25 Sept 1842]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Reports on Josiah Wedgwood [II], who is seriously ill.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin family</term>
+                <term type="people" ref="#subject_5026">Wedgwood, Josiah, II</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Maer</placeName>
+                    <date>Sunday</date>
+                    <salute>My dear Charles</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Thank God for the good news your letter brings—<ref target="#foot.f2"/> I send the phaeton for Mrs Bennett who is with Mrs Stone at Newcastle, and I am therefore half afraid she may not be able to set out tonight— the phaeton will wait and bring her to the train if she can—<ref target="#foot.f3"/></p>
+<p>My poor dear Emma what sad news to meet her after her labour. I continue to hope however— my father still takes food often, and his pulse varies only between 80 and 90, and does not seem to me very weak— but his voice is very indistinct and his wandering now incessant. He asked for Charles just now, and said it was not Charles Langton How could such words as your’s dear Charles pain me? oh if such a man could be still spared us!</p>
+<p>Mr Garner<ref target="#foot.f4"/> yesterday seemed to think him quite as well as he expected. He has not yet been today.</p>
+<p>I do hope Catharine will be able to go.</p>
+<p>I am very glad it is a little girl, though I dont know now whether Emma cares—</p>
+<p>My best of loves to my dear Emma—&amp; goodbye—</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Elizabeth Wedgwood’s handwriting identified by Ian H. C. Fraser, Keele University Library.</note>
+            <note xml:id="foot.f2">CD’s letter of Friday, 23 September, apparently announced the birth of <ref target="../nameregs/nameregs_1231.xml" resp="#mjhawkins">Mary Eleanor Darwin</ref>.</note>
+            <note xml:id="foot.f3">According to CD’s Account Book (Down House MS) £2 7<hi rend="italic">s</hi>. were paid on 25 September to cover ‘Fly for Mrs Bennett &amp; travelling expenses’. Further entries indicate that Mrs Bennett was Mary Eleanor’s wet-nurse.</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_1814.xml" resp="#mjhawkins">Robert Garner</ref>, physician in Stoke-upon-Trent and surgeon to the North Staffordshire Infirmary.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

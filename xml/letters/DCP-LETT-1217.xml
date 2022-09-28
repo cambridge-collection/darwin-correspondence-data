@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1217">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Smith, Elder &amp; Company<ref target="#foot.f1"/>   [16 February 1849]<ref target="#foot.f2"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6085</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1217 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1217.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1217.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+            <notesStmt>
+            <note type="endorsement" subtype="letter">answr<hi rend="superscript">d</hi> 22<hi rend="superscript">d</hi> Feb HJW</note>
+            <note type="physdesc" n="ALS">3pp</note>
+                <relatedItem type="publication">
+                    <bibl> <hi rend="italic">Correspondence</hi> 4: 217</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Edward Ford (private collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_139.xml">Ford, Edward</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1849-02-16">[16 Feb 1849]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4407.xml">Smith, Elder &amp; Co.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Asks for account on <hi rend="italic">South America</hi> and sales of <hi rend="italic">Coral reefs</hi> and <hi rend="italic">Volcanic islands</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="it" ref="#">South America</term>
+                <term type="scientific_terms" ref="#">coral</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">isolation, islands</term>
+                <term type="scientific_terms" ref="#">volcanoes and earthquakes</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough | Kent</placeName>
+                    <date>Friday</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>With my private account you have hitherto generally let me have the account of the Geology of S. America, the sales of which (minus your commission) go to my favour.— If not inconvenient I sh<hi rend="superscript">d</hi> be glad to have this &amp; I c<hi rend="superscript">d</hi> deduct any thing in my favour (if there have been any sales at all) from your account &amp; so save yourself &amp; myself trouble.—<ref target="#foot.f3"/></p>
+<p>I sh<hi rend="superscript">d</hi> like to know what number (if any) of copies of the Coral &amp; the Volcanic volume have been sold—though I have nothing to do with the accounts on those two volumes: I ask this out of mere curiosity—</p>
+<p>Hoping that you will excuse this trouble | Believe me | dear Sir | Yours faithfully | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 which] <hi rend="italic">before omitted point</hi></note>
+                    <note xml:id="tnote.n2">1.3 favour.] <hi rend="italic">before del</hi> ‘)’</note>
+                    <note xml:id="tnote.n3">1.4 thing] <hi rend="italic">over</hi> <hi rend="italic">illeg</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Publishers of CD’s volumes on the zoology and geology of the <hi rend="italic">Beagle</hi> voyage (<ref target="../bibliographies/bibl_8579.xml" resp="#mjhawkins"><hi rend="italic">Zoology</hi></ref>, <ref target="../bibliographies/bibl_1571.xml" resp="#mjhawkins"><hi rend="italic">Coral reefs</hi></ref>, <ref target="../bibliographies/bibl_8001.xml" resp="#mjhawkins"><hi rend="italic">Volcanic islands</hi></ref>, and <hi rend="italic">South</hi> <hi rend="italic">America</hi> ).</note>
+            <note xml:id="foot.f2">Dated from the endorsement and the broad mourning border of the stationery used by CD in 1849.</note>
+            <note xml:id="foot.f3">CD had received a government grant to cover the costs of publishing his <hi rend="italic">Beagle</hi> results, which was expended before the completion of <ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref> (1846). He therefore contributed towards the cost of publication. CD purchased stationery from <ref target="../nameregs/nameregs_4407.xml" resp="#mjhawkins">Smith, Elder &amp; Co</ref>mpany and presumably offset any royalties due to him from <ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref> against their account. On 25 February 1849 he paid them £6 13<hi rend="italic">s</hi>. 3<hi rend="italic">d</hi>. (CD’s Account Book, Down House MS).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

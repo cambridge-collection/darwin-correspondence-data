@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6740">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Linnean Society, President and Council   10 May 1869</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3725</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6740 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6740.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6740.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS(A)</note>
+            <note type="physdesc" n="LS(A)">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Linnean Society of London (SP.57)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_238.xml">Linnean Society</repository>
+                    <collection>SP.</collection>
+                    <idno>57</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1869-05-10">10 May 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <orgName key="../nameregs/nameregs_238.xml">President and council, Linnean Society</orgName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Recommends publication of Mrs Barber’s paper on a rare case of fertilisation of a plant by one kind of insect alone, with access of others prevented by a mechanical obstacle [Mary Elizabeth Barber, "On the fertilisation and dissemination of <hi rend="italic">Duvernoia adhatodoides</hi>", <hi rend="italic">J. Linn. Soc. Lond. (Bot.)</hi> 11 (1869): 469–72].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">insect</term>
+                <term type="it" ref="#">Duvernoia adhatodoides</term>
+                <term type="it" ref="#">J. Linn. Soc. Lond. (Bot.)</term>
+                <term type="rx" ref="#">Barber, M. E. 1869</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">fertilisation and generation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">movements and habits of plants</term>
+                <term type="scientific_terms" ref="#">plant physiology</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">relation of organism to organism</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+                     
+<p rend="left">Report on M<hi rend="superscript">rs</hi> Barber’s paper.</p>
+<p>M<hi rend="superscript">rs</hi> Barber’s paper seems to me worth publishing, because the dependence of the fertilization of a plant on one kind of insects alone, though not an unknown case, is very rare.<ref target="#foot.f1"/> Nor has any instance been recorded, as far as I can remember, of the access of other insects, being prevented by a mechanical obstacle requiring strength to be overcome. All the figures would of course be desirable and ornamental, but It would quite suffice to give on wood two of the adjoining flowers, one with a bee entering and one without. The outline fig 4 should also be given, as this shews better than fig 1 the contracted tube. It would be well to give the outline fig 3. if anyone can explain to the artist the structure of the fold embracing the base of the pistil, which is not clear to me.<ref target="#foot.f2"/></p>
+<p>Charles Darwin <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">To the Pres. &amp; Council of Linnean Soc.</p>
+<p rend="left">Down. May 10<hi rend="superscript">th</hi>. 1869.—</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD refers to <ref target="../nameregs/nameregs_271.xml" resp="#mjhawkins">Mary Elizabeth Barber</ref>. See <ref target="./DCP-LETT-6734.xml" resp="#mjhawkins">letter from George Bentham, 7 May 1869</ref> and n. 4.</note>
+            <note xml:id="foot.f2">See <ref target="../bibliographies/bibl_351.xml" resp="#mjhawkins">Barber 1869</ref>, p. 470.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

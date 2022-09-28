@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5791">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Brodie Innes   16 January 1868</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8751</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5791 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5791.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5791.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl>Stecher (1961): 217</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 167: 14</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>167: 14</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2502.xml">Innes, J. B.</persName>
+                <placeName>Milton Brodie</placeName>
+                <date when="1868-01-16">16 Jan 1868</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends school subscription to CD as treasurer. Hopes Henrietta will assist in teaching there.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="people" ref="#">treasurer of Down school</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                
+                <term type="tag" ref="#darwin_and_church">Darwin And The Church</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Milton Brodie | Forres | N.B.</hi></placeName>
+                    <date>16<hi rend="superscript">th</hi>. Jan<hi rend="superscript">y</hi> 1868—</date>
+                    <salute>Dear Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I left you treasurer of the School, and hope you are still in office. I enclose cheque for my subscription for this year.<ref target="#foot.f1"/></p>
+<p>I hope Miss Darwin has carried out her laudable intention of giving some assistance in the Downe School.<ref target="#foot.f2"/> A lady’s presence is valuable in many ways. They teach so nicely are so patient and their very presence has such a civilizing effect on savage boys. M<hi rend="superscript">rs</hi>. Innes<ref target="#foot.f3"/> poor lady did what she could while at Downe and possibly I was enough of an old woman to approximate to the other sex by natural selection</p>
+<p>I hope Miss Etty may more than supply the lady’s place without any variation from her own place in creation.</p>
+<p>If you want mild weather you should come here instead of going to cold southern regions. We have had no snow, and the young folk are crying out there is no skating. I had a lot over here on Saturday last to disport themselves on a shallow piece of water, as no deep waters would bear. It rained before they left and we have had quite mild weather and occasional rain since</p>
+<p>M<hi rend="superscript">rs</hi>. Innes joins me in kindest regards to you and M<hi rend="superscript">rs</hi>. Darwin and your family</p>
+<p>Believe me Dear Darwin | Yours faithfully | J Brodie Innes.</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">When Innes left Down in 1862 to take up residence in Scotland, CD became treasurer of the National School for boys, which was supported by subscription (<ref target="../bibliographies/bibl_6375.xml" resp="#mjhawkins"><hi rend="italic">Post Office directory of the six home counties</hi></ref> 1866; <ref target="../bibliographies/bibl_5565.xml" resp="#mjhawkins">Moore 1985</ref>, p. 469).</note>
+            <note xml:id="foot.f2">The reference is to <ref target="../nameregs/nameregs_1225.xml" resp="#mjhawkins">Henrietta Emma Darwin</ref>.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_2501.xml" resp="#mjhawkins">Eliza Mary Brodie Innes</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

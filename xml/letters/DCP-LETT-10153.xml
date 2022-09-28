@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10153">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Lawson Tait   7 September [1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10900</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10153 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10153.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10153.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl>Shepherd (1982): 1386</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 178: 18</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>178: 18</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4653.xml">Tait, R. L.</persName>
+                <placeName>Birmingham</placeName>
+                <date when="1875-09-07">7 Sept [1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>RLT speculates on the "moral nature" of parental protection shown by humans and traces it back to its first occurrence in the animal world.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">maturity</term>
+                <term type="scientific_terms" ref="#">mind, cognitive behaviour</term>
+                <term type="scientific_terms" ref="#">parents</term>
+                <term type="scientific_terms" ref="#">relation of organism to organism</term>
+                <term type="scientific_terms" ref="#">social behaviour</term>
+                <term type="scientific_terms" ref="#">young, offspring</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">7, Great Charles St. | Birmingham.</hi></placeName>
+                    <date>Sep 7</date>
+                    <salute>My Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am engaged in working out a curious speculation as to the origin of the peculiarities of our moral nature, tracing them from the common origin of parental assistance to the young in the struggle for existence   I purpose making it the subject of my introductory lecture to my biology class next month.<ref target="#foot.f2"/></p>
+<p>Do you know of any earlier instances of parental protection than that of the stickleback?</p>
+<p>Spiders don’t?</p>
+<p>Nor ants?</p>
+<p>Anything above vertebrata?</p>
+<p>Yours ever, | Lawson Tait</p>
+<p>I dont think it so “hopeless to speculate” on this as you seemed to be when you wrote Chap III of “Descent of Man”.<ref target="#foot.f3"/> I think I see my way into the mist at least a short distance. My difficulty is to <hi rend="underline">unlearn</hi> enough!</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-10154.xml" resp="#mjhawkins">letter to Lawson Tait, 10 September [1875]</ref>.</note>
+            <note xml:id="foot.f2">Tait was a lecturer in physiology at the Midland Institute (<ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref>); no publication by him on this subject has been found.</note>
+            <note xml:id="foot.f3">In <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> 1: 80, CD had written, ‘With respect to the origin of the parental and filial affections, which apparently lie at the basis of the social affections, it is hopeless to speculate; but we may infer that they have been to a large extent gained through natural selection.’</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

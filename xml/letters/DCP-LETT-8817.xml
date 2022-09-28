@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8817">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To William Pengelly   19 March [1873]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13847</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8817 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8817.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8817.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="publication">
+                <bibl>Pengelly, Hester, 1897, p. 230</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Documenting History (dealers)  (1995)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_624.xml">Documenting History</repository> 
+                        <collection>8 June 2005</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Montague St, 16 Down letterhead</placeName>
+                <date when="1873-03-19">19 Mar [1873]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3738.xml">Pengelly, William</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks WP for his accounts of sagacity of dogs. "I can believe almost anything about them."</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">dogs</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">mind, cognitive behaviour</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi> [16 Montague Street, London.]</placeName>
+                    <date>March 19<hi rend="superscript">th</hi>.</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am much obliged to you for so kindly sending me the very curious account of the sagacity of Dogs.— I can believe almost any thing about them. You must forgive me for differing from you on one point, when you call yourself “an almost entire stranger”, for I at least have a lively &amp; very pleasant remembrance of seeing you some dozen years ago at Torquay.—<ref target="#foot.f2"/></p>
+<p>My dear Sir | Yours sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-8813.xml" resp="#mjhawkins">letter from William Pengelly, 17 March 1873</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-8813.xml" resp="#mjhawkins">letter from William Pengelly, 17 March 1873</ref>; CD had met Pengelly when the Darwins were staying in Torquay in July 1861 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 9, <ref target="./DCP-LETT-3215.xml" resp="#mjhawkins">letter to Charles Lyell, 20 July [1861]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

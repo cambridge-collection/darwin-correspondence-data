@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-13796">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Francis Darwin   [after 23 July 1874]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19825</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-13796 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-13796.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-13796.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 211: 9</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>211: 9</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1874-07-24" notAfter="1874-07-31">[after 23 July 1874]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1222.xml">Darwin, Francis</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Asks for a specimen of <hi rend="italic">Pinguicula</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Pinguicula</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>My dear F.</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>If you sh<hi rend="superscript">d</hi>. come across a healthy specimen of Pinguicula with fairly large leaves, please send it in little <hi rend="doubleUnderline">tin-box</hi>, with damp moss round roots.— I think that I tried the specimens before with too strong a solution.—<ref target="#foot.f2"/></p>
+<p>C. D</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date range is established by the reference to CD’s unsuccessful experiment on <hi rend="italic">Pinguicula vulgaris</hi> (the common butterwort), and by the date of <ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin’s</ref> visit to Switzerland (see n. 2, below).</note>
+            <note xml:id="foot.f2">In June and July 1874, CD carried out a series of experiments on several species of <hi rend="italic">Pinguicula</hi> (DAR 59.1: 33–119; <ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref>, pp. 368–94). On 1 July 1874, he placed some solution of phosphate of ammonia on the edge of a leaf of <hi rend="italic">P. vulgaris</hi> but it failed to induce any movement; CD speculated that the solution had been too strong (DAR 59.1: 102; <ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref>, pp. 375–6). <ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin</ref> found specimens of <hi rend="italic">Pinguicula</hi> while on honeymoon in Switzerland, where he travelled immediately following his marriage to <ref target="../nameregs/nameregs_1205.xml">Amy Ruck</ref> on 23 July 1874 (letter from H. E. Litchfield to Leonard Darwin, 24 July 1874 (DAR 251: 1604); see also <ref target="./DCP-LETT-9595.xml" resp="#mjhawkins">letter from Francis and Amy Darwin, 8 August [1874]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

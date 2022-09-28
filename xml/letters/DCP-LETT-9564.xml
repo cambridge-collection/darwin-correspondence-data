@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9564">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From E. E. Klein   24 July 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19290</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9564 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9564.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9564.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 57: 130v</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>57: 130v</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2716.xml">Klein, E. E.</persName>
+                <placeName>Brown Institution</placeName>
+                <date when="1874-07-24">24 July 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Gives details of the smallest micrococci distinctly discernible under a microscope.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">micrococci</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">physical ‘external’ characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00057-000-00268_files/8/0_0.jpg" width="3323px" height="6038px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00057-000-00268_files/11/1_1.jpg" width="3323px" height="6038px"/>
+        <surface xml:id="i1" n="130Vr">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00057-000-00268.jpg" rend="portrait" width="3323px" height="6038px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00057-000-00268_files/8/0_0.jpg" width="3323px" height="6038px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00057-000-00268.dzi" width="3323px" height="6038px"/>
+        </surface>
+</facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">The Brown Institution, | Wandsworth Road, S.W.</hi></placeName>
+                    <date>July 24, 1874.</date>
+                    <salute>Dear Mr. Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am afraid I cannot give you a direct answer to your question, but it may be perhaps of some value to you to know, that the smallest micrococci which are <hi rend="underline">distinctly</hi> discernable under a high power as 800 diam., and which micrococci belong to the smallest objects, are estimated to be 0<hi rend="superscript">.</hi>0005–0<hi rend="superscript">.</hi>0002 and less of a millimetre.<ref target="#foot.f1"/></p>
+<p>very sincerely yours | E. Klein.</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note><hi rend="italic">End of letter</hi>: ‘The specific gravity of the Phosphate is really 1<hi rend="superscript">.</hi>678’<ref target="#foot.f2"/> <hi rend="italic">ink</hi>, <hi rend="italic">enclosed in box blue crayon</hi></note>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD’s letter has not been found, but he evidently asked about sensitivity to minute amounts of a substance (see <ref target="./DCP-LETT-9535.xml" resp="#mjhawkins">letter to F. C. Donders, 7 July 1874</ref>). CD had observed that a very small amount of phosphate of ammonia applied to a gland of <hi rend="italic">Drosera rotundifolia</hi> (common or round-leaved sundew) caused the tentacle bearing the gland to inflect. CD had asked Donders for an analagous case of extreme sensitivity and would have asked Klein a similar question. In <ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref>, p. 173 n., CD referred to Klein’s information in his discussion of the sensitivity of glands of <hi rend="italic">Drosera</hi>. <hi rend="italic">Micrococcus</hi> is a genus of bacteria.</note>
+            <note xml:id="foot.f2">CD’s annotation relates to his question to <ref target="../nameregs/nameregs_1739.xml" resp="#mjhawkins">Edward Frankland</ref> about the specific gravity of phosphate of ammonia (see <ref target="./DCP-LETT-9559A.xml" resp="#mjhawkins">letter to Edward Frankland, 22 July 1874</ref> and n. 1).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

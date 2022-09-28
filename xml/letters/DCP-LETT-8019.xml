@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8019">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To A. C. Ramsay   19 October 1871</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17948</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8019 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8019.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8019.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 261.9: 9 (EH 88205982)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>261.9: 9 (EH 88205982)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1871-10-19">19 Oct 1871</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3922.xml">Ramsay, A. C.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks ACR for papers.</p>
+            <p>Glad present situation of our continents has been confirmed.</p>
+            <p>Wishes ACR would prove his view of origin of Red Sandstones, which many dispute.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="geology" ref="#">continents</term>
+                <term type="geology" ref="#">sandstone, red</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">origin</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>Oct 19. 1871</date>
+                    <salute>My dear M<hi rend="superscript">r</hi> Ramsay</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Many thanks for the papers.<ref target="#foot.f1"/> I read them with great interest in the Journal; &amp; was glad to find confirmed by good evidence what I had long imagined, viz the persistence of our continents where they now stand.<ref target="#foot.f2"/> I wish that you c<hi rend="superscript">d</hi> prove the truth of yr view about the red deposits; but I see that many dispute it.<ref target="#foot.f3"/></p>
+<p>I thought over the many regions which I have casually inspected &amp; cannot remember any formation like our New &amp; Old Red sandstones; &amp; this makes me think that there must be something very peculiar in their origin.<ref target="#foot.f4"/></p>
+<p>With all good wishes, pray believe me | yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD refers to Ramsay 1871a and 1871b; see <ref target="./DCP-LETT-8017.xml" resp="#mjhawkins">letter from A. C. Ramsay, 18 October 1871</ref> and n. 1.</note>
+            <note xml:id="foot.f2">CD had believed since the 1840s that the present geographical positions of the continents and oceans had remained relatively constant over geological history. This issue was of particular interest to CD because other naturalists, notably <ref target="../nameregs/nameregs_1680.xml" resp="#mjhawkins">Edward Forbes</ref>, had raised the possibility that the distribution of animals and plants across the Pacific could be explained by a former continent between the Americas and Asia. CD had discussed this issue many times in his correspondence, particularly with <ref target="../nameregs/nameregs_2357.xml" resp="#mjhawkins">Joseph Dalton Hooker</ref> and <ref target="../nameregs/nameregs_3051.xml" resp="#mjhawkins">Charles Lyell</ref>. See, for example, <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 6, <ref target="./DCP-LETT-1902.xml" resp="#mjhawkins">letter to Charles Lyell, 16 [June 1856]</ref>, and <ref target="./DCP-LETT-1904.xml" resp="#mjhawkins">letter to J. D. Hooker, 17–18 [June 1856]</ref>.</note>
+            <note xml:id="foot.f3">Ramsay argued in the two papers he had sent to CD that deposits that derived their red colour from iron were unlikely to have been formed in the open ocean: ‘it seems impossible that an oxide of iron could be deposited from solution in an open sea in sufficient quantity to colour sediments red’ (Ramsay 1871a, p. 191).</note>
+            <note xml:id="foot.f4">CD had examined the New Red Sandstone near his father’s house in Shropshire as a young man, while the purpose of his 1831 geological field trip with Adam Sedgwick had been to examine purported deposits of Old Red Sandstone in North Wales. See <ref target="../bibliographies/bibl_6678.xml" resp="#mjhawkins">Roberts 2001</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

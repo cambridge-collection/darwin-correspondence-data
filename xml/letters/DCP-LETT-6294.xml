@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6294">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Alfred Wrigley   28 July 1868</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">11132</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6294 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6294.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6294.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 181: 183</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>181: 183</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_5263.xml">Wrigley, Alfred</persName>
+                <placeName>Clapham Grammar School</placeName>
+                <date when="1868-07-28">28 July 1868</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Leonard Darwin is to enter Woolwich Military Academy.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1230">Darwin, Leonard</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="societal" ref="#">Woolwich Military Academy</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Grammar School, | Clapham. S.</hi></placeName>
+                    <date>July 28. | 1868</date>
+                    <salute>My dear M<hi rend="superscript">r</hi> Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I thank you for the letter expressing your satisfaction at Leonard’s success.<ref target="#foot.f1"/> The result is highly creditable to his abilities and diligent application. He will enter Woolwich in the best condition for securing ultimately the highest distinctions conferred by the Royal Militar〈y〉 Academy—for the place ha〈s〉 been won without the aid of Classics which cease, on the admission of a Candidate, t〈o〉 aid him with ‘marks’. The objects he must now aim at securing are “The Pollock Medal” and “First Engineer”.<ref target="#foot.f2"/></p>
+<p>On parting with Leonard I would express in strong terms my testimony to his docility and intelligence, his genial good-nature and uniform good conduct.</p>
+<p>I remain | My dear Sir | Yours faithfully | Alfred Wrigley <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin Esq<hi rend="superscript">re</hi>.</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD’s letter to Wrigley has not been found; however, see the <ref target="./DCP-LETT-6289.xml" resp="#mjhawkins">letter to Horace Darwin, 26 [July 1868]</ref> and n. 2.</note>
+            <note xml:id="foot.f2">The Royal Military Academy, Woolwich, was the training establishment for the Royal Engineers. The Pollock Medal was presented twice a year to the most distinguished cadet at Woolwich (<hi rend="italic">Memoir … to illustrate the origin and foundation of the Pollock Medal</hi> (Woolwich: Boddy and Co., Military Publishers, 1875)).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

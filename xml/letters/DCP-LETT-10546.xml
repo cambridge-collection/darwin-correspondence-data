@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10546">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To the editor of <hi rend="italic">The Times</hi><ref target="#foot.f1"/>   23 June 1876</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19926</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10546 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10546.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10546.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">TLS</note>
+            <note type="physdesc" n="TLS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">The Harry Ransom Center, The University of Texas at Austin (<hi rend="italic">The Times</hi> (London, England) collection MS 4238)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_414.xml">Texas</repository>
+                    <collection>(The Times (London, England) MS 4238)</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml" resp="high">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1876-06-23">23 June 1876</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4759.xml" resp="high">Times, The</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Forwards for publication an article by Dr Richardson [apparently not published] showing the necessity of experiments on living animals. Hopes it will make women, "who from the tenderness of their hearts and from their profound ignorance are the most vehement opponents of all such experiments", pause.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_3996">Richardson, B. W.</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <seg type="supplemental">To the Editor of the Times</seg>
+                    <salute><hi rend="smallCaps">sir,</hi></salute>
+                </opener>
+                <div type="transcription">
+                     
+<p><hi rend="smallCaps">as every one who is capable of forming a sound judgment on the subject is convinced that the relief of human suffering in future depends chiefly on the progress of physiology, i hope that you will find space in your columns for the enclosed</hi> article <hi rend="smallCaps">by dr. richardson, which has just appeared in “<hi rend="underline">nature</hi>”.<ref target="#foot.f2"/> the article shews in a practical manner, and more conclusively than anything that has been published elsewhere, the necessity of experiments on living animals. women, who from the tenderness of their hearts and from their profound ignorance are the most vehement opponents of all such experiments, will i hope pause when they learn that a</hi> few<ref target="#foot.f3"/> <hi rend="smallCaps">such experiments performed under the influence of anaesthetics, have saved and will save through all future time, thousands of women from a dreadful and lingering death. it is humiliating to reflect that those to whom mankind owe the deepest debt of gratitude should now be overwhelmed by falsehood and calumny</hi></p>
+<p><hi rend="smallCaps">i am, sir, | your obedient servant</hi> | Charles Darwin <lb resp="#mjhawkins"/></p>
+<p rend="left">Down, Beckenham</p>
+<p rend="left">June 23<hi rend="superscript">rd</hi>. 1876.</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The editor of <hi rend="italic">The Times</hi> was <ref target="../nameregs/nameregs_5503.xml" resp="#mjhawkins">John Thadeus Delane</ref>. This letter was written on a printing machine that printed only capitals, with manuscript alterations not in CD’s hand; it was not published in <hi rend="italic">The Times</hi>.</note>
+            <note xml:id="foot.f2">The first two parts of <ref target="../nameregs/nameregs_3996.xml" resp="#mjhawkins">Benjamin Ward Richardson’s</ref> seven-part report on animal experimentation were published in <hi rend="italic">Nature</hi> on 15 and 22 June 1876 (<ref target="../bibliographies/bibl_8945.xml" resp="#mjhawkins">B. W. Richardson 1876</ref>). They were not republished in <hi rend="italic">The Times</hi>. ‘Article’ has been interlined before ‘<hi rend="smallCaps">letter</hi>’, deleted. ‘<hi rend="smallCaps">nature</hi>’ has been underlined by hand, and the quotation marks were added by hand.</note>
+            <note xml:id="foot.f3">Interlined above ‘<hi rend="smallCaps">dozen</hi>’, deleted.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

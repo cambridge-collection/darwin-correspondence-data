@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6148">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To T. H. Huxley   [before 18 May 1868]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3305A</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6148 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6148.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6148.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Amem</note>
+            <note type="physdesc">Amem 1p</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 145: 251</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Imperial College of Science, Technology and Medicine Archives (Huxley 5: 373)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_192.xml">Imperial College</repository>
+                    <idno>Huxley 5: 373</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1809-01-01" notAfter="1868-05-17">[before 18 May 1868]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2486.xml">Huxley, T. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Questions on marmosets and the vocal organs of <hi rend="italic">Hylobates</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Hylobates</term>
+                <term type="animals" ref="#">marmosets</term>
+                <term type="scientific_terms" ref="#">communication</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">type and morphology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                </opener>
+                <div type="transcription">
+                     
+<p>Marmosets— cause of loss of post. molar.<ref target="#foot.f2"/></p>
+<p>Hylobates— males vocal organs most developed? Do not take much trouble— perhaps Blyth will know—<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter and the <ref target="./DCP-LETT-6180.xml" resp="#mjhawkins">letter from Edward Blyth, 18 May 1868</ref>.</note>
+            <note xml:id="foot.f2">In <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> 1: 26, CD commented that posterior molar or wisdom teeth seemed to be becoming rudimentary in ‘the more civilised races’ of humans, possibly owing to a change in diet, and that these teeth were smaller than the other molars in humans, chimpanzees, and orang-utans. Marmosets belong to the family Callitrichidae, the members of which have one fewer molar on each side of both jaws than most other primates (<ref target="../bibliographies/bibl_5918.xml" resp="#mjhawkins">Nowak 1999</ref>).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_498.xml" resp="#mjhawkins">Edward Blyth</ref> had mentioned the ‘voice’ of gibbons (<hi rend="italic">Hylobates</hi>) in his <ref target="./DCP-LETT-6089.xml" resp="#mjhawkins" cert="high">letter of [3 April 1868]</ref>. See <ref target="./DCP-LETT-6180.xml" resp="#mjhawkins">letter from Edward Blyth, 18 May 1868</ref> and n. 2.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

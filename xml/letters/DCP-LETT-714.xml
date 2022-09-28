@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-714">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. D. Hooker   [13 or 20 November 1843]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">2001</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-714 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-714.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-714.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">8pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 150: 1</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">LL</hi> 2: 21</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 2: 408</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 114: 1</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>114: 1</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                
+            <date xml:id="date1" when="1843-11-13" exclude="#date2">13 Nov 1843</date>
+            <date xml:id="date2" when="1843-11-20" exclude="#date1">20 Nov 1843</date>
+                <placeName>Down</placeName>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2357.xml">Hooker, J. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Congratulations on JDH’s safe return.</p>
+            <p>Henslow has sent CD’s S. American plants to JDH for examination.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_2235">Henslow, J. S.</term>
+                <term type="places" ref="#">America, S.</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">identification</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00001_files/8/0_0.jpg" width="3282px" height="5924px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00001_files/11/1_1.jpg" width="3282px" height="5924px"/>
+        <surface xml:id="i1" n="1r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00001.jpg" rend="portrait" width="3282px" height="5924px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00001_files/8/0_0.jpg" width="3282px" height="5924px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00001.dzi" width="3282px" height="5924px"/>
+        </surface>
+        <surface xml:id="i2" n="1v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00002.jpg" rend="portrait" width="3598px" height="5924px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00002_files/8/0_0.jpg" width="3598px" height="5924px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00002.dzi" width="3598px" height="5924px"/>
+        </surface>
+        <surface xml:id="i3" n="2r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00003.jpg" rend="portrait" width="3469px" height="6091px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00003_files/8/0_0.jpg" width="3469px" height="6091px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00003.dzi" width="3469px" height="6091px"/>
+        </surface>
+        <surface xml:id="i4" n="2v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00004.jpg" rend="portrait" width="3568px" height="6426px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00004_files/8/0_0.jpg" width="3568px" height="6426px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00004.dzi" width="3568px" height="6426px"/>
+        </surface>
+        <surface xml:id="i5" n="3r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00005.jpg" rend="portrait" width="3282px" height="5924px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00005_files/8/0_0.jpg" width="3282px" height="5924px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00005.dzi" width="3282px" height="5924px"/>
+        </surface>
+        <surface xml:id="i6" n="3v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00006.jpg" rend="portrait" width="3578px" height="5924px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00006_files/8/0_0.jpg" width="3578px" height="5924px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00006.dzi" width="3578px" height="5924px"/>
+        </surface>
+        <surface xml:id="i7" n="4r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00007.jpg" rend="portrait" width="3568px" height="6426px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00007_files/8/0_0.jpg" width="3568px" height="6426px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00007.dzi" width="3568px" height="6426px"/>
+        </surface>
+        <surface xml:id="i8" n="4v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00008.jpg" rend="portrait" width="3568px" height="6426px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00008_files/8/0_0.jpg" width="3568px" height="6426px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00001-000-00008.dzi" width="3568px" height="6426px"/>
+        </surface>
+    </facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down near Bromley | Kent</placeName>
+                    <date>Monday</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I had hoped before this time to have had the pleasure of seeing you &amp; congratulating you on your safe return from your long &amp; glorious voyage.<ref target="#foot.f1"/></p>
+<p>But as I seldom go to London, we may not yet meet for some time—without you are led to attend the Geological Meetings.</p>
+<p>I am anxious to know what you intend doing with all your materials—<ref target="#foot.f2"/> I had so much pleasure in reading parts of some of your letters, that I shall be very sorry if I, as one of the Public, have no opportunity of reading a good deal more.—<ref target="#foot.f3"/> I suppose you are very busy now &amp; full of enjoyment; how well I remember the happiness of my first few months of England—it was worth all the discomforts of many a gale— But I have run from the subject, which made me write, of expressing my pleasure that Henslow, (as he informed me a few days since by letter) has sent to you my small collection of plants— You cannot think how much pleased I am, as I feared they w<hi rend="superscript">d</hi> have been all lost &amp; few as they are, they cost me a good deal of trouble.— There are a very few notes, which I believe Henslow has got describing the habitats &amp;c of some few of the more remarkable plants.—<ref target="#foot.f4"/> I paid particular attention to the Alpine flowers of Tierra Del. &amp; I am sure I got every plant, which was in flower in Patagonia at the seasons, when we were there.— I have long thought that some general sketch of the Flora of that point of land, stretching so far into the southern seas, would be very curious.— Do make comparative remarks on the species allied to the Europæan species, for the advantage of Botanical Ignoramus’es like myself. It has always struck me as a curious point to find out, whether there are many Europæan genera in T. del Fuego, which are not found along the ridge of the Cordillera; the separation in such cases w<hi rend="superscript">d</hi> be so enormous.— Do point out in any sketch you draw up, what genera are American &amp; what Europæan &amp; how great the differences of the species, are, when the genera are Europæan, for the sake of the Ignoramuses.—</p>
+<p>I hope Henslow will send you my Galapagos Plants<ref target="#foot.f5"/> (about which Humboldt even expressed to me considerable curiosity)— I took much pains in collecting all I could,— A Flora of this archipelago would, I suspect, offer a nearly parallel case to that of St Helena, which has so long excited interest.<ref target="#foot.f6"/></p>
+<p>Pray excuse this long rambling note, &amp; believe me, my dear Sir | Yours very sincerely | C. Darwin</p>
+<p>Will you be so good as to present my respectful compliments to Sir W. Hooker.</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.2 Meetings] ‘s’ <hi rend="italic">added over full stop</hi></note>
+                    <note xml:id="tnote.n2">3.10 which … got 3.11] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n3">3.11 habitats] ‘s’ <hi rend="italic">added</hi></note>
+                    <note xml:id="tnote.n4">3.16 Europa+ean] <hi rend="italic">after del</hi> ‘British’</note>
+                    <note xml:id="tnote.n5">3.18 Europa+ean] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n6">4.3 nearly] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n7"><hi rend="italic">point omitted after</hi> : 4.1 ‘Humboldt’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Hooker was Assistant Surgeon on H.M.S. <hi rend="italic">Erebus</hi> and Botanist to <ref target="../nameregs/nameregs_4082.xml" resp="#mjhawkins">James Clark Ross’s</ref> Antarctic expedition (1839–43). He returned home in September 1843.</note>
+            <note xml:id="foot.f2">Ultimately published as <ref target="../bibliographies/bibl_3746.xml" resp="#mjhawkins">J. D. Hooker 1844–7</ref>, 1853–5, 1860.</note>
+            <note xml:id="foot.f3">CD read Hooker’s letters written to <ref target="../nameregs/nameregs_3052.xml" resp="#mjhawkins">Charles Lyell Sr</ref>, see <ref target="./DCP-LETT-664.xml" resp="#automat">letter to W. J. Hooker, 12 March [1843]</ref>. He may also have read some published extracts in <ref target="../bibliographies/bibl_3822.xml" resp="#mjhawkins">W. J. Hooker 1843</ref>.</note>
+            <note xml:id="foot.f4">CD–Henslow letters on the transfer of <hi rend="italic">Beagle</hi> plants have not been found, but letters from Henslow to J. D. Hooker on the transfer of CD’s plants survive in the collection of R. A. Hooker. CD’s plant notes were found by Mrs Rita I’Ons and Duncan Porter in the <ref target="../nameregs/nameregs_795.xml" resp="#mjhawkins">Cambridge University</ref> Herbarium in 1980 (see <ref target="../bibliographies/bibl_6348.xml" resp="#mjhawkins">D. M. Porter 1981</ref>).</note>
+            <note xml:id="foot.f5">Ultimately published as J. D. Hooker 1845 and 1846.</note>
+            <note xml:id="foot.f6">It was the endemic character of St Helena’s native species that excited CD. He had long been interested in the comparison of this island, located 1900km from Africa, with the Galápagos. See <ref target="../bibliographies/bibl_5907.xml" resp="#mjhawkins"><hi rend="italic">Notebook C</hi></ref>: 184e.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

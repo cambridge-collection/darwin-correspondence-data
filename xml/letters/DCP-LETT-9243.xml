@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9243">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From H. T. Stainton   15 January 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1230</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9243 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9243.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9243.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc">ACC 1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Natural History Museum, Library and Archives (General Manuscripts MSS DAR 25)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_288.xml">NHM</repository>
+                    <collection>General Manuscripts</collection>
+                    <idno>MSS DAR 25</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4514.xml">Stainton, H. T.</persName>
+                <placeName>unstated</placeName>
+                <date when="1874-01-15">15 Jan 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Encloses R. McLachlan’s certificate of nomination for Royal Society. Hopes CD will sign it, as McLachlan is the most philosophic member of the Entomological Society in years.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_3274">McLachlan, Robert</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">Entomological Society</term>
+                <term type="societal" ref="#">Royal Society of London</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <date>15.1.74</date>
+                    <salute>Charles Darwin Esq</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>M<hi rend="superscript">r</hi> R. M<hi rend="superscript">c</hi>Lachlan having determined to put up for the Royal Society I enclose his Certificate in hopes you may be willing to sign it.<ref target="#foot.f1"/></p>
+<p>He is by far the most philosophic Member of the Entomological Socy that has appeared in our ranks for many years.<ref target="#foot.f2"/></p>
+<p>Kindly return the Certificate to</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_3274.xml" resp="#mjhawkins">Robert McLachlan’s</ref> nomination certificate of 1874 was recorded in the minutes of an ordinary meeting of the <ref target="../nameregs/nameregs_4110.xml" resp="#mjhawkins">Royal Society of London</ref> held on 29 January 1874; CD was listed as having signed ‘from general knowledge’. The certificate itself has not been found. A later certificate dated 10 February 1876, also signed by CD but this time ‘from personal knowledge’, is in the archives of the Royal Society (Royal Society, GB 117, EC/1877/11). McLachlan was elected as a fellow on 7 June 1877.</note>
+            <note xml:id="foot.f2">McLachlan had been a member of the Entomological Society of London since 1858, and served as treasurer for the society between 1873 and 1875. He was also the first editor of the <hi rend="italic">Entomologist’s Monthly Magazine</hi> (<ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

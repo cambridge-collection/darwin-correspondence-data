@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1159">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Higgins   28 February [1848]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1960</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1159 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1159.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1159.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Lincolnshire Archives (HIG/4/2/1/11)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_237.xml">Lincolnshire RO</repository>
+                    <collection>Correspondence with John Higgins</collection>
+                    <idno>HIG/4/2/1/11</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1848-02-28">28 Feb [1848]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2279.xml">Higgins, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Arranges to pay subscription on 15 Feb and 16 Aug as requested by Mr Mason.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="people" ref="#subject_3204">Mason, H. P.</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Feb 28<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I have had a letter from M<hi rend="superscript">r</hi>. Mason, requesting me as a favour to pay my subscription half-yearly &amp; at the dates of the 16<hi rend="superscript">th</hi> of Feb. &amp; 16<hi rend="superscript">th</hi> of August.—<ref target="#foot.f1"/> Would you kindly do this for me.— Though on reflexion, I do not see, how you can earlier than Lady Day &amp; Michaelmas.<ref target="#foot.f2"/> Perhaps you will be so good as to pay as soon as you receive the Rent &amp; then it will be somewhere near the dates requested.</p>
+<p>I hope that you will excuse this trouble &amp; believe me, My dear Sir | Yours very faithfully | C. Darwin</p>
+<p>You can, if you like keep back 5£ next Lady Day &amp; thus pay as M<hi rend="superscript">r</hi> Mason requests.—</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.4 Lady Day] <hi rend="italic">after del</hi> ‘Michaelmas &amp;’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD subscribed £5 each year for the support of Beesby School (see CD’s Account Book and Investment Book (Down House MSS)). <ref target="../nameregs/nameregs_3204.xml" resp="#mjhawkins">Henry Payne Mason</ref>, rector of Beesby, was presumably responsible for collecting the subscriptions to Beesby School.</note>
+            <note xml:id="foot.f2">March 25, the day of the Annunciation of the Virgin Mary, and 10 October, which were two of the traditional ‘quarter-days’ of the business year, when rents were paid.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

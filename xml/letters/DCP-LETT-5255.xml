@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5255">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Murray   25 October [1866]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9509</idno>
+            
+            
+            
+            
+            <date when="2004">2004</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5255 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5255.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5255.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="14">14</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 339</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 339</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+                <placeName>London, Albemarle St, 50a</placeName>
+                <date when="1866-10-25">25 Oct [1866]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Under circumstances [reluctance of Ticknor &amp; Fields to compete with Appleton], best course is to offer Appleton the 250 copies [of 4th English edition of <hi rend="italic">Origin</hi>].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="it" ref="#">Origin</term>
+                <term type="societal" ref="#">Appleton’s</term>
+                <term type="societal" ref="#">Ticknor &amp; Fields</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">50<hi rend="superscript">A</hi> Albemarle S<hi rend="superscript">t</hi>. | W.</hi></placeName>
+                    <date>Oct 25</date>
+                    <salute>My Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Under the circumstances considering Mess. T &amp; F’s position the best course for me to pursue perhaps is to ask D Appletons Co. agent here if he is willing to take the 250 copies new Ed<hi rend="superscript">n</hi>. as proposed— if not agreed to we must trust to a certain demand for single copies from the US<ref target="#foot.f2"/></p>
+<p>Had I contemplated sending away 250 copies, I w<hi rend="superscript">d</hi> have printed more than 1250 for this Edit<hi rend="superscript">n</hi> <ref target="#foot.f3"/></p>
+<p>My Dear Sir | Yours very faithfully | John Murray</p>
+<p>I thank you for your kind &amp; considerate letter of Oct 20<ref target="#foot.f4"/> <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Ch Darwin Esq</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-5253.xml" resp="#mjhawkins">letter to John Murray, 23 October [1866]</ref>.</note>
+            <note xml:id="foot.f2">Murray refers to the American publishing firms <ref target="../nameregs/nameregs_4752.xml" resp="#mjhawkins">Ticknor &amp; Fields</ref> and <ref target="../nameregs/nameregs_135.xml" resp="#mjhawkins">D. Appleton &amp; Co</ref>. CD had conveyed <ref target="../nameregs/nameregs_1957.xml" resp="#mjhawkins">Asa Gray’s</ref> advice that Murray send copies of the fourth edition of <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref> for the American market (see <ref target="./DCP-LETT-5253.xml" resp="#mjhawkins">letter to John Murray, 23 October [1866]</ref> and n. 2).</note>
+            <note xml:id="foot.f3">According to the publisher’s ledger, 1500 copies of the fourth edition of <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref> were printed (see Peckham ed. 1959, p. 776).</note>
+            <note xml:id="foot.f4">No letter from CD bearing this date has been found.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

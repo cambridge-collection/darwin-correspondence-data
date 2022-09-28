@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4918">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Edward Cresy   18 October 1865</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16541</idno>
+            
+            
+            
+            
+            <date when="2002">2002</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4918 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4918.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4918.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="13">13</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 161: 246</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>161: 246</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1113.xml">Cresy, Edward, Jr</persName>
+                <placeName>Metropolitan Board of Works</placeName>
+                <date when="1865-10-18">18 Oct 1865</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>How did CD handle his sons’ expenses at Cambridge?</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin family</term>
+                <term type="people" ref="#subject_707">Cresy, Edward</term>
+                <term type="people" ref="#subject_1224">Darwin, C. R.’s sons</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="societal" ref="#">University of Cambridge</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Metropolitan Board of Works | Spring Gardens</hi></placeName>
+                    <date>18 Oct ’65.</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Our chairman has been asking me what I thought would be a fair allowance to his son Harry at Cambridge to cover everything.<ref target="#foot.f1"/> He has hitherto paid college expenses, bills &amp;c himself, but Harry tells me his father from his antecedents has not the remotest idea of what is really necessary or unnecessary and the Chairman says he would much rather let Harry make his own arrangements if he knew what would be a proper &amp; reasonable sum to allow him— Carpmael tells me he pays the bills himself &amp; gives his son what he wants—<ref target="#foot.f2"/> It has occurred to me that having had the experience of two at Cambridge you would be able to arrive at a very sound conclusion on this knotty point—<ref target="#foot.f3"/> &amp; from what I have the pleasure of knowing of both of them, that neither would be extravagant or in any way likely to give a wrong result—</p>
+<p>I was very glad to see George &amp; hope he will look me up at Christmass.<ref target="#foot.f4"/></p>
+<p>I was very sorry to hear from him that your health was still so bad but hope you are improving again—<ref target="#foot.f5"/> I must apologise for giving you so much trouble but I know M<hi rend="superscript">rs</hi> Darwin or your daughter will kindly take pen in hand &amp; write the figures which you will advise them—<ref target="#foot.f6"/></p>
+<p>Yours very truly | E Cresy <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin Esq.</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_6869.xml" resp="#mjhawkins">John Thwaites</ref> was the chairman of the Metropolitan Board of Works (<ref target="../bibliographies/bibl_6380.xml" resp="#mjhawkins"><hi rend="italic">Post Office London directory</hi></ref> 1865). His son, <ref target="../nameregs/nameregs_6868.xml" resp="#mjhawkins">Henry John Bardwell Thwaites</ref>, matriculated at Trinity College, Cambridge, in October 1865 (<ref target="../bibliographies/bibl_144.xml" resp="#mjhawkins"><hi rend="italic">Alum. Cantab.</hi></ref>).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_841.xml" resp="#mjhawkins">William Carpmael</ref> was a civil engineer who worked with Cresy and whose son Ernest matriculated at St John’s College, Cambridge, in October 1863 (see <ref target="./DCP-LETT-4856.xml" resp="#mjhawkins">letter from Edward Cresy, 9 June 1865</ref>, n. 10).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_1245.xml" resp="#mjhawkins">William Erasmus Darwin</ref>, CD’s eldest son, received his BA degree from Christ’s College, Cambridge, in 1862; <ref target="../nameregs/nameregs_1224.xml" resp="#mjhawkins">George Howard Darwin</ref> matriculated at Trinity College in October 1864 (<ref target="../bibliographies/bibl_144.xml" resp="#mjhawkins"><hi rend="italic">Alum. Cantab.</hi></ref>).</note>
+            <note xml:id="foot.f4">CD had asked Cresy whether he would advise George on his future career (see <ref target="./DCP-LETT-4610.xml" resp="#mjhawkins">letter to Edward Cresy, 7 September [1865]</ref> and n. 2). George had tried to visit Cresy in September 1865, but found that he was away on holiday (see <ref target="./DCP-LETT-4892.xml" resp="#mjhawkins">letter from Edward Cresy, 10 September 1865</ref>).</note>
+            <note xml:id="foot.f5">For more on CD’s illness in 1865, see the <ref target="./DCP-LETT-4882.xml" resp="#mjhawkins">letter to Asa Gray, 15 August [1865]</ref> and n. 12, and Appendix IV.</note>
+            <note xml:id="foot.f6">Cresy refers to <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin</ref> and <ref target="../nameregs/nameregs_1225.xml" resp="#mjhawkins">Henrietta Emma Darwin</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

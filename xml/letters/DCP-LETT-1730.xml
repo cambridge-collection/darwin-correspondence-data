@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1730">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Robert Hunt   24 July 1855</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14885</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1730 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1730.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1730.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp †</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 262.28: 2</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 261.11: 18</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>261.11: 18</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2453.xml">Hunt, Robert</persName>
+                <placeName>Museum of Practical Geology</placeName>
+                <date when="1855-07-24">24 July 1855</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Informs CD which colours of glass accelerate germination, lignification, and floriation; advises CD on obtaining such glass and offers his help in any experiments.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fertilisation and generation</term>
+                <term type="scientific_terms" ref="#">flowers and buds</term>
+                <term type="scientific_terms" ref="#">plant physiology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Museum Pract<hi rend="superscript">l</hi> Geology | Jermyn S<hi rend="superscript">t</hi>.</placeName>
+                    <date>24<hi rend="superscript">th</hi> July 1855</date>
+                    <salute>My dear Sir.</salute>
+                </opener>
+                <div type="transcription">
+<p>the glasses which I sent you—are not those named in the Researches as the three—effective respectively in accelerating germination—lignification and floriation.<ref target="#foot.f1"/> For the former an <hi rend="underline">intense</hi> Cobalt blue glass is required—for the 2<hi rend="superscript">nd</hi>. a Silver Yellow—and for the 3<hi rend="superscript">rd</hi> a deep Copper Red. I mean the glasses should be of the fullest tint which those metals will give. If you would write M. Bontemps at Messrs Chance Brothers—Glass Works, Birmingham<ref target="#foot.f2"/> and state the Size—and the character of the glasses you desire to have, I have no doubt he would immediately send them you— You may use my name in writing.</p>
+<p>Unfortunately my duties will carry me out of Town this week—and I shall be absent for some time—but any letter sent to the Museum<ref target="#foot.f3"/> will be forwarded to me—and I shall have the greatest pleasure in aiding you to the utmost in your experiments— Since I am not likely to renew them for many years, if ever, I am much pleased to find them taken up by one so well able to investigate this interesting subject</p>
+<p>I am | My dear Sir | Yours most truly | Robert Hunt <lb resp="#mjhawkins"/> Ch<hi rend="superscript">s</hi> Darwin Esq<hi rend="superscript">r</hi></p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="" resp="#automat">letter from Robert Hunt, 19 July 1854</ref>. The three types of glass are described in <ref target="../bibliographies/bibl_3952.xml" resp="#mjhawkins">Hunt 1854</ref> as: blue glass to encourage germination (pp. 222–3); yellow glass to promote the formation of woody tissue (p. 229); and red glass to stimulate flowering (pp. 236–7).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_534.xml" resp="#mjhawkins">Georges Bontemps</ref>, who had fled from France for political reasons in 1848, initiated the manufacture of specialised optical glass at Robert Lucas and William Chance’s glassworks near Birmingham.</note>
+            <note xml:id="foot.f3">The School of Mines, at which Hunt lectured, was located in the Museum of Practical Geology.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10262">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Lawson Tait   16 November [1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10904</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10262 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10262.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10262.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 178: 23</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>178: 23</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4653.xml">Tait, R. L.</persName>
+                <placeName>Birmingham</placeName>
+                <date when="1875-11-16">16 Nov [1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Has extracted a highly deliquescent substance from digestive secretion of insectivorous plants.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">insectivorous plants</term>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="scientific_terms" ref="#">predators</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">7, Great Charles St. | Birmingham.</hi></placeName>
+                    <date>Nov<hi rend="superscript">r</hi>. 16</date>
+                    <salute>My Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Let me acknowledge your reference, with thanks for your thoughtfulness<ref target="#foot.f2"/></p>
+<p>I have had some correspondence with Prof Blackie &amp; asked him about my new substance. He made some ingenious suggestions, but the results were awkward and I prefer “Azerin” to any other word I can coin.<ref target="#foot.f3"/></p>
+<p>There is no doubt that this substance will be found in many places now that we know of its existence.</p>
+<p>It is very curious. A temp of 212<hi rend="superscript">o</hi> does not interfere with its properties, but alcohol does. It dries into a straw coloured substance, transparent, but as soon as you remove heat &amp; allow the access of air it absorbs very many times its bulk of water—probably over 30 or 40 times its bulk.</p>
+<p>Please do not answer this.</p>
+<p>Yours faithfully, | Lawson Tait.</p>
+<p>Winter has put a stop to my enquiries in many directions when I think there is much to be done.</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-10244.xml" resp="#mjhawkins">letter from Lawson Tait, 6 November [1875]</ref>.</note>
+            <note xml:id="foot.f2">CD’s letter has not been found.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_467.xml" resp="#mjhawkins">John Stuart Blackie</ref> was professor of Greek at <ref target="../nameregs/nameregs_1454.xml" resp="#mjhawkins">Edinburgh University</ref>. Tait wanted to name a substance that he believed he had isolated in the digestive fluid of insectivorous plants (see <ref target="./DCP-LETT-10244.xml" resp="#mjhawkins">letter from Lawson Tait, 6 November [1875]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1527">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. D. Fox   10 August [1853]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7085</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1527 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1527.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1527.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 144: 224</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">LL</hi> 1: 388</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 5: 151</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Christ’s College Library, Cambridge (MS 53 Fox 85)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_83.xml">CCLC</repository>
+                    <collection>MS 53</collection>
+                    <idno>Fox 85</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1853-08-10">10 Aug [1853]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1730.xml">Fox, W. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks WDF for writing so soon after his misfortunes, and again expresses sympathy.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin family</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Aug<hi rend="superscript">t</hi>. 10<hi rend="superscript">th</hi></date>
+                    <salute>My dear Fox</salute>
+                </opener>
+                <div type="transcription">
+<p>I thank you sincerely for writing to me so soon, after your most heavy misfortunes.<ref target="#foot.f1"/> Your letter affected me much. We both most truly sympathise with you &amp; M<hi rend="superscript">rs</hi>. Fox. We too lost, as you may remember, not so very long ago, a most dear child, of whom, I can hardly yet bear to think tranquilly;<ref target="#foot.f2"/> yet, as you must know from your own most painful experience,<ref target="#foot.f3"/> time softens &amp; deadens, in a manner truly wonderful, one’s feelings &amp; regrets. At first it is indeed bitter. I can only hope that your health &amp; that of poor M<hi rend="superscript">rs</hi> Fox may be preserved; &amp; that time may do its work softly, &amp; bring you all together, once again as the happy family, which, as I can well believe, you so lately formed.</p>
+<p>My dear Fox | Your affectionate friend | Charles Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.8 softly] <hi rend="italic">altered from</hi> ‘sofly’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The death of <ref target="../nameregs/nameregs_1723.xml" resp="#mjhawkins">Louisa Mary Fox</ref> on 29 July 1853 (see <ref target="./DCP-LETT-1526.xml" resp="#mjhawkins">letter to W. D. Fox, 29 [July 1853]</ref>).</note>
+            <note xml:id="foot.f2">Anne Elizabeth Darwin had died on 23 April 1851.</note>
+            <note xml:id="foot.f3">Fox had previously suffered the death of his first wife on 19 March 1842 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 2, letters to W. D. Fox, <ref target="./DCP-LETT-624.xml" resp="#mjhawkins">23 March [1842]</ref>, <ref target="./DCP-LETT-625.xml" resp="#mjhawkins">[31 March 1842]</ref>, and <ref target="./DCP-LETT-665.xml" resp="#mjhawkins">[25 March 1843]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

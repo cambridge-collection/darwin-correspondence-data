@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2235A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Frederick Smith   [before 9 March 1858]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20713</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2235A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2235A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2235A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc">Amem 2pp</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 7: 44–5</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR Pamphlet collection (bound with Smith, Frederick (a) 1854)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>Pamphlet collection (bound with Smith, Frederick (a) 1854)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1809-01-01" notAfter="1858-03-08">[before 9 Mar 1858]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4408.xml">Smith, Frederick (a)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Four queries regarding the habits of bees and ants with answers by FS interlined between each query.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">bees</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">habit</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Down]</placeName>
+                </opener>
+                <div type="transcription">
+<p>(1) In your work on Bees, you state that you have seen stray <hi rend="underline">workers</hi> inhabiting the nest of a distinct species.<ref target="#foot.f2"/> Have you ever seen a stray <hi rend="underline">fertile</hi> female <hi rend="underline">Bombus</hi> inhabiting the nest of other species?<ref target="#foot.f3"/></p>
+<p>(2) In Ants, which do not make slaves, have you ever seen stray workers of one species inhabiting the nest of another species?<ref target="#foot.f4"/></p>
+<p>(3) Do you believe that Formica sanguinea always &amp; invariably makes slaves; or is it only an occasional yet frequent instinct?<ref target="#foot.f5"/></p>
+<p>(4) In relation to the habit of F. nigra &amp; cunicularia, when acting as slaves to to F. rufescens, of feeding their masters, do you know whether F. nigra &amp; cunicularia actually feed their own Queens or males in their own nests? or do the Queens &amp; males of these species feed themselves on food brought by the workers?<ref target="#foot.f6"/></p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">3.1 makes] <hi rend="italic">after del</hi> ‘tak’</note>
+                    <note xml:id="tnote.n2">4.2 of feeding] ‘of’ <hi rend="italic">over</hi> ‘—’</note>
+                    <note xml:id="tnote.n3">4.2 masters] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n4">4.3 actually] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n5">4.4 of these species] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n6">4.4 themselves] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD evidently sent Smith this list of queries, which Smith answered and returned. The date is based on the inclusion of information from the memorandum in chapter 10 of CD’s species book (see n. 4, below). CD recorded the completion of the chapter on 9 March 1858 (‘Journal’; Appendix II).</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_7263.xml" resp="#mjhawkins">F. Smith 1855</ref>.</note>
+            <note xml:id="foot.f3">Smith wrote ‘<hi rend="doubleUnderline">never</hi>’ on the letter.</note>
+            <note xml:id="foot.f4">Smith wrote: ‘Not stray workers—there are communities of <hi rend="italic">Myrmica</hi> <hi rend="italic">nitidula</hi> &amp; <hi rend="italic">M. muscorum</hi> that live in harmony with Formica rufa I never saw stray workers in nests of <hi rend="italic">non-slavemaking</hi> species—’. CD included this information as a note to his discussion of slave-making ants (<ref target="../bibliographies/bibl_5799.xml" resp="#mjhawkins"><hi rend="italic">Natural selection</hi></ref>, p. 511n. 1).</note>
+            <note xml:id="foot.f5">Smith wrote: ‘I believe always I never myself met with a community without numbers of other species (say about eight in twenty)—no one has recorded any different habit—’.</note>
+            <note xml:id="foot.f6">Smith wrote: ‘This question I cannot answer—as I never saw slaves entering or issuing from the nests of their masters I am induced to believe they are employed in carry in the eggs brood &amp;c above or below in the nests as the temperature requires also in enlarging the nest &amp;c—the food of the community appears to be supplied by the workers of sanguinea alone—I have seen hundreds of them on young larch trees attending on a black swollen Aphis.’</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

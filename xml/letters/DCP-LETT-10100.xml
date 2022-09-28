@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10100">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From R. F. Cooke   29 July 1875</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9629</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10100 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10100.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10100.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 459</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 459</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent" subtype="personGrp">
+                <persName key="../nameregs/nameregs_1053.xml">Cooke, R. F.</persName>
+                <persName key="../nameregs/nameregs_2575.xml">John Murray, Publishers</persName>
+                <placeName>London, Albemarle St, 50a</placeName>
+                <date when="1875-07-29">29 July 1875</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends CD specimen pages, with two different type spacings, for <hi rend="italic">Climbing plants</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Climbing plants</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">movements and habits of plants</term>
+                <term type="societal" ref="#">John Murray, Publishers</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">50<hi rend="superscript">A</hi>, Albemarle S<hi rend="superscript">t</hi>. | W.</hi></placeName>
+                    <date>July 29. 187V</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I send you 2 pages as Specimens for the <hi rend="underline">Climbing Plants</hi>.<ref target="#foot.f1"/></p>
+<p><hi rend="underline">No 1</hi> is exactly the same page as <hi rend="underline">Insectivorous Plants</hi> &amp; will make 180 pages</p>
+<p><hi rend="underline">No 2</hi> is more spaced out &amp; will make 192 pp &amp; with the Index say 200 pp, &amp; we might if you liked space it out a little more.<ref target="#foot.f2"/></p>
+<p>Mess<hi rend="superscript">rs</hi>. Clowes<ref target="#foot.f3"/> are prepared to put on all speed directly we know which you decide upon.</p>
+<p>It is much better to use the same sized type for both works</p>
+<p>Yours faithfully | Rob<hi rend="superscript">t</hi>. Cooke <lb resp="#mjhawkins"/></p>
+<p rend="left">Cha<hi rend="superscript">s</hi>. Darwin Esq</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../bibliographies/bibl_1456.xml" resp="#mjhawkins">‘Climbing plants’</ref> was originally published in 1865 in the <hi rend="italic">Journal of the Proceedings of the Linnean Society.</hi> In his ‘Journal’ (Appendix II), CD recorded that he had finished ‘recorrecting’ <ref target="../bibliographies/bibl_1458.xml" resp="#mjhawkins"><hi rend="italic">Climbing plants</hi> 2d ed.</ref> on 29 March.</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_1458.xml" resp="#mjhawkins"><hi rend="italic">Climbing plants</hi> 2d ed.</ref> had 208 pages including the index.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_979.xml" resp="#mjhawkins">William Clowes &amp; Sons</ref> were the printers for the book.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

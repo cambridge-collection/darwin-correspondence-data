@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-939">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From G. B. Sowerby   [1846]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19524</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-939 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-939.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-939.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc">Amem 1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 43.1: 5</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>43.1: 5</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4480.xml">Sowerby, G. B., elder</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1846-01-01" notAfter="1846-12-31">[1846]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Note on editorial details concerning names of fossil shells [for <hi rend="italic">South America</hi>, appendix]. The Latin for "Darwin" is "Darvinius".</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">shells</term>
+                <term type="it" ref="#">South America</term>
+                <term type="scientific_terms" ref="#">fossils</term>
+                <term type="scientific_terms" ref="#">identification</term>
+                <term type="scientific_terms" ref="#">shells</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+<p>Note for M<hi rend="superscript">r</hi>. Darwin relative to his addition to Struthiolaria ornata App. p. 12.</p>
+<p>I see no objection to this addition being inserted, provided that the fact of M<hi rend="superscript">r</hi>. Cuming having found a living species of Struthiolaria at Arica be given on the authority of M<hi rend="superscript">r</hi>. Cuming himself and not on mine.<ref target="#foot.f1"/></p>
+<p>Mem: In my opinion the latin of Dar<hi rend="underline">w</hi>in is Dar<hi rend="underline">v</hi>inius—that of So<hi rend="underline">w</hi>erby— So<hi rend="underline">v</hi>erbius—as w is not a latin letter—M<hi rend="superscript">r</hi> Darwin must use his own discretion.<ref target="#foot.f2"/></p>
+<p>I percieve M<hi rend="superscript">r</hi> Darwin has altered the spelling of Nav<hi rend="underline">e</hi>dad to Nav<hi rend="underline">i</hi>dad— it is a subject with which I am entirely unacquainted &amp; only mention it for M<hi rend="superscript">r</hi> Darwin’s consideration.</p>
+<p>Trigonocelia p. 4. The observation may properly stand as it is.<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref>, p. 260, where Sowerby stated that this was ‘the only fossil species of this rare genus that he has seen’. <ref target="../nameregs/nameregs_1149.xml" resp="#mjhawkins">Hugh Cuming</ref> is not mentioned.</note>
+            <note xml:id="foot.f2">The forms <hi rend="italic">Darwinii</hi> and <hi rend="italic">Darwinianus</hi> are used in <ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref>. Sowerby named two species of shells after CD.</note>
+            <note xml:id="foot.f3"><ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref>, p. 252.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

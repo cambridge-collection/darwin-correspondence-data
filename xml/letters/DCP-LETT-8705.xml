@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8705">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From William Ogle   [after 5 May 1873]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10271</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8705 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8705.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8705.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 173: 7</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>173: 7</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3579.xml">Ogle, William</persName>
+                <placeName>Oxford and Cambridge Club</placeName>
+                <date notBefore="1873-05-05" notAfter="1882-12-12">[after 5 May 1873]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks for reference to Hermann Müller’s book on fertilisation [<hi rend="italic">Befruchtung der Blumen</hi> (1873)].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Befruchtung der Blumen</term>
+                <term type="rx" ref="#">Müller, Hermann 1873</term>
+                <term type="scientific_terms" ref="#">fertilisation and generation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Oxford &amp; Cambridge Club. | Pall Mall. S.W.</hi></placeName>
+                    <salute>Dear M<hi rend="superscript">r</hi>. Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Many thanks for your kindness in letting me know of Mullers book on Fertilisation.<ref target="#foot.f2"/> I will at once procure it. I fear however that the flowers of Italy and Switzerland will not hereafter come much in my way. I have been nominated Officer of Health in North Hertfordshire, and the duties of this post put an end to all pleasant trips in the mountains.<ref target="#foot.f3"/></p>
+<p>There is a passage in Aristotle’s Historia Animalium (viii. 13) which I think may be of interest to your son, in relation to the subject on which he wrote last week in Nature. Aristotle states that tunnies swim round the Black Sea from right to left, that is always keep the land on their right; and he says that some have supposed that this was explained by the right eye having more acute sight.<ref target="#foot.f4"/> Perhaps those familiar with Hare hunting might know whether a hare circles preferentially towards the left or not.<ref target="#foot.f5"/></p>
+<p>Believe me | Y<hi rend="superscript">rs</hi>. very sincerely | William Ogle.</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter and the <ref target="./DCP-LETT-8901F.xml" resp="#mjhawkins">letter to William Ogle, 5 May [1873]</ref>.</note>
+            <note xml:id="foot.f2">CD had recommended <ref target="../nameregs/nameregs_3069.xml" resp="#mjhawkins">Hermann Müller’s</ref> book on the fertilisation of plants by means of insects (<ref target="../bibliographies/bibl_5698.xml" resp="#mjhawkins">H. Müller 1873</ref>; see <ref target="./DCP-LETT-8901F.xml" resp="#mjhawkins">letter to William Ogle, 5 May [1873]</ref>).</note>
+            <note xml:id="foot.f3">In 1876, Ogle made botanical observations while visiting the Italian lakes (see Ogle trans. 1878, p. xi). Ogle served as medical officer for health for east Hertfordshire until 1879 (<ref target="../bibliographies/bibl_7612.xml" resp="#mjhawkins">Szreter 1996</ref>, p. 86 n. 39).</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_1224.xml" resp="#mjhawkins">George Howard Darwin</ref> published a brief note on humans’ tendency to walk in a circle to the left when lost or straying (see G. H. Darwin 1873a). The passage in Aristotle’s <hi rend="italic">History of animals</hi> 8.13.598b states that tunny fish swim into the Euxine (now the Black Sea) keeping to the right-hand shore, and out keeping to the left-hand shore; this movement is now attributed to their following anticyclonic currents. The fish that Aristotle referred to was <hi rend="italic">Thunnus thynnus</hi>, the common tunny, now known as the Atlantic bluefin tuna. Ogle’s interest in Aristotle culminated in his translation of <hi rend="italic">On the parts of animals</hi> in 1882 (see Ogle trans. 1882, p. vi).</note>
+            <note xml:id="foot.f5">Hare hunting or coursing with hounds was a popular sport in Victorian England; there were more than 150 coursing clubs (see Collins <hi rend="italic">et al.</hi> 2005, pp. 78–9, 144–5).</note>
+        </div>                
+    </body>
+    </text>
+</TEI>

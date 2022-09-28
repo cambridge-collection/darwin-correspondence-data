@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1569">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Adolf Wilhelm Hermann Kolbe   5 May [1847]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8349</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1569 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1569.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1569.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Herzog-August-Bibliothek Wolfenbüttel (Briefsammlung Viewig 346, 346a)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_648.xml">Herzog-August-Bibliothek Wolfenbüttel</repository>
+                    <collection>Briefsammlung Viewig</collection>
+                    <idno>346, 346a</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1847-05-05">5 May [1847]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2739.xml">Kolbe, A. W. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends parcel of specimens for R. W. Bunsen.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_726">Bunsen, R. W. E.</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough | Kent</placeName>
+                    <date>May 5<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>With this note, I send the parcel for Prof Bunsen, which you said you would be so good as to take to him.<ref target="#foot.f2"/> It has turned out rather larger than I anticipated, but I thought it best to send a pretty good suite of specimens.—<ref target="#foot.f3"/> I can hardly express how sorry I was to hear, upon my return home, that you had had the great trouble of coming here. I only hope that you had some other call to this neighbourhood.— I most sincerely regret that I was not at home to have had the pleasure of receiving you.—</p>
+<p>Pray believe me | Yours very faithfully | C. Darwin <lb resp="#mjhawkins"/> To | D<hi rend="superscript">r</hi>. H. Kolbe.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is based on Kolbe’s return to Germany in the spring of 1847 and on Robert Wilhelm Eberhard Bunsen’s known interest in volcanic rocks at this time. See nn. 2 and 3, below and <ref target="./DCP-LETT-1059.xml" resp="#mjhawkins">letter to Ernst Dieffenbach, 9 February [1847]</ref>.</note>
+            <note xml:id="foot.f2">Kolbe, a former student of Bunsen, had been working in London at the School of Mines under <ref target="../nameregs/nameregs_3802.xml" resp="#mjhawkins">Lyon Playfair</ref> (<ref target="../bibliographies/bibl_2160.xml" resp="#mjhawkins"><hi rend="italic">DSB</hi></ref>).</note>
+            <note xml:id="foot.f3">Volcanic specimens collected by CD on the Galápagos and Cape Verde Islands. After an expedition to Iceland and a visit to the recently erupted volcano Hekla, Bunsen wrote several articles on Icelandic volcanic phenomena in 1847 and 1848. Later he published articles on the effects of gases in the formation of volcanic rock, based in part on his analysis of some of CD’s specimens. See <ref target="../bibliographies/bibl_1074.xml" resp="#mjhawkins">Bunsen 1851</ref>, pp. 223–4, and especially <ref target="../bibliographies/bibl_1075.xml" resp="#mjhawkins">Bunsen 1853</ref>, a French translation of <ref target="../bibliographies/bibl_1074.xml" resp="#mjhawkins">Bunsen 1851</ref>, which includes an explicit acknowledgment of CD’s specimens (p. 290).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

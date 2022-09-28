@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5728">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Andrew Murray   13 December 1867</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10123</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5728 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5728.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5728.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 330</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 330</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3459.xml">Murray, Andrew</persName>
+                <placeName>London, Bedford Gardens, 67</placeName>
+                <date when="1867-12-13">13 Dec 1867</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Will return Federico Delpino’s two pamphlets soon.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1286">Delpino, Federico</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>67 Bedford G<hi rend="superscript">ns</hi> | Kensington</placeName>
+                    <date>13 Dec<hi rend="superscript">r</hi> 1867</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>You may be thinking that I sh<hi rend="superscript">d</hi>. have returned S<hi rend="superscript">r</hi>. Delpino’s two pamphlets ere now.—<ref target="#foot.f1"/> I have written a review or notice of both, but keep the pamphlets themselves until I see my MSS in type in case of further reference being needed   And I find that I will not have space for them in my first number— I shall get them into the second—so unless I hear that you wish the pamphlets sooner I shall retain them until they have served their purpose—<ref target="#foot.f2"/></p>
+<p>Believe me | Yours sincerely | And<hi rend="superscript">w</hi>. Murray</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had sent two papers by <ref target="../nameregs/nameregs_1286.xml" resp="#mjhawkins">Federico Delpino</ref> (Delpino 1867a and 1867b) for review in the <hi rend="italic">Journal of Travel and Natural History</hi>, which had been launched by Murray (see <ref target="./DCP-LETT-5629.xml" resp="#mjhawkins">letter from Andrew Murray, 16 September 1867</ref> and n. 2).</note>
+            <note xml:id="foot.f2">The review was published in the third number of the journal (Murray 1868).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

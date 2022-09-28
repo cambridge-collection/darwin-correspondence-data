@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11530">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Thomas Whitelegge   27 May 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">11062</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11530 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11530.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11530.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 181: 94</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>181: 94</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_5103.xml">Whitelegge, Thomas</persName>
+                <placeName>Ashton-under-Lyne</placeName>
+                <date when="1878-05-27">27 May 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Has found a few examples of <hi rend="italic">Ranunculus repens</hi> with stamens reduced as in <hi rend="italic">R. acris</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Ranunculus acris</term>
+                <term type="plants" ref="#">Ranunculus repens</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">physical ‘external’ characters</term>
+                <term type="scientific_terms" ref="#">plant physiology</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>58 Hillgate St | Hurst Brook | Ashton under Lyne</placeName>
+                    <date>May 27— 1878</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I forward you four Plants of Ranunculus <hi rend="underline">repens</hi>, with the corolla and stamens reduced as in R. acris, but not reduced so much as in the latter.<ref target="#foot.f1"/> I gathered them in Medlock Vale, about 3 miles east of Manchester. I only found five Plants in this condition all of which were growing within a space of about 2 feet square. I have searched very carefully both in the same feild and in about 10 others where R. repens is the principl plant growing therein but failed to find any more in the same condition, not even intermediate forms can I find, but only the usual Hermaphrodites, it appears to be Proterandrous. Perhaps it may in a state similar to that of Lathyrus nissolia— that is in the first stage, of a change.<ref target="#foot.f2"/></p>
+<p>I remain | Yours Truly | Tho<hi rend="superscript">s</hi> Whitelegg</p> 
+                </div>
+            </div>
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1"><hi rend="italic">Ranunculus repens</hi> is the creeping buttercup; <hi rend="italic">R. acris</hi> is the meadow buttercup. Whitelegge had sent CD plants of <hi rend="italic">R. acris</hi> as an example of a gynodioecious species (see <ref target="./DCP-LETT-11514.xml" resp="#mjhawkins">letter from Thomas Whitelegge, 16 May 1878</ref> and n. 1).</note>
+            <note xml:id="foot.f2">Proterandrous (now protandrous) flowers are hermaphrodite flowers in which the male parts mature before the female ones. In <ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref>, pp. 326–7, CD had remarked that <hi rend="italic">Lathyrus nissolia</hi> (grass vetchling) was apparently in the first stage of producing cleistogamic flowers. </note>
+        </div>      
+          
+    </body>
+    </text>
+</TEI>

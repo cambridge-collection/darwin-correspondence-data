@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-511A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Gideon Algernon Mantell   23 May 1839</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20361</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-511A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-511A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-511A.xml</ref>.</licence></availability>
+</publicationStmt>
+            <seriesStmt>
+                <title level="s">The Correspondence of Charles Darwin</title>
+                <biblScope unit="vol" n="02">2</biblScope>
+            </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="LS">1p</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 2: 192–3</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Alexander Turnbull Library, National Library of New Zealand (Mantell papers fMS-Papers-0083-465)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_424.xml">Turnbull</repository>
+                    <collection>Mantell papers</collection>
+                    <idno>fMS-Papers-0083-465</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Geological Society of London</placeName>
+                <date when="1839-05-23">23 May 1839</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3155.xml">Mantell, G. A.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Writes, as Secretary of the Geological Society, to thank GAM for his presents, a slab of anthracite with plant impressions (from Philadelphia) and some fossils from Cornwall.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">fossils</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Geological Society of London | Somerset House.</placeName>
+                    <date>23<hi rend="superscript">rd</hi> May 1839</date>
+                    <salute>Sir,</salute>
+                </opener>
+                <div type="transcription">
+                 
+<p>I am requested by the Geological Society to express their thanks for your present of Plants in Anthracite from Philadelphia, and Fossils from Cornwall<ref target="#foot.f1"/> and to assure you that the Society are much honored by this mark of consideration.</p>
+<p>I have the honour to be, | Sir, | Your most obedient and very humble Servant, | Charles Darwin | Secretary <lb resp="#mjhawkins"/> To Dr. Mantell</p>
+<p>F.G.S. etc.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Mantell presented a ‘Slab with impressions of plants from Philadelphia, and fossils from Cornwall’ to the Society on 22 May 1839 (<hi rend="italic">Transactions of the Geological Society</hi> 2d ser. 5 (1840), list of donations).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

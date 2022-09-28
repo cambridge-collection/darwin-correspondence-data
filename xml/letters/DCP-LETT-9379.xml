@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9379">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Phillips   31 March [1874]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">439</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9379 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9379.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9379.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.439)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>439</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1874-03-31">31 Mar [1874]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3773.xml">Phillips, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Regrets he cannot visit Oxford.</p> 
+<p>Comments on sketches in letter from JP [<hi rend="doubleUnderline">9360</hi>].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="b" ref="#">9360</term>
+                <term type="places" ref="#">Oxford</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Beckenham | Kent</placeName>
+                    <date>Mar 31</date>
+                    <salute>My dear Phillips</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very much obliged for your invitation, which I sh<hi rend="superscript">d</hi> have enjoyed beyond any thing to have accepted; but I can go nowhere, &amp; the journey to Oxford would nearly annihilate me—<ref target="#foot.f2"/></p>
+<p>Judging from your sketches<ref target="#foot.f3"/> it must be indeed a big theory which w<hi rend="superscript">d</hi> equal your fossils. I shall look out with intense curiosity for some published account of them.</p>
+<p>With very sincere thanks pray believe me | yours very truly | Ch. Darwin</p>
+<p>P.S I well remember the very pleasant hours, many years ago which I spent with you at York—<ref target="#foot.f4"/></p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-9360.xml" resp="#mjhawkins">letter from John Phillips, 14 March 1874</ref>.</note>
+            <note xml:id="foot.f2">Phillips had invited CD to see his specimen of the dinosaur <hi rend="italic">Cetiosaurus oxoniensis</hi>; Phillips was keeper of the University Museum in Oxford (<ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref>).</note>
+            <note xml:id="foot.f3">These sketches are in the <ref target="./DCP-LETT-9360.xml" resp="#mjhawkins">letter from John Phillips, 14 March 1874</ref>.</note>
+            <note xml:id="foot.f4">Phillips was keeper of the Yorkshire Museum from 1825 to 1840, and lived again in York between 1849 and 1853 (<ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref>). The only visit to York recorded in CD’s ‘Journal’ took place in October 1845 (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 3, Appendix II).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-2368" status="released">
+    <persName>
+        <forename type="preferred">Willielma</forename>
+        <forename>Dawson</forename>
+        <choice>
+            <seg><surname notBefore="1840" notAfter="1862">Hooker</surname></seg>
+            <seg><surname notBefore="1862" notAfter="1879">Campbell</surname></seg>
+        </choice>
+    </persName>
+    
+   <note type="dates"><date>1840–79</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of William Dawson Hooker, Joseph Dalton Hooker’s brother, and his wife Isabella Whitehead Hooker. Married James Campbell in 1862.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_117.xml" resp="#mjhawkins">Allan 1967</ref>.</p>
+    </note>
+    <note type="volume">10,27</note>
+    <note type="keywords">
+        <term type="name">Hooker, I. W.</term>
+        <term type="name">Hooker, W. D.</term>
+        <term type="name">Campbell, James (c)</term>
+    </note>
+</person>

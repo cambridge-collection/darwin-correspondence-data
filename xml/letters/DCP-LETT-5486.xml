@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5486">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Murray   4 April [1867]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8503</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5486 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5486.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5486.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">National Library of Scotland (John Murray Archive) (Ms.42153 ff. 32–33)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_278.xml">Murray Archive</repository>
+                    <idno>Ms.42153 ff.32-33</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1867-04-04">4 Apr [1867]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Asks JM not to send stereotypes [of <hi rend="italic">Variation</hi>] to Schweizerbart until he has heard that Carus will translate it.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Variation</term>
+                <term type="people" ref="#subject_849">Carus, J. V.</term>
+                <term type="scientific_terms" ref="#">instructions</term>
+                <term type="societal" ref="#">E. Schweizerbart’sche Verlagsbuchhandlung</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Ap. 4<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Many thanks.— Herr Schweizerbart is the man.— But please take <hi rend="underline">no</hi> steps about the stereotypes till you hear from me again; as I said to him I w<hi rend="superscript">d</hi>. not agree about Translation until I knew that a certain Prof. V. Carus w<hi rend="superscript">d</hi>. undertake this &amp; that I have not yet heard.<ref target="#foot.f2"/></p>
+<p>My dear Sir | Yours sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the letter to E. Schweizerbart’sche Buchhandlung, [19 March 1867].</note>
+            <note xml:id="foot.f2">The letter to which this is a reply has not been found, but evidently concerned the German translation of <hi rend="italic">Variation.</hi> CD had offered to send clean proof-sheets of <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> to the German publisher <ref target="../nameregs/nameregs_4245.xml" resp="#mjhawkins">Christian Friedrich Schweizerbart</ref> on condition that the translation was made by <ref target="../nameregs/nameregs_849.xml" resp="#mjhawkins">Julius Victor Carus</ref>, and had advised Schweizerbart to negotiate with Murray about stereotypes of the illustrations (see letter to E. Schweizerbart’sche Buchhandlung, [19 March 1867]). Schweizerbart wrote to CD on 22 March 1867 accepting his terms and saying that he had written to Carus to ask whether he would accept the commission.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

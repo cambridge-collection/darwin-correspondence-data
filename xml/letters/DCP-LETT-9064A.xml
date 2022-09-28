@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9064A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Edward Frankland   23 September 1873</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20652</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9064A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9064A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9064A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">The John Rylands Library, The University of Manchester</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_371.xml">Rylands</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1873-09-23">23 Sept 1873</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1739.xml">Frankland, Edward</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Will follow EF’s suggestions as to securing purity of fibrin.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>Sep 23. 1873</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Many thanks for your renewed kindness. I have written to Dr Moore to ask him to prepare some fibrin for me &amp; to test its purity from Hydro chloric acid &amp; all salts. As he has been accustomed to prepare animal compounds, I sh<hi rend="superscript">d</hi> think he might be quite trusted. I told him that you were going to test for the acid.<ref target="#foot.f1"/></p>
+<p>I procured doubly distilled water from Mess<hi rend="superscript">rs</hi> Hopkins &amp; Williams.<ref target="#foot.f2"/> It is not free from particles when viewed in a strong light, &amp; when evaporated, leaves a little residue. I put a drop on a glass plate &amp; added a little weak nitrate of silver, &amp; I could see no trace of a cloud, so I hope it is sufficiently pure.<ref target="#foot.f3"/></p>
+<p>As soon as I get the fibrin I will set to work with the leaves.</p>
+<p>Yours sincerely obliged | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-9062.xml" resp="#mjhawkins">letter from Edward Frankland, 22 September 1873</ref>. CD’s letter to <ref target="../nameregs/nameregs_6370.xml" resp="#mjhawkins">Samuel William Moore</ref> has not been found, but he had already received casein from Moore (see <ref target="./DCP-LETT-9061A.xml" resp="#mjhawkins">letter to Edward Frankland, 21 September [1873]</ref>).</note>
+            <note xml:id="foot.f2">Hopkin &amp; Williams was a firm of manufacturing chemists with premises at 10 New Cavendish Street, London (<ref target="../bibliographies/bibl_6380.xml" resp="#mjhawkins"><hi rend="italic">Post Office London directory</hi></ref> 1872).</note>
+            <note xml:id="foot.f3">Silver nitrate reacts with chlorides in water to form a cloudy white precipitate (silver chloride).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

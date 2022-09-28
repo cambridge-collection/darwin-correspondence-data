@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6836A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. B. Dawkins   19 July [1869]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20411</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6836A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6836A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6836A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">incomplete<ref target="#foot.f4"/></note>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Phillips, Son and Neale (dealers) (24 October 1985)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_323.xml">Phillips</repository>
+                    <collection>24 Oct 1985</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml" resp="high">Darwin, C. R.</persName>
+                <placeName>Caerdeon</placeName>
+                <date when="1869-07-19">19 July [1869]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1262.xml" resp="high">Dawkins, W. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Admits that he had disobeyed his instructions and dispatched a box of bones to him by rail. Gives an account of the discovery of the bones at Perth y Chwaril on the Rhagatt estate. He has promised Miss Lloyd to obtain from WBD the English names of the principal bones.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term ref="#">Other people</term>
+                <term type="languages" ref="#">English</term>
+                <term type="people" ref="#subject_2965">Lloyd, M. C.</term>
+                <term type="places" ref="#">Perth y Chwaril</term>
+                <term type="places" ref="#">Rhagatt estate</term>
+                <term type="scientific_terms" ref="#">identification</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+                <term type="societal" ref="#">rail</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Caerdeon, Barmouth, North Wales</placeName>
+                    <date>19 July</date>
+                </opener>
+                <div type="transcription">
+                     
+<p>[… admitting that he had disobeyed his instructions and dispatched a box of bones to him by rail, giving an account of the discovery of the bones at Perth y Chwaril on the Rhagatt estate<ref target="#foot.f2"/> and his promise to Miss Lloyd<ref target="#foot.f3"/> to obtain from Dawkins the English names of the principal bones, with postscript and emendation in text in another hand outlining details to journey to Rhagatt.]</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-6834.xml" resp="#mjhawkins">letter from W. B. Dawkins, 17 July 1869</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-6834.xml" resp="#mjhawkins">letter from W. B. Dawkins, 17 July 1869</ref> and n. 2. The bones were found on land belonging to the farm of Perthichwareu in Iâl, part of the Rhagatt estate (<ref target="../bibliographies/bibl_4966.xml" resp="#mjhawkins">Lucas 2007</ref>, pp. 320, 325).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_2965.xml" resp="#mjhawkins">Mary Charlotte Lloyd</ref> was the daughter of the owner of Rhagatt, Edward Lloyd. Her brother, <ref target="../nameregs/nameregs_6195.xml" resp="#mjhawkins">John Lloyd</ref>, who succeeded their father, was also dead by this stage (d. 1865) and the estate was controlled by her sister-in-law, Gertrude Lloyd, during the minority of <ref target="../nameregs/nameregs_6195.xml" resp="#mjhawkins">John Lloyd’s</ref> nephew, another Edward, who succeeded in 1878 (see <ref target="../bibliographies/bibl_1596.xml" resp="#mjhawkins"><hi rend="italic">County families</hi></ref>).</note>
+            <note xml:id="foot.f4">The original letter is complete and is described in the sale catalogue as being three-and-a-half pages long.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

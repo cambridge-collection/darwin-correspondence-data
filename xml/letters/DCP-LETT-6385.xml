@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6385">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Murray   22 September [1868]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9531</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6385 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6385.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6385.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 361</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 361</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+                <placeName>London, Albemarle St, 50a</placeName>
+                <date when="1868-09-22">22 Sept [1868]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Lost copy of <hi rend="italic">Variation</hi> sent to B. D. Walsh has been traced as far as New York.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Variation</term>
+                <term type="people" ref="#subject_4944">Walsh, B. D.</term>
+                <term type="places" ref="#">New York</term>
+                <term type="scientific_terms" ref="#">variation</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">50<hi rend="superscript">A</hi>, Albemarle S<hi rend="superscript">t</hi>. | W.</hi></placeName>
+                    <date>Sept. 22</date>
+                    <salute>My Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am glad to tell you that the blame I had taken on me for the non-delivery of Mr Walshs copy is not due to me. After assuring myself that Baillière could not despatch it it was placed in the hands of M<hi rend="superscript">r</hi> Sampson Low, whose note enclosed will explain its subsequent fortunes as far as New York<ref target="#foot.f2"/></p>
+<p>I hope Mr Walsh has received it before this— at any rate I will not rest until it reaches him</p>
+<p>Yours very faithfully | John Murray <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Chas Darwin Esq</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-6376.xml" resp="#mjhawkins">letter from John Murray, 18 September [1868]</ref>.</note>
+            <note xml:id="foot.f2">Murray refers to <ref target="../nameregs/nameregs_4944.xml" resp="#mjhawkins">Benjamin Dann Walsh</ref> and <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> (see <ref target="./DCP-LETT-6369.xml" resp="#mjhawkins">letter to John Murray, 16 September [1868]</ref>, and <ref target="./DCP-LETT-6376.xml" resp="#mjhawkins">letter from John Murray, 18 September [1868]</ref>). The enclosure has not been found.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

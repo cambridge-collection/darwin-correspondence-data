@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-598A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From W. C. Redfield    May 1841</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20599</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-598A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-598A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-598A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Copy</note>
+            <note type="physdesc" n="CC"/>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 7: 471–2</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Yale University: Beinecke Rare Book and Manuscript Library (William C. Redfield’s outbound letter book 1835–41 (z117 00151 2) p. 239)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_480.xml">Yale Beinecke</repository>
+                    <collection>Letters to William C. Redfield (z117 00151 2)</collection>
+                    <idno>p. 239</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3954.xml">Redfield, W. C.</persName>
+                <placeName>New York</placeName>
+                <date notBefore="1841-05-01" notAfter="1841-05-31">May 1841</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Is sending through John Blunt a copy of the last geological report of the state of New York along with a short paper on the tornado that passed through the state of New Jersey in June 1835.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#">Blunt, John</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">wind and weather</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Newyork</placeName>
+                    <date>May 1841</date>
+                    <seg type="supplemental">To Charles Darwin Esqe</seg><seg type="supplemental">Sec. Geol. Soc. London. 12 Gower St</seg>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>This will be handed you by my friend John Blunt Esqe of this city, who I beg leave to recommend to your acquaintance<ref target="#foot.f1"/></p>
+<p>Mr Blunt has kindly offered to hand over to you a copy of the last geological report made under the authority of of the state of Newyork.<ref target="#foot.f2"/> It is less ample than the previous reports of progress which have been made in the course of the survey, and will probably be succeeded in the course of next year by the full and final report.</p>
+<p>The late meeting of the Association of American geologists held at Philadelphia on the first week in April was attended with a fine spirit and feelings of deep interest on the part of its members. Some expectation had been indulged by gentlemen engaged in the surveys of our extensive Silurian formations, of meeting with Mr Murchison on this occasion.<ref target="#foot.f3"/></p>
+<p>I venture to send you also a few copies of my short paper on the tornado which passed across the State of New Jersey in June 1835; being nearly the same as published in the January number of the Lond. and Ed. Phil. Magazine.<ref target="#foot.f4"/> As this tornado was, by experienced seamen who saw it pronounced to be a veritable <hi rend="underline">water spout</hi>, I have thought that a set of determinate observations upon its whirling action might not be unacceptable to some of your naval or scientific friends. I have on hand several other cases of this kind which have not been printed.</p>
+<p>I am dear sir very respectfully yours | W<hi rend="superscript">m</hi>. C. Redfield</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Possibly a member of the Blunt family that owned a publishing company in New York specialising in naval shipping charts. Redfield’s meteorological work led him to advocate reforms in shipping technology.</note>
+            <note xml:id="foot.f2">Several numbers from the series ‘Communications from the governor concerning the geological survey of the state’ of New York, some of which were inscribed by Redfield, are in DAR 136 and 137.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_3453.xml" resp="#mjhawkins">Roderick Impey Murchison</ref> had published his <hi rend="italic">Silurian system</hi> in 1839 (<ref target="../bibliographies/bibl_5726.xml" resp="#automat" cert="low">R. I. Murchison 1839</ref>).</note>
+            <note xml:id="foot.f4"><ref target="../bibliographies/bibl_6573.xml" resp="#automat" cert="low">Redfield 1841</ref>. Redfield sent CD a copy of an earlier work on whirlwinds (Redfield 1839), in which CD had been much interested (see <hi rend="italic">Correspondence</hi> vol. 2, <ref target="./DCP-LETT-556.xml" resp="#automat">letter to W. C. Redfield, 24 February [1840]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

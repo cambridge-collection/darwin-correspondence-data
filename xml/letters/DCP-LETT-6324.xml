@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6324">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. D. Hooker   19 August 1868</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3709</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6324 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6324.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6324.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl>Linroth (1948): 153</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Lund University Library Special Collections (Sven Nilsson papers)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_247.xml">Lund</repository>
+                    <collection>Sven Nilsson papers</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Freshwater Down letterhead</placeName>
+                <date when="1868-08-19">19 Aug 1868</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2357.xml">Hooker, J. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks JDH to obtain from Sven Nilsson information on whether, in reindeer species in which both sexes are horned, the horns are first developed earlier or later than in species in which males alone have horns.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">reindeer</term>
+                <term type="people" ref="#subject_3532">Nilsson, Sven</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">sex differences</term>
+                <term type="scientific_terms" ref="#">time and age (‘organic’ time)</term>
+                <term type="scientific_terms" ref="#">type and morphology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley | Kent [Freshwater]</placeName>
+                    <date>Aug 19 1868</date>
+                    <salute>My dear Hooker</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I dare say you c<hi rend="superscript">d</hi> find some naturalist who c<hi rend="superscript">d</hi> obtain for me from Professor Nillson<ref target="#foot.f1"/> a little piece of information.</p>
+<p>It is whether with the Reindeer in which both sexes are horned, are the horns <hi rend="underline">first</hi> developed (or are they developed in a greater degree) at an earlier or later age, or at nearly the same period of life as with all other deer, in which the males alone have horns?<ref target="#foot.f2"/></p>
+<p>The comparison w<hi rend="superscript">d</hi> be fairest with species of nearly the same size &amp; inhabiting the same climate.</p>
+<p>If Prof. Nillson does not know, w<hi rend="superscript">d</hi> it be possible to interest him enough to obtain for me in his own country this piece of information about which I am very curious.</p>
+<p>Believe me | yours very sincerely | Charles Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_3532.xml" resp="#mjhawkins">Sven Nilsson</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-6517.xml" resp="#mjhawkins">letter from Sven Nilsson, 31 December 1868</ref> and n. 3.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

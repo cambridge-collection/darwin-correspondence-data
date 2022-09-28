@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3121">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From P. L. Sclater   17 April 1861</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9065</idno>
+            
+            
+            
+            
+            <date when="1994">1994</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3121 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3121.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3121.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="09">9</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 205.3: 292</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>205.3: 292</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4251.xml">Sclater, P. L.</persName>
+                <placeName>Zoological Society</placeName>
+                <date when="1861-04-17">17 Apr 1861</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Corrects CD’s statement [<hi rend="italic">Origin</hi>, 3d ed.] that Madeira does not possess one peculiar bird. There is one, out of the 99.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">bird</term>
+                <term type="it" ref="#">Origin</term>
+                <term type="places" ref="#">Madeira</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">isolation, islands</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Zoological Society of London, | 11, Hanover Square, | London, W.</hi></placeName>
+                    <date>April 17<hi rend="superscript">th</hi> <hi rend="print">18</hi>61</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>In p. 422 of your new edition you say “Madeira does not possess one peculiar bird”—<ref target="#foot.f1"/> This is not quite the fact. Out of the 99 birds given by M<hi rend="superscript">r</hi> Vernon Harcourt in Ann. N.H. June 1855 as belonging to its Fauna <hi rend="underline">one</hi>—<hi rend="underline">Regulus maderensis</hi> is peculiar— it is of course an altered form of <hi rend="underline">R. auricapillus</hi>.<ref target="#foot.f2"/> Three others <hi rend="underline">Fringilla canariensis</hi>, <hi rend="underline">Cypselus unicolor</hi> and <hi rend="underline">Columba trocaz</hi> if not peculiar are distinct from European species and only found elsewhere in the Canaries— I am not aware that Cyps. <hi rend="underline">unicolor</hi> has been met with even there.</p>
+<p>Very faithfully Your’s | P. L. Sclater</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note><hi rend="italic">Top of first page</hi>: ‘19’<ref target="#foot.f3"/> <hi rend="italic">red crayon, circled red crayon</hi>; ‘&amp; Origin’<ref target="#foot.f4"/> <hi rend="italic">red crayon</hi></note>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">This statement in the third edition of <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref> was unchanged from the first edition (<ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>, p. 391).</note>
+            <note xml:id="foot.f2">CD included this information in <ref target="../bibliographies/bibl_6017.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 4th ed.</ref>, p. 465: <quote type="quote"> Almost every year, I am informed by Mr. E. V. Harcourt, many European and African birds are blown to Madeira; this island is inhabited by 99 kinds, of which one alone is peculiar, though very closely related to a European form; </quote> The reference is to <ref target="../nameregs/nameregs_2102.xml" resp="#mjhawkins">Edward William Vernon Harcourt</ref>, with whom CD had corresponded on this topic in 1856 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 6, <ref target="./DCP-LETT-1883.xml" resp="#automat">letter from E. W. V. Harcourt, 31 May 1856</ref>, and letters to E. W. V. Harcourt, <ref target="./DCP-LETT-1451.xml" resp="#mjhawkins">19 August [1856]</ref> and <ref target="./DCP-LETT-4598.xml" resp="#mjhawkins">23 August [1856]</ref>). An annotated copy of Harcourt’s paper on the ornithology of Madeira (<ref target="../bibliographies/bibl_3353.xml" resp="#mjhawkins">Harcourt 1855</ref>) is in the Darwin Pamphlet Collection–CUL. <hi rend="italic">Regulus madeirensis</hi> (‘maderensis’ is a misspelling) is the Madeira firecrest; <hi rend="italic">R. auricapillus</hi> is a synonym of <hi rend="italic">R. regulus</hi>, the goldcrest.</note>
+            <note xml:id="foot.f3">The number of CD’s portfolio of notes on the geographical distribution of animals.</note>
+            <note xml:id="foot.f4">See n. 2, above.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

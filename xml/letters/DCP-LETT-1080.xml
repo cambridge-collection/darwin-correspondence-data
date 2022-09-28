@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1080">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. D. Hooker   15 [July 1847]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">2314</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1080 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1080.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1080.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp &amp; C</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 150: 77</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 4: 54</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 114: 101</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>114: 101</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1847-07-15">15 [July 1847]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2357.xml">Hooker, J. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Must look after his wife, so is unable to come to visit.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin family</term>
+                <term type="people" ref="#subject_1218">Darwin, Emma</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00101-000-00001_files/8/0_0.jpg" width="3332px" height="6059px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00101-000-00001_files/11/1_1.jpg" width="3332px" height="6059px"/>
+        <surface xml:id="i1" n="1r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00101-000-00001.jpg" rend="portrait" width="3332px" height="6059px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00101-000-00001_files/8/0_0.jpg" width="3332px" height="6059px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00101-000-00001.dzi" width="3332px" height="6059px"/>
+        </surface>
+        <surface xml:id="i2" n="1v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00101-000-00002.jpg" rend="portrait" width="3332px" height="6059px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00101-000-00002_files/8/0_0.jpg" width="3332px" height="6059px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00101-000-00002.dzi" width="3332px" height="6059px"/>
+        </surface>
+        <surface xml:id="i3" n="2r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00101-000-00003.jpg" rend="portrait" width="3332px" height="6059px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00101-000-00003_files/8/0_0.jpg" width="3332px" height="6059px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00101-000-00003.dzi" width="3332px" height="6059px"/>
+        </surface>
+        <surface xml:id="i4" n="2v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00101-000-00004.jpg" rend="portrait" width="3332px" height="6059px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00101-000-00004_files/8/0_0.jpg" width="3332px" height="6059px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00114-00101-000-00004.dzi" width="3332px" height="6059px"/>
+        </surface>
+    </facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Thursday 15<hi rend="superscript">th</hi></date>
+                    <salute>My dear Hooker</salute>
+                </opener>
+                <div type="transcription">
+<p>I grieve to say that I cannot come &amp; most heartily do I regret it, as I had set my heart on this lark.</p>
+<p>My sister-in-law<ref target="#foot.f2"/> is obliged to go to London tomorrow for two or three days &amp; if I left home my poor wife would be lying in bed two whole days with nobody to look after or amuse her;<ref target="#foot.f3"/> so, though she wants me, I will not leave home. It is very vexatious, as there is so much I want to talk over with you, &amp; I have for years wished to see the D. of D<hi rend="superscript">s</hi>. gardens.—<ref target="#foot.f4"/></p>
+<p>If Henslow is with you, remember me most kindly to him &amp; say how I regret my forced absence.— In the course of a fortnight or so, I will propose myself, if you will let me, to come &amp; stay a night with you.— I am truly glad that your affairs wear a more prosperous air, &amp; I cannot but think it must have been better for all parties, your communicating, as you first intended, with Henslow. When you have a bit of leisure, do send me ever so short a note about the conference.<ref target="#foot.f5"/> I really grieve over my disappointment in not being with you, but I am sure you will think me right.</p>
+<p>Ever yours | C. Darwin</p>
+<p>I am <hi rend="underline">extra</hi> well &amp; my Boils are all nearly well.—</p>
+<p>Tell me how near does the Richmond Railway<ref target="#foot.f6"/> come to you.</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 on] <hi rend="italic">over</hi> ‘of’</note>
+                    <note xml:id="tnote.n2">2.1 My] <hi rend="italic">over</hi> ‘I’</note>
+                    <note xml:id="tnote.n3">2.1 for two or three days] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n4">3.3 affairs] ‘ai’ <hi rend="italic">over illeg</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">‘Thursday 15<hi rend="superscript">th</hi>’ could have been either April or July 1847. July is the more likely since this letter ties in with the one following, in which CD regrets having missed his visit to Hooker. See also nn. 3 and 5, below.</note>
+            <note xml:id="foot.f2">Sarah Elizabeth (Elizabeth) Wedgwood.</note>
+            <note xml:id="foot.f3">Emma was recuperating following the birth of Elizabeth Darwin on 8 July.</note>
+            <note xml:id="foot.f4">The Duke of Devonshire’s gardens at Chiswick House, which were leased out to the Horticultural Society; <ref target="../nameregs/nameregs_864.xml" resp="#mjhawkins">William Cavendish</ref>, Duke of Devonshire, was president of the Horticultural Society, 1838–58. See <ref target="../bibliographies/bibl_2541.xml" resp="#mjhawkins">Fletcher 1969</ref>, p. 79.</note>
+            <note xml:id="foot.f5">The reference to <ref target="../nameregs/nameregs_2235.xml" resp="#mjhawkins">John Stevens Henslow</ref> and ‘the conference’ probably relates to Hooker’s wish to marry Henslow’s daughter, Frances Harriet. As the next letter makes clear, CD had received news of their engagement by 19 July.</note>
+            <note xml:id="foot.f6">The London and Southwestern Railway had been extended to Richmond in 1846 (<ref target="../bibliographies/bibl_7154.xml" resp="#mjhawkins">Sheppard 1971</ref>, p. 131). Richmond station was nearly three miles from Hooker’s home.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

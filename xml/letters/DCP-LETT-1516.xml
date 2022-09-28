@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1516">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From E. A. Darwin   26 April 1853</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14874</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1516 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1516.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1516.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp, encl 4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 262.11: 13</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>262.11: 13</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1211.xml">Darwin, E. A.</persName>
+                <placeName>unstated</placeName>
+                <date when="1853-04-26">26 Apr 1853</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Acknowledges the receipt of some securities.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin family</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <date>April 26 1853</date>
+                    <salute>Dear Charles.</salute>
+                </opener>
+                <div type="transcription">
+<p>I have received your statement of Emma’s trust and I send you this acknowledgment of the Securities in my keeping. I received from M<hi rend="superscript">r</hi> Hine,<ref target="#foot.f1"/> M<hi rend="superscript">r</hi> &amp; M<hi rend="superscript">rs</hi> Darwins Marriage Settlement<ref target="#foot.f2"/> &amp; Muckleston Mortgage.<ref target="#foot.f3"/> This I suppose includes the three which you mention namely</p>
+<p>your marriage Settlement</p>
+<p>Emma’s —— D<hi rend="superscript">o</hi></p>
+<p>Emma’s General Trust.</p>
+<p>Also</p>
+<p>Major Owens Mortge for £20,000</p>
+<p>&amp; Maryport &amp; Carlisle share £3,686 . 10 . 0</p>
+<p>Newcastle &amp; Carlisle do. £4,022 . 6 . 6</p>
+<p>The two last not yet received</p>
+<p>ever yours | Eras. Darwin</p>
+<p>Every thing in my possession is in a Deed Box at Mess<hi rend="superscript">rs</hi> Herries &amp; Co<ref target="#foot.f4"/> <lb resp="#mjhawkins"/> C. Darwin Esq</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_2303.xml" resp="#mjhawkins">William Hine</ref>, of Hine and Robinson, solicitors, 32 Charterhouse Square, London (CD’s Address book (Down House MS) and <ref target="../bibliographies/bibl_6380.xml" resp="#mjhawkins"><hi rend="italic">Post Office London directory</hi></ref> 1853).</note>
+            <note xml:id="foot.f2">The financial arrangements drawn up between Robert Waring Darwin and <ref target="../nameregs/nameregs_5026.xml" resp="#mjhawkins">Josiah Wedgwood II</ref> on the marriage of CD and Emma in 1839 are given in <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 2, <ref target="./DCP-LETT-438.xml" resp="#mjhawkins">letter from Josiah Wedgwood II and Emma Wedgwood to R. W. Darwin, 15 November 1838</ref>, n. 1.</note>
+            <note xml:id="foot.f3">In CD’s Investment book (Down House MS) the Edward Muckleston mortgage, the Owen mortgage, and the Maryport and Carlisle Railway shares are listed under ‘Emma’s trust property’. The Newcastle and Carlisle preference shares are listed as CD’s property, but on 1 May 1853 they were transferred to E. A. Darwin and <ref target="../nameregs/nameregs_5027.xml" resp="#mjhawkins">Josiah Wedgwood III</ref> ‘as Trustees of my Wife’ (p. 57).</note>
+            <note xml:id="foot.f4">Herries, Farquhar, Davidson, Chapman &amp; Co. Bankers, 16 St James’s Street, London (<ref target="../bibliographies/bibl_6380.xml" resp="#mjhawkins"><hi rend="italic">Post Office London directory</hi></ref> 1853). In the envelope containing this letter there are four pages of notes made at later dates (1856, 1871, and 1879) concerning some of the investments mentioned.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11712A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Murray   1 October [1878]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20597</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11712A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11712A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11712A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Copy</note>
+            <note type="physdesc" n="C"/>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 147: 176</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>147: 176</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1878-10-01">1 Oct [1878]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Encloses a cheque for £11.19.9. Will transmit £7.9.4 to Fritz Müller. Thanks for account of the sale of his books, which appears to be in a "lamentable state".</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="people" ref="#subject_3070">Müller, J. F. T.</term>
+                <term type="scientific_terms" ref="#">negative attitude/assessment</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down, Beckenham, Kent. | Railway Station, Orpington | S.E.R. </placeName>
+                    <date>Oct. 1st</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I enclose a cheque for 11<hi rend="superscript">£.</hi>. 19<hi rend="superscript">s.</hi>. 9<hi rend="superscript">d</hi> and will transmit 7<hi rend="superscript">£.</hi> " 9<hi rend="superscript">s.</hi> " 4<hi rend="superscript">d</hi> to Fritz Müller.<ref target="#foot.f2"/></p>
+                    <p>Thanks for the account of the sale of my books, which appear to be in a lamentable state.<ref target="#foot.f3"/></p>
+<p>Yours very faithfully| Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to the cheques (see n. 2, below).</note>
+            <note xml:id="foot.f2">On 1 October 1878, CD recorded in his Account books–banking account (Down House MS) the payment of cheques for £11 19<hi rend="italic">s</hi>. 9<hi rend="italic">d</hi>. to John Murray under the heading ‘Class as 19. 9. 1 for presentation copies’ (i.e. the sum of the payments to Murray and Müller), and £7 9<hi rend="italic">s</hi>. 4<hi rend="italic">d</hi>. to H. Müller under the heading ‘For <ref target="../nameregs/nameregs_3070.xml" resp="#mjhawkins">Fritz Müller</ref>’. <ref target="../nameregs/nameregs_3069.xml" resp="#mjhawkins">Hermann Müller</ref> was <ref target="../nameregs/nameregs_3070.xml" resp="#mjhawkins">Fritz Müller’s</ref> brother; the money was for sales of Dallas trans. 1869 (the English translation of F. Müller 1864).</note>
+            <note xml:id="foot.f3">An account of sales of Dallas trans. 1869 as well as CD’s own books to June 1878 is in DAR 210.11: 13. The amount owing for sales of Dallas trans. 1869 is given as £7 9<hi rend="italic">s</hi>. 4<hi rend="italic">d</hi>. CD evidently paid <ref target="../nameregs/nameregs_3070.xml" resp="#mjhawkins">Fritz Müller</ref> and deducted the sum from what he owed Murray for presentation copies. CD had arranged to have the translation made and published (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 16).</note>
+        </div>    
+        
+    </body>
+    </text>
+</TEI>

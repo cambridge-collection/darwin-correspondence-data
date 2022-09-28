@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4411">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Daniel Oliver   18 February 1864</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10284</idno>
+            
+            
+            
+            
+            <date when="2001">2001</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4411 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4411.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4411.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="12">12</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 173: 26</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>173: 26</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3589.xml">Oliver, Daniel</persName>
+                <placeName>Kew</placeName>
+                <date when="1864-02-18">18 Feb 1864</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thinks the paper by H. Crüger should appear in the <hi rend="italic">Journal of the Linnean Society</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Journal of the Linnean Society</term>
+                <term type="rx" ref="#">Cruger, Hermann 1864</term>
+                <term type="scientific_terms" ref="#">fertilisation and generation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Royal Gardens Kew</hi></placeName>
+                    <date>18 Feb<hi rend="superscript">y</hi>. 1864</date>
+                    <salute>My dear M<hi rend="superscript">r</hi> Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I strongly think that Crüger’s valuable paper sh<hi rend="superscript">d</hi>. appear in the Linnean Soc<hi rend="superscript">y’s</hi> Journal.<ref target="#foot.f1"/> I think N. H. R. w<hi rend="superscript">d</hi>. interfere were it to take possession of it.<ref target="#foot.f2"/></p>
+<p>I shall therefore send it to M<hi rend="superscript">r</hi>. Bentham<ref target="#foot.f3"/> as com<hi rend="superscript">d</hi>. by you.— First, however, I must read it myself</p>
+<p>Yours very Sincerely | Danl. Oliver</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">In his <ref target="./DCP-LETT-4410.xml" resp="#mjhawkins" cert="high">letter to Daniel Oliver of 17 February [1864]</ref>, CD enclosed the paper sent by <ref target="../nameregs/nameregs_1100.xml" resp="#mjhawkins">Hermann Crüger</ref> in his <ref target="./DCP-LETT-4394.xml" resp="#mjhawkins" cert="high">letter of 21 January 1864</ref>. It was published in the <hi rend="italic">Journal of the Linnean Society</hi> (<hi rend="italic">Botany</hi>) (<ref target="../bibliographies/bibl_1676.xml" resp="#mjhawkins">Crüger 1864</ref>).</note>
+            <note xml:id="foot.f2">Oliver was one of the editors of the <hi rend="italic">Natural History Review.</hi></note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_398.xml" resp="#mjhawkins">George Bentham</ref> was the president of the <ref target="../nameregs/nameregs_2944.xml" resp="#mjhawkins">Linnean Society</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

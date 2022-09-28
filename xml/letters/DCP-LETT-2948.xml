@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2948">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Johann Nicolaus Trübner?<ref target="#foot.f1"/>   14 October [1860]<ref target="#foot.f2"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1862</idno>
+            
+            
+            
+            
+            <date when="1993">1993</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2948 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2948.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2948.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="08">8</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Fitzwilliam Museum, Cambridge (GEN/D/DARWIN (C)/8</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_135.xml">Fitzwilliam</repository>
+                    <idno>GEN/D/DARWIN (C)/8</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Eastbourne</placeName>
+                <date when="1860-10-14">14 Oct [1860]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4787.xml">Trübner, J. N.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Orders a copy of September number of <hi rend="italic">Silliman’s Journal</hi>. A friend has recommended an article in it [A. Gray and D. Treadwell, "Discussion between two readers of Darwin’s treatise on the origin of species", <hi rend="italic">Am. J. Sci.</hi> 2d ser. 30 (1860): 226–39].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="it" ref="#">Silliman’s Journal</term>
+                <term type="scientific_terms" ref="#">origin</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">species, speciation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>15 Marine Parade | Eastbourne</placeName>
+                    <date>Oct. 14<hi rend="superscript">th</hi></date>
+                </opener>
+                <div type="transcription">
+                     
+<p>Dear Sir</p>
+<p>A friend tells me that there is an Article, which I wish to have, in Sillimans N. American Journal of Science “in the September number which will appear in October”.—<ref target="#foot.f3"/> What this means I do not know.—   Will you see whether you can get the Sept. or Oct. number in London; &amp; if so send it here, as I much want it immediately; if not, please send it, when procured to Down, Bromley, Kent, whither I shall return in 13 days.—<ref target="#foot.f4"/></p>
+<p>Dear Sir | Yours very faithfully | C. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The recipient is inferred from CD’s wish to acquire a copy of [Gray] 1860c. Trübner’s London-based publishing firm specialised in American works and was used by <ref target="../nameregs/nameregs_1957.xml" resp="#mjhawkins">Asa Gray</ref> to distribute his works in England (see <ref target="./DCP-LETT-2928.xml" resp="#mjhawkins">letter to Charles Lyell, 26 [September 1860]</ref>).</note>
+            <note xml:id="foot.f2">The date is based on the reference to [Gray] 1860c.</note>
+            <note xml:id="foot.f3">[Gray] 1860c. Although <ref target="../nameregs/nameregs_1957.xml" resp="#mjhawkins">Asa Gray</ref> had sent CD a copy (<ref target="./DCP-LETT-2930.xml" resp="#mjhawkins">letter to Asa Gray, 26 September [1860]</ref>), CD had sent it on to Lyell to read and had not yet had it back; it may have been lost in the post on its return to Down (see <ref target="./DCP-LETT-2938.xml" resp="#mjhawkins">letter to Charles Lyell, 5 [October 1860]</ref>).</note>
+            <note xml:id="foot.f4">The family’s return to Down was delayed until 10 November 1860 owing to <ref target="../nameregs/nameregs_1225.xml" resp="#mjhawkins">Henrietta Emma Darwin’s</ref> illness (‘Journal’; Appendix II).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

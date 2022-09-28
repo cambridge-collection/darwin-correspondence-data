@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2569">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Charles James Fox Bunbury   3 December [1859]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13932</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2569 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2569.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2569.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+            <notesStmt>
+            <note type="physdesc" n="ALS">** 1p</note>
+                <relatedItem type="publication">
+                    <bibl><hi rend="italic">Correspondence</hi> 7: 411</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Carnegie Book Shop (dealers) (catalogue 359)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_81.xml">Carnegie Bookshop</repository>
+                    <idno>Cat. 359</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Ilkley</placeName>
+                <date when="1859-12-03">3 Dec [1859]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_722.xml">Bunbury, C. J. F.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks for note; correcting proofs for 2d ed. [of <hi rend="italic">Origin</hi>].</p> 
+            <p>"If your are at all staggered I shall be quite interested."</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Origin</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">reception of Darwinism</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Ilkley]<ref target="#foot.f2"/></placeName>
+                    <date>Decr 3d</date>
+                    <salute>My dear Bunbury</salute>
+                </opener>
+                <div type="transcription">
+<p>… I have been much engaged … correcting proofs for 2d. edit, but I take shame to myself for not having long ago thanked you for your kind note … not that I hope to correct you. If you at all staggered I shall be quite interested …<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is given in the Carnegie Book Shop catalogue.</note>
+            <note xml:id="foot.f2">CD stayed in Ilkley until 7 December 1859 (‘Journal’; Appendix II).</note>
+            <note xml:id="foot.f3">CD first told Bunbury about his species views in 1845 (see Bunbury ed. 1891–3, <hi rend="italic">Middle life</hi> 1: 77) and discussed them further in 1856 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 6). For Bunbury’s response to <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>, see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 8, <ref target="./DCP-LETT-2669.xml" resp="#automat">letter from C. J. F. Bunbury, 30 January 1860</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

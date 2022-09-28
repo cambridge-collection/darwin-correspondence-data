@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-6981" status="released">
+    <persName>
+        <forename>Emily</forename>
+        <forename>Catherine</forename>
+        <choice>
+            <seg><surname notBefore="1840" notAfter="1866">Rendel</surname></seg>
+            <seg><surname notBefore="1866" notAfter="1921">Wedgwood</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1840–1921</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of James Meadows Rendel, civil engineer, and his wife Catherine Jane Harris. Married Clement Francis Wedgwood in 1866.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_5933.xml"><hi rend="italic">ODNB</hi></ref> s.v. Rendel, J. M. and Wedgwood, J. C.</p>
+        <p><ref target="../bibliographies/bibl_8245.xml" resp="#mjhawkins">B. Wedgwood and Wedgwood 1980</ref>.</p>
+    </note>
+    <note type="volume">17,19</note>
+</person>

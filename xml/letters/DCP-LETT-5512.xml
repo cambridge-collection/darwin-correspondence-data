@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5512">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Carl Vogt<choice><seg type="original"><ref target="#foot.f1"/></seg><seg type="translation"><ref target="#foot_trans.f1"/></seg></choice>   23 April 1867</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">11011</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5512 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5512.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5512.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp encl (French)</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 180: 12; DAR 176: 90</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>180: 12,</idno>
+                </msIdentifier>
+            </msDesc>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>176: 90</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4902.xml">Vogt, Carl</persName>
+                <placeName>Geneva</placeName>
+                <date when="1867-04-23">23 Apr 1867</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Asks whether his former pupil, J. J. Moulinié, might translate <hi rend="italic">Variation</hi> into French for Reinwald. CV would provide a preface. Encloses letter from Moulinié to Reinwald.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Variation</term>
+                <term type="languages" ref="#">French</term>
+                <term type="people" ref="#">Moulinie, J. J.</term>
+                <term type="people" ref="#subject_3970">Reinwald, C.-F.</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">variation</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Genève</placeName>
+                    <date>ce 23 Avril | 1867.</date>
+                    <salute>Monsieur et très-honoré maitre!</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Quelques jours après avoir reçu votre lettre, dont j’ai donné connaissance à Mr. Ricker, j’ai rencontré Mr. le Colonel Moulinié, dont vous connaissez sans doute le nom.<ref target="#foot.f2"/> C’est un de mes plus anciens élèves, je puis dire— il a fait un excellent travail sur les larves des trématodes et de plus il a soigné la traduction de mes “Lecons sur l’homme” en français.<ref target="#foot.f3"/> Je lui parlai de votre nouveau livre.<ref target="#foot.f4"/> “Pardieu, me dit-il, ce serait quelque chose pour moi! Ma mère est, comme vous savez, anglaise,<ref target="#foot.f5"/> je parle l’anglais comme ma langue maternelle et je n’ai rien à faire dans ce moment, de sorte que je pourrai me vouer corps et âme à une traduction du livre de Mr. Darwin, qui sera meilleure, j’éspère, que celle que M<hi rend="superscript">lle</hi>. Royer a faite de son livre sur l’espèce.”<ref target="#foot.f6"/> Mr. Moulinié a donc écrit à notre éditeur, Mr. Reinwald,<ref target="#foot.f7"/> 15 rue des S<hi rend="superscript">ts</hi>. Pères à Paris et je me fais un plaisir de vous envoyer ci-jointe la lettre de mon ami Reinwald en copie.</p>
+<p>Il va sans dire que ce serait pour moi un véritable plaisir que de pouvoir revoir le travail de Mr. Moulinié et d’y ajouter une préface.<ref target="#foot.f8"/> Si donc vous et votre éditeur n’aviez pas encore disposé du droit de la traduction française et que les prétentions, dont parle Mr. Reinwald N<hi rend="superscript">o</hi>. 3 ne fussent pas trop élevées, je vous prierai de favoriser ces deux amis. Quant aux question 1 et 2 que fait Mr. Reinwald, je lui ai transmis les renseignemens que contenait votre dernière lettre.<ref target="#foot.f9"/></p>
+<p>Quant aux prétentions relatives au droit de traduction, je crois que Mr. R. a raison, d’après ce que je sais moi-même. La France est, en géneral, le plus mauvais marché pour des livres scientifiques, que l’on puisse imaginer— les romans et les text-books pour les écoles et collèges, voilà ce qui se vend— les livres scientifiques sont les plus mauvaises spéculations des libraires français.</p>
+<p>Agréez, Monsieur et cher maitre, l’assurance de mon parfait dévouement | C Vogt</p> 
+                </div>
+            </div>
+        <div type="enclosure" subtype="other">
+      
+          <div type="transcription">
+                     <opener>
+                         <placeName>Par〈is〉 〈    〉</placeName>
+                         <date>Avril 1867</date>
+                         <seg type="supplemental">Monsieur le Colonel Moulinié   Gene〈v〉e, 15 Rue du Montblanc</seg>
+                         <salute>Monsieur</salute>
+                     </opener>
+ 
+<p>J’ai eu l’honneur de recevoir votre lettre du 22 par laquelle vous me faites une proposition qui me convient parfaitement.</p>
+<p>Je crois comme vous que le nouveau livre de Mr. Darwin “<hi rend="underline">Domesticated Animals and Cultivated Plants</hi>”,<ref target="#foot.f10"/> pourr〈ait〉 être utilement traduit en français. Le livre aura, à mon 〈avis〉 du succès, s’il n’est pas trop cher. Il s’agirait donc a〈vant〉 tout de savoir:</p>
+<p>1<hi rend="superscript">o</hi>. De quel étendue sera cette publication</p>
+<p>2<hi rend="superscript">o</hi>. Si elle sera accompagnée de gravures sur 〈bois〉 ou fer acier</p>
+<p>3<hi rend="superscript">o</hi>. À quelle conditions l’auteur ou l’éditeur 〈    〉 voudraient vous céder le droit de traduction en lang〈ue française〉 avec exclusion de toute autre traduction en Fran〈ce〉 〈    〉 et en Suisse.</p>
+<p>Je ne ferai naturellement des démarches à 〈    〉 〈    〉 lorsque vous m’y aurez autorisé. Je pense <hi rend="italic">[</hi>même<hi rend="italic">]</hi> 〈    〉 mieux que cette demande fut addressée directe〈ment〉 〈    〉 Darwin plutot qu’à Mr Murray<ref target="#foot.f11"/> (vie〈  〉 〈    〉 anglais ont souvent ses prétentions trop élevées 〈    〉 du continent) et encore que cette demande 〈    〉 faite par un homme de lettres que par un libraire.</p>
+<p>Si Mr. Vogt était en relation avec l’auteur anglais et s’il voulait nous permettre de le mêler à la negociation, comme par exemple, par la promesse de donner à notre traduction une préface ou une collaboration quelconque, nous serons a peu près certains de réussir au près de l’auteur.</p>
+<p>Mais avant tout, il faut savoir a quoi on s’engage. J’attends donc vos renseignements à cet égard et je ne doute pas que les préliminaires une fois réglées, nous nous entendrons parfaitement ensemble sur le reste.<ref target="#foot.f12"/></p>
+<p>Veuillez agréer encore mes rémerciements pour votre bienveillante communication et croire que je serai enchanté si nous 〈    〉 rénouer nos relations et les faire fructifier. | J’ai l’honneur d’être Monsieur votre tout dévoué ser〈viteur〉 | C Reinwald</p> 
+                </div>
+        
+    </div>
+
+            
+            
+            
+            
+            
+            
+            
+        </div>
+        
+        
+        <div type="translation">
+            <div type="text">
+                <opener>
+                    <placeName>Geneva</placeName>
+                    <date>23 April | 1867.</date>
+                    <seg type="supplemental">Colonel Moulinié   Geneva, 15 Rue du Montblanc</seg>
+                    <salute>Dear Sir and honoured master!</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>A few days after receiving your letter, which I have shown to Mr.  Ricker, I met Colonel Moulinié, whose name you doubtless know.<ref target="#foot.f2"/> He is one of my oldest pupils, I might add— he has done excellent work on trematode larvae and moreover he has carefully translated my “Lectures on Man” into French.<ref target="#foot.f3"/> I spoke to him about your new book.<ref target="#foot.f4"/> “Goodness,” he said to me, “that would be something for me! My mother is, as you know, English,<ref target="#foot.f5"/> I speak English as my mother tongue and I have nothing to do at the moment, so that I could devote myself body and soul to a translation of Mr. Darwin’s book that would be better, I hope, than the one M<hi rend="superscript">lle</hi>. Royer did for his book on species.”<ref target="#foot.f6"/> Mr. Moulinié has therefore written to our publisher, Mr. Reinwald,<ref target="#foot.f7"/> 15 rue des S<hi rend="superscript">ts</hi>. Pères in Paris and I have the pleasure of enclosing a copy of the letter from my friend Reinwald.</p>
+<p>It goes without saying that it would be a real pleasure to me to be able to review Mr. Moulinié’s work and to add a preface.<ref target="#foot.f8"/> If then, you and your publisher have not yet disposed of the rights for the French translation and if the conditions that Mr. Reinwald mentions at N<hi rend="superscript">o</hi>. 3 are not too onerous, I would beg you to favour my two friends. With regard to questions 1 and 2 put by Mr. Reinwald, I have passed on to him the information contained in your last letter.<ref target="#foot.f9"/></p>
+<p>As to the conditions relating to the rights of translation, I believe that Mr. R. is right, as I know from my own experience. France is, on the whole, the worst market for scientific books that one can imagine— novels and textbooks for schools and colleges are what sell— scientific books are the worst speculations for French booksellers.</p>
+<p>Please be assured of my deep devotion, my dear Sir and master | C Vogt</p> 
+                </div>
+            </div>
+            <div type="enclosure" subtype="other">
+                
+                <div type="transcription">
+                    <opener>
+                        <placeName>Paris</placeName>
+                        <date>〈    〉 April 1867</date>
+                        <seg type="supplemental">Colonel Moulinié  Geneva, 15 Rue du Montblanc</seg>
+                        <salute>Sir</salute>
+                    </opener>
+                    
+                    <p>I had the honour to receive your letter of the 22nd in which you make me a proposition which suits me perfectly.</p>
+                    <p>Like you, I believe that Mr. Darwin's new book, “<hi rend="underline">Domesticated Animals and Cultivated Plants</hi>”,<ref target="#foot.f10"/> could be usefully translated into
+                        French. The book in my 〈opinion〉 will meet with success, if it isn't too expensive. We should first establish:</p>
+                    <p>1<hi rend="superscript">st</hi>. What is the length of this publication</p>
+                    <p>2<hi rend="superscript">nd</hi>. Whether it will be accompanied by 〈wood〉cuts or steel-plate engravings</p>
+                    <p>3<hi rend="superscript">d</hi>. Under what conditions the author or publisher 〈    〉 would want to grant you the 〈French〉 translation right with the exclusion of all other translations in France 〈    〉 and in Switzerland.</p>
+                    <p>Naturally I will approach 〈    〉 only when you permit me. I even think 〈    〉 better that this request should be made directly 〈    〉 Darwin rather than to Mr Murray<ref target="#foot.f11"/> (〈  〉 English 〈    〉 often impose conditions that are too onerous 〈    〉 the continent) and also that this demand 〈    〉 by a man of letters than by a bookseller.</p>
+                    <p>If Mr. Vogt were to be in correspondence with the English author, and if he were to allow us to involve him in the negotiation, for example by promising to give our translation a preface, or by some other kind of collaboration, we will almost certainly succeed with the author.</p>
+                    <p>But above all, we must know to what we are committing ourselves. Therefore I await your clarification on the subject and have no doubt that once the preliminaries are settled, we will all agree perfectly about the rest.<ref target="#foot.f12"/></p>
+                    <p>Please accept my thanks again for your kind communication and believe that I will be delighted if we 〈    〉 renew our relations and make them fruitful. | I have the honour of being, Sir, your humble servant | C Reinwald</p> 
+                </div>
+                
+            </div>
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">For a translation of this letter, see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 15, Appendix I.</note>
+            <note xml:id="foot_trans.f1">For a transcription of this letter in its original French, see pp. 223–4.</note>
+            <note xml:id="foot.f2">Vogt refers to CD’s letter to him of 12 April [1867], to his friend the publisher <ref target="../nameregs/nameregs_6622.xml" resp="#mjhawkins">Franz Anton Ricker</ref>, and to Jean Jacques Moulinié.</note>
+            <note xml:id="foot.f3">Vogt refers to <ref target="../bibliographies/bibl_5627.xml" resp="#mjhawkins">Moulinié 1856</ref> and Moulinié trans. 1865. Moulinié trans. 1865 was a translation of <ref target="../bibliographies/bibl_7996.xml" resp="#mjhawkins">C. Vogt 1863</ref>.</note>
+            <note xml:id="foot.f4"><hi rend="italic">Variation.</hi></note>
+            <note xml:id="foot.f5">Moulinié’s mother has not been further identified.</note>
+            <note xml:id="foot.f6"><ref target="../nameregs/nameregs_4113.xml" resp="#mjhawkins">Clémence Auguste Royer</ref> translated the third English edition of <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref> (Royer trans. 1862); she published a second French edition, also based on the third English edition, in 1866 (Royer trans. 1866). For CD’s opinions of these translations, see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vols. 10 and 13. See also J. Harvey 1997.</note>
+            <note xml:id="foot.f7"><ref target="../nameregs/nameregs_3970.xml" resp="#mjhawkins">Charles-Ferdinand Reinwald</ref>.</note>
+            <note xml:id="foot.f8">Vogt did write the preface to Moulinié’s translation of <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> (Moulinié trans. 1868).</note>
+            <note xml:id="foot.f9">See <ref target="./DCP-LETT-5499.xml" resp="#mjhawkins">letter to Carl Vogt, 12 April [1867]</ref>.</note>
+            <note xml:id="foot.f10"><hi rend="italic">Variation.</hi></note>
+            <note xml:id="foot.f11">Reinwald refers to John Murray, CD’s publisher.</note>
+            <note xml:id="foot.f12">CD’s response has not been found, but see the letter from C.-F. Reinwald, [May 1867].</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

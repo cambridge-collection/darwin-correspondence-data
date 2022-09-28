@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9198">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Francis Darwin   [after March 1873]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9756</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9198 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9198.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9198.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 58.1: 132</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>58.1: 132</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1222.xml" resp="high">Darwin, Francis</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1873-03-02" notAfter="1882-12-31">[after Mar 1873]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml" resp="high">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Fears [CD’s] albumen theory will not work because albumen is coagulated and filtered out in making extracts of belladonna, hyoscyamine, and colchicine [alkaloid poisons].</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+                <term type="scientific_terms" ref="#">negative attitude/assessment</term>
+                <term type="scientific_terms" ref="#">plant physiology</term>
+                <term type="scientific_terms" ref="#">reception of Darwinism</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00058-00001-000-00291_files/8/0_0.jpg" width="2945px" height="5169px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00058-00001-000-00291_files/11/1_1.jpg" width="2945px" height="5169px"/>
+        <surface xml:id="i1" n="132r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00058-00001-000-00291.jpg" rend="portrait" width="2945px" height="5169px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00058-00001-000-00291_files/8/0_0.jpg" width="2945px" height="5169px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00058-00001-000-00291.dzi" width="2945px" height="5169px"/>
+        </surface>
+</facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>Dear Father</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I’m afraid the albumen theory wont do because in making extract: Belladonna Hyoscyami &amp; Colchici. the albumen is coagulated by heat and filtered out—&amp; in Stramonii it says the “active matters are extracted by proof spirit” so that the albumen wouldnt be got out— Possibly these may save vegetable albumens like casein not coagulable by heat    I will find out—<ref target="#foot.f2"/></p>
+<p>Yrs affec | F Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter and the second letter from Francis Darwin, [after March 1873].</note>
+            <note xml:id="foot.f2">Francis refers to <hi rend="italic">Atropa belladonna</hi> (deadly nightshade), <hi rend="italic">Hyoscyamus niger</hi> (stinking nightshade), <hi rend="italic">Colchicum autumnale</hi> (crocus), and <hi rend="italic">Datura stramonium</hi> (jimsonweed). CD was trying to ascertain whether it was the albumin or the alkaloid poisons contained in these plants (for example atropine) that affected the leaves of <hi rend="italic">Drosera</hi>. See also <ref target="./DCP-LETT-8987.xml" resp="#mjhawkins">letter to J. S. Burdon Sanderson, 25 July 1873</ref> and n. 4. Casein is a milk protein, but in the nineteenth century legumin was referred to as vegetable casein.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

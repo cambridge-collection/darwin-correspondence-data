@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10877">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. V. Carus   4 March 1877</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7396</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10877 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10877.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10877.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS(A)</note>
+            <note type="physdesc" n="LS(A)">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Staatsbibliothek zu Berlin – Preußischer Kulturbesitz (Slg. Darmstaedter Lc 1859: Darwin, Charles, Bl. 162–163)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_379.xml">SB zu Berlin - Preußischer KB</repository>
+                    <collection>Slg. Darmstaedter</collection>
+                    <idno>Lc 1859: Darwin, Charles, Bl. 162–3</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1877-03-04">4 Mar 1877</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_849.xml">Carus, J. V.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Apologises for sending wrong <hi rend="italic">Cross and self-fertilisation</hi> erratum. The error is on p. 191 (where "cross-seeds" appears, it should read "self-fertilised"). There is no error on p. 275.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Cross and self-fertilisation</term>
+                <term type="scientific_terms" ref="#">crossing</term>
+                <term type="scientific_terms" ref="#">fertilisation and generation</term>
+                <term type="scientific_terms" ref="#">fertility and/or sterility</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">instructions</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>March 4. 1877</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am quite ashamed of my self for my stupidity &amp; am much obliged to you. There is an error but it is exactly the reverse of what I pointed out. Will you please to have an erratum inserted as follows.<ref target="#foot.f1"/></p>
+<p>p 191 bottom line beginning with the words “The sole conjecture which I can form is that the crossed seeds &amp;c” <hi rend="underline">read</hi> “The sole conjecture which I can form is that the self-fertilised seeds had not been sufficiently ripened, &amp; thus produced weakly plants which grew at first at an abnormally quick rate, as occurred with Iberis.”<ref target="#foot.f2"/></p>
+<p>Pray forgive me &amp; believe me yours very faithfully | Ch. Darwin</p>
+<p>There is no error in p. 275<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">2.2 is … &amp;c] <hi rend="italic">interl in CD’s hand before del</hi> ‘&amp;c’ </note>
+                <note xml:id="tnote.n2">4.1 There … 275] <hi rend="italic">in CD’s hand</hi> </note>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">In his <ref target="./DCP-LETT-10852.xml">letter of 19 February 1877</ref>, CD had pointed out a supposed error on p. 275 of <ref target="../bibliographies/bibl_8595.xml" resp="#mjhawkins"><hi rend="italic">Cross and self fertilisation</hi></ref> for Carus to correct in the German translation. Carus questioned whether it was an error in his <ref target="./DCP-LETT-10870.xml">letter of 26 February 1877</ref>.</note>
+            <note xml:id="foot.f2">The correction was made to Carus trans. 1877d, p. 182, and to <ref target="../bibliographies/bibl_9316.xml" resp="#mjhawkins"><hi rend="italic">Cross and self fertilisation</hi> 2d ed.</ref>, pp. 191–2, with the final clause expanded to ‘as occurred with seedlings from not well-ripened self-fertilised seeds of Iberis.’</note>
+            <note xml:id="foot.f3">See n. 1, above.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

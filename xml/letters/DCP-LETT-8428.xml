@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8428">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From J. T. Gulick   27 July 1872</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">421</idno>
+            
+            
+            
+            
+            <date when="2013">2013</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8428 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8428.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8428.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="20">20</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">ADraftS</note>
+            <note type="physdesc">ADraftS 4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.421)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>421</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2017.xml">Gulick, J. T.</persName>
+                <placeName>Rochester</placeName>
+                <date when="1872-07-27">27 July 1872</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Mentions work he did in the Sandwich Islands. Asks to visit and bring shells.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">shells</term>
+                <term type="places" ref="#">Sandwich Islands</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+                <term type="scientific_terms" ref="#">shells</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <date>Saturday July 27<hi rend="superscript">th</hi> 1872</date>
+                    <seg type="supplemental">To | Charles Darwin Esq | F.R.S.</seg>
+                    <salute>Dear Sir:</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Your account of the Nat. History of the Gallapagos Is., which I read many years ago, was the means of leading me to investigate the distribution of species at the Sandwich Is. where I was then residing<ref target="#foot.f1"/>   You have perhaps seen in the number of “Nature” for July 18 my brief statement of some of the facts gathered in that field.<ref target="#foot.f2"/> As I am now in England for a short visit, it will be a great pleasure, to meet you. If you can appoint an hour when when it will be convenient for you to see me I will bring (with me) some of my Sandw Is. land shells illustrating the extremely limited distribution of the species, and the continuous gradation of forms from one species into another.</p>
+<p>I shall be able to come any time next week or the week after; but sometime early next week will be the most convenient for me, as I am expecting to leave soon on my way to North China and Mongolia.<ref target="#foot.f3"/></p>
+<p>Yours respectfully. | John T. Gulick <lb resp="#mjhawkins"/></p>
+<p rend="left">Address | c/o Mrs Delacour | Frindsbury Hill | Rochester | Kent</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Gulick refers to ‘Descriptions of new species of <hi rend="italic">Achatinella</hi>, from the Hawaiian Islands’ (<ref target="../bibliographies/bibl_3192.xml" resp="#mjhawkins">J. T. Gulick 1856</ref>) and to chapter 19 in <ref target="../bibliographies/bibl_4250.xml" resp="#mjhawkins"><hi rend="italic">Journal of researches</hi></ref>. Gulick’s father was a Presbyterian missionary on the Sandwich Islands (Hawaii; <ref target="../bibliographies/bibl_3191.xml" resp="#mjhawkins">A. Gulick 1932</ref>). <hi rend="italic">Achatinella</hi> is a genus of Hawaiian tree-living land snails.</note>
+            <note xml:id="foot.f2">J. T. Gulick 1872a (‘On the variation of species as related to their geographical distribution, illustrated by the Achatinellinæ’).</note>
+            <note xml:id="foot.f3">Gulick departed for his missionary work in China and Mongolia in March 1873, after visiting his parents in Honolulu (<ref target="../bibliographies/bibl_3191.xml" resp="#mjhawkins">A. Gulick 1932</ref>, pp. 236–9).</note>
+        </div>                
+    </body>
+    </text>
+</TEI>

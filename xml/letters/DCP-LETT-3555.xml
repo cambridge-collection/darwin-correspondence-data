@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3555">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. D. Fox   [17 May 1862]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7133</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3555 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3555.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3555.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <note type="postmark">MY 17 62</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 144: 274</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Christ’s College Library, Cambridge (MS 53 Fox 133)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_83.xml">CCLC</repository>
+                    <collection>MS 53</collection>
+                    <idno>Fox 133</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Leith Hill Place</placeName>
+                <date when="1862-05-17">[17 May 1862]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1730.xml">Fox, W. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks WDF for interesting letter about turkeys. Would be grateful for information on fertility of the hybrids.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">turkeys</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">fertility and/or sterility</term>
+                <term type="scientific_terms" ref="#">hybrids</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Leith Hill Place | Dorking</placeName>
+                    <date>Saturday</date>
+                    <salute>My dear Fox</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Your letter has been forwarded here, where we remain till Thursday evening.<ref target="#foot.f1"/> I am so very sorry to miss your visit. Our house is utter confusion with painters &amp; we shall, when we return have to live in a bed-room; but I think by Monday or Tuesday week one room will be ready; is there any chance of your being in London so long as that?—</p>
+<p>Very many thanks for your letter about Turkeys, which interests me much.<ref target="#foot.f2"/> If without very great trouble you could get me any more information about the fertility &amp;c of the hybrids or mongrels, I sh<hi rend="superscript">d</hi>. be very much obliged.—</p>
+<p>In Haste | My dear Fox | Ever yours | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.1 here,] <hi rend="italic">comma over semicolon</hi></note>
+                    <note xml:id="tnote.n2">2.3 &amp;c] <hi rend="italic">interl</hi></note>
+                </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">In his ‘Journal’ (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 10, Appendix II), CD recorded spending 15 to 22 May 1862 at Leith Hill Place, the Surrey home of his sister Caroline Sarah Wedgwood and her husband <ref target="../nameregs/nameregs_5027.xml" resp="#mjhawkins">Josiah Wedgwood III</ref>, <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> brother.</note>
+            <note xml:id="foot.f2">Fox’s letter has not been found. CD had asked Fox for information about crosses between wild and domestic turkeys in the <ref target="./DCP-LETT-3544.xml" resp="#automat">letter to W. D. Fox, 12 May [1862]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

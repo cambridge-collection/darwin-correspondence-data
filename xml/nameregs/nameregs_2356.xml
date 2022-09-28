@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-2356" status="released">
+    <persName>
+        <forename>Isabella</forename>
+        <forename>Whitehead</forename>
+        <choice>
+            <seg><surname notBefore="1819" notAfter="1839">Smith</surname></seg>
+            <seg><surname notBefore="1839" notAfter="1880">Hooker</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1819–80</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of David Smith, land surveyor and civil engineer of Glasgow, and his wife Jane Lucas. Eloped with and married William Dawson Hooker in 1839. Her middle name may have been Whitelaw (as in one marriage record) but it is Whitehead in other records: however no middle name was noted at Isabella’s baptism.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_117.xml" resp="#mjhawkins">Allan 1967</ref></p>
+        <p>Census returns of Scotland 1841 (The National Archives of Scotland: Govan 7/33)</p>
+        <p>Scotland old parish registers births 644/1 220 257 Glasgow and 622/ 110 79 Barony, marriages 646/ 30 221 Barony (Whitelaw) and 622/ 170 646 Barony (Whitehead) (Scotlandspeople.gov.uk, accessed 22 September 2022)</p>
+        <p>Scotland statutory deaths 646/2 66 Partick (Scotlandspeople.gov.uk, accessed 22 September 2022)</p>
+    </note>
+    <note type="volume">10</note>
+    <note type="keywords">
+        <term type="name">Mr Smith</term>
+        <term type="name">land surveyor</term>
+        <term type="name">Hooker, W. D.</term>
+        <term type="place">Glasgow</term>
+    </note>
+    
+</person>

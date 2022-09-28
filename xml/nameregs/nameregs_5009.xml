@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-5009" status="released">
+    <persName>
+        <forename>Elizabeth</forename>
+        <choice>
+            <seg><surname notBefore="1764" notAfter="1792">Allen</surname></seg>
+            <seg><surname notBefore="1792" notAfter="1846">Wedgwood</surname></seg>
+        </choice>
+    </persName>
+    <persName type="additional" resp="#mjhawkins">Bessy</persName>
+    
+    <note type="dates"><date>1764–1846</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Eldest daughter of John Bartlett Allen. Married Josiah Wedgwood II in 1792.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_2338.xml" resp="#mjhawkins"><hi rend="italic">Emma Darwin</hi> (1915)</ref>.</p>
+    </note>
+    <note type="volume">1,2,3,4,5,14,18,24,30</note>
+    <note type="keywords">
+        <term type="name">Allen, J. B.</term>
+        <term type="name">Wedgwood, Josiah II</term>
+    </note>
+</person>

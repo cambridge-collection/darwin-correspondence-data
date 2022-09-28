@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9374">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Smith, Elder &amp; Co.   27 March [1874]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6100</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9374 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9374.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9374.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">National Library of Scotland (Ms.23181, ff.16-20 (S. E. &amp; Co. work slip, ff.16-17, letter ff.18-19, address envelope f.20))</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_292.xml">NL Scotland</repository>
+                    <collection>(Ms.23181,</collection>
+                    <idno>ff.16-20)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1874-03-27">27 Mar [1874]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4407.xml">Smith, Elder &amp; Co.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Heavily correcting sheets for <hi rend="italic">Coral reefs</hi>, 2d ed. [1874]. Offers to pay extra printer’s charges.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="it" ref="#">Coral reefs</term>
+                <term type="people" ref="#subject_1053">printer</term>
+                <term type="scientific_terms" ref="#">coral</term>
+                <term type="scientific_terms" ref="#">isolation, islands</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>March 27<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I thought that I had corrected the sheets of the Coral Reefs enough, but I find so many bad sentences that I am recorrecting rather heavily.<ref target="#foot.f2"/> This is unfair towards you, &amp; it would be a <hi rend="underline">great</hi> satisfaction to me (as I sh<hi rend="superscript">d</hi>. then feel no scruples) if when you get the Printer’s account you will charge me all the cost <hi rend="underline">above</hi> what you think an author commonly &amp; fairly requires. This is the practice of the Geological Soc.<ref target="#foot.f3"/> &amp; seems to me just.</p>
+<p>Pray oblige me in this &amp; believe me Dear Sir | Yours faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established from the reference to the proofs of the second edition of <ref target="../bibliographies/bibl_1571.xml" resp="#mjhawkins"><hi rend="italic">Coral reefs</hi></ref>; copies of <ref target="../bibliographies/bibl_1572.xml" resp="#mjhawkins"><hi rend="italic">Coral reefs</hi> 2d ed.</ref> were available from late May (see <ref target="./DCP-LETT-9475.xml" resp="#mjhawkins">letter from G. H. Darwin, 30 May 1874</ref>), and its publication was announced in <hi rend="italic">Publishers’ circular</hi>, 1 July 1874, p. 420.</note>
+            <note xml:id="foot.f2">CD’s daughter, <ref target="../nameregs/nameregs_1225.xml" resp="#mjhawkins">Henrietta Emma Litchfield</ref>, was helping to correct the proofs of <ref target="../bibliographies/bibl_1572.xml" resp="#mjhawkins"><hi rend="italic">Coral reefs</hi> 2d ed.</ref> (see letters to H. E. Litchfield, <ref target="./DCP-LETT-9324.xml" resp="#mjhawkins">21 [March 1874]</ref> and <ref target="./DCP-LETT-9325.xml" resp="#mjhawkins">27 [March 1874]</ref>).</note>
+            <note xml:id="foot.f3">The <ref target="../nameregs/nameregs_1841.xml" resp="#mjhawkins">Geological Society of London</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

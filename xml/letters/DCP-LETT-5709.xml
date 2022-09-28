@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5709">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Edward Wilson   7 December 1867</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">11095</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5709 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5709.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5709.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">3pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 181: 121</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>181: 121</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_5181.xml">Wilson, Edward</persName>
+                <placeName>Hayes, Kent</placeName>
+                <date when="1867-12-07">7 Dec 1867</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Wants to catch some queen bees to ship to Australia; wonders whether CD’s sons can help.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">bees, queen</term>
+                <term type="people" ref="#subject_1224">Darwin, C. R.’s sons</term>
+                <term type="places" ref="#">Australia</term>
+                <term type="scientific_terms" ref="#">castes</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">introduced forms</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Hayes. | Bromley, Kent.</hi></placeName>
+                    <date>7<hi rend="superscript">th</hi>. Dec<hi rend="superscript">r</hi>. 1867</date>
+                    <salute>My dear M<hi rend="superscript">r</hi>. Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>We are taking steps to get out the Humble Bee to Australia,<ref target="#foot.f1"/> &amp; are anxious to avail ourselves of the ice house in which a shipment of Salmon Ova is being forwarded within the next few weeks to Otago.<ref target="#foot.f2"/></p>
+<p>Mr. Woodbury, the great Apiarian, tells us, that the only way to get it out is to send forward Queen-bees during their condition of hibernation.<ref target="#foot.f3"/></p>
+<p>The question is, where to find them, and my neighbour M<hi rend="superscript">r</hi>. Reed<ref target="#foot.f4"/> tells me, that some of y<hi rend="superscript">r</hi>. sons have a special genius in that way— Would you oblige me by giving them a hint of what we want &amp; inducing them if possible, to put us in the way of finding a few specimens.<ref target="#foot.f5"/></p>
+<p>As the Salmon Ova will be sent away as soon as it can be obtained from the fish there is not much time to lose, but I should think it will be the end of the month before anything will be finally done.</p>
+<p>I am my dear M<hi rend="superscript">r</hi>. Darwin | Y<hi rend="superscript">rs</hi>. very sincerely | Edw Wilson</p> 
+                </div>
+            </div>
+            <div type="cdnotes">
+            <note>: Boys given up &amp; not at home— Very difficult to find * They are J. L. most likely, because he investigated a curious parasite<ref target="#foot.f6"/> according I went to him this mng, asking him, if he c<hi rend="superscript">d</hi> find any to send them direct to you.—</note>
+              </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Humble-bees (<hi rend="italic">Bombus</hi> spp.) are not indigenous to Australia; although a species of <hi rend="italic">Bombus</hi> was introduced at some time before 1912, it did not persist (<ref target="../bibliographies/bibl_2648.xml" resp="#mjhawkins">Franklin 1912</ref>, pp. 186, 202–3). Wilson was influential in introducing many animals and plants to Australia. For more on Wilson’s activities in this area, see <ref target="../bibliographies/bibl_2849.xml" resp="#mjhawkins">Gillbank 1986</ref>.</note>
+            <note xml:id="foot.f2">Salmon do not occur naturally in New Zealand (<ref target="../bibliographies/bibl_2065.xml" resp="#mjhawkins">Doak 1972</ref>). A technique in which ova were transported on moss inside ‘ice houses’ on board ship was used to introduce salmon and trout from England to Australia and New Zealand; the first successful shipment arrived in Tasmania in 1864 (<ref target="../bibliographies/bibl_5873.xml" resp="#mjhawkins">Nicols 1882</ref>, pp. 9–31). Wilson refers to the shipment of salmon ova to the province of Otago, New Zealand, on board the <hi rend="italic">Celestial Queen</hi>, which sailed from England in January 1868 (<ref target="../bibliographies/bibl_5873.xml" resp="#mjhawkins">Nicols 1882</ref>, p. 237). For more on the introduction of salmon and trout to Australia and New Zealand, as pioneered by <ref target="../nameregs/nameregs_7070.xml" resp="#mjhawkins">James Arndell Youl</ref> in association with Wilson, see <ref target="../bibliographies/bibl_5873.xml" resp="#mjhawkins">Nicols 1882</ref>. The work of the Acclimatization Society of New Zealand, including its policy of introducing species of economic benefit, such as salmon, is described in <ref target="../bibliographies/bibl_3229.xml" resp="#mjhawkins">H. F. von Haast 1948</ref>, pp. 278–93.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_5233.xml" resp="#mjhawkins">Thomas White Woodbury</ref> introduced Ligurian honey bees to Australia; at Wilson’s request, Woodbury had despatched four stocks of these bees from London to Melbourne in September 1862 (<ref target="../bibliographies/bibl_976.xml" resp="#mjhawkins">R. H. Brown 1975</ref>, p. 30).</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_3955.xml" resp="#mjhawkins">George Varenne Reed</ref>.</note>
+            <note xml:id="foot.f5">On the assistance CD received from his children in his observations of male <hi rend="italic">Bombus</hi>, see, for example, <ref target="../bibliographies/bibl_2660.xml" resp="#mjhawkins">Freeman 1968</ref>.</note>
+            <note xml:id="foot.f6">CD refers to his neighbour <ref target="../nameregs/nameregs_3026.xml" resp="#mjhawkins">John Lubbock</ref>, whose research on parasites of <hi rend="italic">Bombus terrestris</hi> and other <hi rend="italic">Bombus</hi> species had involved the collection of humble-bees during the winter months (see Lubbock 1864).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

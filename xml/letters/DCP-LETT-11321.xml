@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11321">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Adolf Ernst   16 January 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3906</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11321 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11321.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11321.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 144: 6</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl>Sobol (1956): 214</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">State Darwin Museum, Moscow (GDM KP OF 8971)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_112.xml">Darwin Museum Moscow</repository>
+                    <idno>GDM KP OF 8971</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1878-01-16">16 Jan 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1523.xml">Ernst, Adolf</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks AE for his book [<hi rend="italic">Estudios sobre la flora y fauna de Venezuela</hi> (1877)].</p> 
+            <p>Asks whether glaucous plants in Venezuela are more common in drier areas.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">glaucous plants</term>
+                <term type="it" ref="#">Estudios sobre la flora y fauna de Venezuela</term>
+                <term type="places" ref="#">Venezuela</term>
+                <term type="rx" ref="#">Ernst, Adolf 1877</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">plant physiology</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">wind and weather</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Jan 16. 1878.</date>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I thank you for your very courteous letter &amp; for the present of your work.<ref target="#foot.f1"/> I am delighted that there should be a Naturalist in Venezuela capable of observing the many interesting products of that country: &amp; I hope that you may be successful in your researches. As you are so kind as to offer me any in〈forma〉tion, I will ask you one question, though it is not probable that you should ever have attended to the point. It is whether many more plants growing on the interior dry plains are glaucous (that is are protected by a waxy secretion from which water rolls off like mercury) than in the humid districts near the coast?<ref target="#foot.f2"/></p>
+<p>I remain dear Sir | Yours faithfully | Charles Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">Ernst’s letter to CD has not been found. He evidently sent a copy of his <hi rend="italic">Estudios sobre la flora y fauna de Venezuela</hi> (<ref target="../bibliographies/bibl_9637.xml" resp="#automat" cert="low">Ernst 1877</ref>), but it has not been found in the Darwin Libraries at CUL or Down.</note>
+            <note xml:id="foot.f2">CD began studying bloom (the waxy coating on the leaves and fruit of many plants) in 1873 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 21, <ref target="./DCP-LETT-9007.xml" resp="#mjhawkins">letter to J. D. Hooker, 13 August 1873</ref>).  He suspended his work on the subject in 1874 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 22, <ref target="./DCP-LETT-9571.xml" resp="#mjhawkins">letter to W. T. Thiselton-Dyer, 28 [June 1874]</ref> and n. 7), and began again in 1877 (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 25, <ref target="./DCP-LETT-10960.xml" resp="#mjhawkins">letter to Fritz Müller, 14 May 1877</ref>). CD never published on bloom, but <ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin</ref> published some of the results of their experiments, made in 1878, in his paper ‘On the relation between the “bloom” on leaves and the distribution of the stomata’ (<ref target="../bibliographies/bibl_10276.xml" resp="#mjhawkins">F. Darwin 1886</ref>).</note>
+        </div>
+    
+    </body>
+    </text>
+</TEI>

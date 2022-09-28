@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8978">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Henry Edwards   15 July [1873]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1229</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8978 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8978.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8978.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="publication">
+                <bibl>De Beer (1958): 87</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Natural History Museum, Library and Archives (General Special Collections MSS DAR A6)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_288.xml">NHM</repository>
+                    <collection>General Special Collections</collection>
+                    <idno>MSS DAR A6</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1873-07-15">15 July [1873]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1470.xml">Edwards, Henry</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>HE’s facts about the Mexican ant [<hi rend="italic">Myrmecocystus mexicanus</hi>] are "most wonderful &amp; interesting".</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">ants</term>
+                <term type="animals" ref="#">Myrmecocystus mexicanus</term>
+                <term type="places" ref="#">Mexico</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>July 15</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am much obliged to you for having sent me the account of the Mexiccan ant, about which I had read something before.<ref target="#foot.f2"/></p>
+<p>Your facts are most wonderful &amp; interesting.</p>
+<p>Dear Sir | yours faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to <ref target="../bibliographies/bibl_2264.xml" resp="#mjhawkins">Edwards 1873</ref> (see n. 2, below).</note>
+            <note xml:id="foot.f2">CD refers to <hi rend="italic">Myrmecocystus mexicanus</hi> and Edwards’s ‘Notes on the honey-making ant of Texas and New Mexico’ (<ref target="../bibliographies/bibl_2264.xml" resp="#mjhawkins">Edwards 1873</ref>). See also <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>, pp. 238–9. In his unpublished ‘big book’ on species, CD cited <ref target="../bibliographies/bibl_8288.xml" resp="#mjhawkins">Wesmael 1838</ref> for information on ants (see <ref target="../bibliographies/bibl_5799.xml" resp="#mjhawkins"><hi rend="italic">Natural selection</hi></ref>, p. 369).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

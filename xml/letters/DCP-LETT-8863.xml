@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8863">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Leonard Blomefield   17 April [1873]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1242</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8863 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8863.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8863.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 145: 353</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Bath Royal Literary and Scientific Institution (LET3016)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_32.xml">Bath RLSI</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1873-04-17">17 Apr [1873]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2560.xml">Blomefield, Leonard</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks LB for his essay on local biology.</p>
+            <p>CD with much care and discomfort is now able to work a few hours almost every day.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin himself, good or improving</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>April 17<hi rend="superscript">th</hi></date>
+                    <salute>My dear Jenyns</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I cannot begin a note to you in any other way, though no doubt you are well accustomed to your new name.<ref target="#foot.f2"/> I write merely to thank you for your essay on Local Biology.<ref target="#foot.f3"/> It has interested me much; &amp; I doubt whether there is another man who could have collected so many valuable suggestions &amp; curious facts.— I hope that you keep fairly well. As for myself I am much as usual, but with care &amp; much discomfort am able to work a few hours almost every day.</p>
+<p>With cordial recollections of old times, believe me | Yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the publication date of Blomefield’s essay (see n. 3, below).</note>
+            <note xml:id="foot.f2">In 1871, <ref target="../nameregs/nameregs_2560.xml" resp="#mjhawkins">Leonard Jenyns</ref> received a considerable property on condition that he change his name to Blomefield (<ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref>).</note>
+            <note xml:id="foot.f3">CD’s annotated copy of Blomefield’s paper ‘Local biology’ (<ref target="../bibliographies/bibl_715.xml" resp="#mjhawkins">Blomefield 1872</ref>) is in the Darwin Pamphlet Collection–CUL.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2519">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Louis Agassiz   11 November [1859]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3087</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2519 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2519.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2519.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 143: 13</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">LL</hi> 2: 215;</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl>Lurie (1960): 253</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 7: 366</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Houghton Library, Harvard University (MS Am 1419: 276)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_180.xml">Harvard Houghton</repository>
+                    <collection>L. Agassiz Correspondence etc.</collection>
+                    <idno>MS Am 1419: 276</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Ilkley Down letterhead</placeName>
+                <date when="1859-11-11">11 Nov [1859]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_43.xml">Agassiz, J. L. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends copy of <hi rend="italic">Origin</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Origin</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent [Ilkley]</placeName>
+                    <date>Nov. 11<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have ventured to send you, a copy of my Book (as yet only an abstract) on the origin of species.<ref target="#foot.f1"/> As the conclusions at which I have arrived on several points differ so widely from yours, I have thought (should you at any time read my volume) that you might think that I had sent it to you out of a spirit of defiance or bravado;<ref target="#foot.f2"/> but I assure you that I act under a wholly different frame of mind. I hope that you will at least give me credit, however erroneous you may think my conclusion, for having earnestly endeavoured to arrive at the truth.</p>
+<p>With sincere respect, I beg leave to remain | Yours very faithfully | Charles Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Agassiz’s presentation copy of <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref> is in the Museum of Comparative Zoology, Harvard University. It was extensively annotated by Agassiz.</note>
+            <note xml:id="foot.f2">Agassiz held the view that species were created en masse in the locations they currently inhabit. CD had written to him in 1841 and Agassiz had, in 1858, presented him with a copy of his own views on species, the first part of <ref target="../bibliographies/bibl_66.xml" resp="#mjhawkins">Agassiz 1857–62</ref>. CD’s annotated copy is in the Darwin Library–CUL.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

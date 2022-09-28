@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8074F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Daniel Oliver   17 November 1871</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">21553</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8074F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8074F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8074F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Christie’s, New York (dealers) (3 December 2010: Sale 2361, Lot 422)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_90.xml">Christie’s NY</repository>
+                    <collection>(3 Dec 2010)</collection>
+                    <idno>2361: 422</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1871-11-17">17 Nov 1871</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3589.xml">Oliver, Daniel</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks for the information about the action of roots on rocks.</p>
+        </abstract>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>Nov 17. 1871</date>
+                    <salute>Dear Professor Oliver</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>You have been very kind to take so much trouble for me; the information is amply sufficient, as I wished to learn how far the roots c<hi rend="superscript">d</hi> act on rocks, not caring about the nutrition of the plants.<ref target="#foot.f1"/></p>
+<p>Yours truly obliged | Ch Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had asked Oliver whether it was believed that rootlets secreted carbonic acid or similar chemicals (<ref target="./DCP-LETT-8068.xml" resp="#mjhawkins">letter to Daniel Oliver, 15 November 1871</ref>). Oliver’s reply has not been found.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

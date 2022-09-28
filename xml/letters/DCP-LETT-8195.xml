@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8195">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Murray   2 February [1872]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9576</idno>
+            
+            
+            
+            
+            <date when="2013">2013</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8195 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8195.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8195.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="20">20</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 406</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 406</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+                <placeName>London, Albemarle St, 50</placeName>
+                <date when="1872-02-02">2 Feb [1872]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Accedes to CD’s request to let Appleton have a set of stereotypes of the 6th English edition of <hi rend="italic">Origin</hi> at a little above cost.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="it" ref="#">Origin</term>
+                <term type="societal" ref="#">Appleton’s</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">50, Albemarle S<hi rend="superscript">t</hi>. | W.</hi></placeName>
+                    <date>Feb<hi rend="superscript">y</hi> 2</date>
+                    <salute>Dear M<hi rend="superscript">r</hi> Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>It is only reasonable &amp; just that I sh<hi rend="superscript">d</hi> comply with your wishes regarding your own works as far as possible—&amp; I shall certainly not refuse one so strenuously urged by you as that of allowing your American publisher to have a set of stereotypes of the new Ed<hi rend="superscript">n</hi>. of the Origin of Species.—<ref target="#foot.f2"/> I have ascertained from Clowes<ref target="#foot.f3"/> that the cost will exceed £30— Appleton them for £50.—</p>
+<p>I hope you will receive copies of your new Ed<hi rend="superscript">n</hi>. between the 8<hi rend="superscript">th</hi> &amp; 10<hi rend="superscript">th</hi>.</p>
+<p>My Dear Sir | Yours very sincerely | John Murray <lb resp="#mjhawkins"/></p>
+<p rend="left">Chas Darwin Esq</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-8188.xml" resp="#mjhawkins">letter to John Murray, 30 January 1872</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-8188.xml" resp="#mjhawkins">letter to John Murray, 30 January 1872</ref>. Murray refers to <ref target="../bibliographies/bibl_6019.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 6th ed.</ref> CD’s American publisher was <ref target="../nameregs/nameregs_135.xml" resp="#mjhawkins">D. Appleton &amp; Co</ref>.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_979.xml" resp="#mjhawkins">William Clowes &amp; Sons</ref> were printers to Murray.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

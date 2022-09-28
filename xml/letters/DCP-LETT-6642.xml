@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6642">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To A. R. Wallace   5 March [1869]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1766</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6642 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6642.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6642.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl>Marchant (1916) 1: 235</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">The British Library (Add MS 46434)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_43.xml">The British Library</repository>
+                    <collection>Add MS 46434</collection>
+                    <idno/>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1869-03-05">5 Mar [1869]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4935.xml">Wallace, A. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Reception of ARW’s book, <hi rend="italic">Malay Archipelago</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Malay Archipelago</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">geography</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>March 5<hi rend="superscript">th</hi></date>
+                    <salute>My dear Wallace</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I was delighted at receiving your Book this morning. Its whole appearance &amp; the illustrations, with which it so profusely ornamented, are quite beautiful. Blessings on you &amp; your publisher for having the pages cut &amp; gilded.—<ref target="#foot.f2"/> As for the Dedication, putting quite aside how far I deserve what you say, it seems to me decidedly the best expressed dedication, which I have ever met.<ref target="#foot.f3"/></p>
+<p>The reading will probably last me a month, for I dare not have it read aloud, as I know that it will set me thinking. I see that many points will interest me greatly.— When I have finished, if I have anything particular to say, I will write again. Accept my cordial thanks. The dedication is a thing for my children’s children to be proud of.—</p>
+<p>Yours most sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to Wallace’s book (see nn. 2 and 3, below).</note>
+            <note xml:id="foot.f2">CD refers to <hi rend="italic">The Malay Archipelago</hi> (Wallace 1869a), published at the beginning of March 1869 (<hi rend="italic">Publishers’ Circular</hi>, 15 March 1869, p. 171). CD’s annotated copy is in the Darwin Library–CUL (see <ref target="../bibliographies/bibl_5214.xml" resp="#mjhawkins"><hi rend="italic">Marginalia</hi></ref> 1: 840–2). CD was a strong advocate of producing books with the pages already cut (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 15, letter to <hi rend="italic">Athenæum</hi>, 1 January 1867).</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-6561.xml" resp="#automat">letter from A. R. Wallace, 20 January 1869</ref> and n. 1.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

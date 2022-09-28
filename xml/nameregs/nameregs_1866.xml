@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-1866" status="released">
+    <persName>
+        <forename>Caroline</forename>
+        <forename>Mallet</forename>
+        <choice>
+            <seg><surname notBefore="1802" notAfter="1821">Giffard</surname></seg>
+            <seg><surname notBefore="1821" notAfter="1841">Mytton</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1802–41</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Became John Mytton’s second wife in 1821.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_1095.xml"><hi rend="italic">Burke’s landed gentry</hi></ref> 1952.</p>
+    </note>
+    <note type="volume">1</note>
+    <note type="keywords">
+        <term type="name">Mytton, John</term>
+    </note>
+</person>

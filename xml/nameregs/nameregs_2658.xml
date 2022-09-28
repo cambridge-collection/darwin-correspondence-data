@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-2658" status="released">
+    <persName>
+        <forename>Louisa</forename>
+        <forename>Frances</forename>
+        <choice>
+            <seg><surname notBefore="1834" notAfter="1864">Wedgwood</surname></seg>
+            <seg><surname notBefore="1864" notAfter="1903">Kempson</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1834–1903</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of Henry Allen and Jessie Wedgwood. Emma Darwin’s niece. Married William John Kempson in 1864.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_2662.xml" resp="#mjhawkins">Freeman 1978</ref>.</p>
+    </note>
+    <note type="volume">1,6,7,14,15,19,WSL,30</note>
+    <note type="keywords">
+        <term type="name">Darwin, C. R.</term>
+        <term type="name">Kempson, W. J.</term>
+    </note>
+</person>

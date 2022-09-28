@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7266">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. H. Flower   5 July 1870</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20200</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7266 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7266.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7266.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Bonhams, 13 March 2002</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_50.xml">Bonhams</repository>
+                    <collection/>
+                    <idno>11 Dec 2013</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1870-07-05">5 July 1870</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1670.xml">Flower, W. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Encloses a query from Camille Dareste [see <hi rend="doubleUnderline">7262</hi>] about the niata ox skull CD gave to the museum [of the Royal College of Surgeons].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">niata ox</term>
+                <term type="people" ref="#subject_1196">Dareste, G. M. C.</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+                <term type="societal" ref="#">museum</term>
+                <term type="societal" ref="#">Royal College of Surgeons</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down.</hi> | Beckenham | <hi rend="print">Kent. S.E.</hi></placeName>
+                    <date>July 5 1870</date>
+                    <salute>My dear Mr Flower</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Will you kindly do me a favour &amp; examine the head of the Niata ox which I formerly gave to y<hi rend="superscript">r</hi> Museum.<ref target="#foot.f1"/> If you will look at the part marked with blue in the 2<hi rend="superscript">nd</hi> page of the enclosed letter, you will see what is wanted.<ref target="#foot.f2"/> Please to give me a sentence that I may quote to him on your authority; &amp; he is I think quite worthy of your assistance.</p>
+<p>I return by this post the book on teeth which I have been glad to see—<ref target="#foot.f3"/></p>
+<p>Yours very sincerely | Ch. Darwin | Please to return Dareste’s letter</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD refers to a skull from South America, collected by CD while he was on the <hi rend="italic">Beagle</hi> voyage, and given to the Hunterian museum of the Royal College of Surgeons, London (abstracts of the minutes of the Museum Committee, Archives, Royal College of Surgeons). Flower was the museum curator.</note>
+            <note xml:id="foot.f2">CD evidently enclosed the <ref target="./DCP-LETT-7262.xml" resp="#mjhawkins">letter from Camille Dareste, 2 July 1870</ref>. CD scored in blue a section referring to the position of the vomer in the skull of a monstrous calf that Dareste had examined.</note>
+            <note xml:id="foot.f3">The book CD borrowed has not been identified.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

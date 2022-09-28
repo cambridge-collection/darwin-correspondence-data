@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4721">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Lubbock   21 December [1864]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8435</idno>
+            
+            
+            
+            
+            <date when="2001">2001</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4721 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4721.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4721.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="12">12</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 146: 116</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 263: 60 (EH 88206504)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>263: 60 (EH 88206504)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1864-12-21">21 Dec [1864]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3026.xml">Lubbock, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>The Copley medal. Sabine’s Presidential Address and Huxley’s response.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_2486">Huxley, T. H.</term>
+                <term type="rx" ref="#">Sabine, Edward 1863</term>
+                <term type="scientific_terms" ref="#">negative attitude/assessment</term>
+                <term type="scientific_terms" ref="#">scientific controversy, confrontation</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">Copley medal</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Dec 21</date>
+                    <salute>My dear Lubbock</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>The magnificence of all the first &amp; last part of the President’s address quite obliterated the little he said about the Origin.<ref target="#foot.f2"/> I believe I am protected by an invulnerable shield of self-conceit, so did not care what he said, &amp; I know how many good men there are who believe in Nat. Selection. I heard all about Huxley attacking the Pres. &amp; it was just like him to defend an absent friend; but I suppose his real motive was to blame the Pres. for modifying in ever so little a degree the Council’s award &amp; in this I sh<hi rend="superscript">d</hi> think he did good service.<ref target="#foot.f3"/></p>
+<p>I hope your book is getting on pretty well;<ref target="#foot.f4"/> as for myself I have lately lost a good many days by being unwell.</p>
+<p>yours affectionately | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-4719.xml" resp="#mjhawkins">letter from John Lubbock, 20 December 1864</ref>.</note>
+            <note xml:id="foot.f2">CD refers to <ref target="../nameregs/nameregs_4140.xml" resp="#mjhawkins">Edward Sabine’s</ref> anniversary address to the <ref target="../nameregs/nameregs_4110.xml" resp="#mjhawkins">Royal Society of London</ref> delivered on 30 November 1864 (see <ref target="./DCP-LETT-4719.xml" resp="#mjhawkins">letter from John Lubbock, 20 December 1864</ref> and n. 1).</note>
+            <note xml:id="foot.f3">For <ref target="../nameregs/nameregs_2486.xml" resp="#mjhawkins">Thomas Henry Huxley’s</ref> response to Sabine’s address, see the <ref target="./DCP-LETT-4692.xml" resp="#mjhawkins">letter from J. D. Hooker, 2 December 1864</ref>, and the <ref target="./DCP-LETT-4691F.xml" resp="#mjhawkins">letter from T. H. Huxley to J. D. Hooker, 3 December 1864</ref>. See also Appendix IV.</note>
+            <note xml:id="foot.f4">Lubbock 1865b.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

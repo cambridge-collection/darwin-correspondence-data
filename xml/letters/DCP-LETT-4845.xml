@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4845">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From T. H. Huxley   1 June 1865</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3403</idno>
+            
+            
+            
+            
+            <date when="2002">2002</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4845 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4845.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4845.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="13">13</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="publication">
+                <bibl>Huxley (1900) 1: 267</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 13</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 166: 308</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>166: 308</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2486.xml">Huxley, T. H.</persName>
+                <placeName>Museum of Practical Geology</placeName>
+                <date when="1865-06-01">1 June 1865</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>MS arrived. Has glanced at it and sees he must put on his sharpest spectacles and best considering cap.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">pangenesis</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Museum of Practical Geology</hi></placeName>
+                    <date>June 1 | 1865</date>
+                    <salute>My dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Your M.S reached me safely last evening—<ref target="#foot.f1"/></p>
+<p>I could not refrain from glancing over it on the spot and I perceive I shall have to put on my sharpest spectacles &amp; best considering cap—</p>
+<p>I shall not write till I have thought well on the whole subject<ref target="#foot.f2"/></p>
+<p>Ever Yours | T H Huxley</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Huxley refers to CD’s manuscript of the section on pangenesis for <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> (see <ref target="./DCP-LETT-4837.xml" resp="#mjhawkins">letter to T. H. Huxley, 27 May [1865]</ref> and n. 4).</note>
+            <note xml:id="foot.f2">No letter from Huxley commenting on CD’s manuscript has been found, but see the <ref target="./DCP-LETT-4870.xml" resp="#mjhawkins">letter to T. H. Huxley, 12 July [1865]</ref>, for CD’s response to Huxley’s critique.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10969">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Asa Gray   22 May 1877</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6615</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10969 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10969.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10969.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp, encl ALS 5pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 153: 361</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 110: B53–7, DAR 165: 196</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>165: 196,</idno>
+                </msIdentifier>
+            </msDesc>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>110: B53–B57</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1957.xml">Gray, Asa</persName>
+                <placeName>Herbarium of Harvard</placeName>
+                <date when="1877-05-22">22 May 1877</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Asked C. E. Bessey whether <hi rend="italic">Lithospermum longiflorum</hi> was dimorphic like its relatives. Encloses CEB’s reply.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Lithospermum longiflorum</term>
+                <term type="people" ref="#subject_420">Bessey, C. E.</term>
+                <term type="scientific_terms" ref="#">dimorphism</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                
+                <term type="tag" ref="#asa_gray_set">Asa Gray Letters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00165-000-00820_files/8/0_0.jpg" width="3154px" height="4063px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00165-000-00820_files/11/1_1.jpg" width="3154px" height="4063px"/>
+        <surface n="196:1r" xml:id="i820">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00165-000-00820.jpg" width="3154px" height="4063px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00165-000-00820_files/8/0_0.jpg" width="3154px" height="4063px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00165-000-00820.dzi" width="3154px" height="4063px"/>
+        </surface>
+        <surface n="196:1v" xml:id="i821">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00165-000-00821.jpg" width="3154px" height="4063px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00165-000-00821_files/8/0_0.jpg" width="3154px" height="4063px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00165-000-00821.dzi" width="3154px" height="4063px"/>
+        </surface>
+        <surface n="196:2r" xml:id="i822">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00165-000-00822.jpg" width="3154px" height="4063px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00165-000-00822_files/8/0_0.jpg" width="3154px" height="4063px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00165-000-00822.dzi" width="3154px" height="4063px"/>
+        </surface>
+        <surface n="196:2v" xml:id="i823">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00165-000-00823.jpg" width="3154px" height="4063px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00165-000-00823_files/8/0_0.jpg" width="3154px" height="4063px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00165-000-00823.dzi" width="3154px" height="4063px"/>
+        </surface>
+    </facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Herbarium of Harvard University, | Botanic Garden, Cambridge, Mass.</hi></placeName>
+                    <date>May 22 <hi rend="print">187</hi>7</date>
+                    <salute>My Dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I asked my good correspondent Prof. Bessey to see if <hi rend="underline">Lithospermum</hi> <hi rend="underline">longiflorum</hi> (= angustifolium) being cleistogenous later, is, like its relatives, also dimorphous.<ref target="#foot.f1"/> Here is his first reply just in season to send to you by this post.</p>
+<p>I forgot to ask him to examine <hi rend="underline">pollen</hi>. I will do so.</p>
+<p>Yours ever | Asa Gray</p> 
+                </div>
+            </div>
+        <div type="enclosure" subtype="letter">
+      
+          <opener>
+              <placeName><hi rend="print">Iowa Agricultural College.</hi> | <hi rend="print">Ames,</hi></placeName>
+                    <date>May 19<hi rend="superscript">th</hi> <hi rend="print">187</hi>7</date>
+                    <salute>My dear Doctor Gray.</salute>
+                </opener><div type="transcription">
+                     
+<p>As to the dimorphism of <hi rend="underline">Lithospermum longiflorum</hi>, Spreng. or <hi rend="underline">L. angustifolium</hi> Michx. I send you measurements made upon freshly gathered specimens this morning.</p>
+                    <p>I examined ten flowers from five different plants; enough to show that if there is any dimorphism it is a <hi rend="underline">wonderfully irregular one.</hi><ref target="#foot.f2"/> I copy my notes <hi rend="underline">entire.</hi></p> 
+
+    <table>
+        <row>
+            <cell rend="left">Plant No 1.</cell>
+            <cell rend="width05" rows="5"><hi rend="stretchyVertical">{</hi></cell>
+            <cell rend="left">Length</cell>
+            <cell rend="left">of</cell>
+            <cell rend="left">Calyx</cell>
+            <cell rend="right">.32</cell>
+            <cell rend="left">inch</cell>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left">Flower No 1.</cell>
+            <cell rend="centre">"</cell>
+            <cell rend="left">"</cell>
+            <cell rend="left">Corolla</cell>
+            <cell rend="right">1.04</cell>
+            <cell rend="centre">"</cell>
+            <cell rend="left">(tubular portion only)</cell>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell rend="centre">"</cell>
+            <cell rend="left">"</cell>
+            <cell rend="left">Style</cell>
+            <cell rend="right">1.03</cell>
+            <cell rend="centre">"</cell>
+            <cell rend="left">(from base of corolla)</cell>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell rend="centre">"</cell>
+            <cell rend="left" cols="2">to middle of anthers</cell>
+            <cell rend="right">.87</cell>
+            <cell rend="centre">"</cell>
+            <cell rend="left"/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell rend="centre">"</cell>
+            <cell rend="left" cols="2">of anthers</cell>
+            <cell rend="right">.10</cell>
+            <cell rend="centre">"</cell>
+            <cell rend="left"/>
+        </row>
+        <row>
+            <cell/>
+            <cell rend="left" cols="7">Pollen falling freely from anthers.</cell>
+        </row>
+        <row>
+            <cell cols="8"/>
+        </row>
+        <row>
+           <cell cols="8"/> 
+        </row>
+        <row>
+            <cell rend="left">Flower No 2</cell>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Calyx</cell>
+            <cell rend="right">.32</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Corolla</cell>
+            <cell rend="right">1.00</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Style</cell>
+            <cell rend="right">1.00</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Stamens</cell>
+            <cell rend="right"> .82</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left">Length</cell>
+            <cell rend="left">of</cell>
+            <cell rend="left">anthers</cell>
+            <cell rend="right">.10</cell>
+            <cell rend="left">—</cell>
+            <cell/>
+        </row>
+        <row>
+            <cell/>
+            <cell rend="left" cols="7">Pollen falling freely.</cell>
+        </row>
+        <row>
+            <cell/>
+            <cell rend="left" cols="7">Stamens irregular in height: From top of uppermost to bottom of lowermost .15 inch</cell>
+        </row>
+        <row>
+            <cell cols="8"/>
+        </row>
+        <row>
+            <cell cols="8"/>
+        </row>                       
+        <row>
+            <cell rend="left">Plant No 2.</cell>
+            <cell/>
+            <cell rend="left">Flower </cell>
+            <cell rend="left">3<hi rend="superscript">d</hi>.</cell>
+            <cell rend="left">Calyx</cell>
+            <cell rend="right">.35</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Corolla</cell>
+            <cell rend="right">1.08</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Style</cell>
+            <cell rend="right">1.08</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Stamens</cell>
+            <cell rend="right">.93</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Anthers</cell>
+            <cell rend="right"> .08</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell/>
+            <cell rend="left" cols="7">Anthers dried up and old.</cell>
+        </row>
+        <row>
+            <cell cols="8"/>
+        </row>
+        <row>
+            <cell cols="8"/>
+        </row>                        
+        <row>
+            <cell rend="centre">"</cell>
+            <cell/>
+            <cell rend="left">Flower</cell>
+            <cell rend="left">4<hi rend="superscript">th</hi>.</cell>
+            <cell rend="left">Calyx</cell>
+            <cell rend="right">.35</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Corolla</cell>
+            <cell rend="right">1.18</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Style</cell>
+            <cell rend="right">1.06</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Stamens</cell>
+            <cell rend="right">1.03</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell/>
+            <cell rend="left" cols="7">Anthers placed irregularly, old and dried up.</cell>
+        </row>
+        <row>
+            <cell cols="8"/>
+        </row>
+        <row>
+            <cell cols="8"/>
+        </row>                       
+        <row>
+            <cell rend="left">Plant No 3.</cell>
+            <cell/>
+            <cell rend="left">Flower</cell>
+            <cell rend="left">5<hi rend="superscript">th</hi>.</cell>
+            <cell rend="left">Calyx</cell>
+            <cell rend="right">.30</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Corolla</cell>
+            <cell rend="right">1.09</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Style</cell>
+            <cell rend="right">.92</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Stamens</cell>
+            <cell rend="right">.95</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Anthers</cell>
+            <cell rend="right">.06</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell/>
+            <cell rend="left" cols="7">Anthers old and dried up.</cell>
+        </row>
+        <row>
+            <cell cols="8"/>
+        </row>
+        <row>
+            <cell cols="8"/>
+        </row>                       
+        <row>
+            <cell rend="centre">"</cell>
+            <cell/>
+            <cell rend="left">Flower</cell>
+            <cell rend="left">6<hi rend="superscript">th</hi>.</cell>
+            <cell rend="left">Calyx</cell>
+            <cell rend="right">.31</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Corolla</cell>
+            <cell rend="right">1.14</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Style</cell>
+            <cell rend="right">.95</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Stamens</cell>
+            <cell rend="right">.98</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Anthers</cell>
+            <cell rend="right">.09</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell/>
+            <cell rend="left" cols="7">Pollen falling freely.</cell>
+        </row>
+        <row>
+            <cell cols="8"/>
+        </row>
+        <row>
+            <cell cols="8"/>
+        </row>                        
+        <row>
+            <cell rend="left">Plant No 4</cell>
+            <cell/>
+            <cell rend="left">Flower</cell>
+            <cell rend="left"> 7<hi rend="superscript">th</hi></cell>
+            <cell rend="left">Calyx</cell>
+            <cell rend="right">.39</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Corolla</cell>
+            <cell rend="right">1.37</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Style</cell>
+            <cell rend="right">1.05</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Stamens</cell>
+            <cell rend="right">1.20</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell/>
+            <cell rend="left" cols="7">Anthers old and dried up.</cell>
+        </row>
+        <row>
+            <cell/>
+            <cell rend="left" cols="7">The corolla fell as the flower was plucked.</cell>
+        </row>
+        <row>
+            <cell cols="8"/>
+        </row>
+        <row>
+            <cell cols="8"/>
+        </row>                       
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left">Flower</cell>
+            <cell rend="left">8<hi rend="superscript">th</hi>.</cell>
+            <cell rend="left">Calyx</cell>
+            <cell rend="right">.39</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Corolla</cell>
+            <cell rend="right">1.30</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Style</cell>
+            <cell rend="right">1.19</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Stamens</cell>
+            <cell rend="right">1.17</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell/>
+            <cell rend="left" cols="7">Flower in “full bloom” possibly a little past.</cell>
+        </row>
+        <row>
+            <cell rend="left" cols="8">Stamens of irregular height. Stigma in the midst of the anthers, and covered with pollen. Corolla 4 lobed! Anthers 4! Sepals of irregular size, one only<formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>2</mn><mn>3</mn></mfrac></math></formula> the size of the others.</cell>
+        </row>
+        <row>
+            <cell cols="8"/>
+        </row>
+        <row>
+            <cell cols="8"/>
+        </row>                       
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left">Flower</cell>
+            <cell rend="left">9<hi rend="superscript">th</hi>.</cell>
+            <cell rend="left">Calyx</cell>
+            <cell rend="right">.32</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Corolla</cell>
+            <cell rend="right">1.18</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Style</cell>
+            <cell rend="right">1.03</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Stamens</cell>
+            <cell rend="right">1.05</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Anthers</cell>
+            <cell rend="right">.06</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell/>
+            <cell rend="left" cols="7">Anthers shedding pollen, and of irregular height.</cell>
+        </row>
+        <row>
+            <cell cols="8"/>
+        </row>
+        <row>
+            <cell cols="8"/>
+        </row>                      
+        <row>
+            <cell rend="left">Plant 5.</cell>
+            <cell/>
+            <cell rend="left">Flower</cell>
+            <cell rend="left">10<hi rend="superscript">th</hi>.</cell>
+            <cell rend="left">Calyx</cell>
+            <cell rend="right">.39</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Corolla</cell>
+            <cell rend="right">1.06</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Style</cell>
+            <cell rend="right">.83</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Stamens</cell>
+            <cell rend="right">.90</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell/>
+            <cell rend="left" cols="7">Flower old.</cell>
+        </row>
+        <row>
+            <cell rend="left" cols="8">Calyx with five perfect sepals, and an additional one alternating with and within the normal whorl: this extra one smaller than the others and with yellow petaloid edge.</cell>
+        </row>
+        <row>
+            <cell cols="8"/>
+        </row>
+        <row>
+            <cell cols="8"/>
+        </row>                       
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left">Flower</cell>
+            <cell rend="left">11.</cell>
+            <cell rend="left">Calyx—</cell>
+            <cell rend="right"> .34</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Corolla—</cell>
+            <cell rend="right"> 1.15</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Style</cell>
+            <cell rend="right"> .51</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Stamens</cell>
+            <cell rend="right">.97</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell/>
+            <cell rend="left"/>
+            <cell rend="left"/>
+            <cell rend="left">Anthers</cell>
+            <cell rend="right">.07</cell>
+            <cell rend="left"/>
+            <cell/>
+        </row>
+        <row>
+            <cell rend="left" cols="8">This flower had 6 perfect sepals, 6 slightly irregular corolla lobes, and 6 stamens. The short style appeared to be abortive, possibly from an injury, as the stigmatic end was black, and <hi rend="underline">not</hi> <hi rend="underline">lobed.</hi> Pollen falling freely from the anthers.</cell>
+        </row>
+        <row>
+            <cell rend="left" cols="8"><hi rend="doubleUnderline">Note.</hi> Two other flowers (young) on this plant had a 6-sepaled calyx. One had a 6-lobed corolla, both had but 5 stamens each.<ref target="#foot.f3"/></cell>
+        </row>
+    </table>
+
+                  
+<figure type="diagram"> 
+<p>DIAG HERE</p> </figure> 
+<p>In order to show at a glance the relative lengths of corolla tube, style and stamens, I have constructed these diagrams. They are magnified <hi rend="underline">ten times.</hi> Every inch in diagram represents .10 inch actual. To save space the lower six inches of the diagrams are cut off.</p>
+<p>I will make further measurements as I have the time, but these show that there is <hi rend="underline">great irregularity</hi> in these flowers. I notice that in the forms where the styles are generally shorter than the stamens—the styles are <hi rend="underline">much longer</hi> than the stamens <hi rend="doubleUnderline">in the bud.</hi></p>
+<p>I think the small flowers (late ones) are cleistogamous.<ref target="#foot.f4"/> Will watch them when they appear.</p>
+<p>This long flowered form seems to be thrown into a state of confusion by the vice of self-fertilization which is almost certainly indulged in by the small flowered forms. The long ones appear to be trying to be heterostylous, but are probably balked by the habits of the short ones.</p>
+<p>Very truly | C. E. Bessey.</p>
+<p>Thanks for pamphlets. I’ll inquire about artichokes.</p> 
+                </div>
+        
+    </div>
+
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_420.xml" resp="#mjhawkins">Charles Edwin Bessey</ref>. Gray had informed CD that <hi rend="italic">Lithospermum longiflorum</hi> became cleistogenous later in the season, but was probably not dimorphic (<ref target="./DCP-LETT-10918.xml" resp="#mjhawkins">letter from Asa Gray, 30 March 1877</ref>). <hi rend="italic">Lithospermum longiflorum</hi> and <hi rend="italic">L. angustifolium</hi> are synonyms of <hi rend="italic">L. incisum</hi> (fringed gromwell). Gray used the non-standard term cleistogenous instead of cleistogamic; see also <ref target="./DCP-LETT-10909.xml" resp="#mjhawkins">letter from J. V. Carus, 22 March 1877</ref>, n. 2.</note>
+            <note xml:id="foot.f2">In <ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref>, p. 3, CD cautioned that mere variability in the floral organs did not automatically mean the forms were truly distinct.</note>
+            <note xml:id="foot.f3">The diagram is reproduced at 80 per cent of its original size.</note>
+            <note xml:id="foot.f4"><ref target="../bibliographies/bibl_9500.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi> 2d ed.</ref>, p. xix, edited by <ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin</ref>, confirmed that <hi rend="italic">Lithospermum longiflorum</hi> had cleistogamic flowers, based on Bessey’s later published work on the subject (Bessey 1878).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

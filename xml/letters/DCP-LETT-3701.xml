@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3701">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From A. C. Ramsay   26 August 1862</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17931</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3701 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3701.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3701.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 176: 9</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>176: 9</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3922.xml">Ramsay, A. C.</persName>
+                <placeName>London</placeName>
+                <date when="1862-08-26">26 Aug 1862</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends his paper [on glacial lakes, see <hi rend="doubleUnderline">3450</hi>]. Falconer attacked it. Falconer thinks Himalayas confound the theory, but Hooker writes that it explains the absence of lakes there.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="geology" ref="#">glacial lakes</term>
+                <term type="rx" ref="#">Ramsay, A. C. 1862</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">geography</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">ice, ice-action, icebergs, glaciers</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>London</placeName>
+                    <date>26 Augt 1862</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>By this post I send a paper<ref target="#foot.f1"/> which I hope you may find time to read, for you are one of the few whose opinion I specially care about on such a subject.</p>
+<p>When I read it Falconer<ref target="#foot.f2"/> made a 40 minutes onslaught on it, &amp; I accidentaly heard (what did not surprise) me that the Council had some difficulty about passing it at all.<ref target="#foot.f3"/></p>
+<p>Falconer was of opinion that had I known the Himalayah I would not have propounded such a theory. Hooker, however, who was not present, writes me that “the great standing puzzle of the Himalayah, <hi rend="underline">its</hi> <hi rend="underline">wanting lakes</hi>, is explicable on your hypothesis &amp; on no other that I ever heard propounded”.—<ref target="#foot.f4"/> He then shows cause on my hypothesis for their absence on the South &amp; the immense number of them in Cashmire &amp; Thibet where the valleys are wide &amp; of gentle slope.</p>
+<p>Ever sincerely | And<hi rend="superscript">w</hi> C Ramsay</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Ramsay 1862.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_1585.xml" resp="#mjhawkins">Hugh Falconer</ref>.</note>
+            <note xml:id="foot.f3">Ramsay, who became president of the <ref target="../nameregs/nameregs_1841.xml" resp="#mjhawkins">Geological Society of London</ref> in 1862, read his controversial paper on the glacial origin of rock basins before the society on 5 March 1862. For an account of the controversy initiated by Ramsay’s paper, see Davies 1969, pp. 303–9.</note>
+            <note xml:id="foot.f4">For <ref target="../nameregs/nameregs_2357.xml" resp="#mjhawkins">Joseph Dalton Hooker’s</ref> reaction to Ramsay’s paper, see the <ref target="./DCP-LETT-3690.xml" resp="#mjhawkins">letter from J. D. Hooker, 20 August 1862</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

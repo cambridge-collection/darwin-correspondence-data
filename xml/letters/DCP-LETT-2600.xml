@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2600">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To T. H. Huxley   24 December [1859]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">18099</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2600 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2600.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2600.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 145: 192</bibl></relatedItem>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 249: 26 photocopy</bibl></relatedItem>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 221.4: 218 photocopy</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Private collection<ref target="#foot.f3"/></bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_689.xml">Private collection</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1859-12-24">24 Dec [1859]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2486.xml">Huxley, T. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends MS on pigeons for THH’s lecture at Royal Institution.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">pigeons</term>
+                <term type="rx" ref="#">Huxley, T. H. 1860b</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="social" ref="#">Other people</term>
+                <term type="societal" ref="#">Royal Institution</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Dec. 24<hi rend="superscript">th</hi></date>
+                    <salute>My dear Huxley</salute>
+                </opener>
+                <div type="transcription">
+<p>I have been sorry that I could not come up this week, but it has been quite out of the question.—<ref target="#foot.f1"/></p>
+<p>I send all the articles specified &amp; the M.S.; but I looked this over last night &amp; it is really impossible for you to make heads or tails of it.— If you try; perhaps the correlated peculiarities in Pigeons &amp; especially (p. 118 M.S.) the History of the Breeds, would be best worth glancing at.—<ref target="#foot.f2"/> The History shows how ancient the breeds are, &amp; yet that some of them have sensibly changed.— The account of the Pigeons will appear intolerably long &amp; tedious, but I really think that nothing is actually superfluous; &amp; I have thought it well worth while to treat one set of domestic varieties with care &amp; minuteness.—</p>
+<p>Yours very sincerely | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.7 while] ‘wh’ <hi rend="italic">over</hi> ‘wo’</note>
+                </div>
+
+        </div>
+
+
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had arranged to meet Huxley in London on 22 December 1859 before poor health forced him to cancel his visit. See <ref target="./DCP-LETT-2585.xml" resp="#mjhawkins">letter to T. H. Huxley, 16 December [1859]</ref>.</note>
+            <note xml:id="foot.f2">In his lecture at the Royal Institution on 10 February 1860, Huxley described the history of the various breeds of domesticated pigeons and used them to illustrate the power of selection in producing new and diverging breeds (T. H. Huxley 1860, pp. 197–8).</note>
+            <note xml:id="foot.f3">A copy of this letter made for <ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin</ref> is in DAR 145: 192.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-3664" status="released">
+    <persName>
+        <forename>Frances</forename>
+        <forename>Margaret</forename>
+        <choice>
+            <seg><surname notBefore="1804" notAfter="1825">Oxenden</surname></seg>
+            <seg><surname notBefore="1825" notAfter="1885">Papillon</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1804/5–85</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Sister of George Chichester Oxenden. Married Thomas Papillon in 1825.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_9153.xml" resp="#mjhawkins"><hi rend="italic">BMD</hi></ref> (<hi rend="italic">Death index</hi>)</p>
+        <p><ref target="../bibliographies/bibl_1095.xml" resp="#mjhawkins"><hi rend="italic">Burke’s landed gentry</hi></ref> 1894</p>
+            <p><ref target="../bibliographies/bibl_1096.xml" resp="#mjhawkins"><hi rend="italic">Burke’s peerage</hi></ref> 1895.</p>
+    </note>
+    <note type="volume">10</note>
+    <note type="keywords">
+        <term type="name">Oxenden, G. C.</term>
+        <term type="name">Thomas Papillon</term>
+    </note>
+    
+</person>

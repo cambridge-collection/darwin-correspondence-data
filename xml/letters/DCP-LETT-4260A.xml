@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4260A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To L. E. Becker   2 August [1863]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20706</idno>
+            
+            
+            
+            
+            <date when="1999">1999</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4260A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4260A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4260A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="11">11</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Charterhouse Archives (ACC 013)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_85.xml">Charterhouse</repository>
+                    <idno>Misc. papers</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1863-08-02">2 Aug [1863]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_356.xml">Becker, L. E.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks LEB for the <hi rend="italic">Lychnis</hi> seed [see <hi rend="doubleUnderline">4258</hi>], which he will plant in the hope of fertilising the little ovaria.</p>  
+<p>Comments on the two forms of <hi rend="italic">Linum</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="b" ref="#">4258</term>
+                <term type="plants" ref="#">Linum</term>
+                <term type="plants" ref="#">Lychnis</term>
+                <term type="scientific_terms" ref="#">dimorphism</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fertilisation and generation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Aug<hi rend="superscript">t</hi>. 2<hi rend="superscript">d</hi>.</date>
+                    <salute>Dear Madam.</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very much obliged for the Lychnis seed, which shall be sown immediately;<ref target="#foot.f2"/> &amp; I will try, as you have done, next year to fertilise the little ovaria.—</p>
+<p>It is odd about the Linum; I have never failed to find the two forms, though they certainly resemble each other closely.—<ref target="#foot.f3"/></p>
+<p>In Haste, | Dear Madam | Your sincerely obliged | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-4258.xml" resp="#mjhawkins">letter from L. E. Becker, 31 July [1863]</ref>.</note>
+            <note xml:id="foot.f2">Becker enclosed a hermaphrodite plant of the usually dioecious <hi rend="italic">Lychnis diurna</hi> (<hi rend="italic">L. dioica</hi>), bearing a seed capsule, with her <ref target="./DCP-LETT-4258.xml" resp="#mjhawkins" cert="high">letter of 31 July [1863]</ref>.</note>
+            <note xml:id="foot.f3">Becker reported having a pot of scarlet <hi rend="italic">Linum</hi>, all the seedlings of which had the long-styled flower form (see <ref target="./DCP-LETT-4258.xml" resp="#mjhawkins">letter from L. E. Becker, 31 July [1863]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

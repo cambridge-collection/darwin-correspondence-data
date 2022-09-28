@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1800">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To H. N. Shaw, Secretary, Royal Geographical Society   25 December [1855]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7231</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1800 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1800.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1800.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+            <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+                <relatedItem type="publication">
+                    <bibl> <hi rend="italic">Correspondence</hi> 5: 531–2</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Royal Geographical Society</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_338.xml">R. Geographical Soc.</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1855-12-25">25 Dec [1855]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4320.xml">Shaw, H. N.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Has followed correspondent’s useful suggestions of sources of information [on variation in domesticated animals in various regions of the globe].</p>
+            <p>Asks him to sound out [Mr Consul Brand?] about skinning some bird specimens for him.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">bird</term>
+                <term type="people" ref="#subject_589">Brand, George</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">variation</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Dec. 25<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>You have no idea how useful your various suggestions have been to me. When put on the scent, I have followed up <hi rend="underline">several</hi> of your men, got some sort of introduction &amp; written to them.—</p>
+<p>But I want to beg one other great favour of you, viz. when you see M<hi rend="superscript">r</hi> Consul Brand<ref target="#foot.f2"/> to sound him, &amp; see whether there is any one in Angola who could skin a few specimens for me, &amp; if so, whether he would take the trouble, on his return, to give instructions; &amp; I would in that case write to him, &amp; explain what I want; for I presume there is Poultry every where, if not other domesticated birds.—</p>
+<p>I really feel it too impudent to write without knowing him in some degree. Can you aid me in this one respect? Of if you were to write him the briefest note &amp; say that I am a respectable person &amp; would repay any small expence to a bird-skinner &amp;c.—</p>
+<p>I have now written to each chief quarter of the world, except Arabia. Can you aid me here; being so anciently civilised it w<hi rend="superscript">d</hi>. be very fine region for me. Is there any semi-scientific man in Aden? I have written to Rev<hi rend="superscript">d</hi>. J. Erdhardt,<ref target="#foot.f3"/> &amp; used your name, &amp; Col. Sykes<ref target="#foot.f4"/> says he will help me by any request or order to Bombay so as to reach the East coast of Africa.—</p>
+<p>With very sincere thanks | Your’s truly | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.5 birds—] <hi rend="italic">above del</hi> ‘breeds—’</note>
+                    <note xml:id="tnote.n2">4.4 order] <hi rend="italic">over illeg</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The recipient is conjectured from the letter’s provenance; the date is based on the letter’s relationship to letters to E. L. Layard, <ref target="./DCP-LETT-1794.xml" resp="#automat">9 December 1855</ref>, to G. H. K. Thwaites, 10 December 1855, and to C. A. Murray, 24 December 1855.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_589.xml" resp="#mjhawkins">George Brand</ref> was British vice-consul at Loanda, Angola, 1844–56. See CD’s memorandum, [December 1855].</note>
+            <note xml:id="foot.f3">A Rev. S. Erhardt was cited in <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 246 n. 33 concerning the aversion to fowl shown by natives on the east coast of Africa.</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_4644.xml" resp="#mjhawkins">William Henry Sykes</ref>, retired colonel of the Indian army and deputy chairman of the board of the East India Company, studied the zoology of India and sent CD information on variation in Indian domestic animals.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

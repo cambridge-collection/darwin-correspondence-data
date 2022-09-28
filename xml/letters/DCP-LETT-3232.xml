@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3232">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To A. G. More   13 [August 1861]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13526</idno>
+            
+            
+            
+            
+            <date when="1994">1994</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3232 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3232.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3232.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="09">9</biblScope>
+            </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 146: 401</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 9: 235</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Royal Irish Academy (A. G. More papers RIA MS 4 B 46)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_526.xml">RIA Dublin</repository>
+                    <collection>A. G. More papers</collection>
+                    <idno>RIA MS 4 B 46</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Torquay</placeName>
+                <date when="1861-08-13">13 [Aug 1861]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3392.xml">More, A. G.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Has found hundreds of <hi rend="italic">Spiranthes</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Spiranthes</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>2. Hesketh Crescent | Torquay</placeName>
+                    <date>13<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>As I asked you some time ago to be so kind as to have a look at Spiranthes,<ref target="#foot.f2"/> I write one line to say that I have found here hundreds of specimens, &amp; have looked at so many I am sure of point referred to.—<ref target="#foot.f3"/> I was partly in error &amp; partly correct.—</p> 
+                    <p>I shall be extremely curious to hear whether the experiment, which you so very kindly tried, on Ep. palustris has any influence on its setting seed.—<ref target="#foot.f4"/></p>
+                    <p>With many thanks for all your valuable assistance— | Yours sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+        
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">This letter was first published in <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 9, transcribed from a copy on which the full date is recorded (DAR 146: 401).</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-3187.xml" resp="#mjhawkins">letter to A. G. More, 17 June 1861</ref>.</note>
+            <note xml:id="foot.f3">The point about <hi rend="italic">Spiranthes</hi> that CD wanted More to confirm was the necessity of the ‘bristle or culm being bowed so as to strike middle line of the rostellum before it is withdrawn, in order that pollinia may be removed’ (see <ref target="./DCP-LETT-3187.xml" resp="#mjhawkins">letter to A. G. More, 17 June 1861</ref>). See also <ref target="../bibliographies/bibl_6010.xml" resp="#mjhawkins"><hi rend="italic">Orchids</hi></ref>, pp. 126–7.</note>
+            <note xml:id="foot.f4">See <ref target="./DCP-LETT-3213.xml" resp="#mjhawkins">letter to A. G. More, 19 July 1861</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

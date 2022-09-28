@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6513">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. V. Carus   26 December [1866]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7344</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6513 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6513.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6513.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Staatsbibliothek zu Berlin – Preußischer Kulturbesitz (Slg. Darmstaedter Lc 1859: Darwin, Charles, Bl. 57–58)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_379.xml">SB zu Berlin - Preußischer KB</repository>
+                    <collection>Slg. Darmstaedter</collection>
+                    <idno>Lc 1859: Darwin, Charles, Bl. 57–58</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1866-12-26">26 Dec [1866]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_849.xml">Carus, J. V.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Requests a change in text [of ch. 12 of <hi rend="italic">Origin</hi>: "Geographical distribution"] owing to recent observations of Albert Günther on the marine faunas of the eastern and western shores of South and Central America.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">marine faunas</term>
+                <term type="geology" ref="#">shores</term>
+                <term type="it" ref="#">Origin</term>
+                <term type="people" ref="#subject_1779">Günther, A. C. L. G.</term>
+                <term type="places" ref="#">America, Central</term>
+                <term type="places" ref="#">America, South</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">geography</term>
+                <term type="scientific_terms" ref="#">instructions</term>
+                <term type="scientific_terms" ref="#">sea, sea-currents</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Dec 26</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Owing to D<hi rend="superscript">r</hi> Günther’s recent observations will you be so kind as to alter the beginning of the paragraph at page 417 as follows—<ref target="#foot.f2"/></p>
+<p>“Turning to the sea we find the same law. The marine Faunas on the Eastern &amp; western shores of Southern &amp; Central America are very distinct, with hardly a single shell, Crustacean, or other animal in common, except as lately shewn by D<hi rend="superscript">r</hi> Günther, some fish; yet these great” &amp;c</p>
+<p>I hope you are making good progress in your laborious undertaking.</p>
+<p>Pray believe me | My dear Sir | yours sincerely | Charles Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to Carus’s translation of <hi rend="italic">Origin</hi> 4th ed. (see n. 2, below).</note>
+            <note xml:id="foot.f2">Carus was translating <hi rend="italic">Origin</hi> 4th ed. into German. CD had just heard of <ref target="../nameregs/nameregs_1779.xml" resp="#mjhawkins">Albert Günther’s</ref> paper reporting that about a third of fish species were identical on either side of the Isthmus of Panama (Günther 1864–6; see <hi rend="italic">Correspondence</hi> vol. 14, <ref target="./DCP-LETT-5305.xml" resp="#mjhawkins">letter from J. D. Hooker, 14 December 1866</ref> and n. 10). The change appears in the third German edition (Bronn and Carus trans. 1867, p. 417). CD made a similar change to <hi rend="italic">Origin</hi> 5th ed., p. 424.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

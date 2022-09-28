@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2011">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. B. Tegetmeier   4 December [1856]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1288</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2011 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2011.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2011.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Archives of the New York Botanical Garden (Charles Finney Cox Collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_302.xml">NYBG</repository>
+                    <collection>Charles Finney Cox</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1856-12-04">4 Dec [1856]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4682.xml">Tegetmeier, W. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Is glad WBT is willing to describe the poultry CD can acquire. Sir James Brooke promises Borneo fowls.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">poultry</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Dec. 4<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I have no details about the Madras Fowls; except that the Pariah one is the common Form; &amp; that the history of the Rangoon one was stated to be unknown.—<ref target="#foot.f2"/></p>
+<p>Do not trouble yourself to write me descriptions of Fowls, as I shall see them in time in Poultry Book.—<ref target="#foot.f3"/></p>
+<p>Since writing I have heard from the Rajah, Sir J. Brook that he has sent me some Fowls from the interior of Borneo,<ref target="#foot.f4"/> &amp; I think I mentioned that some from Natal are on the road, so I will wait till I get some more before sending the Persians; ie without I hear that from any cause you w<hi rend="superscript">d</hi>. like them sooner. The expence of sending them to London is nothing.—</p>
+<p>I am very sorry to hear that you have been a sufferer &amp; from so painful as Rheumatism.—</p>
+<p>I am <hi rend="underline">extremely</hi> glad that you are willing to describe all the Poultry, which I can get, in the Poultry Book, as I am sure it will be well done; &amp; my only object is to know what amount of difference there is in the Fowls of different parts of world—</p>
+<p>In Haste. | Yours very sincerely | C. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the relationship to the <ref target="./DCP-LETT-2004.xml" resp="#mjhawkins">letter to W. B. Tegetmeier, 29 November [1856]</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-1981.xml" resp="#mjhawkins">letter to W. B. Tegetmeier, 3 November [1856]</ref>.</note>
+            <note xml:id="foot.f3">A reference to Tegetmeier’s work describing the various breeds of poultry, issued in parts during 1856 and 1857 but never completed (Tegetmeier ed. 1856–7).</note>
+            <note xml:id="foot.f4">The letter from <ref target="../nameregs/nameregs_659.xml" resp="#mjhawkins">James Brooke</ref>, raja of Saráwak, has not been found. CD had included him in his list of people to ask for specimens of foreign poultry and domestic animals in 1855 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 5, CD memorandum, [December 1855]).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

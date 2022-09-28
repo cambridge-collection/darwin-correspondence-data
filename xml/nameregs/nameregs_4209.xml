@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-4209" status="released">
+    <persName>
+        <forename>Mary</forename>
+        <forename>Anne</forename>
+        <choice>
+            <seg><surname notBefore="1778" notAfter="1806">Galton</surname></seg>
+            <seg><surname notBefore="1806" notAfter="1856">Schimmelpenninck</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1778–1856</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Author. First child of Samuel Galton (1753–1832) and his wife, Lucy Barclay, Quakers. Married Lambert Schimmelpenninck in 1806. Baptised Methodist, 1808; joined the Moravians, 1818. Works included <hi rend="italic">The theory and classification of beauty and deformity</hi> (1815) and <hi rend="italic">Narrative of the demolition of the monastery of Port Royal des Champs</hi> (1816). Criticised the character of Erasmus Darwin (1731–1802), whom she knew when she was a child, in her posthumously published autobiography.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_10569.xml" resp="#mjhawkins">Hankin ed. 1858</ref></p>
+        <p><ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref></p>
+    </note>
+    <note type="volume">26,27</note>
+    <note type="keywords">
+        <term type="name">Galton, S. J.</term>
+        <term type="name">Schimmelpenninck, Lambert</term>
+        <term type="name">Darwin, Erasmus</term>
+        <term type="l">Biographer</term>
+    </note>
+    
+</person>

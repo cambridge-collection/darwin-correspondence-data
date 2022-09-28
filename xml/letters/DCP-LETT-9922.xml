@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9922">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Murray   10 April [1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9239</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9922 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9922.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9922.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 147: 167</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">National Library of Scotland (John Murray Archive) (Ms. 42152 f. 313)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_278.xml">Murray Archive</repository>
+                    <idno>Ms.42152 f.313</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Bryanston St, 2</placeName>
+                <date when="1875-04-10">10 Apr [1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Is glad JM will publish [<hi rend="italic">Climbing plants</hi>] as a separate little book. Some people have been much interested in it, though it has been read by very few.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Climbing plants</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">movements and habits of plants</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">reception of Darwinism</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>2. Bryanston St. | <hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>April 10<hi rend="superscript">th</hi></date>
+                    <seg type="supplemental">on Monday home</seg>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have received the M.S all right &amp; am very glad that you will publish it as a separate little book.<ref target="#foot.f2"/> I most heartily hope that it may not prove a loss. I know that some persons have been much interested in it, though it has been read by very few.—</p>
+<p>Yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 <hi rend="italic">Kent.</hi>] <hi rend="italic">before del</hi> ‘<hi rend="italic">Railway Station | Orpington. S.E.R.</hi>’ </note>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-9921.xml" resp="#mjhawkins">letter from John Murray, 9 April [1875]</ref>.</note>
+            <note xml:id="foot.f2">Murray had returned the manuscript of <ref target="../bibliographies/bibl_1458.xml" resp="#mjhawkins"><hi rend="italic">Climbing plants</hi> 2d ed.</ref>; see <ref target="./DCP-LETT-9921.xml" resp="#mjhawkins">letter from John Murray, 9 April [1875]</ref> and n. 2.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2753F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To a bookseller   9 April [1860]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">21315</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2753F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2753F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2753F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="endorsement" subtype="letter">1860</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Uppsala University Library: Manuscripts and Music (Waller MS alb-54:068)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_428.xml">Uppsala University Library</repository>
+                    <collection>Waller Manuscript Collection</collection>
+                    <idno>Waller MS alb-54:068</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <date when="1860-04-09">9 Apr [1860]</date>
+                <placeName>Down</placeName>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_535.xml">Bookseller</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Orders a copy of Matthew 1831 from a bookseller.</p>
+        </abstract>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Ap. 9<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Please procure &amp; send me by <hi rend="doubleUnderline">Post</hi>, M<hi rend="superscript">r</hi> Pat. Matthew’s work on “Naval Timber &amp; Arboriculture” 1831. Adam Black Edinburgh &amp; Longman London.—<ref target="#foot.f1"/></p>
+<p>Dear Sir, | Yours faithfully | C. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.1 &amp;] <hi rend="italic">interl</hi> </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had become aware of <ref target="../nameregs/nameregs_3225.xml" resp="#mjhawkins">Patrick Matthew’s</ref> book (<ref target="../bibliographies/bibl_5302.xml" resp="#automat" cert="low">Matthew 1831</ref>) after Matthew published a letter in the <hi rend="italic">Gardeners’ Chronicle</hi>, 7 April 1860, pp. 312–13, in which he claimed to have published a principle of natural selection before the publication of <hi rend="italic">Origin</hi>. See <hi rend="italic">Correspondence</hi> vol. 8 and <ref target="../bibliographies/bibl_1954.xml" resp="#automat" cert="low">Dempster 1996</ref>. There is an annotated copy of <ref target="../bibliographies/bibl_5302.xml" resp="#automat" cert="low">Matthew 1831</ref> in the Darwin Library–CUL (see <hi rend="italic">marginalia</hi> 1: 571).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

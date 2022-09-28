@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11462">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From James Torbitt   3 April 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14608</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11462 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11462.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11462.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 178: 144</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>178: 144</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4777.xml">Torbitt, James</persName>
+                <placeName>Belfast</placeName>
+                <date when="1878-04-03">3 Apr 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks for £100; will pay for planting this year’s varieties.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="scientific_terms" ref="#">adaptation</term>
+                <term type="scientific_terms" ref="#">breeding (artificial)</term>
+                <term type="scientific_terms" ref="#">crossing</term>
+                <term type="scientific_terms" ref="#">cultivation</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">parasites</term>
+                <term type="scientific_terms" ref="#">pathology, disease</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">varieties</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="italic">58 North Street. | Belfast,</hi></placeName>
+                    <date>3 April <hi rend="italic">18</hi>78</date>
+                    <seg type="supplemental">Charles Darwin Esq. | Down.</seg>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I accept of your £100 check with the greatest pleasure and am not in the least discouraged or disappointed, on the contrary, I propose this year to grow not five, but fifteen thousand new varieties, for every plant of which, your money shall pay— and I am proud that it should do so.<ref target="#foot.f1"/></p>
+                    <p>I remain my Dear Sir ever | Most respectfully | and gratefully yours | James Torbitt</p> 
+                </div>
+               
+                
+            </div>
+           
+        </div>
+         
+         
+         <div type="footnotes">
+                <note xml:id="foot.f1">CD had sent a cheque for £100 on 4 March to aid Torbitt’s attempts to breed a disease-resistant potato; Torbitt had returned the cheque when he discovered that he would only need two later payments of £50 in May and August (see <ref target="./DCP-LETT-11399.xml" resp="#mjhawkins">letter to James Torbitt, 4 March 1878</ref>, and letter from James Torbitt, 24 March 1878). CD, however, sent the cheque for £100 back to Torbitt after <ref target="../nameregs/nameregs_1599.xml" resp="#mjhawkins">Thomas Henry Farrer</ref> explained the difficulty of getting government funding for the experiments (see <ref target="./DCP-LETT-11458.xml" resp="#mjhawkins">letter to James Torbitt, 31 March 1878</ref>).</note>
+            </div>
+    
+    </body>
+    </text>
+</TEI>

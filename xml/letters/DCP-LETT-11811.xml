@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11811">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From W. T. Thiselton-Dyer   30 December 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10966</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11811 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11811.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11811.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 178: 104</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>178: 104</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4712.xml">Thiselton-Dyer, W. T.</persName>
+                <placeName>Kew</placeName>
+                <date when="1878-12-30">30 Dec 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends specimens of <hi rend="italic">Commelyna</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Commelyna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Royal Gardens Kew</hi></placeName>
+                    <date>Dec 30. 78</date>
+                    <salute>Dear M<hi rend="superscript">r</hi> Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>At the risk of being troublesome I forward you a good specimen of <hi rend="underline">Commelyna bengalensis</hi>, Roxb. which 〈devel〉opes flowers and 〈sets〉 seed under ground.<ref target="#foot.f1"/> 〈It〉 comes to me from 〈    〉 Duthie of the Saharunpore Botanic Garden<ref target="#foot.f2"/></p>
+<p>Believe me | Yours very truly | W. T. Thiselton Dyer</p> 
+                </div>              
+            </div>
+            <div type="enclosure" subtype="other">
+                <div type="transcription">
+                    <figure rend="blockCentred width85">
+                        <graphic url="../images/DCP-LETT-11811.jpg"/>                        
+                    </figure>
+                <p>Commelyna bengalensis Roxb.</p>
+                <p>see Wight Ic. 2065.<ref target="#foot.f3"/></p>
+                <p>developes flowers &amp; ripens its seed underground.</p>
+                <p>A troublesome weed in Dehra Dun Tea plantations.<ref target="#foot.f4"/></p>
+                <p>J. F. D.</p>
+                </div>
+            </div>
+            <div type="cdnotes">
+                <note>Subterranean seeds &amp; Flowers of Commelina<ref target="#foot.f5"/></note>
+            </div>
+            <div type="tnotes">
+            
+                
+            
+                
+            
+            </div>         
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1"><hi rend="italic">Commelina benghalensis</hi> (Commelyna bengalensis is a misspelling) is the Benghal dayflower. It has large open flowers and small unopened (cleistogamous) flowers, both of which produce large and small seeds (Hayden and Fagan 2016, p. 459). For CD’s interest in the development of seeds underground, see <ref target="./DCP-LETT-11340.xml">letter to W. T. Thiselton-Dyer, 31 January [1878]</ref> and n. 3.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_8376.xml">John Firminger Duthie</ref> was superintendent of Saharanpur Botanic Garden (<ref target="../bibliographies/bibl_4094.xml" resp="#mjhawkins"><hi rend="italic">India list</hi></ref> 1905).</note>
+            <note xml:id="foot.f3">The text of the enclosure has been written on the outside of a folded sheet containing plant material. <ref target="../nameregs/nameregs_5126.xml">Robert Wight</ref> described the underground flowers of <hi rend="italic">Commelyna bengalensis</hi> (Linn.) in his <hi rend="italic">Icones plantarum Indiae Orientalis</hi> (<ref target="../bibliographies/bibl_10472.xml">Wight 1840–53</ref>, 6: 29, no. 2065).</note>
+            <note xml:id="foot.f4">Dehra Dun (Dehradun) is a district in Uttarakhand state, in the foothills of the Himalayas in north central India, a tea-growing region.</note>
+            <note xml:id="foot.f5">The note is written on an envelope that was presumably used by CD to contain the enclosure.</note>
+        </div>   
+       
+    </body>
+    </text>
+</TEI>

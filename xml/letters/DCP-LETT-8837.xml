@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8837">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To N. D. Doedes   2 April 1873</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">12080</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8837 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8837.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8837.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Copy</note>
+            <note type="physdesc">AC 2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 210.5: 60b, DAR 210.5: 60c</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl>Bettany (1887): 163</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 139.12: 11</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>139.12: 11</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Montague St, 16 Down letterhead</placeName>
+                <date when="1873-04-02">2 Apr 1873</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1345.xml">Doedes, N. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>The impossibility of conceiving that the universe arose through chance is the chief argument for the existence of God, but CD has never been able to decide whether this is an argument of real value. Safest to believe that the subject is beyond man’s intellect, "but man can do his duty".</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">creationism, religion</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+                
+                <term type="tag" ref="#darwin_and_belief">Darwin’s Religious Beliefs</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down, Beckenham, Kent. [16 Montague Street, London]</placeName>
+                    <date>April 2 1873</date>
+                    <seg type="supplemental">a mon. N. D. Doedes | The University | Utrecht | Holland.</seg><seg type="supplemental"><hi rend="italic">Confidential.</hi></seg>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am much obliged for the photograph of yourself and friend.<ref target="#foot.f1"/> I am sure that you will excuse my writing at length, when I tell you that I have long been much out of health, and am now staying away from my home for rest. (It is impossible to answer your question briefly; and I am not sure that I could do so, even if I wrote at some length.<ref target="#foot.f2"/> But I may say that the impossibility of conceiving that this grand and wondrous universe, with our conscious selves, arose through chance, seems to me the chief argument for the existence of God; but whether this is an argument of real value, I have never been able to decide. I am aware that if we admit a first cause, the mind still craves to know whence it came and how it arose. Nor can I overlook the difficulty from the immense amount of suffering through the world. I am, also, induced to defer to a certain extent to the judgment of the many able men who have fully believed in God; but here again I see how poor an argument this is. The safest conclusion seems to be that the whole subject is beyond the scope of man’s intellect; but man can do his duty.</p>
+<p>With my best wishes for your success in life, I remain, dear Sir, | Yours faithfully | Ch. Darwin.</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-8828.xml" resp="#mjhawkins">letter from N. D. Doedes, 27 March 1873</ref>. The friend was <ref target="../nameregs/nameregs_1082.xml" resp="#mjhawkins">Jan Constantijn Costerus</ref>.</note>
+            <note xml:id="foot.f2">Doedes had asked on what grounds CD believed in the existence of God (see <ref target="./DCP-LETT-8828.xml" resp="#mjhawkins">letter from N. D. Doedes, 27 March 1873</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

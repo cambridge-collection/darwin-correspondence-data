@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10949">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. H. Flower   2 May [1877]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">711</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10949 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10949.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10949.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">ApcS</note>
+            <note type="physdesc">ApcS</note>
+            <note type="postmark">MY 2 77</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno/>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1877-05-02">2 May [1877]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1670.xml">Flower, W. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>‘The pigs-foot has been dispatched to day per Rail.’</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">pig</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">monstrosity</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+                <term type="societal" ref="#">railways</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">From Mr. C. Darwin, Down, Beckenham.</hi></placeName>
+                </opener>
+                <div type="transcription">
+                     
+<p>The pigs-foot has been despatched to day per Rail.<ref target="#foot.f1"/></p>
+<p>C.D. <lb resp="#mjhawkins"/></p>
+<p rend="left">May 2<hi rend="superscript">d</hi>.</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 <hi rend="italic">Mr.</hi>] <hi rend="italic">altered from</hi> ‘<hi rend="italic">Mrs.</hi>’ </note>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had received the pig’s foot from <ref target="../nameregs/nameregs_5291.xml" resp="#mjhawkins">Otto Zacharias</ref> (see <ref target="./DCP-LETT-10936.xml" resp="#mjhawkins">letter from Otto Zacharias, 21 April 1877</ref>, and <ref target="./DCP-LETT-10941.xml" resp="#mjhawkins">letter to Otto Zacharias, 26 April 1877</ref> and n. 2).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9883">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To P. P. C. Hoek   11 March 1875</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13409</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9883 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9883.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9883.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 145: 131</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Artis Library (P.P.C. Hoek Archive, Darwin correspondence)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_11.xml">Amsterdam Artis</repository>
+                    <collection>(P.P.C. Hoek Archive,</collection>
+                    <idno>Darwin correspondence)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1875-03-11">11 Mar 1875</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2319.xml">Hoek, P. P. C.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks for publication [<hi rend="italic">Berste bijdrage tot een nauwkeuriger kennis der sessile cirripedien</hi> (1875)]. Cannot read Dutch. Mentions PPCH’s research on cirripedes.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">cirripedes</term>
+                <term type="it" ref="#">Berste bijdrage tot een nauwkeuriger kennis der sessile cirripedien</term>
+                <term type="languages" ref="#">Dutch</term>
+                <term type="rx" ref="#">Hoek, P. P. C. 1875</term>
+                <term type="scientific_terms" ref="#">cirripedes</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>March 11/75</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am much obliged for your very kind letter &amp; the gift of your work.<ref target="#foot.f1"/> I am extremely glad that you have taken up the study of the Cirripedia. I am sorry to say that I cannot read your language, but one of my sons has already translated to me parts of your book, &amp; I feel sure that you will do excellent work.<ref target="#foot.f2"/> I am aware that I fell into several great errors, as about the ovaria and from my ignorance of Histology I was quite unfitted to investigate one chief subject of your book, namely the formation of the ova.<ref target="#foot.f3"/></p>
+<p>With the most sincere hope &amp; expectation of your success I remain dear Sir | Yours very faithfully | Charles Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Hoek’s letter and the work he sent have not been found, but he probably sent a copy of his doctoral thesis, <hi rend="italic">Eerste bijdrage tot een nauwkeuriger kennis der sessile cirripedien</hi> (First contribution to a more accurate knowledge of sessile cirripedes; <ref target="../bibliographies/bibl_8690.xml" resp="#mjhawkins">Hoek 1875</ref>).</note>
+            <note xml:id="foot.f2">CD probably refers to <ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin</ref>, who had been his secretary since 1874 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 22, <ref target="./DCP-LETT-9454.xml" resp="#mjhawkins">letter to W. D. Fox, 11 May [1874]</ref>).</note>
+            <note xml:id="foot.f3">In <ref target="../bibliographies/bibl_4837.xml" resp="#mjhawkins"><hi rend="italic">Living Cirripedia</hi> (1851)</ref>, pp. 57–8, CD identified the two gut-formed masses near the ventral edge of the peduncle as ovaria rather than salivary glands and then postulated a connection between the ovarian tubules and the cement ducts. He was also unable to trace the oviduct to the opening at the base of the first pair of cirri, and consequently identified that aperture as an acoustic organ. Later researchers were able to trace the oviduct and identify the female genital aperture (for more on these observations, see <ref target="../bibliographies/bibl_5843.xml" resp="#mjhawkins">Newman 1993</ref>, pp. 368–71).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

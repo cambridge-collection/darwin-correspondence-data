@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9271">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From R. F. Cooke   7 February 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9608</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9271 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9271.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9271.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 438</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 438</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent" subtype="personGrp">
+                <persName key="../nameregs/nameregs_1053.xml">Cooke, R. F.</persName>
+                <persName key="../nameregs/nameregs_2575.xml">John Murray, Publishers</persName>
+                <placeName>London, Albemarle St, 50a</placeName>
+                <date when="1874-02-07">7 Feb 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Asks CD’s help in finding original woodcuts for "Voyage of a naturalist" [<hi rend="italic">Journal of researches</hi>] for Reinwald.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Journal of researches</term>
+                <term type="people" ref="#subject_3970">Reinwald, C.-F.</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+                <term type="societal" ref="#">John Murray, Publishers</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">50A, Albemarle Street, London. W.</hi></placeName>
+                    <date>Feb<hi rend="superscript">y</hi> 7 <hi rend="print">187</hi>4</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>We want to find the original woodcuts to the “Voyage of a Naturalist” for the sake of taking <hi rend="underline">Electros</hi> for <hi rend="underline">M Reinwald</hi> &amp; we cannot do so, with the exception of 4 cuts which we find here.<ref target="#foot.f1"/></p>
+<p>There are 14 in all.</p>
+<p>It occurs to us, that perhaps they have been used in some of your more recent works, may I ask if you can assist us.</p>
+<p>Yours faithfully | Rob<hi rend="superscript">t</hi>. Cooke <lb resp="#mjhawkins"/></p>
+<p rend="left">C. Darwin Esq <lb resp="#mjhawkins"/></p>
+<p>I think the 1<hi rend="superscript">st</hi>. Election at the Atheneum is <hi rend="underline">Monday 16<hi rend="superscript">th</hi>.</hi><ref target="#foot.f2"/></p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Cooke refers to <ref target="../bibliographies/bibl_4252.xml" resp="#mjhawkins"><hi rend="italic">Journal of researches</hi> 2d ed.</ref>, which had the spine title ‘Naturalist’s voyage’. The French translation by <ref target="../nameregs/nameregs_272.xml" resp="#mjhawkins">Edmond Barbier</ref> was published by <ref target="../nameregs/nameregs_3970.xml" resp="#mjhawkins">Charles-Ferdinand Reinwald</ref> (<ref target="../bibliographies/bibl_355.xml">Barbier trans. 1875</ref>). See also <ref target="./DCP-LETT-9265.xml" resp="#mjhawkins">letter from C.-F. Reinwald, 4 February 1874</ref>.</note>
+            <note xml:id="foot.f2">CD had probably asked Cooke to support the election of his nephew <ref target="../nameregs/nameregs_3676.xml">Henry Parker</ref> to the Athenaeum Club (see <ref target="./DCP-LETT-9402.xml" resp="#mjhawkins">letter to R. F. Cooke, 10 April [1874]</ref>). In 1871, <ref target="../nameregs/nameregs_3463.xml">John Murray</ref> had asked CD to support Cooke’s own election (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 19, <ref target="./DCP-LETT-7496.xml" resp="#mjhawkins">letter from John Murray, 20 February [1871]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

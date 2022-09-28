@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6665">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From T. H. Huxley   17 March 1869</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3413</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6665 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6665.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6665.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <relatedItem type="publication">
+                <bibl>Huxley (1900) 1: 300</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 166: 318</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>166: 318</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2486.xml">Huxley, T. H.</persName>
+                <placeName>Geological Survey</placeName>
+                <date when="1869-03-17">17 Mar 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Last letter was written to be passed on for Lushington’s edification. "(Standing on the points of my toes and my tail very stiff)." Is tiring of controversy as a waste of time. Begins to understand CD’s sufferings over <hi rend="italic">Origin</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_3047">Lushington, Vernon</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">negative attitude/assessment</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Geological Survey of England &amp; Wales</hi></placeName>
+                    <salute>My dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>After I had sent my letter to you the other day I thought how stupid I had been not to put in a slip of paper to say it was meant for Lushington’s edification.<ref target="#foot.f1"/></p>
+<p>I made sure you would understand that I wished it to be sent on &amp; wrote it (standing on the points of my toes &amp; with my tail up very stiff with that end in view<ref target="#foot.f2"/> [DIAG HERE]</p>
+<p>I am getting so weary of people writing to propose controversy to me upon one point or other, that I begin to wish the article had never been written   The fighting in itself is not particularly objectionable but its the wasting time</p>
+<p>I begin to understand your sufferings over the ‘Origin’—<ref target="#foot.f3"/> A good book is comparable to a piece of meat &amp; fools are as flies, who swarm to it, each for the purpose of depositing &amp; hatching his own particular maggot of an idea</p>
+<p>Ever yours | T. H. Huxley <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">March 17. 1869</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Huxley refers to <ref target="../nameregs/nameregs_3047.xml" resp="#mjhawkins">Vernon Lushington</ref>. See <ref target="./DCP-LETT-6654.xml" resp="#mjhawkins">letter from T. H. Huxley, 11 March 1869</ref>.</note>
+            <note xml:id="foot.f2">CD wrote his own letter to Lushington rather than simply passing on Huxley’s letter of 11 March 1869 (see <ref target="./DCP-LETT-6660.xml" resp="#mjhawkins">letter to Vernon Lushington, [12 March 1869]</ref>, and <ref target="./DCP-LETT-6658.xml" resp="#mjhawkins">letter to T. H. Huxley, 12 March [1869]</ref>).</note>
+            <note xml:id="foot.f3"><hi rend="italic">Origin.</hi></note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

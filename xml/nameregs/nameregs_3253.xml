@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-3253" status="released">
+    <persName>
+        <forename>Grace</forename>
+        <forename>Anne</forename>
+        <choice>
+            <seg><surname notBefore="1832" notAfter="1854">Milne</surname></seg>
+            <seg><surname notBefore="1854" notAfter="1870">McCall</surname></seg>
+            <seg><surname notBefore="1870" notAfter="1899">Prestwich</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1832–99</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Scottish-born writer and illustrator. Eldest daughter of James Milne and Louisa Falconer of Findhorn, Morayshire. Niece of Hugh Falconer, with whom she travelled widely. Married George McCall (died 1856) in 1854, and Joseph Prestwich, later professor of geology at Oxford University, in 1870.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref> s.v. Joseph Prestwich</p>
+        <p><ref target="../bibliographies/bibl_5455.xml" resp="#mjhawkins">Milne 1901</ref>.</p>
+    </note>
+    <note type="volume">11</note>
+    <note type="keywords">
+        <term type="name">James Milne</term>
+        <term type="name">Louisa Falconer</term>
+        <term type="name">Falconer, Hugh</term>
+        <term type="name">George McCall</term>
+        <term type="name">Joseph Prestwich</term>
+        <term type="name">professor of geology</term>
+        <term type="societal">Oxford University</term>
+        <term type="place">Findhorn</term>
+        <term type="place">Morayshire</term>
+        <term type="place">Oxford</term>
+        <term type="nationality">Scottish-born</term>
+        <term type="l">writer</term>
+        <term type="l">illustrator</term>
+    </note>
+</person>

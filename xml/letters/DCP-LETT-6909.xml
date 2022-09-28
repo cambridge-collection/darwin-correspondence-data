@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6909">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From George Henslow   25 September 1869</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9385</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6909 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6909.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6909.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 166: 169</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>166: 169</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2232.xml">Henslow, George</persName>
+                <placeName>St John’s Wood</placeName>
+                <date when="1869-09-25">25 Sept 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks for a paper on phyllotaxy.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">plant physiology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">S<hi rend="superscript">t</hi> John’s Parsonage</hi> | <hi rend="print">S<hi rend="superscript">t</hi> John’s Wood</hi></placeName>
+                    <date>Sep 25 /69</date>
+                    <salute>Dear M<hi rend="superscript">r</hi> Darwin.</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Many thanks for the pamphlet sent, &amp; duly received—on additions to fertility of Orchids;<ref target="#foot.f1"/> &amp; which has interested me much. I must apologize for not having returned a paper on Phyllotaxis. I cannot understand part of it at all; viz: about the “<hi rend="underline">rectangle</hi>” &amp; the letters to the fig I found are <hi rend="underline">wrong</hi> in some places.<ref target="#foot.f2"/> Though the rest of the paper is interesting.</p>
+<p>I beg to send you a copy of my Expression on same subject.<ref target="#foot.f3"/></p>
+<p>Hoping you are in good health | believe me | yrs very truly | Geo Henslow <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Ch Darwin Esq</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The reference is to <ref target="../bibliographies/bibl_2498.xml" resp="#mjhawkins">‘Fertilization of orchids’</ref>.</note>
+            <note xml:id="foot.f2">Henslow refers to <ref target="../bibliographies/bibl_1217.xml" resp="#mjhawkins">C. de Candolle 1865</ref>. See <ref target="../bibliographies/bibl_1217.xml" resp="#mjhawkins">C. de Candolle 1865</ref>, p. 208, for the ‘rectangle’ and p. 205 for the figure. CD’s annotated copy, a separately paginated offprint, is in the Darwin Pamphlet Collection–CUL. For CD’s own interest in phyllotaxy, see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 11.</note>
+            <note xml:id="foot.f3">Henslow had presented a paper on phyllotaxy at the <ref target="../nameregs/nameregs_2944.xml" resp="#mjhawkins">Linnean Society</ref> in April 1868 (Henslow 1868). See also <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 16, <ref target="./DCP-LETT-6115.xml" resp="#mjhawkins">letter from George Henslow, 13 April 1868</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

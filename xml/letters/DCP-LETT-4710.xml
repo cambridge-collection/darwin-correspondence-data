@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4710">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To [Frederick Wollaston Hutton]<ref target="#foot.f1"/>   8 December [1864]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8216</idno>
+            
+            
+            
+            
+            <date when="2001">2001</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4710 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4710.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4710.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="12">12</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="endorsement" subtype="letter">1864</note>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Canterbury Museum, Christchurch, New Zealand</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_80.xml">Canterbury</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1864-12-08">8 Dec [1864]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2468.xml">Hutton, F. W.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Regrets he has no notes on periods when albatrosses were abundant off Cape Horn.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">albatrosses</term>
+                <term type="places" ref="#">Cape Horn</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">historical time</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Dec. 8<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>It would have given me sincere pleasure to have communicated to you any information on the Albatross, but I am sorry to say that I have no notes on the periods when they were abundant off Cape Horn.—<ref target="#foot.f2"/></p>
+<p>With my regret. Dear Sir | Yours faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Hutton is identified as the recipient from the fact that the Canterbury Museum records that the letter was donated by him, from the endorsement, which appears to be in Hutton’s hand, and from the subject matter (see n. 2, below).</note>
+            <note xml:id="foot.f2">No letter requesting this information from CD has been found. Hutton probably wrote to CD in connection with the paper Hutton was preparing on the birds of the South Pacific, which contains descriptions of several species of albatross (see <ref target="../bibliographies/bibl_3975.xml" resp="#mjhawkins">Hutton 1865</ref>, pp. 278–84). CD’s publications contain only one reference to Diomedeidae, or birds of the albatross family (see <ref target="../bibliographies/bibl_8001.xml" resp="#mjhawkins"><hi rend="italic">Volcanic islands</hi></ref>, p. 90). His ornithological notes, made on board the HMS <hi rend="italic">Beagle</hi> between 1832 and 1836, also contain only one reference to the albatross (see <ref target="../bibliographies/bibl_6024.xml" resp="#mjhawkins"><hi rend="italic">Ornithological notes</hi></ref>, p. 247).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

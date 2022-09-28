@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1884">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Lubbock   [14 January 1856]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8487</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1884 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1884.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1884.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 146: 60</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 263: 6 (EH 88206455)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>263: 6 (EH 88206455)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1856-01-14">[14 Jan 1856]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3026.xml">Lubbock, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Inquires about a Mr Smith, who might prove helpful "in the domestic bird line".</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">bird</term>
+                <term type="people" ref="#">Smith, Mr</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down</placeName>
+                    <date>Monday</date>
+                    <salute>Dear Lubbock</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Very many thanks for the Books; I had meant to have sent you a line on Sunday, but quite forgot it myself.— Indeed we are all sick &amp; miserable, &amp; I hardly care even for Pigeons, so may guess what a condition I am in! Nevertheless, I have life left in me to ask whether you ever saw the Chinese M<hi rend="superscript">r</hi>. Smith:<ref target="#foot.f2"/> <hi rend="underline">pray</hi> do not trouble yourself to write, if you have to send a negative; but if affirmative I would write to him, if you think there is any chance of his helping me in the domestic Bird line.—</p>
+<p>Yours most truly | C. Darwin</p>
+<p>Did you ever give orders to preserve corpses of Sebright Bantams?—<ref target="#foot.f3"/></p>
+<p>Forgive so much trouble.— | Adios</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The endorsement is confirmed by the reference to CD’s ill health: according to the <ref target="./DCP-LETT-1820.xml" resp="#mjhawkins">letter to W. B. Tegetmeier, 14 January [1856]</ref>, he had been ill for the past week. The first Monday in January was the 7th, but it is unlikely that this letter was written then because CD was well enough to attend the Philoperisteron Society Show on 8 January (see <ref target="./DCP-LETT-1813.xml" resp="#automat">letter to W. B. Tegetmeier, 1 January [1856]</ref>, n. 2).</note>
+            <note xml:id="foot.f2">Probably <ref target="../nameregs/nameregs_4411.xml" resp="#mjhawkins">George Smith</ref>, bishop of Victoria, Hong Kong, who was the son-in-law of the rector of Beckenham, Kent.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_4272.xml" resp="#mjhawkins">John Saunders Sebright</ref> had crossed a common bantam with a Polish fowl, then recrossed the offspring with a hen-tailed bantam to obtain the famous Sebright bantam, a small fowl in which the cock lacks male plumage (see <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 2: 54).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

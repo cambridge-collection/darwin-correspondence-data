@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1001">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. B. Carpenter   [October–December 1846]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">708</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1001 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1001.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1001.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno/>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1846-10-01" notAfter="1846-12-31">[Oct–Dec 1846]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_839.xml">Carpenter, W. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks for address of the artist who drew the sections exhibited by WBC at BAAS meeting in September. CD needs drawings of minute corallines, Articulata, and Mollusca.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#">artist</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">meeting</term>
+                <term type="societal" ref="#">BAAS</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Thursday</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>When at Southampton you said you would give me the address of the artist whom you employ to draw from under the microscope, &amp; whom you pay at 5<hi rend="superscript">s</hi> per hour.<ref target="#foot.f1"/> An early answer would very much oblige me, if you would kindly take the trouble.— The objects which I want chiefly drawn are minute corallines, &amp; minute articulata &amp; mollusca &amp; their various organs;<ref target="#foot.f2"/> please say whether you think your artist would do such things well; it is a very different style, hard &amp; precise, from those wonderfully beautiful sections which you exhibited at Southampton.— I hope you will excuse this trouble.— Sh<hi rend="superscript">d</hi>. you have any communication with your artist, w<hi rend="superscript">d</hi> you mention my name as a probable applicant for his assistance</p>
+<p>Pray believe me, my dear Sir | Yours very faithfully | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.4 The] <hi rend="italic">over</hi> <hi rend="italic">illeg</hi></note>
+                    <note xml:id="tnote.n2">1.9 artist] <hi rend="italic">after del</hi> ‘at’</note>
+                </div>
+            
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Probably <ref target="../nameregs/nameregs_2892.xml" resp="#mjhawkins">Samuel William Leonard</ref> who prepared the illustrations for Carpenter’s article in the <hi rend="italic">Report of the 14th meeting</hi> <hi rend="italic">of the British Association for the Advancement of Science held at York in 1844</hi>, see plates 1–20 in Carpenter 1844.</note>
+            <note xml:id="foot.f2">The references indicate that at this time CD intended to describe the invertebrate specimens collected during the <hi rend="italic">Beagle</hi> voyage. This plan had been announced earlier for the <ref target="../bibliographies/bibl_8579.xml" resp="#mjhawkins"><hi rend="italic">Zoology</hi></ref> (see <ref target="../bibliographies/bibl_2661.xml" resp="#mjhawkins">Freeman 1977</ref>, p. 26) but was not achieved, probably because the Government grant was exhausted. In the event, the Cirripedia occupied CD until 1854 and he undertook no further work on the <hi rend="italic">Beagle</hi> invertebrates.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

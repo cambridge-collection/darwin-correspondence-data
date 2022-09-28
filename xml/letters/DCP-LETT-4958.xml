@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4958">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Robert Monsey Rolfe   28 December 1865</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16528</idno>
+            
+            
+            
+            
+            <date when="2002">2002</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4958 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4958.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4958.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="13">13</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 161: 233</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>161: 233</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4066.xml">Rolfe, R. M.</persName>
+                <placeName>London, Upper Brook St, 40</placeName>
+                <date when="1865-12-28">28 Dec 1865</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sending cheque for Down parish charities.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="places" ref="#">Down parish</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">charities</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">40, Upper Brook Street. | W.</hi></placeName>
+                    <date>28 Dec<hi rend="superscript">r</hi> 1865</date>
+                    <salute>My dear M<hi rend="superscript">r</hi> Darwin—</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I was quite mortified to find from M<hi rend="superscript">rs</hi> Darwins<ref target="#foot.f1"/> letter that I left Holwood<ref target="#foot.f2"/> in the Autumn without sending to the annual cheque of which you so kindly undertake the distribution—<ref target="#foot.f3"/> The fact is that it quite escaped my memory— I now enclose a cheque the rec<hi rend="superscript">t</hi> of which you will perhaps acknowledge to me at Holwood where I hope to be this Evening—</p>
+<p>I am afraid from your not writing yourself that you have not been very comfortable, But M<hi rend="superscript">rs</hi> Darwin did not mention your health so we hope for the best—</p>
+<p>With best wishes of the Season   Believe me, | yours very truly | Cranworth</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin</ref>.</note>
+            <note xml:id="foot.f2">Holwood House, Rolfe’s family seat, was 1<formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> miles from Down (<ref target="../bibliographies/bibl_2662.xml" resp="#mjhawkins">Freeman 1978</ref>).</note>
+            <note xml:id="foot.f3">Rolfe was a regular subscriber to the Down Friendly Club and the Down Coal and Clothing Club, of which CD was treasurer (<ref target="../bibliographies/bibl_2662.xml" resp="#mjhawkins">Freeman 1978</ref>). The Down Friendly Club was a local savings and insurance society; the Coal and Clothing Club supplied parishioners with cheap coal and clothes in exchange for regular savings. In previous years, CD had distributed Rolfe’s contributions to a day school and Sunday school in Down (CD’s Account book–cash account (Down House MS)). In his Down Coal and Clothing Club account book (Down House MS), CD recorded a contribution of £2 2<hi rend="italic">s.</hi> from Rolfe in 1865. On CD’s involvement in local charities, see <ref target="../bibliographies/bibl_5565.xml" resp="#mjhawkins">J. R. Moore 1985</ref>, p. 466.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1017F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Daniel Sharpe   [4 November 1846]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">21554</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1017F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1017F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1017F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">James Cummins, Bookseller (dealer) (December 2010)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_492.xml">James Cummins, Bookseller</repository>
+                    <collection>December 2010</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down, Farnborough, Kent</placeName>
+                <date when="1846-11-04">[4 Nov 1846]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4311.xml">Sharpe, Daniel</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Supposes Sharpe does not want Von Buch’s tract, so sent Hopkins. Asks it be returned to CD at the Athenaeum Club.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="human_group" ref="#">Athenaeum Club</term>
+                <term type="people" ref="#">Hopkins</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down, Farnborough, Kent,</placeName>
+                    <date>Wednesday</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>As I have not heard from you I suppose you do not want Von Buch’s Travels, so I send Hopkins’ solus—<ref target="#foot.f2"/> please keep it as long as you want &amp; return it directed to me at the Athenaeum Club.— If the Drawer’s happen to be ready the carrier shall take them.<ref target="#foot.f3"/></p>
+<p>Ever yours, C. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter and the <ref target="./DCP-LETT-1016.xml" resp="#mjhawkins">letter to Daniel Sharpe, [1 November 1846]</ref> (<hi rend="italic">Correspondence</hi> vol. 3). The first Wednesday after 1 November 1846 was 4 November.</note>
+            <note xml:id="foot.f2">CD had offered to lend Sharpe his copy of <ref target="../nameregs/nameregs_697.xml" resp="#mjhawkins">Christian Leopold von Buch’s</ref> <hi rend="italic">Travels through Norway and Lapland</hi> (<ref target="../bibliographies/bibl_1019.xml" resp="#automat" cert="low">Buch 1813</ref>; see <hi rend="italic">Correspondence</hi> vol. 3, <ref target="./DCP-LETT-1016.xml" resp="#mjhawkins">letter to Daniel Sharpe, [1 November 1846]</ref>); CD’s annotated copy of <ref target="../bibliographies/bibl_1019.xml" resp="#automat" cert="low">Buch 1813</ref> is in the Darwin Library–CUL (see <hi rend="italic">Marginalia</hi> 1: 90). Sharpe presented a paper on slaty cleavage to the <ref target="../nameregs/nameregs_1841.xml" resp="#mjhawkins">Geological Society of London</ref> on 2 December 1846; in it he referred to three publications by <ref target="../nameregs/nameregs_2380.xml" resp="#mjhawkins">William Hopkins</ref> (<ref target="../bibliographies/bibl_7131.xml" resp="#automat" cert="low">D. Sharpe 1846</ref>, p. 100); the paper mentioned by CD was probably Hopkins’s researches in physical geology (<ref target="../bibliographies/bibl_3843.xml" resp="#automat" cert="low">Hopkins 1835</ref>).</note>
+            <note xml:id="foot.f3">CD is probably referring to drawers containing the Falkland Island shells that he collected during the <hi rend="italic">Beagle</hi> voyage; these had been described by Sharpe and <ref target="../nameregs/nameregs_3408.xml" resp="#mjhawkins">John Morris</ref> in a paper presented to the Geological Society on 25 March 1846 (Morris and <ref target="../bibliographies/bibl_7131.xml" resp="#automat" cert="low">Sharpe 1846</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9921">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Murray   9 April [1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9617</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9921 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9921.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9921.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 447</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 447</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+                <placeName>London, Albemarle St, 50</placeName>
+                <date when="1875-04-09">9 Apr [1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>JM expresses willingness to publish CD’s <hi rend="italic">Climbing plants</hi> [2d ed.].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Climbing plants</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">movements and habits of plants</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">50, Albemarle S<hi rend="superscript">t</hi>. | W.</hi></placeName>
+                    <date>April 9</date>
+                    <salute>My Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Your Twining &amp; Climbing Plants” seems to me a very curious book &amp; I am quite willing to publish it for you on the conditions adopted in your previous publications—I taking all risque</p>
+<p>I return the MS with this as I believe you propose making some alterations in the MS—now that it is to come forth as a separate volume<ref target="#foot.f2"/></p>
+<p>My Dear Sir | Yours faithfully | John Murray <lb resp="#mjhawkins"/></p>
+<p rend="left">Chas Darwin Esq<hi rend="superscript">r</hi></p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to <ref target="../bibliographies/bibl_1458.xml" resp="#mjhawkins"><hi rend="italic">Climbing plants</hi> 2d ed.</ref> (see n. 2, below).</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_1458.xml" resp="#mjhawkins"><hi rend="italic">Climbing plants</hi> 2d ed.</ref> was published in November 1875 (<hi rend="italic">Publishers’ circular</hi> 1875); CD had originally planned to publish it as part of <ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref> (<ref target="./DCP-LETT-9844.xml" resp="#mjhawkins">letter to J. V. Carus, 7 February 1875</ref>). The first edition was published as a double issue of the <hi rend="italic">Journal of the Linnean Society (Botany)</hi> (<ref target="../bibliographies/bibl_1456.xml" resp="#mjhawkins">‘Climbing plants’</ref>) and as a book (<ref target="../bibliographies/bibl_1457.xml" resp="#mjhawkins"><hi rend="italic">Climbing plants</hi></ref>) published by Longmans and <ref target="../nameregs/nameregs_5147.xml" resp="#mjhawkins">Williams &amp; Norgate</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

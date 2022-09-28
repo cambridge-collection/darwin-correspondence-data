@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11724">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From James Torbitt   [after 18 October 1878]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14613</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11724 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11724.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11724.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p, encl ALS 2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 178: 149</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>178: 149</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4777.xml">Torbitt, James</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1878-10-19" notAfter="1882-12-31">[after 18 Oct 1878]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Forwards letter from George Callwell reporting what a large and disease-free potato crop JT’s seed yields.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">potato, disease-free</term>
+                <term type="people" ref="#subject_794">Callwell, George</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+                <term type="scientific_terms" ref="#">pathology, disease</term>
+                <term type="scientific_terms" ref="#">seeds</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+                     
+                    <p>Sent to Counter-balance Mr Kennedy’s unfavourable report.<ref target="#foot.f2"/></p>
+<p>I am busy examining varieties of 1875, tuber by tuber, and hope to report in a few days</p>
+<p>most respectfully | J. Torbitt</p> 
+                </div>
+            </div>
+        <div type="enclosure" subtype="letter">
+      
+          <opener>
+                    <placeName><hi rend="print">Lismoyne, | Dunmurry, | Co. Antrim.</hi></placeName>
+                    <date>18 October 1878</date>
+                    <salute>Sir,</salute>
+                </opener><div type="transcription">
+                     
+                    <p>I will be obliged if you can give me one puncheon &amp; one cut in two halves similar to the one I have already got from you, of course I mean all to be second hand.<ref target="#foot.f3"/></p>
+                    <p>I am still persevering with the potatoes grown from the seed, <hi rend="underline">the crop has been always large &amp; free from disease</hi><ref target="#foot.f4"/> &amp; each year the shape is better, I of course reject all unshapely ones when planting in Spring.</p>
+<p>Yours very truly | Geo Callwell</p> 
+                </div>
+        
+    </div>
+            
+            
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the date of the enclosure.</note>
+            <note xml:id="foot.f2">See enclosure to <ref target="./DCP-LETT-11721.xml">letter from James Torbitt, 8 October 1878</ref>. <ref target="../nameregs/nameregs_2663.xml" resp="#mjhawkins">Victor Coates Kennedy</ref> had reported little success in growing Torbitt’s potato seedlings.</note>
+            <note xml:id="foot.f3">Torbitt was a wine merchant; a puncheon was a large barrel or cask for storing wine (<ref target="../bibliographies/bibl_5936.xml" resp="#mjhawkins"><hi rend="italic">OED</hi></ref>). Torbitt deleted this paragraph.</note>
+            <note xml:id="foot.f4">Torbitt’s underlining.</note>
+        </div>    
+        
+    </body>
+    </text>
+</TEI>

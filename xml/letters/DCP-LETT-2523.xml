@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2523">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Alphonse de Candolle   11 November [1859]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14827</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2523 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2523.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2523.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl>Baehni (1955): 112; <hi rend="italic">LL</hi> 2: 216</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 7: 367</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Archives de la famille de Candolle (private collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_15.xml">Archives de la famille de Candolle</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Ilkley Down letterhead</placeName>
+                <date when="1859-11-11">11 Nov [1859]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_813.xml">Candolle, Alphonse de</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends <hi rend="italic">Origin</hi> as testimony to great benefit CD derived from AdeC’s works on distribution.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Origin</term>
+                <term type="rx" ref="#">Candolle, Alphonse de 1855</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent [Ilkley]</placeName>
+                    <date>Nov. 11<hi rend="superscript">th</hi>.</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I have thought that you would permit me to send you (by M<hi rend="superscript">essrs</hi> Williams &amp; Norgate Booksellers) a copy of my work (as yet only an abstract) on the Origin of Species. I wish to do this, as the only though quite inadequate manner by which I can testify to you, the extreme interest which I have felt, &amp; the great advantage, which I have derived, from studying your grand &amp; noble work on Geographical Distribution.<ref target="#foot.f1"/> Should you be induced to read my volume, I venture to remark that it will be intelligible only by reading the whole straight through, as it is very much condensed. It would be a high gratification to me, if any portion interested you.— But I am perfectly well aware, that you will entirely disagree with the conclusion, at which I have arrived.</p>
+<p>You will probably have quite forgotten me; but many years ago you did me the honour of dining at my house in London to meet M. &amp; Mad. Sismondi,—the uncle &amp; aunt of my wife.—<ref target="#foot.f2"/></p>
+<p>With sincere respect, I beg leave to remain— | Yours very faithfully | Charles Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../bibliographies/bibl_1195.xml" resp="#mjhawkins">A. de Candolle 1855</ref>. For CD’s comments on this work, see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 5. CD’s annotated copy is in the Darwin Library–CUL.</note>
+            <note xml:id="foot.f2">The dinner took place in 1839 in CD’s home in Gower Street, London (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 2, <ref target="./DCP-LETT-512.xml" resp="#mjhawkins">letter to Alphonse de Candolle, 25 May [1839]</ref>). The guests included Jean Charles Léonard Simonde de Sismondi, his wife Jessie (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> aunt), and <ref target="../nameregs/nameregs_2235.xml" resp="#mjhawkins">John Stevens Henslow</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

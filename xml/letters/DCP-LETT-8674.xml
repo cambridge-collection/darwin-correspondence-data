@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8674">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. V. Carus   12 December [1872]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7360</idno>
+            
+            
+            
+            
+            <date when="2013">2013</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8674 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8674.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8674.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="20">20</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Staatsbibliothek zu Berlin – Preußischer Kulturbesitz (Slg. Darmstaedter Lc 1859: Darwin, Charles, Bl. 90–91)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_379.xml">SB zu Berlin - Preußischer KB</repository>
+                    <collection>Slg. Darmstaedter</collection>
+                    <idno>Lc 1859: Darwin, Charles, Bl. 90–1</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1872-12-12">12 Dec [1872]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_849.xml">Carus, J. V.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Has not strength nor time to alter and improve <hi rend="italic">Variation</hi>.</p>  
+<p>First English edition of <hi rend="italic">Expression</hi> now at 9000 copies.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin himself, bad or deteriorating</term>
+                <term type="it" ref="#">Expression</term>
+                <term type="it" ref="#">Variation</term>
+                <term type="scientific_terms" ref="#">expression, emotion</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">variation</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>Dec 12<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>There is much which I sh<hi rend="superscript">d</hi> like to alter &amp; improve in the Variation; but I have not strength or time; so your Translation must appear with all its sins on its head.—<ref target="#foot.f2"/></p>
+<p>I hope that your edit. of the Expression book will soon appear: the first edition <hi rend="underline">here</hi> now consists of 9000 copies, which is a wonderful number.<ref target="#foot.f3"/></p>
+<p>Yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-8670.xml" resp="#mjhawkins">letter from J. V. Carus, 10 December 1872</ref>.</note>
+            <note xml:id="foot.f2">A second edition of Carus’s German translation of <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> (Carus trans. 1873) was being prepared for publication (see <ref target="./DCP-LETT-8670.xml" resp="#mjhawkins">letter from J. V. Carus, 10 December 1872</ref>).</note>
+            <note xml:id="foot.f3">Carus’s German translation of <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref> was published in 1872 (Carus trans. 1872b). CD’s publisher, John Murray, had recently decided to print 2000 more copies of <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref> (see <ref target="./DCP-LETT-8661.xml" resp="#mjhawkins">letter from R. F. Cooke, 6 December 1872</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

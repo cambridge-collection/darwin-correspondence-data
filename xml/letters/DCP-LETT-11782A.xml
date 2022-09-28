@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11782A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To G.S. Ffinden   9 December 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20409</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11782A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11782A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11782A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">John Wilson (dealer), Catalogue 64 (1988)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_441.xml">Wilson, John</repository>
+                    <idno>Cat. 64 1988</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1878-12-09">9 Dec 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1622.xml">Ffinden, G. S.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Encloses a cheque for £5.5.0 for the Down Coal and Clothing Club.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">Down Coal and Clothing Club</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Dec. 9<hi rend="superscript">th</hi> 1878</date>
+                    <salute>Dear M<hi rend="superscript">r</hi> Ffinden</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I have the pleasure to enclose a cheque for 5.5.0 for the Downe Coal Club.—<ref target="#foot.f1"/></p>
+<p>Yours faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The Downe Coal and Clothing Club was a local charity that supplied parishioners with cheap coal and clothes in exchange for regular savings; CD served as treasurer from 1848 to 1869 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 4, <ref target="./DCP-LETT-1172.xml">letter to John Innes, [8 May 1848]</ref> and n. 2). Ffinden was the vicar of Down; he ran the Coal and Clothing Club (<ref target="../bibliographies/bibl_5565.xml" resp="#mjhawkins">J. R. Moore 1985</ref>, p. 470). On 9 December 1878, CD recorded a payment of £5 5<hi rend="italic">s.</hi> under the heading ‘Ffinden’ in his Account books–banking account (Down House MS).</note>
+        </div>
+    
+    </body>
+    </text>
+</TEI>

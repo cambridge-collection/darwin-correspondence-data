@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2395">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To [Mary Holland]   [April 1860]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">866</idno>
+            
+            
+            
+            
+            <date when="1993">1993</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2395 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2395.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2395.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="08">8</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1860-04-01" notAfter="1860-04-30">[Apr 1860]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2338.xml">Holland, Mary</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks for information about birds eating berries of a mountain-ash.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">birds</term>
+                <term type="plants" ref="#">mountain ash</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <salute>My dear Miss Holland—</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>About a year ago I heard indirectly from you about a Mountain-Ash, of which the berries were greedily sought by Birds.—<ref target="#foot.f2"/> I sh<hi rend="superscript">d</hi>. be <hi rend="underline">particularly</hi> obliged for more precise observations made this Autumn. Namely dates of how much sooner this tree is completely or almost completely stripped of berries before the other trees in same garden.—</p>
+<p>What birds are the eaters? Is there any difference in appearance of tree or berries? Do the berries taste differently to us? Are the berries ripe earlier than in other trees.— And any other particulars</p>
+<p>Perhaps you would be so kind as to keep this note &amp; read over my queries at time.—<ref target="#foot.f3"/></p>
+<p>Pray believe me | My dear Miss Holland | Yours very truly | Charles Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.3 made] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">1.4 before the] ‘the’ <hi rend="italic">interl</hi></note>
+                </div>
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is suggested by a note dated April 1859 in which CD recorded the information referred to in the letter (see n. 3, below).</note>
+            <note xml:id="foot.f2">A note by CD in DAR 46.1: 47 reads: <quote type="quote"> Ap. 28/59/ Amy tells me that at Knutsford she saw in <ref target="../nameregs/nameregs_2339.xml" resp="#mjhawkins">Miss Holland</ref>s Garden the thrushes eating the fruit of one particular Mountain-ash, before that of any other tree; &amp; was assured that this happened every year: this tree being cleared of its fruit, which no doubt was better; this tree is largely sowed by Birds: &amp; so w<hi rend="superscript">d</hi> be favoured by being devoured. </quote> CD refers to his niece <ref target="../nameregs/nameregs_4998.xml" resp="#mjhawkins">Amy Wedgwood</ref>, the daughter of Francis (Frank) Wedgwood, and Frances Mosley Wedgwood.</note>
+            <note xml:id="foot.f3">CD used this, or very similar, information in <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 2: 230, although <ref target="../nameregs/nameregs_2339.xml" resp="#mjhawkins">Miss Holland</ref> was not cited.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

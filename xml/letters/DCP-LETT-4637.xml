@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4637">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From William Jenner   15 October 1864</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17680</idno>
+            
+            
+            
+            
+            <date when="2001">2001</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4637 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4637.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4637.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="12">12</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp damaged</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 168: 51</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>168: 51</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2555.xml">Jenner, William</persName>
+                <placeName>Balmoral</placeName>
+                <date when="1864-10-15">15 Oct 1864</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Prescribes continuing the phosphate of iron.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin himself, bad or deteriorating</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Balmoral</hi></placeName>
+                    <date>Oct<hi rend="superscript">r</hi> 15<hi rend="superscript">th</hi>. 64</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>There is no objection to your taking the Chalk<ref target="#foot.f1"/> the urine, not becoming turbid   I should fear stone if the urine continued in that state— Phosphate of Iron is a very useful medicine<ref target="#foot.f2"/>—one I often prescribe—but I am inclined to the opinion that it the iron which does the good &amp; that the phosphate of iron is a form in which it can in some be better or more easily taken into the system—&amp; which sits better on the stomach of some—</p>
+<p>The Iron if it agrees will certainly improve the vigour &amp; give strength—</p>
+<p>So my advice is continue the phosphate 〈of〉 I〈ron〉   Take C of Magnesia C. of Am. &amp; sp. of HorseRad. &amp; occasionally add the chalk—<ref target="#foot.f3"/></p>
+<p>Yours very truly | W<hi rend="superscript">m</hi>. Jenner.</p>
+<p>P.S. | I am sorry that your letter having had to be forwarded to me has occasioned delay—<ref target="#foot.f4"/> I expect to be home on 27<hi rend="superscript">th</hi>. Oct<hi rend="superscript">r</hi>.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had stopped taking chalk for his stomach on Jenner’s advice (see <ref target="./DCP-LETT-4589.xml" resp="#mjhawkins">letter from William Jenner, 14 August 1864</ref>), but continued to take several other antacids (see n. 3, below). <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242) records that CD ‘left off chalk’ on 16 August 1864. CD had formerly thought that the chalk, taken together with other antacids, had significantly improved his health (see <ref target="./DCP-LETT-4461.xml" resp="#mjhawkins">letter to J. D. Hooker, 13 April [1864]</ref>, and <ref target="./DCP-LETT-4487.xml" resp="#mjhawkins">letter from Emma Darwin to W. D. Fox, [6 May 1864]</ref>).</note>
+            <note xml:id="foot.f2">According to <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242), CD began taking phosphate of iron on 21 August 1864. Phosphate of iron was prescribed for a number of medical conditions, including rickets, scrofula, bowel problems, and nervous disorders (<ref target="../bibliographies/bibl_480.xml" resp="#mjhawkins">Beasley 1865</ref>, pp. 236–40; Royle and Headland 1865, pp. 155–6).</note>
+            <note xml:id="foot.f3">CD had been taking a combination of antacids prescribed by Jenner (see <ref target="./DCP-LETT-4589.xml" resp="#mjhawkins">letter from William Jenner, 14 August 1864</ref> and n. 2). Jenner refers to carbonate of magnesia, carbonate of ammonia, and spirit of horseradish (<hi rend="italic">Armoracia rusticana</hi>). On the use of these preparations in mid-nineteenth-century medicine, see Royle and Headland 1865, pp. 64–7, 128–30, and 301–2.</note>
+            <note xml:id="foot.f4">No letters from CD to <ref target="../nameregs/nameregs_2555.xml" resp="#mjhawkins">William Jenner</ref> have been found.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

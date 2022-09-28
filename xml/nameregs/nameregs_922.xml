@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-922" status="draft">
+    <persName>
+        <forename>Robert</forename>
+        <forename>Adam</forename>
+               <choice>
+                   <seg><surname notBefore="1804" notAfter="1835">Dundas</surname></seg>
+                   <seg><surname notBefore="1835" notAfter="1855">Christopher</surname></seg>
+                   <seg><surname notBefore="1855" notAfter="1877">Hamilton-Hisbet</surname></seg>
+               </choice>
+    </persName>
+    
+    <note type="dates"><date>1804–77</date></note>
+    <sex value="M"/>
+    <note type="biography">
+        <p>Landowner and politician. Born Robert Adam Dundas; assumed the name Christopher in lieu of Dundas in compliance with the will of George Manners of Bloxham Hall, Lincolnshire, 1835–7. Assumed the name Hamilton-Nisbet in lieu of Christopher in 1855, when his wife, Mary, succeeded to the Belhaven and Dirleton estates in Scotland. Conservative MP for Ipswich, 1826–30; Edinburgh, 1831; Lincolnshire North, 1837–57. FRS 1833.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_5514.xml" resp="#mjhawkins"><hi rend="italic">Modern English biography</hi></ref></p>
+        <p><ref target="../bibliographies/bibl_7452.xml" resp="#mjhawkins">Stenton 1976</ref>, s.v. Nisbet, Rt Hon Robert Adam Hamilton-</p>
+    </note>
+    <note type="volume">5,30</note>
+    <note type="keywords">
+        <term type="society">FRS</term>
+        <term type="name">Dundas, R. A.</term>
+        <term type="place">Lincolnshire</term>
+        <term type="place">North Lincolnshire</term>
+        <term type="place">Bloxham Hall</term>
+        <term type="place">Scotland</term>
+        <term type="p">Politician</term>
+    </note>
+    
+</person>

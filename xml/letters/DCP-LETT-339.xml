@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-339">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Maurice Herbert   [1 January 1837]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1814</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-339 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-339.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-339.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 145: 116</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Natural History Museum, Library and Archives (General Special Collections DC AL 1/1)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_288.xml">NHM</repository>
+                    <collection>General Special Collections</collection>
+                    <idno>DC AL 1/1</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Fitzwilliam St, 3</placeName>
+                <date when="1837-01-01">[1 Jan 1837]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2246.xml">Herbert, J. M.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Enjoyed the merry evening with JMH.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <date>Sunday night</date>
+                    <salute>My dear old Herbert.</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>As I have not seen you to wish you good bye in propriâ personâ, I must do it, on paper. for I suppose you will not be in Cambridge at the latter end of the week when I return.—<ref target="#foot.f1"/> I do not know when I have spent a merrier evening than yesterdays. It was like the old times, sitting by you &amp; hearing prodigies. I shall not in a hurry forget your awful appearance, as you lay on the sofa with a great snow ball in the place of your head. Jem<ref target="#foot.f2"/> certainly victimized you in capital style. I suppose we shall have the Gentleman in the Plaid Coat, hawking “this is the head of that well know character—fellow of S<hi rend="superscript">t</hi> Johns<ref target="#foot.f3"/> &amp;<hi rend="superscript">c</hi> &amp; <hi rend="superscript">c</hi>.” I certainly will put my name down for a proof before letter<ref target="#foot.f4"/> if there are such things— I was wishing so much that we had agreed to take a walk. I went into Kings &amp; heard Saul’s dead March.— What a glorious sight the whole is.— I never formerly knew how properly to admire it.</p>
+<p>Adios, you best of good old Fellows | Cha<hi rend="superscript">s</hi>. Darwin. <lb resp="#mjhawkins"/> 3. Fitz William S<hi rend="superscript">t</hi>. <ref target="#foot.f5"/></p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">On 4 January 1837, CD read his paper on <ref target="../bibliographies/bibl_8665.xml" resp="#mjhawkins">‘Observations of proofs of recent elevation on the coast of Chili’</ref> to the <ref target="../nameregs/nameregs_1841.xml" resp="#mjhawkins">Geological Society of London</ref> (<hi rend="italic">Collected</hi> <hi rend="italic">papers</hi> 1: 41–3).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_2330.xml" resp="#mjhawkins">James Richard Holden</ref>.</note>
+            <note xml:id="foot.f3">Herbert had been elected Fellow of St John’s College, Cambridge in 1832 (<ref target="../bibliographies/bibl_144.xml" resp="#mjhawkins"><hi rend="italic">Alum. Cantab.</hi></ref>).</note>
+            <note xml:id="foot.f4">Proofs made from the plates of an engraving before the ordinary printing.</note>
+            <note xml:id="foot.f5">Now 22 Fitzwilliam Street, Cambridge, where CD lived until March 1837. Saul’s Dead March: the ‘Dead march’ from George Frideric Handel’s oratorio, <hi rend="italic">Saul</hi>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

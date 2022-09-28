@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6716">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To James Paget   29 April [1869]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3741</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6716 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6716.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6716.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Bodleian Libraries, Oxford (MS. Autogr. b. 4, fol. 119a)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_48.xml">Bodleian</repository>
+                    <idno>MS. Autogr. b. 4, fol. 119a</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1869-04-29">29 Apr [1869]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3643.xml">Paget, James</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Has made a wonderful recovery [from riding accident].</p> 
+<p>Asks for information on blushing and screaming [for <hi rend="italic">Expression</hi>].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin himself, good or improving</term>
+                <term type="it" ref="#">Expression</term>
+                <term type="scientific_terms" ref="#">expression, emotion</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down.</hi> | Beckenham| <hi rend="print">Kent. S.E.</hi></placeName>
+                    <date>Ap. 29<hi rend="superscript">th</hi></date>
+                    <salute>My dear Paget</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have made a wonderful recovery. M<hi rend="superscript">r</hi> Engleheart says all the fluid is gone, only some thickening left.—<ref target="#foot.f2"/> I have no pain, &amp; very slight tenderness, &amp; can walk &amp; do walk several times a day.— I shall soon take to gentle rides again.</p>
+<p>As far as sensations serve, I am inclined to think the fomentations acted admirably.</p>
+<p>My general health is also improving.— Do not waste your precious time in answering this, but accept my cordial thanks for your kind advice &amp; believe me</p>
+<p>My dear Paget | Yours very sincerely | Ch. Darwin</p>
+<p>P.S. If ever you come across an extra blushing damsel do not forget the downward extent of the blush. I am assured that some half naked natives of Eastern races blush over arms &amp; legs!</p>
+<p>Also any case in which when screaming or breathing laboriously if platysma myoides contracts skin of neck into transverse folds?—<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 Beckenham] <hi rend="italic">before del</hi> ‘<hi rend="italic">Bromley.</hi>’ </note>
+                <note xml:id="tnote.n2">5.1 the] <hi rend="italic">after del illeg</hi> </note>
+                <note xml:id="tnote.n3">5.2 naked] <hi rend="italic">interl</hi> </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to CD’s horse-riding accident (see <ref target="./DCP-LETT-6706.xml" resp="#mjhawkins">letter to A. R. Wallace, 14 April 1869</ref> and n. 12). Paget had visited CD on 21 April 1869 (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242)).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_1514.xml" resp="#mjhawkins">Stephen Paul Engleheart</ref> was the surgeon in Down.</note>
+            <note xml:id="foot.f3">Paget had offered to make observations of blushing, and of the platysma muscle in persons screaming, in 1867 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 15, <ref target="./DCP-LETT-5582.xml" resp="#mjhawkins">letter from James Paget, 9 July 1867</ref>). On blushing on the arms and legs, see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 16, letter from F. F. Geach, April 1868 and n. 5.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

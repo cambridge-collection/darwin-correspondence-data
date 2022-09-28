@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10054">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Rudolph Riemann<choice><seg type="original"><ref target="#foot.f1"/></seg><seg type="translation"><ref target="#foot_trans.f1"/></seg></choice>   9 July 1875</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10515</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10054 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10054.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10054.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp (German) †, trans 2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 176: 157, 157/1</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>176: 157</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4007.xml">Riemann, Rudolph</persName>
+                <placeName>Zell am See</placeName>
+                <date when="1875-07-09">9 July 1875</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Professional sheep-breeder interested in laws of inheritance reports his crosses between <hi rend="italic">Serinus hortulanus</hi> and <hi rend="italic">Dryospiza canaria</hi>. Seeks to make a new species. Crosses carried out with animals varying in their proportion of <hi rend="italic">Serinus</hi> and <hi rend="italic">Dryospiza</hi> parentage. Confirms Prosper Lucas’ law as given in <hi rend="italic">Origin</hi>, ch. 9, with exception that strong individuals exhibit prepotency.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Dryospiza canaria</term>
+                <term type="animals" ref="#">Serinus hortulanus</term>
+                <term type="people" ref="#">sheep-breeder</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">crossing</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">heredity</term>
+                <term type="scientific_terms" ref="#">individuals</term>
+                <term type="scientific_terms" ref="#">parents</term>
+                <term type="scientific_terms" ref="#">species, speciation</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+                <term type="scientific_terms" ref="#">transmission, ‘taking after’</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>Hochgeehrtester Herr!</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>In Bezug auf Ihr Werk: “Über die Entstehung der Arten” erlaube mir zu Capitel IX Folgendes mitzutheilen:<ref target="#foot.f2"/></p>
+<p>Als professioneller Schafzüchter habe ich die Bastardirung von Serinus hortulanus (Girlitz) mit Dryospiza canaria (Kanarienvogel) hauptsächlich zu Klarlegung des Vererbungsgesetzes angestellt.<ref target="#foot.f3"/> Dabei bin ich zu dem von Ihnen bekanntgegebenen Gesetze des “Prosper Lucas” gekommen;<ref target="#foot.f4"/> Ausnahmen finden nur bei hervorragender Individual-Potenz statt, die nach meiner Erfahrung kräftigen Thieren besonders eigen ist.</p>
+<p>Mit möglichster Vermeidung aller Inzucht, die ich als Züchter zu hassen weiss, habe ich nun in diesem Jahre verehelicht:</p>
+
+    <table>
+        <row>
+            <cell rend="left">I:</cell>
+            <cell rend="left">Männchen:</cell>
+            <cell rend="centre">
+                <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>31</mn><mn>32</mn></mfrac></math></formula>
+            </cell>
+            <cell rend="left">Dryospiza</cell>
+            <cell rend="centre">
+                <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>32</mn></mfrac></math></formula>
+            </cell>
+            <cell rend="left">Serinus</cell>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell rend="left">Weibchen:</cell>
+            <cell rend="centre">
+                <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>15</mn><mn>16</mn></mfrac></math></formula>
+            </cell>
+            <cell rend="left">dto</cell>
+            <cell rend="centre">
+                <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>16</mn></mfrac></math></formula>
+            </cell>
+            <cell rend="left">dto</cell>
+        </row>
+        <row>
+            <cell rend="left">II:</cell>
+            <cell rend="left">Männchen:</cell>
+            <cell rend="centre">
+                <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>15</mn><mn>16</mn></mfrac></math></formula>   
+            </cell>
+            <cell rend="left">Dryospiza</cell>
+            <cell rend="centre">
+                <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>16</mn></mfrac></math></formula>
+            </cell>
+            <cell rend="left">Serinus</cell>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell rend="left">Weibchen:</cell>
+            <cell rend="centre">
+                <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>7</mn><mn>8</mn></mfrac></math></formula>
+            </cell>
+            <cell rend="left">dto</cell>
+            <cell rend="centre">
+                <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>8</mn></mfrac></math></formula>
+            </cell>
+            <cell rend="left">dto</cell>
+        </row>
+        <row>
+            <cell rend="left">III</cell>
+            <cell rend="left">Männchen</cell>
+            <cell rend="centre">
+                <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>31</mn><mn>32</mn></mfrac></math></formula>
+            </cell>
+            <cell rend="left">Dryospiza</cell>
+            <cell rend="centre">
+                <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>32</mn></mfrac></math></formula>
+            </cell>
+            <cell rend="left">Serinus</cell>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell rend="left">Weibchen</cell>
+            <cell rend="centre">
+                <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>31</mn><mn>32</mn></mfrac></math></formula>
+            </cell>
+            <cell rend="left">dto</cell>
+            <cell rend="centre">
+                <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>32</mn></mfrac></math></formula>            
+            </cell>
+            <cell rend="left">dto</cell>
+        </row>
+        <row>
+            <cell rend="left">IV.</cell>
+            <cell rend="left">Männchen</cell>
+            <cell rend="centre">
+                <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>7</mn><mn>8</mn></mfrac></math></formula>
+            </cell>
+            <cell rend="left">dto</cell>
+            <cell rend="centre">
+                <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>8</mn></mfrac></math></formula>
+            </cell>
+            <cell rend="left">dto</cell>
+        </row>
+        <row>
+            <cell rend="left"/>
+            <cell rend="left">Weibchen</cell>
+            <cell rend="centre">
+                <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>31</mn><mn>32</mn></mfrac></math></formula>
+            </cell>
+            <cell rend="left">dto</cell>
+            <cell rend="centre">
+                <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>32</mn></mfrac></math></formula>
+            </cell>
+            <cell rend="left">dto</cell>
+        </row>
+   </table>
+   
+<p>Aus <hi rend="underline">sämmtlichen</hi> dieser Paarungen sind Kinder erzeugt worden und erwachsen.</p>
+<p>ich diene hiemit zur Ansicht von, aus beiden Theilen Bastard “Eltern” in</p>
+
+    <table>
+        <row>
+            <cell rend="left">I</cell>
+            <cell rend="centre">mit</cell>
+            <cell rend="centre">
+                <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>61</mn><mn>64</mn></mfrac></math></formula>
+            </cell>
+            <cell rend="left">Dryospiza</cell>
+            <cell rend="centre">
+                <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>3</mn><mn>64</mn></mfrac></math></formula>
+            </cell>
+            <cell rend="left">Serinus</cell>
+        </row>
+        <row>
+            <cell rend="left">II</cell>
+            <cell rend="centre">"</cell>
+            <cell rend="centre"><formula>
+                <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>29</mn><mn>32</mn></mfrac></math></formula>
+            </cell>
+            <cell rend="left">dto</cell>
+            <cell rend="centre">
+                <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>3</mn><mn>32</mn></mfrac></math></formula>
+            </cell>
+            <cell rend="left">dto</cell>
+        </row>
+        <row>
+            <cell rend="left">III</cell>
+            <cell rend="centre">"</cell>
+            <cell rend="centre">
+                <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>31</mn><mn>32</mn></mfrac></math></formula>
+            </cell>
+            <cell rend="left">dto</cell>
+            <cell rend="centre">
+                <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>32</mn></mfrac></math></formula>
+            </cell>
+            <cell rend="left">dto</cell>
+        </row>
+        <row>
+            <cell rend="left">IV</cell>
+            <cell rend="centre">"</cell>
+            <cell rend="centre">
+                <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>59</mn><mn>64</mn></mfrac></math></formula>
+            </cell>
+            <cell rend="left">dto</cell>
+            <cell rend="centre">
+                <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>5</mn><mn>64</mn></mfrac></math></formula>
+            </cell>
+            <cell rend="left">dto.</cell>
+        </row>
+    </table>
+
+
+<p>Um unter allen Umständen zu dem jetzt schon erreichten Resultate zu kommen, eine neue Art zu bilden, habe ich die Bastardirung durch “Anpaarung” zugleich weiter getrieben und kann ich mit der Ansicht von <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>63</mn><mn>64</mn></mfrac></math></formula> Dryospiza m. <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>64</mn></mfrac></math></formula> Serinus dienen, deren Vater Bastard (<formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>32</mn></mfrac></math></formula> Serinus) u. deren Mutter Dryospiza ist.</p>
+<p>Auf Wunsch theile gern alles Nähere mit und bevollmächtige zu jedem beliebigen Gebrauche dieser Mittheilung. Die Thatsachen selbst bin ich jeder Zeit bereit zu beeiden.</p>
+<p>Mit vorzüglichster Hochachtung | ganz ergebenst | Rud. Rieman | Breslau, Centralbahnhof 31.</p>
+<p>z. Z. auf meiner | Besitzung: | Zell am See, | Herzogthurm Salzburg, | 9. VII. 75.</p>
+<p rend="left">[Contemporary translation]</p>
+<p>Honoured Sir,</p>
+<p>With reference to y<hi rend="superscript">r</hi>. work ‘The Origin’ I permit myself to communicate the following touching Chapt. IX.</p>
+<p>Principally with a view to the elucidation of the law of inheritance I, as a professional breeder of sheep, have induced the crossing of <hi rend="underline">Serinus hortulanus</hi> (Girlitz) with <hi rend="underline">Dryospiza Canaria</hi> (Canarienvogel). Thereby have I arrived at the known law of Prosper Lucas, given by you.— Exceptions only resulted from preponderating individual potency, which according to my experience is especially apt to appear in powerful animals.</p>
+<p>I have, in the present year made the following crosses, with all possible avoidance of in &amp; in breeding, which I as a breeder have learnt to dislike.</p> 
+                  
+                        <table>
+                            <row>
+                                <cell rend="left">I:</cell>
+                                <cell rend="left">male</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>31</mn><mn>32</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">Dryospiza</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>32</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">Serinus</cell>
+                            </row>
+                            <row>
+                                <cell rend="left"/>
+                                <cell rend="left">female</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>15</mn><mn>16</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">ditto</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>16</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">ditto</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">II:</cell>
+                                <cell rend="left">male</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>15</mn><mn>16</mn></mfrac></math>
+                                    </formula>   
+                                </cell>
+                                <cell rend="left">Dryo.</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>16</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">Ser.</cell>
+                            </row>
+                            <row>
+                                <cell rend="left"/>
+                                <cell rend="left">female</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>7</mn><mn>8</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">ditto</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>8</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">ditto</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">III</cell>
+                                <cell rend="left">male</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>31</mn><mn>32</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">Dryo.</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>32</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">Ser.</cell>
+                            </row>
+                            <row>
+                                <cell rend="left"/>
+                                <cell rend="left">female</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>31</mn><mn>32</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">Dryo.</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>32</mn></mfrac></math>
+                                    </formula>            
+                                </cell>
+                                <cell rend="left">ditto</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">IV.</cell>
+                                <cell rend="left">male</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>7</mn><mn>8</mn></mfrac></math>
+                                        </formula>
+                                </cell>
+                                <cell rend="left">ditto</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>8</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">ditto</cell>
+                            </row>
+                            <row>
+                                <cell rend="left"/>
+                                <cell rend="left">female</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>31</mn><mn>32</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">ditto</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>32</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">ditto</cell>
+                            </row>
+                        </table>
+   
+<p>From <hi rend="underline">every one</hi> of these crosses young were bred &amp; grew up.</p>
+<p>Hereby I use the following proportions from hybrid parents on both sides: from—</p>
+                 
+                        <table>
+                            <row>
+                                <cell rend="left">I</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>61</mn><mn>64</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">Dryos.</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>3</mn><mn>64</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">Serinus</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">II</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                    <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>29</mn><mn>32</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">—</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>3</mn><mn>32</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">—</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">III</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>31</mn><mn>32</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">—</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>32</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">—</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">IV</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>59</mn><mn>64</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">—</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>5</mn><mn>64</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">—</cell>
+                            </row>
+                        </table>
+                    
+<p>In order under all conditions to come to the results now already attained—the formation of a new species—I have carried yet further the hybridism by pairing, and I can make use of the proportion <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>63</mn><mn>64</mn></mfrac></math></formula> Dryospiza, <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>64</mn></mfrac></math></formula> Serinus, whose father is a hybrid (<formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>32</mn></mfrac></math></formula> Serinus)&amp; whose mother is Dryospiza.</p>
+<p>You may use this how you like   I can vouch for the facts</p>
+<p>Rud: Riemann <lb resp="#mjhawkins"/></p>
+<p rend="left">Zell am See | Herzagthum Salzburg</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note>2.1 Serinus hortulanus 2.2] <hi rend="italic">underl blue crayon</hi></note>
+                <note>2.2 (Girlitz)] ‘in Bechstein Fringilla serinus Linn.’<ref target="#foot.f5"/> <hi rend="italic">added ink</hi></note>
+                <note>2.2 Dryospiza canaria] <hi rend="italic">underl blue crayon</hi></note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+        
+        
+        <div type="translation">
+            <div type="text">
+                <opener>
+                    <salute>Most highly honoured Sir!</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Regarding your work: “On the origin of species”, permit me to communicate the following on chapter IX:<ref target="#foot.f2"/></p>
+<p>As a professional sheep-breeder, I have undertaken the hybridization of Serinus hortulanus (serin) and Dryospiza canaria (canary), chiefly for the purpose of clarifying the laws of heredity.<ref target="#foot.f3"/> As a result I have encountered the laws of “Prosper Lucas” as reported by you.<ref target="#foot.f4"/> Exceptions to this occur only in the case of extreme individual potency, which in my experience is especially characteristic of strong animals.</p>
+<p>Avoiding as much as possible all in-breeding, which as a breeder I must deplore, I have now crossed in the past year:</p>
+             
+                        <table>
+                            <row>
+                                <cell rend="left">I:</cell>
+                                <cell rend="left">male</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>31</mn><mn>32</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">Dryospiza</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>32</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">Serinus</cell>
+                            </row>
+                            <row>
+                                <cell rend="left"/>
+                                <cell rend="left">female</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>15</mn><mn>16</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">ditto</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>16</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">ditto</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">II:</cell>
+                                <cell rend="left">male</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>15</mn><mn>16</mn></mfrac></math>
+                                    </formula>   
+                                </cell>
+                                <cell rend="left">Dryospiza</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>16</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">Serinus</cell>
+                            </row>
+                            <row>
+                                <cell rend="left"/>
+                                <cell rend="left">female</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>7</mn><mn>8</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">ditto</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>8</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">ditto</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">III</cell>
+                                <cell rend="left">male</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>31</mn><mn>32</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">Dryospiza</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>32</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">Serinus</cell>
+                            </row>
+                            <row>
+                                <cell rend="left"/>
+                                <cell rend="left">female</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>31</mn><mn>32</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">ditto</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>32</mn></mfrac></math>
+                                    </formula>            
+                                </cell>
+                                <cell rend="left">ditto</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">IV.</cell>
+                                <cell rend="left">male</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>7</mn><mn>8</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">ditto</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>8</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">ditto</cell>
+                            </row>
+                            <row>
+                                <cell rend="left"/>
+                                <cell rend="left">female</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>31</mn><mn>32</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">ditto</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>32</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">ditto</cell>
+                            </row>
+                        </table>
+                                   
+<p>From <hi rend="underline">all</hi> these matches offspring were produced and raised to adulthood.</p>
+<p>I herewith provide for your inspection hybrid “parents” from both sides in</p>
+                    
+                        <table>
+                            <row>
+                                <cell rend="left">I</cell>
+                                <cell rend="centre">with</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>61</mn><mn>64</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">Dryospiza</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>3</mn><mn>64</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">Serinus</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">II</cell>
+                                <cell rend="centre">"</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                    <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>29</mn><mn>32</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">ditto</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>3</mn><mn>32</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">ditto</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">III</cell>
+                                <cell rend="centre">"</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>31</mn><mn>32</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">ditto</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>32</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">ditto</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">IV</cell>
+                                <cell rend="centre">"</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>59</mn><mn>64</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">ditto</cell>
+                                <cell rend="centre">
+                                    <formula>
+                                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>5</mn><mn>64</mn></mfrac></math>
+                                    </formula>
+                                </cell>
+                                <cell rend="left">ditto.</cell>
+                            </row>
+                        </table>
+                            
+<p>In order to get the same result in all circumstances as that already achieved, to form a new species, I carried on at the same time with hybridisation by “mating” different breeds, and I can provide the image of <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>63</mn><mn>64</mn></mfrac></math></formula> Dryospiza w. <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>64</mn></mfrac></math></formula> Serinus, whose father is a hybrid (<formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>32</mn></mfrac></math></formula> Serinus) &amp; whose mother is Dryospiza.</p>
+<p>I am happy to communicate further details at your request, and I authorise you to use this communication any way you like. The facts themselves I am ready to swear to at any time.</p>
+<p>With the greatest respects | your most devoted | Rud. Riemann | Breslau, Centralbahnhof 31.</p>
+<p>Currently at my | estate: | Zell am See, | duchy of Salzburg. | 9. VII. 75.</p> 
+                </div>
+            </div>
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">For a translation of this letter, see Appendix I. A contemporary translation found with the letter is included above.</note>
+            <note xml:id="foot_trans.f1">For a transcription of this letter in its original German, and a contemporary translation, see pp. 259–62.</note>
+            <note xml:id="foot.f2">Chapter 9 of <ref target="../bibliographies/bibl_6019.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 6th ed.</ref> was on hybridism.</note>
+            <note xml:id="foot.f3">Riemann bred sheep on his estate at Sagschütz near Breslau (now Wrocław in Poland; for more on his theories of sheep breeding, see <ref target="../bibliographies/bibl_9250.xml" resp="#mjhawkins">Riemann 1875</ref>). <hi rend="italic">Serinus hortulanus</hi> is a synonym of <hi rend="italic">Serinus serinus</hi> (the serin). <hi rend="italic">Dryospiza canaria</hi> is a synonym of <hi rend="italic">Serinus canaria</hi> (the wild canary). Crosses between canaries and finches are briefly mentioned in <ref target="../bibliographies/bibl_6019.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 6th ed.</ref>, p. 240.</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_3032.xml" resp="#mjhawkins">Prosper Lucas</ref> is cited in <ref target="../bibliographies/bibl_6019.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 6th ed.</ref>, p. 261, on the ‘laws of resemblance’, namely, that offspring tend to resemble both parents even when the parents are of different varieties or species; and that cases in which the offspring more closely resemble one parent are rare in hybrids. CD’s extensively annotated copy of Lucas’s work on heredity (<ref target="../bibliographies/bibl_4967.xml" resp="#mjhawkins">Lucas 1847–50</ref>) is in the Darwin Library–CUL (see <ref target="../bibliographies/bibl_5214.xml" resp="#mjhawkins"><hi rend="italic">Marginalia</hi></ref> 1: 513–23).</note>
+            <note xml:id="foot.f5"><hi rend="italic">Fringilla serinus</hi> is a synonym of <hi rend="italic">Serinus serinus</hi>. CD had read two works by <ref target="../nameregs/nameregs_350.xml" resp="#mjhawkins">Johann Matthäus Bechstein</ref> (<ref target="../bibliographies/bibl_487.xml" resp="#mjhawkins">Bechstein 1789–95</ref> and <ref target="../bibliographies/bibl_489.xml" resp="#mjhawkins">Bechstein 1840</ref>), both of which discussed the interbreeding of canaries and finches. CD’s heavily annotated copies are in the Darwin Library–CUL (see <ref target="../bibliographies/bibl_5214.xml" resp="#mjhawkins"><hi rend="italic">Marginalia</hi></ref> 1: 38–47).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

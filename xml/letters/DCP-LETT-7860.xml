@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7860">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Violetta Galton   12 July [1871]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3769</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7860 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7860.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7860.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 221.4: 163</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl>Pearson (1914–30) 2: 183; 3B: 460</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">UCL Library Services, Special Collections (GALTON/1/1/9/5/7/7)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_425.xml">UC London</repository>
+                    <idno>GALTON/1/1/9/5/7/9</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1871-07-12">12 July [1871]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1796.xml">Galton, F. A. V.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks his aunt for a note about a picture bought by CD’s sons.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#">Darwin, C. R.’s aunt</term>
+                <term type="people" ref="#subject_1224">Darwin, C. R.’s sons</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>July 12<hi rend="superscript">th</hi></date>
+                    <salute>My dear Aunt</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very much obliged to you for your great kindness in writing to me in your own hand. My sons were no doubt deceived &amp; the picture-seller affixed the name of a celebrated man to the picture for the sake of getting his price.—<ref target="#foot.f2"/></p>
+<p>Your note is a wonderful proof how well some few people in this world can write &amp; express themselves at an advanced age.<ref target="#foot.f3"/> It is enough to make one not fear so much the advance of age, as I often do, though you must think me quite a youth!—</p>
+<p>With my best thanks, pray believe me with much respect | Your affectionate nephew | Charles Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the printed stationery, with the address on the right, a form that CD used from May 1871 until January 1872.</note>
+            <note xml:id="foot.f2">Galton’s letter to CD has not been found, and nothing more is known about the incident she was writing about.</note>
+            <note xml:id="foot.f3">Galton was 88 years old.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

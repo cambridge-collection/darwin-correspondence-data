@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7739">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To G. R. Jesse   4 May [1871]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3177</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7739 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7739.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7739.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Scripps College, Denison Library (Perkins Autograph Letter Collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_382.xml">Scripps Denison</repository>
+                    <collection>Perkins Autograph Letter Collection</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1871-05-04">4 May [1871]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2566.xml">Jesse, G. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks for information about habits of a breed of terriers.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">terriers</term>
+                <term type="scientific_terms" ref="#">constant varieties, races</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">habit</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down.</hi> | Beckenham | <hi rend="print">Kent. S.E.</hi></placeName>
+                    <date>May 4<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have at last found passage about the breed of Terriers: it is in Gleanings in Nat. Hist. Third &amp; Last Series—Murray 1835 p. 149.— I gave it correctly “The descendants of a breed of terriers I have had many years, all shew their teeth &amp; put out their paw when they are caressed. This is a peculiarity of the breed.”—<ref target="#foot.f2"/> Now if, <hi rend="underline">without taking much trouble</hi>, you c<hi rend="superscript">d</hi>. find out whether any of the strain still exist &amp; whether they retain the habit, &amp; especially what is exactly meant by “put out their paw”, I I sh<hi rend="superscript">d</hi>. be grateful.—<ref target="#foot.f3"/> Were both paws alternately protruded?— If I receive no answer I will understand that you cannot aid me—so pray do not trouble yourself to acknowledge this.—</p>
+<p>Yours very faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 Beckenham] <hi rend="italic">before del</hi> ‘<hi rend="italic">Bromley.</hi>’ </note>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established on the basis of a note accompanying the letter: ‘Darwin. 4 May 1871’ written in a contemporary hand, perhaps that of G. R. Jesse.</note>
+            <note xml:id="foot.f2">CD refers to <hi rend="italic">Gleanings in natural history, third and last series</hi> by <ref target="../nameregs/nameregs_2565.xml" resp="#mjhawkins">Edward Jesse</ref> (<ref target="../bibliographies/bibl_4199.xml" resp="#mjhawkins">E. Jesse 1835</ref>). The quotation appeared in the posthumously published manuscript of CD’s ‘big book’ on species, in a discussion of the inheritance of unusual mental tendencies and physical movements (<ref target="../bibliographies/bibl_5799.xml" resp="#mjhawkins"><hi rend="italic">Natural selection</hi></ref>, pp. 480–1 n. 2).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_2566.xml" resp="#mjhawkins">George Richard Jesse</ref> was the nephew of <ref target="../nameregs/nameregs_2565.xml" resp="#mjhawkins">Edward Jesse</ref> and had written a natural history of the British dog (<ref target="../bibliographies/bibl_4200.xml" resp="#mjhawkins">G. R. Jesse 1866</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

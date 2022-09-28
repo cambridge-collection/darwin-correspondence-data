@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7474">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From R. F. Cooke   3 February 1871</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9555</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7474 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7474.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7474.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 385</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 385</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent" subtype="personGrp">
+                <persName key="../nameregs/nameregs_1053.xml">Cooke, R. F.</persName>
+                <persName key="../nameregs/nameregs_2575.xml">John Murray, Publishers</persName>
+                <placeName>London, Albemarle St, 50a</placeName>
+                <date when="1871-02-03">3 Feb 1871</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Encloses a letter [missing] from C. Reinwald, publisher of the French edition of <hi rend="italic">Descent</hi> [1872].</p> 
+            <p>Vincenzi [of Unione, Turin – publisher of Italian translation] has not yet paid the account.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="it" ref="#">Descent</term>
+                <term type="languages" ref="#">French</term>
+                <term type="languages" ref="#">Italian</term>
+                <term type="people" ref="#subject_3970">Reinwald, C.-F.</term>
+                <term type="people" ref="#">Vincenzi</term>
+                <term type="places" ref="#">Turin</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">sexual selection</term>
+                <term type="societal" ref="#">Unione</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">50A, Albemarle Street, London, W.</hi></placeName>
+                    <date>Feb<hi rend="superscript">y</hi>. 3 <hi rend="print">187</hi>1</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Will you read the enclosed from M. Reinwald &amp; return it with yr wishes.<ref target="#foot.f1"/></p>
+<p>We have failed to get any <hi rend="underline">rise</hi> out of M. Vincenzi as yet. Do you think it worth while to forward the a/c again?<ref target="#foot.f2"/></p>
+<p>Yours faithfully | Rob<hi rend="superscript">t</hi>. Cooke <lb resp="#mjhawkins"/></p>
+<p rend="left">C. Darwin Esq</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Cooke probably refers to the letter from <ref target="../nameregs/nameregs_3970.xml" resp="#mjhawkins">Charles-Ferdinand Reinwald</ref> to John Murray concerning woodcuts for the French translation of <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> that accompanied his letter to CD of 1 February 1871.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_815.xml" resp="#mjhawkins">Giovanni Canestrini</ref>, who published an Italian translation of <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> (Canestrini trans. 1876), hoped that it would be published by a Mr Vincenzi of Modena (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 18, <ref target="./DCP-LETT-7169.xml" resp="#mjhawkins">letter from Giovanni Canestrini, 21 April 1870</ref>). Mr Vincenzi has not been identified. In the event, it was published by Unione Typografico-Editrice in Turin.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

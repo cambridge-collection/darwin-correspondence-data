@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9163">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To ?   28 November [1873]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1574</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9163 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9163.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9163.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Cleveland Health Sciences Library (Robert M. Stecher collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_93.xml">Cleveland</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1873-11-28">28 Nov [1873]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_9999.xml">Unidentified</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Will not require assistance of correspondent’s cousin in correcting his MS [2d ed. of <hi rend="italic">Descent</hi>]. His son [George] will undertake it.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Descent</term>
+                <term type="people" ref="#subject_1224">Darwin, G. H.</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">sexual selection</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>Nov. 28<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>You will remember my consulting you about some one to correct my M.S. &amp; you recommending your cousin.<ref target="#foot.f2"/> When I got home, I thought of my second son,<ref target="#foot.f3"/> who is quite capable of undertaking the work &amp; would like to do so, so that I shall have no occasion to ask for the assistance of your cousin.</p>
+<p>Pray excuse the trouble &amp; I remain | Yours very faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The correspondent has not been identified. The year is established by the relationship between this letter and the <ref target="./DCP-LETT-9159.xml" resp="#mjhawkins">letter to G. H. Darwin, 24 November 1873</ref>.</note>
+            <note xml:id="foot.f2">CD was looking for someone to assist him with the second edition of <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> (see <ref target="./DCP-LETT-9149.xml" resp="#mjhawkins">letter to A. R. Wallace, 17 November 1873</ref>, and <ref target="./DCP-LETT-9157.xml" resp="#mjhawkins">letter to G. H. Darwin, 20 November 1873</ref>).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_1224.xml" resp="#mjhawkins">George Howard Darwin</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

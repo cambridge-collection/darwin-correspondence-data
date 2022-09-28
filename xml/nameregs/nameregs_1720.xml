@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-1720" status="released">
+    <persName>
+        <forename>Harriet</forename>
+        <choice>
+            <seg><surname notBefore="1799" notAfter="1834">Fletcher</surname></seg>
+            <seg><surname notBefore="1834" notAfter="1842">Fox</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1799–1842</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of Sir Richard Fletcher. Married William Darwin Fox in 1834.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_1822.xml" resp="#mjhawkins"><hi rend="italic">Darwin pedigree</hi></ref>.</p>
+    </note>
+    <note type="volume">1,2,3,12,13</note>
+    <note type="keywords">
+        <term type="name">Fletcher, Richard</term>
+        <term type="name">Fox, W. D.</term>
+    </note>
+</person>

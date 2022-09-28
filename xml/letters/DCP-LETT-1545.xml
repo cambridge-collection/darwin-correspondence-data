@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1545">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Edward Cresy<ref target="#foot.f1"/>   [before May 1848?]<ref target="#foot.f2"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13211</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1545 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1545.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1545.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="C">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 143: 303</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>143: 303</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1809-01-01" notAfter="1848-04-30">[before May 1848?]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1113.xml">Cresy, Edward, Jr</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Obliged for account of change in quality of wool. "Some authors will not admit that climate has any perceptible action."</p>
+            <p>Hopes his health is re-established.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Other people</term>
+                <term type="people" ref="#subject_707">Cresy, Edward</term>
+                <term type="scientific_terms" ref="#">change</term>
+                <term type="scientific_terms" ref="#">physical ‘external’ characters</term>
+                <term type="scientific_terms" ref="#">wind and weather</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down, Farnborough, Kent,</placeName>
+                    <date>Tuesday.</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+<p>I should have written sooner to have thanked you for your kindness, had I not been absent from home for a couple of days. I feel very much obliged to you for taking the trouble to write me so full and clear an account of the change in quality of the wool and I am very glad to have seen it. I am quite prepared to credit the entire statement of Mr. Russell,<ref target="#foot.f3"/> though, owing to the effects of a <hi rend="underline">hot</hi> climate on wool having been in some instances much exaggerated, some authors will not admit that climate has any perceptible action. Changes in the same individual certainly seem unusual, nevertheless there is apparently one quite authentic case of an English cat left for a season in East Africa, which became covered with the finest wool or down and was hardly recognizable by its old master, Capt. Owen.<ref target="#foot.f4"/></p>
+<p>I have never seen so detailed a statement of change effected in England on the same individual as in your letter.</p>
+<p>I sincerely hope your health is quite re-established; I was very sorry to hear how seriously ill you have been. I presume that you have left Paris; if you should happen to go there again, I wish you would kindly inform me, and I would beg you to consult a work for me on sheep, (which would not take you more than <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> an hour) which I can not otherwise see.<ref target="#foot.f5"/></p>
+<p>Pray remember me kindly to Mr. &amp; Mrs. Cresy, whom I hope are well, and believe me, my dear Sir,</p>
+<p>Yours sincerely, | C. Darwin.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Edward Cresy, son of <ref target="../nameregs/nameregs_1114.xml" resp="#mjhawkins">Edward Cresy Sr</ref>, the architect and engineer who had advised CD about the purchase of Down House (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 2, <ref target="./DCP-LETT-634.xml" resp="#mjhawkins">letter to Susan Darwin, [late July–August 1842]</ref>). The son was also an architect and engineer who lived in Down village.</note>
+            <note xml:id="foot.f2">Dated from the relationship to the two letters to Edward Cresy, <ref target="./DCP-LETT-805.xml">[before May 1848?]</ref> and <ref target="./DCP-LETT-1171.xml">[May 1848]</ref> (calendar numbers 805 and 1171, respectively).</note>
+            <note xml:id="foot.f3">Probably <ref target="../nameregs/nameregs_4127.xml" resp="#mjhawkins">Henry Stuart Russell</ref>, sheep farmer and explorer in Australia, or his brother, Sydenham Russell. See <ref target="../bibliographies/bibl_6806.xml" resp="#mjhawkins">Russell 1845</ref>.</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_3633.xml" resp="#mjhawkins">William Fitzwilliam Owen</ref> transported a cat from Algoa Bay (<hi rend="italic">c</hi>. 34<hi rend="superscript">o</hi> lat.) to Mombasa (<hi rend="italic">c</hi>. 4<hi rend="superscript">o</hi> lat.) (<ref target="../bibliographies/bibl_6121.xml" resp="#mjhawkins">W. F. Owen 1833</ref>, 1: 180). CD refers to this in <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 46–7.</note>
+            <note xml:id="foot.f5"><ref target="../bibliographies/bibl_1781.xml" resp="#mjhawkins">Darluc 1782–6</ref>. See letter to Edward Cresy, [before May 1848?], n. 9.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

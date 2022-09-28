@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11611">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Thomas Whitelegge   16 July 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8067</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11611 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11611.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11611.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 148: 353</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Mitchell Library, Sydney (MLMSS 5833)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_270.xml">Mitchell</repository>
+                    <idno>MLMSS 5833</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1878-07-16">16 July 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_5103.xml">Whitelegge, Thomas</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Asks TW not to send more information as CD does not expect a new edition of <hi rend="italic">Forms of flowers</hi>.</p>  
+<p>TW’s <hi rend="italic">Stachys</hi> case is what he calls gynodioeciousness.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Stachys</term>
+                <term type="it" ref="#">Forms of flowers</term>
+                <term type="scientific_terms" ref="#">dimorphism</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">monoecious or dioecious plants</term>
+                <term type="scientific_terms" ref="#">negative attitude/assessment</term>
+                <term type="scientific_terms" ref="#">sex</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">type and morphology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>July 16— 1878.</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>It is very kind of you to take so much trouble; but I beg you not to take any more, as I do not think it likely that there will be a new edition of my Forms of Flowers, &amp; unless there be one, I shall not be able to use all the information which you have been so good as to send me.—<ref target="#foot.f1"/></p>
+                    <p>The <hi rend="underline">Stachys</hi> seems a very fine case of what I have called gyno-diœciousness.—<ref target="#foot.f2"/></p>
+<p>Your activity &amp; powers of observation seem very great.—</p>
+<p>Dear Sir | Yours faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+             
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">Whitelegge had been sending examples of gynodioecious plants; he later published his observations in <hi rend="italic">Nature</hi>, 3 October 1878, p. 588. This note was cited by CD when a second edition of <ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref> was published in 1880 (<ref target="../bibliographies/bibl_9500.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi> 2d ed.</ref>, p. xvii).</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-11609.xml">letter from Thomas Whitelegge, 15 July 1878</ref>.</note>
+        </div>   
+       
+    </body>
+    </text>
+</TEI>

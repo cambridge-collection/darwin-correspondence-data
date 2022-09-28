@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7302">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From V. O. Kovalevsky   15 August [1870]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17794</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7302 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7302.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7302.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 169: 65</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>169: 65</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2751.xml">Kovalevsky, V. O.</persName>
+                <placeName>London, Bloomsbury St, 31</placeName>
+                <date when="1870-08-15">15 Aug [1870]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Wishes to visit Down.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="places" ref="#">Down</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>31. Bloomsbury Str. Bedford Square.</placeName>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am once more for a short time in England and should be very happy to see You if You could accept my visit.<ref target="#foot.f2"/> It is such a long time I had no news from You; after Your letter to Nice in the Spring I wrote You from a small place near Marseille, but having no answer I fear my letter has been lost.<ref target="#foot.f3"/> My wife is gone with her sister to the sea side and I am left alone to make excursions;<ref target="#foot.f4"/> if You are not occupied to much to receive visits, I have an intention to go to Bickley<ref target="#foot.f5"/> Tuesday and walk from the Station to Down.</p>
+<p>I hope to find M<hi rend="superscript">rs</hi>. Dawin and the ladies<ref target="#foot.f6"/> in good heal.</p>
+<p>Yours | truly | W. Kovalevsky <lb resp="#mjhawkins"/></p>
+<p rend="left">London 15 August</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-7297.xml" resp="#mjhawkins">letter from V. O. Kovalevsky, 7 August [1870]</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-7297.xml" resp="#mjhawkins">letter from V. O. Kovalevsky, 7 August [1870]</ref>.</note>
+            <note xml:id="foot.f3">Neither CD’s letter nor Kovalevsky’s reply has been found.</note>
+            <note xml:id="foot.f4">Kovalevsky refers to Sofia Vasilyevna Kovalevskaya and <ref target="../nameregs/nameregs_6085.xml" resp="#mjhawkins">Anna Vasilyevna Korvin-Krukovskaya</ref>.</note>
+            <note xml:id="foot.f5">Bickley Station is just outside Bromley, Kent, about six miles from Down.</note>
+            <note xml:id="foot.f6"><ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin</ref>, <ref target="../nameregs/nameregs_1225.xml" resp="#mjhawkins">Henrietta Emma Darwin</ref>, and Elizabeth Darwin.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

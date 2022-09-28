@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1187">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. E. Gray   28 [June 1848]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">74</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1187 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1187.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1187.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.74)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>74</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1848-06-28">28 [June 1848]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1959.xml">Gray, J. E.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Mentions returning borrowed book by Camillo Ranzani.</p>
+            <p>Discusses loan of cirripede specimens from British Museum. "In truth never will a mountain in labour have brought forth such a mouse as my book on the Cirripedia. It is ridiculous the time each species takes me."</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">cirripede</term>
+                <term type="rx" ref="#">Ranzani, Camillo 1820</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">identification</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">negative self-criticism</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">British Museum</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>28<hi rend="superscript">th</hi></date>
+                    <salute>Dear Gray</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I will send Ranzani<ref target="#foot.f1"/> by the Carrier on Thursday (tomorrow) morning, &amp; am very much obliged for it, though I cannot say that I have profited much by it. Do not think that I am going again to ask you a favour such as follows, for I know it must be troublesome; it is to let me have the Conchotrya &amp; Brisnæus<ref target="#foot.f2"/> (or Brisneus?) sent me by the Carrier. The reason I want it now is that I have just been working with care at the Lithotrya &amp; it would save me considerable trouble to finish at once with these allied or identical genera.</p>
+<p>If you can oblige me so far, will you have them at your <hi rend="underline">private</hi> <hi rend="underline">Residence</hi> on Thursday <hi rend="underline">morning</hi> for the Carrier.— If I dared I would ask also for Octomeris (so as to do it when I do Catophragmus),<ref target="#foot.f3"/> especially if you have one adhering to its support, so that I could get out the dry animal.— Believe me, I will not again ask thus for single genera, which I know gives you the trouble of getting down the drawers.</p>
+<p>In truth never will a mountain in labour have brought forth such a mouse as my book on the Cirripedia: it is ridiculous the time each species takes me.</p>
+<p>Yours most sincerely | C. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../bibliographies/bibl_6542.xml" resp="#mjhawkins">Ranzani 1820</ref>, cited in <ref target="../bibliographies/bibl_4838.xml" resp="#mjhawkins"><hi rend="italic">Living Cirripedia</hi> (1854): </ref>5, 272, 329 and <ref target="../bibliographies/bibl_2622.xml" resp="#mjhawkins"><hi rend="italic">Fossil Cirripedia</hi> (1854): </ref>10, 37.</note>
+            <note xml:id="foot.f2"><hi rend="italic">Conchotrya</hi> and <hi rend="italic">Brisnæus</hi> are listed as synonyms for <hi rend="italic">Lythotrya</hi> (<ref target="../bibliographies/bibl_4837.xml" resp="#mjhawkins"><hi rend="italic">Living Cirripedia</hi> (1851): </ref>332). The names are attributed to <ref target="../bibliographies/bibl_3067.xml" resp="#mjhawkins">J. E. Gray 1825</ref>.</note>
+            <note xml:id="foot.f3">Both genera of Balanidae are described in <hi rend="italic">Living</hi> <hi rend="italic">Cirripedia</hi> (1854): 483–91. The synonym <hi rend="italic">Octomeris stutchburii</hi> is attributed to <ref target="../bibliographies/bibl_3067.xml" resp="#mjhawkins">J. E. Gray 1825</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

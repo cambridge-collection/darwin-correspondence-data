@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1791">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. B. Tegetmeier   6 December [1855]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1279</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1791 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1791.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1791.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Archives of the New York Botanical Garden (Charles Finney Cox Collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_302.xml">NYBG</repository>
+                    <collection>Charles Finney Cox</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1855-12-06">6 Dec [1855]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4682.xml">Tegetmeier, W. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Variation in cats.</p>
+            <p>Is comparing skeletons of poultry.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">cats</term>
+                <term type="animals" ref="#">poultry</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+                <term type="scientific_terms" ref="#">variation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Dec. 6<hi rend="superscript">th</hi>.</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>Thank you <hi rend="underline">much</hi> for taking the trouble of sending me the canines, &amp; which I hope will arrive safely, &amp; for answering so fully my queries. I was interested by stumbling on 4 variations in the Cat, within the course of six weeks, viz long tails in W. Indies,—curiously backward sloping tails,—tufted ears, &amp; your case.—<ref target="#foot.f1"/></p>
+<p>When I asked for the Ghoondok bird,<ref target="#foot.f2"/> I stupidly quite forgot that you would of course want it for your own work.— Pray do not think of troubling yourself to send me a M.S. account, for it will do exactly as well, or better, whenever you print.—<ref target="#foot.f3"/> At some <hi rend="underline">future</hi> time, when I have got several skeletons together I daresay you would lend me the skeleton for a few days to compare with such others as I may have got together. Would you like to examine the head of my wild Jungle Fowl from India?<ref target="#foot.f4"/> But it would require a little cleaning.— I could send it in Box by Post, &amp; you could return it same way, or leave it at my Brothers House at any time near Cavendish Square.— But I do not know whether it would aid you or not.— You could if you liked see whole skeleton, but this is too large for Post.—</p>
+<p>With many thanks | Your’s very truly | C. Darwin</p>
+<p>I sometimes send little notices to Gardeners’ Chronicle, but I have never communicated anything but trifles.—</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.8 at any time 2.9] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-1788.xml" resp="#mjhawkins">letter to W. B. Tegetmeier, [2 December 1855]</ref>, n. 2.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-1788.xml" resp="#mjhawkins">letter to W. B. Tegetmeier, [2 December 1855]</ref>, n. 5.</note>
+            <note xml:id="foot.f3"><ref target="../bibliographies/bibl_7650.xml" resp="#mjhawkins">Tegetmeier 1856</ref>.</note>
+            <note xml:id="foot.f4">Sent by <ref target="../nameregs/nameregs_498.xml" resp="#mjhawkins">Edward Blyth</ref> from India (<ref target="./DCP-LETT-1746.xml" resp="#mjhawkins">letter from Edward Blyth, 22–3 August 1855</ref>). This was the wild <hi rend="italic">Gallus bankiva</hi>, described in <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 233–6 as the possible ancestor of the domestic breeds of fowl.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

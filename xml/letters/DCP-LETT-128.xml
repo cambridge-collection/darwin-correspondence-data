@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-128">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. S. Henslow   17 [September 1831]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">5211</idno>
+            
+            
+            
+            
+            <date when="1985">1985</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-128 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-128.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-128.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="01">1</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <note type="postmark">17 SE 1831</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 145: 16</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Darwin and Henslow</hi>: 41</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 1: 156</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Royal Botanic Gardens, Kew (Henslow letters: 6 DAR/1/1/6)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_213.xml">Kew</repository>
+                    <idno>Henslow letters: 6 DAR/1/1/6</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Spring Gardens, 17</placeName>
+                <date when="1831-09-17">17 [Sept 1831]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2235.xml">Henslow, J. S.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Plans to come to Cambridge to discuss <hi rend="italic">Beagle</hi> voyage. Only difficulty is disposal of his collections. South Sea Islands now more probable.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="places" ref="#">Cambridge</term>
+                <term type="scientific_terms" ref="#">geography</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>17 Spring Gardens</placeName>
+                    <date>Saturday 17<hi rend="superscript">th</hi>.—</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I arrived this morning from Plymouth &amp; found your letter with six others on my table.— I mention this, as it will account for my writing to you a very short letter.— I called on your brother, but he was not at home, I heard there that you left London yesterday: How very unfortunate it was my being detained in Plymouth: I should have much enjoyed taking a walk in London town with you.— I am much obliged for your asking me to take up my quarters with you: I will most gratefully accept it in every point but one, viz sleeping at your house.— I shall arrive in the middle of the night by the Mail,<ref target="#foot.f1"/> &amp; after 2 or 3 days shall start <hi rend="underline">very early</hi> in the morning to Birmingham: So I cannot think of turning your house upside down for merely one night.— Will you be kind enough to order a bed for me at the Hoops<ref target="#foot.f2"/> for Monday night: as it is almost certain I shall come to Cambridge then.— You may tremble at my arrival,—for I shall not give you a moments peace. I have so many things to ask about &amp; talk about.— Every thing goes on very well.— The SS Islands daily become more probable.— My cabin is more comfortable than I expected: &amp; my only difficulty is about the disposal of my collection when I come back.— I have seen this very morning Cap. Beaufort &amp; had some talk on the subject.— There is one other disagreeable thing, but of this in future.— The ballance however is quite on the prosperous side.—</p>
+<p>Excuse this hasty letter &amp; believe me dear Sir, with my best thanks, Yours ever most sincerely | Chas. Darwin.—</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 writing] <hi rend="italic">after del</hi> ‘not’</note>
+                    <note xml:id="tnote.n2"><hi rend="italic">point omitted after</hi>: 1.15 ‘comfortable’; 1.16 ‘collec-tion’; 1.16 ‘morning’; 1.18 ‘future.’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The <hi rend="italic">Louth and Boston Mail</hi> arrived at half-past two every morning from London; the <hi rend="italic">Rising Sun</hi> coach to Birmingham left at 6.00 a.m. (<hi rend="italic">Cambridge University</hi> <hi rend="italic">calendar</hi>, 1831).</note>
+            <note xml:id="foot.f2">The Hoop Inn, Cambridge.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

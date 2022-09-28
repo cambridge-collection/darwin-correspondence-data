@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11599F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From R. A. Blair to the Smithsonian Institution   10 July 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">21079</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11599F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11599F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11599F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (B/D25.20)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <idno>C. R. Darwin B/D25.20</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_476.xml">Blair, R. A.</persName>
+                <placeName>Sedalia, Mo.</placeName>
+                <date when="1878-07-10">10 July 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4438.xml">Smithsonian Institution</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Requests that a box of specimen goose wings for CD be forwarded by the Institution to [W. H.] Flower at the Royal College of Surgeons. The wings bear on the transmission of the effects of injury.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">goose</term>
+                <term type="people" ref="#subject_1">Darwin, C. R.</term>
+                <term type="people" ref="#subject_1670">Flower, W. H.</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">instructions</term>
+                <term type="scientific_terms" ref="#">monstrosity</term>
+                <term type="scientific_terms" ref="#">pathology, disease</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">transmission, ‘taking after’</term>
+                <term type="societal" ref="#">Royal College of Surgeons</term>
+                <term type="societal" ref="#">Smithsonian Institution</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Sedalia Mo.</placeName>
+                    <date>July 10. 1878.</date>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>Upon the request of M<hi rend="superscript">r</hi>. Cha<hi rend="superscript">s</hi>. Darwin, I have prepared a small box of specimen Goose wings in alcohol, bearing on a case of Transmission of Effects of injury. He directs me to address them Prof. Flower Royal Col. Surgeons, Lincoln’s Inn Fields London which I have done—<ref target="#foot.f1"/></p>
+                    <p>Will you be kind enough to forward them, through the Institution? They are in Alcohol well packed &amp; marked, in wooden box 14 x 8 x 4 inches—<ref target="#foot.f2"/></p>
+<p>I will be pleased to deliver the pckge in Washington prepaid.</p>
+<p>Hoping to receive your favorable reply I remain | Very Truly | Your obdt Servt | R. A. Blair | Sedalia | MO.</p>
+<p>Box 451.</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-11475.xml" resp="#mjhawkins">letter to R. A. Blair, 14 April 1878</ref>. <ref target="../nameregs/nameregs_1670.xml" resp="#mjhawkins">William Henry Flower</ref> was curator of the Hunterian Museum and Hunterian Professor of comparative anatomy at the Royal College of Surgeons.</note>
+            <note xml:id="foot.f2">The <ref target="../nameregs/nameregs_4438.xml" resp="#mjhawkins">Smithsonian Institution</ref> in Washington DC had established a worldwide exchange system with other scientific institutions by negotiating deals with several steamship companies for free transport and obtaining the co-operation of the United States and foreign governments to admit Smithsonian packages duty-free. The use of the system for specimens began to be curtailed in the 1870s but it continued to operate for publications well into the twentieth century. See <ref target="../bibliographies/bibl_10428.xml" resp="#automat" cert="low">Craig 2004</ref>, pp. 8–9.</note>
+        </div>
+    
+    </body>
+    </text>
+</TEI>

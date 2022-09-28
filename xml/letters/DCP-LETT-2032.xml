@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2032">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Henry Doubleday   [before 5 February 1857]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">863</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2032 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2032.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2032.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp inc</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno/>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1809-01-01" notAfter="1857-02-04">[before 5 Feb 1857]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1360.xml">Doubleday, Henry</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Have all varieties been bred from the same set of eggs so that there can be no doubt they are all the same species?</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">breeding (artificial)</term>
+                <term type="scientific_terms" ref="#">eggs</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">species, speciation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Down]</placeName>
+                </opener>
+                <div type="transcription">
+<p rend="left">– have bred <hi rend="underline">all</hi> these varieties from the same set of eggs, so that there can be no doubt that they are all the same species?<ref target="#foot.f2"/> I trust &amp; think that your kindness will make you forgive my writing so long &amp; troublesome a letter.— I can assure you, that in so far as giving me knowledge, which I value, your note will not have been thrown away upon me.</p>
+<p>Pray believe me | My dear Sir | Your’s truly obliged | Charles Darwin</p>
+<p>I must express my admiration at the skill with which your Box was packed up; &amp; must confess, until I read your letter, I was somewhat dismayed to think how I sh<hi rend="superscript">d</hi>. ever return it half so neatly!</p>
+<p>I think there is no difference in the Peronias except in the wondrous differences of colour, &amp; somewhat in size.— I presume that there is no rule of any of the coloured vars. tending to be smaller or larger.<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.4 have] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">1.4 been] <hi rend="italic">over</hi> ‘be’</note>
+                </div>
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the relationship to the following letter.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-2044.xml" resp="#mjhawkins">letter from Henry Doubleday, 26 January 1857</ref>. CD refers to Doubleday’s description of having reared eggs of what had been claimed to be two distinct species of <hi rend="italic">Harpalyce</hi> and finding, as he expected, that the resulting moths were identical.</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-2047.xml" resp="#mjhawkins">letter from Henry Doubleday, 5 February 1857</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

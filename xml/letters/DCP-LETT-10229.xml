@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10229">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From James Jameson   26 October 1875</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17676</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10229 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10229.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10229.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">5pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 168: 44</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>168: 44</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2535.xml">Jameson, James</persName>
+                <placeName>Glasgow</placeName>
+                <date when="1875-10-26">26 Oct 1875</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Report, from a reader of <hi rend="italic">Expression</hi>, of a Negro boy’s monkey-like screams while having fractured femur adjusted without chloroform.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">monkey</term>
+                <term type="human_group" ref="#">Negro boy</term>
+                <term type="it" ref="#">Expression</term>
+                <term type="scientific_terms" ref="#">affinity and analogy</term>
+                <term type="scientific_terms" ref="#">communication</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">pathology, disease</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Gallowgate Barracks. | Glasgow.</placeName>
+                    <date>26<hi rend="superscript">th</hi> Oct 1875.</date>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have been induced by reading your book on the “Expression of the Emotions”, to mention an occurrence in my own experience.<ref target="#foot.f1"/></p>
+<p>While stationed in the Bahamas two years ago, a Negro boy, whose appearance denoted unmixed African blood, was engaged training a horse for a race. In galoping round the race-course the horse bolted into the bush and ran against a tree. The injury sustained by the rider was very severe and resulted in a compound comminuted Fracture of Thigh bone. He was removed to the Civil Hospital and an attempt was made to save the limb which accordingly was put up in the usual long splint. About a week afterwards I saw the case along with the Surgeon in charge. There was much swelling and discharge of pus from the wound while the fractured ends of the bone did not appear to be in the best possible position and I suggested that extension should be made and the foot everted. Accordingly this was done and without chloroform when our attention was directed to most extraordinary sounds proceeding from the boy unlike anything I had ever heard before and consisted of a succession of sounds like chit-chit-chit-chit-it-tit-tit and to my mind resembled closely the sounds of a monkey frightened and angry. At every renewed effort to adjust the fractured Thigh the same sounds were repeated and continued until the splints were satisfactorily arranged. Every one present interpreted the sounds in the same way.</p>
+<p>I am happy to state that the fracture united but I regret that I had no opportunity of informing myself in how many other respects this boy resembled the animal which he unconsciously so well imitated.</p>
+<p>I remain | Yours sincerely. | J Jameson, M D. | Surgeon Major <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin Esq<hi rend="superscript">r</hi>. | 6 Queen Anne St. | Cavendish Square. | London.</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD discussed vocalisation in humans and animals in <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref>, pp. 83–94.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

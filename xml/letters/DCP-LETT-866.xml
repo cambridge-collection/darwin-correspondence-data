@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-866">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Edward Forbes   [9 May 1845]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8266</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-866 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-866.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-866.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="inc">†, CD list 4pp † (by EF)</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 43.1: 50</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>43.1: 50</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1680.xml">Forbes, Edward</persName>
+                <placeName>unstated</placeName>
+                <date when="1845-05-09">[9 May 1845]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Has marked probable depths of the specimens on CD’s list of S. American shells. Asks for details which would provide more precise conclusions. [See <hi rend="italic">South America</hi>, p. 226.]</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">South America</term>
+                <term type="places" ref="#">America, South</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">sea, sea-currents</term>
+                <term type="scientific_terms" ref="#">shells</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <date>Friday.</date>
+                    <salute>Dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+<p>I have been too busy to look over your list with requisite consideration until yesterday.</p>
+<p>I have marked on the lists their <hi rend="underline">probable</hi> depths judging from the associations of the genera.<ref target="#foot.f2"/> My marks are within wide ranges.</p>
+<p>I could come however to more likely conclusions were two points noted</p>
+<p>1<hi rend="superscript">st</hi>—the average size of the specimens &amp; species found in each locality.</p>
+<p>2<hi rend="superscript">d</hi> The comparative abundance of <hi rend="underline">specimens</hi> of each species, &amp; their state, as indicating life &amp; death &amp;c</p>
+<p>Thus the Huafo list might indicate twice the depth if the species are all very small &amp; the specimens of Turritella few.</p>
+<p>All such calculations, at any rate, must be only provisional, until we know the range in Depth of mollusca in the neighbouring seas.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated from CD’s reply, 13 May [1845].</note>
+            <note xml:id="foot.f2">The lists of shells from different localities are in DAR 43.1: 51–2. The localities are Port Saint Julian, Santa Cruz, Huafo Island, Navidad, Copiapó, and the Cordillera of central Chile. Fuller identifications of the shells are given in lists throughout <ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref>. CD used Forbes’s estimates of the depths at which these species lived to demonstrate the amount of sea-bed subsidence that must have occurred at Copiapó and the Cordillera of central Chile (<ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref>, pp. 193, 196).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1892">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. B. D. Mantell   5 June [1856–9]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7243</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1892 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1892.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1892.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Alexander Turnbull Library, National Library of New Zealand (MS-Papers-0083-268)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_424.xml">Turnbull</repository>
+                    <idno>MS-Papers-0083-268</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                
+            <date xml:id="date1" when="1856-06-05" exclude="#date2 #date3 #date4">5 June 1856</date>
+            <date xml:id="date2" when="1857-06-05" exclude="#date1 #date3 #date4">5 June 1857</date>
+            <date xml:id="date3" when="1858-06-05" exclude="#date1 #date2 #date4">5 June 1858</date>
+            <date xml:id="date4" when="1859-06-05" exclude="#date1 #date2 #date3">5 June 1859</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3157.xml">Mantell, W. B. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks WBDM for the particulars on the iceberg.</p>
+            <p>Will look up the barnacle specimen to which he refers at British Museum.</p>
+            <p>WBDM should remember when he returns to New Zealand that aboriginal rat and frog are "great desiderata in Natural History".</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">barnacle</term>
+                <term type="animals" ref="#">frog</term>
+                <term type="animals" ref="#">rat</term>
+                <term type="geology" ref="#">iceberg</term>
+                <term type="places" ref="#">New Zealand</term>
+                <term type="scientific_terms" ref="#">aboriginal forms</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">ice, ice-action, icebergs, glaciers</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">sea, sea-currents</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+                <term type="societal" ref="#">British Museum</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>June 5<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I am much obliged for your kind remembrance of my wish to hear particulars in regard to the iceberg seen by you &amp; I thank you for having sent them to me.—<ref target="#foot.f2"/></p>
+<p>I think that you were so kind as to answer fully all my previous questions.—</p>
+<p>I am not now at work on Barnacles, but I shall like someday to see at Brit Museum, the specimens to which you refer.—</p>
+<p>With many thanks, Pray believe me, My dear Sir | Yours very sincerely | Ch. Darwin</p>
+<p>P.S. | When you return to N. Zealand, I hope that you will kindly remember that the aboriginal rat<ref target="#foot.f3"/> (&amp; the Frog)<ref target="#foot.f4"/> are great desiderata in Natural History.</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">0.2 5] <hi rend="italic">over</hi> ‘4’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Mantell, normally resident in New Zealand, was in England during this period.</note>
+            <note xml:id="foot.f2">See letters to W. B. D. Mantell, <ref target="./DCP-LETT-1848.xml" resp="#automat">3 April [1856]</ref> and <ref target="./DCP-LETT-1663.xml" resp="#automat">10 April [1856]</ref>.</note>
+            <note xml:id="foot.f3"><hi rend="italic">Rattus exulans</hi> Peale, a small brown rat, was evidently introduced into New Zealand at an early period since its bones have been found with those of the moa. When CD visited New Zealand, the species was disappearing rapidly as a result of the arrival of the Norway rat (see <ref target="../bibliographies/bibl_4250.xml" resp="#mjhawkins"><hi rend="italic">Journal of researches</hi></ref>, p. 511).</note>
+            <note xml:id="foot.f4">In <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>, p. 393, after stating that frogs are never found on oceanic islands, CD wrote: ‘I have, however, been assured that a frog exists on the mountains of the great island of New Zealand; but I suspect that this exception (if the information be correct) may be explained through glacial agency.’</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

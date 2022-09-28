@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-499" status="draft">
+    <persName>
+        <forename>Elizabeth</forename>
+        <forename>Mary</forename>
+        <forename>Turner</forename>
+        <choice>
+            <seg><surname notBefore="1823" notAfter="1846">Sutton</surname></seg>
+            <seg><surname notBefore="1846" notAfter="1854">Hodges</surname></seg>
+            <seg><surname notBefore="1854" notAfter="1857">Blyth</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1823–57</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Born Elizabeth Mary Turner Sutton in London, daughter of James and Elizabeth Sutton. Married John Charles Hodges (1819/20–51) in Calcutta (Kolkata), India, in 1846. Married Edward Blyth in Calcutta (Kolkata), India, in 1854.</p></note>
+    <note type="sources">
+        <p><hi rend="italic">England, select births and christenings, 1538–1975</hi> (Ancestry.com, accessed 22 March 2017)</p>
+        <p><ref target="../bibliographies/bibl_3158.xml" resp="#mjhawkins">Grote 1875</ref></p>
+        <p><hi rend="italic">India, select deaths and burials, 1719–1948</hi> (Ancestry.com, accessed 22 March 2017)</p>
+        <p><hi rend="italic">India, select marriages, 1792–1948</hi> (Ancestry.com, accessed 22 March 2017)</p>
+    </note>
+    <note type="volume">5,6</note>
+    <note type="keywords">
+        <term type="name">Blyth, Edward</term>
+    </note>
+    
+</person>

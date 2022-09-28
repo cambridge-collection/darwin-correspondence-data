@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3842">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Robert Swinhoe   2 December 1862</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10855</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3842 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3842.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3842.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 177: 327</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>177: 327</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4642.xml">Swinhoe, Robert</persName>
+                <placeName>Chelsea</placeName>
+                <date when="1862-12-02">2 Dec 1862</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends CD a Chinese breed of guinea-pig. Has heard it claimed that the domestic guinea-pig will not interbreed with the wild rock cavy and that, therefore, artificial selection has formed a new species.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">guinea-pig, Chinese</term>
+                <term type="scientific_terms" ref="#">breeding behaviour</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">origin</term>
+                <term type="scientific_terms" ref="#">selection</term>
+                <term type="scientific_terms" ref="#">species, speciation</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>18 Royal Avenue Terrace | Chelsea. SW.</placeName>
+                    <date>2 Dec<hi rend="superscript">r</hi>. 1862.</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have just turned out another domestic animal which I had laid aside for you—a Guinea Pig.<ref target="#foot.f1"/> It is of the Chinese breed, and may perhaps be interesting to you for comparison with the European bred animals. I heard it asserted the other day at Cambridge that the domestic Guinea-pig would not interbreed with the Rock Cavy, it’s supposed parent-stock, and that consequently a new species had been formed by <hi rend="underline">artificial</hi> selection. Have you heard of this asserted fact?<ref target="#foot.f2"/> The person that gave it forth at Cambridge had it I believe on good authority. I should like much to hear your opinion on this subject.</p>
+<p>I remain, | Dear Sir, | Your’s very truly,</p>
+<p>Robert Swinhoe <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin, Esq<hi rend="superscript">re</hi>.</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Swinhoe, who had previously supplied CD with animal specimens, had recently returned from the Far East, bringing with him a large natural history collection (see <ref target="./DCP-LETT-3803.xml" resp="#mjhawkins">letter from Robert Swinhoe, 12 November 1862</ref>).</note>
+            <note xml:id="foot.f2">No letter to Swinhoe on this point has been found.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

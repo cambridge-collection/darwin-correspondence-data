@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10034">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From R. F. Cooke   28 June 1875</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9626</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10034 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10034.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10034.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 458</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 458</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent" subtype="personGrp">
+                <persName key="../nameregs/nameregs_1053.xml">Cooke, R. F.</persName>
+                <persName key="../nameregs/nameregs_2575.xml">John Murray, Publishers</persName>
+                <placeName>London, Albemarle St, 50a</placeName>
+                <date when="1875-06-28">28 June 1875</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Agrees to price <hi rend="italic">Insectivorous plants</hi> at 14s.</p> 
+            <p>Has CD quoted a price for stereotype plates to D. Appleton?</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="it" ref="#">Insectivorous plants</term>
+                <term type="people" ref="#subject_137">Appleton, Daniel</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="scientific_terms" ref="#">predators</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="societal" ref="#">John Murray, Publishers</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">50A, Albemarle Street, London. W.</hi></placeName>
+                    <date>June 28 <hi rend="print">187</hi>5</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>The price of your new work shall not exceed 14/–<ref target="#foot.f1"/></p>
+<p>Our only wish was to obtain a better return for you, which 1/– more would give.</p>
+<p>The other copies will not look so clumsy as the one I sent which was not properly pressed.</p>
+<p>Did you not quote a price to Appletons, as to what the set of <hi rend="underline">stereotype plates</hi> would cost them, &amp; was it £50 or less.?<ref target="#foot.f2"/></p>
+<p>The Foreign copies shall not be posted before Thursday or Friday.<ref target="#foot.f3"/></p>
+<p>Yours faithfully | Rob<hi rend="superscript">t</hi>. Cooke <lb resp="#mjhawkins"/></p>
+<p rend="left">Cha<hi rend="superscript">s</hi>. Darwin Esq</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note><hi rend="italic">Top of letter</hi>: ‘a little over <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>6</mn><mn>8</mn></mfrac></math></formula> | a little over <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>7</mn><mn>8</mn></mfrac></math></formula> distributed evenly | <hi rend="superscript">6<formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula>/8</hi>’ <hi rend="italic">pencil</hi></note>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had requested that the price of <ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref> be reduced from 15<hi rend="italic">s</hi>. to 14<hi rend="italic">s</hi>. (see <ref target="./DCP-LETT-10032.xml" resp="#mjhawkins">letter to R. F. Cooke, 27 June [1875]</ref>).</note>
+            <note xml:id="foot.f2">CD had asked Cooke to organise production of stereotype plates for his US publisher, <ref target="../nameregs/nameregs_135.xml" resp="#mjhawkins">D. Appleton &amp; Co</ref>., in his <ref target="./DCP-LETT-10028.xml" resp="#automat" cert="medium">letter to Cooke of 24 June [1875]</ref>. In a <ref target="./DCP-LETT-9989.xml" resp="#automat" cert="medium">letter to Cooke of 23 May [1875]</ref>, CD had suggested charging £60.</note>
+            <note xml:id="foot.f3">CD had suggested waiting until after Thursday 1 July 1875 to send foreign presentation copies of <ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref> since changes to postage rates would come into effect then (see <ref target="./DCP-LETT-10032.xml" resp="#mjhawkins">letter to R. F. Cooke, 27 June [1875]</ref> and n. 3).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

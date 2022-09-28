@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-937">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Reeve Brothers   [August 1846]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3009</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-937 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-937.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-937.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+            <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+                <relatedItem type="publication">
+                    <bibl> <hi rend="italic">Correspondence</hi> 3: 328–9</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">The New York Public Library. Astor, Lenox and Tilden Foundations. The Henry W. and Albert A. Berg Collection of English and American Literature.</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_304.xml">NYPL Berg</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1846-08-01" notAfter="1846-08-31">[Aug 1846]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3958.xml">Reeve Brothers</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Discusses printing of a plate [for <hi rend="italic">South America</hi> (1846)].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">South America</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down: Farnborough Kent.</placeName>
+                    <date>Saturday</date>
+                    <salute>Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>The section<ref target="#foot.f2"/> will do very well: there are a few trifling corrections. The writing is very bad; I do not allude to the mistakes which my bad-writing may excuse, though I never before had half so many made; but to the size of the lettering varying in every third &amp; fourth name. Please just to look in No<hi rend="superscript">r</hi> 2. at “Valley of Horcones” &amp; at lower right hand corner at “Feldspathic Clay-slate”— Would you be so good as to look at No<hi rend="superscript">r</hi>. 2. &amp; consider what plan is best to separate the letters of reference from the names below.— In No 3<hi rend="superscript">d</hi>. I sh<hi rend="superscript">d</hi>. think brackets would keep the names together best.</p>
+<p>The paper must be cut close (as close as I have done on left side) to your border, otherwise it will not go into my volume.—</p>
+<p>With respect to quality of Paper it must be <hi rend="underline">thin</hi> for folding &amp; yet take colour: I enclose a scrap, wh. answered well for copper in a former volume, but I must leave it to you to settle for stone.—</p>
+<p>500 to be printed only 250 to be coloured.—</p>
+<p>Please to observe to send me in <hi rend="doubleUnderline">second proof</hi>, before you print off, as I dare not trust the writer; &amp; I must see one copy coloured on the paper which you propose to use.—</p>
+<p>Gentlemen | Your obliged &amp; obed<hi rend="superscript">t</hi> svt | C. Darwin <lb resp="#mjhawkins"/> To | M<hi rend="superscript">rs</hi> Reeve, Brothers</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.1 are] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">1.1 trifling] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n3">1.4 No<hi rend="superscript">r</hi>] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n4">2.1 (as close as I have done on left side)] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is based on an entry in CD’s Account Book (Down House MS) dated 4 September 1846: ‘Cheque L. Reeve. Lithograph for G. of S. America £10. 2s.’</note>
+            <note xml:id="foot.f2">A coloured plate at the back of <ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref> depicts the formations of the Portillo and Uspallata passes and the valley of Copiapó, Chile. See <ref target="./DCP-LETT-1011.xml" resp="#mjhawkins">letter to Smith, Elder &amp; Co., [19 October 1846]</ref>, for CD’s response to the binding of the plate.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-729" status="released">
+    <persName xml:lang="en">
+        <forename>John</forename>
+        <forename>Lewis</forename>
+        <surname>Burckhardt</surname>
+    </persName>
+    <persName type="additional" subtype="nickname" xml:lang="de">
+        <forename>Johann</forename>
+        <forename>Ludwig</forename>
+    </persName>
+    <note type="dates"><date>1784–1817</date></note>
+    <sex value="M"/>
+    <note type="biography">
+        <p>Swiss traveller in the Middle East and Africa. His accounts of his travels were published posthumously.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_144.xml" resp="#mjhawkins"><hi rend="italic">Alum. Cantab</hi></ref>.</p>
+        <p><ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref>.</p>
+    </note>
+    <note type="volume">5,6</note>
+    <note type="keywords">
+        <term type="place">Middle East</term>
+        <term type="place">Africa</term>
+        <term type="reference">accounts of his travels</term>
+        <term type="nationality">Swiss</term>
+        <term type="z">traveller</term>
+    </note>
+</person>

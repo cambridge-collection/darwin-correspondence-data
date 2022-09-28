@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4651">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Edward Sabine   3 November 1864</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10602</idno>
+            
+            
+            
+            
+            <date when="2001">2001</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4651 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4651.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4651.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="12">12</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 177: 1</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>177: 1</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4140.xml">Sabine, Edward</persName>
+                <placeName>Royal Society</placeName>
+                <date when="1864-11-03">3 Nov 1864</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Announces that the Council of the Royal Society has awarded CD the Copley Medal.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">Copley Medal</term>
+                <term type="societal" ref="#">Royal Society of London council</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">The Royal Society, | Burlington House, | W.</hi></placeName>
+                    <date>3<hi rend="superscript">d</hi> Nov <hi rend="print">186</hi>4</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>It gives me very sincere pleasure to inform you that the Council of the Royal Society have awarded you the Copley Medal for the eminent services you have rendered in the three departments of geology zoology and botany.<ref target="#foot.f1"/> I hope that your health will permit you to attend at the Anniversary Meeting on the 30<hi rend="superscript">th</hi> Inst. when I may have the pleasure of delivering the Medal to you.<ref target="#foot.f2"/></p>
+<p>I beg that you will be so kind as to present my best compliments and congratulations to M<hi rend="superscript">rs</hi> Darwin and believe me to remain | very sincerely yours | Edward Sabine <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin Esq</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">On 3 November 1864, the <ref target="../nameregs/nameregs_7867.xml" resp="#mjhawkins">Council of the Royal Society</ref> voted to award CD the Copley Medal ‘for his important Researches in Geology, Zoology, and Botanical Physiology’ (Royal Society, Council minutes).</note>
+            <note xml:id="foot.f2">Sabine refers to the anniversary meeting of the Royal Society on 30 November 1864. As president of the Society, Sabine wrote the address in which the recipients of the Society’s medals were honoured (a portion of <ref target="../bibliographies/bibl_6833.xml" resp="#mjhawkins">Sabine 1864</ref> is transcribed in Appendix IV).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

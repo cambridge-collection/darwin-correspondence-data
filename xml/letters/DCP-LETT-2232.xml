@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2232">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Innes   4 March [1859]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1502</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2232 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2232.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2232.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="publication">
+                <bibl>Stecher (1961): 204</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 7: 253</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Cleveland Health Sciences Library</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_93.xml">Cleveland</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1859-03-04">4 Mar [1859]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2502.xml">Innes, J. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Much concerned by death of JBI’s mother.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Other people</term>
+                <term type="people" ref="#subject_2505">Innes, Mary</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down.—</placeName>
+                    <date>March 4<hi rend="superscript">th</hi></date>
+                    <salute>Dear Innes</salute>
+                </opener>
+                <div type="transcription">
+<p>We were much concerned at hearing yesterday evening of the death of your mother.<ref target="#foot.f2"/> I never heard of a more merciful release from suffering. In your sorrow you must have the satisfaction of knowing how excellent &amp; attentive a son you have been; &amp; one cannot have a higher satisfaction. I hope M<hi rend="superscript">rs</hi> Innes<ref target="#foot.f3"/> has not suffered from the suddenness of the shock.</p>
+<p>With our united sympathy, pray believe me, Dear Innes | Yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is given by the reference to the death of Innes’s mother (see n. 2, below). The version of this letter published in <ref target="../bibliographies/bibl_7430.xml" resp="#mjhawkins">Stecher 1961</ref>, p. 204, is incorrectly dated 1858.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_5980.xml" resp="#mjhawkins">Mary Innes</ref> died on 3 March 1859, aged 83, in the home of her son in Down village (<hi rend="italic">The Times</hi>, 9 March 1859, p. 1). On 12 March 1859, <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin</ref> wrote to William: ‘I forget whether I told you of old M<hi rend="superscript">r</hi> s Innes’s sudden &amp; easy death, without any illness. She was buried at Hythe.’ (DAR 210.6).</note>
+            <note xml:id="foot.f3">Eliza <ref target="../nameregs/nameregs_5980.xml" resp="#mjhawkins">Mary Innes</ref>, née Brodie, married <ref target="../nameregs/nameregs_7222.xml" resp="#mjhawkins">John Innes</ref> in 1847.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

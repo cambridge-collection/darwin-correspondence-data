@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-216">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. S. Henslow   [20–7] September 1833</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">5222</idno>
+            
+            
+            
+            
+            <date when="1985">1985</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-216 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-216.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-216.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="01">1</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 145: 27</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Darwin and Henslow</hi>: 80</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 1: 332</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Royal Botanic Gardens, Kew (Henslow letters: 19 DAR/1/1/19)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_213.xml">Kew</repository>
+                    <idno>Henslow letters: 19 DAR/1/1/19</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Buenos Ayres</placeName>
+                <date notBefore="1833-09-20" notAfter="1833-09-27">[20–7] Sept 1833</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2235.xml">Henslow, J. S.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Informs JSH that a Spanish friend has offered him a cargo of bones. If they arrive, he has arranged with Edward Lumb to forward them to JSH. [Forwarded to JSH with <hi rend="doubleUnderline">244</hi>.]</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#">Spanish friend</term>
+                <term type="scientific_terms" ref="#">fossils</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Buenos Ayres</placeName>
+                    <date>September 1833</date>
+                    <salute>My dear Henslow</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>A Spanish friend in Entre Rios has promised to send me a cargo of Bones; if they do arrive here: M<hi rend="superscript">r</hi> Lumb has kindly offered to forward them to you.— I leave this as a direction to him, &amp; he will add the name of Ship, date, port &amp;c or whatever is necessary.—</p>
+<p>Believe me Yours most truly obliged | Charles Darwin</p> 
+<figure type="diagram"> 
+<p>The Rev:<hi rend="superscript">d</hi> Professor Henslow</p>
+<p>Cambridge University</p>
+<p>England.—</p>
+<p>Specimens of Natural History<ref target="#foot.f1"/></p> </figure> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD left this letter with <ref target="../nameregs/nameregs_3040.xml" resp="#mjhawkins">Edward Lumb</ref> to be forwarded with the cargo of bones to which it refers. The letter was not despatched until 2 May 1834, when Lumb wrote to Henslow telling him that a case of specimens with part of the head of a ‘Megatherium’ was being forwarded to him. That shipment, however, was not the one referred to in this letter, but another, containing a specimen found later in 1833. From Lumb’s <ref target="./DCP-LETT-245.xml" resp="#mjhawkins" cert="high">letter of 8 May 1834</ref>, it appears that the ‘Spanish friend’ is ‘M<hi rend="superscript">r</hi> Hooker’. The cargo of bones has not been traced, though Lumb expected it to arrive soon after 2 May 1834.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

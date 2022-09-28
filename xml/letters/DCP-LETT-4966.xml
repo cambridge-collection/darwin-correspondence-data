@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4966">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Charles John Robinson   [1866?]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10547</idno>
+            
+            
+            
+            
+            <date when="2004">2004</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4966 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4966.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4966.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="14">14</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp sketch</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 176: 188</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>176: 188</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4037.xml">Robinson, C. J.</persName>
+                <placeName>Harewood, Ross, Herefordshire</placeName>
+                <date notBefore="1866-01-01" notAfter="1866-12-31">[1866?]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Has a small living at Norton Canon.</p>
+            <p>Will visit Charles Whitley next week.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_5105">Whitley, C. T.</term>
+                <term type="places" ref="#">Norton Canon</term>
+                <term type="social" ref="#">Other people</term>
+                <term type="social" ref="#">visiting</term>
+                <term type="societal" ref="#">living</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Harewood | Ross. Herefordshire</placeName>
+                    <salute>My dear M<hi rend="superscript">r</hi> Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I cannot resist the pleasure of telling you how gratified I have been to hear of your restoration to health.</p>
+<p>Your name was mentioned the other night at dinner at the Deanery<ref target="#foot.f2"/> &amp; my neighbour M<hi rend="superscript">r</hi>. Herbert—(our County Court Judge)—in answer to my enquiries, gave me the very welcome news.<ref target="#foot.f3"/></p>
+<p>I pay him a visit next week in order to meet your old friend Charles Whitley.<ref target="#foot.f4"/></p>
+<p>In the few years that have passed since I last had the pleasure of seeing you I have had to endure many sorrows. The loss of my wife in her first confinement &amp;—almost simultaneously—the death of my father &amp; mother—have left me very solitary.<ref target="#foot.f5"/></p>
+<p>If I am not wholly forgotten, allow me to offer my kind regards to M<hi rend="superscript">rs</hi>. &amp; Miss Darwin as well as to yourself—<ref target="#foot.f6"/> for whom I trust there are many years of health &amp; fame in store.</p>
+<p>Yours very sincerely, | Charles J Robinson</p>
+<p>I have a small living (Norton Canon) in this county, where I am building a Vicarage house—restoring Church &amp; School<ref target="#foot.f7"/> &amp; otherwise following the ordinary imprudent course w<hi rend="superscript">h</hi>. my brethren adopt.</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is conjectured from the references to CD’s improving health and to the dinner at Hereford Deanery. CD’s health had been improving since the end of 1865, an improvement he attributed to treatment by <ref target="../nameregs/nameregs_2601.xml" resp="#mjhawkins">Henry Bence Jones</ref> (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 13, <ref target="./DCP-LETT-4909.xml" resp="#mjhawkins">letter to T. H. Huxley, 4 October [1865]</ref> and n. 3). Robinson’s informant about CD’s health, <ref target="../nameregs/nameregs_2246.xml" resp="#mjhawkins">John Maurice Herbert</ref>, had learned the news of the good effects of Jones’s treatment ‘some few months’ before writing to CD in May 1867 (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 15, <ref target="./DCP-LETT-5526.xml" resp="#automat" cert="low">letter from J. M. Herbert, 3 May 1867)</ref>. The dinner at the Deanery is likely to have taken place some time before the death of Herbert’s friend, the dean of Hereford, <ref target="../nameregs/nameregs_1261.xml" resp="#mjhawkins">Richard Dawes</ref>, in March 1867 (see <ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref> and <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 15, <ref target="./DCP-LETT-5526.xml" resp="#automat" cert="low">letter from J. M. Herbert, 3 May 1867)</ref>.</note>
+            <note xml:id="foot.f2">Robinson refers to the Deanery at Hereford.</note>
+            <note xml:id="foot.f3">Herbert, a Cambridge friend of CD’s (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 1), was a County Court judge on the South Wales circuit from 1847 to 1882 (<ref target="../bibliographies/bibl_5514.xml" resp="#mjhawkins"><hi rend="italic">Modern English biography</hi></ref>). See also n. 1, above.</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_5105.xml" resp="#mjhawkins">Charles Thomas Whitley</ref> had been at Shrewsbury School and Cambridge with CD; he was Herbert’s cousin (<ref target="../bibliographies/bibl_4842.xml" resp="#mjhawkins"><hi rend="italic">LL</hi></ref> 1: 166, <ref target="../bibliographies/bibl_5514.xml" resp="#mjhawkins"><hi rend="italic">Modern English biography</hi></ref>).</note>
+            <note xml:id="foot.f5">Robinson’s first wife was <ref target="../nameregs/nameregs_8079.xml">Matilda Catherine Robinson</ref>. He later married <ref target="../nameregs/nameregs_6637.xml">Emma Harriet Agnes Croker</ref>; they had four daughters by 1881. Robinson’s parents were Eleanor Rocke and <ref target="../nameregs/nameregs_6635.xml" resp="#mjhawkins">Charles Frederick Robinson</ref> of Ashcott, near Glastonbury. (<hi rend="italic">Biograph and Review</hi> 6 (1881): 144–6.)</note>
+            <note xml:id="foot.f6">Robinson refers to <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin</ref> and <ref target="../nameregs/nameregs_1225.xml" resp="#mjhawkins">Henrietta Emma Darwin</ref>; he had met them and CD at Ilkley, Yorkshire, in October 1859 (<ref target="" resp="#automat">letter from Emma Darwin to William Erasmus Darwin, [24 or 31 October 1859]</ref> (DAR 210.6: 50)).</note>
+            <note xml:id="foot.f7">Robinson was vicar of Norton Canon, Herefordshire, between 1865 and 1877; on his building and restoration works see <hi rend="italic">Biograph and Review</hi> 6 (1881): 144–6.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

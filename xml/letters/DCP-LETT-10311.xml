@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10311">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From W. E. Darwin to F. E. Abbot   20 December 1875</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3899</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10311 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10311.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10311.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Harvard University Archives (Papers of F. E. Abbot, 1841–1904. Named Correspondence, 1857–1903. Letter, C. R. Darwin to F. E. Abbot (20 December 1875), in folder Darwin, Charles and W. E. Darwin (son), 1871–1883, box 44. HUG 1101)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_167.xml">Harvard Archives</repository>
+                    <collection>F. E. Abbot</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1245.xml">Darwin, W. E.</persName>
+                <placeName>Bassett</placeName>
+                <date when="1875-12-20">20 Dec 1875</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_7.xml">Abbot, F. E.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends some money on behalf of himself and his father to help with FEA’s problems with the <hi rend="italic">Index</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin family</term>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="it" ref="#">Index</term>
+                <term type="people" ref="#subject_1">Darwin, C. R.</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Bassett | Southampton</placeName>
+                    <date>Dec 20. 1875</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>My Father M<hi rend="superscript">r</hi> Charles Darwin and myself have read the Index almost from the commencement with great interest and have sympathized deeply with you, in your noble &amp; determined struggle with the difficulties in your way.<ref target="#foot.f1"/></p>
+<p>We wish you to be so good as to make use of the enclosed sum in any way you may think best for the advancement of your undertaking.<ref target="#foot.f2"/></p>
+<p>Please to consider this as a private letter as I have no authority otherwise from my Father.<ref target="#foot.f3"/></p>
+<p>Should you think it best to make it a subscription to the Index stock, please put it in my name alone.</p>
+<p>Your paper is a weekly pleasure and stimulus to myself and to some of my friends who take it in.</p>
+<p>with much respect | Believe me | yours faithfully | W. E. Darwin <lb resp="#mjhawkins"/></p>
+<p rend="left">F E Abbot Esq</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Abbot was editor of the <hi rend="italic">Index</hi>, an American periodical that supported free religious thought.</note>
+            <note xml:id="foot.f2">William had suggested that he and CD send a donation to Abbot (see <ref target="./DCP-LETT-10297F.xml" resp="#mjhawkins">letter from W. E. Darwin, [15? December 1875]</ref>). In January 1876, Abbot expressed his thanks for the sum of £20 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 24, <ref target="./DCP-LETT-10362G.xml" resp="#mjhawkins">letter from F. E. Abbot to W. E. Darwin, 19 January 1876</ref>).</note>
+            <note xml:id="foot.f3">Abbot had previously wanted to publish extracts from CD’s letters that showed his support for the <hi rend="italic">Index</hi>, even though CD expressed reservations about having his views publicised in this way (see, for example, <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 19, <ref target="./DCP-LETT-7924.xml" resp="#mjhawkins">letter to F. E. Abbot, 6 September [1871]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5677">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Samuel Wilson to Ferdinand von Mueller<ref target="#foot.f1"/>   12 November 1867</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">11105</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5677 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5677.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5677.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p † (by CD)</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 181: 129</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>181: 129</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_5193.xml">Wilson, Samuel</persName>
+                <placeName>Longerenong, Wimmera</placeName>
+                <date when="1867-11-12">12 Nov 1867</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3441.xml">Mueller, F. J. H. von</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends some answers [missing] to CD’s queries on expression.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">expression, emotion</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">social behaviour</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Longerenong | Wimmera</placeName>
+                    <date>Nov 12<hi rend="superscript">th</hi>. 1867.</date>
+                    <salute>My Dear Dr. Mueller</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I send you answers to a few of the questions sent by Mr Darwin.<ref target="#foot.f2"/> I could not answer the others with sufficient accuracy. I have endeavoured to get the missionaries in this neighbourhood to answer them but have not yet received their answers—<ref target="#foot.f3"/> As soon as I do so I shall forward them</p>
+<p>And remain | Yours Truly | Sam<hi rend="superscript">l</hi> Wilson</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note>0.1 Longerenong | Wimmera] <hi rend="italic">underl blue crayon</hi></note>
+                <note>0.1 Longerenong … 1867. 0.2] <hi rend="italic">after opening bracket, blue crayon</hi></note>
+                <note><hi rend="italic">Top of letter</hi>: ‘Please return’ <hi rend="italic">blue crayon</hi></note>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_5193.xml" resp="#mjhawkins">Samuel Wilson</ref> and <ref target="../nameregs/nameregs_3441.xml" resp="#mjhawkins">Ferdinand von Mueller</ref> are both cited in <hi rend="italic">Expression.</hi></note>
+            <note xml:id="foot.f2">CD had sent a handwritten copy of his queries about expression with his <ref target="./DCP-LETT-5424.xml" resp="#automat" cert="medium">letter to Mueller of 28 February [1867]</ref>, asking Mueller to forward it to someone capable of answering the questions from direct observation of Aboriginal peoples. The enclosure has not been found.</note>
+            <note xml:id="foot.f3">The missionaries have not been identified. However, the missionaries <ref target="../nameregs/nameregs_2049.xml" resp="#mjhawkins">Friedrich August Hagenauer</ref> and <ref target="../nameregs/nameregs_7161.xml" resp="#mjhawkins">John Bulmer</ref>, both, like Wilson, working in Victoria, Australia, are cited in <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref>, pp. 19–20.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

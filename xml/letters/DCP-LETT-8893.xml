@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8893">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Isidoro Dell’Oro   2 May 1873</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3818</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8893 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8893.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8893.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">University of Toronto, Thomas Fisher Rare Book Library (MSS gen 02.014)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_420.xml">Toronto</repository>
+                    <collection>Thomas Fisher Rare Book Library</collection>
+                    <idno>MSS gen 02.014</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1873-05-02">2 May 1873</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_5507.xml">Dell’Oro, Isidoro</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks correspondent for sending him an account of silkworms.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">silkworms</term>
+                <term type="deprecated_people_class" ref="#subject_5507">Dell’Oro, Isidoro</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <date>May 2. 1873</date>
+                    <salute>Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very much obliged to you for your kindness in having sent me the account of the silk-worms, which I have read with great interest.<ref target="#foot.f1"/></p>
+<p>I quite agree with your remarks on the benefit derived from a change of conditions.<ref target="#foot.f2"/> You do not state that you require the Gazette to be returned, &amp; I will therefore keep it unless I hear to the contrary—<ref target="#foot.f3"/></p>
+<p>Dear Sir | yours faithfully &amp; obliged | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD refers to <ref target="../nameregs/nameregs_5507.xml" resp="#mjhawkins">Isidoro Dell’Oro’s</ref> ‘Sericulture, and silk in Japan and in Europe’, <hi rend="italic">London Gazette</hi>, 17 January 1873, pp. 169–75.</note>
+            <note xml:id="foot.f2">Dell’Oro believed that a change of locality, climate, and rearing practices would help save the eggs from the superior-quality yellow silk cocoons found in Italy, which were subject to a disease (pebrine) that caused larval atrophy; to test his views, he took yellow cocoons from Italy to Japan (<hi rend="italic">London Gazette</hi>, 17 January 1873, pp. 172–3.</note>
+            <note xml:id="foot.f3">There is no copy of the article from the <hi rend="italic">London Gazette</hi> (see n. 1, above) in the Darwin Archive–CUL.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8602">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Murray   6 November [1872]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9598</idno>
+            
+            
+            
+            
+            <date when="2013">2013</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8602 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8602.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8602.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="20">20</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 428</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 428</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+                <placeName>London, Albemarle St, 50</placeName>
+                <date when="1872-11-06">6 Nov [1872]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Is convinced that 2000 more copies [of <hi rend="italic">Expression</hi>] must be printed without delay in order to meet demand. He therefore asks CD to send his corrections to the printer at once.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Expression</term>
+                <term type="people" ref="#subject_1053">printer</term>
+                <term type="scientific_terms" ref="#">expression, emotion</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">50, Albemarle S<hi rend="superscript">t</hi>. | W.</hi></placeName>
+                    <date>Nov 6</date>
+                    <salute>My Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I feel convinced that such a reception is awaiting your new book, that the number we have printed will not suffice—&amp; that I must throw off at once 2000 more copies.<ref target="#foot.f2"/> It is of great consequence to the interests of the work that the demand sh<hi rend="superscript">d</hi> be met without delay. I write therefore to beg you to send your corrections at once, to Clowes<ref target="#foot.f3"/>—or at least that you w<hi rend="superscript">d</hi> send him all those sheets wch do not require correction</p>
+<p>My sale—as you probably know is fixed for Friday &amp; your Book is one of the most attractive dishes in my Literary Banquet—<ref target="#foot.f4"/></p>
+<p>I am | My Dear Sir | Yours very sincerely | John Murray <lb resp="#mjhawkins"/></p>
+<p rend="left">Chas Darwin Esq</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-8607A.xml" resp="#mjhawkins">letter to John Murray, 7 November [1872]</ref>.</note>
+            <note xml:id="foot.f2">Murray had originally planned to print 5000 copies of <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref> (see <ref target="./DCP-LETT-8467.xml" resp="#mjhawkins">letter from R. F. Cooke to G. H. Darwin, 13 August 1872</ref>). According to <ref target="../bibliographies/bibl_2661.xml" resp="#mjhawkins">Freeman 1977</ref>, 7000 were published on 26 November 1872, but two different issues of the text are detectable.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_979.xml" resp="#mjhawkins">William Clowes &amp; Sons</ref> were Murray’s printers.</note>
+            <note xml:id="foot.f4">Murray’s trade sale took place on Friday 8 November 1872 (<ref target="./DCP-LETT-8555.xml" resp="#mjhawkins">letter from R. F. Cooke, 11 October 1872</ref>). On publishers’ customary November ‘sale dinners’, see <ref target="../bibliographies/bibl_5765.xml" resp="#mjhawkins">Murray 1908–9</ref>, p. 540.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

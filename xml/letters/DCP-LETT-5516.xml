@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5516">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Thomas Rivers   26 April 1867</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10538</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5516 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5516.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5516.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 176: 170</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>176: 170</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4019.xml">Rivers, Thomas</persName>
+                <placeName>Sawbridgeworth</placeName>
+                <date when="1867-04-26">26 Apr 1867</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends a root of a wild oat-grass from California and the root of a variety of barley that came from it. Several varieties of barley, all differing from English varieties, came up in the same bed of oat-grass. "The transmutation of a genus seems almost incredible" but TR has seen so many changes he has ceased to doubt strongly.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">barley</term>
+                <term type="plants" ref="#">oat-grass</term>
+                <term type="places" ref="#">California</term>
+                <term type="places" ref="#">England</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">exclamations</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">transmutation</term>
+                <term type="scientific_terms" ref="#">variation</term>
+                <term type="scientific_terms" ref="#">varieties</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Bonks Hill, Sawbridgeworth.</hi></placeName>
+                    <date>April 26/67</date>
+                    <salute>My Dear Sir/</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Pardon me for giving you trouble</p>
+<p>Enclosed I send a root of a sort of wild oat grass, Bromus?, from the limestone hills of California   this is N<hi rend="superscript">o</hi>. 1—said to grow on all the hills in N.W. America. N<hi rend="superscript">o</hi>. 2 is a root of a very peculiar &amp; distinct variety of barley which came from N<hi rend="superscript">o</hi>. 1, at which you will I have no doubt shake your head. The most curious fact is that several roots of barley all differing from our English barley came up in the same bed of oat grass.<ref target="#foot.f1"/> The transmutation of a genus seems almost incredible but I have seen so many changes that I have ceased to doubt strongly. I hope to be able to show you both barley &amp; wheat from the root of grass enclosed N<hi rend="superscript">o</hi>. 1**</p>
+<p>again apologising for troubling you with the rather wild ideas of my old age | I am My D<hi rend="superscript">r</hi> Sir | Y<hi rend="superscript">rs</hi>. ever truly | Tho<hi rend="superscript">s</hi>. Rivers</p>
+<p>**This kind of grass has been domesticated some ten years or so not here but in New South Wales where it was taken by a gold digger from California &amp; brought thence by my brother<ref target="#foot.f2"/> who was much struck with its vigour in that dry climate</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">For a similar letter from Rivers, see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 14, <ref target="./DCP-LETT-5242.xml" resp="#mjhawkins">letter from Thomas Rivers, 14 October 1866</ref>.</note>
+            <note xml:id="foot.f2">Rivers’s brother has not been identified.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

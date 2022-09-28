@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7412">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Henry Holland   [16 December 1871]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14366</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7412 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7412.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7412.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 166: 252</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>166: 252</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2337.xml">Holland, Henry</persName>
+                <placeName>unstated</placeName>
+                <date when="1871-12-16">[16 Dec 1871]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends CD a ptarmigan.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">ptarmigan</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>My dear Charles,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Returning home, I find some Ptarmigan &amp; two pairs of admirable Icelandic Stockings, just arrived from Iceland, presents from my friends there.<ref target="#foot.f2"/> I send you a Ptarmigan, which after due inspection, you will perhaps commit to Erasmus’s Cook,<ref target="#foot.f3"/> to be dressed for our Luncheon on Monday</p>
+<p>Ever your’s affy | H Holland <lb resp="#mjhawkins"/></p>
+<p rend="left">Saturday aftn</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter and the <ref target="./DCP-LETT-8109.xml" resp="#mjhawkins">letter to J. D. Hooker, [18 December 1871]</ref>.</note>
+            <note xml:id="foot.f2">Holland visited Iceland in August 1871 (<ref target="../bibliographies/bibl_3738.xml" resp="#mjhawkins">Holland 1872</ref>, p. 30). The ptarmigan native to Iceland is <hi rend="italic">Lagopus muta</hi>; in England it was also known as the white grouse.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_1211.xml" resp="#mjhawkins">Erasmus Alvey Darwin’s</ref> cook was <ref target="../nameregs/nameregs_6793.xml" resp="#mjhawkins">Elizabeth Squire</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

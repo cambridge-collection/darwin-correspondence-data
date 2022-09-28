@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4562">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To George Bentham   12 July [1864]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">12124</idno>
+            
+            
+            
+            
+            <date when="2001">2001</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4562 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4562.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4562.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="12">12</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Royal Botanic Gardens, Kew (Bentham Correspondence, Vol. 3, Daintree–Dyer, 1830–1884, GEB/1/3: f. 708)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_213.xml">Kew</repository>
+                    <collection>Bentham, George letters</collection>
+                    <idno>GEB/1/3: f. 708</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1864-07-12">12 July [1864]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_398.xml">Bentham, George</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks GB for specimens [of <hi rend="italic">Aegiphila</hi>] and his information.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Aegiphila</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>July 12<hi rend="superscript">th</hi>.</date>
+                    <salute>My dear Bentham</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I write merely to thank you very sincerely for the specimens which I have long wished to examine &amp; for your information wh. will be very useful to me.<ref target="#foot.f2"/></p>
+<p>Believe me | yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to the specimens sent with the <ref target="./DCP-LETT-4556.xml" resp="#mjhawkins">letter from George Bentham, 10 July 1864</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-4556.xml" resp="#mjhawkins">letter from George Bentham, 10 July 1864</ref> and n. 1.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

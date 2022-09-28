@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-4718" status="released">
+    <persName>
+        <forename>Harry</forename>
+        <forename>Stephen</forename>
+        <choice>
+            <seg><surname notBefore="1809" notAfter="1874">Thompson</surname></seg>
+            <seg><surname notBefore="1874" notAfter="1874">Meysey-Thompson</surname></seg>
+        </choice>
+    </persName>
+    <persName type="additional" subtype="title">1st baronet</persName>
+    <note type="dates"><date>1809–74</date></note>
+    <sex value="M"/>
+    <note type="biography">
+        <p>Agriculturalist. BA, Trinity College, Cambridge, 1832. A founder of the Royal Agricultural Society, 1838. Created baronet and assumed the surname Meysey-Thompson in 1874.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref>.</p>
+    </note>
+    <note type="volume">1</note>
+    <note type="keywords">
+        <term type="societal">Trinity College, Cambridge</term>
+        <term type="societal">Royal Agricultural Society</term>
+        <term type="place">Cambridge</term>
+        <term type="a">Agriculturalist</term>
+    </note>
+</person>

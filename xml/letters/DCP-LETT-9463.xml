@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9463">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From J. V. Carus   22 May 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8723</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9463 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9463.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9463.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 161: 95</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>161: 95</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_849.xml">Carus, J. V.</persName>
+                <placeName>Edinburgh</placeName>
+                <date when="1874-05-22">22 May 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends Edinburgh address so he may be sent sheets of <hi rend="italic">Descent</hi> [2d English, for 3d German ed.].</p> 
+            <p>Has a large class for his lectures.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="places" ref="#">Edinburgh</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">sexual selection</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>53, George Street | Edinburgh,</placeName>
+                    <date>May 22<hi rend="superscript">d</hi> | 1874.</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I write only a line to-day to send you my address in Edinburgh, that you may be able to send me sheets of the Descent as soon as some of them are ready. My publisher has no copies left and wants me to begin as soon as possible<ref target="#foot.f1"/></p>
+<p>I have again a very large class, even larger than last year, which I didn’t expect.<ref target="#foot.f2"/> Last year I was a new man and the novelty may have “drawn”. So I am the more happy about the large number of students, especially as there are not a few of my old pupils amongst them.</p>
+<p>Hoping that your health does not suffer too much in this wretched weather I am | Ever yours truly. | J. Victor Carus</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Carus was translating the second edition of <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> (Carus trans. 1875a) into German (see <ref target="./DCP-LETT-9252.xml" resp="#mjhawkins">letter to J. V. Carus, 21 January 1874</ref>). It was published by <ref target="../nameregs/nameregs_4246.xml" resp="#mjhawkins">E. Schweizerbart’sche Verlagsbuchhandlung</ref>.</note>
+            <note xml:id="foot.f2">Carus lectured on zoology at <ref target="../nameregs/nameregs_1454.xml" resp="#mjhawkins">Edinburgh University</ref> in the summers of 1873 and 1874; he was standing in for <ref target="../nameregs/nameregs_4730.xml" resp="#mjhawkins">Charles Wyville Thomson</ref>, who was on the HMS <hi rend="italic">Challenger</hi> expedition (<ref target="../bibliographies/bibl_5820.xml" resp="#mjhawkins"><hi rend="italic">NDB</hi></ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6838">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Lubbock   20 July [1869]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6866</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6838 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6838.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6838.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 170: 74</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>170: 74</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3026.xml">Lubbock, John</persName>
+                <placeName>London, Lombard St, 15</placeName>
+                <date when="1869-07-20">20 July [1869]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Has been asked by Henry Powell [new vicar of Down] for help to build a house at Down; asks for CD’s advice.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_3839">Powell, Henry</term>
+                <term type="people" ref="#">vicar of Down, new</term>
+                <term type="social" ref="#">Other people</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">15, Lombard Street, E.C.</hi></placeName>
+                    <date>20 July</date>
+                    <salute>Dear M<hi rend="superscript">r</hi>. Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>M<hi rend="superscript">r</hi> Powell has asked me to subscribe to build him a house at Down &amp; I feel rather in a difficulty.<ref target="#foot.f2"/></p>
+<p>It seems that about £1700 is required. The Ecclesiastical Commissioner would give £700, he thinks he could get £290 from the Queen Anne’s Bounty Fund, £150 from a building society, &amp; his own friends would do something.<ref target="#foot.f3"/></p>
+<p>What do you think about it?</p>
+<p>Believe me | yours most sincerely | John Lubbock <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">C Darwin Esq | &amp;c &amp;c &amp;c</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-6851.xml" resp="#mjhawkins">letter to John Lubbock, 3 August 1869</ref>.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_3839.xml" resp="#mjhawkins">Henry Powell</ref> became vicar of Down sometime earlier in the year. <ref target="../nameregs/nameregs_2502.xml" resp="#mjhawkins">John Brodie Innes</ref>, the former vicar of Down, had encouraged the curate, <ref target="../nameregs/nameregs_4042.xml" resp="#mjhawkins">John Warburton Robinson</ref>, to resign in December 1868 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 16, <ref target="./DCP-LETT-6492.xml" resp="#mjhawkins">letter from J. B. Innes, 4 December 1868</ref>).</note>
+            <note xml:id="foot.f3">The Ecclesiastical Commissioners administered church revenues; a common fund instituted in 1850 gave grants for new parsonages. Queen Anne’s Bounty was a fund that loaned money for building and mortgages (<ref target="../bibliographies/bibl_1399.xml" resp="#mjhawkins"><hi rend="italic">Church dictionary</hi></ref>). The lack of a suitable parsonage was cited by <ref target="../nameregs/nameregs_2502.xml" resp="#mjhawkins">John Brodie Innes</ref> as the principal cause for failing to find or retain suitable candidates for the curacy of Down (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 16, <ref target="./DCP-LETT-6492.xml" resp="#mjhawkins">letter from J. B. Innes, 4 December 1868</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

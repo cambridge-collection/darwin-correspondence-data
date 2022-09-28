@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6135">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To H. W. Bates   22 April [1868]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1528</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6135 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6135.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6135.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 143: 70</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl>Stecher (1969): 112</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Cleveland Health Sciences Library (Robert M. Stecher collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_93.xml">Cleveland</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1868-04-22">22 Apr [1868]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_317.xml">Bates, H. W.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks HWB for answering questions.</p>
+            <p>The MS on Lepidoptera is almost finished and he is glad HWB will read it; he is fearful of mistakes, not being familiar with the subject.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Lepidoptera</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">negative self-criticism</term>
+                <term type="scientific_terms" ref="#">physical ‘external’ characters</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">sex differences</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Ap. 22<hi rend="superscript">d</hi></date>
+                    <salute>My dear Bates.</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Hearty thanks.— you are the man to answer a question fully &amp; clearly.— I return the drawing which &amp; to whole case is capital for me.—<ref target="#foot.f2"/></p>
+<p>I have nearly finished my M.S. on Lepidoptera &amp; will then have it copied by a man who writes an excellent hand.—</p>
+<p>Your most kind offer of reading it has made all the difference to me: if I had not known this I sh<hi rend="superscript">d</hi> have been tormented the whole time with doubts.<ref target="#foot.f3"/> I have tried to be cautious &amp; to avoid blunders, but when one writes on a subject, with which one is not familiar, mistakes almost inevitably occur.—</p>
+<p>Yours very sincerely | C. Darwin</p>
+<p>Two-thirds of the M.S. relates to facts communicated by you to me, or published by you.—</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-6132.xml" resp="#mjhawkins">letter from H. W. Bates, 20 April 1868</ref>.</note>
+            <note xml:id="foot.f2">CD refers to a drawing of a conspicuous caterpillar. See <ref target="./DCP-LETT-6132.xml" resp="#mjhawkins">letter from H. W. Bates, 20 April 1868</ref> and n. 1.</note>
+            <note xml:id="foot.f3">Bates probably offered to read CD’s manuscript on Lepidoptera when they met in London (see <ref target="./DCP-LETT-6022.xml" resp="#automat">letter to H. W. Bates 18 March [1868]</ref> and n. 4). No manuscript on Lepidoptera has been found in the Darwin Archive–CUL, but in a <ref target="./DCP-LETT-7082.xml" resp="#mjhawkins" cert="high">letter of 17 January 1870</ref> (<ref target="../bibliographies/bibl_1163.xml" resp="#mjhawkins"><hi rend="italic">Calendar</hi></ref> no. 7082), Bates told CD he was returning a corrected manuscript of the entomological section of <hi rend="italic">Descent.</hi></note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

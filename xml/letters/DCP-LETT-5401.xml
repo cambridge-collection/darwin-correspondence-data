@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5401">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To A. D. Bartlett   16 February [1868]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">5517</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5401 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5401.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5401.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">5pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 143: 35</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">ML</hi> 2: 57</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Wellcome Collection (MS.7781/1–32 item 7)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_437.xml">Wellcome</repository>
+                    <collection>MS.7781/</collection>
+                    <idno>7</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Queen Anne St, 6 Down letterhead</placeName>
+                <date when="1868-02-16">16 Feb [1868]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_300.xml">Bartlett, A. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks ADB to perform experiment on colour perception in bower-bird.</p>
+            <p>Asks for rabbit specimens.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">bower-bird</term>
+                <term type="animals" ref="#">rabbit</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">perception and sensation</term>
+                <term type="scientific_terms" ref="#">physical ‘external’ characters</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Feb. 16<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I want to beg two favours of you.— I wish to ascertain whether the Bower-Bird discriminates colours. Will you have all the coloured worsted removed from cage &amp; the bower, &amp; then put, all in a row, at same distance from bower, the enclosed coloured worsted, &amp; mark whether the Bird <hi rend="underline">at first</hi> makes any selection.<ref target="#foot.f2"/> Each packet contains equal quantity; the packets had better be separated &amp; each thread put separate, but close together; perhaps it would be fairest, if the several colours were put alternately,—one thread of bright scarlet, one thread of brown, &amp;c &amp;c. There are six colours.— Will you have kindness to tell me whether the birds prefer one colour to another?</p>
+<p>Secondly, I very much want several heads of the fancy &amp; long-domesticated rabbits to measure the capacity of skull. I want only <hi rend="underline">small</hi> kinds; such as Himalaya, small Angora, Silver Grey or any small-sized rabbit which has long been domesticated. The Silver-Grey from <hi rend="underline">warrens</hi> would be of little use. The animals must be adult. &amp; the smaller the breed the better.<ref target="#foot.f3"/></p>
+<p>Now when any one dies would you send me the carcase <hi rend="underline">named</hi> ; if the skin is of any value it might be skinned; but it would be rather better with skin &amp; I could make present to any keeper to whom the skin is perquisite.</p>
+<p>This would be <hi rend="underline">great</hi> assistance to me, if you would have kindness thus to aid me.</p>
+<p>My dear Sir | Yours sincerely | Ch. Darwin</p>
+<p>Address for dead Rabbits <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p>Ch. Darwin Esq<hi rend="superscript">re</hi> care of Down Postman Bromley | Kent | per Rail</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">coloured] <hi rend="italic">interl</hi> </note>
+                <note xml:id="tnote.n2">all] <hi rend="italic">interl after del</hi> ‘in separate packets’</note>
+                <note xml:id="tnote.n3">packets] <hi rend="italic">above del</hi> ‘bits’</note>
+                <note xml:id="tnote.n4">several] <hi rend="italic">above del</hi> ‘the’</note>
+                <note xml:id="tnote.n5">&amp; the … better.] <hi rend="italic">added</hi> </note>
+                <note xml:id="tnote.n6"> <hi rend="italic">named</hi>] <hi rend="italic">interl</hi> </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-5720.xml" resp="#mjhawkins">letter from A. D. Bartlett, 9 December 1867</ref> (<hi rend="italic">Correspondence</hi> vol. 15, and by its connection with CD’s research in 1868 on the perception of colour in birds (see n. 2, below).</note>
+            <note xml:id="foot.f2">Though Bartlett wrote that he would try the experiment with the bowerbird (<hi rend="italic">Chlamydera</hi>) in his letter of 9 December 1867, no further correspondence on the subject has been found, and CD does not provide results of the experiment in his discussion of the bowerbird’s ‘taste for the beautiful’ in <hi rend="italic">Descent</hi> 2: 112–13. See also <hi rend="italic">Descent</hi> 1: 63, and 2: 69–71. CD’s ideas regarding beauty, sexual plumage of birds, and natural selection, had recently been challenged by <ref target="../nameregs/nameregs_802.xml" resp="#mjhawkins">George Douglas Campbell</ref>, the duke of Argyll (see <hi rend="italic">Correspondence</hi> vols. 14 and 15). For more on CD’s interest in colour discrimination in birds, see <hi rend="italic">Correspondence</hi> vol. 16, <ref target="./DCP-LETT-5942.xml" resp="#automat">letter to J. J. Weir, 27 February [1868]</ref>.</note>
+            <note xml:id="foot.f3">CD had attended to the osteology of different breeds of rabbits from 1855 to 1865, particularly in 1856 and 1861 when he had skeletonised different rabbits (see, for example, <hi rend="italic">Correspondence</hi> vol. 6, <ref target="./DCP-LETT-1895.xml" resp="#mjhawkins">letter to W. D. Fox, 8 [June 1856]</ref>, and <hi rend="italic">Correspondence</hi> vol. 9, <ref target="./DCP-LETT-3095.xml" resp="#mjhawkins">letter to W. B. Tegetmeier, 22 March [1861]</ref>); he usually asked that the skull be preserved when the rabbit was killed. See <hi rend="italic">Variation</hi> 1: 124–9 for CD’s discussion of the brain capacity of domestic rabbits, and the table in <hi rend="italic">ibid.</hi>, p. 127 for a comparison of skull length and capacity in wild, feral (Porto Santo), and domestic rabbits, including the Himalayan, Angora, and a silver-grey from a warren. CD wanted small specimens of domestic rabbits for comparison with wild rabbits because the former tended to be larger. Two years earlier, CD had asked Bartlett for the body of one of his Porto Santo rabbits, with the skull undamaged (<hi rend="italic">Correspondence</hi> vol. 13, <ref target="./DCP-LETT-4758.xml" resp="#automat">letter to A. D. Bartlett, 30 January [1865]</ref>). There is no further extant correspondence on rabbit skulls; however, CD included remarks about the modification of the skull and brain size of rabbits in the course of domestication in <hi rend="italic">Descent</hi> 1: 147–8.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

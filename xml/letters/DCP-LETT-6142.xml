@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6142">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Gerolamo Boccardo<choice><seg type="original"><ref target="#foot.f1"/></seg><seg type="translation"><ref target="#foot_trans.f1"/></seg></choice>   23 April 1868</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6931</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6142 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6142.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6142.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+            <biblScope unit="vol" n="30">30-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp (Italian)</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 160: 233</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>160: 233</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_505.xml">Boccardo, Gerolamo</persName>
+                <placeName>R. Istituto Tecnico di Genova</placeName>
+                <date when="1868-04-23">23 Apr 1868</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks CD for gift of <hi rend="italic">Variation</hi>.</p>  
+<p>GB sent copies of his <hi rend="italic">Fisica del globo</hi> [1868] to Lyell and the presidents of British scientific societies but has received no acknowledgment; asks CD to check that they received the work. Could CD arrange for a notice of the book to appear in England?</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Fisica del globo</term>
+                <term type="it" ref="#">Variation</term>
+                <term type="people" ref="#subject_3051">Lyell, Charles</term>
+                <term type="people" ref="#">presidents of British scientific societies</term>
+                <term type="places" ref="#">England</term>
+                <term type="rx" ref="#">Boccardo, Gerolamo 1868</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">variation</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00971_files/8/0_0.jpg" width="3628px" height="5997px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00971_files/11/1_1.jpg" width="3628px" height="5997px"/>
+        <surface n="233:1r" xml:id="i971">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00971.jpg" width="3628px" height="5997px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00971_files/8/0_0.jpg" width="3628px" height="5997px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00971.dzi" width="3628px" height="5997px"/>
+        </surface>
+        <surface n="233:1v" xml:id="i972">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00972.jpg" width="3628px" height="5997px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00972_files/8/0_0.jpg" width="3628px" height="5997px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00972.dzi" width="3628px" height="5997px"/>
+        </surface>
+        <surface n="233:2r" xml:id="i973">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00973.jpg" width="3628px" height="5997px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00973_files/8/0_0.jpg" width="3628px" height="5997px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00973.dzi" width="3628px" height="5997px"/>
+        </surface>
+        <surface n="233:2v" xml:id="i974">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00974.jpg" width="3628px" height="5997px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00974_files/8/0_0.jpg" width="3628px" height="5997px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00974.dzi" width="3628px" height="5997px"/>
+        </surface>
+    </facsimile>
+    <text>
+    <body><div><!--Transcription has not been cleared for release--></div></body>
+    </text>
+</TEI>

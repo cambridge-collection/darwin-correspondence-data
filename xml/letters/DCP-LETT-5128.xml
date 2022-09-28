@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5128">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From W. E. Darwin   20 June [1866]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7838</idno>
+            
+            
+            
+            
+            <date when="2004">2004</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5128 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5128.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5128.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="14">14</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 109: A77</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>109: A77</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1245.xml">Darwin, W. E.</persName>
+                <placeName>Southampton</placeName>
+                <date when="1866-06-20">20 June [1866]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thinks <hi rend="italic">Rhamnus</hi> is a case of a dimorphic plant that has become dioecious.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Rhamnus</term>
+                <term type="scientific_terms" ref="#">dimorphism</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">monoecious or dioecious plants</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Southampton</placeName>
+                    <date>June 20</date>
+                    <salute>My Dear Father</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I enclose you some orders for dividends for your signature   please forward them to Uncle Ras,<ref target="#foot.f2"/> and ask him to sign &amp; post them.</p>
+<p>I cannot help thinking the Rhamnus is a case of dimorphic becoming diœcious;<ref target="#foot.f3"/> I will tell more in a day or two but I have not time today, &amp; George &amp; Edmund come here tomorrow.<ref target="#foot.f4"/> I thought it must be as you say at first, but I found that the pollen of long pistilled male was the largest, which seemed odd if that was <hi rend="underline">less</hi> of a male flower than the short pistilled;<ref target="#foot.f5"/> so I examined the female flowers, &amp; I think I have found two sizes among them corresponding to the two males flowers.<ref target="#foot.f6"/> Mem. I am prob<hi rend="superscript">ly</hi>. wrong; will write in a day or two</p>
+<p>your affection— | W. E. Darwin</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note>1.1 I enclose … post them 1.2] <hi rend="italic">crossed blue pencil</hi></note>
+                <note>2.3 I found … largest 2.4] <hi rend="italic">underl red pencil</hi></note>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-5125.xml" resp="#mjhawkins">letter to W. E. Darwin, 19 [June 1866]</ref>.</note>
+            <note xml:id="foot.f2">The reference is to <ref target="../nameregs/nameregs_1211.xml" resp="#mjhawkins">Erasmus Alvey Darwin</ref>.</note>
+            <note xml:id="foot.f3">In his <ref target="" resp="#automat">letter to William of 19 [June 1866]</ref>, CD stated that he thought <hi rend="italic">Rhamnus cathartica</hi> had once existed in hermaphrodite and female forms, and that he saw no evidence that it had ever been dimorphic.</note>
+            <note xml:id="foot.f4">William refers to his brother <ref target="../nameregs/nameregs_1224.xml" resp="#mjhawkins">George Howard Darwin</ref> and their cousin <ref target="../nameregs/nameregs_2812.xml" resp="#mjhawkins">Edmund Langton</ref>.</note>
+            <note xml:id="foot.f5">In his research on <hi rend="italic">Primula</hi>, CD had observed that pollen-grains from short-styled forms were consistently larger than those from long-styled forms (see <ref target="../bibliographies/bibl_2048.xml" resp="#mjhawkins">‘Dimorphic condition in <hi rend="italic">Primula</hi>’</ref>, pp. 78–9; <ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 2: 45–7; see also <ref target="../bibliographies/bibl_7749.xml" resp="#mjhawkins">‘Three forms of <hi rend="italic">Lythrum salicaria</hi>’</ref>, pp. 178, 190–1; <ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 2: 113, 123, 125). In <ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref>, p. 294, he noted William’s ‘very remarkable’ observation that larger pollen-grains were produced in male flowers with longer, rather than shorter, pistils, in <hi rend="italic">Rhamnus cathartica.</hi> CD added that heterostyled plants tended to produce larger pollen-grains in flowers with shorter pistils, but that <hi rend="italic">R. cathartica</hi> showed no evidence of having ever been heterostyled.</note>
+            <note xml:id="foot.f6">William’s notes on <hi rend="italic">Rhamnus cathartica</hi> are in DAR 186: 43 and contain sketches of the four flower forms. In <ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref>, pp. 294–5, CD described <hi rend="italic">Rhamnus cathartica</hi> as dioecious, with each sex having two ‘sub-forms’. See also <ref target="./DCP-LETT-5109.xml" resp="#mjhawkins">letter from W. E. Darwin, [18 June 1866]</ref> and n. 2, and <ref target="./DCP-LETT-5125.xml" resp="#mjhawkins">letter to W. E. Darwin, 19 [June 1866]</ref> and n. 4.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

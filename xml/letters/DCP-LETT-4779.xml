@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4779">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. B. Tegetmeier   6 [March 1865]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1360</idno>
+            
+            
+            
+            
+            <date when="2002">2002</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4779 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4779.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4779.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="13">13</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="endorsement" subtype="letter">March 6/65</note>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Archives of the New York Botanical Garden (Charles Finney Cox Collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_302.xml">NYBG</repository>
+                    <collection>Charles Finney Cox</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1865-03-06">6 [Mar 1865]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4682.xml">Tegetmeier, W. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks for return of page about pigeon crossing.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">pigeon</term>
+                <term type="scientific_terms" ref="#">crossing</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">instructions</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down</placeName>
+                    <date>6<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I forgot to ask you to return, if you can lay your hands on it, with other M.S.,<ref target="#foot.f1"/> a page about crossing Pigeons.—<ref target="#foot.f2"/></p>
+<p>Yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">In his <ref target="./DCP-LETT-4776.xml" resp="#automat" cert="medium">letter to Tegetmeier of 27 February [1865]</ref>, CD asked for the return of a manuscript of a draft chapter on domestic fowls written for inclusion in <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> (see <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 225–75). CD had sent the manuscript for Tegetmeier’s comments in June 1861 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 9, letters to W. B. Tegetmeier, <ref target="./DCP-LETT-3095.xml" resp="#mjhawkins">22 March [1861]</ref> and <ref target="./DCP-LETT-4533.xml" resp="#mjhawkins">14 June [1861]</ref>).</note>
+            <note xml:id="foot.f2">CD probably refers to the manuscript sent with his <ref target="./DCP-LETT-3877.xml" resp="#automat" cert="medium">letter to Tegetmeier of 27 [December 1862]</ref> (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 10). The manuscript has not been found, but it was evidently a list of the crosses between different pigeon varieties carried out by CD and others; CD had also asked Tegetmeier to return it in 1863 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 11, <ref target="./DCP-LETT-3998.xml" resp="#mjhawkins">letter to W. B. Tegetmeier, 19 February [1863]</ref>). The list is probably that referred to in <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 192 n. For a discussion of CD’s pigeon experiments see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 10, <ref target="./DCP-LETT-3877.xml" resp="#mjhawkins">letter to W. B. Tegetmeier, 27 [December 1862]</ref> and n. 4.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

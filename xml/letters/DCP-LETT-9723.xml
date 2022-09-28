@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9723">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From J. V. Carus   18 November 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8726</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9723 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9723.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9723.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 161: 98</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>161: 98</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_849.xml">Carus, J. V.</persName>
+                <placeName>Leipzig</placeName>
+                <date when="1874-11-18">18 Nov 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>An omission in a bibliographical note in <hi rend="italic">Descent</hi> [2d English ed.].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Descent</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">sexual selection</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Leipzig</placeName>
+                    <date>Novbr 18<hi rend="superscript">th</hi>. 1874.</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am sorry, I am again obliged to trouble you about a mistake, or rather an omission.<ref target="#foot.f1"/> On p. 214 you quote a paper of H. Müller; but the Periodical referred to is not to be known from the quotation you give. “Verh. d. V.” can only mean “Verhandlungen des Vereins”, “Transactions of the Society.” The same occurs again on p 228 with the addition of an “n”, that is most likely “naturhistorische”.<ref target="#foot.f2"/> Now, there exists such a multitude of Natural History Societies, that no one unacquainted with the litterature could guess what Society is meant. I suppose, the “naturhistorische Verein der preussischen Rheinland” is the one. But I have unfortunately just in this moment no means to ascertain it. I hope to be able to do it when the sheet containing these notes will be in print.<ref target="#foot.f3"/> In the mean time I thought it my duty to point the fact out to you</p>
+<p>Believe me | Ever yours truly, | Prof J. Victor Carus</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Carus was translating <ref target="../bibliographies/bibl_1967.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi> 2d ed.</ref> into German (Carus trans. 1875a). See <ref target="./DCP-LETT-9248.xml" resp="#mjhawkins">letter from J. V. Carus, 19 January 1874</ref>.</note>
+            <note xml:id="foot.f2">In <ref target="../bibliographies/bibl_1967.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi> 2d ed.</ref>, in footnotes to pages 214 and 228, CD had referred to <ref target="../nameregs/nameregs_3069.xml" resp="#mjhawkins">Hermann Müller’s</ref> paper on the application of Darwinian theory to bees (H. Müller 1872). CD had seen this paper only in the form of an offprint (Darwin Pamphlet Collection–CUL), which gave no journal title.</note>
+            <note xml:id="foot.f3">In Carus trans. 1875a, 1: 280 n. and 299 n., Carus confirmed that Müller’s paper was published in <hi rend="italic">Verhandlungen des naturhistorischen Vereines der preussischen Rheinlande und Westphalens</hi> (Transactions of the Natural History Society of Prussian Rhineland and Westphalia).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

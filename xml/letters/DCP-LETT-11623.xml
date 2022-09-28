@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11623">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Francis Darwin   [21 July 1878]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9326</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11623 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11623.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11623.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">6pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 162: 59, DAR 209.8: 151</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>209.8: 151,</idno>
+                </msIdentifier>
+            </msDesc>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>162: 59</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1222.xml">Darwin, Francis</persName>
+                <placeName>Botanisches Institut, Würzburg</placeName>
+                <date when="1878-07-21">[21 July 1878]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Has been investigating nutational movements of climbing plants; comments on the opinions of Julius von Wiesner and Julius Sachs. Remarks on the sleep movements of certain plants and the mechanism of tendril curvature. Is experimenting with <hi rend="italic">Porlieria</hi>.</p> 
+            <p>Has visited K. G. Semper’s laboratory.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">climbing plants</term>
+                <term type="people" ref="#subject_4143">Sachs, Julius von</term>
+                <term type="people" ref="#subject_4291">Semper, K. G.</term>
+                <term type="people" ref="#subject_5122">Wiesner, Julius von</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">movements and habits of plants</term>
+                <term type="scientific_terms" ref="#">plant physiology</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="societal" ref="#">laboratory</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Bot Institut | Würzburg</placeName>
+                    <date>Sunday</date>
+                    <salute>My dear Father,</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>Many thanks for your long letter which is very interesting &amp; told me all I wanted.<ref target="#foot.f2"/> I have been going on a twiners a bit, &amp; I think the movement is certainly worth carefully working at. I believe you are right that nutation goes on in the free tip. I have been tracing it, like this,
+<figure rend="blockCentred width20"> 
+    <graphic url="../images/DCP-LETT-11623-1.svg"/>
+</figure> 
+putting a bell glass with cylindrical sides over the shoot, &amp; tracing the course by Pouters<ref target="#foot.f3"/> dodge of a square edge, the curve is not a simple spiral, but
+<figure rend="blockCentred width75"> 
+    <graphic url="../images/DCP-LETT-11623-2.svg"/>
+</figure>
+something like this, going on the whole spirally up but with distinct backward &amp; downward moves, showing that all sides must be growing; I made a curve on a bell glass of a Cobaea tendril which was nutating &amp; making one circle in an hour &amp; it showed fine modified nutation; when it was at one end of its big circle it made 3 little clear circles each in <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>4</mn></mfrac></math></formula> hr &amp; then swept across in a continuous line to make a big one again.<ref target="#foot.f4"/> I have read Wiesner’s thing &amp; should not have had a glimmer of an idea of what it meant. Sachs says induction is the same as Nachwirkung or after effect.<ref target="#foot.f5"/> As far as I can make out he means that if a straight shoot is exposed to light on one side for a time it will bend to AC, then if the light is removed
+<figure rend="floatRight width20">
+    <graphic url="../images/DCP-LETT-11623-3.svg"/>
+</figure> 
+it will go on curving as AD, then if the light is brought back it will <hi rend="underline">not</hi> curve more like AE but go on in the old direction— Sachs thinks very little of it he says Wiesner writes over again with much parade what is quite well known already; but Sachs is certainly severe. I must read de Vries on Epinastie &amp; Hyponastie &amp; I will see what Sachs says.<ref target="#foot.f6"/></p>
+                    <p>I am afraid Gossypium does not sleep or any how very slightly.<ref target="#foot.f7"/> I made a mistake about Bauhinia Richardeana it has only a much divided leaf like the other species. Also I gave a name wrong it is Albizzia Zulibrissin.<ref target="#foot.f8"/> Here are a few more Leguminosæ</p> 
+<figure type="diagram"> 
+<p>Pterolobia abyssinica shuts upwards</p>
+<p>Cassia suffruticosa &amp; tomentosa</p>
+<p>Poinciana gillesia   upwards</p>
+<p>Prosopis juliflora   upwards</p>
+<p>Coulteria pertinata   upwards</p>
+<p>Adenanthera pavonina— slight sideways twisting of leaves</p>
+<p>The Adenantheras seem the only slightly new movement,</p>
+    <p>Albizzia Lebek<ref target="#foot.f9"/></p> </figure> 
+                    <p>It seems to me also that it cannot be growth or increased tension on the outer side. of a tendril, but that shortening of the inner side is the primary cause &amp; the outer side lengthens to allow the tendril to curl up— When a tendril finds it cannot catch anything it curls up, but it would never be such an idiot as to grow violently on one side when it has no object to gain; but supposing that while it keeps itself straight it is doing work, as it were against a spring, then it would be quite natural that it should allow the spring to do what it liked when there was no object to be gained by keeping the spring stretched. I don’t see how they can distinguish between the stretching of the outer convex side &amp; its growth. I kept Porliera in the pot for 3 or 4 days without water &amp; the leaves were then certainly slightly shut in the morning, I then watered it &amp; the next morning they were wide open   I will water the bed plant well.<ref target="#foot.f10"/></p>
+                    <p>I will look out for some other sleepers.</p>
+                    <p>Semper said he should not order the machine yet as it was a large sum for him; he showed me all over his laboratory &amp; was very pleasant &amp; awfully civil<ref target="#foot.f11"/>   He has lots of living creatures &amp; a corresponding smell, young alligators &amp; prairie dogs, &amp; birds—&amp; a fine aquarium with lots of axollotls &amp; menobranchus &amp; blind things from Carniola &amp;c.<ref target="#foot.f12"/> He doesn’t think much of Weismann’s experiments it seems to me that no German thinks much of other scientific men.<ref target="#foot.f13"/> Semper has a fine case of changed conditions producing an effect a Menobranchus? can be made to lay eggs just like a machine, if kept for some months in a small aquarium with few plants &amp; then put into a large one with plenty of plants, though fed well in both cases. He has several of those great spiders (Mygales?) which seem well, he says they eat mice.<ref target="#foot.f14"/></p>
+<p>I shall leave here about Aug 8<hi rend="superscript">th</hi> I expect &amp; I shall be awfully glad to get back</p>
+<p>Your affec son | Frank Darwin.</p>
+                    <p>Sachs has just shown me the fruit of Helvingia <hi rend="underline">ruscifolia</hi> nearly related to Ivy, the petals are fleshy, purple, &amp; full of juice like a mahonia berry, &amp; close over the carpels so that the thing looks like a berry, it has a most beautiful bloom, it seems to me a fine case of bloom appearing on petals when they act the part of fruit. I will clean some &amp; see if they burst in water<ref target="#foot.f15"/></p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note>0.2 Sunday] <hi rend="italic">crossed ink</hi>; ‘July 21— 1878’ <hi rend="italic">ink</hi></note>
+                <note>1.1 Many thanks … wanted. 1.2] <hi rend="italic">crossed ink</hi></note>
+                <note>1.9 it showed … again. 1.12] <hi rend="italic">double scored pencil</hi></note>
+                <note>2.1 I am … Leguminosæ 2.4] <hi rend="italic">crossed pencil; opening square bracket pencil</hi></note>
+                <note>4.1 Cassia suffruticosa &amp; tomentosa] <hi rend="italic">circled pencil</hi>; ‘<hi rend="italic">[</hi>let<hi rend="italic">]</hi>’ <hi rend="italic">added pencil</hi></note>
+                <note>11.6 quite natural … other sleepers. 12.1] <hi rend="italic">crossed blue crayon</hi></note>
+                <note>11.9 Porliera … well. 11.12] <hi rend="italic">opening square bracket pencil, closing square bracket blue crayon</hi></note>
+                <note>13.1 Semper … to get back 14.1] <hi rend="italic">crossed pencil</hi></note>
+                <note>13.1 Semper … for him;] <hi rend="italic">scored blue crayon</hi>; ‘Bloom’ <hi rend="italic">added blue crayon</hi></note>
+                <note>16.1 Sachs … in water 16.5] <hi rend="italic">double scored pencil</hi></note>
+                <note><hi rend="italic">Top of letter</hi>: ‘Sleeping Plants | Porliera | Helvingia, thick petals with bloom. | Wiesner on Light’ <hi rend="italic">ink</hi></note>
+                <note><hi rend="italic">End of letter</hi>: ‘Bloom’ <hi rend="italic">red crayon</hi> <hi rend="italic">underl red crayon</hi></note>
+            </div>
+            
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by CD having crossed out ‘Sunday’ and written in ‘July 21— 1878’ (see CD annotations).</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-11615.xml">letter to Francis Darwin, 17 July [1878]</ref>.</note>
+            <note xml:id="foot.f3">Pouter was <ref target="../nameregs/nameregs_1230.xml" resp="#mjhawkins">Leonard Darwin’s</ref> nickname.</note>
+            <note xml:id="foot.f4"><hi rend="italic">Cobaea</hi> is a subtropical genus of the family Polemoniaceae (phlox). CD had discussed <hi rend="italic">Cobaea scandens</hi> (cup and saucer vine) in <ref target="../bibliographies/bibl_1458.xml" resp="#mjhawkins"><hi rend="italic">Climbing plants</hi> 2d ed.</ref>, pp. 106–11.</note>
+            <note xml:id="foot.f5">CD had been puzzled by <ref target="../nameregs/nameregs_5122.xml" resp="#mjhawkins">Julius Wiesner’s</ref> description of heliotropism and gravitropism as ‘induction phenomena’ and had asked Francis to see whether <ref target="../nameregs/nameregs_4143.xml" resp="#mjhawkins">Julius Sachs</ref> could explain his meaning (see <ref target="./DCP-LETT-11615.xml">letter to Francis Darwin, 17 July [1878]</ref> and n. 5).</note>
+            <note xml:id="foot.f6"><ref target="../nameregs/nameregs_4908.xml" resp="#mjhawkins">Hugo de Vries</ref> used the terms hyponasty and epinasty to denote the greater longitudinal growth along the lower or upper side of a plant part that caused upward or downward bending respectively (<ref target="../bibliographies/bibl_9677.xml" resp="#mjhawkins">Vries 1872</ref>, pp. 252–3); CD had asked Francis to discuss these movements with Sachs (see <ref target="./DCP-LETT-11608.xml">letter to Francis Darwin, 14 July [1878]</ref>).</note>
+            <note xml:id="foot.f7">Francis had initially thought that <hi rend="italic">Gossypium</hi> (cotton) might sleep; CD considered this would be valuable if true (see <ref target="./DCP-LETT-11604.xml">letter from Francis Darwin, [12 July 1878]</ref>, and <ref target="./DCP-LETT-11608.xml">letter to Francis Darwin, 14 July [1878]</ref>).</note>
+            <note xml:id="foot.f8">Francis had described <hi rend="italic">Bauhinia richardiana</hi> as having two large leaflets (<ref target="./DCP-LETT-11604.xml" resp="#mjhawkins">letter from Francis Darwin, [12 July 1878]</ref>) and had referred to <hi rend="italic">Albizia julibrissin</hi> as <hi rend="italic">Albizia Zulu brizzia</hi> (<ref target="./DCP-LETT-11613.xml">letter from Francis Darwin, [before 17 July 1878]</ref>).</note>
+            <note xml:id="foot.f9"><hi rend="italic">Pterolobium abyssinicum</hi> is an unresolved name; <hi rend="italic">Pterolobium</hi> is the genus of redwing. <hi rend="italic">Cassia suffruticosa</hi> is a synonym of <hi rend="italic">Senna surattensis</hi> ssp. <hi rend="italic">surattensis</hi>; <hi rend="italic">C. tomentosa</hi> L. is a synonym of <hi rend="italic">Senna multiglandulosa</hi>. <hi rend="italic">Poinciana gilliesii</hi> is a synonym of <hi rend="italic">Caesalpinia gilliesii</hi> (bird-of-paradise shrub). <hi rend="italic">Prosopis juliflora</hi> is a species of mesquite. <hi rend="italic">Coulteria pertinata</hi> is an unknown combination; Francis may have intended <hi rend="italic">Caesalpinia pectinata</hi>, a synonym of <hi rend="italic">Tara spinosa</hi> (tara). <hi rend="italic">Adenanthera pavonina</hi> is the red beadtree. <hi rend="italic">Albizia lebbeck</hi> is the woman’s tongue or siris tree.</note>
+            <note xml:id="foot.f10">See <ref target="./DCP-LETT-11615.xml">letter to Francis Darwin, 17 July [1878]</ref> and n. 4. In the Würzburg garden the <hi rend="italic">Porlieria</hi> specimen planted in the ground typically slept during the day, but had opened after heavy rain; the potted specimen, always well-watered, kept its leaves open (see <ref target="./DCP-LETT-11596.xml">letter from Francis Darwin, [after 7 July 1878]</ref> and n. 3).</note>
+            <note xml:id="foot.f11"><ref target="../nameregs/nameregs_4291.xml" resp="#mjhawkins">Carl Gottfried Semper</ref> had received information about where to buy a typewriter like CD’s, but had not yet received CD’s offer of his own machine as a gift (<ref target="./DCP-LETT-11617.xml" resp="#mjhawkins">letter to C. G. Semper, 19 July 1878</ref>). Semper was professor of zoology in Würzburg.</note>
+            <note xml:id="foot.f12">The axolotl is <hi rend="italic">Ambystoma mexicanum</hi>. <hi rend="italic">Menobranchus</hi> is a former genus roughly equivalent to <hi rend="italic">Necturus</hi> (mudpuppies and waterdogs). Both are within the order Caudata, salamanders. CD mentioned the caves of Carniola in <ref target="../bibliographies/bibl_6016.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 3d ed.</ref>, p. 154. <ref target="../nameregs/nameregs_3459.xml" resp="#mjhawkins">Andrew Murray</ref> had provided CD with information and references on the Carniola caves (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 8, <ref target="./DCP-LETT-2780.xml">letter from Andrew Murray, 3 May 1860</ref>, and <ref target="../bibliographies/bibl_6016.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 3d ed.</ref>, p. 156). </note>
+            <note xml:id="foot.f13"><ref target="../nameregs/nameregs_5050.xml" resp="#mjhawkins">August Weismann</ref> was professor of zoology at Freiburg im Breisgau. In his essay ‘Ueber die Umwandlung des mexicanischen Axolotl in ein Amblystoma’ (On the transformation of the Mexican axolotl into an <hi rend="italic">Amblystoma</hi>; Weismann 1875b), Weismann argued that the apparent metamorphosis of some axolotls (which were then classified as <hi rend="italic">Siredon mexicanus</hi>) into the salamander <hi rend="italic">Amblystoma</hi> (a synonym of <hi rend="italic">Ambystoma</hi>) was due to reversion caused by adaptation to conditions different from their normal high-altitude, deep-water environment. Weismann stressed that all evidence showed that axolotls never transformed in their natural environment (Weismann 1875b, pp. 303–4).</note>
+            <note xml:id="foot.f14"><hi rend="italic">Mygale</hi> is a former genus that included most mygalomorph spiders; some of the larger mygalomorph spiders such as <hi rend="italic">Theraphosa blondi</hi> (Goliath birdeater) eat mice.</note>
+            <note xml:id="foot.f15">Francis and CD had been investigating the function of bloom on leaves for much of the year (CD’s ‘Journal’ (Appendix II)). <hi rend="italic">Helvingia rusciflora</hi> is a synonym of <hi rend="italic">Helwingia japonica</hi>; the flowers are epiphyllous, growing from the midrib of the leaf blade. The genus of ivy is <hi rend="italic">Hedera</hi>; both <hi rend="italic">Helwingia</hi> and <hi rend="italic">Hedera</hi> were placed in the family Araliaceae (see Bentham and Hooker 1862–83, 1: 931–47); for modern systematics of <hi rend="italic">Helwingia</hi>, see Ao and Tobe 2015. <hi rend="italic">Mahonia</hi> is the genus of Oregon-grape, now often placed in synonymy with the closely related genus <hi rend="italic">Berberis</hi>.</note>
+        </div> 
+     
+    </body>
+    </text>
+</TEI>

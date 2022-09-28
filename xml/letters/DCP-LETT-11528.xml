@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11528">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From M. C. Stanley   24 May 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16722</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11528 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11528.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11528.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 162: 170</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>162: 170</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4527.xml" resp="high">Stanley, M. C.</persName>
+                <placeName>London, St James’s Square, 23</placeName>
+                <date when="1878-05-24">24 May 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml" resp="high">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends fragment of bone from the head of a fish called "Corbin", brought from River Plate by her brother.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">"Corbin"</term>
+                <term type="animals" ref="#">fish</term>
+                <term type="people" ref="#">Stanley, M. C.’s brother</term>
+                <term type="places" ref="#">River Plate</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geography</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">23. S<hi rend="superscript">t</hi>. James’s Square. | S.W.</hi></placeName>
+                    <date>May 24/78</date>
+                    <salute>Dear M<hi rend="superscript">r</hi>. Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>My brother who has just returned from S. America has brought from the River Plate the accompanying fragment of bone from a fish’s head called <hi rend="underline">Corbin</hi>; he is very anxious to know if it ever came under your notice.<ref target="#foot.f1"/> There are two of these bony substances in the head of every fish. Fibrous threads diverge from the rough part in to interior— As if this substance were the covering of the brain!.<ref target="#foot.f2"/> if one can venture to speak of the brain of a fish:</p>
+<p>Forgive me for troubling you &amp; for daring to suppose I am mentioning any thing that can be new to you.—</p>
+<p>Believe me | Y<hi rend="superscript">rs</hi> Very sincerely | M C Derby</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_8189.xml" resp="#mjhawkins">Lionel Sackville Sackville-West</ref> had been British envoy at Buenos Aires from 1873 until January 1878 (<ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref>). The Río de la Plata (River Plate) is an estuary formed by the confluence of the Uruguay and Paraná rivers; it forms part of the border between Argentina and Uruguay (<ref target="../bibliographies/bibl_1526.xml" resp="#mjhawkins"><hi rend="italic">Columbia gazetteer of the world</hi></ref>). The bone fragment has not been found; the fish was probably <hi rend="italic">Micropogonias furnieri</hi> (whitemouth croaker), known locally as corvina.</note>
+            <note xml:id="foot.f2">Sackville-West’s bone fragment was probably from an immature fish. In teleost or bony fishes, ossification of the bones occurs differentially, with those bones subject to greater stress being the first to ossify. For more on the sequence of ossification in the neurocranium of <hi rend="italic">Micropogonias furnieri</hi> from larval to adult stages, see Jardim and Santos 1994.</note>
+        </div>  
+      
+    </body>
+    </text>
+</TEI>

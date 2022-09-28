@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11545">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From J. I. Rogers to Francis Darwin   6 June 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10557</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11545 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11545.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11545.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp damaged</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 176: 198</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>176: 198</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4057.xml">Rogers, J. I.</persName>
+                <placeName>London, Cannon St, 119</placeName>
+                <date when="1878-06-06">6 June 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1222.xml">Darwin, Francis</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Suggests sensitive plants that close at night would be protected from nocturnal-feeding snails. JIR’s brother in India says snails occur there in abundance.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">snails, nocturnal-feeding</term>
+                <term type="plants" ref="#">sensitive plants</term>
+                <term type="people" ref="#">Rogers, J. I.’s brother</term>
+                <term type="places" ref="#">India</term>
+                <term type="scientific_terms" ref="#">adaptation</term>
+                <term type="scientific_terms" ref="#">behaviour</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">movements and habits of plants</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+                <term type="scientific_terms" ref="#">predators</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+                <term type="scientific_terms" ref="#">time and age (‘organic’ time)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">119, Cannon Street, | London, | E.C.</hi></placeName>
+                    <date>6<hi rend="superscript">th</hi>. June <hi rend="print">187</hi>8</date>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I think you told me that the Sensitive plant closes up at night.<ref target="#foot.f1"/> On enquiry of an Indian brother I find that there are plenty of snails, about Calcutta at any rate<ref target="#foot.f2"/>   Though very different to ou〈rs〉 they are larger &amp; more destructive. If they are night feeding like ours are, (and my brother thinks they are), the closing up of the leaves &amp; the exposure of the prickles would be protective, especially if the body of the 〈sn〉ail be soft like ours. It would a〈lso〉 be equally protective against slugs, if there are any in the tropics: and in a lesser degree against animals that browse at night.</p>
+<p>Yours faithfly | J Innes Rogers <lb resp="#mjhawkins"/></p>
+<p rend="left">F. Darwin Esq.</p> 
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">No letter from <ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin</ref> to Rogers on this subject has been found, but for Rogers’s previous statements on the possible protection against insects afforded by the movements of the sensitive plant (<hi rend="italic">Mimosa pudica</hi>), see the <ref target="./DCP-LETT-11445.xml" resp="#mjhawkins">letter from J. I. Rogers to Francis Darwin, 25 March 1878</ref>. For CD’s and Francis’s experiments on the leaves of <hi rend="italic">Mimosa pudica</hi>, see <ref target="../bibliographies/bibl_5637.xml" resp="#mjhawkins"><hi rend="italic">Movement in plants</hi></ref>, pp. 374–5.</note>
+            <note xml:id="foot.f2">Rogers’s brother <ref target="../nameregs/nameregs_4054.xml" resp="#mjhawkins">George Rogers</ref> was a solicitor in Calcutta (now Kolkata).</note>
+            
+        </div>     
+         
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5615">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Cassell, Petter, &amp; Galpin   24 August [1867]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">333</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5615 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5615.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5615.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="endorsement" subtype="letter">C. Darwin | 24<hi rend="superscript">th</hi>. August 1867.</note>
+            <note type="physdesc" n="LS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.333)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>333</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1867-08-24">24 Aug [1867]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName>Cassell, Petter, &amp; Galpin</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Letter recommending V. O. Kovalevsky to a publisher.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_2751">Kovalevsky, V. O.</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Aug 24.</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have had much correspondence with M. Kovalevsky, &amp; he has visited me here. I have formed a very high opinion of him, as his knowledge is extraordinarily great. He is brother of a distinguished naturalist—<ref target="#foot.f1"/> He is preparing a translation of a book which I shall soon publish &amp; has translated &amp; published some very expensive German works into Russian.<ref target="#foot.f2"/> He has made me very liberal offers for the translation of my book.<ref target="#foot.f3"/> I should certainly on my own part trust M. Kovalevsky to almost any extent, but you will see that it is obviously impossible for me to answer for his pecuniary circumstances. As far as I can judge his circumstances appear to be good.</p>
+<p>Dear Sir | yours faithfully | Charles Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Vladimir Onufrievich Kovalevsky’s brother was <ref target="../nameregs/nameregs_2749.xml" resp="#mjhawkins">Alexander Onufrievich Kovalevsky</ref>.</note>
+            <note xml:id="foot.f2">V. O. Kovalevsky was translating <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> into Russian. He had also translated part of <ref target="../nameregs/nameregs_604.xml" resp="#mjhawkins">Alfred Edmund Brehm’s</ref> <hi rend="italic">Thierleben</hi> (<ref target="../bibliographies/bibl_4479.xml" resp="#mjhawkins">[Kovalevsky] trans. 1866–70</ref>; see <ref target="./DCP-LETT-5537.xml" resp="#mjhawkins">letter from V. O. Kovalevsky, 15 May 1867</ref>).</note>
+            <note xml:id="foot.f3">Kovalevsky left the financial arrangements for his translation to CD, and CD decided not to demand payment (see <ref target="./DCP-LETT-5443.xml" resp="#automat">letter from V. O. Kovalevsky, 15 March 1867</ref>, and <ref target="./DCP-LETT-5531.xml" resp="#mjhawkins">letter to V. O. Kovalevsky, 16 May [1867]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

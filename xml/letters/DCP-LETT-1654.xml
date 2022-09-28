@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1654">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Davy   26 March [1855]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1145</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1654 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1654.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1654.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+            <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+                <relatedItem type="publication">
+                    <bibl><hi rend="italic">Correspondence</hi> 5: 291</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Royal Institution of Great Britain (Box XVII, 210)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_363.xml">Royal Institution</repository>
+                    <collection>Box XVII</collection>
+                    <idno>210</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1855-03-26">26 Mar [1855]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1259.xml">Davy, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Discusses JD’s paper ["On ova of salmon"]. His experiments are of particular value regarding power of dispersal and geographical distribution and would make of them a very different subject. Hopes JD can test again the tenacity of life of non-developed ova being less than that of those fully developed – a result which surprised CD.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">salmon</term>
+                <term type="rx" ref="#">Davy, John 1856</term>
+                <term type="scientific_terms" ref="#">dispersion</term>
+                <term type="scientific_terms" ref="#">eggs</term>
+                <term type="scientific_terms" ref="#">exclamations</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">time and age (‘organic’ time)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>March 26<hi rend="superscript">th</hi>.—</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I have just read your Paper: it seem to me <hi rend="underline">most</hi> interesting &amp; curious. How admirably you have diversified your experiments! I will send it today to the Royal Soc<hi rend="superscript">y</hi>., &amp; will ask for an acknowledgment to be sure that it arrives safely.—<ref target="#foot.f1"/></p>
+<p>The case of the ovum exposed on the moss for three days, &amp; the wonderful retention of vitality of the ova in very moist air seem of particular value in regard to the power of dispersal. Surely these results will, also, be of practical value.—</p>
+<p>Hardly anything has surprised me more than the non-developed ova having less tenacity of life than those much more fully developed.— I almost hope that sh<hi rend="superscript">d</hi>. you ever have another opportunity, it may seem to you worth while to test this one point again.—<ref target="#foot.f2"/></p>
+<p>I have been much struck by your experiments on the effect of rather high temperatures; I had often speculated whether the ova accidentally introduced into the stomach of an <hi rend="underline">herbivorous</hi> bird could escape the action of its gastric juice, but I had not at all calculated on the very injurious action of the mere temperature.—</p>
+<p>With many such experiments as yours, Geographical Distribution would become in my opinion, a very different subject to what it is now. Allow me again to thank you for the great interest I have received from your Memoir &amp; for the honour you have done me.</p>
+<p>Pray believe me | Yours truly obliged | Charles Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">3.3 to you] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../bibliographies/bibl_1857.xml" resp="#mjhawkins">Davy 1856</ref> was received by the Royal Society on 27 March and read on 26 April 1855 (<hi rend="italic">Proceedings of the Royal Society of London</hi> 7 (1854–5): 362).</note>
+            <note xml:id="foot.f2">Davy had described how a batch of ova from the river Dee had been dead on arrival at his home, although others had developed as usual in the Dee breeding-beds (<ref target="../bibliographies/bibl_1857.xml" resp="#mjhawkins">Davy 1856</ref>, p. 22). Davy ascribed their death to the journey involved and suggested that they may have been too young. Another batch sent three weeks later at a more advanced stage of development survived well. CD’s surprise was caused by his assumption that the less developed an egg was, the more capable it was of withstanding fluctuations in its environment, as in plant seeds or over-wintering spores and animal cysts. No evidence has been found that Davy repeated the experiment.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

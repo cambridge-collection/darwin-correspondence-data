@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11629">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To C. G. Semper   24 July [1878]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13669</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11629 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11629.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11629.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+            <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+                <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 147: 464</bibl></relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="provenance">Universitäts- und Landesbibliothek Düsseldorf (slg 60/Dok/58)</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="../repo/repo_575.xml">Universitäts- und Landesbibliothek Düsseldorf</repository>
+                        <collection>(slg 60/Dok/</collection>
+                        <idno>58)</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1878-07-24">24 July [1878]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4291.xml">Semper, K. G.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Pleased CGS will accept machine.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi> | (<hi rend="print">Railway Station | Orpington. S.E.R.</hi>)</placeName>
+                    <date>July 24<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I am uncommonly pleased that you will accept the machine, &amp; I heartily thank you for your too kind letter.<ref target="#foot.f2"/> Some persons in England &amp; America have got quite accustomed to its use (I found that I was too old to learn) &amp; regularly employ it for their correspondence.<ref target="#foot.f3"/> If it should aid you in writing out your most valuable researches, it will be a very great satisfaction to me. It shall be sent tomorrow morning to the Makers to be cleaned &amp; packed, &amp; I will tell them to forward it to M<hi rend="superscript">r</hi>. Hermann.<ref target="#foot.f4"/> It would be advisable for you to write to him, as they may be surprised at the Bank &amp; refuse to receive a large &amp; heavy case.— I have urged the makers to have it packed &amp; sent off immediately.</p>
+<p>Believe me, my dear Sir | Yours very truly | Charles Darwin</p> 
+                </div>
+            </div>
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-11624.xml">letter from C. G. Semper, 22 July 1878</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-11624.xml">letter from C. G. Semper, 22 July 1878</ref>.</note>
+            <note xml:id="foot.f3">CD had purchased his typewriter in May 1876 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 24, <ref target="./DCP-LETT-10488F.xml">letter from Francis Darwin, [1 May 1876]</ref> and n. 4).</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_8410.xml" resp="#mjhawkins">Moritz August Herrmann</ref> was Semper’s brother-in-law (see <ref target="./DCP-LETT-11624.xml">letter from C. G. Semper, 22 July 1878</ref>).</note>
+        </div>
+    
+    </body>
+    </text>
+</TEI>

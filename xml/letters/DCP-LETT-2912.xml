@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2912">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Innes   11 September [1860]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1506</idno>
+            
+            
+            
+            
+            <date when="1993">1993</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2912 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2912.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2912.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="08">8</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Cleveland Health Sciences Library (Stecher collection)</note>
+            <note type="endorsement" subtype="letter">60</note>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl>Stecher (1961): 206</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 8: 353</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Cleveland Health Sciences Library</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_93.xml">Cleveland</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1860-09-11">11 Sept [1860]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2502.xml">Innes, J. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Going to sea-side for Etty’s health.</p>
+            <p>Asks JBI further questions about a striped donkey he had reported to CD.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">donkey</term>
+                <term type="health" ref="#">Darwin family</term>
+                <term type="people" ref="#subject_1225">Darwin, H. E.</term>
+                <term type="places" ref="#">sea-side</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">physical ‘external’ characters</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Sept. 11<hi rend="superscript">th</hi></date>
+                </opener>
+                <div type="transcription">
+                     
+<p>Dear Innes.</p>
+<p>I am very sorry to say that I fear we shall not see you when you come to Keston,<ref target="#foot.f1"/> for we have almost made up our minds to be off next week to sea-side for a month to see what the change will do for Etty,—though I have not much hope.</p>
+<p>Your account of the Donkey has interested me much &amp; would you be so kind as to have another look at it &amp; observe whether its eyes are pink; but as you say it is rather cream-coloured than white, it probably is not an albino.—   Did the owner rear it; if so please ask him whether it was born of same colour &amp; had then no stripes.— Anytime will do for an answer.—<ref target="#foot.f2"/></p>
+<p>I am sorry to hear about your house difficulties.<ref target="#foot.f3"/></p>
+<p>Dear Innes | Ever yours very truly | C. Darwin.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Keston is a village about three miles from Down.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-2907.xml" resp="#mjhawkins">letter to John Innes, 6 September [1860]</ref>. Innes’s information about donkeys is not cited by CD in <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref>.</note>
+            <note xml:id="foot.f3">See letters to <ref target="../nameregs/nameregs_7222.xml" resp="#mjhawkins">John Innes</ref>, <ref target="./DCP-LETT-2870.xml" resp="#mjhawkins">18 July [1860]</ref> and <ref target="./DCP-LETT-2907.xml" resp="#mjhawkins">6 September [1860]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

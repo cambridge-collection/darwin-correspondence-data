@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9266">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. B. Tegetmeier   5 February 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1403</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9266 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9266.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9266.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 148: 64</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Archives of the New York Botanical Garden (Charles Finney Cox Collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_302.xml">NYBG</repository>
+                    <collection>Charles Finney Cox</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1874-02-05">5 Feb 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4682.xml">Tegetmeier, W. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Do breeders rear more male than female greyhound puppies?</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">greyhound</term>
+                <term type="people" ref="#subject_1376">breeders</term>
+                <term type="scientific_terms" ref="#">breeding (artificial)</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">sex</term>
+                <term type="scientific_terms" ref="#">young, offspring</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>Feb 5 1874</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>If you yourself (or through any of the gentlemen connected with the Field)<ref target="#foot.f1"/> know any large breeder of greyhounds, you would confer a great favour on me, by asking the following question, &amp; sending me the answer.</p>
+<p>I could answer the question myself with respect to some breeds, but I am anxious for information from some one on whom I can wholly rely.</p>
+<p>The question is:</p>
+<p>Do great breeders of greyhounds rear more male than female puppies; that is, do they destroy more of the females than of the males? But what I particularly want to know is, supposing one bitch produced 4 males &amp; 2 females, &amp; another produced 4 females &amp; 2 males, how many <hi rend="underline">of each sex in each litter</hi> would, as a general sort of rule, be preserved?<ref target="#foot.f2"/></p>
+<p>No doubt any large breeder w<hi rend="superscript">d</hi> know what was the common practice of most other breeders.</p>
+<p>If you can aid me, pray do so &amp; believe me | yours sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Tegetmeier was pigeon and poultry editor of the <hi rend="italic">Field</hi> newspaper (<ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref>).</note>
+            <note xml:id="foot.f2">See also <ref target="./DCP-LETT-9228.xml" resp="#mjhawkins">letter to William Waring, 6 January 1874</ref>, and <ref target="./DCP-LETT-9263.xml" resp="#mjhawkins">letter from George Cupples, 3 February 1874</ref> and n. 5. CD was working on the second edition of <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> (‘Journal’ (Appendix II)).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

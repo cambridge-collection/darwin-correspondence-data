@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2488">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Murray   10 September [1859]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8508</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2488 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2488.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2488.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">National Library of Scotland (John Murray Archive) (Ms.42153 ff.20–21)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_278.xml">Murray Archive</repository>
+                    <idno>Ms.42153 ff.20-21</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1859-09-10">10 Sept [1859]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>On title of <hi rend="italic">Origin</hi>, suggests omitting word "Varieties" altogether if JM does not object. Last proofs corrected, but revises still to do.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Origin</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Sept. 10<hi rend="superscript">th</hi>.</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>A friend objected to my title that word “Varieties” ought to stand before “Species”.— Another friend objected (but illogically) that “genera” &amp; “orders” ought to be inserted.— This has led me to think that word “Varieties” had better be altogether omitted. The case of Species is the real important point; &amp; the title, as now, is rather too long.— So if you do not object, I will omit word “Varieties”; but if <hi rend="underline">on any account</hi> you do object, I do not care.—<ref target="#foot.f2"/></p>
+<p>As it may save you a note, I will assume if I do <hi rend="doubleUnderline">not</hi> hear that I may omit the word. Otherwise in course of week or so, please let me have word “no”.—</p>
+<p>Let me thank you again for your last note, &amp; all your very satisfactory arrangements. | My dear Sir | Your’s sincerely | C. Darwin</p>
+<p>I have corrected today last proof; but have lots of Revises to look over.—</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 (but illogically)] <hi rend="italic">parentheses over commas</hi></note>
+                    <note xml:id="tnote.n2">1.3 had] <hi rend="italic">after omitted point</hi></note>
+                    <note xml:id="tnote.n3">3.1 very] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n4">3.2 arrangements] ‘ar’ <hi rend="italic">over</hi> ‘&amp;’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the discussion of the title of <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>.</note>
+            <note xml:id="foot.f2">From CD’s comment, it would appear that the title of his book still included the words ‘An essay on the origin of species and varieties’, as in the proposal previously sent to <ref target="../nameregs/nameregs_3051.xml" resp="#mjhawkins">Charles Lyell</ref> and to Murray (see <ref target="./DCP-LETT-2437.xml" resp="#mjhawkins">letter to Charles Lyell, 28 March [1859]</ref>). CD had been advised to drop the expression ‘Abstract of an essay’ (<ref target="./DCP-LETT-2439.xml" resp="#mjhawkins">letter to Charles Lyell, 30 March [1859]</ref>) and had decided to include the words ‘or the preservation of favoured races in the struggle for life’. The published title reads: ‘On the origin of species by means of natural selection, or the preservation of favoured races in the struggle for life’.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6607">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Lubbock   8 February 1869</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6863</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6607 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6607.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6607.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="L">2pp inc</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 170: 71</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>170: 71</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3026.xml">Lubbock, John</persName>
+                <placeName>London, Lombard St, 15</placeName>
+                <date when="1869-02-08">8 Feb 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Down School funds.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">Down school</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">15, Lombard Street. E.C.</hi></placeName>
+                    <date>Feb 8/69</date>
+                    <salute>My dear M<hi rend="superscript">r</hi> Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very much obliged to you for the trouble you have taken about the school accounts, which I have asked M<hi rend="superscript">rs</hi> Lubbock to return today.<ref target="#foot.f1"/></p>
+<p>I much regret to find the funds at such low water, but I really think we might get more subscribers who only wait to be asked. For instance all my brothers are parishioners as well<ref target="#foot.f2"/>   M<hi rend="superscript">rs</hi> Lubbock &amp; myself &amp; the clerk<ref target="#foot.f3"/> were the only communicants, &amp; the present state of things must be very demoralizing to the parishioners</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Lubbock refers to the accounts for the Down National School for boys and to <ref target="../nameregs/nameregs_3021.xml" resp="#mjhawkins">Ellen Frances Lubbock</ref>. In a <ref target="./DCP-LETT-6486.xml" resp="#mjhawkins" cert="high">letter to J. B. Innes of 1 December 1868</ref> (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 16), CD wrote that he had handed over the school accounts to <ref target="../nameregs/nameregs_4042.xml" resp="#mjhawkins">John Warburton Robinson</ref>, who had recently become curate of Down, but that Robinson had gone to Ireland for an extended stay and that parishioners were afraid in any case to pay subscriptions to Robinson. CD evidently had taken charge of the accounts in Robinson’s absence (see <ref target="./DCP-LETT-6587.xml" resp="#automat">letter to J. W. Robinson, 1 February 1869</ref> and n. 1). This incident was the latest in a series of problems with the curacy (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 16).</note>
+            <note xml:id="foot.f2">Lubbock had seven brothers (<ref target="../bibliographies/bibl_1096.xml" resp="#mjhawkins"><hi rend="italic">Burke’s peerage</hi></ref> 1999).</note>
+            <note xml:id="foot.f3">The clerk has not been identified.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

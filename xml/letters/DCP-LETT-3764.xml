@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3764">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To H. W. Bates   15 October [1862]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1532</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3764 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3764.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3764.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 143: 57</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl>Stecher (1969): 34</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 10: 469</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Cleveland Health Sciences Library (Robert M. Stecher collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_93.xml">Cleveland</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1862-10-15">15 Oct [1862]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_317.xml">Bates, H. W.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks for news of HWB and his book.</p>
+            <p>There has been sickness in CD’s family; one of the boys [and Emma] had scarlet fever.</p> 
+<p>Has had a letter from Edwin Brown of Burton who is working on classification of <hi rend="italic">Carabi</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Carabi</term>
+                <term type="health" ref="#">Darwin family</term>
+                <term type="people" ref="#subject_667">Brown, Edwin</term>
+                <term type="people" ref="#subject_1202">Darwin family</term>
+                <term type="people" ref="#subject_1218">Darwin, Emma</term>
+                <term type="places" ref="#">Burton</term>
+                <term type="rx" ref="#">Bates, H. W. 1863</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">systematics</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Oct 15<hi rend="superscript">th</hi></date>
+                    <salute>My dear M<hi rend="superscript">r</hi> Bates</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I want to hear a little news of you &amp; your Book, &amp; how you &amp; it go on.—<ref target="#foot.f2"/> We have had a wretched summer &amp; have returned home about a fortnight.—<ref target="#foot.f3"/></p>
+<p>One of my poor Boys, Leonard, was fearfully ill for two months from effect of Scarlet fever &amp; on our journey to sea-side, M<hi rend="superscript">rs</hi> Darwin sickened with the fever &amp; we were detained 3 weeks at Southampton.<ref target="#foot.f4"/> My health has suffered considerably, but I am now slowly at work again.—</p>
+<p>When at leisure pray let me have a line, telling me what you have been doing.—</p>
+<p>By the way the other day a M<hi rend="superscript">r</hi> Edwin Brown of Burton sent me Proc<hi rend="superscript">s</hi>. of N. Ent. Soc. with a letter,<ref target="#foot.f5"/> in which he tells me that he is working at a genealogical classification of genus Carabus.— In answer I told him that you had thought of something of the kind.<ref target="#foot.f6"/></p>
+<p>Pray believe me | Yours very sincerely | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.1 for two months] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship to the <ref target="./DCP-LETT-3771.xml" resp="#mjhawkins">letter from H. W. Bates, 17 October 1862</ref>.</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_447.xml" resp="#mjhawkins">Bates 1863</ref>.</note>
+            <note xml:id="foot.f3">The Darwin family spent September 1862 in Bournemouth, returning to Down House on 30 September (see ‘Journal’ (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 10, Appendix II)).</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_1230.xml" resp="#mjhawkins">Leonard Darwin</ref> became ill with scarlet fever on 12 June 1862 (see <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242)). <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin</ref> became ill with scarlet fever in Southampton on 13 August, while on the way to Bournemouth with CD and Leonard; they remained in Southampton until 1 September 1862 (see ‘Journal’ (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 10, Appendix II)).</note>
+            <note xml:id="foot.f5"><ref target="../nameregs/nameregs_667.xml" resp="#mjhawkins">Edwin Brown’s</ref> letter has not been found. A lightly annotated copy of the <hi rend="italic">Proceedings of the Northern Entomological Society</hi> for 28 July 1862, printed lithographically in handwritten script, is preserved in the Darwin Pamphlet Collection–CUL; a paper by Brown ‘on the mutability of specific or race forms’ (E. Brown 1862) is printed on pp. 7–18. Brown argued that while CD had ‘dwelt ingeniously and satisfactorily upon one cause for the alteration of forms of life’, namely, natural selection, he had almost lost sight of other causes, including ‘the direct influences of climate and food, and the accumulative effects of those apparently causeless individual variations that take place at every generation’.</note>
+            <note xml:id="foot.f6">CD’s letter to Brown has not been found. CD had been impressed by Bates’s discussion of the distribution of beetles of the genus <hi rend="italic">Carabus</hi> in South America, and of its significance for CD’s views respecting the migration of species during the Pleistocene glacial period (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 9, <ref target="./DCP-LETT-3104.xml" resp="#mjhawkins">letter from H. W. Bates, 28 March 1861</ref>, and <ref target="./DCP-LETT-3109.xml" resp="#mjhawkins">letter to H. W. Bates, 4 April [1861]</ref>, and this volume, <ref target="./DCP-LETT-3523.xml" resp="#mjhawkins">letter from H. W. Bates, 30 April 1862</ref>). In his <ref target="./DCP-LETT-3532.xml" resp="#automat" cert="medium">letter to Bates of 4 May [1862]</ref>, CD had suggested that this case, supported by another, ‘would be worth a paper’.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-715">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. D. Fox   [20 November 1843]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7068</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-715 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-715.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-715.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 144: 204</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Christ’s College Library, Cambridge (MS 53 Fox 68)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_83.xml">CCLC</repository>
+                    <collection>MS 53</collection>
+                    <idno>Fox 68</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1843-11-20">[20 Nov 1843]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1730.xml">Fox, W. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Family news and their quiet life at Down.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1202">Darwin family</term>
+                <term type="places" ref="#">Down</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="social" ref="#">news</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down. Bromley Kent</placeName>
+                    <date>Monday</date>
+                    <salute>My dear Fox</salute>
+                </opener>
+                <div type="transcription">
+<p>I have been a neglectful dog, for I see in your last note, an age since, that you ask for one line to hear about Emma &amp; her Babby— She has never had so good a recovery &amp; there never was such a good little soul—as Miss Henrietta Emma Darwin— she is beginning to smile &amp; be very charming,—though how she has any idea, except whether the milk comes fast or slow is hard to conjecture— I have now nearly got this place in order, though there is much yet to do—&amp; I think when you next see it, you will think it greatly improved—<ref target="#foot.f1"/> I have made a nice little orchard, all dwarfs, as you, for one, recommended.— Susan is staying here &amp; likes the quiet of the place much. She has leave of absence, as Caroline &amp; Jos have not yet removed from Shrewsbury, where Caroline produced a little girl, a few days after our affair.— We continue in the same profoundly tranquil state, as when you were here, &amp; have only got to know one person well, namely Lady Lubbock, who is a very nice person, absorbed with the education of nearly a dozen very nice children.— I wish, with all my heart that we were, as you say, rather nearer, but remember we are near London &amp; that in effect is being near everyone.— They heard of you the other day at Shrewsbury from Col. Egerton,<ref target="#foot.f2"/> who spoke much of you.— my Father likes Col. Egerton particularly &amp; he must be a very pleasant neighbour for you.— But I fear this last sentence &amp; all that speaks of pleasure grates on your feelings—</p>
+<p>I trust you are well bodily &amp; believe me | Ever yours— C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.5 idea] <hi rend="italic">before omitted comma</hi></note>
+                    <note xml:id="tnote.n2">1.9 have] ‘h’ <hi rend="italic">over illeg</hi></note>
+                    <note xml:id="tnote.n3">1.15 effect] ‘c’ <hi rend="italic">over</hi> ‘t’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">According to <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary, ‘Mr Fox came’ on 27 May 1843 (DAR 242).
+            </note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_1475.xml" resp="#mjhawkins">Charles Bulkeley Egerton</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

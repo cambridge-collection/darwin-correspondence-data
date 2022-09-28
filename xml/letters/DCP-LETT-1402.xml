@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1402">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Emma Darwin   [19 April 1851]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7426</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1402 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1402.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1402.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">6pp</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Emma Darwin</hi> 2: 133</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 5: 15</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 210.13: 11</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>210.13: 11</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Malvern</placeName>
+                <date when="1851-04-19">[19 Apr 1851]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1218.xml">Darwin, Emma</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Detailed account of progress of Anne’s illness.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin family</term>
+                <term type="people" ref="#subject_1203">Darwin, A. E.</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00045_files/8/0_0.jpg" width="3167px" height="5539px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00045_files/11/1_1.jpg" width="3167px" height="5539px"/>
+        <surface n="11:1r" xml:id="i45">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00045.jpg" width="3167px" height="5539px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00045_files/8/0_0.jpg" width="3167px" height="5539px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00045.dzi" width="3167px" height="5539px"/>
+        </surface>
+        <surface n="11:1v" xml:id="i46">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00046.jpg" width="3167px" height="5539px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00046_files/8/0_0.jpg" width="3167px" height="5539px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00046.dzi" width="3167px" height="5539px"/>
+        </surface>
+        <surface n="11:2r" xml:id="i47">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00047.jpg" width="3167px" height="5539px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00047_files/8/0_0.jpg" width="3167px" height="5539px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00047.dzi" width="3167px" height="5539px"/>
+        </surface>
+        <surface n="11:2v" xml:id="i48">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00048.jpg" width="3167px" height="5539px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00048_files/8/0_0.jpg" width="3167px" height="5539px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00048.dzi" width="3167px" height="5539px"/>
+        </surface>
+    </facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Malvern]</placeName>
+                    <date><hi rend="underline">Saturday</hi> | 11. oclock</date>
+                    <seg type="supplemental">I make <hi rend="underline">two</hi> letters for safety. &amp; put the second in at last minute.</seg>
+                    <seg type="supplemental"><hi rend="underline">First Letter</hi> or Page</seg>
+                    <salute>My own dear.</salute>
+                </opener>
+                <div type="transcription">
+<p>You will have received before this the Electric telegraph message, which I despatched at 9 this morning.—<ref target="#foot.f1"/> And it will have much comforted you.— After the second of yesterdays letters,<ref target="#foot.f2"/> when D<hi rend="superscript">r</hi>. G. maintained she was not essentially worse, she began to sleep tranquilly &amp; continued so throughout the whole night, D<hi rend="superscript">r</hi>. Gully came at 11<hi rend="superscript">o</hi>. 30’ to see her keeping nice &amp; warm with no vomiting, &amp; she took a very little gruel. This morning she is a shade too hot: but the D<hi rend="superscript">r</hi>. who was here at 8<formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> thinks her going on very well.— You must not suppose her out of great danger.—</p>
+<p>She keeps the same; just this minute she opened her mouth quite distinctly for gruel.—&amp; said that is enough.— You would not in the least recognize her with her poor hard, sharp pinched features; I could only bear to look at her by forgetting our former dear Annie. There is nothing in common between the two.— Fanny Henleigh is here most kind of course: she does not think badly of her looks. How truly kind of her coming— Poor Annie has just said “Papa” quite distinctly.— Etty is gone with Hannah<ref target="#foot.f3"/> to London by Cheltenham Coach: (Etty never dreamed of danger to Annie) on Monday she goes with the others to Leith Hill.—<ref target="#foot.f4"/> Hensleigh<ref target="#foot.f5"/> is here on way to Newport.— I cannot express how it felt to have hopes last night at 11<hi rend="superscript">o</hi>. 30’ when D<hi rend="superscript">r</hi> Gully came, saw her asleep &amp; said “she is turning the corner”— I then dared picture to myself my own former Annie with her dear affectionate radiant face.— I have got your note. My dear dear Mammy let us hope &amp; be patient over this dreadfull illness.—</p>
+<p>Saturday. | 2. oclock. <lb resp="#mjhawkins"/> We expect D<hi rend="superscript">r</hi>. Gully every minute; but he is fearfully overworked with 88 patients.— Annie has kept just in same tranquil, too tranquil state: she takes a table-spoonful of gruel every hour, &amp; no physic. All trace of fever is now gone. &amp; yet she is not chilly.— She begins to drink a little more this afternoon &amp; I think that is good.— She has no evacuations, but this is hardly wonderful, considering her <hi rend="italic">[illeg]</hi> vomiting.— 3 oclock.— the D<hi rend="superscript">r</hi>. has been. he says she makes no progress, but no bad symptoms have appeared: but I am disappointed. 4 oclock We have been trying an injection with no success. But she has taken two spoonfuls of tea with evident relish, and no sickness, thank God. I find Fanny an infinite comfort— 5 oclock. just the same. I will write before late Post if D<hi rend="superscript">r</hi>. G. comes— My dearest | C.D.—</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.1 I make … minute.] <hi rend="italic">added</hi></note>
+                    <note xml:id="tnote.n2">2.1 or Page] ‘or’ <hi rend="italic">added</hi></note>
+                    <note xml:id="tnote.n3">2.6 D<hi rend="superscript">r</hi>. Gully came at 11°. 30′ to see her] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n4">3.2 her with] ‘her’ <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n5">3.6 (Etty … to Annie) 3.7] <hi rend="italic">added</hi></note>
+                    <note xml:id="tnote.n6">4.4 table-spoonful] <hi rend="italic">after del</hi> ‘large’</note>
+                    <note xml:id="tnote.n7">6.1 4 oclock] <hi rend="italic">added</hi></note>
+                    <note xml:id="tnote.n8">6.3 comfort—] <hi rend="italic">before del</hi> ‘We must’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-1403.xml" resp="#mjhawkins">letter to Erasmus Alvey Darwin, 19 April 1851</ref>.</note>
+            <note xml:id="foot.f2">See the second <ref target="./DCP-LETT-1401.xml">letter to Emma Darwin, [18 April 1851]</ref>.</note>
+            <note xml:id="foot.f3">Hannah was a servant of <ref target="../nameregs/nameregs_5010.xml" resp="#mjhawkins">Fanny Mackintosh</ref> Wedgwood (see <ref target="./DCP-LETT-1424.xml" resp="#mjhawkins">letter from Fanny Mackintosh Wedgwood, 28 [April 1851]</ref>).</note>
+            <note xml:id="foot.f4">Leith Hill Place, near Dorking, Surrey, was the home of Caroline and <ref target="../nameregs/nameregs_5027.xml" resp="#mjhawkins">Josiah Wedgwood III</ref>. Henrietta Darwin and the children of <ref target="../nameregs/nameregs_5010.xml" resp="#mjhawkins">Fanny Mackintosh</ref> Wedgwood stayed there while CD and Fanny nursed Anne in Malvern.</note>
+            <note xml:id="foot.f5"><ref target="../nameregs/nameregs_5019.xml" resp="#mjhawkins">Hensleigh Wedgwood</ref> was Emma’s brother and <ref target="../nameregs/nameregs_5010.xml" resp="#mjhawkins">Fanny Mackintosh</ref> Wedgwood’s husband. Fanny remained with CD to help look after Anne. Some nine years previously, when Fanny had been exhausted by her new baby and was nursing <ref target="../nameregs/nameregs_5019.xml" resp="#mjhawkins">Hensleigh Wedgwood</ref> through a dangerous illness, Emma had looked after her older children at Down (Wedgwood and <ref target="../bibliographies/bibl_8245.xml" resp="#mjhawkins">Wedgwood 1980</ref>, pp. 246–7).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

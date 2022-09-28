@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1140">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. C. Ross   31 December 1847</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1253</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1140 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1140.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1140.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">The Royal Society (Sa: 384)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_364.xml">Royal Society</repository>
+                    <idno>Sa: 384</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1847-12-31">31 Dec 1847</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4082.xml">Ross, J. C.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks JCR to collect cirripedes for him on forthcoming expedition [to the Arctic in search of Sir John Franklin].</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">cirripedes</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Dec 31 /47/</date>
+                    <salute>My dear Sir James Ross</salute>
+                </opener>
+                <div type="transcription">
+<p>I am going to beg a favour of you, which your taste for Natural History, will, I hope, lead you to grant; it is to collect for me, during your ensuing expedition<ref target="#foot.f1"/> &amp; preserve in <hi rend="underline">spirits</hi> the northern species of Cirripedia or Barnacles, noting the latitude under which found, &amp; whether the coast-rocks are abundantly covered. Perhaps the floating timber may have some of the pedunculated division or Lepas.— I am now at work, &amp; shall be for the next two years, on a Monograph on the Cirripedia; &amp; the above specimens would be particularly valuable to me. I do not suppose that your expedition, considering its noble object, will afford you much opportunity for collecting, but Barnacles are so easily scraped off the rocks &amp; put into spirits, that it would cause you but little trouble. Different species often resemble each other rather closely externally. The only care required is that some of the specimens should have their <hi rend="underline">bases</hi> perfect &amp; that a few <hi rend="underline">young</hi> individuals sh<hi rend="superscript">d</hi>. be collected.</p>
+<p>I hope, if it be in your power, that you will thus far oblige me, &amp; place this letter amongst your Memoranda.</p>
+<p>I do not know, who commands the first ship;<ref target="#foot.f2"/> if he has any taste for Nat. Hist, would you object to ask him to collect some specimens for me in a dry state, (marking the locality) if he object to the trouble of placing them in spirits.—</p>
+<p>I trust to your kindness to forgive my asking this favour, &amp; pray believe me, with every good wish for your success in your arduous voyage | Yours very faithfully | C. Darwin <lb resp="#mjhawkins"/> To Capt. Sir J. Ross.—</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.12 individuals] ‘v’ <hi rend="italic">over</hi> ‘d’</note>
+                    <note xml:id="tnote.n2">3.3 (marking the locality)] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_4082.xml" resp="#mjhawkins">James Clark Ross</ref> was preparing for an Arctic voyage in search of the lost Franklin expedition.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_3258.xml" resp="#mjhawkins">Francis Leopold McClintock</ref>. No specimens from the expedition are cited in <hi rend="italic">Living Cirripedia</hi> (<ref target="../bibliographies/bibl_4837.xml">1851</ref>, <ref target="../bibliographies/bibl_4838.xml">1854</ref>). CD was, however, able to obtain Arctic specimens from <ref target="../nameregs/nameregs_3997.xml" resp="#mjhawkins">John Richardson</ref>, <ref target="../nameregs/nameregs_2091.xml" resp="#mjhawkins">Albany Hancock</ref>, and <ref target="../nameregs/nameregs_4628.xml" resp="#mjhawkins">Peter Cormack Sutherland</ref>, surgeon on several Arctic voyages.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

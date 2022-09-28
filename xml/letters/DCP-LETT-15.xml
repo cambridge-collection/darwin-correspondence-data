@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-15">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From E. A. Darwin   [June 1825]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6010</idno>
+            
+            
+            
+            
+            <date when="1985">1985</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-15 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-15.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-15.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="01">1</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 204: 13</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>204: 13</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1211.xml">Darwin, E. A.</persName>
+                <placeName>[Cambridge]</placeName>
+                <date notBefore="1825-06-01" notAfter="1825-06-30">[June 1825]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks CD whether he is making any plans for Edinburgh.</p>
+            <p>Will be home in three weeks.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="places" ref="#">Edinburgh</term>
+                <term type="places" ref="#">Shrewsbury</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Cambridge]</placeName>
+                    <salute>Dear Bobby,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>You really are a beautiful correspondent. As to the tackle you are quite welcome to have it all except the line whose beauties you don’t appear to appreciate properly.</p>
+<p>Are you making any plans with regard to Edinbororough? any nice little stony excursions? We’ll have rare fun in plannning if we dont have any in performing them. I’ve made five hundred already for my share. How shall you fancy going there by sea? it is 14 hour’s passage from Liverpool to Glasgow. We can stay a day or two at y<hi rend="superscript">e</hi> Ile of Man if either of us feel inclined to give up the ghost, which wont be very unlikely I think. I shall be down in about 3 weeks &amp; then Gracious Heavens! how <hi rend="underline">you</hi> will chatter but.</p>
+<p>Tell Susan that I dont know whether she corresponds with Edward Holland,<ref target="#foot.f2"/> but that he is the only channel thro’ which I hear of her. How came Susan to come away before min’ aunt?<ref target="#foot.f3"/> Did she quarrel with Jessy<ref target="#foot.f4"/> or was it because Tom<ref target="#foot.f5"/> had the rheumatism in his jaws. The Hollands are all here with whom I am now going to dine &amp; must therefore conclude.</p>
+<p>My Love ad omnes, &amp; I hope the D<hi rend="superscript">r</hi> is better | Yours truly, E. D.</p> 
+<figure type="diagram"> 
+<p>[DIAGRAM HERE]</p> </figure> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The letter is dated from the reference to Erasmus’s coming down in about three weeks. The 1825 Easter Term ended 6 July.</note>
+            <note xml:id="foot.f2">A second cousin, <ref target="../nameregs/nameregs_2333.xml" resp="#mjhawkins">Edward Holland</ref>, was at the time an undergraduate at Trinity College.</note>
+            <note xml:id="foot.f3">Louisa Jane (Jane) Wedgwood.</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_5023.xml" resp="#mjhawkins">Jessie Wedgwood</ref>.</note>
+            <note xml:id="foot.f5">Thomas Josiah Wedgwood, Jessie’s brother.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

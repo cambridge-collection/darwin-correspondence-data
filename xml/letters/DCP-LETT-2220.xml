@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2220">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Charles Cardale Babington   22 February [1858]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8230</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2220 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2220.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2220.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Cambridge University Library (MS Add.8182: 20)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>MS Add 8182</collection>
+                    <idno>20</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1858-02-22">22 Feb [1858]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_214.xml">Babington, C. C.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>CD and J. D. Hooker have differed on the following question and agreed to ask several botanists: would a good botanist describing a local flora record varieties as readily in large as in small genera?</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_2357">Hooker, J. D.</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">higher groupings (‘family’, ‘class’, ‘order’ etc)</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">number of species</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Feb. 22<hi rend="superscript">d</hi></date>
+                    <salute>Dear Babington</salute>
+                </opener>
+                <div type="transcription">
+<p>You have sometimes kindly given me information, &amp; now I want to beg the favour of your answering me a theoretical question or rather a Botanico-Metaphysical question.</p>
+<p>Hooker has made a remark to me, which I cannot credit, &amp; I told I would ask one or two other Botanists &amp; not give any guide on our opinions &amp; that he agreed would be fair.<ref target="#foot.f2"/></p>
+<p>“Do you think that good Botanists in drawing up a local Flora, whether small or large, or in making a general Prodromus, would almost universally, but unconsciously &amp; unintentionally, tend to record (marking with greek letters in usual way) varieties in the large or in the small genera? Or would the tendency be to record the varieties nearly equally in genera of all sizes? Are you yourself conscious on reflexion, that you have attended to, &amp; more carefully recorded the varieties in large or small or very small genera?”</p>
+<p>You will observe the question does not in the least concern whether big or small genera are more or less variable, but whether there is a stronger tendency to record them more in one case than the other.</p>
+<p>I sh<hi rend="superscript">d</hi>. be infinitely obliged if you would be so kind as to consider this case &amp; let me hear your answer, &amp; believe me | Dear Babington | Yours sincerely | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">3.1 up] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">3.2 a general] ‘a’ <hi rend="italic">over</hi> ‘in’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the relationship to the <ref target="./DCP-LETT-2231.xml" resp="#mjhawkins">letter from C. C. Babington, 3 March 1858</ref>.</note>
+            <note xml:id="foot.f2">See preceding letter.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

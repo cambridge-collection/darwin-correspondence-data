@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2323">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Trenham Reeks?<ref target="#foot.f1"/>   13 August [1858]<ref target="#foot.f2"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1166</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2323 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2323.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2323.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+            <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+                <relatedItem type="publication">
+                    <bibl> <hi rend="italic">Correspondence</hi> 7: 153</bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="provenance">British Geological Survey Archives (GSM 1/501)</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="../repo/repo_314.xml">British Geological Survey Archives</repository>
+                        <collection>GSM </collection>
+                        <idno>1/501</idno>
+                    </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1858-08-13">13 Aug [1858]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3957.xml">Reeks, Trenham</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Has been asked to set a price on slate relief slabs [see <hi rend="doubleUnderline">2236</hi>]. Would appreciate advice from correspondent as he would like to buy pictures with the money.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="b" ref="#">2236</term>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="geology" ref="#">slate</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Aug 13<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>Owing to your kindness, M<hi rend="superscript">r</hi> Sam. Pratt of 47 N. Bond St<hi rend="superscript">t</hi>. has called here, during my absence &amp; inspected the Slate Reliefs.<ref target="#foot.f3"/> He now writes to ask me what is the lowest price I will take for the lot. I am quite at a loss what to answer. I do not care for them myself &amp; sh<hi rend="superscript">d</hi>. be glad to buy pictures with the money &amp; therefore wish, of course, to get as much as I can. Will you advise me, &amp; then I will give you no more trouble. And I can assure you that I appreciate all the trouble you have so very kindly taken for me.</p>
+<p>My dear Sir | Yours sincerely &amp; obliged | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The identification of the recipient is based on the relationship of this letter to the <ref target="./DCP-LETT-2236.xml" resp="#mjhawkins">letter to Trenham Reeks?, 10 March [1858]</ref>. There is no record of who might have bought the reliefs, but an entry in CD’s Account book (Down House MS) dated 28 August 1858 indicates that he received £150 for them. Further entries in CD’s Account book on 28 December 1858 and 6 January 1859 for £5 and £2 10<hi rend="italic">s</hi>. paid to a Mr Burn are probably commissions on the sale. Burn was probably an agent; it has not been possible to identify him further.</note>
+            <note xml:id="foot.f2">The year is given by CD’s payment of £5 to Burn on 28 December 1858 (see n. 1, above).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_3849.xml" resp="#mjhawkins">Samuel Luke Pratt</ref> was proprietor of an antique furniture business at 47 Bond Street, London (<hi rend="italic">Post Office London</hi> <hi rend="italic">directory</hi> 1858). For CD’s wish to sell the reliefs, see <ref target="./DCP-LETT-2236.xml" resp="#mjhawkins">letter to Trenham Reeks?, 10 March [1858]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10533F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Edward Frankland   [before 6 June 1876]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">21665</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10533F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10533F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10533F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Contemporary Copy incomplete<ref target="#foot.f4"/></note>
+            <note type="physdesc" n="CC">inc 2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">The John Rylands Library, The University of Manchester</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_371.xml">Rylands</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1739.xml">Frankland, Edward</persName>
+                <date notBefore="1809-01-01" notAfter="1876-06-05">[before 6 June 1876]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends analysis of burnt and unburnt samples.</p>
+        </abstract>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+                    <table>
+                        <row><cell cols="3" rend="centre">—— <hi rend="underline">Burnt Soil</hi> ——</cell></row>
+                        <row><cell>Moisture at 100<hi rend="superscript">o</hi></cell> <cell rend="right">0.50</cell> <cell>per cent</cell></row>
+                        <row><cell>Loss on Ignition </cell><cell rend="right">1.20</cell></row>
+                        <row><cell>Silica </cell><cell rend="right">89.09</cell></row>
+                        <row><cell>Ferric Oxide </cell><cell rend="right">3.88</cell></row>
+                        <row>
+                            <cell>Alumina </cell><cell rend="right">3.41</cell>
+                        </row>
+                        <row><cell>Lime </cell><cell rend="right">0.84</cell></row>
+                        <row><cell>Magnesia </cell><cell rend="right">0.49</cell></row>
+                        <row><cell>Potash </cell><cell rend="right">0.15</cell></row>
+                        <row><cell>Soda </cell><cell rend="right">0.04</cell></row>
+                        <row><cell>Phosphoric Anhydride </cell><cell rend="right">0.09<ref target="#foot.f2"/></cell></row>
+                        <row><cell/><cell rend="right">99.69</cell></row>
+                        <row><cell/></row>
+                        <row><cell cols="3" rend="centre"><hi rend="underline">Natural Soil</hi></cell></row>
+                        <row><cell>Moisture at 100<hi rend="superscript">o</hi></cell> <cell rend="right">2.22</cell> <cell>per cent</cell></row>
+                        <row><cell>Loss on ignition</cell> <cell rend="right">4.26</cell></row>
+                        <row><cell>Silica </cell><cell rend="right">77.72</cell></row>
+                        <row><cell>Ferric oxide</cell> <cell rend="right">5.52</cell></row>
+                        <row><cell>Alumina </cell><cell rend="right">8.79</cell></row>
+                        <row><cell>Lime </cell><cell rend="right">0.48</cell></row>
+                        <row><cell>Magnesia </cell><cell rend="right">0.51</cell></row>
+                        <row><cell>Potash </cell><cell rend="right">0.33</cell></row>
+                        <row><cell>Soda </cell><cell rend="right">0.26</cell></row>
+                        <row><cell>Phosphoric Anhydride </cell><cell rend="right">0.04</cell></row>
+                        <row><cell>Sulphuric do</cell> <cell rend="right">traces</cell></row>
+                        <row><cell/><cell rend="right">100.13<ref target="#foot.f3"/></cell></row>
+                    </table>
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter and the <ref target="./DCP-LETT-10534A.xml" resp="#mjhawkins">letter to Edward Frankland, 6 June [1876]</ref>.</note>
+            <note xml:id="foot.f2">Phosphoric anhydride is more commonly known today as phosphorus pentoxide; alumina is synthetically produced aluminum oxide. ‘Loss on ignition’ is a test used in analytical chemistry in which a sample is heated and then weighed until the mass is stable; for organic matter the temperature is high enough to burn organic matter but not so high as to decompose carbonates.</note>
+            <note xml:id="foot.f3">CD had sent Frankland samples of burnt and unburnt soils to analyse; see <ref target="./DCP-LETT-10533A.xml" resp="#mjhawkins">letter to Edward Frankland, [before 6 June 1876]</ref>.</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin</ref> quoted from Frankland’s letter in <ref target="./DCP-LETT-10535F.xml">his letter to J. H. Gilbert, 8 June 1876</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

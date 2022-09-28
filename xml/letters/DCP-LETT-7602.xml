@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7602">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From George Thin to Alex Thin<ref target="#foot.f1"/>   19 March 1871</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14377</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7602 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7602.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7602.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="LS">4pp † (by CD)</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 178: 90</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>178: 90</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4710.xml">Thin, George</persName>
+                <placeName>East Linton</placeName>
+                <date when="1871-03-19">19 Mar 1871</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4709.xml">Thin, Alex</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Bitch crossed with dog produced puppies like those of previous cross with a very different dog.</p>
+            <p>[Forwarded to CD by Robert Swinhoe.]</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">dogs</term>
+                <term type="people" ref="#subject_1">Darwin, C. R.</term>
+                <term type="people" ref="#subject_4642">Swinhoe, Robert</term>
+                <term type="scientific_terms" ref="#">crossing</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">physical ‘external’ characters</term>
+                <term type="scientific_terms" ref="#">reversion</term>
+                <term type="scientific_terms" ref="#">young, offspring</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>East Linton</placeName>
+                    <date>March 19<hi rend="superscript">th</hi>. 1871</date>
+                    <salute>My dear Alex</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>The facts about my uncle’s<ref target="#foot.f2"/> bitch are these.</p>
+<p>More than twenty years ago he had a bull-terrier bitch. A Captain Arkwright resided here at that time and had a famous Irish bull dog, Jim.<ref target="#foot.f3"/> He got a litter of pups off Jim twice. He then wished to have a litter off a very fine rough Scotch terrier. As soon as his bitch began to show signs of being in heat he shut her up and is quite certain that no dog but the Scotch terrier got near her. The bitch had always shown a decided preference for Jim, so much so that even when in heat she would snarl at other dogs that came near her. She was put under lock with the Scotch terrier, and in due time she had her pups. None of them resembled the Scotch terrier but they were all like the bull dog. One was so like that he kept him on that account and he (the pup) was in the village for several years afterwards. The likeness was both in shape &amp; colour.</p>
+<p>My uncle has been long a breeder and fancier of dogs, and has always had the conviction that some cause other than copulation produced this remarkable phenomenon.</p>
+<p>I am yours | G Thin</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note><hi rend="italic">Top of letter</hi>: ‘(Previous impregnation)’<ref target="#foot.f4"/><hi rend="italic">pencil</hi>; square brackets in MS</note>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">A note in <ref target="../nameregs/nameregs_4642.xml" resp="#mjhawkins">Robert Swinhoe’s</ref> hand at the bottom of the last page of this letter reads, ‘Surgeon practising at Shanghai writing to his brother— I know both well. RS’. Swinhoe evidently passed on the letter to CD. Swinhoe was on leave in England (see <ref target="./DCP-LETT-7580.xml" resp="#mjhawkins">letter from Robert Swinhoe, 14 March 1871</ref>).</note>
+            <note xml:id="foot.f2">Thin’s uncle has not been identified.</note>
+            <note xml:id="foot.f3">Captain Arkwright has not been further identified.</note>
+            <note xml:id="foot.f4">CD discussed the effects of previous impregnation on subsequent progeny in <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 402–5. He discussed further cases in his <ref target="./DCP-LETT-7138.xml" resp="#automat">letter to J. J. Weir 17 March [1870]</ref> (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 18).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

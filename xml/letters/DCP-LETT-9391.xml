@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9391">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From J. V. Carus   5 April 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8722</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9391 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9391.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9391.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 161: 94</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>161: 94</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_849.xml">Carus, J. V.</persName>
+                <placeName>Leipzig</placeName>
+                <date when="1874-04-05">5 Apr 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Hopes to visit CD during a stay in London.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="places" ref="#">London</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Leipzig,</placeName>
+                    <date>Apr 5<hi rend="superscript">th</hi>. 1874.</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I shall come to London to-morrow week and stay there till Wednesday after-noon. If I shall be able to see you this time, I am not quite sure, as I am rather pressed with my time. But on my return from Edinburgh<ref target="#foot.f1"/> in the beginning of August I shall try again to find you   This time I bring M<hi rend="superscript">rs</hi>. Carus and two daughters with me, whom I should not like to carry too-much about.<ref target="#foot.f2"/> So, if you should happen to hear from Dr Günther<ref target="#foot.f3"/> that I passed through London, pray excuse me if I did not try to pay you my respects personally, as I wished and have wished to do these many years</p>
+<p>I am rather in haste, as it is always hard work to prepare work without one’s library and all the rest for four months coming.</p>
+<p>Believe me to be | Yours always truly, | J. Victor Carus</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Carus gave a course of lectures on natural history at the University of Edinburgh (see <ref target="./DCP-LETT-9248.xml" resp="#mjhawkins">letter from J. V. Carus, 19 January 1874</ref> and n. 2).</note>
+            <note xml:id="foot.f2">Carus’s wife was <ref target="../nameregs/nameregs_5336.xml" resp="#mjhawkins">Sophie Catherine Carus</ref>. He had three daughters: Agnes Marie Elisabeth, Anne Sophie Gertrud, and Louise Charlotte Johanna.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_1779.xml" resp="#mjhawkins">Albert Günther</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

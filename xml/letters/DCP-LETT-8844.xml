@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8844">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Adolph Reuter   6 April 1873</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10503</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8844 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8844.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8844.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 176: 128</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>176: 128</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3987.xml">Reuter, Adolf</persName>
+                <placeName>Pfauen Insel, near Potsdam</placeName>
+                <date when="1873-04-06">6 Apr 1873</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends photograph of a diseased roebuck shot by Prince Frederick Charles of Prussia.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">roebuck</term>
+                <term type="people" ref="#subject_1751">Frederick Charles, Prince</term>
+                <term type="places" ref="#">Prussia</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">human intervention</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">killing</term>
+                <term type="scientific_terms" ref="#">pathology, disease</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Pfaueninsel near | Potsdam</placeName>
+                    <date>the 6.4.73.</date>
+                    <salute>Dear Sir!</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Because You have been always so very kind and indulgent with me, so I hope it will not be impolite from me, when I take me the liberty to send again a letter and also the photographie of a curiosity to You.<ref target="#foot.f1"/></p>
+<p>Indeed a very interesting animal which has been shooted the last year by the Prince Fred. Charles<ref target="#foot.f2"/> in the forest of Glinicke about 1<formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>4</mn></mfrac></math></formula> hour far from Potsdam.</p>
+<p>The roebuck must have been diseased, then the Genitalia has been very small and perhaps the cause of that, the horns were surrounded with an excrescense till to the eyes.—<ref target="#foot.f3"/></p>
+<p>The head of the roebuck has been stuffed and is now at Glinicke, the castle used for the purposes of the chasse of the Prince Fred. Charles<ref target="#foot.f4"/></p>
+<p>I have yet collected a great number of interesting examples of domestication etc. which I send you with the next letter, when it will not be molesting for You?—</p>
+<p>With my best wishes for Your health I remain my dearest Sir | Your | most obedient servant. | A. Reuter.</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note>3.1 The roebuck … eyes.— 3.3] <hi rend="italic">scribbled over blue crayon</hi></note>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The photograph has not been found.</note>
+            <note xml:id="foot.f2">Prince Friedrich Karl of Prussia.</note>
+            <note xml:id="foot.f3">The roe-deer is <hi rend="italic">Capreolus capreolus</hi>. For more on the correlation between abnormalities in genitalia and antler formation, see <ref target="../bibliographies/bibl_6728.xml" resp="#mjhawkins">Rörig 1907</ref>. Rörig discussed specimens from Glienicke, but not the one mentioned here (see <ref target="../bibliographies/bibl_6728.xml" resp="#mjhawkins">Rörig 1907</ref>, p. 11).</note>
+            <note xml:id="foot.f4">Schloss Klein-Glienicke was the hunting retreat of Prince Friedrich Karl of Prussia (<ref target="../bibliographies/bibl_25.xml" resp="#mjhawkins"><hi rend="italic">ADB</hi></ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-6221" status="released">
+    <persName>
+        <forename>Amy</forename>
+        <forename>Harriet</forename>
+        <choice>
+            <seg><surname notBefore="1857" notAfter="1877">Lubbock</surname></seg>
+            <seg><surname notBefore="1877" notAfter="1884">Mulholland</surname></seg>
+            <seg><surname notBefore="1884" notAfter="1929"><nameLink>Van </nameLink>Zandt</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1857–1929</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Eldest daughter of John and Ellen Frances Lubbock. Married Andrew Mulholland (died June 1877) in March 1877; Ferdinand Snydam Van Zandt (died 1892) in 1884.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_1096.xml" resp="#mjhawkins"><hi rend="italic">Burke’s peerage</hi></ref></p>
+        <p><ref target="../bibliographies/bibl_3968.xml" resp="#mjhawkins">Hutchinson 1914</ref>.</p>
+    </note>
+    <note type="volume">21,30</note>
+    
+</person>

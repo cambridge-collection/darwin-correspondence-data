@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7235">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From T. W. Wood   16 June 1870</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">11117</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7235 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7235.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7235.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 181: 148</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>181: 148</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_5229.xml">Wood, T. W.</persName>
+                <placeName>London, Hampstead Rd</placeName>
+                <date when="1870-06-16">16 June 1870</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Argus pheasant.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">pheasant, argus</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>221 Stanhope Street, | Hampstead Road N.W.</placeName>
+                    <date>June 16<hi rend="superscript">th</hi> 1870.</date>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I beg to thank you for your very kind and appreciative letter, &amp; with regard to your query about the difference in the shading of the spots of the Argus being an optical illusion, I can assure you that is not the case, the markings being quite fixed &amp; the only illusion is that produced by nature in making flat surfaces appear convex.<ref target="#foot.f1"/> I have a feather taken from close to the bird’s body &amp; also one of those farthest from it; in the former the spots are thus</p> 
+<figure type="diagram"> 
+<p>[DIAG HERE]</p> </figure> 
+<p rend="left">&amp; in the latter=</p> 
+<figure type="diagram"> 
+<p>[DIAG HERE]</p> </figure> 
+<p>M<hi rend="superscript">r</hi> Tegetmeier of “the Field” will get the block stereotyped for you without charge &amp; has kindly promised that it shall be ready soon. I told him of your wish that the Gold pheasant’s feathers should be cut out &amp; am sorry you cannot find room for them, if in reconsidering the matter you should alter your mind please let me know at once.<ref target="#foot.f2"/> In “the Student” you will find a sketch of this beautiful bird with the collar expanded.<ref target="#foot.f3"/> The only condition M<hi rend="superscript">r</hi> Tegetmeier mentioned was that the cut should be alluded to as having been taken from “the Field”<ref target="#foot.f4"/></p>
+<p>I remain, | Dear Sir, | Yours faithfully, | T. W. Wood. <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin Esq. F.R.S. &amp;c— &amp;c—</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Wood refers to the ocellated spots on the plumage of the argus pheasant; see <ref target="./DCP-LETT-7229.xml" resp="#automat">letter from T. W. Wood, 14 June 1870</ref>. The letter to which this is a reply has not been found.</note>
+            <note xml:id="foot.f2">Wood’s letter to the <hi rend="italic">Field</hi>, 28 May 1870, p. 457, included diagrams of feathers; two of them were of collar feathers of the gold pheasant (<hi rend="italic">Chrysolophus pictus</hi>). Wood was interested in these feathers because the double stripe on each feather had the effect of maintaining the appearance of continuous stripes on the plumage even when the feathers were fluffed up and separated.</note>
+            <note xml:id="foot.f3"><ref target="../bibliographies/bibl_8478.xml" resp="#mjhawkins">Wood 1870</ref>, second plate, fig. h.</note>
+            <note xml:id="foot.f4">CD did not use Wood’s diagrams from the <hi rend="italic">Field</hi> in <hi rend="italic">Descent.</hi></note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

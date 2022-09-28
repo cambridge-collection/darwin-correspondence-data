@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8927">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From William Harte   29 May 1873</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17565</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8927 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8927.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8927.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">8pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 166: 111</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>166: 111</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2148.xml">Harte, William</persName>
+                <placeName>Londonderry</placeName>
+                <date when="1873-05-29">29 May 1873</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Light sense in dogs.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">dogs</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">perception and sensation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Buncrana | near Londonderry</placeName>
+                    <date>29<hi rend="superscript">th</hi> May 1873</date>
+                    <salute>Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Excuse the liberty I take in addressing you but I am curious to bring under your notice some views of mine upon the subject of instinct or perception in the lower Animals— I tried to ventilate my ideas in “Nature” but the Editor has rather made a mess of my letter by publishing last week the most unimportant part of it—<ref target="#foot.f1"/></p>
+<p>—Now my theory is that a dog (and other animals, Cats for instance) are guided not by sense of smell but by the <hi rend="underline">direction</hi> of the light.<ref target="#foot.f2"/> The rule prevailing in all animated Nature from Indians in the thick Woods down to microscopic organisms all regulate their movements with reference to the point from which the light is radiated</p>
+<p>—A dog brought from home in a close box say has his line of motion impressed upon him not by sense of smell but by the manner in which he is oscillated on the Journey— If he lies transverse to, or in line with, the direction he is going in that is forced upon his attention— He knows too the lie of the country near home and he knows perfectly well, at starting, that is going along a well known walk in a certain well known direction as regards the Sun.— His return Journey is performed by reversing this route and looking out from time to time for the well known locality of home the lie of which he is well acquainted with— We see that straying dogs actually do this—and his route might be illustrated roughly by this diagram</p> 
+<figure rend="blockCentred width95"> 
+    <graphic url="../images/DCP-LETT-8927.svg"/>
+</figure> 
+<p rend="left">—I believe this will unlock all the <hi rend="underline">facts</hi> and difficulties of the matter. Whether for Mammals—birds—fishes &amp;c— I would scarcely presume to have thus direct your attention to it—</p>
+<p>The smell theory is too violent and here we have one consonant with the well known rule of all Animated Nature and dependent on a constant and universal law. The most natural Source from which to derive our perceptive faculties—Sight—</p>
+<p>Again asking pardon for the the intrusion of a hurried communication believe me | Yours faithfully | William Harte | C.E. F.R.G.S &amp;c &amp;c &amp;c <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin Esq</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The topic of instinct and perception was being debated in <hi rend="italic">Nature</hi> (see <ref target="./DCP-LETT-8902.xml" resp="#mjhawkins">letter from W. F. Barrett, 6 May 1873</ref> and n. 1). Since a large number of letters were addressed to the editor on this subject, often only extracts from them could be published; an extract from Harte’s letter, introduced as one from a gentleman in the north of Ireland, appeared with several others in <hi rend="italic">Nature</hi>, 22 May 1873, p. 78.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_4935.xml" resp="#mjhawkins">Alfred Russel Wallace</ref> had suggested in <hi rend="italic">Nature</hi>, 20 February 1873, p. 303, that animals found their way home by means of smell.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

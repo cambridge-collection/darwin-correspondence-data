@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6424">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Tyndall   20 October 1868</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3975</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6424 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6424.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6424.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 148: 167</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 261.8: 6 (EH: 88205944)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>261.8: 6 (EH: 88205944)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1868-10-20">20 Oct 1868</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4839.xml">Tyndall, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Invites JT to come to Down with the Asa Grays and Hookers.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_3629">Grays, Asa</term>
+                <term type="places" ref="#">Down</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">inviting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Oct. 20 1868</date>
+                    <salute>My dear Tyndall</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>The Asa Grays &amp; Hookers are coming here on Saturday next, &amp; it would give us all very great pleasure if you c<hi rend="superscript">d</hi> spare the time to come to us on that day &amp; stay the Sunday with us.<ref target="#foot.f1"/></p>
+<p>We dine at 7.30—&amp; your best route will be by S.E. Railway from Charing Cross to Orpington Station, which is 4 miles from this house. Very many thanks for your note about Hinrichs whose papers I sent to you.<ref target="#foot.f2"/></p>
+<p>I am sure you will excuse me in taking the privileges of an invalid &amp; often leaving my guests.</p>
+<p>My dear Tyndall | yours very sincerely. | Charles Darwin</p>
+<p>P.S. You w<hi rend="superscript">d</hi> find 4.18. or 5.8. from Charing Cross convenient trains &amp; if you will let me know which I will send a fly from here—</p>
+<p>If you come to Bromley (6 miles off) flys are plentiful</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin</ref> reported in her diary (DAR 242) that the Hookers, the Grays and Tyndall, among others, arrived at Down on 24 October 1868. Asa and <ref target="../nameregs/nameregs_1960.xml" resp="#mjhawkins">Jane Loring Gray</ref> stayed at Down for the week; <ref target="../nameregs/nameregs_2357.xml" resp="#mjhawkins">Joseph Dalton Hooker</ref>, and possibly his children Harriet Anne and <ref target="../nameregs/nameregs_2366.xml" resp="#mjhawkins">William Henslow Hooker</ref>, also stayed for at least some of the time (see <ref target="./DCP-LETT-6396.xml" resp="#mjhawkins">letter from J. D. Hooker, [28 September 1868]</ref>).</note>
+            <note xml:id="foot.f2">CD refers to <ref target="../nameregs/nameregs_2304.xml" resp="#mjhawkins">Gustavus Detlef Hinrichs</ref>. See <ref target="./DCP-LETT-6414.xml" resp="#mjhawkins">letter from John Tyndall, 9 October 1868</ref> and n. 3.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

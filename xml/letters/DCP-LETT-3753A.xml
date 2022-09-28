@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3753A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Murray   7 October [1862?]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20514</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3753A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3753A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3753A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">incomplete</note>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Christie’s (dealers) (27 March 1985)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_88.xml">Christie's</repository>
+                    <collection>27 Mar 1985</collection>
+                    <idno/>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1862-10-07">7 Oct [1862?]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Reports misprint in announcement of his book [<hi rend="italic">Orchids</hi>].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Orchids</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down, Bromley</placeName>
+                    <date>7 October</date>
+                </opener>
+                <div type="transcription">
+                     
+<p>My eye has just caught sight of a curious misprint in your announcement of my Book, viz., the good affects of <hi rend="underline">intercussing</hi> for intercrossing.<ref target="#foot.f2"/> It might do a man good to swear a little occasionally, but a formal treatise on the good effects of intercussing is a novelty</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is conjectured from the date of publication of the first edition of <ref target="../bibliographies/bibl_6010.xml" resp="#mjhawkins"><hi rend="italic">Orchids</hi></ref> (see n. 2, below).</note>
+            <note xml:id="foot.f2">The announcement has not been traced. The first edition of <ref target="../bibliographies/bibl_6010.xml" resp="#mjhawkins"><hi rend="italic">Orchids</hi></ref> was published in May 1862 with the subtitle ‘on the good effects of intercrossing’. The subtitle was not used in the second edition.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

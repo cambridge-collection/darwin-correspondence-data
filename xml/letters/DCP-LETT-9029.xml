@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9029">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. S. Burdon Sanderson   27 August 1873</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3827</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9029 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9029.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9029.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+                <bibl type="provenance">National Library of Scotland (MS.6103 ff.101)</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="../repo/repo_292.xml">NL Scotland</repository>
+                        <collection>MS.6103</collection>
+                        <idno>ff. 101</idno>
+                    </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1873-08-27">27 Aug 1873</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4177.xml">Sanderson, J. S. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>CD can provide leaves of <hi rend="italic">Dionaea</hi> if JSBS wishes to investigate electric currents in them.</p>  
+<p>His experiments show that the digestive action of <hi rend="italic">Drosera</hi> seems like that of true digestion.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Dionaea</term>
+                <term type="plants" ref="#">Drosera</term>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="scientific_terms" ref="#">plant physiology</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>Aug 27. 1873</date>
+                    <salute>My dear D<hi rend="superscript">r</hi> Sanderson</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have returned home &amp; have been very unwell, otherwise I shd have written sooner to tell you that there are, or very soon will be, some good leaves on Dionæa, in case you are still inclined to investigate electric currents in them.<ref target="#foot.f1"/></p>
+<p>It seems to me a point well worth investigating, but you can judge far better than I can. If you determine to make the trial, I think that I can send the plants to you safely carried by hand.</p>
+<p>I presume that the apparatus is cumbrous &amp; that it w<hi rend="superscript">d</hi> waste more of your time to come here, otherwise I should be <hi rend="underline">delighted</hi> to see you at Down.<ref target="#foot.f2"/></p>
+<p>I shall not try many more experiments on Drosera or Dionæa, for I have not knowledge enough; but I must tell you that minute drops of Sol. of Carb. of Soda entirely stops the action of the viscid &amp; acid secretion of Drosera on cubes of Albumen; but afterwards, by putting a little weak Hydrochloric acid on the same leaves, the albumen is dissolved, so that the action seems like one of true digestion.<ref target="#foot.f3"/></p>
+<p>Believe me | yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-9013.xml" resp="#mjhawkins">letter to J. S. Burdon Sanderson, 15 August 1873</ref>. The reference is to <hi rend="italic">Dionaea muscipula</hi> (Venus fly trap).</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-9013.xml" resp="#mjhawkins">letter to J. S. Burdon Sanderson, 15 August 1873</ref> and n. 5.</note>
+            <note xml:id="foot.f3">CD described the experiment with carbonate of soda (sodium carbonate) followed by hydrochloric acid in <ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref>, p. 95.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

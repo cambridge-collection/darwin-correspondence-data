@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1320">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To A. A. Gould   8 April [1850]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3071</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1320 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1320.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1320.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Houghton Library, Harvard University (Augustus A. Gould papers, 1831–66 MS Am 1210: 228)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_180.xml">Harvard Houghton</repository>
+                    <collection>MS Am 1210: 228</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1850-04-08">8 Apr [1850]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1931.xml">Gould, A. A.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Parcel from AAG containing cirripede specimens has been received by CD from Hugh Cuming.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">cirripedes</term>
+                <term type="people" ref="#subject_1149">Cuming, Hugh</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">fossils</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>April 8<hi rend="superscript">th</hi>.</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I write one line to say how sorry I am that I troubled you with a former letter; for on calling yesterday at M<hi rend="superscript">r</hi> Cumings I found there a parcel for me from you. M<hi rend="superscript">r</hi> Cuming was ill when it arrived &amp; the servant laid it aside &amp; it was found only the other day.— I am very much obliged for this fresh proof of your kindness.— In your note, you speak of a Coronula being enclosed; such, I am sorry to say was not in the parcel &amp; I am quite unable to account for its loss. The parcel contained only a fine large Balanus. M<hi rend="superscript">r</hi> Dana gave me some hopes that you possessed some species of Scalpellum.—</p>
+<p>Pray accept my apologies &amp; thanks &amp; believe | me dear Sir in Haste | Yours sincerely obliged | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.6 The parcel contained only a fine large Balanus.] <hi rend="italic">added</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The reference in the letter to CD’s wish to see species of <hi rend="italic">Scalpellum</hi> indicates a date of 1850, the period during which he was preparing descriptions of this genus for <ref target="../bibliographies/bibl_4837.xml" resp="#mjhawkins"><hi rend="italic">Living Cirripedia</hi> (1851)</ref>. CD was in London to attend a council meeting of the Geological Society on 10 April (‘Journal’; <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 4, Appendix I), which might be the occasion on which he visited <ref target="../nameregs/nameregs_1149.xml" resp="#mjhawkins">Hugh Cuming</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

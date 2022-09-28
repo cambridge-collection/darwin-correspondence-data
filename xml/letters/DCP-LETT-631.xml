@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-631">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. A. Leighton   [1–23 July 1841]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13458</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-631 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-631.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-631.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="C">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 146: 39</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>146: 39</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Shrewsbury</placeName>
+                <date notBefore="1841-07-01" notAfter="1841-07-23">[1–23 July 1841]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2883.xml">Leighton, W. A.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Tells WAL where specimen of <hi rend="italic">Cynoglossum sylvaticum</hi> may be seen growing.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Cynoglossum sylvaticum</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>A few days since I was struck by the difference in aspect of a Cynoglossum from the common species. Being no Botanist I did not even know there were two species, till on consulting your work.<ref target="#foot.f2"/> I have no doubt it was the C. sylvaticum, as it was of a much paler green, with narrower leaves &amp; of a more upright growth. Observing that you do not appear to have seen a Shropshire specimen<ref target="#foot.f3"/> it has occurred to me that you would like to know where I saw my plant, for the <hi rend="underline">chance </hi> of a non-botanist having observed correctly.— the following diagram will best show position.  [DIAGRAM HERE] to Bishop’s Castle old Coal Pit Meole turnpikes Cliff of large gravel pit. the species of Cynoglossum. quantities of the Reseda cornfield to Ponsford turnpike Shrewsbury</p>
+<p>Should you think it worth while to visit this spot, will you be so kind as to take the trouble at any time to inform me whether it is the C. sylvaticum. I should have had much pleasure in showing you the spot myself, but I am at present far from strong &amp; am obliged to avoid all extra exertion—</p>
+<p>Believe me | My dear Sir | Yours very faithfully | Charles Darwin. <lb resp="#mjhawkins"/> Saturday</p>
+<p>Shrewsbury.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">This letter might have been written during any Shrewsbury visit from the summer of 1841 to November 1848, but CD’s illness in the summer of 1841 makes this date likely. According to CD’s Account Book (Down House MS) he travelled from Maer to Shrewsbury on 1 July and on to London on 23 July.</note>
+            <note xml:id="foot.f2">Leighton 1841.</note>
+            <note xml:id="foot.f3">Leighton had not himself seen a specimen of <hi rend="italic">C. sylvaticum</hi> in Shropshire, but he mentions a sighting by a Miss McGhie near Ludlow (Leighton 1841, p. 101).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

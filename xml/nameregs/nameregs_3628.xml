@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-3628" status="released">
+    <persName>
+        <forename>Mary</forename>
+        <forename>Susan</forename>
+        <choice>
+            <seg><surname notBefore="1836" notAfter="1866">Parker</surname></seg>
+            <seg><surname notBefore="1866" notAfter="1893">Mostyn Owen</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1836–93</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>CD’s niece. Daughter of Henry Parker and CD’s sister Marianne. Married Edward Mostyn Owen in 1866.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_1822.xml" resp="#mjhawkins"><hi rend="italic">Darwin pedigree</hi></ref></p>
+        <p><hi rend="italic">England &amp; Wales, national probate calendar</hi> (<hi rend="italic">index of wills and administrations</hi>), <hi rend="italic">1858–1966, 1973–95</hi> (Ancestry.com, accessed 9 September 2019)</p>
+    </note>
+    <note type="volume">1,7,10,12,15,18,19,29</note>
+    <note type="keywords">
+        <term type="name">Parker, Marianne</term>
+        <term type="name">Parker, Henry</term>
+        <term type="name">Darwin, C. R.</term>
+        <term type="name">Mostyn Owen, Edward</term>
+    </note>
+    
+</person>

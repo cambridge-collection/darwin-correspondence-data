@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-108">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From R. W. Darwin to Josiah Wedgwood II   30–1 August 1831</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1812</idno>
+            
+            
+            
+            
+            <date when="1985">1985</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-108 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-108.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-108.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="01">1</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">V&amp;A / Wedgwood Collection (MS W/M 96)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_521.xml">V&amp;A / Wedgwood Collection</repository>
+                    <idno>(MS W/M 96)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1234.xml">Darwin, R. W.</persName>
+                <placeName>Salop</placeName>
+                <date notBefore="1831-08-30" notAfter="1831-08-31">30–1 Aug 1831</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_5026.xml">Wedgwood, Josiah, II</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>CD has had an offer to go on a voyage of discovery for two years. RWD objects strongly, but will let CD make his case and if JW agrees with CD, RWD will change his position. In a postscript RWD adds, "Charles has quite given up … the voyage."</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1">Darwin, C. R.</term>
+                <term type="scientific_terms" ref="#">negative attitude/assessment</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+                <term type="ships" ref="#">Beagle</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Salop</placeName>
+                    <date>30 August 31.</date>
+                    <salute>Dear Wedgwood</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very glad you feel better, and that six of the turpentine pills answer.— perhaps as they change the particular part of the bowel that is stimulated by medicine, it is as well to still continue them for some time. You will be so good as to attend to the buffy discharge from the bowels, because if that continues, or increases, it may be a reason for giving up the use of these new pills, as they may conduce to its formation.</p>
+<p>Thank Frank<ref target="#foot.f1"/> for his basket. I have not yet opened it.</p>
+<p>Charles will tell you of the offer he has had made to him of going for a voyage of discovery for 2 years.— I strongly object to it 〈on var〉ious grounds, but I will not detail my reasons that he may have your unbiassed opinion on the subject, &amp; if you think differently from me I shall wish him to follow your advice.</p>
+<p>Dear Wedgwood yours affectionly | R W Darwin</p>
+<p>Since writing the above <ref target="../nameregs/nameregs_1460.xml">Edward</ref> has opened the basket Henry left for me from Frank &amp; we find it is a parcel for your brother which they ought to have taken on with his to the Hill.<ref target="#foot.f2"/> *S 2</p>
+<p rend="left">Wednesday 31.</p>
+<p>Charles has quite given up the idea of the voyage.</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_5015.xml">Francis Wedgwood</ref>, son of <ref target="../nameregs/nameregs_5026.xml" resp="#mjhawkins">Josiah Wedgwood II</ref>.</note>
+            <note xml:id="foot.f2">The Hill, Abergavenny, Wales, was the home of the <ref target="../nameregs/nameregs_5024.xml" resp="#mjhawkins">John Wedgwood</ref>s.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

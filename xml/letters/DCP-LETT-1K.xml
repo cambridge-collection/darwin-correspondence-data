@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1K">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Dear Friend<ref target="#foot.f1"/>   4 January 1822</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20956</idno>
+            
+            
+            
+            
+            <date when="2002">2002</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1K by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1K.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1K.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="13">13-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">AL</note>
+            <note type="physdesc">AL 4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 271/1/1</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno> 271/1/1</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <date when="1822-01-04">4 Jan 1822</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_7868.xml">Dear Friend</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Caroline disapproves of his not washing.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1208">Darwin, C. S.</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>My Dear friend</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>you must know that after my Georgraphy, she<ref target="#foot.f2"/> said I should go down to ask for Richards<ref target="#foot.f3"/> poney, just as I was going, she said she must ask me not a very decent question, that was whether I wash all over every morning   no   then she said it was quite disgustin   then she asked me if I did every other morning, and I said no   then she said how often I did, and I said once a week, then she said of cour you wash your feet every day, and I said no, then she begun saying how very disgusting and went on that way a good while, then she said I ought to do it, I said I would wash my neck and shoulders, then she said you had better do it all over   then I said upon my word I would not, then she told me, and made me promise I would not tell, then I said, why I only wash my fett once a month at school, which I confess is nasty, but I cannot help it, for we have nothing to do it with,<ref target="#foot.f4"/> so then Caroline pretended to be quite sick, and left the room, so then I went and told erasmus,<ref target="#foot.f5"/> and he bust out in laughing and said I had better tell he to come and wash them her self, besides that she said she did not like sitting by me or Erasmus for we smelt of not washing all over, there we sat arguing away for a good while.</p>
+<p>I remain your affectionately</p>
+<p>Justice <hi rend="italic">[</hi>burst<hi rend="italic">]</hi> w[ith] a nose as big as your fist <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">January the 2, 1822</p>
+<p>The second letter today<ref target="#foot.f6"/></p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 ask] <hi rend="italic">altered from</hi> ‘aske’</note>
+                    <note xml:id="tnote.n2">1.8 you had] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n3">1.8 do it all over] <hi rend="italic">interl</hi></note>
+                </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The friend has not been identified. See this volume, Supplement, <ref target="./DCP-LETT-1F.xml" resp="#mjhawkins">letter to Dear Friend, 1 January 1822</ref>, n. 1.</note>
+            <note xml:id="foot.f2">CD refers to his sister Caroline Sarah Darwin. Caroline had taught CD at home before he started attending school and was presumably supervising his studies during the school holiday (see <hi rend="italic">Autobiography</hi>, p. 22, and this volume, Supplement, <ref target="./DCP-LETT-1F.xml" resp="#mjhawkins">letter to Dear Friend, 1 January 1822</ref>, n. 1).</note>
+            <note xml:id="foot.f3">Richard or Richards has not been further identified.</note>
+            <note xml:id="foot.f4">On the sanitary arrangements at Shrewsbury School in the early nineteenth century, see <ref target="../bibliographies/bibl_5958.xml" resp="#automat" cert="low">Oldham 1952</ref>, p. 155.</note>
+            <note xml:id="foot.f5"><ref target="../nameregs/nameregs_1211.xml" resp="#mjhawkins">Erasmus Alvey Darwin</ref>.</note>
+            <note xml:id="foot.f6">Since this letter appears in the book immediately after the <ref target="./DCP-LETT-1J.xml">letter to Dear Friend, 4 January 1822</ref> (this volume, Supplement), it has been given a clear date of 4 January. The written date, 2 January, is presumably a mistake.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2721">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To a Bookseller   4 March [1860]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8238</idno>
+            
+            
+            
+            
+            <date when="1993">1993</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2721 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2721.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2721.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="08">8</biblScope>
+        </seriesStmt>
+            <notesStmt>
+            <note type="endorsement" subtype="letter">1860 | March 5.</note>
+            <note type="physdesc" n="ALS">1p</note>                
+                <relatedItem type="publication">
+                    <bibl> <hi rend="italic">Correspondence</hi> 8: 117</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">The Morgan Library and Museum, New York (MA 1492)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_324.xml">Morgan</repository>
+                    <idno>MA 1492</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1860-03-04">4 Mar [1860]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_535.xml">Bookseller</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Orders J. B. Jukes’s <hi rend="italic">Student’s manual of geology</hi> [1857] and <hi rend="italic">Macmillan’s Magazine</hi> (Dec 1859).</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="it" ref="#">Student’s manual of geology</term>
+                <term type="rx" ref="#">Jukes, J. B. 1857</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>March 4<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Please procure &amp; send to 57 Queen Anne St. “Jukes’ Students Manual of Geology”, published two or three years ago.<ref target="#foot.f1"/></p>
+<p>Allso please procure <hi rend="underline">&amp; send here by Post</hi>, Macmillan’s Magazine No<hi rend="superscript">r</hi> <hi rend="underline">2, for December 1859</hi> <ref target="#foot.f2"/> published at Cambridge &amp; 23. Henrietta Str.<ref target="#foot.f3"/></p>
+<p>Yours faithfully | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">0.2 March] <hi rend="italic">before del</hi> ‘Feb’</note>
+                    <note xml:id="tnote.n2">2.1 <hi rend="italic">2,</hi>] <hi rend="italic">over illeg</hi></note>
+                    <note xml:id="tnote.n3">2.2 published … Str.] <hi rend="italic">added</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../bibliographies/bibl_4268.xml" resp="#mjhawkins">Jukes 1857</ref>. CD recorded reading this work in 1860 (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 4, Appendix IV, 128: 26). His annotated copy is in the Darwin Library–CUL.</note>
+            <note xml:id="foot.f2">The December 1859 issue of <hi rend="italic">Macmillan’s Magazine</hi>, pp. 142–8, contained <ref target="../nameregs/nameregs_2486.xml" resp="#mjhawkins">Thomas Henry Huxley’s</ref> review ‘Time and life. Mr. Darwin’s “Origin of species’”. There is an annotated copy in the Darwin Pamphlet Collection–CUL.</note>
+            <note xml:id="foot.f3">The locations of the offices of Williams and Norgate, publisher of <hi rend="italic">Macmillan’s Magazine</hi>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

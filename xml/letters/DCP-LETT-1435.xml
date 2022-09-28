@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1435">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To S. P. Woodward   9 June [1851]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3096</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1435 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1435.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1435.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 148: 376</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Cleveland Health Sciences Library</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_93.xml">Cleveland</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1851-06-09">9 June [1851]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_5239.xml">Woodward, S. P.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Asks for reference to article by Kölliker, ["Some observations on the structure of two new species of Hectocotyle", <hi rend="italic">Trans. Linn. Soc. Lond.</hi> 22 (1851): 9–22]. Asks for information.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Trans. Linn. Soc. Lond.</term>
+                <term type="organism" ref="#">Hectocotyle</term>
+                <term type="rx" ref="#">Kolliker, R. A. von 1851</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough | Kent</placeName>
+                    <date>June 9<hi rend="superscript">th</hi>.</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I sh<hi rend="superscript">d</hi>. be very much obliged to you, if you would take the trouble to inform me, (if you know, or can find out without <hi rend="underline">much</hi> trouble) a reference to Kölliker’s Paper on the male Argonaut<ref target="#foot.f1"/> which you showed me in Brit. Museum. I read it somewhere, &amp; I believe in Annales des Sciences,<ref target="#foot.f2"/> &amp; made an extract, but I have unfortunately lost it.— I cannot remember hardly anything about them: are they <hi rend="underline">permanently</hi> fixed on the female? Will you just tell me this, for it will be a chance whether I can borrow any Book with an account, &amp; I want to refer to this creature soon.<ref target="#foot.f3"/></p>
+<p>Also how does the Male get to the female &amp; how does it obtain its food? I hope you will excuse this trouble, which I cause by having in the most provoking way lost an extract which I well remember making—</p>
+<p>Kindest Remembrances to Waterhouse.<ref target="#foot.f4"/></p>
+<p>My dear Sir | Yours sincerely | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 know,] <hi rend="italic">before omitted comma</hi></note>
+                    <note xml:id="tnote.n2">1.3 which you showed me in Brit. Museum] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n3">1.7 &amp; I want to refer to this creature soon. 1.8] <hi rend="italic">added</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../bibliographies/bibl_4434.xml" resp="#mjhawkins">Kölliker 1851</ref>.</note>
+            <note xml:id="foot.f2">CD may have been thinking of an earlier paper by <ref target="../nameregs/nameregs_2626.xml" resp="#mjhawkins">Rudolf Albert von Kölliker</ref> in the <hi rend="italic">Annales des Sciences Naturelles</hi> on the sexual organs and seminal fluids of crustaceans and cirripedes (Kölliker 1843). The paper on the male argonaut, which had been read in April and May 1845 at the <ref target="../nameregs/nameregs_2944.xml" resp="#mjhawkins">Linnean Society</ref> of London, was printed in the <hi rend="italic">Transactions</hi> of 1851, but it would probably have been available as a separate issue before that date.</note>
+            <note xml:id="foot.f3">In his discussion of the male of <hi rend="italic">Ibla</hi> <hi rend="italic">cumingii</hi>, CD cited as an analogy: ‘The extraordinary case of the Hectocotyle, originally described as a worm parasitic on certain Cephalopoda, but now shown by Kölliker to be the male of the species to which it is attached’ (<ref target="../bibliographies/bibl_4837.xml" resp="#mjhawkins"><hi rend="italic">Living Cirripedia</hi> (1851): </ref>200). Kölliker’s belief that the hectocotylus was the long sought for male of the <hi rend="italic">Argonauta</hi>, arrested in its development and parasitic on the female, was corrected in 1852 (Vérany and Vogt 1852). In <ref target="../bibliographies/bibl_4838.xml" resp="#mjhawkins"><hi rend="italic">Living Cirripedia</hi> (1854): </ref>23 n., CD reported that: ‘the worm-like Hectocotyle, which … was quite lately supposed to be a male Cephalopod … has now been ascertained to be only one of the arms of the male wonderfully adapted and organised as a sperm-receptacle.’</note>
+            <note xml:id="foot.f4">Woodward and <ref target="../nameregs/nameregs_4972.xml" resp="#mjhawkins">George Robert Waterhouse</ref> were both on the staff of the mineralogy and geology department at the <ref target="../nameregs/nameregs_8646.xml" resp="#mjhawkins">British Museum</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

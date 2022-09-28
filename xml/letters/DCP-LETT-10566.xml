@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10566">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Wilhelm Breitenbach<choice><seg type="original"><ref target="#foot.f1"/></seg><seg type="translation"><ref target="#foot_trans.f1"/></seg></choice>   26 July 1876</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7910</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10566 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10566.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10566.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp † (German), trans 6pp †, encl 13pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 111: B50–4; DAR 160: 290</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>111: B50–5,</idno>
+                </msIdentifier>
+            </msDesc>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>160: 90</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_607.xml">Breitenbach, Wilhelm</persName>
+                <placeName>Unna</placeName>
+                <date when="1876-07-26">26 July 1876</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Observations on pollinia of <hi rend="italic">Orchis maculata</hi></p>  
+<p>and on <hi rend="italic">Primula elatior</hi>. [On latter, see <hi rend="italic">Forms of flowers</hi>, p. 34.]</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Orchis maculata</term>
+                <term type="plants" ref="#">Primula elatior</term>
+                <term type="scientific_terms" ref="#">dimorphism</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">flowers and buds</term>
+                <term type="scientific_terms" ref="#">pollen</term>
+                <term type="scientific_terms" ref="#">type and morphology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00364_files/8/0_0.jpg" width="3085px" height="5234px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00364_files/11/1_1.jpg" width="3085px" height="5234px"/>
+        <surface n="90:1r" xml:id="i364">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00364.jpg" width="3085px" height="5234px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00364_files/8/0_0.jpg" width="3085px" height="5234px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00364.dzi" width="3085px" height="5234px"/>
+        </surface>
+        <surface n="90:1v" xml:id="i365">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00365.jpg" width="3085px" height="5234px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00365_files/8/0_0.jpg" width="3085px" height="5234px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00365.dzi" width="3085px" height="5234px"/>
+        </surface>
+        <surface n="290:1r" xml:id="i1243">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01243.jpg" width="3787px" height="6214px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01243_files/8/0_0.jpg" width="3787px" height="6214px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01243.dzi" width="3787px" height="6214px"/>
+        </surface>
+        <surface n="290:1v" xml:id="i1244">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01244.jpg" width="3787px" height="6214px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01244_files/8/0_0.jpg" width="3787px" height="6214px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01244.dzi" width="3787px" height="6214px"/>
+        </surface>
+        <surface n="290:2r" xml:id="i1245">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01245.jpg" width="3787px" height="6214px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01245_files/8/0_0.jpg" width="3787px" height="6214px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01245.dzi" width="3787px" height="6214px"/>
+        </surface>
+        <surface n="290:2v" xml:id="i1246">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01246.jpg" width="3787px" height="6214px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01246_files/8/0_0.jpg" width="3787px" height="6214px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01246.dzi" width="3787px" height="6214px"/>
+        </surface>
+        <surface n="290:1v-2r" xml:id="i1247">
+            <graphic decls="#downloadImageRights #download" rend="landscape" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01247.jpg" width="7278px" height="6178px"/>
+            <graphic decls="#thumbnail" rend="landscape" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01247_files/8/0_0.jpg" width="7278px" height="6178px"/>
+            <graphic decls="#display" rend="landscape" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01247.dzi" width="7278px" height="6178px"/>
+        </surface>
+        <surface n="290:3r" xml:id="i1248">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01248.jpg" width="3772px" height="6252px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01248_files/8/0_0.jpg" width="3772px" height="6252px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01248.dzi" width="3772px" height="6252px"/>
+        </surface>
+        <surface n="290:3v" xml:id="i1249">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01249.jpg" width="3772px" height="6252px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01249_files/8/0_0.jpg" width="3772px" height="6252px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01249.dzi" width="3772px" height="6252px"/>
+        </surface>
+        <surface n="290:4r" xml:id="i1250">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01250.jpg" width="3772px" height="6252px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01250_files/8/0_0.jpg" width="3772px" height="6252px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01250.dzi" width="3772px" height="6252px"/>
+        </surface>
+        <surface n="290:4v" xml:id="i1251">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01251.jpg" width="3772px" height="6252px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01251_files/8/0_0.jpg" width="3772px" height="6252px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01251.dzi" width="3772px" height="6252px"/>
+        </surface>
+        <surface n="290:5r" xml:id="i1252">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01252.jpg" width="3722px" height="6214px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01252_files/8/0_0.jpg" width="3722px" height="6214px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01252.dzi" width="3722px" height="6214px"/>
+        </surface>
+        <surface n="290:5v" xml:id="i1253">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01253.jpg" width="3741px" height="6228px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01253_files/8/0_0.jpg" width="3741px" height="6228px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01253.dzi" width="3741px" height="6228px"/>
+        </surface>
+        <surface n="290:6r" xml:id="i1254">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01254.jpg" width="3741px" height="6228px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01254_files/8/0_0.jpg" width="3741px" height="6228px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01254.dzi" width="3741px" height="6228px"/>
+        </surface>
+        <surface n="290:6v" xml:id="i1255">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01255.jpg" width="3741px" height="6228px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01255_files/8/0_0.jpg" width="3741px" height="6228px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01255.dzi" width="3741px" height="6228px"/>
+        </surface>
+        <surface n="290:7r" xml:id="i1256">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01256.jpg" width="3741px" height="6228px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01256_files/8/0_0.jpg" width="3741px" height="6228px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01256.dzi" width="3741px" height="6228px"/>
+        </surface>
+        <surface n="290:7v" xml:id="i1257">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01257.jpg" width="3741px" height="6228px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01257_files/8/0_0.jpg" width="3741px" height="6228px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01257.dzi" width="3741px" height="6228px"/>
+        </surface>
+    </facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>Hochgeehrter Herr Darwin!</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Eine von mir über die Pollinien von Orchis maculata gemachte Beobachtung ist die Veranlassung, dass ich Sie durch ein Schreiben von meiner Hand belästige. Auf Grund meiner Beobachtungen über die Bewegung der Pollinien der genannten Blume ziehe ich die Richtigkeit der von Ihnen in dem “Fertilisation of Orchids” gegebenen Erklärung der Pollinienbewegung in Zweifel, weil die von mir beobachtete Bewegung durch dieselbe keine ausreichende Erklärung findet.<ref target="#foot.f2"/> An Stelle Ihrer Erklärung habe ich eine neue gesetzt, durch welche sowohl die von Ihnen als auch die von mir beobachteten Bewegungen vollkommen einfach erklärt werden. Ich beansichtigte ursprünglich, meine Beobachtung nebst Erklärung in einem deutschen Blatte zu veröffentlichen. Ich ziehe es indeß vor, zuerst Ihr werthes Urtheil zu hören. Dann ist ja zur Veröffentlichung noch immer Zeit genug da.<ref target="#foot.f3"/></p>
+<p>Ich sende Ihnen hiermit meinen für den Druck vorbereiteten Bericht nebst einer zur Erläuterung dienender schematischen Zeichnung. Sollten Sie meine Beobachtung und Erklärung einer Veröffentlichung für werth halten, so möchte ich Sie höflichst ersuchen, mir nach Gebrauch meinen Bericht nebst der beifolgenden Zeichnung wieder zurückzusenden.</p>
+<p>In diesem Frühjahr stellte ich einige Untersuchungen über die Variabilität der Blüthen von Primula elatior an.<ref target="#foot.f4"/> Erlauben Sie, verehrtester Herr Darwin, dass ich Ihnen dieselben vorlege. Die Untersuchungen beziehen sich auf die Staubgefässe und Griffel in ihren gegenseitigen Stellungen zu einander.</p>
+<p>Untersucht wurden 198 Pflanzen mit 894 Blüthen. Von diesen Blüthen waren 467 langgriffelig, 411 kurzgriffelig, und in 16 Blüthen standen Stigmen und Antheren auf gleicher Höhe.</p>
+<p>Im Allgemeinen kommen bekanntlich die beiden Blüthenformen dimorpher Pflanzen getrennt die eine auf der einen, die andern auf der andern Pflanze vor. Ich fand indeß zahlreiche Unregelmäßigkeiten, die ich Ihnen im Folgenden vorführe.</p>
+<p>I. Langgriffelige und kurzgriffelige Blüthenformen an einer Pflanze:</p> 
+<table> 
+<row><cell rend="borderBottom">langgriffelig:</cell> <cell rend="borderAll">2</cell> <cell rend="borderAll">3</cell> <cell rend="borderAll">4</cell> <cell rend="borderAll">4</cell> <cell rend="borderAll">4</cell></row>
+    <row><cell rend="borderBottom">kurzgriffelig:</cell> <cell rend="borderAll">2</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell></row> </table> 
+<p>II. Langgriffelige Blüthenformen und solche, bei denen Stigmen und Antheren auf gleicher Höhe stehen:</p> 
+<table> 
+<row><cell rend="borderBottom">langgriffelig:</cell> <cell rend="borderAll">5</cell> <cell rend="borderAll">3</cell> <cell rend="borderAll">3</cell> <cell rend="borderAll">4</cell> <cell rend="borderAll">3</cell> <cell rend="borderAll">3</cell> <cell rend="borderAll">6</cell> <cell rend="borderAll">7</cell> <cell rend="borderAll">3</cell> <cell rend="borderAll">2</cell> <cell rend="borderAll">1</cell></row>
+    <row><cell rend="borderBottom">gleich hoch:</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">2</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">2</cell></row> </table> 
+<p>III. Langgriffelige, kurzgriffelige und solche Blüthenformen, bei denen Stigmen und Antheren auf gleicher Höhe standen:</p> 
+<table> 
+    <row><cell rend="borderBottom borderTop">langgriffelig:</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">3</cell></row>
+    <row><cell rend="borderTop borderBottom">kurzgriffelig:</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">2</cell></row>
+    <row><cell rend="borderTop borderBottom">gleich hoch:</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell></row> </table> 
+<p>IV. Traf ich eine Pflanze an, die nur eine Blüthe aufzuweisen hatte; in dieser Blüthe standen Antheren und Stigmen auf derselben Höhe.</p>
+<p>In den vorhergehenden Tabellen bedeuten die arabischen Ziffern die Anzahl der Blüthen. Die untereinanderstehenden Ziffern sind die Anzahl der an einem Pflanzenexemplar vorhanden gewesenen Blüthen. Die Pflanzen wurden an zwei verschiedenen, etwa 5 deutsche Stunden<ref target="#foot.f5"/> von einander entfernten Standorten gesammelt. Der eine Standort war diluvialer Sand in der Nähe der Lippe (Nebenfluss des Rheines), der andere Standort war das aus Plänerkalk bestehende Haargebirge.<ref target="#foot.f6"/></p>
+<p>Es wird mir sehr angenehm sein, Ihr werthes Urtheil über meine Beobachtung an Orchis maculata zu vernehmen und ich sehe einer Antwort auf mein Schreiben gerne entgegen. Inzwischen begrüße ich Sie mit vorzüglichster Hochachtung!</p>
+<p>Wilhelm Breitenbach</p>
+<p>bis zum 20ten August ist meine Adresse:</p>
+<p>Wilhelm Breitenbach in Unna in Westfalen.</p>
+<p>Nach dem 20ten August wollen Sie mir unter der Ihrem Sohn Herrn Francis Darwin bekannten Adresse (D. Bührnheim Lippstadt)<ref target="#foot.f7"/> schreiben.</p>
+<p>W. Breitenbach</p>
+<p>Unna 26. 7. 1876.</p>
+<p>Anbei ein Bericht über die Bewegung der Polliien von Orchis maculata nebst Zeichnung <lb resp="#mjhawkins"/></p>
+<p>[Contemporary translation] <lb resp="#mjhawkins"/></p>
+<p>Highly honoured Sir,</p>
+<p>I trouble you with this letter in consequence of observations which I have made concerning the Pollinia of Orchis Maculata. My observations concerning the movements of the Pollinia of that flower make me doubt the justness of the explanation given in your “Fertilization of Orchids”, because it does not satisfactorily explain the movements observed by myself. I have replaced your explanation by a new one which thoroughly explains both the movements observed by you and those observed by myself. It was my intention to have published my observations and their explanation in a German paper. I prefer however first to hear your valuable opinion. There will be plenty of time for publication afterwards. I enclose my account as prepared for the press accompanied by an explanatory drawing. In case you should think my observations and explanation worth publishing, I venture to beg that you will kindly return both account and drawing when you have done with them.</p>
+<p>I have this Spring made a few observations concerning the variability of the flower of Primula Elatioran (?) Permit me, dear Sir, to lay them before you. My researches treat of the pollen cases and pistils (Griffel) in their relative positions.</p>
+<p>I made my observations on 198 plants with 894 blossoms. Of these flowers 467 had a long pistil, 411 a short one, and in 16 flowers stigma and anther were of the same height. Generally, as is well known, the two forms of dimorphous plants appear separate, the one on one plant, the other on another. But I found many irregularities which I here give.</p>
+<p>I Flowers with long pistil and flowers with short pistil on one and the same plant.</p> 
+                    <table> 
+                        <row><cell rend="borderAll">With long pistil:</cell> <cell rend="borderAll">2</cell> <cell rend="borderAll">3</cell> <cell rend="borderAll">4</cell> <cell rend="borderAll">4</cell> <cell rend="borderAll">4</cell></row>
+                        <row><cell rend="borderAll">With short pistil:</cell> <cell rend="borderAll">2</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell></row> </table> 
+<p>II Flowers with long pistil and such in which stigma and anther stand equally high</p> 
+                    <table> 
+                        <row><cell rend="borderBottom borderTop">With long pistil:</cell> <cell rend="borderAll">5</cell> <cell rend="borderAll">3</cell> <cell rend="borderAll">3</cell> <cell rend="borderAll">4</cell> <cell rend="borderAll">3</cell> <cell rend="borderAll">3</cell> <cell rend="borderAll">6</cell> <cell rend="borderAll">7</cell> <cell rend="borderAll">3</cell> <cell rend="borderAll">2</cell> <cell rend="borderAll">1</cell></row>
+                        <row><cell rend="borderBottom">Pistil and another of the same height:</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">2</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">2</cell></row> </table> 
+<p>III Flowers with long pistil and flowers with short pistil, and flowers in which stigma and anther are of the same height.</p> 
+                    <table> 
+                        <row><cell rend="borderAll">With long pistil:</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">3</cell></row>
+                        <row><cell rend="borderAll">With short pistil:</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">2</cell></row>
+                        <row><cell rend="borderAll">Stigma and anther of the same height:</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell></row> </table> 
+<p>IV I met with one plant which had only one flower. Anther and stigma of this flower were of equal height</p>
+<p>In the above table the Arabic numbers stand for the number of flowers. The numbers in each column represent together the number of flowers found on one plant.</p>
+<p>The plants were collected at two different places about 5 German hours (!) miles? distant from each other.</p>
+<p>The formation of the one (a place near the Lippe, a tributary of the Rhein), is diluvial sand   The formation of the other (the Haarz mountains) is Plänerkalk.</p>
+<p>I shall be much pleased to learn your opinion of my observations on Orchis maculata, and look forward with much pleasure to a reply to my letter. Meanwhile I greet you with special esteem.</p>
+<p>Wilhelm Breitenbach</p>
+<p>Until the 20<hi rend="superscript">th</hi>. of August my direction will be:</p>
+<p>Wilhelm Breitenbach</p>
+<p>Unna</p>
+<p>Westphalia</p>
+<p>After the 20<hi rend="superscript">th</hi>. of August the direction known to Mr. F. Darwin (Dr. Buhmheim, Lippstadt) will find me.</p>
+<p>Wilhelm Breitenbach</p>
+<p>Unna J. 26<hi rend="superscript">th</hi>. | 1876.</p>
+<p>With this an account of the movement of the pollinia of Orchis maculata with drawing.</p> 
+                </div>
+            </div>
+        <div type="enclosure" subtype="other">
+      
+          <div type="transcription">
+                     
+<p rend="centre">Concerning the movement of the Pollinia in Orchis Maculata</p> 
+<p>If one puts a pointed pencil or a needle into the flower of our meadow orchis, in the same way as a humble-bee inserts its trunk, the pencil touches the <hi rend="underline">Rostellum</hi>. The skin of the Rostellum breaks and the pencil comes in contact with the <hi rend="underline">Klebscheibchen</hi><ref target="#foot.f8"/> of the Pollinia which on account of their sticky condition become attached to the pencil, so that if one withdraws the pencil from the flower the Pollinia stick to it. The Pollinia then generally form something like a right angle with the pencil. When the <hi rend="underline">Klebscheibchen</hi> of the Pollinia have been for a short time exposed to the air the Pollinium sinks towards the point of the pencil till it lies close to it. If one with a pencil prepared in this way enters a second flower the point of the Pollinium meets the stigma. It is clear therefore that this downward movement of the Pollinia is absolutely necessary for the fertilization of the flower. M<hi rend="superscript">r</hi>. Darwin thinks to have explained this downward movement of the Pollinia through a contraction of the <hi rend="underline">Klebscheibchen</hi> caused by the drying up of its cells.</p>
+<p>If the Pollinium really forms a right angle with the pencil the contemporary contraction of the whole Klebscheibchen by no means explains the operation. For why should the Pollinium always fall in one and the same direction, why should it not sometimes fall sideways, or backwards? or why does it not remain upright? But if the Pollinium does not form a right angle with the pencil, if on the contrary the angle between it and the point of the pencil is an acute one, the corresponding angle being obtuse, then the process is satisfactorily explained by an equal contraction of the whole Pollinium. If, this being the case, the cells are contracted, the Pollinium must necessarily, in consequence of the weight of its head, sink towards the point of the pencil. If the pencil is inserted into the flower according to the rule laid down, the pencil being held perpendicular to the observer, it is evident from the structure of the flower, that the Pollinia can only form right angles with the pencil. The Pollinia must therefore sink down in a very decided direction. It is true that according to my observations, the Pollinium does not seem to form a right angle with the pencil (See Fig 1) With this modification M<hi rend="superscript">r</hi>. Darwin’s explanation seems to be correct. I maintain however that the movement of the Pollinia is not explained by the equal contraction of the “Kle〈b〉scheibchen”, but on the contrary by an unequal contraction, which beginning at that part of the “Scheibchen” which lies towards the point of the pencil, extends gradually towards the opposite side, but so that when the contraction has already progressed beyond the middle of the “Klebscheibchen”, the first half is not yet completely shrivelled up. It is in consequence of a number of observations which I made on Orchis Maculata this summer that M<hi rend="superscript">r</hi> Darwin’s explanation seems to me inefficient.—</p>
+<p>On drawing the Pollinia out of the flower, I found in very many cases, that they had not the usual position, (1) but that they were bent backwards and were lying close to the pencil. (3) But they by no means remained in this position, but moved with tolerable quickness, (namely in 10 seconds,) upwards, until they had attained the position they usually occupy (4). I further observed, to my great astonishment, that in by far the most numerous cases, in which the Pollinia behaved in this unusual way (3), they remained in that upright position, and did not sink down, so as to take the position suitable for fertilization. It is clear that my observations do not agree with M<hi rend="superscript">r</hi>. Darwin’s explanation.</p>
+<p>Even if we accept the modification of M<hi rend="superscript">r</hi>. Darwin’s explanation I have pointed out (The angle made by the inclination of the Pollinium towards the point of the pencil being an acute one), my observations are not thus explained. On the other hand, as we shall see directly, my observations are explained easily by my supposition of a gradually progressing contraction of the K. from the front backwards.</p>
+<p>And as my hypothesis of contraction likewise explains the normal movements of the Pollinia in a perfectly satisfactory manner, my explanation (supposing that I am right in my assumption deserves to be preferred to M<hi rend="superscript">r</hi>. Darwin’s, if only because it is more comprehensive than M<hi rend="superscript">r</hi>. Darwin’s; for a hypothesis becomes the more probable, the greater the number of facts which can be mechanically explained thereby. I have therefore now to explain</p>
+<p>1 The upward movement of the Pollinia;</p>
+<p>2 The standing still of the Pollinia in that (upward) position. </p>
+<p>3. The normal downward movement of the Pollinia.</p>
+<p>On being withdrawn from the flower the Pollinia lie abnormally turned backwards on the pencil. When the Klebscheibchen is exposed to the air its cells contract, beginning in front. In consequence the neighbouring cells are little by little drawn towards the front and therewith also the cells of the Caudiculum of the Pollinium, so that the latter must be raised. As the contraction of the cells of the “Klebscheibchen” increases towards the middle, the Pollinium also will be raised increasingly.</p>
+<p>When the contraction has reached the middle of the “Klebscheibchen”, the Pollinium stands perpendicularly on the “Scheibchen”, and therefore also perpendicularly on the pencil. If the contraction did not proceed beyond the middle of the Klebscheibchen ? or instead of progressing gradually, did so by jerks, so that at about the middle of the Scheibchen one of the periods of contraction were to come to an end, then the Pollinium might next sink down towards the point of the pencil. But if the contraction progresses gradually, this cannot happen. The very moment, when the Pollinium reaches the position which would enable it to fall towards the point of the pencil, an opposing force is added which draws it to the opposite side. The Pollinium has been raised through the contraction of that part of the “Klebscheibchen” which lies in front of the Caudiculum, it would now sink towards the point of the pencil, if the contraction of that part of the “Klebscheibchen” which lies behind the Caudiculum, did not draw it back towards the very side whence it was first raised. If the front part of the “Klebscheibchen” were to be thoroughly shrivelled up, at the time when the opposite half was only beginning to shrink, the Pollinium would necessarily be drawn back into its first position. But as the contraction of the further side of the “Klebscheibchen” takes place while in the front part contraction is still going on, both contractions as it were balance each other. It would appear indeed that nevertheless the contraction of the farther half must outweigh that of the front part, so that the Pollinium would be somewhat drawn backwards. But we must not forget that the cells of the Caudiculum which lie close to the “Klebscheibchen” also shrivel up, and that this must interfere considerably with the moveability of the Caudiculum.</p>
+<p>I have to add a few words in explanation of the normal movement of the Pollinium. If the Pollinium on being withdrawn from the flower stands in the usual position (1.) it will as the contraction proceeds sink down, until on the contraction having reached the middle of the “Scheibchen”, it lies against the point of the pencil (2) Thus both in the normal and in the abnormal cases, the Pollinia are drawn 90 degrees out of their position. In the normal cases the like process takes place as in the abnormal. If when the contraction begins in that half of the “Klebscheibchen” which is turned away from the point of the pencil, the contraction were to cease entirely in the opposite half, the Pollinium would be drawn back again through 90 degr: But as, while the farther side of the Klebscheibchen is being gradually contracted, the opposite side is not yet thoroughly shrunk, but on the contrary still possesses some strength to pull, which is exerted to move the Pollinium forward; and as the Caudiculum has lost much of its moveability in consequence of the shrinking up of its lower cells, the Pollinium will hardly be perceptibly moved from its position after it has travelled through 90 degrees.</p>
+<p>As to those cases in which the Pollinium does not move through 90. degrees, but through a much smaller distance (such cases are not uncommon) the explanation is simple enough. In those cases the contraction of the “Klebscheibchen” and the contraction of the lower cells of the Caudiculum perhaps likewise, has taken place so quickly, that the Pollinium has not had time to move through 90 degrees. I have been convinced by my observations on Orchis Maculata that such cases happen both with the normal and abnormal movements of the Pollinia</p>
+<p>Wilhelm Breitenbach</p>
+<p>Lippstadt July 11<hi rend="superscript">th</hi>. | 1876.</p> 
+                </div>
+        
+    </div>
+            <div type="annotations">
+                <note><hi rend="italic">Top of letter</hi>: ‘Primula’ <hi rend="italic">blue crayon</hi></note>
+                <note><hi rend="italic">Contemporary translation</hi>:</note>
+                <note>1.1 I trouble … them. 1.13] <hi rend="italic">crossed blue crayon</hi></note>
+                <note>2.1 I … Elatioran (?) 2.2] ‘Cultivated?’ <hi rend="italic">added red crayon</hi></note>
+                <note>2.2 Elatioran] <hi rend="italic">underl red crayon; del pencil</hi>; ‘elatior’ <hi rend="italic">added pencil</hi></note>
+                <note>3.1 I … height. 3.3]
+                        <table rend="inlineBlock">
+                        <row><cell rend="right">‘467</cell></row>
+                        <row><cell rend="right">411</cell></row>
+                        <row><cell rend="right borderBottom">16</cell></row>
+                        <row><cell rend="left">894’</cell></row>
+                        </table>
+                      <hi rend="italic">added ink del ink</hi>
+                </note>
+                <note>4.2 With … 4] ‘17’ <hi rend="italic">added ink</hi></note>
+                <note>4.3 With … 1] ‘6’ <hi rend="italic">added ink</hi></note>
+                <note>5.2 With … 1] ‘40’ <hi rend="italic">added ink</hi></note>
+                <note>5.3 Pistil … 2] ‘13’ <hi rend="italic">added ink</hi></note>
+                <note>6.3 With … 3] ‘4’ <hi rend="italic">added ink</hi></note>
+                <note>6.3 With … height 6.5] 
+                        <table rend="inlineBlock left">
+                        <row><cell rend="right">‘long 17</cell></row>
+                        <row><cell rend="right">40</cell></row>
+                        <row><cell rend="right borderBottom">4</cell></row>
+                        <row><cell rend="right borderBottom">61</cell></row>
+                        <row><cell rend="right borderBottom">short 9</cell></row>
+                        <row><cell rend="right">Equal 15’</cell></row>
+                        </table>
+                    <hi rend="italic">added ink</hi>   
+                </note>
+                <note>6.4 With … 2] ‘3’ <hi rend="italic">added ink</hi></note>
+                <note>6.5 Stigma … 1] ‘2’ <hi rend="italic">added ink</hi></note>
+                <note>11.1 I … esteem. 11.3] <hi rend="italic">crossed blue crayon</hi></note>
+                <note><hi rend="italic">Top of letter (translation)</hi>: ‘Showing that with P. elatior when varying, the long-styled form greatly preponderates.’ <hi rend="italic">red crayon</hi>; ‘see p. 20 of my M. S. | Long-styled’<ref target="#foot.f9"/> <hi rend="italic">pencil</hi></note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+        
+        
+        <div type="translation">
+            <div type="text">
+                <opener>
+                    <salute>Highly honoured Mr Darwin!</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>An observation I made regarding the pollinia in Orchis maculata is the reason why I am bothering you with a letter. On the basis of my observations of the movement of the pollinia of that flower, I am calling into question your account of the movement of the pollinia in “Fertilisation of Orchids”, for the movement observed by me is not sufficiently accounted for by your explanation.<ref target="#foot.f2"/> In place of your explanation I have given a new one, through which the movements observed both by you as well as by me find a perfectly simple explanation. I originally intended to publish my observations together with my account in a German journal. However, I prefer to hear your valued opinion first. There surely will be time enough for publication later.<ref target="#foot.f3"/></p>
+<p>I am sending you herewith my report, which has been prepared for publication, together with a schematic drawing for clarification. Should you deem my observation and explanation worthy of publication, I would kindly request that you return my report together with the enclosed drawing once you have finished with it.</p>
+<p>This spring I conducted some research on the variability of the flowers of Primula elatior.<ref target="#foot.f4"/> Please allow me, most venerated Mr. Darwin, to present this to you. The research concerns the stamen and style in their relative positions.</p>
+<p>198 plants with 894 flowers were examined. Of these, 467 were longstyled, 411 were shortstyled and in 16 of them stigma and anthers were of equal length.</p>
+<p>In general, as is well known, the two kinds of flowers of dimorphic plants occur separately the one kind on one plant, the other kind on another. However, I came across numerous irregularities, which I am presenting to you as follows:</p>
+<p>I. Long-styled and short-styled flowers on the same plant:</p> 
+<table> 
+<row><cell rend="borderBottom">long-styled:</cell> <cell rend="borderAll">2</cell> <cell rend="borderAll">3</cell> <cell rend="borderAll">4</cell> <cell rend="borderAll">4</cell> <cell rend="borderAll">4</cell></row>
+    <row><cell rend="borderBottom">short-styled:</cell> <cell rend="borderAll">2</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell></row> </table> 
+<p>II. Long-styled flowers and those whose stigmas and anthers are of equal length:</p> 
+<table> 
+    <row><cell rend="borderBottom">long-styled:</cell> <cell rend="borderAll">5</cell> <cell rend="borderAll">3</cell> <cell rend="borderAll">3</cell> <cell rend="borderAll">4</cell> <cell rend="borderAll">3</cell> <cell rend="borderAll">3</cell> <cell rend="borderAll">6</cell> <cell rend="borderAll">7</cell> <cell rend="borderAll">3</cell> <cell rend="borderAll">2</cell> <cell rend="borderAll">1</cell></row>
+    <row><cell rend="borderBottom">equal height:</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">2</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">2</cell></row> </table> 
+<p>III. Long-styled and short-styled flowers and those whose stigmas and anthers are at equal height:</p> 
+<table> 
+    <row><cell rend="borderTop borderBottom">long-styled:</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">3</cell></row>
+    <row><cell rend="borderBottom">short-styled:</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">2</cell></row>
+    <row><cell rend="borderBottom">equal height:</cell> <cell rend="borderAll">1</cell> <cell rend="borderAll">1</cell></row> </table> 
+<p>IV. I came across a plant that had only one flower; in this flower the anthers and stigmas were at the same height.</p>
+<p>In the above tables, the Arabic numerals denote the number of flowers. The numerals underneath these denote the number of flowers on a plant specimen. The plants were collected at two different locations, with about 5 German hours<ref target="#foot.f5"/> distance between them. One site was diluvial sand near the Lippe (a tributary of the Rhine), the other site was the Haar mountains, composed of Plänerkalk.<ref target="#foot.f6"/></p>
+<p>I will be very pleased to hear your valued judgment of my observation on Orchis maculata and I am looking forward to your reply to my letter. Until then I greet you with the highest esteem!</p>
+<p>Wilhelm Breitenbach</p>
+<p>Until 20 August my address is:</p>
+<p>Wilhelm Breitenbach in Unna in Westphalia.</p>
+<p>After 20th August you may write to me at the address that is known to your son Mr Francis Darwin (D. Bührnheim Lippstadt).<ref target="#foot.f7"/></p>
+<p>W. Breitenbach</p>
+<p>Unna 26.7.1876.</p>
+<p>Enclosed a report on the movement of the pollinia of Orchis maculata with a drawing</p> 
+                </div>
+            </div>
+            
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">For a translation of this letter, see Appendix I; <ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin</ref> made contemporary translations of the letter and the now missing enclosure which are included above.</note>
+            <note xml:id="foot_trans.f1">For a transcription of this letter in its original German, together with a contemporary translation, see pp. 232–4.</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_6010.xml" resp="#mjhawkins"><hi rend="italic">Orchids</hi></ref> was translated into German in 1862 (Bronn trans. 1862). CD had described the movement of the pollinium in <hi rend="italic">Orchis mascula</hi> (the early purple orchid) not <hi rend="italic">Orchis maculata</hi> (a synonym of <hi rend="italic">Dactylorhiza maculata</hi>, the heath spotted orchid), but noted that the pollinia moved in roughly the same way in <hi rend="italic">O. maculata</hi> (<ref target="../bibliographies/bibl_6010.xml" resp="#mjhawkins"><hi rend="italic">Orchids</hi></ref>, p. 19). Once the pollinium had adhered to the proboscis of an insect or to the tip of a pencil by the viscid disc at the base of the caudicle (the thin elastic extension of the pollinium produced within the anther), the disc quickly hardened and the caudicle bent towards the tip of the proboscis presenting the pollinium at an optimal angle to ensure fertilisation (<ref target="../bibliographies/bibl_6010.xml" resp="#mjhawkins"><hi rend="italic">Orchids</hi></ref>, pp. 14–20).</note>
+            <note xml:id="foot.f3">Breitenbach did not publish on the movement of the pollinia in orchids, but for a contemporary translation of his text intended for publication, see the enclosure. CD evidently commented on Breitenbach’s work in a now missing letter of 22 August 1876 (see <ref target="./DCP-LETT-10595.xml" resp="#mjhawkins">letter from Wilhelm Breitenbach, 11 September 1876</ref>).</note>
+            <note xml:id="foot.f4"><hi rend="italic">Primula elatior</hi> is the true oxlip; CD had referred to it as the Bardfield oxlip in his paper <ref target="../bibliographies/bibl_7357.xml" resp="#mjhawkins">‘Specific difference in <hi rend="italic">Primula</hi>’</ref> to distinguish it from the so-called common oxlip, a natural hybrid of the primrose (<hi rend="italic">P. vulgaris</hi>) and the cowslip (<hi rend="italic">P. veris</hi>), which it resembled. A revised version of the paper was given in <ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref>, pp. 55–75.</note>
+            <note xml:id="foot.f5">In German-speaking countries, the <hi rend="italic">Stunde</hi> or <hi rend="italic">Wegstunde</hi> was the distance that could be travelled in an hour; the measure was rarely used by the mid nineteenth century and different distance values were given in different areas ranging from roughly 3.7 to 5 km (Kahnt and Knorr 1986).</note>
+            <note xml:id="foot.f6">The Lippe river rises in the Teutoburg forest in the modern German state of North Rhine-Westphalia and flows west into the Rhine. Breitenbach evidently also refers to the Rothaargebirge, a nearby mountain range. <hi rend="italic">Plänerkalk</hi> is a limestone sedimentary group dating from the late Cretaceous epoch (Cenomanian–Turonian).</note>
+            <note xml:id="foot.f7">D. Bührnheim has not been identified.</note>
+            <note xml:id="foot.f8"><hi rend="italic">Klebscheibchen</hi>: viscid disc (German). For CD’s description of movement in the pollinia, see n. 2, above. For CD’s explanation of orchid terminology, see <ref target="../bibliographies/bibl_6010.xml" resp="#mjhawkins"><hi rend="italic">Orchids</hi></ref>, pp. 5–8.</note>
+            <note xml:id="foot.f9">CD probably refers to his manuscript for <ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref>; according to his ‘Journal’ (Appendix II), when he started writing on 15 November 1876, he had already spent two or three weeks on the book at intervals. CD added Breitenbach’s information on <hi rend="italic">Primula elatior</hi> to <ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref>, pp. 35, 234, and 272 n.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

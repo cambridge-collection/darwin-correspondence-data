@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1555">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To the Palaeontographical Society   [before 24 February 1854]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19714</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1555 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1555.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1555.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+            <notesStmt>
+                <relatedItem type="publication">
+                    <bibl><hi rend="italic">Correspondence</hi> 5: 177</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">British Geological Survey Archives (Palaeontographical Society minutes)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_314.xml">British Geological Survey Archives</repository>
+                    <collection>Palaeontographical Society</collection>
+                    <idno>minutes</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1809-01-01" notAfter="1854-02-23">[before 24 Feb 1854]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3646.xml">Palaeontographical Society</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Letter from CD about a monograph of fossil Balanidae. Resolved that CD be asked to complete the monograph.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Balanidae</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">fossils</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription"><p>11<hi rend="superscript">th</hi>. A letter was read from M<hi rend="superscript">r</hi> Darwin regarding his proposed Monograph of the Fossil Balanidæ.</p>
+<p>Resolved. That M<hi rend="superscript">r</hi> Darwin be requested to complete the Fossil Balanidæ of Great Britian for the Society<ref target="#foot.f2"/></p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The letter has not been found, but it was recorded in the minutes of the meeting of the <ref target="../nameregs/nameregs_3646.xml" resp="#mjhawkins">Palaeontographical Society</ref> council on 24 February 1854, from which the text given here has been taken.</note>
+            <note xml:id="foot.f2">According to the introduction to <ref target="../bibliographies/bibl_4838.xml" resp="#mjhawkins"><hi rend="italic">Living Cirripedia</hi> (1854)</ref>, CD had not originally intended to prepare a separate volume on the fossil Balanidae for the <ref target="../nameregs/nameregs_3646.xml" resp="#mjhawkins">Palaeontographical Society</ref> series. The reason given was that the ‘number of the British fossil species of the Balanidæ and Verrucidæ in a recognisable state is so small, that I do not know whether it will be considered worth while to publish in the Palæontographical series more detailed illustrations than are given in this volume.’ (p. 1 n.).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

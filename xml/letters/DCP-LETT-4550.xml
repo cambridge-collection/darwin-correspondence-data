@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4550">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From E. A. Darwin to Hugh Falconer   2 July 1864</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13295</idno>
+            
+            
+            
+            
+            <date when="2001">2001</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4550 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4550.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4550.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="12">12</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Copy</note>
+            <note type="physdesc" n="C">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 144: 472</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>144: 472</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1211.xml">Darwin, E. A.</persName>
+                <placeName>London, Queen Anne St, 6</placeName>
+                <date when="1864-07-02">2 July 1864</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1585.xml">Falconer, Hugh</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Encloses list of CD’s publications.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1">Darwin, C. R.</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>6, Queen Anne St</placeName>
+                    <date>July 2, 1864</date>
+                    <salute>Dear Dr. Falconer</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I enclose Charles’ letter to me and his list of works.<ref target="#foot.f1"/> I think this answers all the questions that you asked, and I am quite surprised to see how many papers he has published. I leave this on my way to the railway going out of town, but shall be happy to make any farther inquiries that may occur to you.</p>
+<p>Believe me | Yours very truly | Eras Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-4548A.xml" resp="#mjhawkins">letter to E. A. Darwin, 30 June 1864</ref>; the list appears as an enclosure to this letter. See also <ref target="./DCP-LETT-4546.xml" resp="#mjhawkins">letter from E. A. Darwin, 27 June [1864]</ref>. Falconer had seconded the nomination of CD for the Copley Medal at the meeting of the Royal Society, 23 June 1864 (Royal Society, Council minutes).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

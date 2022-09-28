@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-5012" status="released">
+    <persName>
+        <forename>Frances</forename>
+        <forename>Mosley</forename>
+        <choice>
+            <seg><surname notBefore="1807" notAfter="1832">Mosley</surname></seg>
+            <seg><surname notBefore="1832" notAfter="1874">Wedgwood</surname></seg>
+        </choice>
+    </persName>
+    <persName type="additional" subtype="nickname">
+        <forename>Fanny</forename>
+        <forename>Frank</forename>
+    </persName>
+    <note type="dates"><date>1807–74</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of the Rev. John Peploe Mosley of Rolleston, Staffordshire. Married Francis Wedgwood (Emma Darwin’s brother) in 1832.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_1096.xml" resp="#mjhawkins"><hi rend="italic">Burke’s peerage</hi></ref> 1980</p>
+        <p><hi rend="italic">England &amp; Wales christening records, 1530–1906</hi>: Rolleston, Staffordshire (Ancestry.com, accessed 14 July 2014)</p>
+        <p><ref target="../bibliographies/bibl_2662.xml" resp="#mjhawkins">Freeman 1978</ref></p>
+    </note>
+    <note type="volume">1,2,3,4,5,6,7,8,9,13,19,WSL,30</note>
+    <note type="keywords">
+        <term type="name">Wedgwood, Francis</term>
+    </note>
+</person>

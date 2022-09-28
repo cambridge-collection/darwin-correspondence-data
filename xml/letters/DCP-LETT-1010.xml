@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1010">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Joseph Beete Jukes<ref target="#foot.f1"/>   [18 October 1846]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1088</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1010 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1010.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1010.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+            <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+                <relatedItem type="publication">
+                    <bibl> <hi rend="italic">Correspondence</hi> 3: 355–6</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">University of Oklahoma Libraries History of Science Collections</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_305.xml">Oklahoma</repository>
+                    <collection>History of Science</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1846-10-18">[18 Oct 1846]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2620.xml">Jukes, J. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Knows nothing about missing fossils collected by J. L. Stokes.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_4574">Stokes, J. L.</term>
+                <term type="scientific_terms" ref="#">fossils</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Sunday</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I am sorry to say I know nothing of the fossils in question; I certainly never saw any fossils collected by Stokes,<ref target="#foot.f2"/> &amp; I looked through the collection sent to me.. I think some specimens were sent back to him, but I have one box now, &amp; when you are in town, I will send it you, if you choose.</p>
+<p>I am much obliged for your very kind enquiries about my health.— I enjoyed my week at Southampton extremely. What dreadful weather you must have had during the last fortnight amongst the mountains.—<ref target="#foot.f3"/></p>
+<p>Yours very truly | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.3 specimens] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD and Jukes had corresponded in 1838, when Jukes sought an appointment as geological surveyor of Newfoundland (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 2, letters to J. B. Jukes, <ref target="./DCP-LETT-453.xml" resp="#automat">6 December 1838</ref> and <ref target="./DCP-LETT-461.xml" resp="#automat">25 December [1838]</ref>).</note>
+            <note xml:id="foot.f2">Jukes had recently returned from a survey of the north-east coast of Australia as naturalist aboard H.M.S. <hi rend="italic">Fly</hi>, 1842–6. He had apparently sought information from <ref target="../nameregs/nameregs_4574.xml" resp="#mjhawkins">John Lort Stokes</ref>, who had surveyed the north-west coast.</note>
+            <note xml:id="foot.f3">Jukes was engaged in the geological survey of North Wales.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

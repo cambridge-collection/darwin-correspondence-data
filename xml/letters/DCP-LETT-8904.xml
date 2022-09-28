@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8904">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. M. Canby   7 May 1873</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3821</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8904 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8904.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8904.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+            <relatedItem type="publication">
+                <bibl>Jones, F.M. (1923): 594</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Natural History Society of Delaware</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_115.xml">Delaware NHS</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1873-05-07">7 May 1873</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_810.xml">Canby, W. M.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks for the <hi rend="italic">Dionaea</hi> leaves. They support CD’s anticipation that they are adapted to let the smaller fry escape [see <hi rend="italic">Insectivorous plants</hi>, p. 312].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Dionaea</term>
+                <term type="scientific_terms" ref="#">adaptation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="scientific_terms" ref="#">physical ‘external’ characters</term>
+                <term type="scientific_terms" ref="#">plant physiology</term>
+                <term type="scientific_terms" ref="#">predators</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>May 7 1873</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I thank you very sincerely for the leaves, of which I have examined 14 with great interest.<ref target="#foot.f1"/> The results support my anticipation that the leaves are adapted to allow of the smaller fry escaping. Eight of the 14 leaves had caught beetles of relative considerable size. There were also a good-sized spider &amp; a scolopendra—</p>
+<p>Three of the leaves had caught ants. I wish the leaves had been of full size, but I think my results may be trusted.<ref target="#foot.f2"/></p>
+<p>With cordial thanks for your kindness | yours very faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had asked Canby to open some old leaves of <hi rend="italic">Dionaea</hi> (Venus fly trap) to see the size of insects they captured. He had supposed that minute insects would escape through the apertures at the base of the spikes on the edge of the leaf. See <ref target="./DCP-LETT-8773.xml" resp="#mjhawkins">letter to W. M. Canby, 19 February 1873</ref>, and <ref target="./DCP-LETT-8871.xml" resp="#mjhawkins">letter from W. M. Canby, 22 April 1873</ref>. <hi rend="italic">Scolopendra</hi> is a genus of centipedes; only <hi rend="italic">Scolopendra viridis</hi> is native to North Carolina.</note>
+            <note xml:id="foot.f2">CD described the leaves and their prey in <ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref>, pp. 312–13.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

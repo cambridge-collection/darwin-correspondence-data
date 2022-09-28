@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-903" status="released">
+    <persName>
+        <forename>Mary</forename>
+        <forename>Louisa</forename>
+        <choice>
+            <seg><surname notBefore="1797" notAfter="1819">Bentham</surname></seg>
+            <seg><surname notBefore="1819" notAfter="1865"><nameLink>de</nameLink>Chesnel</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1797–1865</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Sister of George Bentham. Married Colonel de Chesnel, who styled himself a Marquis, in 1819.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_4110.xml">Jackson, B. D. 1906</ref></p>
+    </note>
+    <note type="volume">10</note>
+    <note type="keywords">
+        <term type="name">Bentham, George</term>
+    </note>
+</person>

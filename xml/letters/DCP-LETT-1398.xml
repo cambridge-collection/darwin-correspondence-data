@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1398">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Wilhelm Bernhard Rudolph Hadrian Dunker   5 April [1851]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8331</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1398 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1398.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1398.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl>Portman (1948): 208</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 5: 12</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Det Kongelige Bibliotek, Copenhagen</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_209.xml">KB Copenhagen</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1851-04-05">5 Apr [1851]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1423.xml">Dunker, W. B. R. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Returns fossil cirripede specimens to WD, Friedrich Adolph Roemer, R. A. Philippi, and F. C. L. Koch.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">cirripede</term>
+                <term type="people" ref="#subject_2733">Koch, F. K. L.</term>
+                <term type="people" ref="#subject_3772">Philippi, R. A.</term>
+                <term type="people" ref="#subject_4053">Roemer, F. A.</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">fossils</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>April 5<hi rend="superscript">th</hi>.</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>At last I am able to return you your valuable specimens, &amp; those belonging to M<hi rend="superscript">ess</hi>. Roemer Philippi &amp; Koch.<ref target="#foot.f1"/> Pray accept my most cordial thanks for your great kindness &amp; communicate the same to the above three distinguished naturalists. When you return the specimens, will you be so good as to present each of the above gentlemen with a copy of my small Monograph.<ref target="#foot.f2"/> —with which I am not well satisfied, though I have done it as well as I could.—</p>
+<p>Pray believe me with much respect, | Yours much obliged | C. Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_4053.xml" resp="#mjhawkins">Friedrich Adolph Roemer</ref>, <ref target="../nameregs/nameregs_3772.xml" resp="#mjhawkins">Rudolph Amandus Philippi</ref>, and <ref target="../nameregs/nameregs_2733.xml" resp="#mjhawkins">Friedrich Karl Ludwig Koch</ref>. In <ref target="../bibliographies/bibl_2621.xml" resp="#mjhawkins"><hi rend="italic">Fossil Cirripedia</hi> (1851): </ref>vi, CD wrote: ‘Having applied to Professor W. Dunker, of Cassel, for some of the species described by various German authors, he not only sent me many specimens out of his own collection, but procured from Messrs. Roemer, Koch, and Philippi, other specimens of great value; and to these most distinguished naturalists I beg to return my very sincere thanks.’</note>
+            <note xml:id="foot.f2">This is the first mention of published copies of <hi rend="italic">Fossil</hi> <hi rend="italic">Cirripedia</hi> (1851) being available. The letter has a covering note to Dunker from <ref target="../nameregs/nameregs_3408.xml" resp="#mjhawkins">John Morris</ref>, dated 22 April, listing the contents of the parcel being sent to Dunker. It includes ‘4 Copies of M<hi rend="superscript">r</hi>. Darwin’s Work’.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-989">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Edward Forbes   [7 August 1846]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">12033</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-989 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-989.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-989.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 43.1: 49</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>43.1: 49</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1680.xml">Forbes, Edward</persName>
+                <placeName>unstated</placeName>
+                <date when="1846-08-07">[7 Aug 1846]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Has completed descriptions of S. American fossil shells [for <hi rend="italic">South America</hi>]. Proposes to name a <hi rend="italic">Nautilus</hi> after A. D. d’Orbigny.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">shells</term>
+                <term type="it" ref="#">South America</term>
+                <term type="scientific_terms" ref="#">fossils</term>
+                <term type="scientific_terms" ref="#">identification</term>
+                <term type="scientific_terms" ref="#">shells</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <date>Friday.</date>
+                    <salute>Dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+<p><anchor xml:id="ann.a1" type="annotationStart"/>The shells which needed describing, are now described.<ref target="#foot.f2"/> Shall I send you the MS?</p>
+<p>The Conception <hi rend="underline">Nautilus</hi> I cannot satisfactorily identify with any other. I propose to call it <hi rend="underline">N. D’Orbignyanus</hi> if you have no objection. It comes very near some lower &amp; middle cretaceous species.<ref target="#foot.f3"/></p>
+<p>I send the M<hi rend="superscript">ss</hi>. wanted.</p>
+<p>I leave the Fuego Ancyloceras unnamed. Give D’Orbigny’s supposed identif<hi rend="superscript">n</hi>. of it. It is however not in a state sufficiently secure for my conscience to hang upon its horn.<ref target="#foot.f4"/></p>
+<p>The Terra del fuego fragments impress me with the notion that they indicate cretaceous epoch—probably the early part.<anchor xml:id="ann.a2" type="annotationEnd"/></p>
+<p>Such also is the impression I take up (&amp; more firmly) from those of Corderilla of Central Chili.<ref target="#foot.f5"/> I send that M<hi rend="superscript">ss</hi>. with the other. I am now ready to see Sowerby.<ref target="#foot.f6"/> <anchor xml:id="ann.a3" type="annotationStart"/>If he is not coming tomorrow, I will be in my office all Monday.</p>
+<p>Our survey reports are now out. I wish I could send you a copy of my paper<ref target="#foot.f7"/> but as yet have not been able to lay hands on one for myself<anchor xml:id="ann.a4" type="annotationEnd"/></p>
+<p>Ever, most sincerely | Edward Forbes</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note target="#ann.a1" targetEnd="#ann.a2"><hi rend="italic">crossed pencil</hi></note>
+                <note> 2.3 lower &amp; middle cretaceous] <hi rend="italic">underl pencil</hi> </note>
+                <note target="#ann.a3" targetEnd="#ann.a4"><hi rend="italic">crossed pencil</hi></note>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The conjectured date is the first Friday after the announcement of the publication of <ref target="../bibliographies/bibl_2580.xml" resp="#mjhawkins">E. Forbes 1846</ref> in <hi rend="italic">Memoirs of the Geological Survey</hi> (<hi rend="italic">The Publishers’ Circular</hi>, 1 August 1846, listing the volume as ‘just published’ in the period 13–29 July).</note>
+            <note xml:id="foot.f2">Forbes described CD’s Secondary fossil shells in the appendix of <ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref>.</note>
+            <note xml:id="foot.f3">Forbes eventually decided it resembled two species from the Upper Greensand (<ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref>, pp. 127, 265).</note>
+            <note xml:id="foot.f4">According to <ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref>, p. 152, Forbes agreed with Orbigny that the fossil was early Cretaceous.</note>
+            <note xml:id="foot.f5">Noted by CD in <ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref>, p. 193.</note>
+            <note xml:id="foot.f6"><ref target="../nameregs/nameregs_4479.xml" resp="#mjhawkins">George Brettingham Sowerby Jr</ref>, who illustrated the fossil shells for the plates in <ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref>. Forbes and George Brettingham Sowerby prepared descriptions for the appendix.</note>
+            <note xml:id="foot.f7"><ref target="../bibliographies/bibl_2580.xml" resp="#mjhawkins">E. Forbes 1846</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

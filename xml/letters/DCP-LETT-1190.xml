@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1190">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From William Buckland   15 July [1848]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13208</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1190 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1190.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1190.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="C">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 143: 4</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>143: 4</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_707.xml">Buckland, William</persName>
+                <placeName>Suffolk</placeName>
+                <date when="1848-07-15">15 July [1848]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Will forward recommendation of Edward Cresy to Edwin Chadwick, but thinks there will be no further need of engineers.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_870">Chadwick, Edwin</term>
+                <term type="people" ref="#">engineers</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Suffolk.</placeName>
+                    <date>15 July,</date>
+                    <salute>My dear L.,<ref target="#foot.f1"/></salute>
+                </opener>
+                <div type="transcription">
+<p>I have pleasure in forwarding to Mr. Chadwick<ref target="#foot.f2"/> your recommendation of Mr. E. Cresy,<ref target="#foot.f3"/> but as far as I know there will be occasion for no further services of engineers in the proposed map of the streets &amp; houses of London than those of the Privates &amp; Corporals of the Ordnance Survey Department<ref target="#foot.f4"/> at a cost of as many shillings a day to the public as would be pounds if the work were done by educated engineers. I believe the existing staff is fully adequate to all the work under contemplation &amp; that not one additional officer will be required. Nevertheless I will forward your letter as your friend seems so valuable a person in case of any occasion for his services.<ref target="#foot.f5"/></p>
+<p>Believe me, | Very truly yours, | W. Buckland.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Either a misreading of ‘My dear Sir’ by the copyist or perhaps a slip by Buckland.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_870.xml" resp="#mjhawkins">Edwin Chadwick</ref>, the leading figure in the Victorian public health movement. He was, at that time, reviewing applications for the new General Board of Health established by the Public Health Act of 1848 and supervising the Metropolitan Commission of Sewers (<ref target="../bibliographies/bibl_4737.xml" resp="#mjhawkins">Lewis 1952</ref>).</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-1188.xml" resp="#mjhawkins">letter to Edward Cresy, [5 or 12 July 1848]</ref>.</note>
+            <note xml:id="foot.f4">The typewritten copy reads ‘Surrey’, a misreading of ‘Survey’.</note>
+            <note xml:id="foot.f5">Cresy was appointed as superintending inspector to the General Board of Health in September 1848. He continued to work for <ref target="../nameregs/nameregs_870.xml" resp="#mjhawkins">Edwin Chadwick</ref> in various capacities until 1852 (<ref target="../bibliographies/bibl_4737.xml" resp="#mjhawkins">Lewis 1952</ref>, p. 187).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-402F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John George Children   22 February [1838]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20907</idno>
+            
+            
+            
+            
+            <date when="2002">2002</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-402F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-402F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-402F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="13">13-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance"><hi rend="italic">British Museum (Officers’ Reports</hi> 20 (1838): 5314)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_65.xml">BM</repository>
+                    <collection>Officers’ Reports</collection>
+                    <idno>1838.03.03: 5314</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Gt Marlborough St, 36</placeName>
+                <date when="1838-02-22">22 Feb [1838]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_914.xml">Children, J. G.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Testifies to the courtesy and helpfulness of George Gray [assistant at the British Museum]. [See <hi rend="doubleUnderline">402b</hi>.]</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#">assistant at British Museum</term>
+                <term type="people" ref="#subject_1958">Gray, G. R.</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>36 Grt. Marlbro’ St</placeName>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>During the last six months, I have had occasion several times to consult the collection of Birds in the British Museum.—<ref target="#foot.f2"/> With respect to the subject of your letter, I have much pleasure in informing you, that M<hi rend="superscript">r</hi> George Gray has uniformly acted towards me with courtesy.<ref target="#foot.f3"/></p>
+<p>He not only has always opened as many cases, as I required with readiness, but has likewise <hi rend="underline">repeatedly</hi> given me much useful information, often suggesting books of reference and other means by which I could obtain a knowledge of the subject I had in view.—<ref target="#foot.f4"/></p>
+<p>I have the pleasure to remain | Dear Sir | Very faithfully yours | Chas. Darwin <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">February 22<hi rend="superscript">d</hi>.—</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.3 means] <hi rend="italic">above del</hi> ‘sources’</note>
+                    <note xml:id="tnote.n2">2.3 by] <hi rend="italic">over</hi> ‘of’</note>
+                </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-402B.xml" resp="#automat">letter from J. G. Children, 21 February 1838</ref> (<hi rend="italic">Correspondence</hi> vol. 7, Supplement).</note>
+            <note xml:id="foot.f2">In late 1837, CD was working on a scheme for the publication of <hi rend="italic">Zoology</hi>; <hi rend="italic">Zoology</hi> included a volume on birds (see <hi rend="italic">Correspondence</hi> vol. 2, Appendix II; see also <hi rend="italic">Correspondence</hi> vol. 2, <ref target="./DCP-LETT-401.xml" resp="#mjhawkins">letter to John Gould, [February 1838]</ref>). CD made extensive use of the ornithological collections of the <ref target="../nameregs/nameregs_8646.xml" resp="#mjhawkins">British Museum</ref> (<ref target="../bibliographies/bibl_853.xml" resp="#automat" cert="low">Brandon-Jones 1996</ref>).</note>
+            <note xml:id="foot.f3">CD refers to Children’s <ref target="./DCP-LETT-402B.xml" resp="#mjhawkins" cert="high">letter of 21 February 1838</ref> (<hi rend="italic">Correspondence</hi> vol. 7, Supplement), in which he requested a character reference for <ref target="../nameregs/nameregs_1958.xml" resp="#mjhawkins">George Robert Gray</ref>. Gray was Children’s assistant in the zoology department of the museum, and had been the subject of a complaint by <ref target="../nameregs/nameregs_498.xml" resp="#mjhawkins">Edward Blyth</ref>, who was then preparing the sections on mammals, birds, and reptiles for a new edition of <ref target="../nameregs/nameregs_1170.xml" resp="#mjhawkins">Georges Cuvier’s</ref> <hi rend="italic">Animal kingdom</hi> (<ref target="../bibliographies/bibl_1722.xml" resp="#automat" cert="low">Cuvier 1840</ref>).</note>
+            <note xml:id="foot.f4">CD’s opinion of Gray’s good character was one of fifteen responses to Children’s enquiry into Blyth’s accusation of Gray for gross incivility and discourtesy. The background to this episode is described in <ref target="../bibliographies/bibl_853.xml" resp="#automat" cert="low">Brandon-Jones 1996</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

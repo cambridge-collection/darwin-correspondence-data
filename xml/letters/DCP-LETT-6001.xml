@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6001">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Hermann Müller   10 March 1868</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14449</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6001 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6001.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6001.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 293</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 293</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3069.xml">Müller, H. L. H.</persName>
+                <placeName>Lippstadt</placeName>
+                <date when="1868-03-10">10 Mar 1868</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Has heard from W. Engelmann of Leipzig; he is willing to let CD have the woodcuts to Fritz Müller’s work [<hi rend="italic">Für Darwin</hi> (1864)] for 22 thalers.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="it" ref="#">Fur Darwin</term>
+                <term type="people" ref="#subject_1513">Engelmann, Wilhelm</term>
+                <term type="places" ref="#">Leipzig</term>
+                <term type="rx" ref="#">Müller, J. F. T. 1864</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Lippstadt</placeName>
+                    <date>10 March 1868.</date>
+                    <salute>My dear Sir!</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Only this moment I have received a letter from W. Engelmann of Leipzig, who excuses himself by the sudden death of his son-in-law for having answered so late.<ref target="#foot.f1"/> He writes to me: “Very gladly I am ready to cede you the 67 “<hi rend="underline">Clichés</hi>” of the woodcuts belonging to the work of your brother—at <hi rend="underline">the price of 22 thalers</hi>.<ref target="#foot.f2"/> The woodcuts themselves I do not give out of my hand. The profits which could result from the English translation of this work, I will not take part of. The German original has not been successful, as I have lost thereby 60–70 thalers”.</p>
+<p>I am very sorrow to have not obtained from Engelmann, as I wished, the use of the woodcuts for nothing, but after this letter from him further negotiations with him would certainly be of no result.</p>
+<p>If you wish to obtain at this price the clichés of the woodcuts belonging to my brothers work,<ref target="#foot.f3"/> you will write it to me and I shall procure you them as promptly as possible.</p>
+<p>In expecting your orders in this regard I remain with the greatest respect | yours very faithfully | H Müller.</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-5919.xml" resp="#mjhawkins">letter to Hermann Müller, 23 February [1868]</ref>, and <ref target="./DCP-LETT-5920.xml" resp="#mjhawkins">letter from Hermann Müller, [after 23 February 1868]</ref>. Müller refers to Wilhelm Engelmann, whose firm had published <ref target="../nameregs/nameregs_3070.xml" resp="#mjhawkins">Fritz Müller’s</ref> <hi rend="italic">Für Darwin</hi> (<ref target="../bibliographies/bibl_5656.xml">F. Müller 1864</ref>). Engelmann’s son-in-law was Albert von Bezold (b. 1836), who died 2 March 1868 in Würzburg; he had married Engelmann’s daughter Louise (b. 1845) in 1864 (<ref target="../bibliographies/bibl_11694.xml">Engelmann 1911</ref>: 62 n6 and 112–14).</note>
+            <note xml:id="foot.f2">The thaler (taler) was a silver coin, the common currency unit of most northern German states, including Saxony, where Leipzig was. Twenty-two thalers were roughly equal to £3 6<hi rend="italic">s.</hi> (see <ref target="./DCP-LETT-6143.xml" resp="#mjhawkins">letter from Theodor Engelmann, 25 April 1868</ref>).</note>
+            <note xml:id="foot.f3"><ref target="../bibliographies/bibl_5656.xml">F. Müller 1864</ref> (see n. 1, above).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

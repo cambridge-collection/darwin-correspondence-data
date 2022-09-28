@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-741">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Ernst Dieffenbach   14 March 1844<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1821</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-741 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-741.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-741.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">J. A. Stargardt (dealers) Cat. 574 1965.11.11–13</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_399.xml">Stargardt</repository>
+                    <idno>Cat. 574 1965.11.11–13</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1844-03-14">14 Mar 1844</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1322.xml">Dieffenbach, Ernst</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>[With the notation "If not there to be forwarded by favour of Prof. Liebig" on the address.] "I am very glad to hear that you are going to edit a German Geological Journal".</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_2922">Liebig, Justus von</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Down]</placeName>
+                </opener>
+                <div type="transcription">
+<p>‘… I am very glad to hear that you are going to edit a German Geological Journal …’<ref target="#foot.f2"/> <lb resp="#mjhawkins"/>‘If not there to be forwarded by favour of Prof. Liebig’<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Date taken from the Stargardt catalogue.</note>
+            <note xml:id="foot.f2">Dieffenbach had corresponded with the German publisher <ref target="../nameregs/nameregs_4888.xml" resp="#mjhawkins">Eduard Vieweg</ref> about the possibility of producing an encyclopaedia of science, but nothing came of the project (<ref target="../bibliographies/bibl_523.xml" resp="#mjhawkins">Bell 1976</ref>, p. 117).</note>
+            <note xml:id="foot.f3">This note, ‘If … Liebig’, was written on the cover. Dieffenbach had studied with <ref target="../nameregs/nameregs_2922.xml" resp="#mjhawkins">Justus von Liebig</ref> and served as his agent in England in connection with a fertiliser enterprise (<ref target="../bibliographies/bibl_523.xml" resp="#mjhawkins">Bell 1976</ref>, pp. 18, 107–11).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

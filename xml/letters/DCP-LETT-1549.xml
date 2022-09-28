@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1549">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To the Ray Society   [before 23 January 1854]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19709</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1549 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1549.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1549.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+            <notesStmt>
+                <relatedItem type="publication">
+                    <bibl><hi rend="italic">Correspondence</hi> 5: 172</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Natural History Museum, Library and Archives (General Library MSS RAY)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_288.xml">NMH</repository>
+                    <collection>General Library MSS RAY</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1809-01-01" notAfter="1854-01-22">[before 23 Jan 1854]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3945.xml">Ray Society</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>"A letter having been read from Mr. Darwin stating that the MSS of the 2nd vol. of his work [<hi rend="italic">Living Cirripedia</hi>] extended to 900 pages it was resolved that the whole be published in one volume."</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Living Cirripedia</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription"><p>394 A letter having been read from M<hi rend="superscript">r</hi>. Darwin stating that the Mss of the 2<hi rend="superscript">nd</hi>. vol of his work extended to 900 pages it was resolved that the whole be published in one volume</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The letter has not been found. The text given here has been taken from the minutes of the special council meeting of the <ref target="../nameregs/nameregs_3945.xml" resp="#mjhawkins">Ray Society</ref>, 23 January 1854. <ref target="../nameregs/nameregs_4494.xml" resp="#mjhawkins">William Spence</ref> chaired the meeting, and <ref target="../nameregs/nameregs_568.xml" resp="#mjhawkins">James Scott Bowerbank</ref>, <ref target="../nameregs/nameregs_839.xml" resp="#mjhawkins">William Benjamin Carpenter</ref>, and <ref target="../nameregs/nameregs_2815.xml" resp="#mjhawkins">Edwin Lankester</ref> were present.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

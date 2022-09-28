@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11598">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. D. Fox   10 July 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8064</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11598 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11598.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11598.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 144: 296</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">University of British Columbia Library, Rare Books and Special Collections (Pearce/Darwin Fox collection RBSC-ARC-1721-1-75)
+            </bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_64.xml">British Columbia</repository>
+                    <collection>Pearce/Darwin Fox</collection>
+                    <idno>RBSC-ARC-1721-1-75</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1878-07-10">10 July 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1730.xml">Fox, W. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Letter of condolence on reading <hi rend="italic">Times</hi> report of death of WDF’s daughter.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin family</term>
+                <term type="it" ref="#">Times</term>
+                <term type="people" ref="#">Fox, W. D.’s daughter</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi> | (<hi rend="print">Railway Station | Orpington. S.E.R.</hi>)</placeName>
+                    <date>July 10<hi rend="superscript">th</hi> 1878</date>
+                    <salute>My dear Fox</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I was indeed grieved to see yesterday in the Times the great loss which you have suffered.<ref target="#foot.f1"/> I know well what misery this loss will cause to your affectionate disposition &amp; to poor M<hi rend="superscript">rs</hi>. Fox.<ref target="#foot.f2"/> Emma desires me to say how much she sympathises with you both.</p>
+<p>It is no use whatever my writing; but I could not endure not to do so.— I hope she did not suffer much.</p>
+<p>Do not write to me, unless doing something is a little relief to you.</p>
+<p>God bless you my dear old friend. I hope you &amp; M<hi rend="superscript">rs</hi> Fox are fairly well in bodily health.</p>
+<p>Yours affectionately | Charles Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 (<hi rend="print">Railway Station … S.E.R.</hi>)] <hi rend="italic">parentheses added</hi> </note>
+            </div> 
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The death of Fox’s 25-year-old daughter Theodora was announced in <hi rend="italic">The Times</hi>, 9 July 1878, p. 1.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_1711.xml" resp="#mjhawkins">Ellen Sophia Fox</ref>.</note>
+           
+        </div>
+    
+    </body>
+    </text>
+</TEI>

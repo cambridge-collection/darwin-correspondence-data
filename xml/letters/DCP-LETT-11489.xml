@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11489">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To A. S. Wilson   29 April [1878]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13828</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11489 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11489.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11489.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Copy</note>
+            <note type="physdesc" n="C">2pp</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">ML</hi> 2: 421</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 148: 365</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>148: 365</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Bassett</placeName>
+                <date when="1878-04-29">29 Apr [1878]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_5176.xml">Wilson, A. S.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks for specimen.</p>
+            <p>Always was sceptical of James Buckman’s experiment; heard afterwards that cruel trick was played on him.</p>
+            <p>Glad ASW is willing to look into Russian wheat case.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">wheat</term>
+                <term type="people" ref="#subject_712">Buckman, James</term>
+                <term type="places" ref="#">Russia</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">negative attitude/assessment</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Bassett | Southampton</placeName>
+                    <date>April 29</date>
+                    <salute>My dear Sir.</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>Your kind note and specimens have been forwarded to me here, where I am staying at my son’s house for a fortnight’s <hi rend="underline">complete</hi> rest, which I required from rather too hard work.<ref target="#foot.f2"/> For this reason I will not now examine the seeds, but will wait till returning home, when with my son Francis’ aid I will look to them.</p>
+                    <p>I always felt, though without any good reason, rather sceptical about Prof. Buckman’s experiment, and I afterwards heard that a most wicked and cruel trick had been played on him by some of the agricultural students at Cirencester, who had sown seeds unknown to him in his experimental beds.—<ref target="#foot.f3"/> Whether he ever knew this I did not hear.</p>
+                    <p>I am exceedingly glad that you are willing to look into the Russian wheat case.<ref target="#foot.f4"/> It may turn out a mare’s nest, but I have often incidentally observed curious facts when making what I call “a fool’s experiment”.</p>
+<p>My dear Sir | Yours very faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-11483.xml" resp="#mjhawkins">letter to A. S. Wilson, 24 April 1878</ref>.</note>
+            <note xml:id="foot.f2">Wilson’s note has not been found. CD visited <ref target="../nameregs/nameregs_1245.xml" resp="#mjhawkins">William Erasmus Darwin</ref> in Southampton from 27 April to 13 May 1878 (‘Journal’ (Appendix II)).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_712.xml" resp="#mjhawkins">James Buckman</ref> had been professor of geology and botany at the Royal Agricultural College, Cirencester, Gloucestershire; he retired in 1863. In <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>, p. 10, CD described an ‘extremely valuable’ experiment by Buckman that appeared to show that species of the same genus that differed greatly in appearance in their natural habitat were indistinguishable when grown under the same conditions in experimental plots. In 1863, he learned that a student who bore Buckman a grudge had mixed the seeds that were used in the experiment (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 11, <ref target="./DCP-LETT-3984.xml" resp="#automat" cert="low">letter from S. P. Woodward, 14 February 1863)</ref>. CD removed the reference from <ref target="../bibliographies/bibl_6017.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 4th ed.</ref> and all subsequent editions.</note>
+            <note xml:id="foot.f4">CD had sent Wilson specimens of Russian wheat varieties that he had received from Mikhail Nikolaevich Galkin-Vraskoi, the governor of Saratov province (see <ref target="./DCP-LETT-11483.xml" resp="#mjhawkins">letter to A. S. Wilson, 24 April 1878</ref> and n. 1). </note>
+        </div>
+    
+    </body>
+    </text>
+</TEI>

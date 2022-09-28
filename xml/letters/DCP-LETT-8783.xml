@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8783">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Ernst Haeckel<choice><seg type="original"><ref target="#foot.f1"/></seg><seg type="translation"><ref target="#foot_trans.f1"/></seg></choice>   23 February 1873</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">5297</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8783 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8783.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8783.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp (German)</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 166: 60</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>166: 60</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2048.xml">Haeckel, E. P. A.</persName>
+                <placeName>Jena</placeName>
+                <date when="1873-02-23">23 Feb 1873</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks CD for comments on <hi rend="italic">Die Kalkschwämme</hi>.</p> 
+            <p>Plans trip to Greece, Asia Minor, and Egypt.</p>
+            <p>Discusses work of a Polish translator, Ludwik Masłowski.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Die Kalkschwamme</term>
+                <term type="people" ref="#subject_3202">Masłowski, Ludwik</term>
+                <term type="people" ref="#">Polish translator</term>
+                <term type="places" ref="#">Asia Minor</term>
+                <term type="places" ref="#">Egypt</term>
+                <term type="places" ref="#">Greece</term>
+                <term type="rx" ref="#">Haeckel, E. P. A. 1872</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+                <term type="social" ref="#">Other people</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Jena</placeName>
+                    <date>23 Febr 73.</date>
+                    <salute>Mein theurer hochverehrter Freund!</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Grosse Freude haben Sie mir durch die Befriedigung gemacht, mit welcher Sie meine Monographie der Kalkschwäe<ref target="#foot.f2"/> aufgenoen haben. Es war in der That eine mühselige und langwierige Arbeit, die viele Geduld erforderte. Hoffentlich ist sie nicht vergeblich gewesen und wird dazu beitragen, das Dogma von der Species-Constanz zu erschüttern und der Descendenz-Theorie Bahn zu brechen. Vergessen Sie aber nicht, dass <hi rend="underline">Sie</hi> es waren, der <hi rend="underline">zuerst</hi> eine Bresche in dieses fast unbezwingliche Dogma legte und mir überhaupt erst freie Bahn und die Möglichkeit schaffte, meine Arbeiten nach diesen Zielen zu richten.</p>
+<p>Ich bin durch die harte Arbeit des letzten Jahres etwas erschöpft und bedarf der Erholung.<ref target="#foot.f3"/> Ich habe daher beschlossen, auf 2 Monate nach dem <hi rend="underline">Orient</hi> zu reisen, den ich noch nicht kenne. Ich werde am Sonntag 2. März von hier nach Triest gehen, am 7. März von dort nach Alexandrien, Cairo, Suez. Dann denke ich vom April die I. Hälfte in Klein-Asien (Smyrna), die II. Hälfte in Athen und Constantinopel zu verleben,<ref target="#foot.f4"/> und am 11. Mai hierher zurück zu kehren.</p>
+<p>Beifolgend sende ich Ihnen einige französische Aufsätze, die Sie vielleicht interessieren.<ref target="#foot.f5"/> Die Fortsetzung, meine Phylogenie enthaltend, habe ich noch nicht erhalten, werde Ihnen dieselbe aber später senden.<ref target="#foot.f6"/></p>
+<p>Heute schrieb mir Herr <hi rend="underline">Ludwig Masłowski</hi> in Krakau, welcher meine Schöpfungsgeschichte 1871 in das <hi rend="underline">Polnische</hi> übersetzt hat, er wünsche auch Ihre Werke zu übersetzen.<ref target="#foot.f7"/> Da ich ihn <hi rend="underline">nicht</hi> persönlich kenne, kann ich ihn nicht Ihnen empfehlen, wie er wünschte. <hi rend="underline">Honorar</hi> hat er <hi rend="underline">mir nicht</hi> gezahlt, und wünscht auch Ihnen keines zu zahlen. Ich kann eigentlich nicht einsehen, <hi rend="underline">warum</hi>? Die I. Aufl. der polnischen Übersetzung (1000 Exempl) ist so rasch consumirt, dass jetzt bald schon die II. folgt.</p>
+<p>Hoffentlich sind Sie mit Ihren Gesundheit zufrieden. Mit den herzlichsten Grüssen und den wärmsten Wünschen für Ihr Wohlergehen Ihr treulichst ergebener | Ernst Haeckel</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+        
+        
+        <div type="translation">
+            <div type="text">
+                <opener>
+                    <placeName>Jena</placeName>
+                    <date>23 Feb 73.</date>
+                    <salute>My dear much venerated friend!</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>You have made me very happy with the appreciation with which you received my monograph on calcareous sponges.<ref target="#foot.f2"/> It was indeed an arduous and prolonged labour, which required a great deal of patience. I hope it was not in vain and it will contribute to shaking the dogma of the constancy of species and breaking the path for the theory of descent. But don’t forget that it was <hi rend="underline">you</hi> who <hi rend="underline">first</hi> made a breach in this almost unconquerable dogma and thus cleared the way and gave me the opportunity to direct my work towards these goals.</p>
+<p>I have been somewhat exhausted by the hard work of the past year and need a rest.<ref target="#foot.f3"/> I have therefore decided to spend two months travelling in the <hi rend="underline">orient</hi>, since I do not yet know it. On Sunday 2 March I shall leave for Triest, on 7 March from there to Alexandria, Cairo, Suez. I then intend to spend the I. half of April in Asia Minor (Smyrna), and the II. half in Athens and Constantinople,<ref target="#foot.f4"/> and on 11 May I will return to Jena.</p>
+<p>Enclosed are some French papers that might interest you.<ref target="#foot.f5"/> The instalment containing my phylogeny, I have not yet received, but I will send it to you later on.<ref target="#foot.f6"/></p>
+<p>Today Mr. <hi rend="underline">Ludwig Masłowski</hi> of Cracow, who translated my history of creation into <hi rend="underline">Polish</hi> in 1871, wrote to me that he wishes to translate your works also.<ref target="#foot.f7"/> Since I do <hi rend="underline">not</hi> know him personally, I am unable to recommend him to you, as he desires. He did <hi rend="underline">not</hi> pay <hi rend="underline">me</hi> <hi rend="underline">royalties</hi>, nor does he wish to pay any to you. I actually can’t quite see <hi rend="underline">why</hi>? The I. ed. of the Polish translation (1000 copies) was taken up so swiftly that the second is now soon to follow.</p>
+<p>I hope you are satisfied with your health. With the most cordial greetings and the warmest wishes for your well being Your most loyally devoted | Ernst Haeckel.</p> 
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">For a translation of this letter, see Appendix I.</note>
+            <note xml:id="foot_trans.f1">For a transcription of this letter in its original German, see p. QQQQ.</note>
+            <note xml:id="foot.f2">Haeckel 1872a. See <ref target="./DCP-LETT-8743.xml" resp="#mjhawkins">letter to Ernst Haeckel, 20 January 1873</ref>.</note>
+            <note xml:id="foot.f3">In his <ref target="./DCP-LETT-8743.xml" resp="#automat" cert="medium">letter to Haeckel of 20 January 1873</ref>, CD had suggested that Haeckel should take some rest.</note>
+            <note xml:id="foot.f4">Smyrna, an ancient Anatolian city, is now Izmir, Turkey; Constantinople is now Istanbul.</note>
+            <note xml:id="foot.f5">Haeckel enclosed a copy of his article on the progress and purpose of zoology from the 21 December 1872 issue of <hi rend="italic">Revue scientifique de la France et de l’étranger</hi> (Haeckel 1872c). CD’s annotated copy is in the Darwin Pamphlet Collection–CUL.</note>
+            <note xml:id="foot.f6">Haeckel refers to an article detailing his phylogenetic classificatory system, written by <ref target="../nameregs/nameregs_5568.xml" resp="#mjhawkins">Léon A. Dumont</ref> (Dumont 1873). It appeared in the 22 March 1873 issue of <hi rend="italic">Revue scientifique de la France et de l’étranger</hi>. It has not been found in the Darwin Archive–CUL.</note>
+            <note xml:id="foot.f7"><ref target="../nameregs/nameregs_3202.xml" resp="#mjhawkins">Ludwik Masłowski</ref> co-translated <hi rend="italic">Naturliche Schöpfungsgeschichte</hi> (<ref target="../bibliographies/bibl_3275.xml" resp="#mjhawkins">Haeckel 1871</ref>). Masłowski later translated <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> into Polish (Masłowski trans. 1874–5).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

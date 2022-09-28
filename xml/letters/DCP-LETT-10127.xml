@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10127">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Otto Zacharias<choice><seg type="original"><ref target="#foot.f1"/></seg><seg type="translation"><ref target="#foot_trans.f1"/></seg></choice>   19 August 1875</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">11150</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10127 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10127.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10127.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp (German)</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 184: 2</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>184: 2</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_5291.xml">Zacharias, Otto</persName>
+                <placeName>Görlitz</placeName>
+                <date when="1875-08-19">19 Aug 1875</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks for <hi rend="italic">Insectivorous plants</hi>.</p> 
+            <p>Describes difficulties in launching Darwinian journal.</p>
+            <p>Mentions recent criticism of evolution in Germany.</p> 
+<p>Would like to translate essay on marriage between relatives [by G. H. Darwin, see <hi rend="doubleUnderline">9487</hi>].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Insectivorous plants</term>
+                <term type="people" ref="#subject_1224">Darwin, G. H.</term>
+                <term type="places" ref="#">Germany</term>
+                <term type="scientific_terms" ref="#">breeding behaviour</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">negative attitude/assessment</term>
+                <term type="scientific_terms" ref="#">predators</term>
+                <term type="scientific_terms" ref="#">reception of Darwinism</term>
+                <term type="scientific_terms" ref="#">social behaviour</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+                <term type="scientific_terms" ref="#">transmutation</term>
+                <term type="societal" ref="#">consanguineous marriage</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Goerlitz</placeName>
+                    <date>19. Aug. 75.</date>
+                    <salute>Hochgeehrter Herr!</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Ihr neues schoenes Werk ueber insectenfressende Pflanzen habe ich erhalten und wenn ich Ihnen erst heute dafür meinen besten Dank abstatte, so kommt das daher, weil ich glaubte, ich könnte Ihnen nach Verlauf einer längern Zeit etwas Bestimmteres über die zu gründende <hi rend="underline">biologische Zeitschrift</hi> mittheilen.<ref target="#foot.f2"/></p>
+<p><hi rend="underline">Leider</hi> habe ich noch nicht die genügende Anzahl von Mitarbeitern gefunden u. ich muss daher warten, bis das geschehen ist, ehe ich mit der Herausgabe des ersten Heftes beginnen kann. Für jetzt haben <hi rend="underline">12 Herren</hi> ihre Mitwirkung zugesagt—aber es müssen mindestens 24 sein, bevor man die Sache mit Erfolg in Angriff nehmen kann.<ref target="#foot.f3"/> Ich gedenke jedoch bis zum <hi rend="underline">neuen</hi> Jahr die nöthigen Kräfte zusammen zu haben. Für Ihre aufmunternden Worte danke ich Ihnen noch herzlich.<ref target="#foot.f4"/></p>
+<p>Von Zeit zu Zeit wird die transformistische Lehre bei uns noch sehr befehdet und es ist erst neulich von einem jungen Strassburger Professor ein umfangreiches Buch <hi rend="underline">über die Entwickelüngeschichte des bombinator igneus</hi> erschienen, worin gegen die Entwickelungtheorie in Ihrem Sinne zu Felde gezogen wird. Der Verfasser des Buches ist Dr. Goette.<ref target="#foot.f5"/></p>
+<p>Auch Prof. Haeckel muss noch hier und da harten Widerspruch erfahren und sich sagen lassen, dass er dem Publicum Phantasien anstatt thatsächliche Verhältnisse vortrage. Vorzüglich hat seine <hi rend="underline">Anthropogenie</hi> viel Staub aufgewirbelt und <hi rend="underline">Prof. Michelis</hi> <hi rend="underline">in Bonn</hi> hat eine satÿrische Widerlegung derselben unter dem Titel: <hi rend="underline">Haeckelogonie</hi> geschrieben.<ref target="#foot.f6"/></p>
+<p>Unter solchen Umständen ist es schwer eine eigne Zeitschrift für Darwinismus ins Leben zu rufen. Gestatten Sie mir noch eine Frage, hochgeehrter Herr!</p>
+<p>Vor einiger Zeit kam in einer Gesellschaft von Gelehrten die Rede auf Ihre frühesten Essays u. Schriften und da behauptete Jemand, dass Sie früher einmal einen “<hi rend="underline">Essay über die Heirath zwischen Blutsverwandten</hi>” geschrieben hätten. Wenn das der Fall ist, so wollte ich mir diesen Essay aus England kommen lassen und ihn übersetzen, da es äusserst interessant sein muss, Ihre Meinung über diesen Punkt zu hören.<ref target="#foot.f7"/> <hi rend="underline">Vielleicht sagen Sie mir gelegentlich mit zwei Worten ob dieser Essaÿ erschienen ist u. bei welchem Herausgeber in London.</hi></p>
+<p>Nochmals für die Zusendung der insectivorous Plants dankend zeichnet | hochachtungsvoll | Otto Zacharias.</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+        
+        
+        <div type="translation">
+            <div type="text">
+                <opener>
+                    <placeName>Goerlitz</placeName>
+                    <date>19. Aug. 75.</date>
+                    <salute>Highly honoured Sir!</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have received your new, delightful work on insectivorous plants, and if I am only today sending my best thanks for it, that is because I believed I would be able to give you more specific news about the projected <hi rend="underline">biological journal</hi> after more time had passed.<ref target="#foot.f2"/></p>
+<p><hi rend="underline">Unfortunately</hi> I have not yet found a sufficient number of collaborators &amp; so must wait until this has happened before I can go ahead with the publication of the first issue. So far, <hi rend="underline">12 gentlemen</hi> have agreed to collaborate—but 24 at least are required in order to tackle this matter with any success.<ref target="#foot.f3"/> However, I plan to have got the required staff together by the beginning of the <hi rend="underline">new</hi> year. For your encouraging words I thank you most cordially.<ref target="#foot.f4"/></p>
+<p>From time to time the transformist doctrine is still very much attacked over here, and just recently a substantial work by a young professor at Strasburg came out, <hi rend="underline">on the developmental history of Bombinator igneus</hi>, which has campaigned against your interpretation of evolution. The author of the book is Dr. Goette.<ref target="#foot.f5"/></p>
+<p>Professor Haeckel, too, must still put up with tough opposition and with being told that he is presenting the public with fantasies rather than actual circumstances. His <hi rend="underline">Anthropogenie</hi> has caused quite a great stir and <hi rend="underline">Prof. Michelis at Bonn</hi> has a written a satirical refutation of it, entitled: <hi rend="underline">Haeckelogonie</hi>.<ref target="#foot.f6"/></p>
+<p>Under such circumstances it is difficult to establish a journal of one’s own on behalf of Darwinism. Allow me a last question, highly honoured Sir!</p>
+<p>A while ago, in a gathering of scholars the conversation turned to your earliest essays &amp; works, and somebody claimed that you had once written an “<hi rend="underline">Essay on Marriage between blood relatives</hi>”. If so, I should like to have it sent me from England to translate it, for it must be extremely interesting to hear your views on this point.<ref target="#foot.f7"/> <hi rend="underline">Perhaps you will let me know some time whether this essay is published and by which publisher in London</hi>.</p>
+<p>Thanking you again for sending me insectivorous plants, I remain | most respectfully | Otto Zacharias.</p> 
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">For a translation of this letter, see Appendix I.</note>
+            <note xml:id="foot_trans.f1">For a transcription of this letter in its original German, see pp. 326–7.</note>
+            <note xml:id="foot.f2">Zacharias’s name appears on CD’s presentation list for <ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref> (see Appendix IV). For details of his plans to found a biological journal in CD’s honour, see the <ref target="./DCP-LETT-10008.xml" resp="#mjhawkins">letter from Otto Zacharias, 3 June 1875</ref>.</note>
+            <note xml:id="foot.f3">For the potential contributors, see the <ref target="./DCP-LETT-10008.xml" resp="#mjhawkins">letter from Otto Zacharias, 3 June 1875</ref> and n. 4. Although the periodical never appeared under the proposed title of <hi rend="italic">Darwinia</hi>, many of the same contributors were involved in the launch of <hi rend="italic">Kosmos</hi>, which first appeared in April 1877 and had essentially the same aims (<ref target="../bibliographies/bibl_1828.xml" resp="#mjhawkins">Daum 1998</ref>, pp. 361–2; Nöthlich <hi rend="italic">et al.</hi> 2006, pp. 177, 181–2).</note>
+            <note xml:id="foot.f4">The original of the <ref target="./DCP-LETT-10013F.xml" resp="#mjhawkins">letter to Otto Zacharias, [11 June 1875]</ref>, has not been found. Zacharias described it as a six-page letter in which CD gave the journal his full sympathy, his best wishes, and his support (‘seine volle Sympathie, seine besten Wünsche u. seine Unterstützung’; <ref target="" resp="#automat">letter from Otto Zacharias to Ernst Haeckel, 19 June 1875</ref>, in Nöthlich <hi rend="italic">et al.</hi> 2006, p. 203).</note>
+            <note xml:id="foot.f5">In his book on the development of the toad <hi rend="italic">Bombinator igneus</hi>, Alexander Wilhelm Goette accepted descent with modification but rejected natural selection as a mechanism (<ref target="../bibliographies/bibl_2940.xml" resp="#mjhawkins">Goette 1874–5</ref>, pp. 890–7). For more on the reception of Darwinism in Germany, see Glick ed. 1988, pp. 81–116, and on Goette’s views, see especially <hi rend="italic">ibid</hi>., pp. 101–4. <hi rend="italic">Bombinator igneus</hi> is a synonym of <hi rend="italic">Bombina bombina</hi>, the European fire-bellied toad.</note>
+            <note xml:id="foot.f6"><ref target="../nameregs/nameregs_7711.xml" resp="#mjhawkins">Friedrich Michelis</ref> subtitled his work (<ref target="../bibliographies/bibl_8962.xml" resp="#mjhawkins">Michelis 1875</ref>) an ‘academic protest’ against <ref target="../nameregs/nameregs_2048.xml" resp="#mjhawkins">Ernst Haeckel’s</ref> <hi rend="italic">Anthropogenie</hi> (Haeckel 1875a). Zacharias wrote a number of reviews of <ref target="../bibliographies/bibl_8962.xml" resp="#mjhawkins">Michelis 1875</ref> (Nöthlich <hi rend="italic">et al.</hi> 2006, p. 207 nn. 123 and 124).</note>
+            <note xml:id="foot.f7">The paper ‘Marriages between first cousins in England and their effects’ was by CD’s son <ref target="../nameregs/nameregs_1224.xml" resp="#mjhawkins">George Howard Darwin</ref> (G. H. Darwin 1875a); Zacharias arranged to have a translation into German made and provided an introduction (G. <ref target="../bibliographies/bibl_9213.xml" resp="#mjhawkins">H. Darwin 1876</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

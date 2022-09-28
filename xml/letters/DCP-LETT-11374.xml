@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11374">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Simon   25 February 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10740</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11374 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11374.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11374.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 177: 166</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>177: 166</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4361.xml">Simon, John</persName>
+                <placeName>London, Kensington Square, 40</placeName>
+                <date when="1878-02-25">25 Feb 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Has sent CD a paper partly relating to Dr Creighton’s curious observations ["Some points of science and practice concerning cancer", <hi rend="italic">Br. Med. J.</hi> (1878) pt 1: 219–24].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Br. Med. J.</term>
+                <term type="people" ref="#">Creighton</term>
+                <term type="rx" ref="#">Simon, John 1878</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">pathology, disease</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>40, Kensington Square, W.</placeName>
+                    <date>February 25<hi rend="superscript">th</hi>, 1878.</date>
+                    <salute>Dear M<hi rend="superscript">r</hi>. Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I cannot flatter myself that you will be altogether interested in the paper of mine for which I posted you on Saturday a number of the Brit. Med. Journal, the special aim of the paper being very technically surgical: (that, namely, of <hi rend="underline">prodding</hi> my fellow-doctors to try to improve on our present dismal routine in the surgery of Cancer:) but I thought you might perhaps like to see the part of it which relates to Creighton’s work; and we doctors should have much reason to rejoice if you were enough interested in those curious observations of his to feel tempted to help us, some day, to interpret them.<ref target="#foot.f1"/></p>
+<p>I hope that you and Mrs Darwin (to whom please give my best respects) are well; and I remain, dear M<hi rend="superscript">r</hi> Darwin, | Very faithfully yours, | John Simon.</p>
+<p><hi rend="underline">P.S.</hi> | I have had the pleasure of a recent report of Basset from Theodora who was spending yesterday evening with us.<ref target="#foot.f2"/></p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Simon’s address on ‘some points of science and practice concerning cancer’ (<ref target="../bibliographies/bibl_10232.xml" resp="#automat" cert="low">Simon 1878</ref>) appeared in the <hi rend="italic">British Medical Journal</hi>. It discussed <ref target="../nameregs/nameregs_7980.xml" resp="#mjhawkins">Charles Creighton’s</ref> work on the growth of secondary and tertiary cancers (<hi rend="italic">ibid.</hi>, p. 221).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_8040.xml" resp="#mjhawkins">Theodora Sedgwick</ref> was <ref target="../nameregs/nameregs_1240.xml" resp="#mjhawkins">Sara Darwin’s</ref> sister. William Erasmus and <ref target="../nameregs/nameregs_1240.xml" resp="#mjhawkins">Sara Darwin</ref> lived in Bassett, Southampton.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

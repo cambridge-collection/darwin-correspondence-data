@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6519F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Francis Darwin   [before 8 May 1869]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">21484</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6519F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6519F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6519F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS"/>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 274.1: 12</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>274.1: 12</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1222.xml">Darwin, Francis</persName>
+                <placeName>Cambridge</placeName>
+                <date notBefore="1809-01-01" notAfter="1869-05-06">[before 8 May 1869]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Reports what he must pay for university courses. Forgets what CD wants to know about vermiform appendage.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_214">Babington, C. C.</term>
+                <term type="people" ref="#subject_5965">Humphry, G. M.</term>
+                <term type="people" ref="#subject_3517">Newton, Alfred</term>
+                <term type="places" ref="#">University of Cambridge</term>
+                <term type="scientific_terms" ref="#">vermiform appendage</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Union Society Cambridge</hi></placeName>
+                    <salute>My dear Father</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I find what I have to pay for lectures is 3 guineas for a course of Humphrey—2 for Newton &amp; 1 for Babington, 1 for Chemistry, 7 guineas in all<ref target="#foot.f2"/>   I wasnt marked in Humphreys but he says he will give me the certificate as I went regularly. I shall not do any hospital work yet, as I find mathematics pretty nearly enough.<ref target="#foot.f3"/> I forget whether you want the question about the vermiform appendage asked, &amp; if so what is it<ref target="#foot.f4"/></p>
+<p>Your affec son | F Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the reference to the payment for lectures (see n. 2, below).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_5965.xml" resp="#mjhawkins">George Murray Humphry</ref> was professor of human anatomy at Cambridge; <ref target="../nameregs/nameregs_3517.xml" resp="#mjhawkins">Alfred Newton</ref> was professor of zoology and comparative anatomy; <ref target="../nameregs/nameregs_214.xml" resp="#mjhawkins">Charles Cardale Babington</ref> was professor of botany. CD recorded a payment to Francis of £7 7<hi rend="italic">s.</hi> (i.e. 7 guineas) on 8 May 1869 in his Classed account books (Down House MS).</note>
+            <note xml:id="foot.f3">Francis was working towards a degree in natural sciences at Cambridge, following which he planned to study medicine at St George’s Hospital, London (<hi rend="italic">ODNB</hi>). According to university regulations at the time, candidates obtaining honours in the mathematical or classical tripos could be admitted to the examination in natural sciences in the following Michaelmas (autumn) term. Francis sat examinations for the mathematical tripos in January 1870 and for the natural sciences tripos in December 1870 (<hi rend="italic">Cambridge University calendar</hi> 1870, 1871).</note>
+            <note xml:id="foot.f4">Vermiform appendage: appendix. In <hi rend="italic">Descent</hi> 1: 27–8, in a discussion of rudimentary organs, CD noted that small hard bodies such as seeds could cause inflammation in the vermiform appendage and even result in death.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1713">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To G. R. Waterhouse   8 July [1855]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1146</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1713 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1713.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1713.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+            <notesStmt>
+            <note type="endorsement" subtype="letter">C. Darwin July 8. 55</note>
+            <note type="physdesc" n="ALS">4pp</note>
+                <relatedItem type="publication">
+                    <bibl><hi rend="italic">Correspondence</hi> 5: 373</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">McGill University Library, Department of Rare Books</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_250.xml">McGill</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1855-07-08">8 July [1855]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4972.xml">Waterhouse, G. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks GRW if there is any easy systematic work on Lepidoptera for his sons. Considers making out the names from descriptions fine practice for the intellect; mere collecting is idle work.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Lepidoptera</term>
+                <term type="people" ref="#subject_1224">Darwin, C. R.’s sons</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">identification</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>July 8<hi rend="superscript">th</hi></date>
+                    <salute>My dear Waterhouse</salute>
+                </opener>
+                <div type="transcription">
+<p>Two of my Boys<ref target="#foot.f1"/> are become ardent Lepidopterists, &amp; I want <hi rend="underline">much</hi> to know whether there is any <hi rend="underline">systematic</hi> work on Lepidoptera, tolerably easy. I really sh<hi rend="superscript">d</hi>. be very much obliged if you could inform me. I look at it as fine practice for the intellect making out the names from descriptions, &amp; but idle work, mere collecting or comparing with mere figures.— I have Stephens work,<ref target="#foot.f2"/> but he uses such dreadfully hard words; &amp; there is no Synopsis. Westwood in his “Modern Classification”<ref target="#foot.f3"/> has a Synopsis at end, but there it is most extraordinary but he gives no characters for the Families &amp; Sub-families, only generic descriptions.—</p>
+<p>John Lubbock has lent me Humphreys &amp; Westwoods magnificent work,<ref target="#foot.f4"/> but here again there is nothing like a Synopsis; &amp; it would take hours to go dipping through the volume to find the several Families, &amp; pick out the essential characters out of the diffuse descriptions. Does a Book such as I want, exist on British Lepidoptera?</p>
+<p>How strange if such does not exist. Will you be so kind as to illuminate me.—</p>
+<p>Yours most truly | C. Darwin</p>
+<p>For the Butterflies Stephens does pretty well, as he gives some sort of a Synopsis; but what wretched latinised English he does use.<ref target="#foot.f5"/></p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.2 go] ‘g’ <hi rend="italic">over</hi> ‘d’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">William, aged 15, and George, aged 10. See <ref target="./DCP-LETT-1660.xml" resp="#mjhawkins">letter to W. E. Darwin, [25 April 1855]</ref>.</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_7458.xml" resp="#mjhawkins">Stephens 1829</ref>. A lightly annotated copy is in the Darwin Library–CUL. CD used this catalogue when he was an enthusiastic collector during his undergraduate years at Cambridge.</note>
+            <note xml:id="foot.f3"><ref target="../bibliographies/bibl_8305.xml" resp="#mjhawkins">Westwood 1839–40</ref>. CD’s annotated copy is in the Darwin Library–CUL.</note>
+            <note xml:id="foot.f4"><ref target="../bibliographies/bibl_8306.xml" resp="#mjhawkins">Westwood 1841</ref>, arranged and illustrated by <ref target="../nameregs/nameregs_2449.xml" resp="#mjhawkins">Henry Noel Humphreys</ref>.</note>
+            <note xml:id="foot.f5">From CD’s comments it is probable that he refers to <ref target="../bibliographies/bibl_7457.xml" resp="#mjhawkins">Stephens 1828–46</ref>, pt 2, <hi rend="italic">Haustellata</hi>. Volume four, which deals with the Lepidoptera, has a brief synopsis of the group on pp. 398–402.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

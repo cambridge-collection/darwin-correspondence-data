@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8052F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From W. E. Darwin   4 November 1871</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">21784</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8052F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8052F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8052F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24-Supplement</biblScope>
+        </seriesStmt>
+            <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+                <relatedItem type="publication">
+                    <bibl><hi rend="italic">Correspondence</hi> 24: 519</bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="provenance">Cornford Family Papers (DAR 275: 115)</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="../repo/repo_106.xml">CUL</repository>
+                        <collection>DAR</collection>
+                        <idno>275: 115</idno>
+                    </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1245.xml">Darwin, W. E.</persName>
+                <placeName>Bank, Southampton</placeName>
+                <date when="1871-11-04">4 Nov 1871</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Will write to de Chaumont to ask whether anyone at Netley is able to observe shivering fits. Has not got H. Spencer essays.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_898">Chaumont, F. S. B. F. de</term>
+                <term type="places" ref="#">Netley</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Bank, Southampton,</hi></placeName>
+                    <date>Nov 4 <hi rend="print">18</hi>71</date>
+                    <salute>My dear Father,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I write a line to de Chaumont tonight to get him to ask anyone at Netley who has the best chance of seeing shivering fits to observe.<ref target="#foot.f1"/></p>
+<p>I am almost certain I have never had your H. Spencer’s essays,<ref target="#foot.f2"/> I certainly have not them now. I am pretty sure when I last looked into them it was at Down</p>
+<p>Your affect son | WED</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_898.xml" resp="#mjhawkins">Francis Stephen Bennet François de Chaumont</ref> had previously supplied William with observations of shrugging for CD’s work on <hi rend="italic">Expression</hi> (see <hi rend="italic">Correspondence</hi> vol. 19, <ref target="./DCP-LETT-7573.xml" resp="#mjhawkins">letter from F. S. B. F. de Chaumont to W. E. Darwin, 11 March 1871</ref>). He was an assistant professor at the Army Medical School, Netley Hospital.</note>
+            <note xml:id="foot.f2">CD had the first volume of a collection of <ref target="../nameregs/nameregs_4495.xml" resp="#mjhawkins">Herbert Spencer’s</ref> essays (<ref target="../bibliographies/bibl_7365.xml" resp="#automat" cert="low">Spencer 1858–74</ref>; see <hi rend="italic">Marginalia</hi> 1: 768–9). The book was borrowed by <ref target="../nameregs/nameregs_2952.xml" resp="#mjhawkins">Richard Buckley Litchfield</ref> (see <hi rend="italic">Correspondence</hi> vol. 19, <ref target="./DCP-LETT-8134.xml" resp="#mjhawkins">letter to H. E. Litchfield, [before 2 December 1871]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

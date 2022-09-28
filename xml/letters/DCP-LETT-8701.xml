@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8701">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From E. F. Lubbock   [1873?]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6885</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8701 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8701.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8701.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">AL incomplete</note>
+            <note type="physdesc" n="AL inc">†</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 170: 14</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>170: 14</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3021.xml" resp="high">Lubbock, E. F.</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1873-01-01" notAfter="1873-12-31">[1873?]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml" resp="high">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Observations on her pet cat.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">cat</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">expression, emotion</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>Dear M<hi rend="superscript">r</hi>. Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>You are kind enough to say, I am an <hi rend="underline">observer</hi>, which I fear I am not, and could never be really, on account of my short sight. But may I ask if you notice that the longhaired cats like to be stroked the wrong way? &amp; that they wag their tails <hi rend="underline">when pleased</hi>?</p>
+<p>My first Angora cat (I am not sure where its country is, but it was <hi rend="underline">called</hi> Angora) is now possessed by M<hi rend="superscript">r</hi>. Lowe,<ref target="#foot.f2"/> &amp; is a magnificent creature. It wagged its tail when pleased, &amp; preferred to have its fur rubbed the wrong way. So does my present cat, which is of a real good breed.</p>
+<p>Most likely you will think, as Amy<ref target="#foot.f3"/> said when she was quite a small child &amp; I had told her some things about animals “I knowed all <hi rend="underline">that</hi>, a long time ago.”</p>
+<p>John is gone to Maidstone today: he seems to catch it on all sides</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note>1.1 You … <hi rend="italic">pleased</hi>? 1.4] <hi rend="italic">crossed pencil</hi></note>
+                <note>3.1 Most … sides 4.1] <hi rend="italic">crossed pencil</hi></note>
+                <note><hi rend="italic">Top of letter</hi>: ‘Lady Lubbock’ <hi rend="italic">pencil</hi></note>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is conjectured on the supposition that this letter was inspired by <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref>, which was published in November 1872 (<ref target="../bibliographies/bibl_2661.xml" resp="#mjhawkins">Freeman 1977</ref>).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_3013.xml" resp="#mjhawkins">Robert Lowe</ref>.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_6221.xml" resp="#mjhawkins">Amy Harriet Lubbock</ref> was Ellen and <ref target="../nameregs/nameregs_3026.xml" resp="#mjhawkins">John Lubbock’s</ref> eldest daughter.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

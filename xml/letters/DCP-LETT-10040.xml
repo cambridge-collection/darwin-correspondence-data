@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10040">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From R. F. Cooke   3 July 1875</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9627</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10040 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10040.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10040.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 456</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 456</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent" subtype="personGrp">
+                <persName key="../nameregs/nameregs_1053.xml">Cooke, R. F.</persName>
+                <persName key="../nameregs/nameregs_2575.xml">John Murray, Publishers</persName>
+                <placeName>London, Albemarle St, 50a</placeName>
+                <date when="1875-07-03">3 July 1875</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>CD’s pessimistic view [of prospective sale of <hi rend="italic">Insectivorous plants</hi>] is to blame for the small printing. Murray’s printed only 1250 copies and sold 1700. A thousand more have been ordered.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="it" ref="#">Insectivorous plants</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="scientific_terms" ref="#">predators</term>
+                <term type="societal" ref="#">John Murray, Publishers</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">50A, Albemarle Street, London, W.</hi></placeName>
+                    <date>July 3 <hi rend="print">187</hi>5</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>You are to blame. You took such a desponding view of your new work that you made us over cautious &amp; we printed but 1250 Copies, &amp; lo &amp; behold we have sold some 1700 Copies!!!.<ref target="#foot.f1"/></p>
+<p>I have ordered Clowes to print off at once 1000 more copies, for fortunately we have kept the type standing.<ref target="#foot.f2"/></p>
+<p>If you have detected any errors, let the printers have your corrections as soon as possible.</p>
+<p>We have charged Appleton £50 for the Stereotypes, which is the same we did for the Expression, &amp; this is very cheap, as this volume is nearly 3 sheets more.<ref target="#foot.f3"/></p>
+<p>What about the enclosed note.<ref target="#foot.f4"/></p>
+<p>Yours faithfully | Rob<hi rend="superscript">t</hi>. Cooke <lb resp="#mjhawkins"/></p>
+<p rend="left">Cha<hi rend="superscript">s</hi>. Darwin Esq</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had warned his publisher, John Murray, that <ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref> might ‘sell very poorly’ (<ref target="./DCP-LETT-9955.xml" resp="#mjhawkins">letter to John Murray, 29 April [1875]</ref>). See also <ref target="./DCP-LETT-10035.xml" resp="#mjhawkins">letter to R. F. Cooke, 29 June [1875]</ref>.</note>
+            <note xml:id="foot.f2">Murray had requested that the printers, <ref target="../nameregs/nameregs_979.xml" resp="#mjhawkins">William Clowes &amp; Sons</ref>, keep the text in type in case further copies were required (<ref target="./DCP-LETT-9964.xml" resp="#mjhawkins">letter from John Murray, 1 May [1875]</ref>).</note>
+            <note xml:id="foot.f3">CD had negotiated the charges for stereotypes of <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref> for his US publisher, <ref target="../nameregs/nameregs_135.xml" resp="#mjhawkins">D. Appleton &amp; Co</ref>. (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 20, <ref target="./DCP-LETT-8455.xml" resp="#mjhawkins">letter to R. F. Cooke, 7 August 1872</ref>). Stereotypes were prepared by making a mould of each page of type and using the mould to cast metal printing-plates. In an octavo book, sheets are folded three times to produce sixteen pages; so three extra sheets would produce forty-eight more pages.</note>
+            <note xml:id="foot.f4">The enclosure has not been found.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

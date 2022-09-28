@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9547">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To F. C. Donders   15 July 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">692</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9547 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9547.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9547.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Copy</note>
+            <note type="physdesc" n="C">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno/>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1874-07-15">15 July 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1354.xml">Donders, F. C.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Discusses effect of atropine solution on eye,</p> 
+<p>and effect of phosphate of ammonia solution on gland of <hi rend="italic">Drosera</hi>.</p> 
+            <p>Would like to see work by T. W. Engelmann and possibly one by Dr De Ruyter.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Drosera</term>
+                <term type="people" ref="#subject_1512">Engelmann, T. W.</term>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+                <term type="scientific_terms" ref="#">plant physiology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down, Beckenham. | Kent</placeName>
+                    <date>July 15 74</date>
+                    <salute>My dear Prof: Donders,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Your very kind letter has interested me greatly, &amp; it is quite a relief to me to find that such minute doses of atropine act on the muscles &amp; the iris.<ref target="#foot.f1"/> As you remark the eye of a dog is a large object, &amp; the quantity of atropine which acts on each fibre must be as small, or smaller than the quantity of phosphate of Ammonia which acts on a single gland of <hi rend="underline">Drosera</hi>. I wish that the quantity of the solution, &amp; therefore of the salt of atropine, which was applied to the eye had been measured; but this perhaps w<hi rend="superscript">d</hi>. have been useless, as it might have been impossible to ascertain how much was absorbed. Pray thank Pro:. Engelmann for me; I should very much like to see his work, which I c<hi rend="superscript">d</hi>. return after consulting it, &amp; if he will mark the passages bearing on minute quantities, it would be a great aid, for I read German with much difficulty.<ref target="#foot.f2"/></p>
+<p>If D<hi rend="superscript">r</hi>. De Ruyter enters into details on the quantity applied I should also like to see his book; but I fear I am very troublesome.<ref target="#foot.f3"/> I shall not return to my M.S. chapter on this subject until one or two months have elapsed.<ref target="#foot.f4"/></p>
+<p>With cordial thanks, I remain yours very sincerely, | Charles Darwin</p>
+<p>P.S. My son George has just returned worse I fear than when he started.<ref target="#foot.f5"/></p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-9545.xml" resp="#mjhawkins">letter from F. C. Donders, 12 July 1874</ref>.</note>
+            <note xml:id="foot.f2">Donders had offered to send <ref target="../nameregs/nameregs_1512.xml" resp="#mjhawkins">Theodor Wilhelm Engelmann’s</ref> monograph on vibratile movement (<ref target="../bibliographies/bibl_2355.xml" resp="#mjhawkins">T. W. Engelmann 1868</ref>) to CD. Engelmann had offered to mark passages that would be useful for CD (see <ref target="./DCP-LETT-9545.xml" resp="#mjhawkins">letter from F. C. Donders, 12 July 1874</ref> and n. 10).</note>
+            <note xml:id="foot.f3">CD refers to a dissertation written by Donders’s student <ref target="../nameregs/nameregs_7343.xml" resp="#mjhawkins">Gerardus Cornelius Petrus de Ruiter</ref> on the action of atropine on the iris (<ref target="../bibliographies/bibl_6784.xml" resp="#mjhawkins">Ruiter 1853</ref>; see <ref target="./DCP-LETT-9545.xml" resp="#mjhawkins">letter from F. C. Donders, 12 July 1874</ref> and n. 6).</note>
+            <note xml:id="foot.f4">In <ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref>, p. 173, CD referred to the amount of sulphate of atropine used by Donders and Ruiter in their experiments; the amount was that mentioned in the <ref target="./DCP-LETT-9545.xml" resp="#mjhawkins">letter from F. C. Donders, 12 July 1874</ref>.</note>
+            <note xml:id="foot.f5"><ref target="../nameregs/nameregs_1224.xml" resp="#mjhawkins">George Howard Darwin</ref> had visited Donders in Utrecht, but returned home on 11 July 1874, cutting short his journey after reaching Hanover (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242); <ref target="./DCP-LETT-9539.xml" resp="#mjhawkins">letter to J. V. Carus, 9 July [1874]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

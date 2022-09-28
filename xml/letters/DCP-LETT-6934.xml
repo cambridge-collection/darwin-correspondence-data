@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6934">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Fox &amp; Sons   12 October 1869</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19342</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6934 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6934.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6934.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 83: 61v</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>83: 61r</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <orgName>Fox, John &amp; Sons</orgName>
+                <placeName>Farnborough Brewery</placeName>
+                <date when="1869-10-12">12 Oct 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Acknowledges receipt of CD’s cheque in payment of his account.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="societal" ref="#">Fox, John &amp; Sons</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00083-000-00131_files/8/0_0.jpg" width="3640px" height="6463px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00083-000-00131_files/11/1_1.jpg" width="3640px" height="6463px"/>
+        <surface xml:id="i1" n="61v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00083-000-00131.jpg" rend="portrait" width="3640px" height="6463px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00083-000-00131_files/8/0_0.jpg" width="3640px" height="6463px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00083-000-00131.dzi" width="3640px" height="6463px"/>
+        </surface>
+</facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Farnborough Brewery, | By Chislehurst, | Kent, S.E.</hi></placeName>
+                    <date>12 Oct 1869</date>
+                    <seg type="supplemental">C. Darwin Esq. | Down</seg>
+                    <salute>Sir.</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p><hi rend="underline">We beg to acknowledge, with our best thanks, the receipt of your</hi> Cheque in payment of the enclosed account<ref target="#foot.f1"/> <hi rend="underline">and in all your commands, | We remain, | Your much obliged obed<hi rend="superscript">t</hi>. Servants, | John Fox &amp; Sons.</hi> | <hi rend="italic">[3 words illeg]</hi></p>
+<p><hi rend="underline">P.S. | It is requested that all Money Orders may be made payable at the Chief Office, London; and Cheques crossed “London &amp; Westminster Bank.”</hi></p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The enclosure has not been found but a payment to Fox of £37 2<hi rend="italic">s.</hi> 6<hi rend="italic">d.</hi> on 9 October 1869 is recorded in CD’s Account books–banking account (Down House MS).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

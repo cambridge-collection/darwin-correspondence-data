@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5702">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To <hi rend="italic">Hardwicke’s Science-Gossip</hi>   [before 1 December 1867]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20109</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5702 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5702.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5702.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Collected papers</hi> 2: 137</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 15</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance"> <hi rend="italic">Hardwicke’s Science-Gossip</hi> 3 (1867): 280 </bibl>
+            <bibl type="printedSource">Hardwicke’s Science-Gossip 3 1867: 280</bibl>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1809-01-01" notAfter="1867-11-30">[before 1 Dec 1867]</date>
+            </correspAction>
+            <correspAction type="received">
+                <orgName key="../nameregs/nameregs_2112.xml">Hardwicke’s Science-Gossip</orgName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends, as corroboration of earlier articles on hedgehogs carrying fruit on their spines, a passage from a letter from R. Swinhoe [<hi rend="doubleUnderline">5598</hi>] describing hedgehogs carrying strawberries to their holes.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">hedgehogs</term>
+                <term type="plants" ref="#">fruit</term>
+                <term type="scientific_terms" ref="#">behaviour</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="scientific_terms" ref="#">relation of organism to organism</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+                     
+<p>As in the August and September numbers, you have published an account of hedgehogs apparently carrying away pears and crabs sticking on their spines, you may think the following statement worth insertion as a further corroboration.<ref target="#foot.f2"/> I have received this account in a letter dated August 5, 1867, from Mr. Swinhoe at Amoy:<ref target="#foot.f3"/>—“Mr. Gisbert, the Spanish Consul at Amoy, informs me that when he was an engineer on the roads in Spain some years ago, he was fond of shooting and roaming about the country. He states that in the Sierra Morena, a strawberry-tree (Arbutus unedo?) was very abundant, and bore large quantities of red, fruit-like, fine, large, red strawberries. These gave quite a glow to the woods. The district in the mountain chain he refers to, is on the divisional line between the provinces of Seville and Badajos. Under these trees hedgehogs occurred innumerable, and fed on the fruit, which the Spaniards call Madrône. Mr. Gisbert has often seen an Erizo (hedgehog) trotting along with at least a dozen of these strawberries sticking on its spines. He supposes that the hedgehogs were carrying the fruit to their holes to eat in quiet and security, and that to procure them they must have rolled themselves on the fruit which was scattered in great abundance all over the ground beneath the trees.”—</p>
+<p>Charles Darwin.</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the date of publication of the letter, 1 December 1867 (<hi rend="italic">Hardwicke’s Science-Gossip</hi> 3: 280). See also <ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 2: 137.</note>
+            <note xml:id="foot.f2">Two short reports of hedgehogs collecting fruit on their spines appeared in the August and September issues (<hi rend="italic">Hardwicke’s Science-Gossip</hi> 3 (1867): 184–5, 213).</note>
+            <note xml:id="foot.f3">The quotation is from the <ref target="./DCP-LETT-5598.xml" resp="#mjhawkins">letter from Robert Swinhoe, 5 August 1867</ref>, with slight modifications. Mr Gisbert has not been further identified.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

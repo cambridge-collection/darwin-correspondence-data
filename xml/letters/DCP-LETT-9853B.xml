@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9853B">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From J. S. Burdon Sanderson   12 February 1875</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20540</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9853B by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9853B.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9853B.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">University of British Columbia Library, Rare Books and Special Collections (Darwin - Burdon Sanderson letters RBSC-ARC-1731-1-39)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_64.xml">British Columbia</repository>
+                    <collection>CD-Burdon Sanderson</collection>
+                    <idno>RBSC-ARC-1731-1-39</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4177.xml">Burdon Sanderson, J. S.</persName>
+                <placeName>London, Queen Anne St, 49</placeName>
+                <date when="1875-02-12">12 Feb 1875</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Discusses the experiments with phosphates on <hi rend="italic">Drosera</hi> and animals.</p>  
+<p>Considers the question of preparing a petition on the question of animal experiments, with the aim of promoting rather than hindering science. [Response to <hi rend="doubleUnderline">9849</hi>.]</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Drosera</term>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">49, Queen Anne Street. | W.</hi></placeName>
+                    <date>Feb. 12, 75</date>
+                    <salute>Dear M<hi rend="superscript">r</hi>. Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Potassium phosphate is certainly decomposed in the animal body.<ref target="#foot.f1"/> A double decomposition no doubt takes place between it and common salt which is always present, by virtue of which Potassium chloride &amp; sodium phosphate are produced. It appears to me likely that the reason why potassium phosphate does not act upon Drosera is this—that it is present in considerable proportion in the juices of plants &amp; consequently probably in Drosera.<ref target="#foot.f2"/> I think it would be found that to those salts which are present in the plant it is indifferent, even though it may be excited by others which are chemically closely allied to them.</p>
+<p>With reference to the subject of experiments on animals, I have after conversation with M<hi rend="superscript">r</hi> Huxley prepared a memorandum intended to serve as the basis of a Petition.<ref target="#foot.f3"/> It is now in his hands. I have lately been considering very carefully the whole question and am of course very anxious that if anything is done, it should be done in such a way as to promote rather than to hinder the progress of science.</p>
+<p>Believe me, Dear M<hi rend="superscript">r</hi> Darwin | Very truly yours | JB Sanderson</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-9849.xml" resp="#mjhawkins">letter to J. S. Burdon Sanderson, 10 February 1875</ref>.</note>
+            <note xml:id="foot.f2">Potassium is one of the elements essential for the growth of plant cells and is therefore always present in plant tissue. In his <ref target="" resp="#automat">letter to Burdon Sanderson of 10 February 1875</ref>, CD had noted that phosphates other than potassium phosphate caused a powerful reaction in the leaves of <hi rend="italic">Drosera</hi> (sundew).</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-9849.xml" resp="#mjhawkins">letter to J. S. Burdon Sanderson, 10 February 1875</ref> and nn. 2 and 3. Mr Huxley: <ref target="../nameregs/nameregs_2486.xml" resp="#mjhawkins">Thomas Henry Huxley</ref>. For more on the background to the debate on vivisection and CD’s role, see <ref target="../bibliographies/bibl_8667.xml" resp="#mjhawkins">Feller 2009</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1578A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To ?    16 August [1854–8]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20705</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1578A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1578A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1578A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 7: 492</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 224</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>224: 1</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+            <date xml:id="date1" when="1854-08-16" exclude="#date2 #date3 #date4 #date5">16 Aug 1854</date>
+            <date xml:id="date2" when="1855-08-16" exclude="#date1 #date3 #date4 #date5">16 Aug 1855</date>
+            <date xml:id="date3" when="1856-08-16" exclude="#date1 #date2 #date4 #date5">16 Aug 1856</date>
+            <date xml:id="date4" when="1857-08-16" exclude="#date1 #date2 #date3 #date5">16 Aug 1857</date>
+            <date xml:id="date5" when="1858-08-16" exclude="#date1 #date2 #date3 #date4">16 Aug 1858</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_9999.xml">Unidentified</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Should like to examine the correspondent’s Madeira cirripedes but is too much occupied with other subjects of natural history.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">cirripedes</term>
+                <term type="places" ref="#">Madeira</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down | Bromley | Kent</placeName>
+                    <date>Aug 16<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very much obliged to you for your kind offer to allow me to examine your Madeira Cirripedes; but I am sorry to say that my time is so much occupied with other subjects of Natural History, that I do not wish at present to resume my work on this order.— With my best thanks, I remain | Your obliged servant | Charles Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date range is inferred from CD’s reference to having completed his study of cirripedes. The last volume of his four-volume monograph was finished late in 1854 and published in May 1855 (<hi rend="italic">Correspondence</hi> vol. 5, Appendix I; <ref target="../bibliographies/bibl_2661.xml" resp="#automat" cert="low">Freeman 1977</ref>, p. 68). The reference to being occupied with ‘other subjects of Natural History’ suggests that CD was at work on his big book on species (<hi rend="italic">Natural selection</hi>), not on his ‘abstract’ (<hi rend="italic">Origin</hi>), which he began in the summer of 1858. See <hi rend="italic">Correspondence</hi> vol. 6.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

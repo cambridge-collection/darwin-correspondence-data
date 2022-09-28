@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7214">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. D. Hooker   2 [June 1870]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">4664</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7214 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7214.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7214.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="endorsement" subtype="letter">June/70</note>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 150: 436</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 94: 174</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>94: 174</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1870-06-02">2 [June 1870]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2357.xml">Hooker, J. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Returns H. C. Watson’s letter.</p>
+            <p>CD must study JDH’s manner of arrangement of varieties and subspecies, etc.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_4975">Watson, H. C.</term>
+                <term type="scientific_terms" ref="#">species, speciation</term>
+                <term type="scientific_terms" ref="#">systematics</term>
+                <term type="scientific_terms" ref="#">varieties</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down</placeName>
+                    <date>2<hi rend="superscript">d</hi></date>
+                    <salute>My dear Hooker</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have been glad to see Watson’s letter. I must study your manner of arrangement of vars. &amp; subspecies &amp;c.—<ref target="#foot.f1"/></p>
+<p>No wonder you are proud; I suppose the man is a <hi rend="underline">very</hi> good judge &amp; he is surely very clever, &amp; considering his temper &amp; delight in finding fault, I sh<hi rend="superscript">d</hi>. think his note was the greatest complement ever paid to any human being!!<ref target="#foot.f2"/></p>
+<p>Yours affect | C. Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_4975.xml" resp="#mjhawkins">Hewett Cottrell Watson</ref> had written to Hooker to praise his <hi rend="italic">Student’s flora of the British Islands</hi> (<ref target="../bibliographies/bibl_3801.xml" resp="#mjhawkins">Hooker 1870</ref>); see <ref target="./DCP-LETT-6964.xml" resp="#mjhawkins">letter from J. D. Hooker, [31 May 1870]</ref> and enclosure.</note>
+            <note xml:id="foot.f2">For an earlier disagreement between Hooker and Watson, see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 16, <ref target="./DCP-LETT-6471.xml" resp="#mjhawkins">letter from J. D. Hooker, 24 November 1868</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

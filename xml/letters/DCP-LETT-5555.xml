@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5555">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Tendler &amp; Co. to John Murray   29 May 1867</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10952</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5555 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5555.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5555.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 178: 87</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>178: 87</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName>Tendler &amp; Co.</persName>
+                <placeName>Vienna</placeName>
+                <date when="1867-05-29">29 May 1867</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Seek permission to produce a translation of <hi rend="italic">Variation</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Variation</term>
+                <term type="languages" ref="#">language!?</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">variation</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+                <term type="societal" ref="#">Tendler &amp; Co.</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Vienna—Wien | Graben, Trattnerhof</placeName>
+                    <date>29/5 67</date>
+                    <salute>M<hi rend="superscript">r</hi>. John Murray, London</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>We will take the liberty in asking you the permission of translating from the work:</p>
+<p>Domesticated animals and cultivated plants</p>
+<p>by Charles Darwin<ref target="#foot.f1"/></p>
+<p>Accepting our kind offer you will very much favour us in naming the conditions by which you would consent to our propositions.</p>
+<p>Hoping to get a favourable answer we promise to send you immediately the required amount and are Sir your | very respectfully | ppa Tendler &amp; Com | Julius Grosser<ref target="#foot.f2"/></p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The reference is to <hi rend="italic">Variation.</hi> All the German editions of <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> were translated by <ref target="../nameregs/nameregs_849.xml" resp="#mjhawkins">Julius Victor Carus</ref> and published by <ref target="../nameregs/nameregs_4246.xml" resp="#mjhawkins">E. Schweizerbart’sche Verlagsbuchhandlung</ref> of Stuttgart. There is a note in ink at the foot of the letter: ‘Answered &amp; declined June 5. 1867 for J.M. | CAP’. John Murray was CD’s British publisher.</note>
+            <note xml:id="foot.f2">Julius Grosser has not been further identified.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

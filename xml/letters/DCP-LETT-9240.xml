@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9240">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Charles Lyell   [13 January 1874]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14813</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9240 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9240.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9240.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">The University of Edinburgh Centre for Research Collections (Lyell collection Coll-203/B1/ Lyell Temp Box 3.1 Folder_6)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_124.xml">Edinburgh</repository>
+                    <collection>Lyell</collection>
+                    <idno>Coll-203/B1/ Lyell Temp Box 3.1 Folder_6</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml" resp="high">Darwin, C. R.</persName>
+                <placeName>London, Queen Anne St, 6</placeName>
+                <date when="1874-01-13">[13 Jan 1874]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3051.xml" resp="high">Lyell, Charles</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>The coral-reef book has been invaluable [J. D. Dana, <hi rend="italic">Corals and coral islands</hi> (1872); used by CD in <hi rend="italic">Coral reefs</hi>, 2d ed. (1874)].</p>  
+<p>Thanks for <hi rend="italic">Saturday Review</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Corals and coral islands</term>
+                <term type="it" ref="#">Saturday Review</term>
+                <term type="rx" ref="#">Dana, J. D. 1872</term>
+                <term type="scientific_terms" ref="#">coral</term>
+                <term type="scientific_terms" ref="#">isolation, islands</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>6. Q. A. St.</placeName>
+                    <date>Tuesday Evening</date>
+                    <salute>My dear Lyell</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I will call tomorrow morning a little after 9. in hopes of seeing you.—</p>
+<p>You will understand if I do not appear that I am not very well.<ref target="#foot.f2"/></p>
+<p>Ever yours | Ch. Darwin</p>
+<p>I return with thanks the Saturday R<hi rend="superscript">w</hi>.—<ref target="#foot.f3"/> The Coral-Reef Book has been invaluable to me.—<ref target="#foot.f4"/></p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter and the <ref target="./DCP-LETT-9231.xml" resp="#mjhawkins">letter to J. D. Hooker, 8 January 1874</ref>, and by CD’s stay in London from 10 to 17 January 1874 (see ‘Journal’ (Appendix II)). During CD’s visit, Tuesday fell on 13 January 1874.</note>
+            <note xml:id="foot.f2">According to <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242), CD fell down the stairs on Monday 12 January 1874.</note>
+            <note xml:id="foot.f3"><hi rend="italic">Saturday Review</hi> was published weekly; it is not certain which issue CD borrowed.</note>
+            <note xml:id="foot.f4">CD was preparing a second edition of <ref target="../bibliographies/bibl_1571.xml" resp="#mjhawkins"><hi rend="italic">Coral reefs</hi></ref>. In a <ref target="./DCP-LETT-9231.xml" resp="#automat" cert="medium">letter to Joseph Dalton Hooker of 8 January 1874</ref>, he had asked to use a copy of the book for corrections. CD evidently used Lyell’s copy instead.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

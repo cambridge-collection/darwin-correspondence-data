@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9186">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Eduard Koch   20 December [1873]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3162</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9186 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9186.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9186.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Cleveland Health Sciences Library (Robert M. Stecher collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_93.xml">Cleveland</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1873-12-20">20 Dec [1873]</date>
+            </correspAction>
+            <correspAction type="received" subtype="personGrp">
+                <persName key="../nameregs/nameregs_2732.xml">Koch, Eduard</persName>
+                <persName key="../nameregs/nameregs_4246.xml">E. Schweizerbart’sche Verlagsbuchhandlung</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks for copy of translation of <hi rend="italic">Variation</hi></p>  
+<p>and the "admirable work on the microscopical structure of rock" [C. G. Ehrenberg, <hi rend="italic">Mikrogeologische Studien</hi> (1873)].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Mikrogeologische Studien</term>
+                <term type="it" ref="#">Variation</term>
+                <term type="languages" ref="#">German</term>
+                <term type="rx" ref="#">Ehrenberg, C. G. 1873</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">variation</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>Dec. 20<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very much obliged for the copy of the beautifully got Translation of my Variation under Domestication, received a few days ago; &amp; for your present of the admirable work on the microscopical structure of rocks.—<ref target="#foot.f2"/></p>
+<p>Dear Sir | Yours very faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the address and by publication date of the second German edition of <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> (see n. 2, below). The printed stationery is of a sort that CD used between January 1872 and November 1874.</note>
+            <note xml:id="foot.f2">CD refers to the second German edition of <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> (Carus trans. 1873) and to the first volume of <ref target="../nameregs/nameregs_6653.xml" resp="#mjhawkins">Harry Rosenbusch’s</ref> work on the microscopical physiography of minerals and rocks, published by Koch’s firm, E. Schweizerbart’sche Verlagshandlung, in 1873 (<ref target="../bibliographies/bibl_6735.xml" resp="#mjhawkins">Rosenbusch 1873–7</ref>). The first volume has not been found, but the second volume is in the Darwin Library–Down.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

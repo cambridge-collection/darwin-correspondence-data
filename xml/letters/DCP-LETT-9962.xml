@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9962">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. J. Weir   1 May 1875</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">468</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9962 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9962.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9962.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 148: 333</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.468)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>468</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1875-05-01">1 May 1875</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_5048.xml">Weir, J. J.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>August Weismann is interested in JJW’s experiments on birds and the caterpillars they eat.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">birds</term>
+                <term type="animals" ref="#">caterpillars</term>
+                <term type="people" ref="#subject_5050">Weismann, A. F. L.</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="scientific_terms" ref="#">predators</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>May 1<hi rend="superscript">st</hi> 1875</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have had a letter from Prof. Weismann who is much interested in your experiments on birds not eating gaudy caterpillars.—<ref target="#foot.f1"/> He wishes much to know whether you have tried any other experiments since those published in the Ent. Transactions? Will you kindly inform me soon, &amp; whether you know of similar ones performed by other observers.<ref target="#foot.f2"/> Those by Riley of U. States seemed to me the best.—<ref target="#foot.f3"/></p>
+<p>Yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.4 soon] <hi rend="italic">interl</hi> </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_5050.xml" resp="#mjhawkins">August Weismann’s</ref> letter to CD has not been found, but for Weismann’s interest in Weir’s observations on caterpillars, see CD’s comments in his <ref target="./DCP-LETT-9965.xml" resp="#mjhawkins">letter to August Weismann, 1 and 4 May 1875</ref>.</note>
+            <note xml:id="foot.f2">Weir’s reply to CD’s query has not been found, but a part of it was copied out by CD in his <ref target="./DCP-LETT-9965.xml" resp="#mjhawkins">letter to August Weismann, 1 and 4 May 1875</ref>. Weir had published two papers in the <hi rend="italic">Transactions of the Entomological Society of London</hi> on the colour and edibility (to birds) of Lepidoptera and their larvae (<ref target="../bibliographies/bibl_8265.xml" resp="#mjhawkins">Weir 1869</ref> and <ref target="../bibliographies/bibl_8267.xml" resp="#mjhawkins">Weir 1870</ref>).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_4008.xml" resp="#mjhawkins">Charles Valentine Riley</ref>, state entomologist of Missouri, had noted that birds avoided eating brightly coloured caterpillars (<ref target="../bibliographies/bibl_6652.xml" resp="#mjhawkins">Riley 1869–77</ref>, 3: 134).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

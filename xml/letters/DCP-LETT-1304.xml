@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1304">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To the Palaeontographical Society<ref target="#foot.f1"/>   [before 22 February 1850]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19712</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1304 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1304.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1304.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+            <notesStmt>
+                <relatedItem type="publication">
+                    <bibl><hi rend="italic">Correspondence</hi> 4: 313</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">British Geological Survey Archives (Palaeontographical Society minutes)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_314.xml">British Geological Survey Archives</repository>
+                    <collection>Palaeontographical Society</collection>
+                    <idno>minutes</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1809-01-01" notAfter="1850-02-21">[before 22 Feb 1850]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3646.xml">Palaeontographical Society</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Read letter from CD offering a monograph of British fossil cirripedes.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="places" ref="#">Britain</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+<p>5. Read a letter from M<hi rend="superscript">r</hi> Chas Darwin offering to prepare for the Society a Monograph of the British Fossil Cirripedia<ref target="#foot.f2"/></p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The letter has not been found. The text given has been taken from the minutes of a meeting of the <ref target="../nameregs/nameregs_3646.xml" resp="#mjhawkins">Palaeontographical Society</ref> held on 22 February 1850. The minutes record that <ref target="../nameregs/nameregs_1273.xml" resp="#mjhawkins">Henry Thomas De la Beche</ref>, Philip de Malpas Grey-Egerton, <ref target="../nameregs/nameregs_3051.xml" resp="#mjhawkins">Charles Lyell</ref>, <ref target="../nameregs/nameregs_4311.xml" resp="#mjhawkins">Daniel Sharpe</ref>, <ref target="../nameregs/nameregs_3384.xml" resp="#mjhawkins">James Carrick-Moore</ref>, <ref target="../nameregs/nameregs_3408.xml" resp="#mjhawkins">John Morris</ref>, <ref target="../nameregs/nameregs_1669.xml" resp="#mjhawkins">John Wickham Flower</ref>, and <ref target="../nameregs/nameregs_568.xml" resp="#mjhawkins">James Scott Bowerbank</ref> were present.</note>
+            <note xml:id="foot.f2">The minutes continue with a resolution ‘that the offer of M<hi rend="superscript">r</hi> Darwin be accepted’, followed by a resolution ‘that Sir Chas Lyell and Prof. Forbes be appointed a committee of Superintendance for M<hi rend="superscript">r</hi> Darwins Monograph’.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

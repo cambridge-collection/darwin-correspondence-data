@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8822">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From W. W. Reade   25 March [1873]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14510</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8822 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8822.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8822.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 176: 66</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>176: 66</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3950.xml">Reade, W. W.</persName>
+                <placeName>London, Alfred Place, 13</placeName>
+                <date when="1873-03-25">25 Mar [1873]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>H. W. Bates says CD is in town. WWR would like to call.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_317">Bates, H. W.</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>13. Alfred Place | Bedford Square</placeName>
+                    <date>March. 25</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I heard from Bates this afternoon that you were in town &amp; had kindly inquired after me—<ref target="#foot.f2"/> When can I have the pleasure of seeing you?<ref target="#foot.f3"/> I can call at any day &amp; hour if you will send me a postcard—</p>
+<p>Yours very truly | Winwood Reade</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the date of the Darwins’ stay in London. Although CD was in London on 25 March in both 1872 and 1873, Reade had already visited him on 19 March 1872 (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 20, Appendix II).</note>
+            <note xml:id="foot.f2">CD and <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin</ref> stayed at 16 Montague Street, London, from 15 March until 10 April 1873 (see ‘Journal’ (Appendix II)). No record of a meeting with <ref target="../nameregs/nameregs_317.xml" resp="#mjhawkins">Henry Walter Bates</ref> has been found, but see the <ref target="./DCP-LETT-8821.xml" resp="#mjhawkins">letter from Raphael Meldola, 24 March 1873</ref> and n. 1.</note>
+            <note xml:id="foot.f3">No record of a meeting between CD and Reade in 1873 has been found, but it is likely that it took place (see <ref target="./DCP-LETT-8912.xml" resp="#mjhawkins">letter from W. W. Reade, 14 May 1873</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

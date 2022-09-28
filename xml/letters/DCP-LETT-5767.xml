@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5767">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. H. Flower   [1871?]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20198</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5767 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5767.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5767.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">B. J. Harrison (private collection); sold by Bonhams (dealers), 15 July 2004</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_50.xml">Bonhams</repository>
+                    <collection>15 July 2004</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1871-01-01" notAfter="1871-12-31">[1871?]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1670.xml">Flower, W. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Does not know rules for admission to museum [of the Royal College of Surgeons]. CD’s son [Francis] wishes much to inspect some of the preparations.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1222">Darwin, Francis</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="societal" ref="#">museum</term>
+                <term type="societal" ref="#">Royal College of Surgeons</term>
+                <term type="societal" ref="#">rules for admission</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <salute>My dear Mr Flower</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am ashamed to say that I do not know the rules for admission to your museum.<ref target="#foot.f2"/></p>
+<p>My son, the bearer of this, is now attending to anatomy &amp; wishes much to inspect some of the preparations; will you therefore be so kind as to turn him loose, if permitted into the Museum.</p>
+<p>Pray believe me | yours sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is conjectured on the assumption that the son mentioned in the letter is Francis, who studied to become a physician at St George’s Hospital, London, after leaving Cambridge at the end of 1870 (F. Darwin 1920, p. 67; <hi rend="italic">The Times</hi>, 19 December 1870, p. 6).</note>
+            <note xml:id="foot.f2">Flower was conservator of the Hunterian Museum of the Royal College of Surgeons (<ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

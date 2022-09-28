@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10981">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From P. L. Sclater   2 June 1877</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10655</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10981 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10981.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10981.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 177: 76</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>177: 76</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4251.xml">Sclater, P. L.</persName>
+                <placeName>London, Elvaston Place, 44</placeName>
+                <date when="1877-06-02">2 June 1877</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Encloses a memorandum [missing] drawn up by W. H. Flower, Huxley, and himself, defending Charles Wyville Thomson against an attack made upon him.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1670">Flower, W. H.</term>
+                <term type="people" ref="#subject_2486">Huxley, T. H.</term>
+                <term type="people" ref="#subject_4730">Thomson, C. W.</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print"><hi rend="italic">44, Elvaston Place. | Queens Gate. S.W.</hi></hi></placeName>
+                    <date>June 2<hi rend="superscript">nd</hi>. 1877</date>
+                    <salute>My dear M<hi rend="superscript">r</hi> Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I believe Flower has spoken to you about the attack that has been made upon Wyville-Thomson which is explained in the enclosed memorandum and that you have expressed your willingness to join us in repudiating any share in it. The enclosed was drawn up by Flower Huxley and myself and is agreed to by Hooker. I hope you will be able to sign it. Please return it to me in the enclosed envelope.<ref target="#foot.f1"/></p>
+                    <p>I was glad to hear from Sir Victor Brooke such a good report of you.<ref target="#foot.f2"/> When you come to London do not forget to come and see | Your’s most sincerely | P. L Sclater</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The enclosure was a memorial supporting <ref target="../nameregs/nameregs_4730.xml" resp="#mjhawkins">Charles Wyville Thomson</ref>. He had been criticised by <ref target="../nameregs/nameregs_1422.xml" resp="#mjhawkins">Peter Martin Duncan</ref> for assigning some of the specimens from the <hi rend="italic">Challenger</hi> expedition to foreign zoologists. The memorial was published in <hi rend="italic">Annals and Magazine of Natural History</hi> 4th ser. 20 (1877): 79–80; the debate over Thomson’s decision had arisen in <hi rend="italic">ibid</hi>. 4th ser. 19 (1877): 429–30, 506–9. The memorial defending Thomson’s choice of ‘competent naturalists without regard to their nationality’ was signed by CD, Sclater, <ref target="../nameregs/nameregs_2357.xml" resp="#mjhawkins">Joseph Dalton Hooker</ref>, <ref target="../nameregs/nameregs_2486.xml" resp="#mjhawkins">Thomas Henry Huxley</ref>, <ref target="../nameregs/nameregs_1670.xml" resp="#mjhawkins">William Henry Flower</ref> and seven others; it was reprinted in <hi rend="italic">Nature</hi>, 14 June 1877, pp. 117–19.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_8109.xml" resp="#mjhawkins">Victor Brooke</ref> had visited CD at Down on 26 May (see <ref target="./DCP-LETT-10967.xml" resp="#mjhawkins">letter to W. H. Flower, 19 May [1877]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

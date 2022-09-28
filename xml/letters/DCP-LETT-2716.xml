@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2716">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. D. Hooker   [26 February or 4 March 1860]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">2578</idno>
+            
+            
+            
+            
+            <date when="1993">1993</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2716 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2716.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2716.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="08">8</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="endorsement" subtype="letter">March 1860</note>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 150: 212</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 115: 44</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>115: 44</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                
+            <date xml:id="date1" when="1860-02-26" exclude="#date2">26 Feb 1860</date>
+            <date xml:id="date2" when="1860-03-04" exclude="#date1">4 Mar 1860</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2357.xml">Hooker, J. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Asks JDH for some <hi rend="italic">Goodenia</hi>.</p>  
+<p>Suggests Daniel Oliver try to cross <hi rend="italic">Mimosa</hi>, noted for sterility.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Goodenia</term>
+                <term type="plants" ref="#">Mimosa</term>
+                <term type="people" ref="#subject_3589">Oliver, Daniel</term>
+                <term type="scientific_terms" ref="#">crossing</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fertility and/or sterility</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">instructions</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00044-000-00001_files/8/0_0.jpg" width="3734px" height="6644px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00044-000-00001_files/11/1_1.jpg" width="3734px" height="6644px"/>
+        <surface xml:id="i1" n="1r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00044-000-00001.jpg" rend="portrait" width="3734px" height="6644px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00044-000-00001_files/8/0_0.jpg" width="3734px" height="6644px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00044-000-00001.dzi" width="3734px" height="6644px"/>
+        </surface>
+        <surface xml:id="i2" n="1v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00044-000-00002.jpg" rend="portrait" width="3734px" height="6644px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00044-000-00002_files/8/0_0.jpg" width="3734px" height="6644px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00044-000-00002.dzi" width="3734px" height="6644px"/>
+        </surface>
+        <surface xml:id="i3" n="2r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00044-000-00003.jpg" rend="portrait" width="3734px" height="6644px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00044-000-00003_files/8/0_0.jpg" width="3734px" height="6644px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00044-000-00003.dzi" width="3734px" height="6644px"/>
+        </surface>
+        <surface xml:id="i4" n="2v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00044-000-00004.jpg" rend="portrait" width="3734px" height="6644px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00044-000-00004_files/8/0_0.jpg" width="3734px" height="6644px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00115-00044-000-00004.dzi" width="3734px" height="6644px"/>
+        </surface>
+    </facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Down]</placeName>
+                    <date>Sunday night.</date>
+                    <salute>My dear Hooker</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I forgot in this morning’s note to say that I have tried in vain to get any Goodenia from large nursery here.—   If you have any plant which you can <hi rend="doubleUnderline">perfectly</hi> spare &amp; would send it as by enclosed address.— But it does not of course really at all signify; as it half mere amusement— —<ref target="#foot.f2"/></p>
+<p>Do get some of your men (is M<hi rend="superscript">r</hi> Oliver to whom you alluded one of them?)<ref target="#foot.f3"/> to cross with distinct individual <hi rend="underline">2 or 3 times</hi> <hi rend="underline">in morning</hi> a bunch of flowers of some healthy Australian mimosa. perhaps also Eucalyptus    I see in Lecoq’s work he speaks of sterility of the group under culture; it may <hi rend="underline">possibly</hi> be from want of crossing; but not probably.<ref target="#foot.f4"/></p>
+<p>Remind your man that the stigma <hi rend="underline">may</hi> be ready after or before pollen of own flower is shed.—</p>
+<p>Ever yours | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.3 does] <hi rend="italic">after del</hi> ‘is’</note>
+                    <note xml:id="tnote.n2">2.1 some] <hi rend="italic">before omitted point</hi></note>
+                    <note xml:id="tnote.n3">2.2 a bunch] <hi rend="italic">after del</hi> ‘so’</note>
+                    <note xml:id="tnote.n4">2.3 Australian] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n5">2.3 perhaps also Eucalyptus] <hi rend="italic">added</hi></note>
+                    <note xml:id="tnote.n6">3.1 pollen] <hi rend="italic">after del illeg</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the relationship to the preceding letter, also written on a Sunday. However, the reference to ‘M<hi rend="superscript">r</hi> Oliver’ links the letter with that written to Hooker on Saturday, 3 March [1860]. The <hi rend="italic">Goodenia</hi> plants referred to in the letter arrived at Down House on 9 March (see <ref target="./DCP-LETT-2728.xml" resp="#mjhawkins">letter to J. D. Hooker, 12 March [1860]</ref>).</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-2672.xml" resp="#mjhawkins">letter to J. D. Hooker, [22 January 1860]</ref>. Plants of the genus <hi rend="italic">Goodenia</hi> have flowers with a cup immediately under the stigma into which the pollen drops before the flower opens. CD wished to investigate the mechanism by which insects might bring about pollination and any adaptations exhibited by the flowers that might facilitate this process. However, Hooker could only supply plants of the closely related genus <hi rend="italic">Leschenaultia</hi>. See letters to J. D. Hooker, <ref target="./DCP-LETT-2728.xml" resp="#mjhawkins">12 March [1860]</ref> and <ref target="./DCP-LETT-2763.xml" resp="#mjhawkins" cert="high">18 April [1860]</ref>.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_3589.xml" resp="#mjhawkins">Daniel Oliver</ref> was an assistant in the herbarium of the Royal Botanic Gardens, Kew.</note>
+            <note xml:id="foot.f4">CD refers to <ref target="../bibliographies/bibl_4644.xml" resp="#mjhawkins">Lecoq 1845</ref>, pp. 103–4. CD’s annotated copy of this work is in the Darwin Library–CUL.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

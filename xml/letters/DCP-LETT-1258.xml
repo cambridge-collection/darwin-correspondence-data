@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1258">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Hugh Cuming   [October? 1849]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">82</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1258 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1258.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1258.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.82)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>82</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1849-10-01" notAfter="1849-10-31">[Oct? 1849]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1149.xml">Cuming, Hugh</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Discusses cirripede specimens borrowed from HC.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">cirripedes</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Saturday Evening</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I have now described &amp; named all your specimens of Pedunculata, &amp; will bring them back to you, when I come up for first meeting of Geolog. Society in early November.—<ref target="#foot.f2"/></p>
+<p>I have got to go over most of the genera again, to compare specimens lately received, &amp; amongst these I have from Paris, a Lithotrya from the Friendly Islands, which I suspect is the same with your single specimen from the Philippines;<ref target="#foot.f3"/> will you be so <hi rend="underline">kind</hi> as to lend me your specimen again for comparison, &amp; I will return it with the others.— If you have picked up <hi rend="underline">lately</hi> any <hi rend="underline">fresh</hi> <hi rend="underline">Pedunculate</hi> Cirripedes, it would be a great saving of time to me, if you would send them me, so that I might compare them now that I have got to go over most of the genera again—</p>
+<p>I will send the Carrier on <hi rend="underline">Thursday</hi> morning next to your house, for the chance of your being so kind as to lend me the Lithotrya &amp; anything new amongst the Pedunculata.—</p>
+<p>As soon as I have written out my generic descriptions of the Pedunculata, I shall set to work with the sessile cirripedes<ref target="#foot.f4"/> &amp; I confess I quite dread the genus Balanus.—</p>
+<p>Your’s most sincerely | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.3 single] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">2.5 <hi rend="italic">lately</hi>] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated on the basis of CD’s reference to a council meeting of the Geological Society (see n. 2, below).</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-1265.xml" resp="#mjhawkins">letter to Hugh Cuming, [4 November 1849]</ref>, in which CD arranged to call on Cuming. CD attended a council meeting of the Geological Society on 7 November 1849, his first attendance since January (Council Minute Books, Geological Society Archives).</note>
+            <note xml:id="foot.f3"><hi rend="italic">Lithotrya truncata</hi> (a synonym of <hi rend="italic">L. valentiana</hi>). CD cited only two specimens, one from the Friendly Archipelago (Tonga Islands), in the collection of the Muséum d’Histoire Naturelle in Paris, and one from the Philippines, collected by Cuming (<ref target="../bibliographies/bibl_4837.xml" resp="#mjhawkins"><hi rend="italic">Living Cirripedia</hi> (1851): </ref>366–7).</note>
+            <note xml:id="foot.f4">CD began describing the sessile cirripedes (Balanidae) on 28 April 1850 (‘Journal’; <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 4, Appendix I).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

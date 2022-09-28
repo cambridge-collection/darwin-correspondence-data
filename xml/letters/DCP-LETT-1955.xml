@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1955">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. B. Tegetmeier   [18 September 1856]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1286</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1955 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1955.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1955.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Archives of the New York Botanical Garden (Charles Finney Cox Collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_302.xml">NYBG</repository>
+                    <collection>Charles Finney Cox</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Leith Hill Place</placeName>
+                <date when="1856-09-18">[18 Sept 1856]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4682.xml">Tegetmeier, W. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>CD concerned with rabbits and ducks because evidence of their single origin is "<hi rend="italic">better</hi> … than in most cases".</p> 
+            <p>Death of William Yarrell.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">ducks</term>
+                <term type="animals" ref="#">rabbits</term>
+                <term type="health" ref="#">Other people</term>
+                <term type="people" ref="#subject_5275">Yarrell, William</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">origin</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Leith Hill Place | Dorking Surrey</placeName>
+                    <date>Thursday</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>Your letter has been forwarded here.— I am very glad that you approve of the Scanderoons.—</p>
+<p>Many thanks for your offers about dead Pigeons.— I return home tomorrow &amp; will then look over my Catalogue &amp; gratefully tell you what I want.<ref target="#foot.f2"/></p>
+<p>I have got to care very much about Rabbits &amp; Ducks, as the evidence is <hi rend="underline">better</hi> of single origin than in most cases, &amp; therefore differences in their structure the more concerns me. Should any odd Duck (domestic) or Rabbit be ever offered not very dear at Steven’s I sh<hi rend="superscript">d</hi>. be <hi rend="underline">very</hi> glad to purchase.—</p>
+<p>I was most sincerely sorry to hear of the death of our old &amp; excellent friend,—Yarrell.—<ref target="#foot.f3"/></p>
+<p>Your’s very sincerely | C. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the relationship to the <ref target="./DCP-LETT-1947.xml" resp="#mjhawkins">letter to W. B. Tegetmeier, 30 August [1856]</ref>, and by CD’s reference to being away from home. CD recorded that he visited his sister Caroline and her husband, <ref target="../nameregs/nameregs_5027.xml" resp="#mjhawkins">Josiah Wedgwood III</ref>, at their home, Leith Hill Place, from 13 to 19 September 1856 (‘Journal’; Appendix II).</note>
+            <note xml:id="foot.f2">CD’s Catalogue of Down Specimens (Down House MS) lists his specimens of experimental animals, including the pigeons.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_5275.xml" resp="#mjhawkins">William Yarrell</ref> died on 1 September 1856. CD had consulted him before sailing in the <hi rend="italic">Beagle</hi> in 1831 and had maintained a correspondence with him after his return. It was Yarrell who had first introduced CD to Tegetmeier (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 5, <ref target="./DCP-LETT-1751.xml" resp="#automat">letter to W. B. Tegetmeier, 31 August [1855]</ref>, n. 2).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

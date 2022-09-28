@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10154">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Lawson Tait   10 September [1875]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3889</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10154 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10154.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10154.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <note type="postmark">SP 11 75</note>
+            <relatedItem type="publication">
+                <bibl> De Beer (1968): 79; Shepherd (1982): 1386 </bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Shrewsbury School, Taylor Library</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_386.xml">Shrewsbury School</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Bassett</placeName>
+                <date when="1875-09-10">10 Sept [1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4653.xml">Tait, R. L.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>CD gives a few instances of various animals (starfish, earwigs, spiders) that take charge of their young.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">earwigs</term>
+                <term type="animals" ref="#">spiders</term>
+                <term type="animals" ref="#">starfish</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">maturity</term>
+                <term type="scientific_terms" ref="#">relation of organism to organism</term>
+                <term type="scientific_terms" ref="#">social behaviour</term>
+                <term type="scientific_terms" ref="#">young, offspring</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Basset. Southampton</placeName>
+                    <date>Sept. 10<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I can give you very little information on your subject.<ref target="#foot.f1"/> Earwigs are said, I believe—in Kirby &amp; Spence, to take charge of their young,<ref target="#foot.f2"/> &amp; I am sure that I have read that even Star-fishes do the same for their eggs, as everyone must have read of Spiders—<ref target="#foot.f3"/> I rather think that I have referred to star-fishes in 2<hi rend="superscript">d</hi>. Edit. of Descent of Man.— Other fish, besides Stickle-backs, take charge of their young; of which I give fresh instances in 2<hi rend="superscript">d</hi>. Edit. of Descent.—<ref target="#foot.f4"/></p>
+<p>Yours sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 Southampton] <hi rend="italic">above del</hi> ‘<hi rend="italic">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi>’ </note>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">In his <ref target="./DCP-LETT-10153.xml" resp="#mjhawkins" cert="high">letter of 7 September [1875]</ref>, Tait had asked about parental instinct in various organisms.</note>
+            <note xml:id="foot.f2">Kirby and Spence 1828, 1: 360–1. Earwigs are insects of the order Dermaptera.</note>
+            <note xml:id="foot.f3">On maternal affection in spiders, see Kirby and Spence 1828, 1: 361–3. CD mentioned parental affection in starfish and spiders in <ref target="../bibliographies/bibl_1967.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi> 2d ed.</ref>, p. 106. Starfish are marine invertebrates of the class Asteroidea.</note>
+            <note xml:id="foot.f4">See <ref target="../bibliographies/bibl_1967.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi> 2d ed.</ref>, pp. 106 and 344–6.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

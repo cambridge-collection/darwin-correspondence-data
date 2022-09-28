@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2381">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From T. H. Huxley   17 December 1858</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3381</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2381 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2381.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2381.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 166: 289</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>166: 289</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2486.xml">Huxley, T. H.</persName>
+                <placeName>unstated</placeName>
+                <date when="1858-12-17">17 Dec 1858</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>K. E. von Baer’s view of the air bladder of fishes.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">fishes</term>
+                <term type="people" ref="#subject_225">Baer, K. E. von</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <date>De<hi rend="superscript">r</hi>. 17<hi rend="superscript">th</hi>. 1858</date>
+                    <salute>My dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+<p>Von Bärs work is called “Untersuchungen über die Entwickelungsgeschichte der Fische” &amp; was published as a separate brochure in 1835— Appended to it is a special “Anhang” “Ueber die Schwimmblase der Fische” in which Von Bar particularly considers the homologies of the air bladder—<ref target="#foot.f1"/> He considers that the air bladder is developed as a diverticulum of the wall of the anterior part of the alimentary canal— The connecting duct remains open in some Fishes but is obliterated in others— He thinks however that the anterior division of the air bladder, in such Fishes as the Carp, arises independently of the posterior division (or true air bladder) in connexion with the auditory organs, and only opens afterwards into the posterior air bladder</p>
+<p>Vogt (“Embryologie des Saumones” in Agassiz. Poissons d’Eau douce)<ref target="#foot.f2"/> gives an account of the development of the air bladder which agrees <hi rend="underline">in essentials</hi> with that of Von Baer. Both agree in stating that the young fish fills its air bladder by swallowing air—at the surface of the water and Von Bar even thinks that for a time the young fish respires in this way—</p>
+<p>Von Bär winds up thus</p>
+<p>“The air bladders of Fishes which form parts of a pneumatic apparatus are of at least two kinds; the one is analogous to the Tympanum &amp; Eustachian tube of the higher animals; the other is indeed an outgrowth of the alimentary canal but has only a general analogy with the lungs of the higher animals; it is rather a body sinus (Rumpf-sinus) whose principal function must be to render the body of the fish specifically lighter—though some influence upon the composition of the blood may be exerted at the same time”<ref target="#foot.f3"/></p>
+<p>Structurally the air bladder of <hi rend="underline">Polypterus</hi> is altogether a batrachian lung—but it differs from a true lung in its blood not being returned to the heart</p>
+<p>Ever yours truly | T H Huxley</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note> 1.8 posterior division] ‘posterior’ <hi rend="italic">added pencil</hi> </note>
+                <note> 1.10 posterior air bladder] ‘posterior’ <hi rend="italic">added pencil</hi> </note>
+                <note> 4.4 the lungs] ‘the’ <hi rend="italic">added pencil</hi> </note>
+                <note> 4.4 it is rather] ‘it’ <hi rend="italic">added pencil</hi> </note>
+                <note> <hi rend="italic">Top of first page</hi>: ‘Ch. 8’<ref target="#foot.f4"/> <hi rend="italic">brown crayon</hi> </note>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../bibliographies/bibl_300.xml" resp="#mjhawkins">Baer 1835</ref>.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_4902.xml" resp="#mjhawkins">Carl Vogt’s</ref> <hi rend="italic">Embryologie des Saumones</hi> forms the second part of Agassiz and Vogt 1839–42.</note>
+            <note xml:id="foot.f3">CD used the example of the swim-bladder of fishes as an illustration of how, through natural selection, an organ serving one function could be transformed to serve another: in this case an organ of flotation became one of respiration. See <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>, pp. 190 and 452. He did not, however, specifically cite either <ref target="../nameregs/nameregs_225.xml" resp="#mjhawkins">Karl Ernst von Baer’s</ref> or Vogt’s works.</note>
+            <note xml:id="foot.f4">CD’s annotation refers to chapter 8 of <ref target="../bibliographies/bibl_5799.xml" resp="#mjhawkins"><hi rend="italic">Natural selection</hi></ref>, ‘Difficulties on the theory of natural selection in relation to passages from form to form’. In <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref> this material was incorporated into chapter 6, ‘Difficulties on theory’.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

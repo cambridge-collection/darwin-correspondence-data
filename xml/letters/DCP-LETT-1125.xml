@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1125">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Joseph Beete Jukes   8 October [1847]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1106</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1125 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1125.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1125.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+            <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+                <relatedItem type="publication">
+                    <bibl> <hi rend="italic">Correspondence</hi> 4: 87</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">University of Oklahoma Libraries History of Science Collections</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_305.xml">Oklahoma</repository>
+                    <collection>History of Science</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1847-10-08">8 Oct [1847]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2620.xml">Jukes, J. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Flattered by JBJ’s discussion of coral reefs [in <hi rend="italic">Voyage of H.M.S. "Fly"</hi> 1 (1847): 347–8]. CD has always thought his <hi rend="italic">Coral reefs</hi> "too bold and speculative", so he is gratified "when anyone who has had opportunities of observation does not give his verdict against it".</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">coral</term>
+                <term type="geology" ref="#">reefs</term>
+                <term type="it" ref="#">Voyage of H.M.S. "Fly"</term>
+                <term type="rx" ref="#">Jukes, J. B. 1847</term>
+                <term type="scientific_terms" ref="#">coral</term>
+                <term type="scientific_terms" ref="#">isolation, islands</term>
+                <term type="scientific_terms" ref="#">negative attitude/assessment</term>
+                <term type="scientific_terms" ref="#">positive self-criticism</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough | Kent</placeName>
+                    <date>Oct 8<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>Pray accept my thanks for your coloured map of N.E. Australia:<ref target="#foot.f1"/> it is the very thing I was wishing to have the other day, when I was reading your chapters on the Coral Reefs.—<ref target="#foot.f2"/> I have not yet been able to get a copy of your work to go through with it, but I have read carefully all you say on Coral Reefs &amp; been very greatly flattered &amp; pleased.<ref target="#foot.f3"/> I admire your boldness about this being a reef-building age &amp; Lyell &amp; myself agreed there was much probability in it. I have always felt that my coral-reef book was too bold &amp; speculative &amp; therefore you will not easily imagine how gratified I am when anyone, who has had opportunities of observation, does not give his verdict against it. The Barrier is certainly a grand feature; but you must have found the coast geology with its everlasting granite very dull: I remember that I used to hate granitic districts. How I wish that fate &amp; your Captain had led you to examine the scattered reefs between the Barrier &amp; N. Caledonia; I have always felt much curiosity about them. I daresay you know M<hi rend="superscript">r</hi> Crawfurd:<ref target="#foot.f4"/> he was speaking to me the other day with much pleasure &amp; interest about the ethnographical part of your book &amp; on this he must be a good judge—</p>
+<p>Pray believe me, my dear Sir, Yours very sincerely | C. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Jukes had been the naturalist aboard H.M.S. <hi rend="italic">Fly</hi> during the survey of the north-east coast of Australia, 1842–6, under the command of <ref target="../nameregs/nameregs_473.xml" resp="#mjhawkins">Francis Price Blackwood</ref>.</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_4266.xml" resp="#mjhawkins">Jukes 1847</ref>.</note>
+            <note xml:id="foot.f3"><ref target="../bibliographies/bibl_4266.xml" resp="#mjhawkins">Jukes 1847</ref>, pp. 347–8.</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_1109.xml" resp="#mjhawkins">John Crawfurd</ref>, who travelled widely in India and China and published many ethnological and philological works after his return to England in 1827.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

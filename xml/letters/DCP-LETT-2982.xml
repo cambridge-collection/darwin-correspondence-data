@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2982">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To G. V. Reed   12 November [1860]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8315</idno>
+            
+            
+            
+            
+            <date when="1993">1993</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2982 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2982.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2982.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="08">8</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl>Moore (1977): 58</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 8: 472</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Buckinghamshire Record Office (D.22.39.5)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_69.xml">Buckinghamshire RO</repository>
+                    <idno>D22.39.5</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1860-11-12">12 Nov [1860]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3955.xml">Reed, G. V.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>The family was detained at Eastbourne by a setback in Henrietta’s health.</p>
+            <p>Will send Leonard for tutoring on Thursday morning. Frank is doing capitally at school.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin family</term>
+                <term type="people" ref="#subject_1202">Darwin family</term>
+                <term type="people" ref="#subject_1225">Darwin, H. E.</term>
+                <term type="people" ref="#subject_1230">Darwin, Leonard</term>
+                <term type="places" ref="#">Eastbourne</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="societal" ref="#">education</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down, Bromley Kent.—</placeName>
+                    <date>Nov. 12<hi rend="superscript">th</hi></date>
+                </opener>
+                <div type="transcription">
+                     
+<p>My dear Sir</p>
+<p>We returned on Saturday night from Eastbourne where we were detained by another severe attack of illness in my poor girl.<ref target="#foot.f2"/> She has rallied surprisingly &amp; stood the journey very well; but after six months illness she is very weak &amp; I fear in rather precarious state, though thank God there is no immediate danger.—   I tell you all this, because we know we have your sympathy.—</p>
+<p>If I do <hi rend="doubleUnderline">not</hi> hear from you, I will send Leonard on Thursday <hi rend="underline">morning</hi>;<ref target="#foot.f3"/> I say morning for the days are now so short, he would hardly have time to return by daylight, if he started after our midday dinner.—   In the Spring, if then not inconvenient to you, we will change to the afternoon.—   Franky seems getting on capitally, thanks to your kindness.<ref target="#foot.f4"/></p>
+<p>Pray believe me | My dear Sir | Yours very sincerely | Charles Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the reference to Eastbourne (see n. 2, below).</note>
+            <note xml:id="foot.f2">The Darwins returned to Down, following a prolonged stay in Eastbourne, on 10 November 1860 (‘Journal’; Appendix II). <ref target="../nameregs/nameregs_1225.xml" resp="#mjhawkins">Henrietta Emma Darwin</ref> had been very ill during their visit.</note>
+            <note xml:id="foot.f3">CD had arranged for Reed to tutor <ref target="../nameregs/nameregs_1230.xml" resp="#mjhawkins">Leonard Darwin</ref> twice a week. See <ref target="./DCP-LETT-2918.xml" resp="#automat">letter to G. V. Reed, 15 September [1860]</ref>.</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin</ref> had entered Clapham Grammar School in August 1860. Before going to school he had been tutored by Reed.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

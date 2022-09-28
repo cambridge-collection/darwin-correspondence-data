@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9121">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Godfrey Wedgwood   [November 1873]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14167</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9121 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9121.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9121.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Amem</note>
+            <note type="physdesc">Amem 2pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 181: 52</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>181: 52</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_5016.xml">Wedgwood, Godfrey</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1873-11-01" notAfter="1873-11-30">[Nov 1873]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Captive and tame birds inheriting the migratory instinct.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">birds</term>
+                <term type="scientific_terms" ref="#">confinement, captivity</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">heredity</term>
+                <term type="scientific_terms" ref="#">instinct</term>
+                <term type="scientific_terms" ref="#">mineralogy, minerals</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+                     
+<p>Mr Smith, Cecils master,<ref target="#foot.f2"/> who is a good entomologist, &amp; therefore used to notice natural facts, says a neighbour of his caught a young corncrake while scarcely fledged, not so big as a sparrow, brought it up, and made it so fond of him that the bird followed him about from room to room like a dog, came when it was called never trying to escape. for some months it was kept in a yard with a high wall all round. All at once it disappeared in the night &amp; was never seen again— The Owner thought it must have been Stolen, even when M<hi rend="superscript">r</hi> Smith pointed out that it was the time when the bird would have migrated naturally.<ref target="#foot.f3"/></p>
+<p>Another neighbour of his had a young cookoo which when the time came for migration grew restless &amp; continually beat itself against the bars of the cage until it killed itself. It had been quite tame before. Neither of these cases could have been imitative instinct.</p>
+<p>Cases of instinct not being imitation referring to De Candolle, page 322.<ref target="#foot.f4"/></p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by a note, ‘November 1873 from <ref target="../nameregs/nameregs_5016.xml" resp="#mjhawkins">Godfrey Wedgwood</ref>’, added to the letter probably by <ref target="../nameregs/nameregs_1224.xml" resp="#mjhawkins">George Howard Darwin</ref>, and the year of publication of <ref target="../bibliographies/bibl_1205.xml" resp="#mjhawkins">Candolle 1873</ref> (see n. 4, below).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_5006.xml" resp="#mjhawkins">Cecil Wedgwood</ref> was Godfrey’s son; his schoolmaster has not been identified.</note>
+            <note xml:id="foot.f3">The corncrake (<hi rend="italic">Crex crex</hi>) breeds in Europe and Asia and migrates to Africa for the winter.</note>
+            <note xml:id="foot.f4"><ref target="../bibliographies/bibl_1205.xml" resp="#mjhawkins">Candolle 1873</ref>, p. 322, discussed whether the migration of birds was a learned behaviour or an inherited instinct. CD considered the power of the migratory instinct in <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> 1: 83–4.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

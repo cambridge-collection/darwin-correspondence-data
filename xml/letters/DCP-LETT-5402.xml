@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5402">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To William Benjamin Carpenter   [13–16 February 1867]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20005</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5402 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5402.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5402.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">incomplete<ref target="#foot.f4"/></note>
+            <note type="physdesc" n="ALS">* 4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Sotheby Parke Bernet, London (18 June 1979)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_395.xml">Sotheby’s</repository>
+                    <collection>18 June 1979</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1867-02-13" notAfter="1867-02-16">[13–16 Feb 1867]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_839.xml">Carpenter, W. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks for specimen [of Eozoon] for J. V. Carus of Leipzig.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Eozoon</term>
+                <term type="people" ref="#subject_849">Carus, J. V.</term>
+                <term type="places" ref="#">Leipzig</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>6 Queen Anne Street<ref target="#foot.f2"/></placeName>
+                </opener>
+                <div type="transcription">
+                     
+<p>[Asking for a specimen [of Eozoon] for Professor Victor Carus of Leipzig.]<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date range is based on the date of CD’s visit to his brother’s house (see n. 2, below), and on the relationship between this letter and the <ref target="./DCP-LETT-5403.xml" resp="#mjhawkins">letter to J. V. Carus, 17 February [1867]</ref>.</note>
+            <note xml:id="foot.f2">Six Queen Anne Street, London, was the home of CD’s brother, <ref target="../nameregs/nameregs_1211.xml" resp="#mjhawkins">Erasmus Alvey Darwin</ref>. CD was a visitor there between 13 and 21 February (see CD’s ‘Journal’ (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 15, Appendix II)).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_849.xml" resp="#mjhawkins">Julius Victor Carus</ref> asked CD for a specimen of the <hi rend="italic">Eozoon</hi> fossils in his letter of 11 February 1867. Carpenter had described the supposed fossils following their recent discovery; see Carpenter 1864 and <ref target="../bibliographies/bibl_1270.xml" resp="#mjhawkins">Carpenter 1866</ref>, and the <ref target="./DCP-LETT-5397.xml" resp="#mjhawkins">letter from J. V. Carus, 11 February 1867</ref>, n. 5. See also <ref target="../bibliographies/bibl_6017.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 4th ed.</ref>, pp. 371–2, and Peckham ed. 1959, pp. 514–15.</note>
+            <note xml:id="foot.f4">The original letter is described in the sale catalogue as being four pages long, and undated.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

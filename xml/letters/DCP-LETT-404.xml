@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-404">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From William Buckland to the Geological Society of London   9 March 1838</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9292A</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-404 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-404.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-404.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Geological Society of London (GSL/COM/P/4/2/47)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_147.xml">Geological Society</repository>
+                    <idno>GSL/COM/P/4/2/47</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_707.xml">Buckland, William</persName>
+                <placeName>unstated</placeName>
+                <date when="1838-03-09">9 Mar 1838</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1841.xml">Geological Society of London</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Recommends CD’s paper on "Formation of mould" [<hi rend="italic">Collected papers</hi> 1: 49–53; read 1 Nov 1837] be printed in <hi rend="italic">Transactions</hi>. Praises it as establishing a new "geological power".</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="geology" ref="#">mould</term>
+                <term type="it" ref="#">Collected papers</term>
+                <term type="it" ref="#">Transactions</term>
+                <term type="people" ref="#subject_1">Darwin, C. R.</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">positive self-criticism</term>
+                <term type="scientific_terms" ref="#">reception of Darwinism</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+                     
+<p rend="centre">Report on M<hi rend="superscript">r</hi> Darwyns Paper on the formation of Mould.</p>
+<p>I consider the above paper &amp; note appended to it, to be sound in all its views, excepting that which refers the origin of Chalk, to the digestive powers of animals that had fed on corallines</p>
+<p>I should strongly recommend its publication in the Transactions as establishing a new &amp; important theory to explain Phenomena of universal occurrence on the surface of the Earth—in fact a new Geological Power— Altho nearly the whole paper has been printed in the abstract of Proceedings I think the subject of sufficient importance to be printed in the Transactions, with a lithograph of the drawing annexed to it—<ref target="#foot.f1"/></p>
+<p>I wd recommend that the Author be advised to withdraw the passage relating to the origin of Chalk—as introducing very disputable matter into a paper that is otherwise unexceptionable, &amp; which if established, would be well deserving to form the Subject of a separate Communication<ref target="#foot.f2"/></p>
+<p>W<hi rend="superscript">m</hi> Buckland</p>
+<p>March 9. 1838</p>
+<p>I wd advise the author to be requested to add a Section of the 2 very decisive Cases mentioned in his appendix— they might all v<hi rend="superscript">y</hi>. well be contained in one quarto plate</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../bibliographies/bibl_2612.xml" resp="#mjhawkins">‘On the formation of mould’</ref>, <ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers </hi></ref> 1: 49–53.</note>
+            <note xml:id="foot.f2">CD had concluded the version of the paper that was read to the Society on 1 November 1837 with the statement that ‘a large portion of the chalk of Europe was produced from coral, by the digestive action of marine animals, in the same manner as mould has been prepared by the earth-worm on disintegrated rock’ (<ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 1: 53). Buckland’s suggestion was adopted. It did not, however, prevent CD from leaving his theory unchanged in <ref target="../bibliographies/bibl_4249.xml" resp="#mjhawkins"><hi rend="italic">Journal and remarks</hi></ref> (p. 553). Lyell also incorporated it in his <hi rend="italic">Elements</hi> (<ref target="../bibliographies/bibl_4993.xml" resp="#mjhawkins">C. Lyell 1838</ref>, p. 321). The second edition of the <ref target="../bibliographies/bibl_4250.xml" resp="#mjhawkins"><hi rend="italic">Journal of researches</hi></ref> (1845), however, reads: ‘this mud, which when wet strikingly resembled pounded chalk, was found by Professor [C. G.] Ehrenberg to be partly composed of siliceous-shielded infusoria’ (p. 465).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

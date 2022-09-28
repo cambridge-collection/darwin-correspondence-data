@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10318">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From M. C. Stanley   22 December 1875</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16720</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10318 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10318.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10318.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 162: 168</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>162: 168</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4527.xml" resp="high">Stanley, M. C.</persName>
+                <placeName>Knowsley, Prescot</placeName>
+                <date when="1875-12-22">22 Dec 1875</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml" resp="high">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Lord Derby was pleased by CD’s warm and genuine expression of approval [of his support of Vivisection Bill? see <hi rend="doubleUnderline">9933</hi>].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_4524">Stanley, E. H.</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">Vivisection Bill</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Knowsley, | Prescot.</hi></placeName>
+                    <date>22 Dec<hi rend="superscript">r</hi>/75</date>
+                    <salute>Dear M<hi rend="superscript">r</hi> Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Though you tell me not to answer your most kind note I cannot help disobeying you: Your warm &amp; genuine expressions of approval have given L<hi rend="superscript">d</hi> Derby more pleasure than any other compliment he has received, &amp; you must forgive me for saying so.—<ref target="#foot.f1"/></p>
+<p>We made two short visits to Keston last month, but I was never able to find time to get as far as Down.<ref target="#foot.f2"/></p>
+<p>We are more &amp; more pleased with Keston each time we go there.</p>
+<p>Will you remember me kindly to M<hi rend="superscript">rs</hi> Darwin &amp; believe me | Yrs very sincerely | M C Derby</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Stanley was married to <ref target="../nameregs/nameregs_4524.xml" resp="#mjhawkins">Edward Henry Stanley</ref>, the earl of Derby. CD’s letter has not been found, but it probably related to Lord Derby’s inaugural address as lord rector of the University of Edinburgh, which CD thought very good (see <ref target="./DCP-LETT-10308.xml" resp="#mjhawkins">letter to W. T. Thiselton-Dyer, [19 December 1875]</ref> and n. 15).</note>
+            <note xml:id="foot.f2">The Stanleys had rented a house, Keston Lodge, in Keston near Down; over the summer they had invited <ref target="../nameregs/nameregs_832.xml" resp="#mjhawkins">Thomas Carlyle</ref> to live there (see <ref target="./DCP-LETT-10157.xml" resp="#mjhawkins">letter from M. C. Stanley, 14 September 1875</ref> and n. 2).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

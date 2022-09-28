@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1246">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. F. W. Herschel<ref target="#foot.f1"/>   13 June [1849]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1876</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1246 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1246.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1246.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <relatedItem type="publication">
+                <bibl>De Beer (1959): 34</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 4: 238</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">The Royal Society (HS6: 16)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_364.xml">Royal Society</repository>
+                    <idno>HS6: 16</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Malvern</placeName>
+                <date when="1849-06-13">13 June [1849]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2259.xml">Herschel, J. F. W.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks JFWH for the trouble he has taken to correct printing error in "Geology".</p>
+            <p>Discusses Dr Gully’s water-cure.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin himself, good or improving</term>
+                <term type="people" ref="#subject_2020">Gully, J. M.</term>
+                <term type="people" ref="#subject_1053">printer</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>The Lodge | Malvern</placeName>
+                    <date>June 13<hi rend="superscript">th</hi>.—</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I thank you cordially for your extremely kind note &amp; for all the trouble &amp; precautions which you have taken, &amp; which are almost more than the occasion deserves.— I have, also, had a very obliging note from M<hi rend="superscript">r</hi>. Murray, written, I think, before even he had heard from you, so that all will be made quite right &amp; very much obliged I am to you. I hope that the volume may bring forth some good fruit &amp; so repay you for your trouble in superintending it.—</p>
+<p>I have been here for three months under D<hi rend="superscript">r</hi>. Gully &amp; the Cold Water Cure, which has had an astonishingly renovating action on my health; before coming here I was almost quite broken down, head swimming, hands tremulous &amp; never a week without violent vomiting, all this is gone, &amp; I can now walk between two &amp; three miles. Physiologically it is most curious how the violent excitement of the skin, produced by simple water, has acted on all my internal organs.</p>
+<p>I mention all this out of gratitude to a process which I thought quackery a year since, but which now I most deeply lament I had not heard of some few years ago.</p>
+<p>Excuse this medical dissertation, &amp; believe me dear Sir John Herschel, with much respect | Yours sincerely obliged | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 &amp; which] ‘&amp;’ <hi rend="italic">added</hi></note>
+                    <note xml:id="tnote.n2">1.2 almost] <hi rend="italic">before omitted point</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_2259.xml" resp="#mjhawkins">John Frederick William Herschel</ref> was the editor of the Admiralty manual (Herschel ed. 1849), about which CD complained in his <ref target="./DCP-LETT-1244.xml" resp="#mjhawkins">letter to John Murray, 7 June [1849]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

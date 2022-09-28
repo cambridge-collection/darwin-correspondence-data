@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-991">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Daniel Sharpe   23 August [1848?]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13677</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-991 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-991.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-991.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp &amp; C 1p</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">ML</hi> 2: 199</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 4: 160</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 147: 47</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_254.xml">Maggs Brothers</repository>
+                    <idno>, Autograph Letters &amp; Documents, cat. 1357,</idno>
+                </msIdentifier>
+            </msDesc>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>147: 474</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1848-08-23">23 Aug [1848?]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4311.xml">Sharpe, Daniel</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks for note.</p>
+            <p>Glad DS sticks to cleavage and foliation question. Bernhard Studer one of few to take correct view on subject.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="geology" ref="#">cleavage</term>
+                <term type="geology" ref="#">foliation</term>
+                <term type="people" ref="#subject_4602">Studer, Bernhard</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent.</placeName>
+                    <date>Aug<hi rend="superscript">t</hi> 23<hi rend="superscript">rd</hi>.</date>
+                    <salute>My dear Sir.</salute>
+                </opener>
+                <div type="transcription">
+<p>I must just send one line to thank you for your note. &amp; to say how heartily glad I am that you stick to the Cleavage &amp; Foliation question.— Nothing will ever convince me that it is not a noble subject of investigation, which will lead some day to great views. I think it quite extraordinary how little the subject seems to interest British Geologists— You will I think live to see the importance of your paper recognised. I had always thought that Studer was one of the few Geologists who had taken a correct and enlarged view on the subject.</p>
+<p>Dear Sharpe | Yours sincerely, | C. Darwin.</p>
+<p>Your specimen shall be returned next week.<ref target="#foot.f2"/></p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated [1846?] by <ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin</ref> (<ref target="../bibliographies/bibl_5511.xml" resp="#mjhawkins"><hi rend="italic">ML</hi></ref> 2: 199), but the content of the letter makes 1848 more probable. The reference to Sharpe continuing to work on cleavage and foliation indicates that time had passed since his first paper (Sharpe 1847, read 2 December 1846).</note>
+            <note xml:id="foot.f2">Sharpe supplied CD with fossil cirripedes he had found in Tertiary beds near Lisbon (<ref target="../bibliographies/bibl_2622.xml" resp="#mjhawkins"><hi rend="italic">Fossil Cirripedia</hi> (1854): </ref>17). Sharpe’s fossils were essential to his explanation of cleavage (Sharpe 1847). In his section on cleavage in the chapter on geology for the Admiralty manual, written in March 1848 (Herschel ed. 1849, pp. 174–5), CD stated: ‘Fossil shells have been found by Mr. Sharpe in slaty rocks, which have had their shapes greatly altered, and all in the same direction; here then we have a guide to judge of the amount and direction of the mechanical displacement which the surrounding slate-rocks have undergone.’ (<ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 1: 237).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

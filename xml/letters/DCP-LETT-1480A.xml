@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1480A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John William Parker<ref target="#foot.f1"/>   5 May [1852]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20573</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1480A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1480A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1480A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="publication">
+                <bibl><hi rend="italic">Correspondence</hi> 5: 90–1</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Stationers’ Company (Records Pt XI (III) J. W. Parker: autograph letters from authors (TSC/1/F/07/22))</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_401.xml">Stationers' Company</repository>
+                    <collection>Records Pt XI (III) J. W. Parker: autograph letters from authors</collection>
+                    <idno>TSC/1/F/07/22</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1852-05-05">5 May [1852]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3677.xml">Parker, J. W.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>As an author of some scientific works CD is of the opinion that each bookseller should settle, each for himself, the retail price.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="people" ref="#">booksellers</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>May 5<hi rend="superscript">t</hi> <hi rend="superscript">h</hi>.</date>
+                    <salute>Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>As an author of some Scientific works, I beg to express strongly my opinion, that, both for the advantage of Authors &amp; the public, Booksellers like other dealers ought to settle, each for himself, the Retail price.<ref target="#foot.f2"/></p>
+<p>Sir | Your obed<hi rend="superscript">t</hi>. sert. | Charles Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Bookseller and publisher at 445 West Strand, London (<ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref>).</note>
+            <note xml:id="foot.f2">On 30 April 1852, Parker had written to ‘Authors, and Others connected with Literary Property’ concerning a dispute between the Booksellers’ Association and certain independent retailers over the fixing of minimum retail prices for books (Stationers’ Company Records Pt XI (III)): <quote> Question. If a retail Bookseller of ascertained credit and respectability applies to the Publisher to purchase any Book in which you may be directly or indirectly interested, on the terms at which those Books are offered to the Trade at large, but with the avowed intention of retailing his purchases at a smaller profit than that provided for between the wholesale rate and the selling price of single copies,— Do you consider the intention to sell at a low rate of profit, a good and sufficient reason why the Publisher should refuse to sell the Books, which such retailer is ready to purchase and to keep in stock at his own risk? The dispute over the fixing of retail prices by publishers and the Booksellers’ Association was referred to the lord chief justice and others. On 19 May 1852, Lord John Campbell concluded that the agreement providing for a minimum retail price seemed ‘<hi rend="italic">prima facie</hi> to be indefensible, and contrary to the freedom which ought to prevail in commercial transactions’ (<hi rend="italic">Gentleman’s Magazine</hi> n.s. 37 (1852): 592).</quote></note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

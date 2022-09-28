@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3778">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To the <hi rend="italic">Journal of Horticulture</hi>   [before 22 October 1861]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20274</idno>
+            
+            
+            
+            
+            <date when="1994">1994</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3778 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3778.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3778.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="09">9</biblScope>
+        </seriesStmt>
+        
+        <sourceDesc>
+            <bibl type="provenance"> <hi rend="italic">Journal of Horticulture, Cottage Gardener, and Country Gentleman</hi> n.s. 2 (1861–2): 76 </bibl>
+            <bibl type="printedSource">J. Hortic. n.s. 2 1861</bibl>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1809-01-01" notAfter="1861-10-21">[before 22 Oct 1861]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2615.xml">Journal of Horticulture</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks H. W. Newman whether the queen humble-bee is fertilised on the ground or in the air, and whether the fertilisation often takes place as late as September. [Newman’s reply follows CD’s letter.]</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">bee, humble</term>
+                <term type="people" ref="#subject_3514">Newman, H. W.</term>
+                <term type="scientific_terms" ref="#">breeding behaviour</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">seasons</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Down]</placeName>
+                </opener>
+                <div type="transcription">
+                     
+<p>Would Col. Newman, who has so carefully attended to the habits of humble bees, have the kindness to state whether the queen humble bees are fertilised in the air or on the ground? I have a special reason for wishing to know this little fact, and whether the fertilisation does not often take place as late as in September?—<ref target="#foot.f2"/></p>
+<p>C. Darwin.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the publication of the letter in the 22 October 1861 issue of the <hi rend="italic">Journal of Horticulture</hi>.</note>
+            <note xml:id="foot.f2">The letter was published under the heading ‘Is the female Bombus fertilised in the air?’. CD’s query was probably prompted by a note by <ref target="../nameregs/nameregs_3514.xml" resp="#mjhawkins">Henry Wenman Newman</ref> published in the 15 October 1861 issue of the <hi rend="italic">Journal of Horticulture</hi> (pp. 40–1), in which Newman questioned whether parthenogenesis occurred in bees and suggested that the eggs of the queen bee were fertilised by the ‘aura’ of the drone. For Newman’s response to CD’s queries, see the <ref target="./DCP-LETT-3292A.xml" resp="#automat">letter from H. W. Newman, [before 22 October 1861]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

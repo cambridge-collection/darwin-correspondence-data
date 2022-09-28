@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3622">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Frederick Smith   27 June [1862]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14556</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3622 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3622.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3622.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp damaged</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 177: 194</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>177: 194 (fragile)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4408.xml">Smith, Frederick (a)</persName>
+                <placeName>British Museum</placeName>
+                <date when="1862-06-27">27 June [1862]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Roughly identifies some insects sent by CD; is waiting to see Francis Walker, who, he believes, has written a monograph on the family to which they belong.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">insects</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">higher groupings (‘family’, ‘class’, ‘order’ etc)</term>
+                <term type="scientific_terms" ref="#">identification</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>British Museum</placeName>
+                    <date>27<hi rend="superscript">th</hi>. June</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I did not answer directly as I wished to show your insects to M<hi rend="superscript">r</hi>. Walker—thinking as they belonged to a family he has monographed—I should get you the name generic as well as specific—<ref target="#foot.f2"/> M<hi rend="superscript">r</hi>. Walker however does not come as usual—so I write to say that the insect belongs in my opinion—to the genus Tetrastichus— Fam. Chalcididæ 〈    〉 I do not know— when I see M<hi rend="superscript">r</hi>. Walker I will try and get the name—or names for I think the specimen with mottled or banded wings is distinct— you shall have all I can ascertain in a day or two</p>
+<p>Yours very truly | Fred<hi rend="superscript">k</hi> Smith <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Cha<hi rend="superscript">s</hi>. Darwin Esq<hi rend="superscript">re</hi>.</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship to the <ref target="./DCP-LETT-3625.xml" resp="#mjhawkins">letter from Frederick Smith, 28 June 1862</ref>.</note>
+            <note xml:id="foot.f2">Smith refers to his colleague at the <ref target="../nameregs/nameregs_8646.xml" resp="#mjhawkins">British Museum</ref>, the entomologist <ref target="../nameregs/nameregs_4929.xml" resp="#mjhawkins">Francis Walker</ref>, and to Walker’s <hi rend="italic">Monographia Chalciditum</hi> (<ref target="../bibliographies/bibl_8054.xml" resp="#mjhawkins">Walker 1839</ref>). The letter in which CD asked Smith to identify these insects has not been found; however, see the <ref target="./DCP-LETT-3625.xml" resp="#mjhawkins">letter from Frederick Smith, 28 June 1862</ref> and n. 3.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

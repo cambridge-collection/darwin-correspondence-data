@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1301">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Robert Fitch   [5 February 1850]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3476</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1301 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1301.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1301.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <relatedItem type="publication">
+                <bibl>Trenn (1974): 482</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 4: 311</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Norwich Castle</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_298.xml">Norwich Castle</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1850-02-05">[5 Feb 1850]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1642.xml">Fitch, Robert</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks permission to clean specimen. Describes research on cirripedes.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">cirripedes</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">fossils</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p> [DIAGRAM BESIDE TEXT] concave</p>
+<p>Amongst the specimens <hi rend="underline">first</hi> sent, there is one embedded with its back downwards, presenting a concavity upwards: it is in present state <hi rend="doubleUnderline">absolutely</hi> &amp; <hi rend="doubleUnderline">utterly</hi> useless <hi rend="underline">every</hi> character is hidden: if you like, I will soak it &amp; clear chalk off— But do not say yes, without you would like it, for I have not the least idea what the valve is, it may be new or it may be old.—&amp; nothing will ever be known about it in its present state.—</p>
+<p>I have well exhibited the additional side to the carina, which you granted me permission to do, &amp; it is now the best specimen which I have seen &amp; I will have it figured.—<ref target="#foot.f1"/> I have just made out a quite new beautiful &amp; distinct species of Pollicipes out of the lot last sent<ref target="#foot.f2"/> The species are very numerous—for in M<hi rend="superscript">r</hi> Flower of Croydon’s<ref target="#foot.f3"/> small collection I have found two other new &amp; distinct species of Scalpellum from Chalk.—<ref target="#foot.f4"/></p>
+<p>Yours very faithfully | C. Darwin <lb resp="#mjhawkins"/> Down Farnborough Kent</p>
+<p>Tuesday.— P.S. I have opened this note to thank you very sincerely for your renewed proof of your kindness in your letter just received.—<ref target="#foot.f5"/></p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.5 say] <hi rend="italic">added</hi></note>
+                    <note xml:id="tnote.n2">2.3 have just] <hi rend="italic">after del</hi> ‘was’</note>
+                    <note xml:id="tnote.n3">2.3 quite] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The specimen referred to in <ref target="./DCP-LETT-1291.xml" resp="#mjhawkins">letter to Robert Fitch, 15 January [1850]</ref>.</note>
+            <note xml:id="foot.f2">The species CD later named <hi rend="italic">Pollicipes angelini</hi>.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_1669.xml" resp="#mjhawkins">John Wickham Flower</ref>.</note>
+            <note xml:id="foot.f4">The two species described from Flower’s collection were <hi rend="italic">Scalpellum trilineatum</hi> and <hi rend="italic">S. arcuatum</hi> (<hi rend="italic">Fossil</hi> <hi rend="italic">Cirripedia</hi> (1851): 38, 40; <ref target="../bibliographies/bibl_7811.xml" resp="#mjhawkins">Trenn 1974</ref>, p. 482 n. 97).</note>
+            <note xml:id="foot.f5">Fitch apparently offered to send CD some more specimens (see <ref target="./DCP-LETT-1302.xml" resp="#mjhawkins">letter to Robert Fitch, [6 February 1850]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5800">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Francis Galton   25 January [1868?]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">12192</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5800 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5800.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5800.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 144: 304, DAR 221.4: 172</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">UCL Library Services, Special Collections (GALTON/1/1/9/5/7/7)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_425.xml">UC London</repository>
+                    <idno>GALTON/1/1/9/5/7/7</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1868-01-25">25 Jan [1868?]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1797.xml">Galton, Francis</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>FG’s congratulations [on publication of <hi rend="italic">Variation</hi>] have given CD pleasure.</p> 
+            <p>Trusts that FG is well again.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin family</term>
+                <term type="it" ref="#">Variation</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">positive self-criticism</term>
+                <term type="scientific_terms" ref="#">variation</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Jan. 25<hi rend="superscript">th</hi></date>
+                    <salute>My dear Galton</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Your few words of congratulation have given me sincere pleasure &amp; I thank you cordially.—<ref target="#foot.f2"/> I sh<hi rend="superscript">d</hi>. have been still better pleased, if you had told me how you were. I have enquired whenever I have had a chance of hearing, but did not hear some two months ago a very good account.<ref target="#foot.f3"/></p>
+<p>I trust &amp; hope by your note that you are well again, but I know that over mental work takes long in recovery.—</p>
+<p>With hearty thanks &amp; good wishes | Yours very sincerely | Charles Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is conjectured by the references to Galton’s poor health and on the assumption that the letter alludes to <ref target="../nameregs/nameregs_1224.xml" resp="#mjhawkins">George Howard Darwin’s</ref> success in the mathematical tripos at Cambridge (see <ref target="./DCP-LETT-5796.xml" resp="#automat" cert="medium">letter to G. H. Darwin, 24 January [1868]</ref> and n. 2).</note>
+            <note xml:id="foot.f2">The letter from Galton has not been found.</note>
+            <note xml:id="foot.f3">Galton suffered a breakdown in health in 1866 and did not recover fully until the beginning of 1869 (<ref target="../bibliographies/bibl_2852.xml" resp="#mjhawkins">Gillham 2001</ref>, pp. 150–1).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

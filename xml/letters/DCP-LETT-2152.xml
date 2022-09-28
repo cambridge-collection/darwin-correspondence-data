@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2152">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Skeffington Poole<ref target="#foot.f1"/>   13 October [1858]<ref target="#foot.f2"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">658</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2152 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2152.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2152.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno/>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1858-10-13">13 Oct [1858]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3820.xml">Poole, Skeffington</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks about Indian horses. Encloses questions.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="places" ref="#">India</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Oct 13<hi rend="superscript">th</hi></date>
+                    <salute>Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have received a most obliging communication from Col. Curtis in India on the colours &amp; stripes of native horses, on which subject I happen to be, as a naturalist particularly interested.<ref target="#foot.f3"/> He informs me that you probably know more on subject that any man living, &amp; he tells me that I may use his name as an introduction, &amp; I may add as an apology for the liberty, which I take in ad-dressing you.— He thinks that you would be so kind as to give me any information in your power.—</p>
+<p>I have accordingly ventured to enclose some questions, &amp; it will, I hope, not cost you much trouble to add to each a few words in answer.—<ref target="#foot.f4"/> I do not suppose that it is in the least likely that you can answer the greater number, but I have thought that I might as well ask all that I wanted to know.— It is, also, quite likely that your memory may not serve to answer positively, though when on the spot you might have been enabled to do so. The questions will probably appear very trivial, but they all grounded on some motive.—</p>
+<p>I trust that you will excuse the liberty, which I take, &amp; I shall feel extremely much obliged for any information, however small.<ref target="#foot.f5"/></p>
+<p>Sir | I have the honour | to remain | Your obliged servant | Charles Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.4 tells] <hi rend="italic">altered from</hi> ‘tell’</note>
+                    <note xml:id="tnote.n2">2.4 wanted] <hi rend="italic">altered from</hi> ‘want’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The recipient is identified by the contents of the letter. <ref target="../nameregs/nameregs_3820.xml" resp="#mjhawkins">Skeffington Poole</ref> had been a lieutenant-colonel in the first regiment light cavalry, Bombay. He was mentioned by CD in <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> as an expert on Indian horses ‘who has had ample opportunities for observation’ (<ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 2: 43).</note>
+            <note xml:id="foot.f2">Dated by the relationship to the <ref target="./DCP-LETT-2350.xml" resp="#mjhawkins">letter to W. E. Darwin, [30 October 1858]</ref>.</note>
+            <note xml:id="foot.f3">Possibly <ref target="../nameregs/nameregs_1165.xml" resp="#mjhawkins">James Gray William Curtis</ref>, who had retired from the Bengal army in 1854 (<ref target="../bibliographies/bibl_5514.xml" resp="#mjhawkins"><hi rend="italic">Modern English biography</hi></ref>). He was cited by CD in <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 58. CD had been seeking information on the colouring of Indian horses for some time. In 1857 he sent questions on the subject to India via <ref target="../nameregs/nameregs_1585.xml" resp="#mjhawkins">Hugh Falconer</ref>, but apparently received no reply. See <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 6, <ref target="./DCP-LETT-2175.xml" resp="#mjhawkins">letter to Hugh Falconer, 23 November 1857</ref>.</note>
+            <note xml:id="foot.f4">The enclosure has not been found, but it probably repeated the questions raised in the enclosure with the <ref target="./DCP-LETT-2175.xml" resp="#mjhawkins">letter to Hugh Falconer, 23 November 1857</ref> (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 6).</note>
+            <note xml:id="foot.f5">CD cited information from Poole in <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>, pp. 163, 164, and 166.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

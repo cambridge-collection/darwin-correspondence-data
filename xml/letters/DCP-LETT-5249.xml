@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5249">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Mary Elizabeth Lyell   [19? October 1866]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6093</idno>
+            
+            
+            
+            
+            <date when="2004">2004</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5249 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5249.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5249.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="14">14</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Bodleian Libraries, Oxford (Dep. c. 370, folder MSD-1: on loan from Somerville College, Oxford)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_48.xml">Bodleian</repository>
+                    <collection>Somerville</collection>
+                    <idno>Dep. c. 370, folder MSD-1</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1866-10-19">[19? Oct 1866]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3056.xml">Lyell, M. E.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Mary Somerville may use diagrams from <hi rend="italic">Orchids</hi> [in her <hi rend="italic">Molecular and microscopic science</hi> (1869)], but permission should be obtained from John Murray.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Molecular and microscopic science</term>
+                <term type="it" ref="#">Orchids</term>
+                <term type="people" ref="#subject_3463">Murray, John (b)</term>
+                <term type="rx" ref="#">Somerville, Mary 1869</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">instructions</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down</placeName>
+                    <date>Friday</date>
+                    <salute>My dear Lady Lyell</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I should be delighted &amp; honoured by M<hi rend="superscript">rs</hi> Somerville’s using any of the diagrams in my Orchid book.<ref target="#foot.f2"/> But it is more M<hi rend="superscript">r</hi> Murray’s affair than mine.<ref target="#foot.f3"/> If this note were shewn to him I have no doubt he would give permission &amp; do what is necessary.</p>
+<p>Pray believe me yours sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is conjectured from the relationship between this letter and the <ref target="./DCP-LETT-5259.xml" resp="#mjhawkins">letter from Mary Somerville, 30 October 1866</ref>, and the estimated time needed for post to go to and from Italy.</note>
+            <note xml:id="foot.f2">The letter requesting permission for Mary Somerville to use the illustrations has not been found. Somerville used fourteen illustrations from <ref target="../bibliographies/bibl_6010.xml" resp="#mjhawkins"><hi rend="italic">Orchids</hi></ref> in her book <hi rend="italic">On molecular and microscopic science</hi> (<ref target="../bibliographies/bibl_7332.xml" resp="#mjhawkins">Somerville 1869</ref>, 1: 389–403). CD’s copy of <ref target="../bibliographies/bibl_7332.xml" resp="#mjhawkins">Somerville 1869</ref> is in the Darwin Library–Down House.</note>
+            <note xml:id="foot.f3">John Murray, CD’s publisher, owned the woodcuts for the illustrations of <hi rend="italic">Orchids.</hi></note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

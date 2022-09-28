@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6105">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From G. R. Gray   8 April 1868</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16117</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6105 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6105.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6105.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 84.1: 92</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>84.1: 92</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1958.xml">Gray, G. R.</persName>
+                <placeName>British Museum</placeName>
+                <date when="1868-04-08">8 Apr 1868</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Difference between sexes of <hi rend="italic">Ibis rubra</hi>; change in plumage.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Ibis rubra</term>
+                <term type="scientific_terms" ref="#">change</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">physical ‘external’ characters</term>
+                <term type="scientific_terms" ref="#">sex differences</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00084-00001-000-00191_files/8/0_0.jpg" width="3169px" height="6125px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00084-00001-000-00191_files/11/1_1.jpg" width="3169px" height="6125px"/>
+        <surface xml:id="i1" n="92r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00084-00001-000-00191.jpg" rend="portrait" width="3169px" height="6125px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00084-00001-000-00191_files/8/0_0.jpg" width="3169px" height="6125px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00084-00001-000-00191.dzi" width="3169px" height="6125px"/>
+        </surface>
+</facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>British Museum</placeName>
+                    <date>8<hi rend="superscript">th</hi>. April 1868</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I must trouble you with a line to say that the difference between the sexes of the <hi rend="underline">Ibis rubra</hi> is, that the female is smaller than the male.— It is stated, that the bird is three year old, before it assumes the Scarlet plumage.<ref target="#foot.f1"/></p>
+<p>Yours faithfully | G. R. Gray <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">C. Darwin, Esq<hi rend="superscript">re</hi>.</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><hi rend="italic">Ibis rubra</hi>is a synonym of <hi rend="italic">Eudocimus ruber</hi>, the scarlet ibis (see <ref target="./DCP-LETT-6082.xml" resp="#automat">letter from G. R. Gray, 2 April 1868</ref> and n. 1). For more on plumage variations and size difference in the scarlet ibis, see Hancock <hi rend="italic">et al.</hi> 1992, pp. 147–9.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

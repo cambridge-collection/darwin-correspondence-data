@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11339F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Evans   29 January 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">21224</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11339F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11339F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11339F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Ashmolean Museum, Department of Antiquities (JE/B/1/17)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_530.xml">Ashmolean</repository>
+                    <collection>(JE/B/1/17)</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1878-01-29">29 Jan 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1553.xml">Evans, John (b)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Happy to subscribe to A. H. Everett’s expedition to the caves of Borneo.</p>
+        </abstract>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Jan. 29. 78</date>
+                    <salute>My dear M<hi rend="superscript">r</hi> Evans,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I think you are doing a very great service to Natural Science by getting the caves of Borneo explored. I shall be happy to subscribe £20, but I do not send a cheque as if more is necessary I shall be glad to give £30 or £40.<ref target="#foot.f1"/> I wish some one as energetic as yourself would organise an expedition to the triassic lacustrine beds in S: Africa, where the cliffs are said to be almost composed of bones.<ref target="#foot.f2"/></p>
+<p>Pray believe me yours very sincerely, | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD sent a cheque for £20 on 2 September 1878 (CD’s Classed account books (Down House MS)). On the expedition to explore caves in Borneo, see the <ref target="./DCP-LETT-11337.xml" resp="#mjhawkins">letter from John Evans, 28 January 1878</ref>.</note>
+            <note xml:id="foot.f2">The Triassic lacustrine deposits of South Africa were a rich source of reptilian fossils, intermediate forms important for the history of evolution (<ref target="../bibliographies/bibl_1974.xml" resp="#mjhawkins">A. Desmond 1982</ref>, pp. 195–9).  <ref target="../nameregs/nameregs_3629.xml" resp="#mjhawkins">Richard Owen</ref> had written of ‘the singular and suggestive concordance of dentition with that in carnivorous mammals’ (<ref target="../bibliographies/bibl_9662.xml" resp="#mjhawkins">R. Owen 1876</ref>, p. 29).</note>
+        </div>
+    
+    </body>
+    </text>
+</TEI>

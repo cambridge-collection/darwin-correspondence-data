@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6199">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. B. Tegetmeier   22 May [1868]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1388</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6199 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6199.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6199.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="endorsement" subtype="letter">1868</note>
+            <note type="physdesc" n="LS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 148: 53</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Archives of the New York Botanical Garden (Charles Finney Cox Collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_302.xml">NYBG</repository>
+                    <collection>Charles Finney Cox</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1868-05-22">22 May [1868]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4682.xml">Tegetmeier, W. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Inquires about plumage of poultry breeds.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">poultry</term>
+                <term type="scientific_terms" ref="#">constant varieties, races</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">physical ‘external’ characters</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>May 22</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>This is a P.S. to my last letter;<ref target="#foot.f1"/> but first let me ask whether by chance you can find out at the Field office the address of L. Lloyd who is in Norway as his publishers believe.<ref target="#foot.f2"/></p>
+<p>My P.S. is that I sh<hi rend="superscript">d</hi> much like to know what is the colour of the top-knot during the first plumage, of the Black Polish with white crest,—White Polish with black crest,—Silver Polish,—&amp; especially of Golden Spangled Polish.</p>
+<p>2<hi rend="superscript">ndly</hi> I think the first plumage of the Golden Pencilled Hamburg w<hi rend="superscript">d</hi> be especially interesting to me—<ref target="#foot.f3"/></p>
+<p>My dear Sir | yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="./DCP-LETT-6188.xml" resp="#mjhawkins">Letter to W. B. Tegetmeier, 20 May [1868]</ref>.</note>
+            <note xml:id="foot.f2">Tegetmeier was pigeon and poultry editor of the <hi rend="italic">Field.</hi> CD cited <ref target="../nameregs/nameregs_6196.xml" resp="#mjhawkins">Llewelyn Lloyd’s</ref> <hi rend="italic">Scandinavian adventures</hi> and <hi rend="italic">Game birds of Sweden</hi> (<ref target="../bibliographies/bibl_4844.xml" resp="#mjhawkins">Lloyd 1854</ref> and 1867) a number of times in <hi rend="italic">Descent.</hi> Lloyd’s publisher was <ref target="../nameregs/nameregs_6967.xml" resp="#mjhawkins">Frederick Warne</ref>.</note>
+            <note xml:id="foot.f3">The references are all to breeds of poultry.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

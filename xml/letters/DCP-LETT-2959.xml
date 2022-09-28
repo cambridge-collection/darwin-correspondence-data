@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2959">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Daniel Oliver   23 [October 1860]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">2821</idno>
+            
+            
+            
+            
+            <date when="1993">1993</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2959 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2959.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2959.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="08">8</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 261.10: 21 (EH 88206005)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>261.10: 21 (EH 88206005)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Eastbourne</placeName>
+                <date when="1860-10-23">23 [Oct 1860]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3589.xml">Oliver, Daniel</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Compliments DO on his wealth of information.</p>
+            <p>Henrietta’s relapse.</p> 
+<p>Thanks for extract on <hi rend="italic">Drosera</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin family</term>
+                <term type="it" ref="#">Drosera</term>
+                <term type="people" ref="#subject_1225">Darwin, H. E.</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>15 Marine Parade | Eastbourne</placeName>
+                    <date>23<hi rend="superscript">d</hi>.</date>
+                    <salute>My dear M<hi rend="superscript">r</hi> Oliver.</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>What wealth of knowledge you have!—   But I have hardly read the extract about Drosera;<ref target="#foot.f2"/> as we are in much distress, my poor eldest daughter has had a relapse.<ref target="#foot.f3"/> We cannot return on 26<hi rend="superscript">th</hi> to Down.— Excuse me at present | Yours very sincerely | C. Darwin</p> 
+                </div>
+            </div>
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the reference to <ref target="../nameregs/nameregs_1225.xml" resp="#mjhawkins">Henrietta Emma Darwin’s</ref> relapse (see n. 3, below).</note>
+            <note xml:id="foot.f2">See preceding letter.</note>
+            <note xml:id="foot.f3">From entries in <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary, it appears that <ref target="../nameregs/nameregs_1225.xml" resp="#mjhawkins">Henrietta Emma Darwin</ref> became ill with a stomach complaint late on Sunday night, 21 October 1860, and experienced intermittent attacks of vomiting for over a week.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

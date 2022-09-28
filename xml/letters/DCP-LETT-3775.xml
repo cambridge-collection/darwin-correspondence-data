@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3775">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From B. J. Sulivan   18 October [1862]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10811</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3775 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3775.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3775.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 177: 276</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>177: 279</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4614.xml">Sulivan, B. J.</persName>
+                <placeName>Board of Trade</placeName>
+                <date when="1862-10-18">18 Oct [1862]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Confirms arrangements for his trip to Down.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="places" ref="#">Down</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Board of Trade S.W.</hi></placeName>
+                    <date>Oct 18.</date>
+                    <salute>My dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>We will come on Tuesday D.V. by the 4.10 train from Victoria S<hi rend="superscript">t</hi>.<ref target="#foot.f2"/> I hope you are really well enough. I trust it will not be too much for you &amp; do not care about sending for us as we can take a cab if your carriage is not there.</p>
+<p>Yours very sincerely | B. J. Sulivan</p>
+<p>Wickham was to leave on Wednesday for Paris but has put it off till Thursday</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by reference to the visit to Down House on 21 October 1862, of Sulivan, <ref target="../nameregs/nameregs_5114.xml" resp="#mjhawkins">John Clements Wickham</ref>, and <ref target="../nameregs/nameregs_3290.xml" resp="#mjhawkins">Arthur Mellersh</ref> (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242)).</note>
+            <note xml:id="foot.f2">See letters from B. J. Sulivan, <ref target="./DCP-LETT-3741.xml" resp="#automat">27 September [1862]</ref>, <ref target="./DCP-LETT-3749.xml" resp="#automat">2 October [1862]</ref>, <ref target="./DCP-LETT-3759.xml" resp="#automat">13 October [1862]</ref>, and <ref target="./DCP-LETT-3763.xml" resp="#automat">14 October [1862]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

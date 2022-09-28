@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-979">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From George Grey<ref target="#foot.f1"/>   10 May 1846</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13336</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-979 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-979.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-979.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="C">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 144: 121c</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>144: 121c</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1984.xml">Grey, George</persName>
+                <placeName>Auckland</placeName>
+                <date when="1846-05-10">10 May 1846</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Returns letter from CD to J. L. Stokes [see <hi rend="doubleUnderline">940</hi> and <hi rend="doubleUnderline">1030</hi>].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="b" ref="#">1030</term>
+                <term type="b" ref="#">940</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Gov<hi rend="superscript">t</hi>. House. Auckland. New Zealand.</placeName>
+                    <date>May 10<hi rend="superscript">th</hi>. 1846.</date>
+                    <salute>My dear Sir.</salute>
+                </opener>
+                <div type="transcription">
+<p>The enclosed note which I believe bears your signature, having been mysteriously sent to me (by whom &amp; for what purpose remains unexplained) I have thought it proper to mention the circumstance to you and at the same time to return the note.<ref target="#foot.f2"/></p>
+<p>I ought perhaps to apologize for having read it, but it was so folded that my own name first caught my eye—and I concluded therefore that it had been sent to me with the intention that I should peruse it—<ref target="#foot.f3"/></p>
+<p>Believe me my dear Sir. | faithfully yours. | G. Grey. <lb resp="#mjhawkins"/> Charles Darwin Esq. | &amp;c. &amp;c. &amp;c.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Grey was <ref target="../nameregs/nameregs_1650.xml" resp="#mjhawkins">Robert FitzRoy’s</ref> successor as governor of New Zealand.</note>
+            <note xml:id="foot.f2">For the text of the enclosure, see CD’s <ref target="./DCP-LETT-940.xml" resp="#automat">letter to J. L. Stokes, [November–December 1845]</ref>. See also <ref target="./DCP-LETT-1017.xml" resp="#mjhawkins">letter to J. L. Stokes, 3 November 1846</ref>, and <ref target="./DCP-LETT-1019.xml" resp="#mjhawkins">letter from J. L. Stokes, 6 November 1846</ref>.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_4574.xml" resp="#mjhawkins">John Lort Stokes</ref> and CD decided that the note had become mixed in with the proof-sheets of <ref target="../bibliographies/bibl_7495.xml" resp="#mjhawkins">Stokes 1846</ref> and sent to the printers by mistake, from whence it was forwarded to Grey by someone unknown, see CD’s letter to J. L. Stokes, [<hi rend="italic">c.</hi> 26 November 1846]. See also letters to George Grey, <ref target="./DCP-LETT-1021.xml" resp="#mjhawkins">10 November 1846</ref>, and to <ref target="../nameregs/nameregs_1650.xml" resp="#mjhawkins">Robert FitzRoy</ref>, 23 November [1846]. CD refers to the incident again in <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 4, <ref target="./DCP-LETT-1135.xml" resp="#mjhawkins">letter to George Grey, 13 November 1847</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

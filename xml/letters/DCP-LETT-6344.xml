@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6344">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To G. H. K. Thwaites   2 September 1868</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">354</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6344 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6344.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6344.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 148: 86</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.354)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>354</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1868-09-02">2 Sept 1868</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4750.xml">Thwaites, G. H. K.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks GHKT and S. O. Glenie for information about fowls.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">fowls</term>
+                <term type="people" ref="#subject_1889">Glenie, S. O.</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Sep 2. 1868 </date>
+                    <salute>My dear Thwaites</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very much obliged to you for taking all my questions so very kindly &amp; pleasantly.<ref target="#foot.f1"/> You have indeed entered on the fowl question in real earnest &amp; I feel very thankful for the point interests me much &amp; may throw light on a very obscure problem.<ref target="#foot.f2"/></p>
+<p>I trust to you to be so good as to let me hear as soon as you have any information.</p>
+<p>Many thanks for M<hi rend="superscript">r</hi> Glenie’s excellent letter, to whom I have written by this post to return my thanks for his kindness.<ref target="#foot.f3"/></p>
+<p>With all good wishes believe me | my dear Thwaites | yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-6285.xml" resp="#mjhawkins">letter from G. H. K. Thwaites, 22 July 1868</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-6285.xml" resp="#mjhawkins">letter from G. H. K. Thwaites, 22 July 1868</ref> and n. 3.</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-6285.xml" resp="#mjhawkins">letter from G. H. K. Thwaites, 22 July 1868</ref> and enclosure. CD’s letter of 2 September 1868 to <ref target="../nameregs/nameregs_1889.xml" resp="#mjhawkins">Samuel Owen Glenie</ref> has not been found, but see the <ref target="./DCP-LETT-6482.xml" resp="#mjhawkins">letter from S. O. Glenie, 27 November 1868</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

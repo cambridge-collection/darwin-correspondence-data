@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6003">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To G. G. Stokes   11 March [1868]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3703</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6003 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6003.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6003.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">CUL (Add MS 7656: D75)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <idno>Add 7656 D: 75</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Chester Place, 4</placeName>
+                <date when="1868-03-11">11 Mar [1868]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4573.xml">Stokes, G. G.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends GGS examples of feathers from an albino peacock and repeats his query about the zones of colour [see <hi rend="doubleUnderline">5950</hi>].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">peacock, albino</term>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">physical ‘external’ characters</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>4 Chester Place | Regents Park | N.W.</placeName>
+                    <date>March 11<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>After writing to you I suddenly remembered that there were albino Peacocks, of which I enclose the two best, but very poor, feathers which I could get.<ref target="#foot.f2"/> On one of these I can see no eye; on the other, when held obliquely, a trace of the eye. These feathers, I suppose, show how true your view is that the colours are due to a thin coloured film.—<ref target="#foot.f3"/> I thought that you possibly would like to see these feathers &amp; that it w<hi rend="superscript">d</hi>. give you no trouble to receive them &amp; throw them away.</p>
+<p>If you can at any time tell me whether the successive zones of colour require films of different colours, or may be caused by a change of thickness or some other change in a uniformly coloured film, I sh<hi rend="superscript">d</hi> be grateful. During next 3 weeks my address will as above;<ref target="#foot.f4"/> afterwards at my home, “Down Bromley Kent”.—</p>
+<p>Pray excuse me troubling you &amp; believe me | Yours very truly obliged | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">2.2 different] <hi rend="italic">after del</hi> ‘a’ </note>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-5943.xml" resp="#mjhawkins">letter from G. G. Stokes, 27 February 1868</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-5950.xml" resp="#mjhawkins">letter to G. G. Stokes, 28 February [1868]</ref>.</note>
+            <note xml:id="foot.f3">For Stokes’s explanation of the colour in a peacock’s tail, see the <ref target="./DCP-LETT-5943.xml" resp="#mjhawkins">letter from G. G. Stokes, 27 February 1868</ref>.</note>
+            <note xml:id="foot.f4">CD stayed at Sarah Elizabeth Wedgwood’s house from 11 March until 1 April 1868 (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242)).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

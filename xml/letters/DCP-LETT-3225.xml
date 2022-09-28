@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3225">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Lubbock   [2 August 1861]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8445</idno>
+            
+            
+            
+            
+            <date when="1994">1994</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3225 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3225.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3225.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="09">9</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 263: 50 (EH 88206494)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>263: 50 (EH 88206494)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Torquay</placeName>
+                <date when="1861-08-02">[2 Aug 1861]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3026.xml">Lubbock, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks JL’s advice about details of William’s proposed banking partnership. CD’s solicitor is suspicious of Atherley’s long-term intentions.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_177">Atherley, George</term>
+                <term type="people" ref="#">Darwin, C. R.’s solicitor</term>
+                <term type="people" ref="#subject_1245">Darwin, W. E.</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="societal" ref="#">banking partnership</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Torquay]</placeName>
+                    <date>Friday</date>
+                    <seg type="supplemental">P.S.</seg>
+                    <salute>My dear Lubbock</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>This is a P.S. to my letter posted a few hours ago.</p>
+<p>M<hi rend="superscript">r</hi> Hacon seems to think that M<hi rend="superscript">r</hi> Atherley wishes for William for only some 10 or 12 years until his son is grown up, &amp; then that William is to be turned off without permission to join any Bank in Hampshire.— Now the question is, if you will be so very kind as to advise M<hi rend="superscript">r</hi> Hacon, whether, (as it seems to me) this is being too suspicious, or whether anything can be done reasonably to save William from this which no doubt would be as bad an ending to his life as could well be.— If he had power of joining any other Bank in Southampton <hi rend="underline">if dismissed by M</hi><hi rend="superscript">r</hi><hi rend="underline"> A.</hi> there would be some very slight check to his being dismissed without grounds.</p>
+<p>But I do not know whether it is usual or wise to look so far ahead. It seems to me there must be risk; both sides must be free after a certain period.— If we <hi rend="underline">knew</hi> that M<hi rend="superscript">r</hi> A. intended to keep William as a partner only till his son grew up, it would not be worth joining.</p>
+<p>Oh good Heavens how much more difficult Business is than Natural History!</p>
+<p>Ever yours | C. Darwin</p>
+<p>Pray, I beg you, not trouble yourself to write to me, I shall hear from M<hi rend="superscript">r</hi> Hacon what you say, &amp; that is enough &amp; far more than enough trouble for you.—<ref target="#foot.f2"/></p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.7 in Southampton] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">6.2 say,] <hi rend="italic">interl</hi></note>
+                </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the relationship to the <ref target="./DCP-LETT-3224.xml" resp="#mjhawkins">letter to John Lubbock, 1 [and 2] August [1861]</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-3228.xml" resp="#mjhawkins">letter to John Lubbock, 9 August [1861]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

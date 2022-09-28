@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1103">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Henry Denny   21 July [1847]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16709</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1103 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1103.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1103.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="C">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 143: 383</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>143: 383</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1847-07-21">21 July [1847]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1292.xml">Denny, Henry</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Regrets not seeing HD at Oxford meeting [of BAAS].</p> 
+<p>He may keep duplicates of parasitic insects from CD’s collection. Lyell has collected <hi rend="italic">Pediculi</hi> for HD from Negroes in North America.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">insect</term>
+                <term type="places" ref="#">Oxford</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">parasites</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">meeting</term>
+                <term type="societal" ref="#">BAAS</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down. Farnborough. Kent</placeName>
+                    <date>July 21<hi rend="superscript">st</hi>.</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I much regret that we had not the pleasure of seeing each other at Oxford. I did not happen to hear that you were there otherwise I would have exerted myself to have found you out; but I did not attend the sections regularly &amp; the state of my health at all times compels me to live a very quiet life. There were others at Oxford whom to my regret, I missed seeing besides yourself—</p>
+<p>Pray by all means keep any duplicates of my parasitic insects for your own collection. Where there are not duplicates in my own collection; if you positively know that the B. Museum has the same species, pray keep my specimens— I consider that I did not promise duplicates to the Museum.<ref target="#foot.f1"/></p>
+<p>M<hi rend="superscript">r</hi>. Lyell procured at my request for you some pediculi, from the Negros in N America;<ref target="#foot.f2"/> perhaps they have already been forwarded to you but in the Autumn when M<hi rend="superscript">r</hi> Lyell returns, I will make enquiries.<ref target="#foot.f3"/></p>
+<p>Pray believe me, | dear Sir. | Yours very faithfully. | C. Darwin. <lb resp="#mjhawkins"/> To. A. Denny<ref target="#foot.f4"/> Esq<hi rend="superscript">re</hi>.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Six of CD’s lice specimens are in the <ref target="../nameregs/nameregs_8646.xml" resp="#mjhawkins">British Museum</ref> (<ref target="../bibliographies/bibl_7295.xml" resp="#mjhawkins">K. G. V. Smith 1987</ref>, p. 71).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_3051.xml" resp="#mjhawkins">Charles Lyell</ref> visited the United States for a second time from September 1845 until June 1846 (K. M. Lyell ed. 1881, 2: 83). CD had asked Lyell to collect the lice specimens for Denny in October 1845 (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 3, <ref target="./DCP-LETT-919.xml" resp="#mjhawkins">letter to Charles Lyell, 8 October [1845]</ref>).</note>
+            <note xml:id="foot.f3">Lyell was staying at the family seat, Kinnordy House, Scotland, during July and August.</note>
+            <note xml:id="foot.f4">The copyist misread CD’s handwriting: ‘A.’ is a mistake for ‘H.’</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

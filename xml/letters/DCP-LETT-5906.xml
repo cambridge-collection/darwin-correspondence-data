@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5906">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. B. Tegetmeier   21 February [1868]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1383</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5906 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5906.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5906.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 148: 49</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Archives of the New York Botanical Garden (Charles Finney Cox Collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_302.xml">NYBG</repository>
+                    <collection>Charles Finney Cox</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1868-02-21">21 Feb [1868]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4682.xml">Tegetmeier, W. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks WBT for tabulation of sex ratios in racehorses.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">racehorses</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+                <term type="scientific_terms" ref="#">sex</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Feb 21.</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have received &amp; thank you most sincerely for the Horse returns: they are very interesting to me, &amp; practically show the proportion of sexes nearly equal.<ref target="#foot.f2"/> I am in no hurry, so do the work whenever you have leisure &amp; inclination.— I sh<hi rend="superscript">d</hi> be very glad if you will undertake cattle as well as Horses &amp; Dogs.—<ref target="#foot.f3"/> I presume that no materials exist for Sheep.—<ref target="#foot.f4"/></p>
+<p>I suppose you are too busy a man to try whether a magenta-coloured pigeon would please or disgust his associates.<ref target="#foot.f5"/></p>
+<p>Yours very sincerely | Ch. Darwin</p>
+<p>I will almost certainly publish your results, so that your labour under a public point of view will not be thrown away.</p>
+<p>I returned this morning the Coursing Calendar to Field office—<ref target="#foot.f6"/></p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.5 Sheep.—] <hi rend="italic">below del</hi> ‘Pigs.’ </note>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-5879.xml" resp="#mjhawkins">letter to W. B. Tegetmeier, 15 February [1868]</ref>.</note>
+            <note xml:id="foot.f2">Tegetmeier had agreed to collect information on the proportion of the sexes in thoroughbred horses using the record of births in the <hi rend="italic">Racing Calendar</hi> (see <ref target="./DCP-LETT-5878.xml" resp="#mjhawkins">letter from W. B. Tegetmeier, [before 15 February 1868]</ref> and n. 5). Tegetmeier’s memorandum on horses has not been found; see, however, the <ref target="./DCP-LETT-5882.xml" resp="#mjhawkins">letter from W. B. Tegetmeier, [16–20 February 1868]</ref> and n. 2.</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-5879.xml" resp="#mjhawkins">letter to W. B. Tegetmeier, 15 February [1868]</ref>.</note>
+            <note xml:id="foot.f4">CD acknowledged various sources of information on sex ratios in sheep in <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> 1: 305 n. 41.</note>
+            <note xml:id="foot.f5">CD had first asked Tegetmeier to perform this experiment in March 1867 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 15, <ref target="./DCP-LETT-5475.xml" resp="#mjhawkins">letter to W. B. Tegetmeier, 30 March [1867]</ref> and n. 6). CD reported the results in <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> 2: 118.</note>
+            <note xml:id="foot.f6">See <ref target="./DCP-LETT-5882.xml" resp="#mjhawkins">letter from W. B. Tegetmeier, [16–20 February 1868]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

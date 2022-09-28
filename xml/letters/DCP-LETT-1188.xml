@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1188">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Edward Cresy   [5 or 12 July 1848]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13215</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1188 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1188.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1188.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="C">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 143: 306</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>143: 306</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                
+            <date xml:id="date1" when="1848-07-05" exclude="#date2">5 July 1848</date>
+            <date xml:id="date2" when="1848-07-12" exclude="#date1">12 July 1848</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1113.xml">Cresy, Edward, Jr</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Has written to William Buckland, recommending EC for position.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_707">Buckland, William</term>
+                <term type="people" ref="#">Cresy, Edward</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down, Farnborough, Kent</placeName>
+                    <date>Wednesday Even.</date>
+                        <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>You could hardly have applied to a worse person than myself to speak to D<hi rend="superscript">r</hi>. Buckland,<ref target="#foot.f2"/> for I have a strong prejudice against him and I have no doubt he returns it with compound interest. But I have thought that he would at least believe my word and have accordingly just written him a long letter, telling him what you say and adding a good deal more from my personal knowledge of you and excellent opinion of your abilities. I have written very cautiously on my own part, so that I feel sure my recommendation can do you no harm, and I should be much pleased if it did you any good. I have told him that I have ventured to recommend you to call on him, and I think you had certainly better do so, whether he may or not choose to see you.— Under a coarse joking manner in my opinion he hides a <hi rend="underline">worldly vain</hi> disposition; but he is decidedly very good-natured.—<ref target="#foot.f3"/> I can only again say that I heartily hope that you may be successful. I assure you I have expressed strongly my opinion of your high merits.</p>
+<p>Believe me | Yours very sincerely | C. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The two Wednesdays preceding the <ref target="./DCP-LETT-1190.xml" resp="#mjhawkins" cert="high">letter from William Buckland, 15 July 1848</ref>.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_707.xml" resp="#mjhawkins">William Buckland</ref> was a member of the newly established Metropolitan Commission of Sewers, which was given responsibility for planning and constructing public works for the whole of the London area outside the City. Cresy was seeking a position as assistant surveyor.</note>
+            <note xml:id="foot.f3">Buckland’s sense of humour was considered coarse and his animated style of lecturing was called ‘undignified buffoonery’ by CD and other ‘earnest Victorians’ (<ref target="../bibliographies/bibl_6788.xml" resp="#mjhawkins">Rupke 1983</ref>, p. 7). See also <ref target="./DCP-LETT-1186.xml" resp="#mjhawkins">letter to Charles Lyell, [16 June 1848]</ref>. For detailed accounts of some of the meetings of the Metropolitan Commission of Sewers, see the London newspaper the <hi rend="italic">Globe</hi>, 9 June and 15 July 1848.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

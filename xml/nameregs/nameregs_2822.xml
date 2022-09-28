@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-2822" status="released">
+    <persName>
+        <forename>Anne</forename>
+        <choice>
+            <seg><surname notBefore="1800" notAfter="1832">Latham</surname></seg>
+            <seg><surname notBefore="1832" notAfter="1869">Briggs</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>b. <hi rend="italic">c</hi>. 1801, d. 1869</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Servant. Laundry maid at The Mount, Shrewsbury. Married Mark Briggs, the coachman, in 1832.</p></note> 
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_9153.xml" resp="#mjhawkins"><hi rend="italic">BMD</hi></ref> (<hi rend="italic">Death index</hi>)</p>
+        <p>Census returns of England and Wales 1861 (The National Archives: Public Record Office RG 9/1874/14/ 26)</p>
+        <p><hi rend="italic">England, select marriages, 1538–1973</hi> (Ancestry.com, accessed 9 August 2016)</p>
+    </note>
+    <note type="volume">1</note>
+    <note type="keywords">
+        <term type="name">Briggs, Mark</term>
+        <term type="place">Shrewsbury</term>
+        <term type="d">Laundry maid</term>
+    </note>
+</person>

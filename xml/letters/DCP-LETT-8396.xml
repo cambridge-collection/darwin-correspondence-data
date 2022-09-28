@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8396">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. E. Darwin   22 [March 1868]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3812</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8396 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8396.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8396.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Natural History Museum, Library and Archives (General Special Collections MSS DAR A23)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_288.xml">NHM</repository>
+                    <collection>General Special Collections</collection>
+                    <idno>MSS DAR A23</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>unstated</placeName>
+                <date when="1868-03-22">22 [Mar 1868]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1245.xml">Darwin, W. E.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks WED to observe a suppressed yawn.</p>
+            <p>Asks whether scratching a tickling point makes tears come to his eyes.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">expression, emotion</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <date>22<hi rend="superscript">d</hi></date>
+                    <salute>My dear W.</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Thanks about Langstaff.<ref target="#foot.f2"/> As you are one of the few persons who can remember to observe expression, I shall often bother you with queries.—</p>
+<p>Remember to observe a <hi rend="underline">suppressed</hi> yawn, to see whether depressor angulioris, cannot be so well prevented acting as the other muscles.— This was your observation &amp; if confirmed. w<hi rend="superscript">d</hi> be of value.—<ref target="#foot.f3"/></p>
+<p>The Boss<ref target="#foot.f4"/> says that when you scratch a tickling point, you close your eyelids violently (&amp; so do I)— do tears come at all into your eyes?<ref target="#foot.f5"/></p>
+<p>Your affect. F. | C. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">2.1 cannot 2.2] <hi rend="italic">after del</hi> ‘acts so’</note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter, the note dated 14 March 1868 in DAR 160: 97 (see n. 3, below), and the <ref target="./DCP-LETT-6103.xml" resp="#mjhawkins">letter to W. E. Darwin, 8 April [1868]</ref>.</note>
+            <note xml:id="foot.f2">William communicated information from <ref target="../nameregs/nameregs_2806.xml" resp="#mjhawkins">Charles Langstaff</ref> on the movements of the facial muscles during weeping. See <ref target="./DCP-LETT-5981.xml" resp="#mjhawkins">letter from W. E. Darwin, 5 March [1868]</ref>.</note>
+            <note xml:id="foot.f3">In a note dated 14 March 1868 (DAR 160: 97), CD recorded William’s observations of a woman checking a yawn at a concert, including the movement of the <hi rend="italic">depressor anguli oris</hi> muscle.</note>
+            <note xml:id="foot.f4">Possibly <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin</ref> or <ref target="../nameregs/nameregs_1225.xml" resp="#mjhawkins">Henrietta Emma Darwin</ref>.</note>
+            <note xml:id="foot.f5">CD remarked that tears were secreted whenever the eyelids were strongly contracted, regardless of whether any emotion was experienced (<ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref>, p. 163).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

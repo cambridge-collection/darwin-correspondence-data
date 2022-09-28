@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6984">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Hermann Müller   12 November 1869</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">18081</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6984 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6984.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6984.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp damaged</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 295</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 295</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3069.xml">Müller, H. L. H.</persName>
+                <placeName>Lippstadt</placeName>
+                <date when="1869-11-12">12 Nov 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Would like Frederick Smith of the British Museum to determine whether or not some unidentified Westphalian bees are new species.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">bees</term>
+                <term type="people" ref="#subject_4408">Smith, Frederick (a)</term>
+                <term type="places" ref="#">Westphalia</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">identification</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="societal" ref="#">British Museum</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Lippstadt. Westfalia</placeName>
+                    <date>Nov. 12. 1869.</date>
+                    <salute>My dear Sir!</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have bestowed the last two summers upon observing the insects frequenting and fertilising our flowers. The bees being of eminent importance for the fertilisation of flowers, I have employed my principal attention in observing, collecting, and determinating them, but although I have extricated positively by far the greatest part of Westfalian species, many forms are still left which I cannot find in conformity with any description in my works on bees. Therefore it is my lively desire to hear the opinion of your highest authority, Mr. Frederick Smith, of the British Museum, o〈n〉 my yet ind〈etermi〉ned species.</p>
+<p>Without the judgement of such an authority I should run the risk to publish some species as new ones, which are already described in any work unknown to me.</p>
+<p>The domicil of Mr. Fr. Smith being unknown to me, I beg you, to deliver up to him the enclosed letter and to recommand my purpose.<ref target="#foot.f1"/></p>
+<p>I am ready to send to Mr. Smith a collection of the Westfalian species of bees as complete as I have collected them, if such a collection would be of any value for the British Museum.<ref target="#foot.f2"/></p>
+<p>I hope that you will be so kind and to oblige me on this head.</p>
+<p>With sincere respect I remain my dear Sir | yours very faithfully | H Müller.</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The enclosure has not been found. Frederick Smith was an entomologist in the zoology department of the <ref target="../nameregs/nameregs_8646.xml" resp="#mjhawkins">British Museum</ref>.</note>
+            <note xml:id="foot.f2">Smith agreed to review Müller’s bee collection; see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 18, <ref target="./DCP-LETT-7130.xml" resp="#mjhawkins">letter from Hermann Müller, 8 March 1870</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

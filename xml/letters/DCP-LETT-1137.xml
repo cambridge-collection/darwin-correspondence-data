@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1137">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Abraham Clapham<ref target="#foot.f1"/>   [29 October 1847?]<ref target="#foot.f2"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">47</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1137 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1137.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1137.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.47)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>47</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Shrewsbury</placeName>
+                <date when="1847-10-29">[29 Oct 1847?]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_932.xml">Clapham, Abraham</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Accepts AC’s offer to conduct hybridisation experiments, and offers suggestions.</p> 
+<p>Sends book [<hi rend="italic">Journal of researches</hi>, 2d ed. (1845)].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Journal of researches</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">hybrids</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Shrewsbury</placeName>
+                    <date>Friday</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Your letter has been forwarded to me here, where I am staying for a week to see my Father.— I am in truth really obliged to you for your kind offer of experimentising on hybrids in the ensuing year.</p>
+<p>I hope you will record all facts, such as the number of plants you experimentise on, their names &amp;c &amp;c.— Of course when I publish, your experiments will be given with your name.— Negative facts (ie failures) are as important to know as successes.—</p>
+<p>I have this day written to my Publisher to send you a copy of my Journal<ref target="#foot.f3"/> by the first opportunity. It gives me real pleasure to show you this very small mark of my thankfulness</p>
+<p>Pray believe me | In Haste | Yours faithfully | C. Darwin</p>
+<p>The copy I send is the second Edition, &amp; is I hope somewhat improved, from the 1<hi rend="superscript">st</hi>. that was published.</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">4.1 In Haste] <hi rend="italic">added</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The correspondent is probably <ref target="../nameregs/nameregs_932.xml" resp="#mjhawkins">Abraham Clapham</ref> (see <ref target="./DCP-LETT-1278.xml" resp="#mjhawkins">letter to Abraham Clapham, 10 December [1849]</ref>, and <ref target="./DCP-LETT-1309.xml" resp="#mjhawkins">letter from Abraham Clapham, 8 March 1850</ref>, also concerned with hybridisation). CD cited information from ‘A. Clapham, nurseryman, of Bradford’ in <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 377.</note>
+            <note xml:id="foot.f2">The conjectured date is based on CD’s visit to Shrewsbury from 22 October to 5 November (‘Journal’; <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 4, Appendix I).</note>
+            <note xml:id="foot.f3"><ref target="../bibliographies/bibl_4252.xml" resp="#mjhawkins"><hi rend="italic">Journal of researches</hi> 2d ed.</ref></note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

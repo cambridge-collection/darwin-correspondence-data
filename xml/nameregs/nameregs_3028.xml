@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-3028" status="released">
+    <persName>
+        <forename>Frances</forename>
+        <forename type="preferred" resp="#mjhawkins">Mary</forename>
+        <choice>
+            <seg><surname notBefore="1845" notAfter="1866">Turton</surname></seg>
+            <seg><surname notBefore="1866" notAfter="1922">Lubbock</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1845–1922</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of the Reverend Henry Turton and Amelia St George. Married Henry James Lubbock in 1866.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_1096.xml" resp="#mjhawkins"><hi rend="italic">Burke’s peerage</hi></ref> 1929 s.v. Avebury, <ref target="../bibliographies/bibl_4082.xml" resp="#mjhawkins"><hi rend="italic">IGI</hi></ref> s.v. Turton, Frances Mary.</p>
+    </note>
+    <note type="volume">17,20</note> 
+</person>

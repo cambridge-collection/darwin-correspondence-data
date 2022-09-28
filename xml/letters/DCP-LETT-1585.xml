@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1585">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Lubbock   [September 1854]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8485</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1585 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1585.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1585.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">LL</hi> 2: 141</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 5: 211</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 263: 8 (EH 88206457)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>263: 8 (EH 88206457)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1854-09-01" notAfter="1854-09-30">[Sept 1854]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3026.xml">Lubbock, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends beetle he cannot identify.</p> 
+<p>Reading J. O. Westwood [<hi rend="italic">Introduction to the modern classification of insects</hi> (1839–40)] has reawakened his passion for entomology.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">beetle</term>
+                <term type="it" ref="#">Introduction to the modern classification of insects</term>
+                <term type="rx" ref="#">Westwood, J. O. 1839–1840</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">identification</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">systematics</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Down]</placeName>
+                    <date>Thursday</date>
+                    <salute>Dear Lubbock</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I do not know whether you care about Beetles, but for the chance I send this in a Bottle, which, I never remember having seen, though it is excessively rash to speak from a 26 year old remembrance. Whenever we meet you can tell me whether you know it.—</p>
+<p>I have been so much interested by Westwood, that I have ordered a copy.<ref target="#foot.f2"/> I feel like an old war-horse at the sound of the trumpet, when I read about the capturing of rare beetles— is not this a magnanimous simile for a decayed entomologist. It really almost makes me long to begin collecting again.</p>
+<p>Adios.— “Floreat Entomologia”, to which toast at Cambridge, I have drunk many a glass of wine,<ref target="#foot.f3"/> so again “Floreat Entomologia”. N.B. I have <hi rend="underline">not</hi> now been drinking any glasses full of wine.</p>
+<p>Your’s | C. D.—</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.3 26] ‘6’ <hi rend="italic">over</hi> ‘5’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated on the basis of CD’s reference to <ref target="../bibliographies/bibl_8305.xml" resp="#mjhawkins">Westwood 1839–40</ref> (see n. 2, below).</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_8305.xml" resp="#mjhawkins">Westwood 1839–40</ref>. CD’s annotated copy is in the Darwin Library–CUL. He recorded having read it on 25 September 1854 (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 4, Appendix IV, 128: 10).</note>
+            <note xml:id="foot.f3">See CD’s correspondence with his cousin <ref target="../nameregs/nameregs_1730.xml" resp="#mjhawkins">William Darwin Fox</ref> during their time as undergraduates in Cambridge (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 1).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

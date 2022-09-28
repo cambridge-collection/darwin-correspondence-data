@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1396">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. D. Fox   [27 March 1851]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7078A</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1396 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1396.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1396.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 144: 217</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Christ’s College Library, Cambridge (MS 53 Fox 78a)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_83.xml">CCLC</repository>
+                    <collection>MS 53</collection>
+                    <idno>Fox 78a</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Malvern</placeName>
+                <date when="1851-03-27">[27 Mar 1851]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1730.xml">Fox, W. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends condolences to WDF on the death of his father. Has brought his daughter [Anne] to J. M. Gully for the water-cure.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin family</term>
+                <term type="people" ref="#subject_1727">Fox, Samuel</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Malvern<ref target="#foot.f1"/></placeName>
+                    <date>Thursday</date>
+                    <salute>My dear Fox</salute>
+                </opener>
+                <div type="transcription">
+<p>In passing through London two days ago<ref target="#foot.f2"/> I heard from Erasmus<ref target="#foot.f3"/> with sorrow of your Father’s death.<ref target="#foot.f4"/> A few weeks since I had been much interested in hearing from Susan<ref target="#foot.f5"/> an account of your Fathers equable &amp; apparently happy state, &amp; of the surprising manner in which he retained his faculties &amp; interests. In a note from Susan she expresses how very glad she now is at her last visit.— I grieve to hear that your health prevents you attending the Funeral: this was my case,<ref target="#foot.f6"/> &amp; though it is only a ceremony I felt deeply grieved at this deprivation &amp; you no doubt will feel this more.<ref target="#foot.f7"/> You have my sincere sympathy &amp; very sorry indeed I am to hear that your health is not so good, even as formerly.</p>
+<p><hi rend="doubleUnderline">Hereafter</hi>, when <hi rend="underline">at leisure</hi>, do let me have a line from you, my dear old Friend. I often think of our happy days at Cambridge; almost if not quite, the happiest part of my life &amp; much associated in my memory with you.—<ref target="#foot.f8"/> Long continued ill-health has much changed me, &amp; I very often think with pain how cold &amp; different I must appear to my few old friends to what I was formerly; but I internally know that the inner part of my mind remains the same with my old affections.</p>
+<p>Believe me, my dear Fox, I am &amp; shall ever be your affectionate friend | Charles Darwin</p>
+<p>I have brought my eldest girl here &amp; intend to leave her for a month under D<hi rend="superscript">r</hi>. Gully;<ref target="#foot.f9"/> she inherits I fear with grief, my wretched digestion. I return in a day or two home.—</p>
+<p>When next you write to any of your Family pray express my sincere sympathy for M<hi rend="superscript">rs</hi>. Fox<ref target="#foot.f10"/> &amp; all your sisters.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD’s Journal (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 5, Appendix I) records that he left Down for Malvern on 24 March 1851.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-1075.xml" resp="#mjhawkins">letter to John Wickham Flower, 23 March [1851]</ref>, n. 3.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_1211.xml" resp="#mjhawkins">Erasmus Alvey Darwin</ref>, CD’s brother. CD usually visited Erasmus when passing through London or attending meetings there.</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_1727.xml" resp="#mjhawkins">Samuel Fox</ref> died 20 March 1851 at Rendalls, Hertfordshire (<ref target="../bibliographies/bibl_1822.xml" resp="#mjhawkins"><hi rend="italic">Darwin pedigree</hi></ref>).</note>
+            <note xml:id="foot.f5"><ref target="../nameregs/nameregs_1239.xml" resp="#mjhawkins">Susan Elizabeth Darwin</ref>, CD’s sister, still residing at The Mount, Shrewsbury, was a close friend of Fox’s sister.</note>
+            <note xml:id="foot.f6">For CD’s inability to attend his father’s funeral, see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 4, <ref target="./DCP-LETT-1207.xml" resp="#mjhawkins">letter from Catherine Darwin, [13 November 1848]</ref>, n. 1.</note>
+            <note xml:id="foot.f7">Fox was a clergyman in the Church of England.</note>
+            <note xml:id="foot.f8">See <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 1 for CD and Fox’s friendship at Cambridge.</note>
+            <note xml:id="foot.f9">CD had first been treated by <ref target="../nameregs/nameregs_2020.xml" resp="#mjhawkins">James Manby Gully</ref> at his hydropathic establishment in Malvern in 1849. <ref target="../nameregs/nameregs_1203.xml">Anne Elizabeth Darwin</ref>, whose health had been failing since the summer of 1850 (<ref target="../bibliographies/bibl_2338.xml"><hi rend="italic">Emma Darwin</hi> (1915)</ref> 2: 132), was to be left in Malvern under the care of her nurse, <ref target="../nameregs/nameregs_647.xml">Jessie Brodie</ref>, and governess, <ref target="../nameregs/nameregs_4740.xml">Catharine Ann Thorley</ref>, and with <ref target="../nameregs/nameregs_1225.xml">Henrietta Emma Darwin</ref> as a playmate. According to <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary, Miss Thorley left for Malvern on 28 March. CD arrived back in London on Friday, 28 March, and did not return to Down until 31 March (<ref target="../bibliographies/bibl_2338.xml"><hi rend="italic">Emma Darwin</hi> (1915)</ref> 2: 130 and ‘Journal’; <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 5, Appendix I).</note>
+            <note xml:id="foot.f10"><ref target="../nameregs/nameregs_1705.xml" resp="#mjhawkins">Ann Fox</ref>, widow of <ref target="../nameregs/nameregs_1727.xml" resp="#mjhawkins">Samuel Fox</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

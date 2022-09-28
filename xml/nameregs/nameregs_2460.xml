@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-2460" status="released">
+    <persName>
+        <forename>Jane</forename>
+        <forename>Anne</forename>
+        <forename>Eliza</forename>
+        <choice>
+            <seg>
+                <surname notBefore="1835" notAfter="1862">Hunter-Blair</surname>
+            </seg>
+            <seg><surname notBefore="1862" notAfter="1915">Sclater</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1835–1915</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of Sir David Hunter-Blair, 3d baronet, and his wife Elizabeth Hay. Married Philip Lutley Sclater in 1862.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref> s.v. Sclater, Philip Lutley</p>
+        <p><hi rend="italic">Scotland, select births and baptisms, 1564–1950</hi> (Ancestry.co.uk, accessed 14 August 2018)</p>
+    </note>
+    <note type="volume">10</note>
+    <note type="keywords">
+        <term type="name">Sclater, P. L.</term>
+    </note>
+    
+</person>

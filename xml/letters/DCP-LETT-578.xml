@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-578">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Phillips<ref target="#foot.f1"/>   [November 1840]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">22</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-578 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-578.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-578.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p inc</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.22)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>22</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Maer</placeName>
+                <date notBefore="1840-11-01" notAfter="1840-11-30">[Nov 1840]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3773.xml">Phillips, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends his paper on earthquakes [(1840), <hi rend="italic">Collected papers</hi> 1: 53–86]. Now sets less value on theoretical reasoning in geology than when he wrote it.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Collected papers</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">negative attitude/assessment</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+                <term type="scientific_terms" ref="#">volcanoes and earthquakes</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+<p>I enclose you a copy of my paper on Earthquakes.—<ref target="#foot.f2"/> I have grown older, since I wrote it, &amp; therefore, I hope, a little wiser, &amp; as a consequence set less value on theoretical reasoning in geology—but I even yet think there is some weight in the argument, respecting the necessary slow elevation of mountain chains, which have protuberant axes of Plutonic rock.— Should you read my paper, &amp; have at any future time, (although I well know how much your time must be occupied) leisure to tell me what you think of it, I should feel <hi rend="underline">very great </hi> interest in hearing from you—</p>
+<p>Believe me my dear Sir | Your’s most truly | Chas. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.5 axes] ‘e’ <hi rend="italic">over</hi> ‘i’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The letter is addressed to ‘Prof. Phillips | St Mary’s Lodge | York’.</note>
+            <note xml:id="foot.f2">‘On the connexion of certain volcanic phenomena’, <ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers </hi></ref> 1: 53–86. The paper (read 7 March 1838) describes ‘the intimate connexion between the volcanic and elevatory forces’ and from that went on to ‘deduce … certain inferences regarding the slow formation of mountain chains’ (<hi rend="italic">ibid.</hi> p. 54).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

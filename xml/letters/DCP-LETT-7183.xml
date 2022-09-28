@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7183">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To H. H. Vivian   11 May [1870]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">2744</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7183 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7183.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7183.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Invercargill City Libraries and Archives (Alex Robertson Collection, vol. 12: A0444 S12450012)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_200.xml">Invercargill PL</repository>
+                    <collection>Alex Robertson vol. 12</collection>
+                    <idno>A0444 S12450012</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1870-05-11">11 May [1870]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4901.xml">Vivian, H. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks for HHV’s interest in the census [CD’s plan to add questions on consanguineous marriage to the census] on which CD hopes to persuade Sir J. Lubbock to speak.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_3026">Lubbock, John</term>
+                <term type="scientific_terms" ref="#">breeding behaviour</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+                <term type="scientific_terms" ref="#">social behaviour</term>
+                <term type="social" ref="#">consanguineous marriage</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">census</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Beckenham</placeName>
+                    <date>May 11—</date>
+                    <salute>Dear M<hi rend="superscript">r</hi> Vivian</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I feel greatly obliged to you for the kind interest which you have shewn on the subject of the census, which interests me greatly. I have no doubt that your personal communication with Mr Bruce will have far more influence than any memorial or any thing that I c<hi rend="superscript">d</hi> do.<ref target="#foot.f2"/></p>
+<p>With my sincere thanks I beg leave to remain | yours faithfully | Charles Darwin</p>
+<p>P.S. I will endeavour to persuade Sir J. Lubbock<ref target="#foot.f3"/> to speak on the subject.</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-7182.xml" resp="#mjhawkins">letter from H. H. Vivian, 10 May 1870</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-7182.xml" resp="#mjhawkins">letter from H. H. Vivian, 10 May 1870</ref> and n. 1. CD refers to <ref target="../nameregs/nameregs_683.xml" resp="#mjhawkins">Henry Austin Bruce</ref>.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_3026.xml" resp="#mjhawkins">John Lubbock</ref> was elected MP for Maidstone in February 1870 (see <ref target="./DCP-LETT-7117.xml" resp="#mjhawkins">letter to John Lubbock, 26 February [1870]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

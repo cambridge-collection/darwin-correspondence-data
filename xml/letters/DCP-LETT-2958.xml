@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2958">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Robert Patterson   21 October [1860]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">12207</idno>
+            
+            
+            
+            
+            <date when="1993">1993</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2958 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2958.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2958.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="08">8</biblScope>
+        </seriesStmt>
+        
+        <sourceDesc>
+            <bibl type="provenance">Praeger 1935, p. 715</bibl>
+            <bibl type="printedSource">Praeger, W. E. 1935: 715</bibl>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Eastbourne Down letterhead</placeName>
+                <date when="1860-10-21">21 Oct [1860]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3708.xml">Patterson, Robert</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks RP for communicating the "Rat v. Rabbit case".</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">rabbit</term>
+                <term type="animals" ref="#">rat</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">predators</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down, Bromley, Kent [Eastbourne]</placeName>
+                    <date>Oct. 21</date>
+                </opener>
+                <div type="transcription">
+                     
+<p>My dear Sir</p>
+<p>I [would] like to thank you for so kindly taking the trouble of communicating the Rat V. Rabbit case.<ref target="#foot.f2"/> I am very glad to have all such facts, but it is doubtful whether I would require to use it, so I will not give trouble to your informant of inquiring.</p>
+<p>With many thanks, pray<ref target="#foot.f3"/> believe me my dear Sir | Yours sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date as given in <ref target="../bibliographies/bibl_6399.xml" resp="#mjhawkins">Praeger 1935</ref>, p. 715.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-2954.xml" resp="#mjhawkins">letter from Robert Patterson, 18 October 1860</ref>.</note>
+            <note xml:id="foot.f3">The printed text from which the transcript is taken reads ‘prey’.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

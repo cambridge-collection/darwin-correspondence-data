@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10675">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Horace Pearce   16 November 1876</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10385</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10675 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10675.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10675.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 174: 33</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>174: 33</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3721.xml">Pearce, Horace</persName>
+                <placeName>Stourbridge</placeName>
+                <date when="1876-11-16">16 Nov 1876</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks advice on transplanting insectivorous plants.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">insectivorous plants</term>
+                <term type="scientific_terms" ref="#">cultivation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="scientific_terms" ref="#">predators</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">The Limes | Stourbridge.</hi></placeName>
+                    <date>16 Nov: 1876.</date>
+                    <seg type="supplemental">Chas. R. Darwin Esq. M.A. &amp;c. &amp;c. | London</seg>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Not long ago I was descending the lower slopes of Cader Idris, bearing some fine plants of Drosera and Pinguicula,<ref target="#foot.f1"/> with flies caught strikingly on the former—fresh &amp; struggling, when three Artists left their easels &amp; crowded to witness the remarkable sight!</p>
+<p>Now with the aid of your carefully written work I was able &amp; gratified to study &amp; experiment upon them at home, &amp; found their digestive powers truly wonderful.<ref target="#foot.f2"/> I had them planted in <hi rend="underline">peat</hi>, &amp; the pans immersed in pans of water, with bell glasses over most of the time. But they have gradually died off. Do you think it is caused by the less pure air of this inland County, &amp; our short distance (12 miles) from smoky Birmingham? It was previous to the late cold, &amp; not caused thereby, I believe.</p>
+<p>Have you remarked that the “hairs” extending part way down the leaf stalks of Drosera are just where a fly, if walking off, would be first likely otherwise to escape?</p>
+<p>Faithfully yours | Horace Pearce. | F.G.S.</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><hi rend="italic">Drosera</hi> is the genus of sundews; <hi rend="italic">Pinguicula</hi> is the genus of butterworts. Cader Idris is a mountain in Wales.</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref> was published in 1875.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

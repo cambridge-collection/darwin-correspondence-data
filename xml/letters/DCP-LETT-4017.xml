@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4017">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Lubbock   28 February 1863</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6830</idno>
+            
+            
+            
+            
+            <date when="1999">1999</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4017 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4017.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4017.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="11">11</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 170: 37</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>170: 37</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3026.xml">Lubbock, John</persName>
+                <placeName>London, Lombard St, 15</placeName>
+                <date when="1863-02-28">28 Feb 1863</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Will come to dine on Monday unless he hears to the contrary.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">inviting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">15, Lombard Street. E.C.</hi></placeName>
+                    <date>28 Feb/63</date>
+                    <salute>My dear M<hi rend="superscript">r</hi>. Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Unless I hear from you to the contrary I will come up to dinner on Monday.<ref target="#foot.f1"/></p>
+<p>Yours affec | John Lubbock</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Lubbock probably did not dine with the Darwins on 2 March 1863, as CD was ill; <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin</ref> recorded his condition in her diary (DAR 242): he was ‘sick several times’ during the course of the week, ‘faint in night’, and ‘languid &amp; heavy’ every morning. Charles and <ref target="../nameregs/nameregs_3056.xml" resp="#mjhawkins">Mary Elizabeth Lyell</ref> had been invited to stay at Down House for a few days at this time, from 1 to 4 March 1863, but their visit was cancelled (see <ref target="./DCP-LETT-4024.xml" resp="#mjhawkins">letter to J. D. Hooker, 5 March [1863]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

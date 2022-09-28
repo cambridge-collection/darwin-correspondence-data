@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-641">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To G. R. Waterhouse   [4 or 11 September 1842]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1025</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-641 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-641.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-641.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Harry Ransom Center, The University of Texas at Austin</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_414.xml">Texas</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Upper Gower St, 12</placeName>
+            <date xml:id="date1" when="1842-09-04" exclude="#date2">4 Sept 1842</date>
+            <date xml:id="date2" when="1842-09-11" exclude="#date1">11 Sept 1842</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4972.xml">Waterhouse, G. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks GRW for collection [of insects] he has made up for CD’s nephew.</p> 
+<p>Leaves decision to GRW as to which institutions should receive CD’s <hi rend="italic">Beagle</hi> insects.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">insects</term>
+                <term type="people" ref="#">Darwin, C. R.’s nephew</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="ships" ref="#">Beagle</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">institutions</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>12 Up. Gower St</placeName>
+                    <date>Sunday</date>
+                    <salute>My dear Waterhouse</salute>
+                </opener>
+                <div type="transcription">
+<p>I really can hardly express how much obliged I am to you for the shamefully great amount of trouble you have taken for me, and for my nephew,<ref target="#foot.f1"/> to whom, I am sure, the collection will give infinite pleasure. My cabinet must have cost you a very great deal of trouble.— And the book on bees too!</p>
+<p>Thank you also for the feather for my Father.—</p>
+<p>I am in a terrible state of bustle, but the work &amp; excitement hitherto has given me the strength of a giant.—</p>
+<p>You know you have a few Coleopt: of mine to name—<ref target="#foot.f2"/> And at some <hi rend="doubleUnderline">future</hi> time, <hi rend="underline">one</hi> more empty case (as the one you have sent goes to my nephew). The case might be sent, <hi rend="underline">any time </hi> when ready &amp; directed to the Athenæum Club.</p>
+<p>Gray<ref target="#foot.f3"/> was asking me not to forget Brit. Mus. in distributing my insects— it is entirely in your hands so I pass on the memento to you.—</p>
+<p>With many thanks | my dear Waterhouse | Most truly Yours | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">4.2 more] <hi rend="italic">after del illeg</hi></note>
+                    <note xml:id="tnote.n2">4.3 &amp; directed] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">One of the four sons of CD’s sister <ref target="../nameregs/nameregs_3680.xml" resp="#mjhawkins">Marianne Parker</ref>. At this time they were aged 17 (<ref target="../nameregs/nameregs_3683.xml">Robert</ref>), 15 (<ref target="../nameregs/nameregs_3676.xml">Henry, Jr</ref>), 13 (<ref target="../nameregs/nameregs_3674.xml">Francis</ref>), and 10 (<ref target="../nameregs/nameregs_3672.xml">Charles</ref>).</note>
+            <note xml:id="foot.f2">Waterhouse had described most of the beetles of the <hi rend="italic">Beagle</hi> voyage in a series of articles published between <ref target="../bibliographies/bibl_8185.xml">1837</ref> and <ref target="../bibliographies/bibl_8186.xml">1842</ref>. Two additional descriptive articles appeared in <ref target="../bibliographies/bibl_8188.xml">1843</ref> and <ref target="../bibliographies/bibl_8189.xml">1845</ref> and Waterhouse’s son, <ref target="../nameregs/nameregs_4971.xml" resp="#mjhawkins">Frederick Herschel Waterhouse</ref>, described further specimens undetermined by his father (‘Descriptions of new Coleoptera of geographical interest collected by <ref target="../nameregs/nameregs_1.xml" resp="#mjhawkins">Charles Darwin</ref>, Esq.’, <hi rend="italic">Journal of the Linnean Society of London (Zoology)</hi> 14 (1879): 530–4).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_1959.xml" resp="#mjhawkins">John Edward Gray</ref>. The reference to the British Museum suggests that Waterhouse was still at the Zoological Society. He was appointed assistant in the Mineralogical Department at the British Museum in 1843.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10822">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To F. H. Hooker   31 January [1868]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8027</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10822 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10822.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10822.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Swann Auction Galleries (dealers) (13 September 1984)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_409.xml">Swann</repository>
+                    <collection>(dealers)</collection>
+                    <idno>13 December 1984</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1868-01-31">31 Jan [1868]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2353.xml">Hooker, F. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks for congratulations on George’s attaining Second Wrangler.</p>
+            <p>George will try for a fellowship at Trinity.</p>
+            <p>CD believes real education begins after school days.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1224">Darwin, G. H.</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">education</term>
+                <term type="societal" ref="#">fellowship at Trinity</term>
+                <term type="societal" ref="#">school</term>
+                <term type="societal" ref="#">University of Cambridge</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Bromley. | Kent S.E.</hi></placeName>
+                    <date>Jan. 31<hi rend="superscript">st</hi></date>
+                    <salute>My dear M<hi rend="superscript">rs</hi>. Hooker</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I must have the pleasure of thanking you, in which Emma joins, for your very kind note of congratulation. The whole affair has given us intense satisfaction, &amp; no doubt we who have lived in Cambridge appreciate the honour more fully than any outsider can do.—<ref target="#foot.f2"/> George will try for a fellowship at Trinity, but will not, I believe, be content with a drone’s life, though what he will do we are not yet quite decided.<ref target="#foot.f3"/> The more I read on Education the more difficult it seems to come to any definite conclusion, what is the best course; &amp; I am rather inclined to think that real education does not begin till after school &amp; college days; at least I am sure this was the case with myself.—<ref target="#foot.f4"/></p>
+<p>With many thanks, pray believe me, | My dear M<hi rend="superscript">rs</hi>. Hooker | Yours very sincerely | Charles Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-5853.xml" resp="#automat">letter from F. H. Hooker, [26 January 1868]</ref> (<hi rend="italic">Correspondence</hi> vol. 16).</note>
+            <note xml:id="foot.f2">See <hi rend="italic">Correspondence</hi> vol. 16, <ref target="./DCP-LETT-5853.xml" resp="#automat">letter from F. H. Hooker, [26 January 1868]</ref>. <ref target="../nameregs/nameregs_1224.xml" resp="#mjhawkins">George Howard Darwin</ref> was second wrangler at Cambridge in 1868, that is, he was second in the final examination for the mathematical tripos (<hi rend="italic">Cambridge University calendar</hi> 1868).</note>
+            <note xml:id="foot.f3">George was elected a fellow of Trinity College, Cambridge, in autumn 1868, after which he studied law in London from 1869 to 1872 (<hi rend="italic">ODNB</hi>).</note>
+            <note xml:id="foot.f4">Hooker had read a collection of essays that criticised the traditional classical education in English schools and universities (Farrar ed. 1867; see <hi rend="italic">Correspondence</hi> vol. 16, <ref target="./DCP-LETT-5853.xml" resp="#automat">letter from F. H. Hooker, [26 January 1868]</ref> and n. 4).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

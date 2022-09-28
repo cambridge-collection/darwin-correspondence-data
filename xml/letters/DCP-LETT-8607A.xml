@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8607A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Murray   7 November [1872]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20866</idno>
+            
+            
+            
+            
+            <date when="2013">2013</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8607A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8607A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8607A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="20">20</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">ApcS</note>
+            <note type="physdesc" n="ALS">1p</note>
+            <note type="postmark">NO 7 | 72</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Private collection</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_684.xml">Private collection</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1872-11-07">7 Nov [1872]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Has sent off a few trifling errata [of <hi rend="italic">Expression</hi>] to Mr Clowes. Asks about the heliotypes.</p>  
+<p>Would like to hear about the sale of his books. [See <hi rend="doubleUnderline">8616</hi>.]</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="it" ref="#">Expression</term>
+                <term type="people" ref="#subject_978">Clowes, William</term>
+                <term type="scientific_terms" ref="#">expression, emotion</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <date>Nov 7<hi rend="superscript">th</hi></date>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have by this same post sent off the few &amp; trifling errata to M<hi rend="superscript">r</hi> Clowes.—<ref target="#foot.f1"/> Have you given orders about the Heliotypes?<ref target="#foot.f2"/> I am very glad of your news.—<ref target="#foot.f3"/> Let me hear sale of all my books,—</p>
+<p>In Haste | C. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Murray had asked for corrections to <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref> (<ref target="./DCP-LETT-8602.xml" resp="#mjhawkins">letter from John Murray, 6 November [1872]</ref>). <ref target="../nameregs/nameregs_978.xml" resp="#mjhawkins">William Clowes</ref> was Murray’s printer. See letters from J. V. Carus, <ref target="./DCP-LETT-8548.xml" resp="#mjhawkins">7 October 1872</ref> and n. 6, <ref target="./DCP-LETT-8554.xml" resp="#mjhawkins">11 October 1872</ref> and n. 1, and <ref target="./DCP-LETT-8574.xml" resp="#mjhawkins">24 October 1872</ref> and nn. 4, 7, and 10.</note>
+            <note xml:id="foot.f2">The orders referred to have not been identified. The photographs in <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref> were reproduced using the heliotype process.</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-8602.xml" resp="#mjhawkins">letter from John Murray, 6 November [1872]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

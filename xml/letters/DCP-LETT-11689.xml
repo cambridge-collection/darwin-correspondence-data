@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11689">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From James Torbitt   12 September 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14610</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11689 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11689.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11689.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 178: 146</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>178: 146</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4777.xml">Torbitt, James</persName>
+                <placeName>Belfast</placeName>
+                <date when="1878-09-12">12 Sept 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Has forwarded what he believes to be a new species of <hi rend="italic">Solanum</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Solanum</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">systematics</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">James Torbitt, | 58 North Street. | Belfast,</hi></placeName>
+                    <date>12 Septr <hi rend="print">187</hi>8</date>
+                    <seg type="supplemental">Charles Darwin Esqr. | Down.</seg>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Your kind letter of 28<hi rend="superscript">th</hi>. June last I propose to reply to later on, meantime I have forwarded to your address a specimen of what I suspect to be a new species of the genus solanum and would ask you to kindly say would you or Sir J. Hooker care to have a plant of it growing?<ref target="#foot.f1"/></p>
+<p>I am my dear Sir | most respectfully yours | James Torbitt</p> 
+                </div>
+            </div>
+
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-11574.xml" resp="#mjhawkins">letter to James Torbitt, 28 June 1878</ref>. Torbitt sent a specimen of <hi rend="italic">Solanum dulcamara</hi>, woody nightshade or bittersweet (see <ref target="./DCP-LETT-11696.xml" resp="#mjhawkins">letter from James Torbitt, 16 September 1878</ref>). Torbitt was principally interested in potatoes, which are also members of the genus <hi rend="italic">Solanum</hi>. <ref target="../nameregs/nameregs_2357.xml" resp="#mjhawkins">Joseph Dalton Hooker</ref> was the director of the Royal Botanic Gardens, Kew.</note>
+        </div>
+    
+    </body>
+    </text>
+</TEI>

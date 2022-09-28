@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11470">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. H. Flower   11 April 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20196</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11470 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11470.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11470.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">John Innes Foundation Historical Collections</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_203.xml">John Innes Foundation</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1878-04-11">11 Apr 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1670.xml">Flower, W. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks whether WHF has had time to look at goose’s wing.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">goose</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">monstrosity</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="italic">Down,</hi> | <hi rend="italic">Beckenham, Kent.</hi> | (<hi rend="italic">Railway Station</hi> | <hi rend="italic">Orpington. S.E.R.</hi>)</placeName>
+                    <date>April 11<hi rend="superscript">th</hi> 1878</date>
+                    <salute>My dear Flower</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>Pray forgive me for asking whether you have ever found time to look at the wing-bones of the goose with malformed wings.—<ref target="#foot.f1"/> I thought that I would wait until hearing from you, before writing to M<hi rend="superscript">r</hi>. Blair to thank him for the photograph, specimen &amp;c; &amp; I fear that he will think me very neglectful for not having done so ere this.<ref target="#foot.f2"/></p>
+                    <p>Whenever you write; will you kindly return me M<hi rend="superscript">r</hi> Blair’s letter, &amp; if it seems worth while I will send a short account of case to Nature<ref target="#foot.f3"/></p>
+<p>Forgive me for troubling you &amp; believe me | Yours very sincerely | C. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had sent Flower a malformed goose wing in February, and asked him to comment on the possibility that mutilations might be inherited (see <ref target="./DCP-LETT-11375.xml" resp="#mjhawkins">letter to W. H. Flower, 25 February 1878</ref>).</note>
+            <note xml:id="foot.f2">In December 1877, CD had requested that <ref target="../nameregs/nameregs_476.xml" resp="#mjhawkins">Reuben Almond Blair</ref> send him the malformed goose wing (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 25, <ref target="./DCP-LETT-11290.xml" resp="#mjhawkins">letter to R. A. Blair, 27 December 1877</ref>). He received the photograph and further details of the goose in February (see <ref target="./DCP-LETT-11377.xml" resp="#mjhawkins">letter to W. H. Flower, 26 February [1878]</ref>).</note>
+            <note xml:id="foot.f3">Blair’s letter has not been found. No account of this case appeared in <hi rend="italic">Nature</hi>.</note>
+        </div>
+        
+    
+        
+    </body>
+    </text>
+</TEI>

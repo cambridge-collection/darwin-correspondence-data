@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10211">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Louis Grenier to John Murray<choice><seg type="original"><ref target="#foot.f1"/></seg><seg type="translation"><ref target="#foot_trans.f1"/></seg></choice>   22 December 1875</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9640</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10211 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10211.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10211.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p (French)</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 474</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 474</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1978.xml">Grenier, Louis</persName>
+                <placeName>Tenay</placeName>
+                <date when="1875-12-22">22 Dec 1875</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Encloses a letter to be forwarded to CD [see <hi rend="doubleUnderline">10212</hi>].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="b" ref="#">10212</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Tenny</placeName>
+                    <date>le 22 X<hi rend="superscript">be</hi>. 1875</date>
+                    <seg type="supplemental">Monsieur John Murray</seg>
+                    <salute>Monsieur</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Veuillez prendre connaissance de la lettre ci-incluse, adressée à M. Darwin, et dans le cas où vous auriez la propriété littéraire de son ouvrage, me répondre au sujet de la demande que je fais. Dans le cas contraire, veuillez lui transmettre ma demande, à laquelle je ne doute pas qu’il ne fasse bon accueil.<ref target="#foot.f2"/></p>
+<p>Agréez, Monsieur, mes bien respectueuses salutations | L Grenier</p>
+<p>Adresse: | Louis Grenier | à Tenay (Ain) | France</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+        
+        
+        <div type="translation">
+            <div type="text">
+                <opener>
+                    <placeName>Tenny</placeName>
+                    <date>22 Dec<hi rend="superscript">ber</hi>. 1875</date>
+                    <seg type="supplemental">Mr. John Murray</seg>
+                    <salute>Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Please be apprised of the enclosed letter, addressed to Mr. Darwin, and in the event that you should have the literary ownership of his work, reply to me concerning the request I am making. In the opposite case, please pass my request, which I do not doubt he will receive favourably, on to him.<ref target="#foot.f2"/></p>
+<p>Yours sincerely | L Grenier</p>
+<p>Address: | Louis Grenier | Tenay (Ain) | France</p> 
+                </div>
+            </div>
+            
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">For a translation of this letter, see Appendix I.</note>
+            <note xml:id="foot_trans.f1">For a transcription of this letter in its original French, see p. 501.</note>
+            <note xml:id="foot.f2">See the <ref target="./DCP-LETT-10212.xml" resp="#mjhawkins">letter from Louis Grenier, 22 December 1875</ref>, which Murray forwarded to CD (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 24, <ref target="./DCP-LETT-10511.xml" resp="#mjhawkins">letter from Louis Grenier, 20 May 1876</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

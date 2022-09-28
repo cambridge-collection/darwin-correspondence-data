@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9546">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Ralfs   13 July [1874]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">443</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9546 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9546.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9546.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.443)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>443</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1874-07-13">13 July [1874]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3919.xml">Ralfs, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Discusses specimens of <hi rend="italic">Utricularia</hi>.</p>  
+<p>Mentions JR’s work on desmids [<hi rend="italic">The British Desmidieae</hi> [Desmidiae!?] (1848)].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Utricularia</term>
+                <term type="it" ref="#">The British Desmidiae</term>
+                <term type="rx" ref="#">Ralfs, John 1848</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>July 13<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Utricularia arrived in capital state, as my son tells me who took charge of the specimens &amp; put them in water.— I was so unwell I could not leave the house.<ref target="#foot.f2"/> He worked all day at the bladders, &amp; I can see that it will be <hi rend="underline">most</hi> difficult to make out about the function of parts. But things may get brighter, for with all your great experience on Desmids under the microscope you must know well that one must have one’s brain clear &amp; hand steady to do anything on difficult structures.<ref target="#foot.f3"/></p>
+<p>With cordial thanks | Yours sincerely | Ch. Darwin</p>
+<p>I shall be able to do nothing, I fear, today—</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.4 of] <hi rend="italic">interl</hi> </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-9540.xml" resp="#mjhawkins">letter from John Ralfs, 9 July 1874</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-9540.xml" resp="#mjhawkins">letter from John Ralfs, 9 July 1874</ref>. Ralfs sent a small specimen of <hi rend="italic">Utricularia</hi> (bladderwort). <ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin</ref> was assisting CD with his experiments on <hi rend="italic">Pinguicula</hi> (butterwort) and <hi rend="italic">Utricularia</hi>. According to <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242), CD had a bad attack of diarrhoea and sickness on 13 July 1874.</note>
+            <note xml:id="foot.f3">Desmids (family Desmidiaceae) are freshwater single-cell green algae, noted for the wide variety of body shapes found in different species. Ralfs had written a monograph on the family, naming many new species (<ref target="../bibliographies/bibl_6510.xml" resp="#mjhawkins">Ralfs 1848</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

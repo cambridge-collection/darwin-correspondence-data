@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1121">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To the <hi rend="italic">Scotsman</hi>   [after 20 September 1847]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1913</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1121 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1121.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1121.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc">ADraftS 11pp</note>
+            <relatedItem type="publication">
+                <bibl>Barrett (1973): 24</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 4: 76</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 50: B1–9</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>50: B1–9</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1847-09-21" notAfter="1847-09-30">[after 20 Sept 1847]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4253.xml"><hi rend="italic">Scotsman</hi></persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Comments on article by David Milne ["On the parallel roads of Lochaber" (1847), <hi rend="italic">Trans. R. Soc. Edinburgh</hi> 16 (1849): 395–418]. Refers to his paper on Glen Roy [<hi rend="italic">Collected papers</hi> 1: 87–137]. Comments on Louis Agassiz’s article ["The glacial theory and its recent progress", <hi rend="italic">Edinburgh New Philos. J.</hi> 33 (1842): 217–83]. Cites his own observations on glaciers in N. Wales. Discusses possibility of ice barrier creating lake. Notes objections to theory of an ice barrier. Defends his own theory that the roads are sea-beaches. Suggests questions for further investigation.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="geology" ref="#">parallel roads</term>
+                <term type="it" ref="#">Trans. R. Soc. Edinburgh</term>
+                <term type="rx" ref="#">Milne-Home, David 1849</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">geological time, epochs</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">ice, ice-action, icebergs, glaciers</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <seg type="supplemental"><lb resp="#mjhawkins"/> To the Editor of the Scotsman.—<ref target="#foot.f2"/></seg>
+                    <salute>Sir</salute>
+                </opener>
+                <div type="transcription"><p>As the parallel roads of Glen Roy have lately been again brought into notice by M<hi rend="superscript">r</hi> Milne’s able &amp; interesting Memoir,<ref target="#foot.f3"/> &amp; as you have always shown much interest on this &amp; allied subjects, I venture to request a little space, for a few remarks, chiefly for the purpose of calling attention to some points, which appear to me to require further examination. My opinion regarding the great improbability of there ever having existed barriers either of detritus or rock at the mouths of the valleys, so as to form lakes, remains quite unaltered: I still think it clear from the facts stated in my paper in the Philosophical Transactions<ref target="#foot.f4"/> that the whole country emerged slowly from beneath the waters of the sea: I believe that this is admitted by M<hi rend="superscript">r</hi> Milne. Formerly I thought that if it could be shown that such barriers had had not existed the shelves must have been formed by the waters of the sea. Since my observations, were published, M. Agassiz &amp; D<hi rend="superscript">r</hi> Buckland visited the site, &amp; advanced (Eding. New. Phil. Journ. vol 33. p. 236) a most ingenious theory namely that lake had been formed by great ancient glaciers having blocked up the mouths of the valleys. When this theory was first propounded, I mentally rejected it from my belieff that when the water stood at the middle shelf of Glen Roy, there was no outlet for drainage except over the ice itself; &amp; this being so, it appeared to me highly improbable, that the water could have been banked up to the same exact level for the great length of time necessary for the formation of the shelf. but this prominent objection falls to the ground, since M<hi rend="superscript">r</hi> Milnes important discovery of an outlet at the head of Glen Glastig.)<ref target="#foot.f5"/> (M<hi rend="superscript">r</hi> Milne is strongly opposed to the ice-lake theory &amp; believes that glaciers could not have descended from Ben Nevis in the course suggested by Agassiz &amp; Buckland. But from the published accounts of ancient glaciers in many parts of the world &amp; from what I have myself seen (London Phil. Magazine Vol XXI. p. 184) in North Wales,<ref target="#foot.f6"/> I can feel no difficulty in admitting that the whole valley of the Spean was formerly filled up with ice: M<hi rend="superscript">r</hi> Milne’s curious details on the state of the surface near Loch Treig strikes me as corrobarating the former existence of glaciers. To form lakes at the level of the shelves in Lochaber, a glacier must have blocked up Glen Collarig and been pushed up Glen Roy above the mouth of Glen Glastig: at this period the water of the lake would have stood at the upper shelf &amp; its drainage escaped at the head of Glen Roy, down the Spey. As the climate became more temperate, the glacier may be supposed to have retreated a little towards Ben Nevis &amp; then the water would have escaped by Glen Glastig &amp; stood at the level of the middle shelf. Subsequently the glacier must have retreated greatly, a portion of it (or a distinct glacier) still remaining at the mouth of the Spean, &amp; the lower shelf would have been formed, the drainage flowing through the Pass of Muckull. Glen Gluy<ref target="#foot.f7"/> apparently must have been closed by an independent glacier. The blockage in these cases, may be supposed to have been by the ice itself, as in the famous case in the valley of Bagnes,<ref target="#foot.f8"/> &amp; not by a gigantic terminal moraines. As in North Wales, I could in parts, distinguish iceberg action, from that of the ancient glaciers, so here I suspect, that the scored rocks described by M<hi rend="superscript">r</hi> Milne at the heads of several glen, will turn out to have been effected by tide-driven icebergs grating over the surface, during the emergence of the country from beneath the sea.) (The ice-lake theory explains beautifully the obvious difficulty of the non-extension of the shelves over the whole country, &amp; the remarkable coincidence in height of the the three shelves of the Roy &amp; Spean,—of the upper shelf in Glen Gluoy—&amp; of that of Kilfinnin, with outlets, over which the drainage-waters of the successive lake might have escaped. The middle shelf of Glen Roy, extends further than the upper one at the mouth both of this Glen &amp; of Glen Collarig, &amp; both shelves at their terminal points die away in the most insensible manner: this further extension of the middle shelf agrees well with the theory of a retreating glacier, &amp; the very gradual dying away of the extremities of both shelves, which always struck me as most remarkable &amp; opposed to the former existence of any barrier, might be explained, as was suggested to me by M<hi rend="superscript">r</hi> Lyell (with whom I have discussed this subject, &amp; at whose instigation I have written these few remarks) by the lake having having been generally frozen near the great icy barrier, littoral action having been thus prevented. This theory explains the number of erratic boulders on the shelves, (with which fact I was much struck,) for charged icebergs might have floated off from the glacier when they entered the lake. Finally ice-lakes explain,, as well as lakes formed by barriers of detritus, all the appearances at the outlets &amp; elsewhere, considered by M<hi rend="superscript">r</hi> Milne as incompatible with the marine theory; furthermore it would, perhaps, account for the very considerable bodies of water, which M<hi rend="superscript">r</hi> Milne describes, as having formerly escaped at the outlets; for the accumulated rain of the whole year, in the form of snow, would flow away only during the summer.) (Opposed to the ice-lake theory, there appear the following facts (1). The existence on Tomhbran of a shelf described by me,<ref target="#foot.f9"/> between the upper &amp; middle shelf &amp; which M<hi rend="superscript">r</hi> Milne discovered in two other parts of Glen Roy; &amp; again of a second shelf in Glen Gluy, extending, according to M<hi rend="superscript">r</hi> Milne for several miles on both sides of the valley; for it is believed that at the level of these shelves there are no outlets in the surrounding mountains; &amp; if so, the drainage-streams must have flowed in both cases for a very long period, over the ice itself without deepening their channels, so that the lakes were retained at the same level: I say for a long period, for the shelf on Tomhbran, is as plainly marked as that, for instance, in Glen Spean, &amp; the number of buttresses, composed of <hi rend="underline">rounded</hi> pebbles, on all the shelves, plainly shows that a long lapse of time was requisite for their formation. We know in the case of the ice-lake in the valley of Bagnes (Lyell’s Principles of Geology 7<hi rend="superscript">th</hi> Edit. p. 198) that the water running over the ice did rapidly deepen its channel: to suppose that the onward movement of the glaciers exactly coun- teracted the deepening the drainage channels, appears highly improbable. (2<hi rend="superscript">nd</hi>) The existence of shelves, one above the other, in the other districts described by M<hi rend="superscript">r</hi> Milne, &amp; apparently with no drainage-outlets at their levels except over the ice itself. (3<hi rend="superscript">rd</hi>) The improbability of a glacier having blocked up the short &amp; very wide valley or rather hollow of Kilfinnin; the Great Glen of Scotland, being low in front of it. (4<hi rend="superscript">th</hi>.) The apparent existence of a shelf (noticed by Macculloch &amp; not fully examined by myself) at the head of the Spey, beyond the limits of Glen Roy; if this be seen a true shelf, there must have been a blockage at both ends of Glen Roy, which on any lake theory, seems improbable. (5<hi rend="superscript">th</hi>) The manner in which the hard &amp; solid rocks have been worn at the mouth of L. Treigh at the level of the lowest shelf, &amp; cut off at the head of Lower Glen Roy;—the large accumulations of rounded pebbles in, the buttresses on the shelves, &amp; more especially those round once insular little points of rock (as on Meal Roy) &amp; therefore disconnected with any running stream,—all which facts seem to me to indicate greater destroying power in the waves or currents, than can well be attributed to any lake. (6<hi rend="superscript">th</hi>) The similarity of the “haughs”<ref target="#foot.f10"/> in Glen Spean to those in other vallies in various countries, which in many cases can be proved to have been of marine origin. And lastly the huge buttresses, projecting from the hill-sides at every successive level beneath the lowest shelf in Glen Spean and built of stratified rounded pebbles, for these afford good evidence that water receded very slowly from this valley, standing apparently for centuries at every successive foot in height, so slowly that I cannot believe the recession was caused by the waters of a lake escaping over a barrier of ice.) (Weighing, as well as I am able, these difficulties on both hands, I am still inclined to abide by the marine theory. I do not think my remarks on the non-extension of the shelves over the entire country, &amp; their coincidence in height with the outlets quite so unsatisfactory as M<hi rend="superscript">r</hi> Milne does. With respect to this coincidence in height, I would add one hypothetical remark, namely that it has long appeared to me probable, that a slowly rising surface becomes stationary, not at once, but by the movements becoming excessively slow; &amp; if this be the case, it would greatly favour, the cutting down rocky isthmus between islands, when brought within the tidal action in a rising archipelago, to nearly the level which the land held during the quite stationary periods. On the other hand, the outlets at head of Glen Roy &amp; at Kilfinnin appeared to me, (but perhaps I was mistaken) to be brought up to the exact level of the shelves, by having been silted up. If the marine theory be found to be erroneous, then I believe that the theory of Agassiz &amp; Buckland will prove the true solution, &amp; that Macculloch, Sir Thomas Dick Lauder, &amp; M<hi rend="superscript">r</hi> Milne are all so far right that the shelves were formed round the shores of lakes &amp; not of arms of the sea.) (The points which appear to me to require further examination or corroboration (&amp; I hope I shall be excused the presumption in enumerating them), are (1.). The nature of the apparent shelf by Loch Spey &amp; beyond Glen Roy: what is its height relatively to the upper one in Glen Gluoy, &amp; to a mound in Glen Turret, mentioned by Macculloch, above the main upper shelf. (2.) In Glen Glastig, are the rocks simply waterworn, or also scratched or polished as if by a glacier or by drifting icebergs: are such worn surfaces confined to the actual bed of the valley or do they reach some way up the sides? Can they be observed in the bed for the whole 212 vertical feet of fall in this valley? Similar points to be attended to at the heads of Glen Roy, Gluoy &amp; the pass of Muckul. M<hi rend="superscript">r</hi> Milne has described knolls of rock, at the outlet of Glen Gluoy, waterworn at their bases &amp; rough above: can this be accounted for by their bases alone having been protected by detritus from disintegration: this appears to me most important. Knolls, such as those described by M<hi rend="superscript">r</hi> Milne, low down in the bed of the valleys, which forms the outlet of Glen Glastig, would offer convincing evidence that the valleys had been occupied by river &amp; not by a tidal strait. Can the worn rocks at the entrance of Loch Treig, on a level with the shelf, be accounted for by glacier action: they appeared to me, (at that time totally ignorant regarding glaciers) to be the effect of a strong eddying current. (3<hi rend="superscript">rd</hi>) Is there any trace of a terminal moraine (though partially obliterated by the supposed ice-lake) or of glacier action, such as perched boulders &amp;c at the mouths of Glen Roy, Collarig, Glen Gluoy &amp; Kilfinnin, &amp; likewise in the valleys, where M<hi rend="superscript">r</hi> Milne discovered shelves. (5<hi rend="superscript">th</hi>) Is there any gap in the mountains near the mouth Glen Gluoy, which might have served as an outlet for the waters, when they stood at the level of M<hi rend="superscript">r</hi> Milne’s lower shelf in the valley? The same observation with regard to the intermediate shelf of Tomhbran. (6<hi rend="superscript">th</hi>) M. Agassiz believes that he saw three shelves on the south side of the Spean in front of Glen Roy: do such exist? I saw lines there, &amp; believed that they were sheep-tracks. 7<hi rend="superscript">th</hi>. The nature &amp; height of the shelves mentioned by me (p. 45) on the authority of Sir David Brewster, low down the valley of the Spey.<ref target="#foot.f11"/> (8<hi rend="superscript">th</hi>) The height of the shelves in Lochaber above the level of the Sea (for my Barometrical measurements made me doubt the accuracy of those by Macculloch) &amp; of the successive shelves, one above the other)—for the sake of comparison with those described as existing elsewhere by M<hi rend="superscript">r</hi> Milne. (9<hi rend="superscript">th</hi>). The horizontality of the shelves, taken in a line at nearly right angles to the Great Glen of Scotland, on probable axis of elevation of the country: I believe the levels have hitherto been taken exclusively in Glen Roy, in a line approximately parallel to the Great Glen. I may remark, that if the shelves should ever be proved to deviate from the horizontal, it would not demonstrate their marine origin, as the advocates of the lake theories, might argue, that Scotland within late times had been uplifted unequally. On the other hand, if they sh<hi rend="superscript">d</hi> be proved strictly horizontal, the vast plains, which in many parts of the world have been upraised above the level of the sea, to my mind render it not improbable that some districts 20 or 30 miles across should have been uplifted with perfect equability.) Charles Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.1 As] <hi rend="italic">before del</hi> ‘the case of’</note>
+                    <note xml:id="tnote.n2">1.2 able &amp; interesting] <hi rend="italic">above del</hi> ‘important’</note>
+                    <note xml:id="tnote.n3">1.2 Memoir] <hi rend="italic">after del interl</hi> ‘&amp; interesting’</note>
+                    <note xml:id="tnote.n4">1.2 &amp; as] <hi rend="italic">after del</hi> ‘I’</note>
+                    <note xml:id="tnote.n5">1.4 points] <hi rend="italic">after del</hi> ‘prominent’</note>
+                    <note xml:id="tnote.n6">1.5 examination.] <hi rend="italic">above del</hi> ‘attention.’</note>
+                    <note xml:id="tnote.n7">2.1 ever having] <hi rend="italic">above del</hi> ‘having <hi rend="italic">[illeg]</hi>’</note>
+                    <note xml:id="tnote.n8">2.2 at the mouths … lakes,] <hi rend="italic">interl before del</hi> ‘to form lakes, [‘remains’ <hi rend="italic">del</hi>] on the shores of which the parallel roads were [‘formed’ <hi rend="italic">del</hi>] deposited,’</note>
+                    <note xml:id="tnote.n9">2.3 quite] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n10">2.3 unaltered:] <hi rend="italic">colon over comma</hi>; <hi rend="italic">before del</hi> ‘remain quite unaltered, &amp; I’</note>
+                    <note xml:id="tnote.n11">2.3 I still] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n12">2.3 from the facts … Transactions 2.4] <hi rend="italic">interl before del</hi> ‘(as I believe M<hi rend="superscript">r</hi> Milne [‘)’ <hi rend="italic">del</hi>] admits though he has misunderstood some of my remarks, owing to, no doubt, them not being well expressed)’</note>
+                    <note xml:id="tnote.n13">2.4 emerged] <hi rend="italic">after del</hi> ‘was’</note>
+                    <note xml:id="tnote.n14">2.5 I believe that … Milne] <hi rend="italic">interl</hi>; ‘that’ <hi rend="italic">interl within interl</hi></note>
+                    <note xml:id="tnote.n15">2.6 could be] <hi rend="italic">above del</hi> ‘were’</note>
+                    <note xml:id="tnote.n16">2.6 such] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n17">2.6 had not] <hi rend="italic">interl after del</hi> ‘never’ <hi rend="italic">above del</hi> ‘not’</note>
+                    <note xml:id="tnote.n18">2.7 existed] <hi rend="italic">before del interl</hi> ‘at the mouths of the valleys,’</note>
+                    <note xml:id="tnote.n19">2.7 the shelves … the sea.] <hi rend="italic">above del</hi> ‘so as to form lakes, <hi rend="italic">[illeg]</hi> the waters of the sea must have formed the shelves—’</note>
+                    <note xml:id="tnote.n20">3.1 observations, were published,] <hi rend="italic">above del</hi> ‘visit’</note>
+                    <note xml:id="tnote.n21">3.1 Buckland] ‘uckland’ <hi rend="italic">added</hi></note>
+                    <note xml:id="tnote.n22">3.2 advanced] <hi rend="italic">after del</hi> ‘suggested’</note>
+                    <note xml:id="tnote.n23">3.2 (Eding.… p. 236)] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n24">3.2 a] <hi rend="italic">above del</hi> ‘the’</note>
+                    <note xml:id="tnote.n25">3.3 namely] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n26">3.3 lake] <hi rend="italic">after del</hi> ‘the’</note>
+                    <note xml:id="tnote.n27">3.3 had been] <hi rend="italic">above del</hi> ‘were’</note>
+                    <note xml:id="tnote.n28">3.3 formed by] <hi rend="italic">before del</hi> ‘ice. I may here [<hi rend="italic">interl</hi>] remark <hi rend="italic">[illeg]</hi> on the danger in Geology of’</note>
+                    <note xml:id="tnote.n29">3.3 ancient] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n30">3.3 having] <hi rend="italic">above del</hi> ‘descending’; <hi rend="italic">before del interl</hi> ‘banked’</note>
+                    <note xml:id="tnote.n31">3.3 blocked] <hi rend="italic">after del</hi> ‘from Ben Nevis, [‘temporarily’ <hi rend="italic">del</hi>] banking up the waters.’</note>
+                    <note xml:id="tnote.n32">4.1 mentally] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n33">4.1 from] <hi rend="italic">after del</hi> ‘on my own,’</note>
+                    <note xml:id="tnote.n34">4.1 my belieff that 4.2] <hi rend="italic">above del</hi> ‘the intermediate middle shelf of Glen Roy [<hi rend="italic">illeg</hi>] no outlet, ex’; <hi rend="italic">before del</hi> ‘there was no outlet for drainage to a lake standing at the middle shelf of’</note>
+                    <note xml:id="tnote.n35">4.2 when the water … drainage 4.3] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n36">4.3 itself; &amp; this being so,] <hi rend="italic">above del</hi> ‘at the mouth of the valley, &amp;’</note>
+                    <note xml:id="tnote.n37">4.4 exact] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n38">4.5 the shelf.] ‘the’ <hi rend="italic">altered from</hi> ‘this’; <hi rend="italic">full stop over semicolon</hi></note>
+                    <note xml:id="tnote.n39">4.5 but this] <hi rend="italic">after del</hi> ‘if the drainage had [<hi rend="italic">interl</hi>] flowed over the ice:’</note>
+                    <note xml:id="tnote.n40">4.6 important] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n41">4.6 outlet] <hi rend="italic">before del</hi> ‘at this level’</note>
+                    <note xml:id="tnote.n42">4.7 Glastig.)] <hi rend="italic">square bracket in MS</hi> <hi rend="italic">indicating end of paragraph</hi></note>
+                    <note xml:id="tnote.n43">5.1 (M<hi rend="superscript">r</hi> Milne] <hi rend="italic">square bracket in MS</hi> <hi rend="italic">indicating start of new paragraph</hi></note>
+                    <note xml:id="tnote.n44">5.3 published] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n45">5.3 ancient] <hi rend="italic">after del</hi> ‘the’</note>
+                    <note xml:id="tnote.n46">5.3 the world 5.4] <hi rend="italic">above del</hi> ‘Europe’</note>
+                    <note xml:id="tnote.n47">5.4 (London Phil. Magazine Vol XXI. p. 184)] <hi rend="italic">above del</hi> ‘(Annals of Philosophy)’</note>
+                    <note xml:id="tnote.n48">5.5 feel] <hi rend="italic">above del</hi> ‘see’</note>
+                    <note xml:id="tnote.n49">5.6 was] <hi rend="italic">above del</hi> ‘might’</note>
+                    <note xml:id="tnote.n50">5.6 filled] <hi rend="italic">after del</hi> ‘have been’</note>
+                    <note xml:id="tnote.n51">5.6 curious details] <hi rend="italic">above del</hi> ‘account’</note>
+                    <note xml:id="tnote.n52">5.6 on] <hi rend="italic">over</hi> ‘of’</note>
+                    <note xml:id="tnote.n53">5.6 state] <hi rend="italic">after del</hi> <hi rend="italic">illeg</hi></note>
+                    <note xml:id="tnote.n54">5.7 corrobarating the] ‘the’ <hi rend="italic">altered from</hi> ‘this’</note>
+                    <note xml:id="tnote.n55">5.7 former existence of glaciers. 5.8] <hi rend="italic">above del</hi> ‘view.’</note>
+                    <note xml:id="tnote.n56">5.8 form] <hi rend="italic">before del</hi> <hi rend="italic">illeg</hi></note>
+                    <note xml:id="tnote.n57">5.9 blocked up] <hi rend="italic">below del</hi> ‘blocked up’; <hi rend="italic">before del interl</hi> ‘been pushed into both’</note>
+                    <note xml:id="tnote.n58">5.9 and been pushed] <hi rend="italic">above del</hi> ‘&amp; Glen Roy &amp; have been [<hi rend="italic">interl</hi>] pushed’</note>
+                    <note xml:id="tnote.n59">5.9 up Glen Roy] <hi rend="italic">after del</hi> ‘&amp;’</note>
+                    <note xml:id="tnote.n60">5.9 mouth] <hi rend="italic">before del</hi> ‘of the lateral Glen’</note>
+                    <note xml:id="tnote.n61">5.9 Glen Glastig: 5.10] <hi rend="italic">before del</hi> ‘subsequently after the glacier had retreated, [‘anoth’ <hi rend="italic">del</hi>] a part of the same nearer Ben Nevis or a distinct one, must have blocked up *the mouth of [<hi rend="italic">interl</hi>] Glen Spean:’</note>
+                    <note xml:id="tnote.n62">5.10 at this period … Muckull. 5.17] <hi rend="italic">added</hi> <hi rend="italic">on</hi> <hi rend="italic">verso</hi></note>
+                    <note xml:id="tnote.n63">5.10 at this period] <hi rend="italic">after del</hi> ‘as the climate became’</note>
+                    <note xml:id="tnote.n64">5.10 would] <hi rend="italic">above del</hi> ‘might’</note>
+                    <note xml:id="tnote.n65">5.10 stood at … Spey. 5.11] <hi rend="italic">above del</hi> ‘escaped at the head of upper [‘the’ <hi rend="italic">del</hi>] Spey.’</note>
+                    <note xml:id="tnote.n66">5.13 towards Ben Nevis] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n67">5.14 middle] <hi rend="italic">after del</hi> <hi rend="italic">illeg</hi></note>
+                    <note xml:id="tnote.n68">5.15 of it] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n69">5.15 glacier) still] ‘glacier’ <hi rend="italic">above del</hi> ‘one’; ‘still’ <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n70">5.16 Spean,] <hi rend="italic">before del</hi> ‘allowing whilst the *lower shelf was forming <hi rend="italic">[illeg]</hi>; the [<hi rend="italic">interl</hi>] drainage escaping [<hi rend="italic">altered from</hi> ‘escaped’] at the Pass of Muckul. at the head’</note>
+                    <note xml:id="tnote.n71">5.16 the lower shelf] <hi rend="italic">after del</hi> ‘&amp; at this [<hi rend="italic">above</hi> <hi rend="italic">del</hi> ‘which’] period’</note>
+                    <note xml:id="tnote.n72">5.16 the drainage] ‘the’ <hi rend="italic">over</hi> <hi rend="italic">illeg</hi></note>
+                    <note xml:id="tnote.n73">5.16 through] ‘th’ <hi rend="italic">over</hi> ‘G’</note>
+                    <note xml:id="tnote.n74">6.1 apparently] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n75">6.1 closed] <hi rend="italic">above del</hi> ‘blocked’</note>
+                    <note xml:id="tnote.n76">6.2 may] <hi rend="italic">above del</hi> ‘must’</note>
+                    <note xml:id="tnote.n77">6.3 in the valley] ‘in’ <hi rend="italic">above del</hi> ‘of’</note>
+                    <note xml:id="tnote.n78">6.3 of Bagnes,] <hi rend="italic">interl</hi> <hi rend="italic">before del</hi> ‘in Switzerland’</note>
+                    <note xml:id="tnote.n79">6.3 gigantic] <hi rend="italic">above del</hi> <hi rend="italic">illeg</hi></note>
+                    <note xml:id="tnote.n80">6.3 moraines.] <hi rend="italic">altered from</hi> ‘moraine,’; <hi rend="italic">before del</hi> ‘[‘out of all’ <hi rend="italic">del</hi>] gigantic beyond all probability.’</note>
+                    <note xml:id="tnote.n81">6.5 rocks] <hi rend="italic">before del</hi> ‘at the’</note>
+                    <note xml:id="tnote.n82">6.6 tide-driven] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n83">6.7 during] <hi rend="italic">above del</hi> ‘before’</note>
+                    <note xml:id="tnote.n84">6.8 sea.)] <hi rend="italic">square bracket in MS</hi> <hi rend="italic">indicating end of paragraph</hi></note>
+                    <note xml:id="tnote.n85">7.1 (The] <hi rend="italic">square bracket in MS</hi> <hi rend="italic">indicating start of new paragraph</hi></note>
+                    <note xml:id="tnote.n86">7.1 non-extension 7.2] <hi rend="italic">after del</hi> ‘marine’</note>
+                    <note xml:id="tnote.n87">7.2 remarkable] <hi rend="italic">after del</hi> ‘still more’; <hi rend="italic">before del interl</hi> ‘near’</note>
+                    <note xml:id="tnote.n88">7.4 drainage-] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n89">7.5 successive] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n90">7.6 than the upper one] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n91">7.6 mouth both] <hi rend="italic">after del</hi> <hi rend="italic">interl</hi> ‘b’; ‘both’ <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n92">7.6 Glen &amp;] <hi rend="italic">before del</hi> ‘in that’</note>
+                    <note xml:id="tnote.n93">7.6 Glen Collarig] ‘Glen’ <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n94">7.7 this] <hi rend="italic">altered from</hi> ‘This’</note>
+                    <note xml:id="tnote.n95">7.8 with] <hi rend="italic">after del</hi> ‘th’</note>
+                    <note xml:id="tnote.n96">7.9 very] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n97">7.9 the extremities of both] <hi rend="italic">interl</hi> <hi rend="italic">before del</hi> ‘the’</note>
+                    <note xml:id="tnote.n98">7.10 most] <hi rend="italic">after omitted caret</hi></note>
+                    <note xml:id="tnote.n99">7.10 former] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n100">7.11 barrier,] <hi rend="italic">before del</hi> ‘&amp; these points,’</note>
+                    <note xml:id="tnote.n101">7.11 might] <hi rend="italic">above del</hi> ‘may’</note>
+                    <note xml:id="tnote.n102">7.12 have written] ‘have’ <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n103">7.12 few] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n104">7.13 lake] <hi rend="italic">before del</hi> ‘having remained’; <hi rend="italic">before del interl</hi> ‘having *long &amp; [<hi rend="italic">interl</hi>] remained’</note>
+                    <note xml:id="tnote.n105">7.13 having been generally] <hi rend="italic">above del</hi> ‘every season remaining long’</note>
+                    <note xml:id="tnote.n106">7.14 littoral action having been thus prevented.] <hi rend="italic">interl after del interl</hi> ‘thus preventing’</note>
+                    <note xml:id="tnote.n107">7.14 theory] <hi rend="italic">after del</hi> ‘glacier’</note>
+                    <note xml:id="tnote.n108">7.15 erratic] <hi rend="italic">above del</hi> ‘b’</note>
+                    <note xml:id="tnote.n109">7.15 on] <hi rend="italic">over</hi> ‘of’</note>
+                    <note xml:id="tnote.n110">7.15 shelves,] <hi rend="italic">before del</hi> ‘for [‘gla’ <hi rend="italic">del</hi>] icebergs’</note>
+                    <note xml:id="tnote.n111">7.15 fact] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n112">7.16 charged] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n113">7.16 floated off from] <hi rend="italic">above del</hi> ‘been formed when’</note>
+                    <note xml:id="tnote.n114">7.16 when they] <hi rend="italic">above del</hi> ‘over’</note>
+                    <note xml:id="tnote.n115">7.16 entered] <hi rend="italic">before</hi> <hi rend="italic">del</hi> ‘&amp; blocked up’</note>
+                    <note xml:id="tnote.n116">7.17 ice-lakes] <hi rend="italic">above del</hi> ‘it would’</note>
+                    <note xml:id="tnote.n117">7.17 , as well as lakes … detritus,] <hi rend="italic">interl</hi>; ‘as well as’ <hi rend="italic">before del</hi> <hi rend="italic">interl illeg</hi>; ‘lakes’ <hi rend="italic">after del</hi> <hi rend="italic">illeg</hi></note>
+                    <note xml:id="tnote.n118">7.19 furthermore] <hi rend="italic">after del</hi> ‘as well as a lake formed by detritus:’</note>
+                    <note xml:id="tnote.n119">7.19 account] <hi rend="italic">before del</hi> ‘[’for the <hi rend="italic">[illeg]</hi>‘ <hi rend="italic">del</hi>] for the melting of the snow *during the summer alone, [<hi rend="italic">interl</hi>] or accumulated of’</note>
+                    <note xml:id="tnote.n120">7.20 bodies] <hi rend="italic">above del</hi> ‘body’</note>
+                    <note xml:id="tnote.n121">7.20 formerly] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n122">7.21 outlets;] <hi rend="italic">semicolon over full stop</hi></note>
+                    <note xml:id="tnote.n123">7.21 for] <hi rend="italic">over</hi> <hi rend="italic">closing square bracket</hi></note>
+                    <note xml:id="tnote.n124">7.21 for … summer.) 7.22] <hi rend="italic">added</hi></note>
+                    <note xml:id="tnote.n125">7.21 of the whole year,] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n126">7.22 flow away] <hi rend="italic">above del</hi> ‘escape’</note>
+                    <note xml:id="tnote.n127">7.22 summer.)] <hi rend="italic">square bracket in MS</hi> <hi rend="italic">indicating end of paragraph</hi></note>
+                    <note xml:id="tnote.n128">8.1 (Opposed] <hi rend="italic">square bracket in MS</hi> <hi rend="italic">indicating start of new paragraph</hi></note>
+                    <note xml:id="tnote.n129">8.1 appear] <hi rend="italic">altered from</hi> ‘appears’; <hi rend="italic">before del</hi> ‘to me *to be [<hi rend="italic">interl</hi>]’</note>
+                    <note xml:id="tnote.n130">8.2 existence] <hi rend="italic">before del</hi> ‘of the’</note>
+                    <note xml:id="tnote.n131">8.2 described] <hi rend="italic">after del</hi> ‘betw’</note>
+                    <note xml:id="tnote.n132">8.3 shelf] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n133">8.4 second shelf] <hi rend="italic">above del</hi> ‘lower one’</note>
+                    <note xml:id="tnote.n134">8.4 extending, according to] <hi rend="italic">above del</hi> ‘which’</note>
+                    <note xml:id="tnote.n135">8.4 Milne] <hi rend="italic">before del</hi> ‘traced’</note>
+                    <note xml:id="tnote.n136">8.5 at the level of] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n137">8.5 shelves] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n138">8.5 there are no 8.6] <hi rend="italic">interl after del</hi> ‘is no’; <hi rend="italic">after interl del</hi> ‘have’</note>
+                    <note xml:id="tnote.n139">8.6 outlets] <hi rend="italic">altered from</hi> ‘outlet’</note>
+                    <note xml:id="tnote.n140">8.6 surrounding] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n141">8.6 &amp;] <hi rend="italic">after del</hi> ‘at these levels’</note>
+                    <note xml:id="tnote.n142">8.6 streams] <hi rend="italic">above del</hi> ‘water’</note>
+                    <note xml:id="tnote.n143">8.7 in both cases] <hi rend="italic">interl</hi> <hi rend="italic">before del</hi> ‘over the ice itself [<hi rend="italic">interl</hi>]’</note>
+                    <note xml:id="tnote.n144">8.7 over the ice itself] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n145">8.8 their channels,] ‘their’ <hi rend="italic">after del</hi> ‘its’, <hi rend="italic">below del</hi> ‘their its’; ‘channels’ <hi rend="italic">altered from</hi> ‘channel’</note>
+                    <note xml:id="tnote.n146">8.8 so that] <hi rend="italic">after del</hi> ‘: I state for’</note>
+                    <note xml:id="tnote.n147">8.8 were retained] <hi rend="italic">above del</hi> ‘kept’</note>
+                    <note xml:id="tnote.n148">8.8 say] <hi rend="italic">interl after del</hi> ‘state’</note>
+                    <note xml:id="tnote.n149">8.9 is] <hi rend="italic">interl after del</hi> ‘appeared to me’</note>
+                    <note xml:id="tnote.n150">8.11 lapse] <hi rend="italic">above del</hi> ‘lapse’</note>
+                    <note xml:id="tnote.n151">8.12 ice-] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n152">8.12 (Lyell’s … p. 198) 8.13] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n153">8.13 water] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n154">8.13 over the ice] <hi rend="italic">above del</hi> ‘water’</note>
+                    <note xml:id="tnote.n155">8.13 did] <hi rend="italic">before del</hi> <hi rend="italic">interl</hi> ‘very’</note>
+                    <note xml:id="tnote.n156">8.13 deepen] <hi rend="italic">after del</hi> ‘cut’</note>
+                    <note xml:id="tnote.n157">8.14 channel: to] <hi rend="italic">semicolon over full stop</hi>; ‘to’ <hi rend="italic">altered from</hi> ‘To’</note>
+                    <note xml:id="tnote.n158">8.14 onward] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n159">8.14 glaciers] ‘s’ <hi rend="italic">added</hi></note>
+                    <note xml:id="tnote.n160">8.15 channels,] <hi rend="italic">altered from</hi> ‘channel,’</note>
+                    <note xml:id="tnote.n161">8.15 appears] <hi rend="italic">above del</hi> ‘as I should think would be a’</note>
+                    <note xml:id="tnote.n162">8.16 , one above the other,] <hi rend="italic">above del</hi> ‘at more than one level,’</note>
+                    <note xml:id="tnote.n163">8.16 the other] <hi rend="italic">above del</hi> ‘several’</note>
+                    <note xml:id="tnote.n164">8.16 described] <hi rend="italic">after del</hi> <hi rend="italic">illeg</hi></note>
+                    <note xml:id="tnote.n165">8.17 drainage-] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n166">8.17 at their levels] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n167">8.18 itself] <hi rend="italic">after omitted point</hi></note>
+                    <note xml:id="tnote.n168">8.19 rather] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n169">8.19 Kilfinnin] ‘l’ <hi rend="italic">over</hi> ‘f’</note>
+                    <note xml:id="tnote.n170">8.19 Great] ‘G’ <hi rend="italic">over</hi> ‘g’</note>
+                    <note xml:id="tnote.n171">8.22 if this be seen a true shelf,] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n172">8.23 on any lake theory,] <hi rend="italic">interl</hi>; ‘any’ <hi rend="italic">above del</hi> ‘the ice-’</note>
+                    <note xml:id="tnote.n173">8.24 hard &amp; solid] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n174">8.24 have been] <hi rend="italic">above del</hi> ‘are’</note>
+                    <note xml:id="tnote.n175">8.24 mouth] <hi rend="italic">after del</hi> ‘level of the’</note>
+                    <note xml:id="tnote.n176">8.25 lowest] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n177">8.25 shelf,] <hi rend="italic">before del</hi> ‘(th’</note>
+                    <note xml:id="tnote.n178">8.25 cut] <hi rend="italic">after del</hi> ‘are’</note>
+                    <note xml:id="tnote.n179">8.25 large] <hi rend="italic">above del</hi> ‘great’</note>
+                    <note xml:id="tnote.n180">8.26 pebbles in] ‘in’ <hi rend="italic">over</hi> ‘at’</note>
+                    <note xml:id="tnote.n181">8.26 buttresses] <hi rend="italic">before del</hi> ‘at’</note>
+                    <note xml:id="tnote.n182">8.26 those] <hi rend="italic">before del</hi> ‘on isolated’</note>
+                    <note xml:id="tnote.n183">8.27 (as on Meal Roy … stream 8.28] <hi rend="italic">interl</hi>; ‘on’ <hi rend="italic">after del</hi> ‘at’; ‘stream’ <hi rend="italic">before del</hi> ‘of water’</note>
+                    <note xml:id="tnote.n184">8.28 which facts] <hi rend="italic">added</hi></note>
+                    <note xml:id="tnote.n185">8.28 me to] ‘to’ <hi rend="italic">added</hi></note>
+                    <note xml:id="tnote.n186">8.31 many] <hi rend="italic">above del</hi> ‘some’</note>
+                    <note xml:id="tnote.n187">8.31 proved] <hi rend="italic">before del</hi> <hi rend="italic">interl</hi> ‘&amp; in all cases’</note>
+                    <note xml:id="tnote.n188">8.31 origin.] <hi rend="italic">full stop</hi> <hi rend="italic">altered from</hi> <hi rend="italic">comma</hi></note>
+                    <note xml:id="tnote.n189">8.31 And lastly 8.32] <hi rend="italic">above del</hi> ‘&amp; the evidence afforded by’</note>
+                    <note xml:id="tnote.n190">8.32 the huge] ‘the’ <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n191">8.32 every] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n192">8.32 level] <hi rend="italic">altered from</hi> ‘levels’</note>
+                    <note xml:id="tnote.n193">8.33 in Glen Spean] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n194">8.33 and built of stratified rounded pebbles,] <hi rend="italic">interl</hi>; ‘and’ <hi rend="italic">interl within interl</hi>; ‘stratified’ <hi rend="italic">interl within interl</hi></note>
+                    <note xml:id="tnote.n195">8.34 for these afford good evidence that] <hi rend="italic">interl after del</hi> ‘which show that the’; ‘for these’ <hi rend="italic">above del</hi> ‘which’</note>
+                    <note xml:id="tnote.n196">8.34 receded] <hi rend="italic">before del</hi> ‘ex [<hi rend="italic">del</hi>] (or the land rose) extremely’</note>
+                    <note xml:id="tnote.n197">8.34 this valley] <hi rend="italic">above del</hi> ‘Glen Spean’</note>
+                    <note xml:id="tnote.n198">8.35 standing … slowly 8.36] <hi rend="italic">above del</hi> ‘so slowly, for I firmly believe it must have stood for centuries at every successive [<hi rend="italic">interl</hi>] foot of height in this valley,’</note>
+                    <note xml:id="tnote.n199">8.36 recession] <hi rend="italic">after del</hi> ‘drainage could have been over ice.’</note>
+                    <note xml:id="tnote.n200">8.36 by] <hi rend="italic">above del</hi> ‘was’</note>
+                    <note xml:id="tnote.n201">8.37 ice.)] <hi rend="italic">square bracket in MS</hi> <hi rend="italic">indicating end of paragraph</hi></note>
+                    <note xml:id="tnote.n202">9.1 (Weighing,] <hi rend="italic">square bracket in MS</hi> <hi rend="italic">indicating start of new paragraph</hi></note>
+                    <note xml:id="tnote.n203">9.1 hands] <hi rend="italic">above del</hi> ‘sides’</note>
+                    <note xml:id="tnote.n204">9.2 theory.] <hi rend="italic">before del</hi> <hi rend="italic">interl</hi> ‘published by me in the Philosophical Transactions’</note>
+                    <note xml:id="tnote.n205">9.3 over the entire country,] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n206">9.6 to me] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n207">9.6 probable,] <hi rend="italic">before del</hi> ‘to me,’</note>
+                    <note xml:id="tnote.n208">9.6 a slowly] <hi rend="italic">above del</hi> ‘when’</note>
+                    <note xml:id="tnote.n209">9.6 surface] <hi rend="italic">above del</hi> ‘land’</note>
+                    <note xml:id="tnote.n210">9.7 at once,] <hi rend="italic">above del</hi> ‘suddenly,’</note>
+                    <note xml:id="tnote.n211">9.7 the case,] <hi rend="italic">above del</hi> ‘so,’</note>
+                    <note xml:id="tnote.n212">9.8 rocky] <hi rend="italic">above del</hi> ‘gaps in the’</note>
+                    <note xml:id="tnote.n213">9.8 islands,] <hi rend="italic">before del</hi> ‘in’</note>
+                    <note xml:id="tnote.n214">9.8 when brought within the tidal action in 9.9] <hi rend="italic">interl</hi>; ‘the’ <hi rend="italic">interl within interl</hi></note>
+                    <note xml:id="tnote.n215">9.9 to nearly] <hi rend="italic">above del</hi> ‘as to the’</note>
+                    <note xml:id="tnote.n216">9.9 level] <hi rend="italic">before del</hi> ‘of the’</note>
+                    <note xml:id="tnote.n217">9.10 On the other hand,] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n218">9.10 the outlets] ‘the’ <hi rend="italic">altered from</hi> ‘The’</note>
+                    <note xml:id="tnote.n219">9.11 to me,] <hi rend="italic">before del</hi> ‘on the other hand,’</note>
+                    <note xml:id="tnote.n220">9.11 (but perhaps I was mistaken)] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n221">9.13 theory] <hi rend="italic">above del</hi> <hi rend="italic">interl</hi> ‘theory’; <hi rend="italic">after del interl illeg</hi></note>
+                    <note xml:id="tnote.n222">9.13 be found to be] <hi rend="italic">above del</hi> ‘prove’</note>
+                    <note xml:id="tnote.n223">9.13 believe] <hi rend="italic">before del</hi> <hi rend="italic">caret</hi></note>
+                    <note xml:id="tnote.n224">9.13 the theory] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n225">9.14 Dick] <hi rend="italic">after del</hi> ‘L’</note>
+                    <note xml:id="tnote.n226">9.15 round] <hi rend="italic">above del</hi> ‘on’</note>
+                    <note xml:id="tnote.n227">9.16 sea.)] <hi rend="italic">square bracket in MS</hi> <hi rend="italic">indicating end of paragraph</hi></note>
+                    <note xml:id="tnote.n228">10.1 (The] <hi rend="italic">square bracket in MS</hi> <hi rend="italic">indicating start of new paragraph</hi></note>
+                    <note xml:id="tnote.n229">10.1 or corroboration 10.2] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n230">10.2 are] <hi rend="italic">before del</hi> <hi rend="italic">comma</hi></note>
+                    <note xml:id="tnote.n231">10.3 by] <hi rend="italic">after del</hi> ‘at the’</note>
+                    <note xml:id="tnote.n232">10.3 beyond] <hi rend="italic">after del</hi> ‘or’</note>
+                    <note xml:id="tnote.n233">10.5 main] <hi rend="italic">after del</hi> ‘upper’</note>
+                    <note xml:id="tnote.n234">10.6 simply] <hi rend="italic">above del</hi> ‘only’</note>
+                    <note xml:id="tnote.n235">10.6 as if by … drifting icebergs: 10.7] <hi rend="italic">interl</hi>; ‘drifting’ <hi rend="italic">after del</hi> ‘floa’</note>
+                    <note xml:id="tnote.n236">10.7 actual] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n237">10.7 valley] <hi rend="italic">before del caret</hi></note>
+                    <note xml:id="tnote.n238">10.8 Can] <hi rend="italic">after del</hi> ‘The same query’</note>
+                    <note xml:id="tnote.n239">10.8 in the bed] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n240">10.9 valley] <hi rend="italic">above del</hi> ‘glen’</note>
+                    <note xml:id="tnote.n241">10.10 Gluoy] ‘o’ <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n242">10.11 rock,] <hi rend="italic">before del</hi> ‘water’</note>
+                    <note xml:id="tnote.n243">10.11 can] <hi rend="italic">altered from</hi> ‘Can’</note>
+                    <note xml:id="tnote.n244">10.13 important.] <hi rend="italic">full stop</hi> <hi rend="italic">altered from</hi> <hi rend="italic">semicolon</hi></note>
+                    <note xml:id="tnote.n245">10.14 in the bed of] <hi rend="italic">above del</hi> ‘one of’</note>
+                    <note xml:id="tnote.n246">10.14 which forms] <hi rend="italic">above del</hi> ‘forming’ <hi rend="italic">after del</hi> ‘form’</note>
+                    <note xml:id="tnote.n247">10.14 of Glen] ‘of’ <hi rend="italic">above del</hi> ‘from’</note>
+                    <note xml:id="tnote.n248">10.15 would] <hi rend="italic">before del</hi> ‘to my mind prove’</note>
+                    <note xml:id="tnote.n249">10.15 offer] <hi rend="italic">above del</hi> ‘be a’</note>
+                    <note xml:id="tnote.n250">10.15 evidence] <hi rend="italic">above del</hi> ‘proof’</note>
+                    <note xml:id="tnote.n251">10.15 the valleys] <hi rend="italic">after del</hi> ‘the’; <hi rend="italic">after del interl</hi> ‘such a’; ‘valleys’ <hi rend="italic">altered from</hi> ‘valley’</note>
+                    <note xml:id="tnote.n252">10.15 occupied by] <hi rend="italic">before del</hi> ‘a’</note>
+                    <note xml:id="tnote.n253">10.16 river] <hi rend="italic">altered from</hi> ‘rivers’</note>
+                    <note xml:id="tnote.n254">10.16 tidal] <hi rend="italic">before del</hi> ‘straits’</note>
+                    <note xml:id="tnote.n255">10.16 strait.] <hi rend="italic">altered from</hi> ‘straits’; <hi rend="italic">above del</hi> ‘streams.’</note>
+                    <note xml:id="tnote.n256">10.17 with] <hi rend="italic">above del</hi> ‘of’</note>
+                    <note xml:id="tnote.n257">10.17 shelf,] <hi rend="italic">after del</hi> <hi rend="italic">illeg</hi></note>
+                    <note xml:id="tnote.n258">10.17 me,] <hi rend="italic">before del</hi> ‘then’</note>
+                    <note xml:id="tnote.n259">10.19 partially obliterated 10.20] <hi rend="italic">above del</hi> ‘<hi rend="italic">[illeg]</hi> smoothed’</note>
+                    <note xml:id="tnote.n260">10.20 or of glacier action, such as perched boulders &amp;c 10.21] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n261">10.21 Gluoy] <hi rend="italic">above del</hi> ‘Gluy’</note>
+                    <note xml:id="tnote.n262">11.1 (5<hi rend="superscript">th</hi>) … Tomhbran. 11.4] <hi rend="italic">added</hi></note>
+                    <note xml:id="tnote.n263">11.1 near] <hi rend="italic">above del</hi> ‘at’</note>
+                    <note xml:id="tnote.n264">12.1 (6<hi rend="superscript">th</hi>)] ‘6’ <hi rend="italic">over</hi> ‘5’</note>
+                    <note xml:id="tnote.n265">12.1 M. Agassiz] <hi rend="italic">after del</hi> ‘The’</note>
+                    <note xml:id="tnote.n266">12.1 that] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n267">12.1 three] <hi rend="italic">above del</hi> ‘three’</note>
+                    <note xml:id="tnote.n268">12.3 were] <hi rend="italic">above del</hi> ‘are’</note>
+                    <note xml:id="tnote.n269">12.3 7<hi rend="superscript">th</hi>.] ‘7’ <hi rend="italic">over</hi> ‘6’</note>
+                    <note xml:id="tnote.n270">12.4 (p. 45)] <hi rend="italic">above del</hi> ‘(p 61).’</note>
+                    <note xml:id="tnote.n271">12.6 by] <hi rend="italic">above del</hi> ‘of’</note>
+                    <note xml:id="tnote.n272">12.7 &amp;] <hi rend="italic">before del</hi> ‘on’</note>
+                    <note xml:id="tnote.n273">12.7 the successive shelves, one] <hi rend="italic">above del</hi> ‘one’</note>
+                    <note xml:id="tnote.n274">12.8 as existing elsewhere] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n275">12.9 of the] ‘the’ <hi rend="italic">over</hi> ‘a’; <hi rend="italic">before del</hi> ‘Glen Spean shelf’</note>
+                    <note xml:id="tnote.n276">12.10 believe] <hi rend="italic">before del</hi> ‘most’</note>
+                    <note xml:id="tnote.n277">12.12 that] <hi rend="italic">before del</hi> ‘I do not think’</note>
+                    <note xml:id="tnote.n278">12.13 the horizontal] ‘the’ <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n279">12.13 not] <hi rend="italic">interl</hi> <hi rend="italic">before del</hi> ‘prove not’; <hi rend="italic">before del interl</hi> ‘far from’</note>
+                    <note xml:id="tnote.n280">12.13 demonstrate] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n281">12.14 theories] <hi rend="italic">above del</hi> ‘theory’</note>
+                    <note xml:id="tnote.n282">12.14 Scotland] <hi rend="italic">after del</hi> ‘the late’</note>
+                    <note xml:id="tnote.n283">12.14 late] ‘l’ <hi rend="italic">over</hi> <hi rend="italic">illeg</hi></note>
+                    <note xml:id="tnote.n284">12.15 if they sh<hi rend="superscript">d</hi> be proved strictly horizontal, 12.16] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n285">12.16 vast] <hi rend="italic">after del</hi> <hi rend="italic">illeg</hi></note>
+                    <note xml:id="tnote.n286">12.16 which] <hi rend="italic">after del</hi> ‘occurr’</note>
+                    <note xml:id="tnote.n287">12.16 upraised] <hi rend="italic">above del</hi> ‘uplifted <hi rend="italic">[illeg]</hi>’</note>
+                    <note xml:id="tnote.n288">12.17 sea,] <hi rend="italic">before del</hi> ‘would’</note>
+                    <note xml:id="tnote.n289">12.17 some] <hi rend="italic">above del</hi> ‘a’</note>
+                    <note xml:id="tnote.n290">12.17 districts] <hi rend="italic">altered from</hi> ‘district’</note>
+                    <note xml:id="tnote.n291">12.18 uplifted] <hi rend="italic">above del</hi> ‘upraised upraised’</note>
+                    <note xml:id="tnote.n292">12.18 equability.)] <hi rend="italic">square bracket in MS</hi> <hi rend="italic">indicating end of paragraph</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the relationship to the <ref target="./DCP-LETT-1120.xml" resp="#mjhawkins">letter to David Milne, 20 [September 1847]</ref>. This letter to the <hi rend="italic">Scotsman</hi> was not published (see <ref target="./DCP-LETT-1126.xml" resp="#mjhawkins">letter to Charles Lyell, [11 October 1847]</ref>).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_3115.xml" resp="#mjhawkins">Charles Maclaren</ref>, who was particularly interested in geology and had earlier corresponded with CD (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 2), which is perhaps the reason why CD chose to send his letter to the <hi rend="italic">Scotsman</hi>.</note>
+            <note xml:id="foot.f3">Milne 1847b.</note>
+            <note xml:id="foot.f4"><ref target="../bibliographies/bibl_6177.xml" resp="#mjhawkins">‘Observations on the parallel roads of Glen Roy’</ref>, <ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 1: 87–137.</note>
+            <note xml:id="foot.f5">Glen Glaster (Milne 1847b, p. 4; 1849, p. 398).</note>
+            <note xml:id="foot.f6"><ref target="../bibliographies/bibl_154.xml" resp="#mjhawkins">‘Notes on the effects produced by the ancient glaciers of Caernarvonshire’</ref>, <ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 1: 163–71, was originally published in the <hi rend="italic">London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science</hi> 21 (1842): 180–8. CD’s reference is to having ascended Moel Tryfan in an unsuccessful attempt to find the shells said to have been discovered at a height of 1192 feet by <ref target="../nameregs/nameregs_4807.xml" resp="#mjhawkins">Joshua Trimmer</ref>.</note>
+            <note xml:id="foot.f7">Glen Gluoy.</note>
+            <note xml:id="foot.f8"><ref target="../nameregs/nameregs_3051.xml" resp="#mjhawkins">Charles Lyell</ref> had described this Swiss valley in <ref target="../bibliographies/bibl_5009.xml" resp="#mjhawkins">C. Lyell 1847</ref>, p. 198. A lake had been formed in it by an avalanche of snow and ice blocking a pass. The melting of the ice-dam in 1818 caused a great inundation.</note>
+            <note xml:id="foot.f9">The mountain of Tombhran. See <ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 1: 112.</note>
+            <note xml:id="foot.f10">‘A piece of flat alluvial land by the side of a river, forming part of the floor of the river valley’ (<ref target="../bibliographies/bibl_5936.xml" resp="#mjhawkins"><hi rend="italic">OED</hi></ref>).</note>
+            <note xml:id="foot.f11"><ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 1: 112.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

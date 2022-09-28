@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10962">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From W. H. Flower to Otto Zacharias   17 May 1877</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">512</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10962 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10962.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10962.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.512)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>512</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1670.xml">Flower, W. H.</persName>
+                <placeName>Royal College of Surgeons</placeName>
+                <date when="1877-05-17">17 May 1877</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_5291.xml">Zacharias, Otto</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Further discussion of structure of abnormal pig’s foot.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">pig</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">monstrosity</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Royal College of Surgeons of England, | Lincoln’s Inn Fields, | (W.C.)</hi></placeName>
+                    <date>17<hi rend="superscript">th</hi>. <hi rend="print">day of</hi> May <hi rend="print">187</hi>7</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am much obliged to you for the information about the pig’s foot so kindly supplied to me in your letter of the 10<hi rend="superscript">th</hi>. of May.<ref target="#foot.f1"/></p>
+<p>Your plan for collecting and publishing similar cases appears to be a very good one, and I hope that you will be able to carry it out successfully. As you are interested in the subject I will send you a copy of the Catalogue of our Teratological Series; many additions have been made since its publication, including the one which is most like your specimen, it is a pig’s fore foot (and as in your case <hi rend="underline">both</hi> fore feet were similarly malformed, and the hind feet normal) with an additional toe on the <hi rend="underline">inner</hi> side of the foot—the difference being that the toe is not quite so large, and, is articulated above with the same bone as the 2<hi rend="superscript">d</hi>. toe, whereas in yours there is an additional bone in the carpus.</p> 
+<figure type="diagram"> 
+<p>[DIAG HERE]</p> </figure> 
+<p>This is a sketch of the arrangement in our specimen No <hi rend="underline">297A.</hi><ref target="#foot.f2"/> Yours will be very interesting to place beside it, as a further development of the same condition</p>
+<p>Believe me | your’s very faithfully. | W. H. Flower</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The letter from <ref target="../nameregs/nameregs_5291.xml" resp="#mjhawkins">Otto Zacharias</ref> to William Flower has not been found. Zacharias had sent CD a pig’s foot, which CD had forwarded to Flower for examination as a possible case of polydactylism (see <ref target="./DCP-LETT-10936.xml" resp="#mjhawkins">letter from Otto Zacharias, 21 April 1877</ref>, and <ref target="./DCP-LETT-10950.xml" resp="#mjhawkins">letter from W. H. Flower, 3 May 1877</ref>).</note>
+            <note xml:id="foot.f2">Flower intended to send the <hi rend="italic">Descriptive catalogue of the teratological series in the museum of the Royal College of Surgeons of England</hi> (<ref target="../bibliographies/bibl_10210.xml" resp="#mjhawkins">Lowne 1872</ref>). The pig’s foot described by Flower and the one sent by Zacharias were added to a later edition of the catalogue (Lowne and Masters 1893, p. 100, specimens 391 and 393).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

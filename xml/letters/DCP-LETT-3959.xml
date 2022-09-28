@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3959">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Henry Holland   [10 February 1863]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14357</idno>
+            
+            
+            
+            
+            <date when="1999">1999</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3959 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3959.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3959.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="11">11</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 166: 243</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>166: 243</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2337.xml">Holland, Henry</persName>
+                <placeName>London, Queen Anne St</placeName>
+                <date when="1863-02-10">[10 Feb 1863]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Cites [C. F.?] Burdach as the source of a note on atavism in alternate generations.</p>
+            <p>Wants to talk to CD about inheritance.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_731">Burdach, K. F.</term>
+                <term type="scientific_terms" ref="#">generations</term>
+                <term type="scientific_terms" ref="#">heredity</term>
+                <term type="scientific_terms" ref="#">quotations / citations</term>
+                <term type="scientific_terms" ref="#">reversion</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Q Anne Street<ref target="#foot.f2"/></placeName>
+                    <date>Tuesday</date>
+                    <salute>My dear Charles,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>After you left me yesterday I found the note, which I had sought for unsuccessfully, touching the particular form of Atavism, in <hi rend="underline">alternate generations</hi>.<ref target="#foot.f3"/></p>
+<p>It was <hi rend="underline">Burdach</hi> (whose name you well know) who described this result from averages largely taken.<ref target="#foot.f4"/> My note does not go beyond this mere fact; but having the name of the observer, you will be able easily to find further information, if the point is of any value to you.</p>
+<p>When you happen to be in Town again, let me know it, that I may have the satisfaction of talking over with you many matters of <hi rend="underline">fact</hi> &amp; <hi rend="underline">thought</hi>, on this most interesting &amp; obscure of all subjects—the hereditary transmission of physical characters, of instincts, &amp; of mental faculties.</p>
+<p>Ever yours aff<hi rend="superscript">y</hi> | H Holland</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the reference to CD’s stay in London (see n. 3, below); the only Tuesday during this time was 10 February.</note>
+            <note xml:id="foot.f2">Holland had apparently called at <ref target="../nameregs/nameregs_1211.xml" resp="#mjhawkins">Erasmus Alvey Darwin’s</ref> house, 6 Queen Anne Street, where CD was staying at that time (see n. 3, below), and left this note.</note>
+            <note xml:id="foot.f3">CD was in London from 4 to 14 February 1863. Between January and April 1863, CD wrote a draft of the chapters on inheritance for <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> (see ‘Journal’ (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 11, Appendix II)).</note>
+            <note xml:id="foot.f4">Reversion, or atavism, is discussed in <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 2: 28–61; however, the work of <ref target="../nameregs/nameregs_731.xml" resp="#mjhawkins">Karl Friedrich Burdach</ref> is not cited in this discussion, and the reference has not been identified.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8555">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From R. F. Cooke   11 October 1872</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9593</idno>
+            
+            
+            
+            
+            <date when="2013">2013</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8555 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8555.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8555.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="20">20</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 424</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 424</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent" subtype="personGrp">
+                <persName key="../nameregs/nameregs_1053.xml">Cooke, R. F.</persName>
+                <persName key="../nameregs/nameregs_2575.xml">John Murray, Publishers</persName>
+                <placeName>London, Albemarle St, 50a</placeName>
+                <date when="1872-10-11">11 Oct 1872</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>D. Appleton has been sent 3000 sets of plates [for <hi rend="italic">Expression</hi>]. Hopes to publish [<hi rend="italic">Expression</hi>] on 12 Nov.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Expression</term>
+                <term type="people" ref="#subject_137">Appleton, Daniel</term>
+                <term type="scientific_terms" ref="#">expression, emotion</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">50A, Albemarle Street, London, W.</hi></placeName>
+                    <date>Oct<hi rend="superscript">r</hi>. 11 <hi rend="print">187</hi>2</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have written to Clowes to say if they have not already sent off some of the Stereotypes to Appleton’s to do so forthwith &amp; I have written to their agent here, to look after Mess<hi rend="superscript">rs</hi>. Clowes &amp; have sent him this day 3000 sets of the Heliotypes &amp; said I hope the remaining 2000 will be with him next week.<ref target="#foot.f1"/></p>
+<p>You ought to have received a letter from me about the Title &amp;c of y<hi rend="superscript">r</hi> work, but from what I hear, they have now all been returned for press. Our Annual Trade Sale is fixed for Nov. 8<hi rend="superscript">th</hi>. &amp; I therefore hope we may publish your work on the 12<hi rend="superscript">th</hi>.<ref target="#foot.f2"/></p>
+<p>I have written to ask y<hi rend="superscript">r</hi> wishes as to binding.<ref target="#foot.f3"/></p>
+<p>Yours faithfully | Rob<hi rend="superscript">t</hi>. Cooke <lb resp="#mjhawkins"/></p>
+<p rend="left">Cha<hi rend="superscript">s</hi>. Darwin Esq<hi rend="superscript">r</hi>.</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_979.xml" resp="#mjhawkins">William Clowes &amp; Sons</ref> was the printing firm employed by CD’s publisher, John Murray. <ref target="../nameregs/nameregs_135.xml" resp="#mjhawkins">D. Appleton &amp; Co</ref>., CD’s US publisher, had requested stereotypes of the text and woodcuts of <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref> and copies of the heliotype plates; <ref target="../nameregs/nameregs_2844.xml" resp="#mjhawkins">Charles Layton</ref> was the firm’s agent in London (see <ref target="./DCP-LETT-8466.xml" resp="#mjhawkins">letter from Charles Layton, 13 August 1872</ref>).</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref> was published on 26 November 1872 (<ref target="../bibliographies/bibl_2661.xml" resp="#mjhawkins">Freeman 1977</ref>).</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-8549.xml" resp="#mjhawkins">letter from R. F. Cooke, 9 October 1872</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

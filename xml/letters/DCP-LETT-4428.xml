@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4428">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From J. D. Hooker   16 March 1864</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">4349</idno>
+            
+            
+            
+            
+            <date when="2001">2001</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4428 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4428.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4428.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="12">12</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 152: 176</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 101: 188</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>101: 188</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2357.xml">Hooker, J. D.</persName>
+                <placeName>Kew</placeName>
+                <date when="1864-03-16">16 Mar 1864</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>List of four plants sent.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00375_files/8/0_0.jpg" width="3078px" height="5406px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00375_files/11/1_1.jpg" width="3078px" height="5406px"/>
+        <surface xml:id="i1" n="188r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00375.jpg" rend="portrait" width="3078px" height="5406px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00375_files/8/0_0.jpg" width="3078px" height="5406px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00375.dzi" width="3078px" height="5406px"/>
+        </surface>
+        <surface xml:id="i2" n="188v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00376.jpg" rend="portrait" width="3078px" height="5406px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00376_files/8/0_0.jpg" width="3078px" height="5406px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00376.dzi" width="3078px" height="5406px"/>
+        </surface>
+    </facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <seg type="supplemental">Ruscus</seg><seg type="supplemental">androgynus</seg><seg type="supplemental">Myrsiphyllum</seg><seg type="supplemental">Asparagus</seg><seg type="supplemental">Smilax</seg>
+                    <salute>My dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>With the exception of the above which are green-house plants, all the others are stove things—<ref target="#foot.f1"/></p>
+<p>They all went to day to the Down postman.</p>
+<p>Ever yr affec | J D Hooker <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Kew March 16/64.</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had asked which plants, on a list that has not been found, were for his greenhouse and which for his hothouse (see <ref target="./DCP-LETT-4426.xml" resp="#mjhawkins">letter from Emma Darwin to J. D. Hooker, 12 March [1864]</ref>); he had also asked Hooker for <hi rend="italic">Smilax</hi> in an earlier letter (see <ref target="./DCP-LETT-4414.xml" resp="#mjhawkins">letter to J. D. Hooker, 24 [February 1864]</ref> and n. 1). Although <hi rend="italic">Myrsiphyllum</hi>, which is now known as <hi rend="italic">Asparagus</hi>, is not mentioned in any of CD’s publications, the other three plants are discussed in <ref target="../bibliographies/bibl_1456.xml" resp="#mjhawkins">‘Climbing plants’</ref>; both <hi rend="italic">Ruscus androgynus</hi> and <hi rend="italic">Asparagus</hi> are discussed in the section on spirally twining plants (see <hi rend="italic">ibid.</hi>, pp. 2–25, and note on <hi rend="italic">R. androgynus</hi> in DAR 157.1: 21).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

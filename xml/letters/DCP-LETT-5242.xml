@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5242">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Thomas Rivers   14 October 1866</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10537</idno>
+            
+            
+            
+            
+            <date when="2004">2004</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5242 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5242.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5242.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="14">14</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 176: 169</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>176: 169</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4019.xml">Rivers, Thomas</persName>
+                <placeName>Sawbridgeworth</placeName>
+                <date when="1866-10-14">14 Oct 1866</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends CD a letter from Mr Claydon responding to TR’s doubts and confirming the truth of a report that a farmer had "transmuted" oats into barley.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">barley</term>
+                <term type="plants" ref="#">oats</term>
+                <term type="people" ref="#">Claydon, Mr</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">transmutation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Bonks Hill, | Sawbridgeworth.</hi></placeName>
+                    <date>Oct 14/66</date>
+                    <salute>My Dear Sir/</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>When looking over some grass a species of Bromus from the North Western coast of America—with a friend &amp; botanist we noticed some oats that were producing ears of barley   this led to the assertion made by Elihu Burritt in his “Walk through the Eastern Counties” that a farmer at S<hi rend="superscript">t</hi>. Ives Hunts had for years “transmuted” oats into barley.<ref target="#foot.f1"/> doubting this I wrote to the writer of the enclosed<ref target="#foot.f2"/> a farmer of 1600 acres a Member of the Council of the Royal Agricultural Society &amp; above all a good &amp; truthful gentleman. The subject may possibly be an old one with you but to me so curious &amp; well authenticated as to tempt me to trouble you.<ref target="#foot.f3"/> The writer’s name is M<hi rend="superscript">r</hi>. J<hi rend="superscript">no</hi>. Claydon<ref target="#foot.f4"/></p>
+<p>I am My D<hi rend="superscript">r</hi>. Sir | Y<hi rend="superscript">rs</hi>. very truly | Th<hi rend="superscript">os</hi>. Rivers</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Burritt’s claim that oats ‘transmuted’ into barley appeared in <hi rend="italic">A walk from London to John O’Groat’s</hi> (<ref target="../bibliographies/bibl_1112.xml" resp="#mjhawkins">Burritt 1864</ref>, pp. 170–1). St Ives is near Huntingdon in Cambridgeshire.</note>
+            <note xml:id="foot.f2">The enclosure has not been found.</note>
+            <note xml:id="foot.f3">For earlier discussions on the transmutation of oats into barley, see <ref target="./DCP-LETT-5151.xml" resp="#automat">letter from G. S. Gibson, 7 July 1866</ref>, and <ref target="./DCP-LETT-5156.xml" resp="#automat">letter from S. V. Wood, 16 July 1866</ref>.</note>
+            <note xml:id="foot.f4">Rivers probably refers to <ref target="../nameregs/nameregs_5391.xml" resp="#mjhawkins">John Clayden</ref> of Littlebury, Saffron Walden, Essex, a member of the council of the Royal Agricultural Society (<hi rend="italic">Journal of the Royal Agricultural Society of England</hi> 2d ser. 2 (1866): ii).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

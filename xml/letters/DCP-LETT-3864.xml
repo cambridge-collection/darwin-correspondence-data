@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3864">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Lubbock   16 [December 1862]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8444</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3864 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3864.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3864.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 146: 110</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 263</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>263: 51 (EH 88206495)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1862-12-16">16 [Dec 1862]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3026.xml">Lubbock, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>H. W. Bates’s paper; CD will review it. ["Mimetic butterflies" (1863), <hi rend="italic">Collected papers</hi> 2: 87–92.]</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">butterflies, mimetic</term>
+                <term type="it" ref="#">Collected papers</term>
+                <term type="rf.d" ref="#">review of Bates</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">mimicry</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>16<hi rend="superscript">th</hi></date>
+                    <salute>My dear Lubbock</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>You are right, I am a selfish dog.— I am aghast at all you have to do.<ref target="#foot.f2"/> In a day or two I will do my best (but I confess to sighs &amp; groans) to give your readers a brief notion of Bates’ paper; how far I shall succeed, I know not.—<ref target="#foot.f3"/></p>
+<p>I wonder what you are going to Lecture on at Royal. Inst<hi rend="superscript">n</hi>—<ref target="#foot.f4"/></p>
+<p>Most truly yours | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 (but … groans)] <hi rend="italic">parentheses over commas</hi></note>
+                    <note xml:id="tnote.n2">2.1 at] <hi rend="italic">over</hi> ‘.—’</note>
+                </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship to the <ref target="./DCP-LETT-3862.xml" resp="#mjhawkins">letter from John Lubbock, 15 December 1862</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-3862.xml" resp="#mjhawkins">letter from John Lubbock, 15 December 1862</ref>.</note>
+            <note xml:id="foot.f3">Lubbock was one of the editors of the <hi rend="italic">Natural History Review</hi>; CD’s review of <ref target="../bibliographies/bibl_446.xml" resp="#automat" cert="low">Bates 1862a</ref> appeared in the April 1863 number of the journal (<ref target="../bibliographies/bibl_6618.xml" resp="#mjhawkins">‘Review of Bates on mimetic butterflies’</ref>).</note>
+            <note xml:id="foot.f4">Lubbock’s lecture, ‘On the ancient lake-habitations of Switzerland’ (Lubbock 1863c), was delivered at the <ref target="../nameregs/nameregs_7845.xml" resp="#mjhawkins">Royal Institution of Great Britain</ref> on 27 February 1863.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

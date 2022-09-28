@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11725">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Virginius Dabney   20 October 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8075</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11725 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11725.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11725.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">University of Virginia Library, Special Collections (3314 1: 63 MSS 3082-a)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_431.xml">Virginia</repository>
+                    <collection>3314</collection>
+                    <idno>1: 29 MSS 3082-a</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1878-10-20">20 Oct 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1174.xml">Dabney, Virginius</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>CD is puzzled by VD’s supposed hybrid tomato. If a hybrid, it would have to result from the "direct action of the pollen of a distinct species in the mother plant". CD believes this sort of inheritance occurs in varieties (though some botanists disagree), but not for species. Suggests "bud-variation".</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">tomato</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">flowers and buds</term>
+                <term type="scientific_terms" ref="#">heredity</term>
+                <term type="scientific_terms" ref="#">hybrids</term>
+                <term type="scientific_terms" ref="#">pollen</term>
+                <term type="scientific_terms" ref="#">species, speciation</term>
+                <term type="scientific_terms" ref="#">sports</term>
+                <term type="scientific_terms" ref="#">variation</term>
+                <term type="scientific_terms" ref="#">varieties</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent,</hi> | (<hi rend="print">Railway Station | Orpington. S.E.R.</hi>)</placeName>
+                    <date>Oct 20<hi rend="superscript">th</hi> 1878</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I thank you for your very kind letter &amp; for all the trouble which you have taken in sending me the supposed hybrid Tomato.—<ref target="#foot.f1"/> I am quite perplexed by the case. If it is really a hybrid it must have been produced by the direct action of the pollen of a distinct species on the mother plant. This seems very improbable considering that they are distinct species. That in the case of varieties pollen may act on the mother plant so as to affect her fruit I believe is demonstrated, though some Botanists will not believe in such cases.—<ref target="#foot.f2"/></p>
+                    <p>Again it may possibly be a bud-variation of the Egg Plant;<ref target="#foot.f3"/> though this is improbable it is perhaps less improbable than that it sh<hi rend="superscript">d</hi>. be a hybrid of the nature indicated. So I do not know what to think, I am so much engaged that I doubt whether I can find time to sow seeds &amp; observe plants, but if I come across anyone who can be trusted to observe I will give him the seeds.—<ref target="#foot.f4"/></p>
+<p>I have many letters to write &amp; remain | Dear Sir | Yours faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.4 very] <hi rend="italic">interl</hi> </note>
+            </div>
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dabney’s letter has not been found. The tomato is <hi rend="italic">Solanum lycopersicum</hi>.</note>
+            <note xml:id="foot.f2">In <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 397–403, CD had discussed the direct action of foreign pollen on the mother plant in varieties of fruits, but noted that many supposed cases were probably cases of bud variation.</note>
+            <note xml:id="foot.f3">The eggplant or aubergine is <hi rend="italic">Solanum melongena</hi>.</note>
+            <note xml:id="foot.f4">CD sent fruit of the supposed hybrid <hi rend="italic">Solanum</hi> to Kew on 27 January 1879 (<hi rend="italic">Inwards book</hi>, p. 112, Archives, Royal Botanic Gardens, Kew). </note>
+        </div> 
+     
+    </body>
+    </text>
+</TEI>

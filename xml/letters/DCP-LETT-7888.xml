@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7888">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From T. H. Huxley   30 July 1871</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3420</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7888 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7888.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7888.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 166: 325</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>166: 325</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2486.xml">Huxley, T. H.</persName>
+                <placeName>London, Abbey Place, 26</placeName>
+                <date when="1871-07-30">30 July 1871</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Shocked at Lyell’s appearance and speech.</p>
+            <p>Family news.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Other people</term>
+                <term type="people" ref="#subject_4935">Huxley family</term>
+                <term type="people" ref="#subject_3051">Lyell, Charles</term>
+                <term type="social" ref="#">news</term>
+                <term type="social" ref="#">Other people</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>My dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I met Lyell in Waterloo Place today walking with Carrick Moore—and although what you said the other day had prepared me I was greatly shocked at his appearance and still more at his speech<ref target="#foot.f1"/>   There is no doubt it is affected in the way you describe and the fact gives me very sad forebodings about him— The Fates send me a swift &amp; speedy end whenever my time comes— I think there is nothing so lamentable as the spectacle of the wreck of a once clear &amp; vigorous mind!</p>
+<p>I am glad Frank<ref target="#foot.f2"/> enjoyed his visit to us— He is a great favorite here &amp; I hope he will understand that he is free of the house— It was the greatest fun to see Jess &amp; Mady<ref target="#foot.f3"/> on their dignity with him— No more kissing I can tell you.— Miss Mady was especially sublime.</p>
+<p>Six out of our seven children have the whooping cough— Need I say therefore that the wife<ref target="#foot.f4"/> is enjoying herself?</p>
+<p>With best regards to Mrs Darwin &amp; your daughter—(and affectionate love to Polly)<ref target="#foot.f5"/></p>
+<p>believe me | Ever yours faithfully | T. H. Huxley <lb resp="#mjhawkins"/></p>
+<p rend="left">26 Abbey Place | N.W</p>
+<p rend="left">July 30. 1871</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Huxley refers to <ref target="../nameregs/nameregs_3051.xml" resp="#mjhawkins">Charles Lyell</ref> and <ref target="../nameregs/nameregs_6368.xml" resp="#mjhawkins">John Carrick Moore</ref>. See <ref target="./DCP-LETT-7850.xml" resp="#mjhawkins">letter to J. D. Hooker, 5 July [1871]</ref> and n. 2.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin</ref>.</note>
+            <note xml:id="foot.f3">Jessie Oriana and <ref target="../nameregs/nameregs_2482.xml" resp="#mjhawkins">Marian Huxley</ref> were 13 years and 12 years old respectively.</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_2478.xml" resp="#mjhawkins">Henrietta Anne Huxley</ref>.</note>
+            <note xml:id="foot.f5">Huxley refers to <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin</ref>, and to <ref target="../nameregs/nameregs_1225.xml" resp="#mjhawkins">Henrietta Emma Darwin</ref> and her dog, Polly.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

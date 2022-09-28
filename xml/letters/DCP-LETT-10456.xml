@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10456">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From James Torbitt   18 April 1876</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14597</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10456 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10456.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10456.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 178: 133</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>178: 133</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4777.xml">Torbitt, James</persName>
+                <placeName>Belfast</placeName>
+                <date when="1876-04-18">18 Apr 1876</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends some potato plants and tubers.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">potato</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">plant physiology</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Belfast</placeName>
+                    <date>18 April 1876</date>
+                    <seg type="supplemental">Charles Darwin Esq: | Down</seg>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>From your much valued letter of 14<hi rend="superscript">th</hi>.<ref target="#foot.f1"/> I see that I may write fully.</p>
+<p>Yesterday being “Easter” I could get nothing done. Today, pursuant to my telegram, I send you by Globe Parcels Express the plants and tubers. I find I must quit.<ref target="#foot.f2"/></p>
+<p>Tomorrow I hope to write, with profound respect, faithfully yours | James Torbitt</p>
+<p><hi rend="underline">P.S. | 3 Boxes Carriage paid thro’.</hi></p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="./DCP-LETT-10451.xml" resp="#mjhawkins">Letter to James Torbitt, 14 April 1876</ref>.</note>
+            <note xml:id="foot.f2">In 1876, 17 April was Easter Monday. Globe Parcel Express transmitted small parcels and packages daily between major towns in Britain and around the world through a network of agents. They were significantly cheaper than the <ref target="../nameregs/nameregs_3828.xml" resp="#mjhawkins">Post Office</ref> between large centres (<hi rend="italic">Pall Mall Gazette</hi>, 1 August 1883, p. 11, and for an 1863 Dublin advertisement, see catalogue.nli.ie/Record/vtls000537717 (accessed 8 September 2015)).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

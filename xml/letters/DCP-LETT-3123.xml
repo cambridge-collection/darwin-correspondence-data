@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3123">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To P. L. Sclater   21 [April 1861]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">245</idno>
+            
+            
+            
+            
+            <date when="1994">1994</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3123 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3123.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3123.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="09">9</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="endorsement" subtype="letter"><hi rend="italic">April 1861</hi></note>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.245)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>245</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1861-04-21">21 [Apr 1861]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4251.xml">Sclater, P. L.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Asks about species of <hi rend="italic">Opetiorhynchus</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Opetiorhynchus</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>21.</date>
+                    <salute>Dear Sclater</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>As you are working at Birds of S. America,<ref target="#foot.f1"/> &amp; for my credit sake do oblige me &amp; look at Birds in Zoolog. of Beagle p. 67 &amp; see what I say on the 3 species of Opetiorhynchus &amp; consider whether I am likely to have blundered when I observed difference of Habits of the species;<ref target="#foot.f2"/> so at p. 74 on Scytalopus, when I specify difference of habits.<ref target="#foot.f3"/> I see that I have made a horrid mistake in speaking of O. parvulus, which was a name temporarily attached, I believe, to one of the forms of O. Patagonicus.<ref target="#foot.f4"/> I believe that Capt. Abbot must have confounded O. vulgaris &amp; antarcticus,<ref target="#foot.f5"/> which, as I remarked <hi rend="underline">on the spot,</hi> are most closely similar except in habits.—</p>
+<p>I <hi rend="underline">much</hi> enjoyed my talk with you.—<ref target="#foot.f6"/> This note obviously requires no answer &amp; written chiefly to indicate my self-conceit—</p>
+<p>Yours very truly | C. Darwin</p>
+<p>The Opetiorhynchus from <hi rend="underline">Chiloe</hi> <hi rend="doubleUnderline">seems</hi>  case of intermediate variety<ref target="#foot.f7"/></p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.8 antarcticus] <hi rend="italic">after del</hi> ‘Patagoni’</note>
+                    <note xml:id="tnote.n2">4.1 <hi rend="bold">seems</hi>] <hi rend="italic">underlining in pencil</hi></note>
+                </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Sclater may have informed CD that he was working on a catalogue of his collection of American birds (<ref target="../bibliographies/bibl_7004.xml">Sclater 1862</ref>). This volume served to bring together much of the information Sclater supplied in his many papers on birds of American origin, including that on the birds of the Falkland Islands (<ref target="../bibliographies/bibl_7002.xml" resp="#mjhawkins">Sclater 1860–1</ref>). See n. 5, below.</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_650.xml" resp="#mjhawkins"><hi rend="italic">Birds</hi></ref> constituted part three of <hi rend="italic">The zoology of the voyage of H.M.S. Beagle</hi>. Species descriptions were provided by <ref target="../nameregs/nameregs_1935.xml" resp="#mjhawkins">John Gould</ref>; CD gave information concerning habits and habitats. The reference is to <hi rend="italic">Opetiorhynchus patagonicus</hi> (a synonym of <hi rend="italic">Cinclodes patagonicus</hi>, the dark-bellied cinclodes) (Tierra del Fuego), <hi rend="italic">O. antarcticus</hi> (a synonym of <hi rend="italic">Cinclodes antarcticus</hi>, the blackish cinclodes) (Falklands), and <hi rend="italic">O. nigrofumosus</hi> (a synonym of <hi rend="italic">Cinclodes nigrofumosus</hi>, the Chilean seaside cinclodes) (Northern Chile).</note>
+            <note xml:id="foot.f3">In <ref target="../bibliographies/bibl_650.xml" resp="#mjhawkins"><hi rend="italic">Birds</hi></ref>, p. 74, CD described and compared <hi rend="italic">Scytalopus magellanicus</hi> and <hi rend="italic">S. fuscus</hi>.</note>
+            <note xml:id="foot.f4">In <ref target="../bibliographies/bibl_650.xml" resp="#mjhawkins"><hi rend="italic">Birds</hi></ref>, p. 67, CD discussed the differences between <hi rend="italic">O. parvulus</hi> and <hi rend="italic">O. vulgaris</hi> as though <hi rend="italic">O. parvulus</hi> was a species in its own right rather than a variety of <hi rend="italic">O. patagonicus</hi>.</note>
+            <note xml:id="foot.f5">In Abbot 1861, p. 154, <ref target="../nameregs/nameregs_8.xml" resp="#mjhawkins">Charles Compton Abbott</ref> claimed to have seen only one species of the genus <hi rend="italic">Cinclodes</hi> (<hi rend="italic">Opetiorhynchus</hi>), <hi rend="italic">C. antarcticus</hi>, on the Falkland Islands. In <ref target="../bibliographies/bibl_7002.xml" resp="#mjhawkins">Sclater 1860–1</ref>, p. 385, Sclater noted both <hi rend="italic">C. vulgaris</hi> and <hi rend="italic">C. antarcticus</hi> as being natives of the Falkland Islands.</note>
+            <note xml:id="foot.f6">CD was in London from 16 to 20 April 1861 (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary). It is possible that CD met Sclater at a meeting of the <ref target="../nameregs/nameregs_2944.xml" resp="#mjhawkins">Linnean Society</ref> of London that he attended.</note>
+            <note xml:id="foot.f7">In <ref target="../bibliographies/bibl_650.xml" resp="#mjhawkins"><hi rend="italic">Birds</hi></ref>, p. 67, CD described a long-beaked variety of <hi rend="italic">O. patagonicus</hi> that inhabited the island of Chiloe.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

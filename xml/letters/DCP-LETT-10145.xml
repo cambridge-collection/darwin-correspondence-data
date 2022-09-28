@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10145">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Joseph Fayrer   1 September 1875</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3888</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10145 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10145.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10145.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Smithsonian Libraries and Archives (Dibner Library of the History of Science and Technology MSS 1629 A. Gift of the Burndy Library)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_393.xml">Smithsonian</repository>
+                    <collection>Special collections, Dibner</collection>
+                    <idno>(MSS 1629 A)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Bassett</placeName>
+                <date when="1875-09-01">1 Sept 1875</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1603.xml">Fayrer, Joseph</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks JF for his book.</p>
+            <p>At present has no observations he wishes made in India.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">The royal tiger of Bengal</term>
+                <term type="places" ref="#">India</term>
+                <term type="rx" ref="#">Fayrer, Joseph 1875</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Bassett, Southampton</placeName>
+                    <date>Sept. 1. 75</date>
+                    <salute>Dear D<hi rend="superscript">r</hi>. Fayrer</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very much obliged for your present just received.<ref target="#foot.f1"/> I have always felt a strange interest about the Tiger &amp; shall be very glad to read your book.— Thanks for your offer of assistance in India, but I have at present no enquiry to make.—<ref target="#foot.f2"/></p>
+<p>Your expedition with the Prince will be I sh<hi rend="superscript">d</hi>. think most interesting &amp; splendid.<ref target="#foot.f3"/></p>
+<p>Pray believe me | Yours very faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 Southampton] <hi rend="italic">before del</hi> ‘<hi rend="italic">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi>’ </note>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">There is a copy of Fayrer’s <hi rend="italic">The royal tiger of Bengal</hi> (<ref target="../bibliographies/bibl_8594.xml" resp="#mjhawkins">Fayrer 1875</ref>) in the Darwin Library–Down.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-10142.xml" resp="#mjhawkins">letter from Joseph Fayrer, 31 August 1875</ref>.</note>
+            <note xml:id="foot.f3">Fayrer was planning to go to India with Albert Edward, the prince of Wales (the future King Edward VII).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

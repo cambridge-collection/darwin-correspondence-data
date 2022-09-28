@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-566">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From B. J. Sulivan   12 May 1840</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14588</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-566 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-566.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-566.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 177: 274</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>177: 274</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4614.xml">Sulivan, B. J.</persName>
+                <placeName>Totnes</placeName>
+                <date when="1840-05-12">12 May 1840</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Gives CD the results of some calculations for "dip" over different distances, as requested.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">geography</term>
+                <term type="scientific_terms" ref="#">geology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Totness. Devon.</placeName>
+                    <date>May. 12/40</date>
+                    <salute>My dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+<p><anchor xml:id="ann.a1" type="annotationStart"/>Not having any books of tables with me here and not being able to procure such a thing in This Town I was on the point of writing to you to say I could not send you what you wanted, till I sent to Falmouth for my tables, when fortunately I found some of my old work in my desk which gave the Dip for different distances and as that increases as the <hi rend="underline">square of the distance</hi> increases I was able to proportion for the distances you wanted, and this led me to a very easy rule for finding it for <hi rend="underline">any</hi> distance which as it may be useful to you I will give you:<ref target="#foot.f1"/> it is merely to multiply the dip for <hi rend="underline">one mile</hi> by the square of the number of miles you want it for— not having tables I cannot calculate the dip for one mile to any very great nicety but the mean of those dips I have worked, gives 0,758 of a foot for a mile of distance, and that will be near enough for your distances as it it is so near as not to make a foot error in 15 miles distance— in case I may not have explained the way of working it I will give you an example.  required Dip for 16. miles 16 Dip = 1 mile ,758 16 Square. 16 — 256 — — 96 4548 16 3790 — 1516 256 square —— — 194,048 feet — —— —— required dip for 8 miles &amp; half 8,5 ,758 dip for one mile 8,5 72,25 square of 8<formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> — — 425 3790 680 1516 — 1516 square 72,25 5306 — ——— 54,76550 feet ——— This gives 194 feet for 16 miles, and 55 feet for 8<formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> miles, you will find the dip increase so rapidly as the distance gets above 3 or 4 miles that you will have to proportion for every tenth of a mile and I think you will find this the easiest way as it dispenses with logarithims, as I had many worked that might be useful to you I have added them to those to you wished to have.</p>
+<p>With respect to refraction<ref target="#foot.f2"/> —I cannot now give you the amount with any certainty—but it will be very trifling &amp; for short distances almost nothing, the usual allowance is <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>12</mn></mfrac></math></formula> of the distance. thus at 12 miles it would be 1 minute and the height subtended by an angle of 1 minute at 12 miles distance would be the amount of refraction, which would have to be subtracted from the dip for 12 miles that is the point <hi rend="underline">you saw Level</hi> would be actually <hi rend="underline">below</hi> your level. You might do away with refraction if you wished by <hi rend="underline">Elevating</hi> your level to the amount, thus of distance 12 miles you could elevate the level 1 minute above the true level &amp; you would then see the point truly on a level with you, and for 6 miles <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> a minute and so on, but all terrestial refractions are liable<anchor xml:id="ann.a2" type="annotationEnd"/> to great error from the constant changes I believe <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>12</mn></mfrac></math></formula> of the distance is about the avarage allowance— directly I get my Books from Falmouth I will work the refraction for each mile on this principle, which you will merely have to subtract from the dip, for the true dip—if you prefer this to altering the level: &amp; perhaps you may not have a level that can be set to any angle as you can a Theodolite—</p>
+<p><anchor xml:id="ann.a3" type="annotationStart"/>Now I have scribbled all this I am not at all satisfied that it is plain I am a poor hand at explaining things but if you cannot make it out write and ask more questions—</p>
+<p>I am very sorry to hear the account of your health but I hope you will give up <hi rend="underline">all work</hi> and rusticate till you are quite restored— recollect <hi rend="underline">everything</hi> is inferior to health and all the success &amp; fame in the world will never compensate for a weak stomach and its attendant evils I still feel that tho I am better now. report says a promotion will come out at the Queens Birthday, this makes me anxious tho I think, I <hi rend="underline">cannot be passed over</hi> if it does come out.<ref target="#foot.f3"/> if I am I shall care for nothing more in connection with the service— in fact now I am almost sick of it I cannot bear to think of our voyage. tho that is not caused by Deferred promotion; it is by <hi rend="underline">unmerited reproaches </hi> where I least should have expected them—but I must not <hi rend="italic">[</hi> touch<hi rend="italic">]</hi> on this.</p>
+<p>my wife joins me in remembrances to M<hi rend="superscript">rs</hi> Darwin | God Bless you &amp; Believe me your sincere friend | B J Sulivan</p>
+<p>PS | You directed you letter to Falmouth which I have left this two months—<anchor xml:id="ann.a4" type="annotationEnd"/></p>
+<p>I have called the curvature Dip though I think it is not a right term</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note target="#ann.a1" targetEnd="#ann.a2"><hi rend="italic">crossed ink</hi></note>
+                <note target="#ann.a3" targetEnd="#ann.a4"><hi rend="italic">crossed ink</hi></note>
+                <note> <hi rend="italic">On cover</hi>, <hi rend="italic">in pencil, partially del pencil:</hi> 240 240 6 7 — — 1440 168- 2 </note>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Sulivan is not talking about ‘dip’ in the usual nautical sense, i.e., the angular difference between the real and apparent horizon due to the observer’s elevation above sea level. Rather he is referring to a correction to account for the curvature of the earth in measuring the elevation of a distant object. The generally accepted correction in terms of statute miles and feet is two-thirds of the distance squared (<ref target="../bibliographies/bibl_1461.xml" resp="#mjhawkins">Close 1905</ref>, p. 81). It is not clear why Darwin needed the information.</note>
+            <note xml:id="foot.f2">A correction to offset the bending of light in the earth’s atmosphere. The amount of refraction varies considerably depending on conditions, but the distance at which an object of a certain height can be seen is increased by roughly <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>13</mn></mfrac></math></formula>th (<ref target="../bibliographies/bibl_1461.xml" resp="#mjhawkins">Close 1905</ref>, p. 81).</note>
+            <note xml:id="foot.f3">Sulivan was not promoted to the rank of Commander until May 1841.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

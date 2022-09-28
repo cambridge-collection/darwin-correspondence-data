@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3406">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Leonard Jenyns   22 January [1862]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8784</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3406 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3406.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3406.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 168: 55</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>168: 55</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2560.xml">Jenyns, Leonard</persName>
+                <placeName>Bath</placeName>
+                <date when="1862-01-22">22 Jan [1862]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends proof-sheets of CD’s contribution to LJ’s <hi rend="italic">Memoir</hi> of Henslow.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Memoir</term>
+                <term type="rx" ref="#">Jenyns, Leonard 1862</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Darlington Place | Bath</placeName>
+                    <date>Jan. 22. 1861.</date>
+                    <salute>My dear Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>With this I send the proof-sheet containing the notice you were kind enough to contribute to my memoir of Henslow.<ref target="#foot.f2"/> You expressed a wish to see it.— I have not sent your MS, as I myself have compared it with that, &amp; found it correct;—but if you wish to make any alteration or addition you can now do so.—<ref target="#foot.f3"/> Perhaps you will be good enough to return the sheet the same day you receive it, if possible,—either to myself or the printers;—to myself if much altered,—but otherwise to the printers direct, whose address I have given on the other side.—</p>
+<p>Very sincerely your’s | L. Jenyns.</p>
+<p><hi rend="underline">P.S.</hi> Your contribution begins at p. 51.—</p> 
+<figure type="diagram"> 
+<p>“Mess<hi rend="superscript">rs</hi> Woodfall &amp; Kinder</p>
+<p>Angel Court</p>
+<p>Skinner Street</p>
+<p>London”. E.C.</p> </figure> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to <ref target="../bibliographies/bibl_4193.xml" resp="#mjhawkins">Jenyns 1862</ref> (see n. 2, below). Jenyns wrote ‘1861’ in error.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_2235.xml" resp="#mjhawkins">John Stevens Henslow</ref> died on 16 May 1861. Jenyns’s memoir of his brother-in-law was published in May 1862 (<hi rend="italic">Publishers’ Circular</hi> 25: 223). CD’s contribution appears in <ref target="../bibliographies/bibl_4193.xml" resp="#mjhawkins">Jenyns 1862</ref>, pp. 51–5 (see also <ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 2: 72–4 and <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 9, Appendix X).</note>
+            <note xml:id="foot.f3">CD had added a note to his manuscript asking to see a proof of the piece (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 9, <ref target="./DCP-LETT-3355.xml" resp="#mjhawkins">letter from Leonard Jenyns, 31 December 1861</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

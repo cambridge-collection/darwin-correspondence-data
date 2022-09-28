@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3049">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To William Walmisley Baxter?<ref target="#foot.f1"/>   22 January 1861</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20192</idno>
+            
+            
+            
+            
+            <date when="1994">1994</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3049 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3049.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3049.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="09">9</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Auckland Public Library (MS 29)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_18.xml">Auckland PL</repository>
+                    <collection>MS</collection>
+                    <idno>29</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1861-01-22">22 Jan 1861</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_332.xml">Baxter, W. W.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Orders one pint of tincture of henbane.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Down]</placeName>
+                </opener>
+                <div type="transcription">
+                     
+<p>One Pint of Tincture of Henbane.<ref target="#foot.f2"/></p>
+<p>Down. Jan22<hi rend="superscript">d</hi>./61/ | C. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Baxter was a dispensing chemist in Bromley, Kent.</note>
+            <note xml:id="foot.f2">Henbane (<hi rend="italic">Hyoscyamus niger</hi>) is a poisonous plant of the nightshade family. CD had begun a series of experiments in the autumn of 1860 in an attempt to determine the effects of various poisons on the insectivorous plant <hi rend="italic">Drosera rotundifolia</hi> (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 8). He discussed the results of the trials with henbane in <ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref>, pp. 84, 206.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

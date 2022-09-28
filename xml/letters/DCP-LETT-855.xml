@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-855">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Murray   [10 April 1845]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9002</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-855 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-855.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-855.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 147: 46</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">National Library of Scotland (John Murray Archive) (Ms.42152 ff.10–11)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_278.xml">Murray Archive</repository>
+                    <idno>Ms.42152 ff.10-11</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1845-04-10">[10 Apr 1845]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Is certain he never signed any paper with Henry Colburn or he would have kept a copy as he did of FitzRoy’s agreement. Wishes JM success in his negotiations with Colburn; asks him to remind Colburn that the copperplate has been left with editor of German edition.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Beagle</term>
+                <term type="people" ref="#subject_1004">Colburn, Henry</term>
+                <term type="people" ref="#subject_1650">FitzRoy, Robert</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I feel as certain as I can about anything, which has passed some years since, that I never signed any paper of any <hi rend="underline">kind whatever</hi> with M<hi rend="superscript">r</hi> Colburn: I am almost sure it w<hi rend="superscript">d</hi> have impressed itself on my memory, had I done so. Indeed, I sh<hi rend="superscript">d</hi> <hi rend="doubleUnderline">assuredly</hi> have made a copy, as I did of the Agreement between Capt F &amp; M<hi rend="superscript">r</hi> Colburn, which Capt F. made without any consultation with me.</p>
+<p>I enclose my rough copy, <hi rend="underline">which please to preserve</hi>;<ref target="#foot.f2"/> I w<hi rend="superscript">d</hi> have made a better copy, but I am compelled to leave home for the day immediately.</p>
+<p>I hope your negotiation will be successful &amp; believe me dear Sir | Yours very faithfully | C. Darwin</p>
+<p>P.S. | In case you sh<hi rend="superscript">d</hi> come into any terms with M<hi rend="superscript">r</hi> C. he will perhaps have forgotten, that he let the Editor of the German Edition<ref target="#foot.f3"/> have the loan of the Copper plate &amp; one or two of the woodcuts— these have not been yet returned owing to the carelessness of Viewig of Brunswick, but I have no reason to doubt that they are safe, &amp; that I shall soon have them.—</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.1 have] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">4.3 one or] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by CD’s reference to a trip away from Down and by an entry in CD’s Account Book (Down House MS) recording that he paid for a trip to London on 10 April 1845. This was the only trip recorded between the dates of letters to John Murray, <ref target="./DCP-LETT-851.xml" resp="#mjhawkins">[5 April 1845]</ref> and <ref target="./DCP-LETT-856.xml" resp="#mjhawkins">12 April [1845]</ref>.</note>
+            <note xml:id="foot.f2">It seems that CD now sent his original copy of the agreement between <ref target="../nameregs/nameregs_1650.xml" resp="#mjhawkins">Robert FitzRoy</ref> and <ref target="../nameregs/nameregs_1004.xml" resp="#mjhawkins">Henry Colburn</ref>, after having first sent a transcript to Murray in his <ref target="./DCP-LETT-843.xml" resp="#mjhawkins" cert="high">letter of 20 March [1845]</ref>. For the text of the agreement see <ref target="./DCP-LETT-843.xml" resp="#mjhawkins">letter to John Murray, 20 March [1845]</ref>.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_1322.xml" resp="#mjhawkins">Ernst Dieffenbach</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

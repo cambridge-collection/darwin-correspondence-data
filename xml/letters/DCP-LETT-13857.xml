@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-13857">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Charles Wicksted to Georgina Tollet<ref target="#foot.f1"/>   13 March [1870?]<ref target="#foot.f2"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14702</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-13857 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-13857.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-13857.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">AL incomplete</note>
+            <note type="physdesc" n="AL inc">† (by CD)</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 181: 97</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>181: 97</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_5116.xml">Wicksted, Charles</persName>
+                <placeName>Strakenhurst, Bewdley</placeName>
+                <date when="1870-03-13">13 Mar [1870?]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4770.xml">Tollet, Georgina</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Jury of fox-hunters report on hounds’ behaviour when catching fox. Fox never behaves like frightened dog.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">dog</term>
+                <term type="animals" ref="#">hounds</term>
+                <term type="people" ref="#">fox-hunters</term>
+                <term type="scientific_terms" ref="#">expression, emotion</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">predators</term>
+                <term type="social" ref="#">Other people</term>
+                <term type="societal" ref="#">jury</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Shakenhurst, Bewdley.</hi></placeName>
+                    <date>March 13<hi rend="superscript">th</hi>.</date>
+                    <salute>My Dearest Georgina,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have submitted Charles Darwin’s questions about Foxes to a jury of fox-hunters assembled here, on the occasion of the Ludlow Fox hounds having met here yesterday, &amp; their experiences quite agree with mine— Neither I nor any of them can remember ever having seen a hound catch hold of a fox by the brush, or ever seen the common movement (of a dog (that puts his tail between his legs when frightened) performed by a fox either in a tame<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note>1.4 or ever … tame 1.6] <hi rend="italic">scored blue crayon</hi></note>
+                <note>1.6 either in a tame] ‘or wild state’ <hi rend="italic">added pencil</hi></note>
+                <note><hi rend="italic">Top of letter</hi>: ‘M<hi rend="superscript">r</hi> Wickstead, kept Fox-Hounds for 20 years.—’ <hi rend="italic">pencil</hi></note>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The correspondents are identified by CD’s annotation and by the address. <ref target="../nameregs/nameregs_5116.xml" resp="#mjhawkins">Charles Wicksted</ref>, a noted fox-hunter and breeder of hounds, lived at Shakenhurst in Worcestershire, and was the brother of <ref target="../nameregs/nameregs_4770.xml" resp="#mjhawkins">Georgina Tollet</ref>.</note>
+            <note xml:id="foot.f2">The year is conjectured on the assumption that the letter is a reply to a question CD submitted after reading an article on foxes in <hi rend="italic">Land and Water</hi>, 6 November 1869 (see n. 3, below). <ref target="../nameregs/nameregs_5116.xml" resp="#mjhawkins">Charles Wicksted</ref> died on 4 June 1870 (<ref target="../bibliographies/bibl_1095.xml" resp="#mjhawkins"><hi rend="italic">Burke’s landed gentry</hi></ref> 1879).</note>
+            <note xml:id="foot.f3">CD’s questions have not been found. In <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref>, p. 125, CD refers to an article in the 6 November 1869 issue of <hi rend="italic">Land and Water</hi> that claimed that foxes, however tame, never exhibited expressive movements, such as tucking their tails, when frightened. CD stated of foxes: ‘I have been assured that when frightened they never tuck in their tails’ (<ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref>, p. 126).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

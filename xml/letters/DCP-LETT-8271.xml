@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8271">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Briton Riviere   3 April 1872</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10520</idno>
+            
+            
+            
+            
+            <date when="2013">2013</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8271 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8271.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8271.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="20">20</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 176: 175</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>176: 175</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4020.xml">Riviere, Briton</persName>
+                <placeName>Kensington</placeName>
+                <date when="1872-04-03">3 Apr 1872</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Will attempt to draw the two expressions CD wants.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">expression, emotion</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">16 Addison Road, | Kensington. W.</hi></placeName>
+                    <date>April 3/72</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I shall be very glad indeed if I can succeed in drawing the two expressions that you want.<ref target="#foot.f1"/> I think that I understand your descriptions perfectly, whether I can carry them out is another question.</p>
+<p>Will you kindly ask your wood engraver<ref target="#foot.f2"/> to send me a couple of blocks of the size required, as if I can manage the expressions I may as well put them at once onto the wood. This will be no inconvenience to me &amp; will I think be better for the drawings.</p>
+<p>I quite understand your objections to Landseers “Alexander” in reference to expression No 1.<ref target="#foot.f3"/></p>
+<p>Trusting that I shall not cause delay &amp; then fail in my part of the work I am Dear Sir | Yours truly | Briton Riviere</p>
+<p>The German drawing shall be taken care of<ref target="#foot.f4"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin Esq</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note><hi rend="italic">End of letter</hi>: ‘Orpington’ <hi rend="italic">pencil</hi></note>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-8265.xml" resp="#mjhawkins">letter to Briton Riviere, 1 April 1872</ref> and n. 1.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_1060.xml" resp="#mjhawkins">James Davis Cooper</ref> engraved the woodblocks in <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref> (see <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref>, p. 26).</note>
+            <note xml:id="foot.f3">Riviere refers to the figure of the white dog (‘Alexander’) in the painting ‘Alexander and Diogenes’ by <ref target="../nameregs/nameregs_6109.xml" resp="#mjhawkins">Edwin Henry Landseer</ref>. The expression referred to as ‘No 1’ was of a dog in a hostile attitude (see <ref target="./DCP-LETT-8265.xml" resp="#mjhawkins">letter to Briton Riviere, 1 April 1872</ref> and n. 1).</note>
+            <note xml:id="foot.f4">See <ref target="./DCP-LETT-8265.xml" resp="#mjhawkins">letter to Briton Riviere, 1 April 1872</ref> and n. 2.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

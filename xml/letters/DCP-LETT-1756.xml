@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1756">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Rice Crowe<ref target="#foot.f1"/>   27 September 1855</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9035</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1756 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1756.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1756.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 205.2: 222</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>205.2: 222</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1142.xml">Crowe, J. R.</persName>
+                <placeName>Christiania</placeName>
+                <date when="1855-09-27">27 Sept 1855</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Forwards two specimens of beans found on north coast of Norway.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">beans</term>
+                <term type="places" ref="#">coast, north</term>
+                <term type="places" ref="#">Norway</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00498_files/8/0_0.jpg" width="3804px" height="6379px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00498_files/11/1_1.jpg" width="3804px" height="6379px"/>
+        <surface xml:id="i1" n="222.1r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00498.jpg" rend="portrait" width="3804px" height="6379px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00498_files/8/0_0.jpg" width="3804px" height="6379px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00498.dzi" width="3804px" height="6379px"/>
+        </surface>
+        
+        <surface xml:id="i2" n="222.1v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00499.jpg" rend="portrait" width="3804px" height="6379px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00499_files/8/0_0.jpg" width="3804px" height="6379px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00499.dzi" width="3804px" height="6379px"/>
+        </surface>
+        
+        <surface xml:id="i3" n="222.2r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00500.jpg" rend="portrait" width="3804px" height="6379px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00500_files/8/0_0.jpg" width="3804px" height="6379px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00500.dzi" width="3804px" height="6379px"/>
+        </surface>
+        
+        <surface xml:id="i4" n="222.2v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00501.jpg" rend="portrait" width="3804px" height="6379px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00501_files/8/0_0.jpg" width="3804px" height="6379px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00501.dzi" width="3804px" height="6379px"/>
+        </surface>
+</facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Christiania</placeName>
+                    <date>27<hi rend="superscript">th</hi> Sept 1855</date>
+                    <salute>Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>Through the kindness of Professor Blytt<ref target="#foot.f2"/> I am enabled to forward by an English traveller to day two Specimens of Beans picked up on the North Coast of Norway: the one on Væroë on the Loffoden Islands, the other in the Alten fiord in Finmark— they are found in the form, in which you receive them, consequently not in the pod— The prevailing opinion is that they are brought to the Coast of Finmark by the Gulph Stream.</p>
+<p>As soon as I receive any more specimens I will forward them in the meantime the Professor will feel obliged if you can give him the names of those I now send.<ref target="#foot.f3"/></p>
+<p>I have directed them to the Royal Society</p>
+<p>I remain Sir | Your Obed<hi rend="superscript">t</hi> Serv<hi rend="superscript">t</hi> | J R Crowe</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note> <hi rend="italic">Top of first page</hi>: ‘18’<hi rend="italic">brown crayon</hi> </note>
+                <note> <hi rend="italic">Verso of last page</hi>: ‘*Hooker tells me [<hi rend="italic">added</hi>] The larger seed is the Entada scandens (same as Acacia or Mimosa scandens) also cast up on one coast of Orkneys Is<hi rend="superscript">d</hi>. an E. &amp; W. Indian Plant.— The smaller is “Mucuna urens” also a Leguminous plant, called “Bullocks Eyes” a common W. Indian Plant’ <hi rend="italic">ink</hi> ‘Smaller seed on Viero [‘Væroe’ <hi rend="italic">added above</hi>], Loffodens [‘Lofoten’ <hi rend="italic">added above</hi>] Larger on Beach at <hi rend="doubleUnderline">Alten</hi> [‘Fintmark’ <hi rend="italic">del</hi>] Finmark.’ <hi rend="italic">pencil</hi> ‘I have now floated *in salt water [<hi rend="italic">interl</hi>] them for 10 days and they float as well as ever’ <hi rend="italic">ink</hi> </note>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Crowe was British consul general in Norway, 1843–75.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_501.xml" resp="#mjhawkins">Matthias Numsen Blytt</ref>, professor of botany at Christiania University, Norway.</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-1742.xml" resp="#mjhawkins">letter to J. D. Hooker, 18 [October 1855]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

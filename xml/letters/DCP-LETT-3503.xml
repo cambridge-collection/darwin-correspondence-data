@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3503">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Andrew Murray   10 April [1862]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20123</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3503 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3503.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3503.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">R. D. Pyrah</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_333.xml">Pyrah, R. D.</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1862-04-10">10 Apr [1862]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3459.xml">Murray, Andrew</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Did CD lend AM a pamphlet on cave insects by S. Scudder ["On the genus <hi rend="italic">Raphidophora</hi>", <hi rend="italic">Proc. Boston Soc. Nat. Hist.</hi> 8 (1861–2): 6–14]? CD much wants it and remembers lending it to someone.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="geology" ref="#">cave</term>
+                <term type="it" ref="#">Proc. Boston Soc. Nat. Hist.</term>
+                <term type="it" ref="#">Raphidophora</term>
+                <term type="rx" ref="#">Murray, Andrew 1857</term>
+                <term type="rx" ref="#">Scudder, S. H. 1861</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">higher groupings (‘family’, ‘class’, ‘order’ etc)</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>April. 10<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Pray excuse me for writing to you on a wild-goose chase. About a year ago I received from author a pamphlet “Scudder on blind cave-insects of N. America”.<ref target="#foot.f2"/> I much want it, &amp; resember lending it to some one. I have <hi rend="underline">no reason</hi> to suppose that I lent it to you, excepting that you are the most likely man, for caring about the subject.—<ref target="#foot.f3"/> Will reflect for a moment &amp; if by any extraordinary piece of good fortune, you have it return it to me.—</p>
+<p>If I do <hi rend="doubleUnderline">not</hi> hear, I will understand that I did not lend it to you.—</p>
+<p>Pray excuse me &amp; believe me   yours very sincerely | C. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship to the <ref target="./DCP-LETT-3505.xml" resp="#mjhawkins">letter from Andrew Murray, 12 April 1862</ref>.</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_7043.xml" resp="#mjhawkins">Scudder 1861</ref>. There is an annotated copy of this article in the Darwin Pamphlet Collection–CUL.</note>
+            <note xml:id="foot.f3">CD and Murray had corresponded at length about whether CD’s theory of natural selection could adequately account for the existence of blind cave insects (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 8).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

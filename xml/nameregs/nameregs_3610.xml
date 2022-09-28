@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-3610" status="released">
+    <persName>
+        <forename>Harriet</forename>
+        <forename>Emma</forename>
+        <choice>
+            <seg><surname notBefore="1837" notAfter="1861">Fox</surname></seg>
+            <seg><surname notBefore="1861" notAfter="1922">Overton</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1837–1922</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of William Darwin Fox. Married Samuel Charlesworth Overton (<hi rend="italic">Crockford’s clerical directory</hi> 1865–92), curate of Hackness, Yorkshire, in 1861; separated, 1873. Died in Switzerland. Mother of Frederick Arnold Overton.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_1822.xml" resp="#mjhawkins"><hi rend="italic">Darwin pedigree</hi></ref></p>
+        <p>Divorce and matrimonial causes files (The National Archives: Public Record Office J 77/131/2677)</p>
+        <p><hi rend="italic">England &amp; Wales, national probate calendar</hi> (<hi rend="italic">index of wills and administrations</hi>), <hi rend="italic">1858–1966, 1973–95</hi> (Ancestry.co.uk, accessed 16 August 2018)</p>
+        <p><hi rend="italic">England, select births and christenings, 1538–1975</hi> (Ancestry.com, accessed 25 July 2016)</p>
+        <p><hi rend="italic">Gentleman’s Magazine</hi> (1861), pt 2: 558.</p>
+    </note>
+    <note type="volume">9,10,11</note>
+    <note type="keywords">
+        <term type="name">Fox, W. D.</term>
+        <term type="name">Overton, S. C.</term>
+        <term type="name">curate of Hackness</term>
+        <term type="name">Overton, F. A.</term>
+        <term type="place">Hackness</term>
+        <term type="place">Yorkshire</term>
+        <term type="reference">Crockford’s</term>
+    </note>
+    
+</person>

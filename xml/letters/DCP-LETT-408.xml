@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-408">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Leonard Horner   7 April [1838]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1452</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-408 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-408.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-408.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 210.8: 1</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>210.8: 1</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2392.xml">Horner, Leonard</persName>
+                <placeName>London, Bedford Place, 2</placeName>
+                <date when="1838-04-07">7 Apr [1838]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Postpones meeting with CD because he must attend House of Commons for Factory Amendment Act.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">meeting</term>
+                <term type="societal" ref="#">Factory Amendment Act</term>
+                <term type="societal" ref="#">House of Commons</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>My Dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I learned yesterday that the Factory Amendment Act is to be brought into the House of Commons by the Gov<hi rend="superscript">t</hi> on Monday, and it is material that I should be in the house. This obliges me to postpone the pleasure of your company, but I hope Wednesday will suit you equally well for the same kind of visit.</p>
+<p>Yours faithfully | Leonard Horner<ref target="#foot.f2"/></p>
+<p>2. Bedford Place<lb resp="#mjhawkins"/>7 April</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Ralph Colp has established the date of this note by relating it to a petition ‘for alteration of the Factory Act’ discussed on Monday, 9 April 1838, in the <ref target="../nameregs/nameregs_7863.xml" resp="#mjhawkins">House of Commons</ref> (<hi rend="italic">Hansard Parliamentary Debates,</hi> 3d ser. 42 (1838): 479; <ref target="../bibliographies/bibl_1522.xml" resp="#mjhawkins">Colp 1980</ref>, p. 13 n. 27). Horner was one of the chief inspectors under the Act (<ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref>).</note>
+            <note xml:id="foot.f2">CD used the remaining three pages of this letter for one of his ‘Notes on marriage’ (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 2, Appendix IV).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

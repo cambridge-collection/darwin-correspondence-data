@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-659">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Smith, Elder &amp; Co.   21 January [1843]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3008</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-659 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-659.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-659.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+            <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+                <relatedItem type="publication">
+                    <bibl> <hi rend="italic">Correspondence</hi> 2: 347</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">The New York Public Library. Astor, Lenox and Tilden Foundations. The Henry W. and Albert A. Berg Collection of English and American Literature.</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_304.xml">NYPL Berg</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1843-01-21">21 Jan [1843]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4407.xml">Smith, Elder &amp; Co.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Discusses his account.</p> 
+<p>Sends addresses [for subscribers to <hi rend="italic">Zoology</hi>].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="people" ref="#">subscribers to Zoology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley | Kent</placeName>
+                    <date>Jan 21<hi rend="superscript">st</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I am obliged for your account, which I will settle, the first time I call.—</p>
+<p>I pretty well satisfied with sale of Coral Volume, for I feel <hi rend="underline">certain,</hi> every now &amp; then copies will go off for many years to come—but whether quick enough to pay the 60£ with its interest, I am sure I do not know—<ref target="#foot.f1"/> When we can get the Zoology finished, the sale of that I hope, will help matters.</p>
+<p>Do you know Editor of the Athenæum;<ref target="#foot.f2"/> I am surprised they have not noticed the Coral Volume.—</p>
+<p>Please to send D<hi rend="superscript">r</hi>. A. Smiths number<ref target="#foot.f3"/> to care of E. Darwins, 43 Grt. Marlborough St.</p>
+<p>M<hi rend="superscript">r</hi>. Hinds address is</p>
+<p>29 Alfred Place</p>
+<p>Bedford Square</p>
+<p>Yours very faithfully | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">4.1 care of] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD and <ref target="../nameregs/nameregs_4407.xml" resp="#mjhawkins">Smith, Elder &amp; Co</ref>. had advanced an unspecified sum to cover the expenses of publishing <ref target="../bibliographies/bibl_1571.xml" resp="#mjhawkins"><hi rend="italic">Coral reefs</hi></ref>; by this time it was clear that the government grant of £1000 would not cover even the costs of <hi rend="italic">Zoology.</hi> See <ref target="../bibliographies/bibl_2661.xml" resp="#mjhawkins">Freeman 1977</ref>, p. 26 and <ref target="./DCP-LETT-702A.xml" resp="#mjhawkins">letter to A. Y. Spearman, 9 October 1843</ref>.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_1323.xml" resp="#mjhawkins">Charles Wentworth Dilke</ref> edited the <hi rend="italic">Athenæum</hi> from 1830 to 1846. No notice of <ref target="../bibliographies/bibl_1571.xml" resp="#mjhawkins"><hi rend="italic">Coral reefs</hi></ref> appeared in the <hi rend="italic">Athenæum.</hi></note>
+            <note xml:id="foot.f3">This refers to a number of <ref target="../nameregs/nameregs_4396.xml" resp="#mjhawkins">Andrew Smith’s</ref> <hi rend="italic">Illustrations of the </hi> <hi rend="italic">zoology of South Africa</hi> (A. Smith 1838–49), published by <ref target="../nameregs/nameregs_4407.xml" resp="#mjhawkins">Smith, Elder &amp; Co</ref>. which, when complete, came to five volumes.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

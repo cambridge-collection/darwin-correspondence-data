@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-828">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Leonard Jenyns   14 February [1845]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1070</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-828 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-828.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-828.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 145: 343</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">ML</hi> 1: 49</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 3: 142</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Bath Royal Literary and Scientific Institution</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_32.xml">Bath RLSI</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1845-02-14">14 Feb [1845]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2560.xml">Jenyns, Leonard</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Discusses checks on growth of species population; use of term "mutation" in his species theory. His belief in species mutability.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+                <term type="scientific_terms" ref="#">species, speciation</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+                <term type="scientific_terms" ref="#">transmutation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Feb. 14<hi rend="superscript">th</hi>.</date>
+                    <salute>Dear Jenyns.</salute>
+                </opener>
+                <div type="transcription">
+<p>I have taken my leisure in thanking you for your last letter, &amp; discussion, to me very interesting, on the increase of species. Since your letter, I have met with a very similar view in Richardson, who states that the young are driven away by the old into unfavourable districts, &amp; then mostly perish.—<ref target="#foot.f1"/> When one meets with such unexpected statistical returns on the increase &amp; decrease &amp; proportions of deaths &amp; births amongst mankind &amp; in this well-known country of ours, one ought not to be in the least surprised at ones ignorance, when, where &amp; how, the endless increase of our robins &amp; sparrows is checked.—</p>
+<p>Thanks for your hints about terms of “mutation” &amp;c; I had had some suspicions, that it was not quite correct, &amp; yet I do not yet see my way to arrive at any better terms: it will be years before I publish, so that I shall have plenty of time to think of better words— Development w<hi rend="superscript">d</hi>. perhaps do, only it is applied to the changes of an individual during its growth. I am, however, <hi rend="underline">very</hi> glad of your remark, &amp; will ponder over it.</p>
+<p>We are all well, wife &amp; children three, &amp; as flourishing as this horrid, house-confining, temper-souring weather permits.—</p>
+<p>With thanks, believe me | Your’s very sincerely | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.2 that it] <hi rend="italic">over</hi> ‘they w’</note>
+                    <note xml:id="tnote.n2">2.3 I publish] ‘I’ <hi rend="italic">over</hi> <hi rend="italic">illeg</hi></note>
+                    <note xml:id="tnote.n3">2.4 perhaps] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../bibliographies/bibl_6635.xml" resp="#mjhawkins">J. Richardson 1829–37</ref>, 2: xix–xx. CD recorded this work as having been read on 29 January 1845 (DAR 119; <ref target="../bibliographies/bibl_8010.xml" resp="#mjhawkins">Vorzimmer 1977</ref>, p. 133). It is in the Darwin Library–CUL. <ref target="../nameregs/nameregs_3997.xml" resp="#mjhawkins">John Richardson</ref> referred to the practice of adult birds driving the young into less favourable breeding grounds but said nothing about the young perishing. For Jenyns’ comments on this subject see <ref target="../bibliographies/bibl_4189.xml" resp="#mjhawkins">Jenyns 1846</ref>, pp. 113–17.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

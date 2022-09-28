@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8510">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. W. Baxter   4 September [1872?]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3803</idno>
+            
+            
+            
+            
+            <date when="2013">2013</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8510 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8510.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8510.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="20">20</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">McGill University Library, Department of Rare Books</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_250.xml">McGill</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1872-09-04">4 Sept [1872?]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_332.xml">Baxter, W. W.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Orders some salts for plant experiments.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down—</placeName>
+                    <date>Sept. 4<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>If you chance to have any of the following Salts I sh<hi rend="superscript">d</hi>. be much obliged if you would send me <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> oz of each, as I want to try a little experiment with some plants.</p> 
+<figure type="diagram"> 
+<p>Acetate of Ammonia</p>
+<p>Citrate of Ammonia</p>
+<p>Nitrate of Ammonia</p>
+<p>Sulphate of Ammonia</p>
+<p>Nitrate of Soda</p>
+<p>Nitrate of Lime</p> </figure> 
+<p>I know that it is mere improbable chance whether you have any.</p>
+<p>The Nitrate &amp; Sulp. of Ammonia I care most about; Could you obtain them for me, as I do not know where to apply to for a small quantity, &amp; I in fact only require a few grains.— Pray excuse my troubling you.—<ref target="#foot.f2"/></p>
+<p>Dear Sir | Yours faithfully | C. Darwin.</p>
+<p>P.S. ☜ | Please send 4 oz of Camphorated oil for friction of the abdomen.<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is conjectured from the likelihood that CD wanted chemicals for his work on <hi rend="italic">Drosera</hi> and other insectivorous plants, which he resumed on 23 August 1872 (CD’s ‘Journal’ (Appendix II)). Baxter was CD’s usual chemist.</note>
+            <note xml:id="foot.f2">Reports of CD’s experiments on <hi rend="italic">Drosera</hi> with these chemicals and others appear in <ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref>, pp. 136–73. The purpose was ‘to show how powerfully the salts of ammonia act on the leaves of Drosera, and more especially to show what an extraordinary small quantity suffices to excite inflection’ (p. 136). He concluded that all the eight salts of ammonia caused the inflection of the tentacles, and often of the blade of the leaf, with the citrate being the least powerful and the phosphate by far the most (p. 168).</note>
+            <note xml:id="foot.f3">Camphorated oil was a mixture of camphor and olive oil (<ref target="../bibliographies/bibl_5449.xml" resp="#mjhawkins">Milne 1869</ref>, pp. 47–9). It was used as a liniment to relieve pain and as a stimulant.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

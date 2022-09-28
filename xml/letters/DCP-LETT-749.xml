@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-749">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From G. R. Waterhouse   [after 26 April 1844]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1475</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-749 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-749.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-749.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 181: 15</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>181: 15</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4972.xml">Waterhouse, G. R.</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1844-04-27" notAfter="1882-12-31">[after 26 Apr 1844]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Is puzzled by CD’s question about the Viverridae; thinks if there were only one species he might regard it as an aberrant of some other group and not select it as a type of the Carnivora.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Carnivora</term>
+                <term type="animals" ref="#">Viverridae</term>
+                <term type="scientific_terms" ref="#">archetypes</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">errant/aberrant forms</term>
+                <term type="scientific_terms" ref="#">higher groupings (‘family’, ‘class’, ‘order’ etc)</term>
+                <term type="scientific_terms" ref="#">number of species</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>My dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+<p><anchor xml:id="ann.a1" type="annotationStart"/>Hope<ref target="#foot.f1"/> is yet on the continent but I do not know his address, if however you send a note addressed to him under cover to me I will see that it is sent off through his man M<hi rend="superscript">r</hi> Sibley who manages all these matters—<anchor xml:id="ann.a2" type="annotationEnd"/></p>
+<p>Your question about the <hi rend="underline">Viverridæ</hi> puzzles me much—<ref target="#foot.f2"/> <hi rend="underline">number</hi> is certainly an element of some importance with me—especially in endeavouring to form an idea of the value of a character— I think were there only one species of <hi rend="underline">Viverridæ</hi> known I should in all probability regard him as an aberrant form of some other group &amp; should not select him as a type of the Carnivora—but I cannot for the life of me conceive what I should do for a type— I should be much in the same predicament with the Carnivora as I am with the <hi rend="underline">Edentata</hi>— I cannot form any very distinct idea of the type of that group—</p>
+<p><anchor xml:id="ann.a3" type="annotationStart"/>I will perhaps write again about this matter— I am at this moment so very ‘queer’ (with a cold) that I can hardly <hi rend="underline">think</hi>— I am very sorry to hear you are sticking to your old bad practice of being unwell—</p>
+<p>Believe me | Ever faithfully yours | Geo R Waterhouse <lb resp="#mjhawkins"/> Tuesday in E<anchor xml:id="ann.a4" type="annotationEnd"/></p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note target="#ann.a1" targetEnd="#ann.a2"><hi rend="italic">crossed pencil</hi></note>
+                <note target="#ann.a3" targetEnd="#ann.a4"><hi rend="italic">crossed pencil</hi></note>
+                <note> <hi rend="italic">Top of first page</hi>: ‘Second note’<hi rend="italic">added pencil</hi> </note>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_2372.xml" resp="#mjhawkins">Frederick William Hope</ref>.</note>
+            <note xml:id="foot.f2">See CD’s annotations to the <ref target="./DCP-LETT-748.xml" resp="#automat">letter from G. R. Waterhouse, 26 April 1844</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

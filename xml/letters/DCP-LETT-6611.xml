@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6611">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Edward Wilson   12 February 1869</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">11100</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6611 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6611.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6611.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 181: 126</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>181: 126</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_5181.xml">Wilson, Edward</persName>
+                <placeName>Hayes, Kent</placeName>
+                <date when="1869-02-12">12 Feb 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Returns a book on beavers borrowed from CD.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">beavers</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Hayes | Bromley, Kent.</hi></placeName>
+                    <date>12 Feby 1869</date>
+                    <salute>My dear Mr Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>For long past I have been promising myself a leisure day in which I could drive over &amp; return you the wonderful book of the beavers, which you were so kind as to lend me.<ref target="#foot.f1"/> But one day it is “fund Committee of Society of Arts”, another “Council for Colonial Society” another “Emigration Association” &amp; so on till one really never gets a day to oneself.<ref target="#foot.f2"/> “No rest but the grave” &amp;c as the song says!<ref target="#foot.f3"/> I trust that I have not inconvenienced you or hindered the great work by retaining it? It is very interesting &amp; the man himself quite an enthusiast in the cause of his most intelligent friends. The particulars of their dam-building are certainly most astonishing.</p>
+<p>With kindest regards to M<hi rend="superscript">rs</hi> Darwin &amp; the young ladies<ref target="#foot.f4"/> I am Dear Sir | Yours very truly | Edw Wilson</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Wilson refers to <hi rend="italic">The American beaver and his works</hi> (Morgan 1868). CD’s annotated copy is in the Darwin Library–CUL.</note>
+            <note xml:id="foot.f2">Wilson was known for his philanthropic activities. He was a founder of the Colonial Society in 1868 and served as a member of the council (<ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref>).</note>
+            <note xml:id="foot.f3">The final line of the song ‘Pilgrim of love’ by <ref target="../nameregs/nameregs_6723.xml" resp="#mjhawkins">Henry Rowley Bishop</ref> was ‘No rest but the grave for the pilgrim of love’ (<ref target="../bibliographies/bibl_658.xml" resp="#mjhawkins">Bishop [1864]</ref>).</note>
+            <note xml:id="foot.f4">Wilson refers to Emma, Henrietta Emma, and Elizabeth Darwin.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

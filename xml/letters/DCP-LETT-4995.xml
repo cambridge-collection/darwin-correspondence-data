@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4995">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To F. W. Farrar   3 February [1866]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19908</idno>
+            
+            
+            
+            
+            <date when="2004">2004</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4995 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4995.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4995.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="14">14</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">National Library of Australia (MS 5907)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_290.xml">NL Australia</repository>
+                    <idno>MS 5907</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1866-02-03">3 Feb [1866]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1596.xml">Farrar, F. W.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Will be pleased to sign FWF’s certificate for the Royal Society if he can send it to CD, who does not have the strength to go to London.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin himself, bad or deteriorating</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">Royal Society of London</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Feb 3.</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I shall have real pleasure in signing your certificate if you can send it to me here, for I have not strength to go to London.<ref target="#foot.f2"/> For the same reason I can be of little use in speaking to other members of the Royal Soc—which otherwise I sh<hi rend="superscript">d</hi> have had much pleasure in doing.</p>
+<p>Do not be disappointed if you are not elected this year, for the number of applicants in all branches of science is great; &amp; very many excellent men are not elected the first year.<ref target="#foot.f3"/></p>
+<p>With my best wishes for your success | I remain my dear Sir | yours sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-4998.xml" resp="#mjhawkins">letter from F. W. Farrar, 5 February 1866</ref>.</note>
+            <note xml:id="foot.f2">Farrar had asked CD to sign his certificate as a candidate for fellowship of the <ref target="../nameregs/nameregs_4110.xml" resp="#mjhawkins">Royal Society of London</ref> (see <ref target="./DCP-LETT-4993.xml" resp="#automat">letter from F. W. Farrar, 1 February [1866]</ref>).</note>
+            <note xml:id="foot.f3">Farrar was one of fifteen new fellows, excluding foreign fellows, elected on 7 June 1866 (<hi rend="italic">Proceedings of the Royal Society of London</hi> 15 (1866–7): 189).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

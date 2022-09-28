@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-636">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Provis   20 July 1842</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1499</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-636 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-636.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-636.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 27.1: B24</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>27.1: B24</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3877.xml">Provis, John</persName>
+                <placeName>Holyhead</placeName>
+                <date when="1842-07-20">20 July 1842</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Location of village of Bethesda [NW Wales].</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="places" ref="#">Bethesda</term>
+                <term type="places" ref="#">Wales, NW.</term>
+                <term type="scientific_terms" ref="#">geography</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00027-00001-000-00077_files/8/0_0.jpg" width="3611px" height="6564px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00027-00001-000-00077_files/11/1_1.jpg" width="3611px" height="6564px"/>
+        <surface xml:id="i1" n="B24r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00027-00001-000-00077.jpg" rend="portrait" width="3611px" height="6564px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00027-00001-000-00077_files/8/0_0.jpg" width="3611px" height="6564px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00027-00001-000-00077.dzi" width="3611px" height="6564px"/>
+        </surface>
+        
+        <surface xml:id="i2" n="B24v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00027-00001-000-00078.jpg" rend="portrait" width="3611px" height="6564px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00027-00001-000-00078_files/8/0_0.jpg" width="3611px" height="6564px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00027-00001-000-00078.dzi" width="3611px" height="6564px"/>
+        </surface>
+</facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Holyhead.</placeName>
+                    <date>July 20<hi rend="superscript">th</hi>. 1842.</date>
+                    <salute>Sir,</salute>
+                </opener>
+                <div type="transcription">
+
+<p>I have again examined my Section and also the Field Book from which it was laid down, but on neither is the Village of Bethesda shewn. The nearest point I can give you to that place is Tyn-y-maes (a small Inn where the Mail changes horses) which is 604.9 <hi rend="superscript">Feet</hi> above the Road in front of the Hotel at Holyhead.</p>
+<p>I remain | Sir | Your obed<hi rend="superscript">t</hi> Servant | John Provis <lb resp="#mjhawkins"/> Chas. Darwin Esq<hi rend="superscript">re</hi></p> 
+                </div>
+            </div>
+
+        </div>
+        
+    
+        
+    </body>
+    </text>
+</TEI>

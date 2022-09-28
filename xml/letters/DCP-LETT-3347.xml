@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3347">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Innes   19 December [1861]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1515</idno>
+            
+            
+            
+            
+            <date when="1994">1994</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3347 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3347.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3347.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="09">9</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="endorsement" subtype="letter">61</note>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl>Stecher (1961): 208</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 9: 375</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Cleveland Health Sciences Library (Robert M. Stecher collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_93.xml">Cleveland</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1861-12-19">19 Dec [1861]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2502.xml">Innes, J. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Arrangements for receiving Quiz.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Quiz</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Dec. 19<hi rend="superscript">th</hi></date>
+                    <salute>My dear Innes</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I hope Johnny’s heart will not fail. We will take much care of Quiz. If he comes pray thank Johnny.<ref target="#foot.f1"/> If you will see that the Dog is at London Bridge. S.E. Railway Station by one oclock, I will see that Snow, who is up as usual on Thursday, calls for him &amp; brings him here safely.<ref target="#foot.f2"/></p>
+<p>I had told Snow that he <hi rend="underline">might</hi> be at Nag’s Head this day &amp; gave all sorts of Instructions in case he came later, after he had started.—</p>
+<p>I suppose you will very soon be off to Scotland; most heartily do I hope you all happiness in your new career as Scotch Laird or Chieftain, as perhaps I ought to call it—<ref target="#foot.f3"/></p>
+<p>Pray give my very kind remembrances to M<hi rend="superscript">rs</hi>. Innes &amp; believe me. Dear Innes | Yours very sincerely | Charles Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.1 Quiz] <hi rend="italic">above del</hi> ‘him’</note>
+                    <note xml:id="tnote.n2">1.2 Johnny] <hi rend="italic">above del</hi> ‘him’</note>
+                </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The Darwins were to keep John William Innes’s dog ‘Quiz’ after the family moved to Scotland (see <ref target="./DCP-LETT-3343.xml" resp="#mjhawkins">letter to John Innes, 15 December [1861]</ref>).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_4447.xml" resp="#mjhawkins">George Snow</ref> operated a carrier service between Down and London every Thursday. His point of departure from London was the Nag’s Head Inn, Borough.</note>
+            <note xml:id="foot.f3">Innes, perpetual curate of Down, moved with his family to his ancestral home in Forres, Scotland in 1862.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

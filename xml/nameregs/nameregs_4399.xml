@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-4399" status="released">
+    <persName>
+        <forename>Catharine</forename>
+        <forename>Amelia</forename>
+        <choice>
+            <seg><surname notBefore="1768" notAfter="1800">Pybus</surname></seg>
+            <seg><surname notBefore="1800" notAfter="1852">Smith</surname></seg>
+        </choice>
+    </persName>
+    <note type="dates"><date>1768–1852</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of John Pybus. Married Sydney Smith in 1800.</p></note> 
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref> s.v. Smith, Sydney</p>
+    </note>
+    <note type="volume">5</note>
+    <note type="keywords">
+        <term type="name">Smith, Sydney</term>
+    </note>
+    
+</person>

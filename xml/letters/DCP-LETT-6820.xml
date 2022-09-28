@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6820">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To the <hi rend="italic">Athenæum</hi>   7 [July] 1869<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20111</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6820 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6820.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6820.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Collected papers</hi> 2: 157</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance"> <hi rend="italic">Athenæum</hi>, 17 July 1869, p. 82 </bibl>
+            <bibl type="printedSource">Athenæum 1869.07.17: 82</bibl>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Caerdeon</placeName>
+                <date when="1869-07-07">7 [July] 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_173.xml">Athenæum</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Because readers have arrived at different answers to the problem of the rate of increase of elephants, CD offers a rule, used by his son George, for calculating the product for any number of generations.</p>
+            <p>[Letter erroneously dated June.]</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">elephants</term>
+                <term type="listb" ref="#">unc</term>
+                <term type="people" ref="#">Athenaum readers</term>
+                <term type="people" ref="#subject_1224">Darwin, G. H.</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">generations</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Caerdeon, Barmouth,</hi></placeName>
+                    <date>June 7, 1869.</date>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have received a letter from Germany on the increase of the elephant, in which a learned Professor arrives at a totally different result from that of Mr. Garbett, both of which differ from that of your Correspondent “Ponderer.”<ref target="#foot.f2"/> Hence you may perhaps think it worth while to publish a rule by which my son, Mr. George Darwin,<ref target="#foot.f3"/> finds that the product for any number of generations may easily be calculated:—</p>
+<p>“The supposition is that each pair of elephants begins to breed when aged 30, breeds at 60, and again, for the last time, at 90, and dies when aged 100, bringing forth a pair at each birth. We start, then, in the year 0 with a pair of elephants, aged 30. They produce a pair in the year 0, a pair in the year 30, a pair in the year 60, and die in the year 70. In the year 60, then, there will be the following pairs alive, viz.: one aged 90, one aged 60, two aged 30, four aged 0. The last three sets are the only ones which will breed in the year 90. At each breeding a pair produces a pair, so that the number of pairs produced in the year 90 will be the sum of the three numbers 1, 2, 4, <hi rend="underline">i.e.</hi> 7. Henceforward, at each period, there will be sets of pairs, aged 30, 60, 90 respectively, which breed. These sets will consist of the pairs born at the three preceding periods respectively. Thus the number of pairs born at any period will be the sum of the three preceding numbers in the series, which gives the number of births at each period; and because the first three terms of this series are 1, 2, 4, therefore the series is 1, 2, 4, 7, 13, 24, 44, &amp;c. These are the numbers given by ‘Ponderer.’ At any period, the whole number of pairs of elephants consists of the young elephants together with the three sets of parents; but since the sum of the three sets of parents is equal in number to the number of young ones, therefore the whole number of pairs is twice the number of young ones, and therefore the whole number of elephants at this period (and for ten years onwards) is four times the corresponding number in the series. In order to obtain the general term of the series, it is necessary to solve an easy equation by the Calculus of Finite Differences.”<ref target="#foot.f4"/></p>
+<p>Charles Darwin.</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD evidently wrote ‘June’ by mistake. He arrived in Wales on 12 June 1869 and stayed until 30 July (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242)). See also letter to the <hi rend="italic">Athenæum</hi>, 19 June 1869.</note>
+            <note xml:id="foot.f2">The letter from Germany has not been found; CD refers to <ref target="../nameregs/nameregs_1805.xml" resp="#mjhawkins">Edward Lacy Garbett</ref>. See letter from Ponderer to the <hi rend="italic">Athenæum</hi>, [before 5 June 1869] and n. 2, and letter from E. L. Garbett to the <hi rend="italic">Athenæum</hi>, 29 June 1869.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_1224.xml" resp="#mjhawkins">George Howard Darwin</ref>.</note>
+            <note xml:id="foot.f4">The calculus of finite differences is concerned with changes in a dependent variable due to discrete changes in the independent variable. Its equations are finite analogues of differential equations.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

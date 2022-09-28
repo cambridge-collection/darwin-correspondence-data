@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2550">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To T. H. Huxley   24 [November 1859]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9355</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2550 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2550.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2550.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 145: 187</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl>Osborn (1926): 476</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 7: 393</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 261.11: 4 (EH 88205939)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>261.11: 4 (EH 88205939)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Ilkley</placeName>
+                <date when="1859-11-24">24 [Nov 1859]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2486.xml">Huxley, T. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Murray has sold out <hi rend="italic">Origin</hi>; wants a new edition immediately.</p>  
+<p>Asks THH to check whether Geoffroy <hi rend="italic">de</hi> St Hilaire is correct [form of name].</p> 
+            <p>Would be grateful for THH’s impressions on the truth of natural selection.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Origin</term>
+                <term type="people" ref="#subject_3463">Murray, John (b)</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">reception of Darwinism</term>
+                <term type="scientific_terms" ref="#">selection</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Ilkley Wells House | Otley, Yorkshire</placeName>
+                    <date>24<hi rend="superscript">th</hi></date>
+                    <salute>My dear Huxley</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have heard from Murray today that he sold whole Edition of my Book on first day, &amp; he wants another instantly, which confounds me, as I can make hardly any corrections.<ref target="#foot.f1"/> But a friend writes to me that it ought to be Geoffroy DE St. Hilaire: my memory says <hi rend="underline">no</hi>.<ref target="#foot.f2"/> Will you turn to a title-page &amp; tell me soon &amp; forgive me asking this trouble.</p>
+<p>Remember how deeply I wish to know your general impression of the truth of the theory of Natural Selection.—only a short note— at some future time if you have any lengthy criticisms, I sh<hi rend="superscript">d</hi> be infinitely grateful for them. You must know well how highly I value your opinion.—<ref target="#foot.f3"/></p>
+<p>In Haste, for I am bothered to death by this new Edition | Ever yours | C. Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Orders for copies of <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref> from book-dealers at John Murray’s trade sale on 22 November ex-ceeded by more than 250 the number available (1192) from the printing of 1250 copies (<hi rend="italic">Athenæum</hi>,26 November 1859, p. 706). Instead of printing more copies, Murray called for CD to prepare a second edition immediately. See <ref target="../bibliographies/bibl_2661.xml" resp="#mjhawkins">Freeman 1977</ref>, p. 77.</note>
+            <note xml:id="foot.f2">CD cited both <ref target="../nameregs/nameregs_1839.xml" resp="#mjhawkins">Étienne Geoffroy Saint-Hilaire</ref> and his son Isidore in <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>.</note>
+            <note xml:id="foot.f3">CD had not yet received Huxley’s letter of 23 November. It had been addressed to him at Down and then forwarded to Ilkley. See <ref target="./DCP-LETT-2544.xml" resp="#mjhawkins">letter from T. H. Huxley, 23 November 1859</ref>, and letter to T. H. Huxley, 25 November [1859].</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

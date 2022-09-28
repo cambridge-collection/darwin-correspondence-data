@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2597">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Murray   24 December [1859]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1078</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2597 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2597.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2597.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">National Library of Scotland (John Murray Archive) (Ms.42153 ff.24–25)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_278.xml">Murray Archive</repository>
+                    <idno>Ms.42153 ff.24-25</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1859-12-24">24 Dec [1859]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks JM for present of McClintock’s work [Sir Francis Leopold McClintock, <hi rend="italic">The voyage of the "Fox" in the Arctic seas</hi> (1859)], which he and his wife look forward to reading.</p>  
+<p>Asks to be told when reprint [of <hi rend="italic">Origin</hi>] is ready.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Origin</term>
+                <term type="it" ref="#">The voyage of the "Fox" in the Arctic seas</term>
+                <term type="people" ref="#subject_1218">Darwin, Emma</term>
+                <term type="rx" ref="#">McClintock, F. L. 1859</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Dec. 24<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I return you on the part of my wife her very sincere thanks for your kind present of Mc’Clintock’s work.<ref target="#foot.f1"/> It is beautifully got up &amp; we shall read it with great interest.</p>
+<p>I am much obliged about Prof Asa Gray.—</p>
+<p>I do not think I shall want 1<formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> dozen copies.— But will you kindly inform me when the Reprint is ready.—<ref target="#foot.f2"/></p>
+<p>Yours very sincerely | C. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_3258.xml" resp="#mjhawkins">Francis Leopold McClintock</ref>, captain of an expedition in search of <ref target="../nameregs/nameregs_1742.xml" resp="#mjhawkins">John Franklin</ref>, had returned in 1859 with conclusive proof of Franklin’s death and the fate of the party. The voyage was described in <ref target="../bibliographies/bibl_5061.xml" resp="#mjhawkins">McClintock 1859</ref>, a work published by Murray.</note>
+            <note xml:id="foot.f2">CD refers to the second edition of <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>, published on 7 January 1860 (<ref target="../bibliographies/bibl_2661.xml" resp="#mjhawkins">Freeman 1977</ref>, p. 78). According to Murray’s accounts, CD was given eighteen free copies (Peckham ed. 1959, p. 776).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

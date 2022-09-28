@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3769">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Walter White   17 [October – November 1862?]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">5515</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3769 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3769.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3769.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Wellcome Collection</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_437.xml">Wellcome</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+            <date xml:id="date1" when="1862-10-17" exclude="#date2">17 Oct 1862</date>
+            <date xml:id="date2" when="1862-11-17" exclude="#date1">17 Nov 1862</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_5102.xml">White, Walter</persName>
+                <orgName key="../nameregs/nameregs_4110.xml">Royal Society of London</orgName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>CD needs first volume of the second series [of <hi rend="italic">Trans. R. Hortic. Soc. Lond.</hi>].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Trans. R. Hortic. Soc. Lond.</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down</placeName>
+                    <date>17<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have received Vol I of Hort. Transact. &amp; am much obliged but it is not the right volume; I believe that I wrote Vol I <hi rend="doubleUnderline">second series</hi>.<ref target="#foot.f2"/> Have you not 2<hi rend="superscript">d</hi> series? Will you kindly pass this note on to Linn. Soc to see if they have the Second series; &amp; if so ask them to send it by Delivery Co<hi rend="superscript">y</hi> on Wednesday morning to enclosed address. Will you kindly inform me whether either Soc. has this second series? for I must somehow get it— I am sorry to cause so much trouble—</p>
+<p>In Haste | Yours faithfully | C. Darwin <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Librarian Royal Soc | or | Linnean Soc<hi rend="superscript">y</hi>.<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.1 &amp; am much obliged] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">1.2 Vol I] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n3">1.5 series?] ‘?’ <hi rend="italic">over</hi> ‘;’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date range is conjectured from the reference to volume 1 of the second series of the <hi rend="italic">Transactions of the Horticultural Society of London</hi> (see n. 2, below).</note>
+            <note xml:id="foot.f2">CD’s earlier letter to White, who was the librarian of the Royal Society, has not been found. Between 7 October and 11 December 1862, CD wrote a draft section of <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> in which he discussed ‘Facts of variation of Plants’, appearing in the published form as chapters 9 and 10 (<ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 305–72; see ‘Journal’ (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 10, Appendix II)). In his discussion he cited on several occasions <ref target="../nameregs/nameregs_4725.xml" resp="#mjhawkins">Robert Thompson’s</ref> papers on the varieties of apricot, gooseberry, and cherry, which were published in volume 1 of the second series of the <hi rend="italic">Transactions of the Horticultural Society of London</hi> (<ref target="../bibliographies/bibl_7714.xml" resp="#mjhawkins">Thompson 1831</ref>, 1832a, and 1832b).</note>
+            <note xml:id="foot.f3">The librarian of the <ref target="../nameregs/nameregs_2944.xml" resp="#mjhawkins">Linnean Society</ref> of London was <ref target="../nameregs/nameregs_2705.xml" resp="#mjhawkins">Richard Kippist</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

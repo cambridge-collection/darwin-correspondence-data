@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9420">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Henry Willett   19 April [1874]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13843</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9420 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9420.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9420.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Copy</note>
+            <note type="physdesc" n="C">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 148: 359</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>148: 359</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1874-04-19">19 Apr [1874]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_5142.xml">Willett, Henry</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>F. M. Balfour is in Naples. Comments on rate at which sea eats back the land, as given in early editions of <hi rend="italic">Origin</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_258">Balfour, F. M.</term>
+                <term type="places" ref="#">Naples</term>
+                <term type="scientific_terms" ref="#">change</term>
+                <term type="scientific_terms" ref="#">geography</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">sea, sea-currents</term>
+                <term type="scientific_terms" ref="#">time, ‘inorganic’ (geological, historical)</term>
+                <term type="social" ref="#">Other people</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down | Beckenham. Kent.</placeName>
+                    <date>Ap 19<hi rend="superscript">th</hi>.</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>M<hi rend="superscript">r</hi>. Balfour is in Naples &amp; I do not know his address,<ref target="#foot.f2"/> so that the circular does not signify. I was very glad to see that your great undertaking was progressing favourably.<ref target="#foot.f3"/> You must be reading one of the first Editions of the Origin, for I altered &amp; omitted long ago that part about the rate of the sea eating back the land, in which I blundered most egregiously<ref target="#foot.f4"/></p>
+<p>My dear Sir | Y<hi rend="superscript">rs</hi>. very faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to <ref target="../nameregs/nameregs_258.xml" resp="#mjhawkins">Francis Maitland Balfour’s</ref> stay in Naples (see n. 2, below).</note>
+            <note xml:id="foot.f2">Balfour was in Naples in April 1874; he had been doing research at the Zoological Station there since late 1873 (see <ref target="./DCP-LETT-9396.xml" resp="#mjhawkins">letter from Michael Foster, 7 April [1874]</ref> and n. 2).</note>
+            <note xml:id="foot.f3">No letter from Willett has been found; the circular may have involved the Wealden Exploration Fund, which Willett had established to support geological excavations of the Sussex Downs (<ref target="../bibliographies/bibl_8386.xml" resp="#mjhawkins">[Willett] 1878</ref>).</note>
+            <note xml:id="foot.f4">CD refers to his revised discussion of the denudation of the Weald (see <ref target="../bibliographies/bibl_6015.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 2d ed.</ref>, p. 285, and <ref target="../bibliographies/bibl_6016.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 3d ed.</ref>, p. xii), which had important consequences for his estimates of geological time.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1182">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Robert Chambers   [June 1848]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19285</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1182 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1182.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1182.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc">ADraft 3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 50: C1–C2</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>50: C1–C2</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1848-06-01" notAfter="1848-06-30">[June 1848]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_875.xml">Chambers, Robert</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Congratulates RC on his work on Scottish sea-margins [<hi rend="italic">Ancient sea-margins</hi> (1848)].</p> 
+            <p>Discusses Glen Roy; Milne staggered him in favour of the glacier view, but now his opinion has reverted.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="geology" ref="#">sea-margins</term>
+                <term type="it" ref="#">Ancient sea-margins</term>
+                <term type="people" ref="#subject_3336">Milne-Home, David</term>
+                <term type="places" ref="#">Glen Roy</term>
+                <term type="places" ref="#">Scotland</term>
+                <term type="rx" ref="#">Chambers, Robert 1848</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">ice, ice-action, icebergs, glaciers</term>
+                <term type="scientific_terms" ref="#">positive criticism of correspondent</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00050-000-00079_files/8/0_0.jpg" width="5240px" height="7632px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00050-000-00079_files/11/1_1.jpg" width="5240px" height="7632px"/>
+        <surface xml:id="i1" n="C1r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00050-000-00079.jpg" rend="portrait" width="5240px" height="7632px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00050-000-00079_files/8/0_0.jpg" width="5240px" height="7632px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00050-000-00079.dzi" width="5240px" height="7632px"/>
+        </surface>
+        
+        <surface xml:id="i2" n="C1v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00050-000-00080.jpg" rend="portrait" width="5526px" height="7463px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00050-000-00080_files/8/0_0.jpg" width="5526px" height="7463px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00050-000-00080.dzi" width="5526px" height="7463px"/>
+        </surface>
+        
+        <surface xml:id="i3" n="C2r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00050-000-00081.jpg" rend="portrait" width="5285px" height="7723px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00050-000-00081_files/8/0_0.jpg" width="5285px" height="7723px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00050-000-00081.dzi" width="5285px" height="7723px"/>
+        </surface>
+        
+        <surface xml:id="i4" n="C2v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00050-000-00082.jpg" rend="portrait" width="5526px" height="7463px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00050-000-00082_files/8/0_0.jpg" width="5526px" height="7463px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00050-000-00082.dzi" width="5526px" height="7463px"/>
+        </surface>
+</facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Down]</placeName>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I have read all your work with much interest; I think you have done a real good service to Geology in calling attention to your sea margins &amp; comprehending them under one general point of view.—<ref target="#foot.f2"/> Your work must have been very expensive; with all the surveys &amp; illustrations, &amp; I sincerely hope the sale will return some part of your outlay. It is quite curious to me, how many of your sketches remind me of what I have seen in S. America.</p>
+<p>I will first make some remarks on Glen Roy, which is a subject that has always interested me beyond perhaps its just merit, &amp; about which I feel much a personal interest, for I sh<hi rend="superscript">d</hi> have been more sorry to have been proved wrong on it, than upon almost any other subject. M<hi rend="superscript">r</hi> Milne, as you know, at first staggered me in favour of the glacier view, but I had quite recovered that &amp; had resumed my old state of positiveness.<ref target="#foot.f3"/> I <hi rend="italic">[illeg]</hi> <hi rend="italic">[illeg]</hi> M<hi rend="superscript">r</hi> M wrong about bottom of valley All this, I think, has made me the more pleased with your coming to the same conclusion as I did. Your faint terraces above the lower one (No 4) in Glen Spean, is an important addition to the data. High mark. Kemp, Milne &amp; especially yourself I have been surprised at your stating that the lines between 2 &amp; 3 in Glen Roy “though not unknown to former observers, have not been by them thought worthy of serious notice”.<ref target="#foot.f4"/> Why this fact &amp; its full bearings are most carefully pointed out by me at p. 61 where I remark that it “deserves particular attention” “perceiving its importance, I examined it with scrupulous care”. &amp;c &amp;c<ref target="#foot.f5"/> It was this case &amp; the <hi rend="underline">gradual thinning</hi> out of the lines round Bohuntine (as I have particularly described) which chiefly led me to the marine theory; for during my first two days I was a convert to the lacustrine theory.<ref target="#foot.f6"/> Your line argument is almost the same as the same with mine; for in the section of my P in T<ref target="#foot.f7"/> I go into detail p. 49 et seq on the terraces &amp; mounds below shelf (4) in Glen Spean (&amp; like such parts) &amp; show, as I <hi rend="italic">[</hi>consider<hi rend="italic">]</hi> that if formed by the check given to river born detritus, at surface level slow retreat of the sea; an idea was a new one in those days.—<ref target="#foot.f8"/> You might have added another green patch, marking a land-strait, for the Kilfinnan terrace, which, is, as I have described on a dead level with one.—<ref target="#foot.f9"/> Have you not observed, (I did so) that where these level landstraits occur, (whether there are terraces or not) that there are generally slight buttresses on the sides above them; I have always thought this somewhat important. Such occur at the head of the Spey; I heartily wish you had worked out that point, for to my mind it is one of the most important points. <lb resp="#mjhawkins"/> Valleys of Gr Glen</p>
+<p>So much for Glen Roy, which no doubt &amp; very justly, you think subordinate in importance to the general question of the coincident levels of the shelves at distant points.</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.2 much] <hi rend="italic">added</hi></note>
+                    <note xml:id="tnote.n2">2.2 a personal] ‘a’ <hi rend="italic">added</hi></note>
+                    <note xml:id="tnote.n3">2.5 that] <hi rend="superscript">1</hi>‘t’ <hi rend="italic">over illeg</hi></note>
+                    <note xml:id="tnote.n4">2.6 I … valley] <hi rend="italic">interl, pencil</hi></note>
+                    <note xml:id="tnote.n5">2.9 High … yourself] <hi rend="italic">interl, pencil</hi></note>
+                    <note xml:id="tnote.n6">2.12 are] <hi rend="italic">over</hi> ‘is’</note>
+                    <note xml:id="tnote.n7">2.14 “perceiving … care”. &amp;c &amp;c] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n8">2.16 chiefly] <hi rend="italic">before del</hi> ‘, (together with absence of all traces of Barriers)’</note>
+                    <note xml:id="tnote.n9">2.17 the lacustrine] ‘the’ <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n10">2.17 lacustrine theory.] <hi rend="italic">before del</hi> ‘No one would suppose from your expressions, that I had “pronounced” the shelves to be of marine origin, &amp; that this view was accepted <hi rend="italic">[illeg del]</hi> from the mobility of the land being an ascendant idea, with other [<hi rend="italic">altered from</hi> ‘others’] geologists [<hi rend="italic">interl</hi>], that I had worked at the subject with labour.’</note>
+                    <note xml:id="tnote.n11">2.17 line] <hi rend="italic">interl, pencil</hi></note>
+                    <note xml:id="tnote.n12">2.17 is almost the same as 2.18] <hi rend="italic">interl, pencil</hi>; <hi rend="italic">before del</hi> ‘&amp; mine are indeed identically’</note>
+                    <note xml:id="tnote.n13">2.18 with mine] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n14">2.18 in the section of my P in T] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n15">2.19 p. 49 et seq] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n16">2.19 (&amp; like such parts) 2.20] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n17">2.20 &amp; show, as I <hi rend="italic">[</hi>consider<hi rend="italic">]</hi> that if] <hi rend="italic">above del</hi> ‘having been’; ‘<hi rend="italic">[</hi>consider<hi rend="italic">]</hi>’ <hi rend="italic">after del</hi> ‘thi’</note>
+                    <note xml:id="tnote.n18">2.20 check … level 2.21] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n19">2.21 an] <hi rend="italic">above del</hi> ‘&amp; the’</note>
+                    <note xml:id="tnote.n20">2.23 which] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n21">2.28 points.] <hi rend="italic">before del</hi> ‘You seem to have forgotten that Macculloch considered that there were <hi rend="italic">two</hi> shelves in Glen Gluoy—’</note>
+                    <note xml:id="tnote.n22">3.1 Valleys of Gr Glen] <hi rend="italic">added, pencil</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated on the basis that CD had evidently just received a copy of <ref target="../bibliographies/bibl_1351.xml" resp="#mjhawkins">Chambers 1848</ref>, published between 30 May and 13 June (<hi rend="italic">Publishers’ Circular</hi>, no. 258, 15 June 1848).</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_1351.xml" resp="#mjhawkins">Chambers 1848</ref>. CD’s copy is in the Darwin Library–Down.</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-1115.xml" resp="#mjhawkins">letter from Robert Chambers to David Milne, 7 September 1847</ref>, and letters to <ref target="../nameregs/nameregs_3051.xml" resp="#mjhawkins">Charles Lyell</ref>, <ref target="./DCP-LETT-1116.xml" resp="#mjhawkins">8 [September 1847]</ref>; to <ref target="../nameregs/nameregs_875.xml" resp="#mjhawkins">Robert Chambers</ref>, 11 September 1847; and to David Milne, 20 [September 1847].</note>
+            <note xml:id="foot.f4"><ref target="../bibliographies/bibl_1351.xml" resp="#mjhawkins">Chambers 1848</ref>, p. 115.</note>
+            <note xml:id="foot.f5"><ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 1: 112.</note>
+            <note xml:id="foot.f6">See CD’s Glen Roy notebook (<ref target="../bibliographies/bibl_5912.xml" resp="#mjhawkins"><hi rend="italic">Notebooks</hi></ref>), in which he discussed a possible lacustrine origin for the ‘roads’.</note>
+            <note xml:id="foot.f7">Presumably by ‘P in T’ CD means his paper in the Transactions, that is, <ref target="../bibliographies/bibl_6177.xml" resp="#mjhawkins">‘Observations on the parallel roads of Glen Roy’</ref>, <ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 1: 89–137, published in the <hi rend="italic">Philosophical Transactions of the Royal Society</hi>, pt 1 (1839): 39–81.</note>
+            <note xml:id="foot.f8"><ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 1: 101–4.</note>
+            <note xml:id="foot.f9">Kilfinnin (see <ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 1: 92).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

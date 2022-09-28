@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1296">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. S. Bowerbank<ref target="#foot.f1"/>   [24 January – 7 March 1850]<ref target="#foot.f2"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">91</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1296 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1296.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1296.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.91)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>91</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1850-01-24" notAfter="1850-03-07">[24 Jan – 7 Mar 1850] </date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_568.xml">Bowerbank, J. S.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks JSB for specimens of fossil Balanidae.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Balanidae</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">fossils</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborugh Kent</placeName>
+                    <date>Thursday Evening</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I write merely to thank you much for the Balani, which arrived quite safely &amp; which when I come to the fossil Sessile species will be very useful to me.—</p>
+<p>Yours sincerely | C. Darwin</p>
+<p>If you ever hear of any fossil Cirripedia, I shall be grateful, if you will bear my monograph in mind.—</p>
+<p>I got your Lubbock to join your Society<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Bowerbank was the probable recipient of this letter as he was CD’s main source of fossil <hi rend="italic">Balanus</hi> species.</note>
+            <note xml:id="foot.f2">If the recipient was Bowerbank, then this letter must follow <ref target="./DCP-LETT-1294.xml" resp="#mjhawkins">letter to J. S. Bowerbank, 19 January [1850]</ref>, and precede Bowerbank’s involvement with CD’s monograph in his capacity as honorary secretary of the <ref target="../nameregs/nameregs_3646.xml" resp="#mjhawkins">Palaeontographical Society</ref> (<ref target="./DCP-LETT-1310.xml" resp="#mjhawkins">letter to J. S. Bowerbank, [8 March 1850]</ref>).</note>
+            <note xml:id="foot.f3">Bowerbank was associated with several scientific societies. CD’s use of ‘your society’ suggests the <ref target="../nameregs/nameregs_3646.xml" resp="#mjhawkins">Palaeontographical Society</ref>, which had been set up by Bowerbank in 1847, but John William Lubbock’s name appears on the first list of subscribers issued in 1848, well before the probable date of this letter. However, Bowerbank was also treasurer of the <ref target="../nameregs/nameregs_3945.xml" resp="#mjhawkins">Ray Society</ref>, and had been since its foundation in 1844, to which Lubbock began to subscribe sometime between September 1849 and June 1851.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

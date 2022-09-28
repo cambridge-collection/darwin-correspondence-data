@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6563">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Mary Somerville   21 January [1869]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6092</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6563 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6563.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6563.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Bodleian Libraries, Oxford (Dep. c. 370, folder MSD-1: on loan from Somerville College, Oxford)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_48.xml">Bodleian</repository>
+                    <collection>Somerville</collection>
+                    <idno>Dep. c. 370, folder MSD-1</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1869-01-21">21 Jan [1869]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4466.xml">Somerville, M. F. G.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks for copy of MS’s book [<hi rend="italic">On molecular and microscopic science</hi>, (1869)]. Part on orchids is an excellent summary.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">orchids</term>
+                <term type="it" ref="#">On molecular and microscopic science</term>
+                <term type="rx" ref="#">Somerville, M. F. G. 1869</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Jan 21<hi rend="superscript">st</hi>.</date>
+                    <salute>Dear Madam</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I beg leave to thank you very sincerely for your great kindness in sending me a copy of your beautiful work, received yesterday, on Molecular &amp; Microscopic Science, and for the honour you have thus conferred on me.<ref target="#foot.f2"/></p>
+<p>I have not yet had time to do more than turn over the pages, &amp; to read the part about Orchids, in which you give an excellent summary of the subject.</p>
+<p>With my best thanks &amp; the most sincere respect, | I beg permission to remain | dear Madam, | yours truly obliged | Charles Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the publication date of Mary Somerville’s book (see n. 2, below).</note>
+            <note xml:id="foot.f2">Somerville’s book, <hi rend="italic">On molecular and microscopic science</hi> (<ref target="../bibliographies/bibl_7332.xml" resp="#mjhawkins">Somerville 1869</ref>) was published at the beginning of January 1869 (<hi rend="italic">Publishers’ Circular</hi>, 16 January 1869, p. 10). CD’s copy is in the Darwin Library–Down. Somerville, having received CD’s permission, used fourteen illustrations from <ref target="../bibliographies/bibl_6010.xml" resp="#mjhawkins"><hi rend="italic">Orchids</hi></ref> in the book (<ref target="../bibliographies/bibl_7332.xml" resp="#mjhawkins">Somerville 1869</ref>, 1: 389–403; see also <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol 14, <ref target="./DCP-LETT-5259.xml" resp="#mjhawkins">letter from Mary Somerville, 30 October 1866</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

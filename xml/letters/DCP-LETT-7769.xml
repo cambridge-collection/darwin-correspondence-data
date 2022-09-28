@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7769">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Murray   26 May [1871]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9569</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7769 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7769.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7769.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 399</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 399</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+                <placeName>London, Albemarle St, 50</placeName>
+                <date when="1871-05-26">26 May [1871]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends two bills [JM’s notes for payments due to CD] for £420 each for 3d issue of <hi rend="italic">Descent</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="it" ref="#">Descent</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">sexual selection</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">50, Albemarle S<hi rend="superscript">t</hi>. | W.</hi></placeName>
+                    <date>May 26</date>
+                    <salute>Dear Mr Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>As your promise to appear in Albemarle St &amp; receive my two Bills for the Third Ed<hi rend="superscript">n</hi>. of your Descent of Man has not been fulfilled I think it better to delay no longer &amp; beg you to receive enclosed 2 Bills for £420" each—dated from May 1, at Six &amp; 9 months date<ref target="#foot.f2"/></p>
+<p>I remain My Dear Sir | Yours very faithfully | John Murray <lb resp="#mjhawkins"/></p>
+<p rend="left">Chas Darwin Esq</p>
+<p rend="left">Down | Beckenham</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="" resp="#automat">letter to John Murray, 12 March [1871]</ref>.</note>
+            <note xml:id="foot.f2">Murray was mistaken. CD had requested that the bills be sent to Southampton or to Down (see <ref target="./DCP-LETT-7755.xml" resp="#mjhawkins">letter to John Murray, 12 May [1871]</ref>). Murray’s payment was for the third printing of <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> (see <ref target="./DCP-LETT-7750.xml" resp="#mjhawkins">letter from John Murray, 10 May 1871</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

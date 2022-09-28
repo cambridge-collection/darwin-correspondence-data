@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6799">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From James Croll   23 June 1869</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16561</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6799 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6799.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6799.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 161: 265</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>161: 265</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1127.xml">Croll, James</persName>
+                <placeName>Edinburgh</placeName>
+                <date when="1869-06-23">23 June 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks for presentation copy of <hi rend="italic">Origin</hi> [5th ed.].</p> 
+            <p>Clarifies his point on north and south glacial periods. Supports CD’s view that temperate plants will move up mountains during the alternation.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">temperate plants</term>
+                <term type="geology" ref="#">glacial periods</term>
+                <term type="geology" ref="#">mountains</term>
+                <term type="it" ref="#">Origin</term>
+                <term type="places" ref="#">hemisphere, north</term>
+                <term type="places" ref="#">hemisphere, south</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">geography</term>
+                <term type="scientific_terms" ref="#">geological time, epochs</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+                <term type="scientific_terms" ref="#">wind and weather</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Edinburgh</placeName>
+                    <date>June 23<hi rend="superscript">d</hi>. 1869.</date>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Please to accept of my warmest thanks for the copy of the new edition of your Origin of Species which you were so kind as to present me with.<ref target="#foot.f1"/> I trust that you will not consider me vain for saying that I am very much gratified with the complimentary way in which you have referred to my papers.<ref target="#foot.f2"/> I am particularly interested in the section on alternate glacial periods in north and south.<ref target="#foot.f3"/> I had no idea of this application of the theory when engaged on the subject or I might have brought out the point more clearly than I have done, that when the northern hemisphere, for example, is under a glacial period the line of highest temperature will not be at the equator but will lie a very considerable distance to the south of the equator. And again when the glacial period is transferred over to the southern hemisphere the line of greatest heat will move over to as great a distance to the north of the equator. Your idea that the temperate climate plants will move up the mountain side while this line of greatest heat is being transferred from the one hemisphere to the other is most ingenious as it is natural.</p>
+<p>I am, | Yours very truly | James Croll <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin Esq. M.A; F.R.S.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The fifth edition of <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref> was published in the week beginning 22 June 1869; presentation copies were sent out earlier (see <ref target="./DCP-LETT-6794.xml" resp="#automat" cert="low">letter from Robert Cooke, 22 June 1869)</ref>.</note>
+            <note xml:id="foot.f2">CD added a number of references to Croll’s work on subaerial denudation and glacial periods to <ref target="../bibliographies/bibl_6018.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 5th ed.</ref> (see <hi rend="italic">ibid.</hi>, pp. 349, 352, 379, 451).</note>
+            <note xml:id="foot.f3">See <ref target="../bibliographies/bibl_6018.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 5th ed.</ref>, pp. 450–61. CD used Croll’s hypothesis of alternating glacial periods in the northern and southern hemispheres to help to explain the survival of tropical species, and the distribution of temperate ones.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

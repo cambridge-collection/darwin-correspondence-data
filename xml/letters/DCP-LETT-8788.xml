@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8788">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From J. D. Hague   26 February 1873</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14312</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8788 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8788.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8788.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Nature</hi> 7 (1873): 443</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 166: 81</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>166: 81</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2050.xml">Hague, J. D.</persName>
+                <placeName>San Francisco</placeName>
+                <date when="1873-02-26">26 Feb 1873</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends a paper on behaviour he has observed in ants.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">ants</term>
+                <term type="scientific_terms" ref="#">behaviour</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>609 Bush Street. | San Francisco,</placeName>
+                    <date>Feb 26<hi rend="superscript">th</hi> 1873</date>
+                    <salute>My dear sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I can hardly expect to add anything to your knowledge of ants; but as I lately observed some behaviour on their part which not only seems to me somewhat peculiar and noteworthy but different in some respects from anything I find in books that treat of their nature and habits, I venture to send you an account of it at the risk of asking you to read what may prove to be neither new nor very interesting.<ref target="#foot.f1"/></p>
+<p>The exhibition of emotion in the conduct of ants, their affections, sympathy for each other in distress etc., I find described by several writers; and among other instances is one, generally quoted, wherein after a disaster that had caused the death of many ants, the survivors came and bore off the dead; but I have found no case like this where the presence of dead or dying ants caused the others to flee in terror from the spot, or where the killing of a single ant on their accustomed path (no visible trace being left) caused all approaching ants to stop, turn about, run home and stay there, abandoning their errand altogether.</p>
+<p>Thinking that this instance may differ a little from any yet recorded I have written it out at some length in the accompanying paper in the hope that it may be worth your reading</p>
+<p>Your last work<ref target="#foot.f2"/> finds many readers here. A bookseller told me lately that there was not a copy to be had in town although the dealers had received large supplies. I beg leave to offer you my congratulations on your continued good health—judging it, at least, by your ability to labour.</p>
+<p>Let me ask you also to present my regards to your sons. I hope they retain pleasant recollections of their visit here.<ref target="#foot.f3"/> | With sincere respect and regard | I am Very Truly Yours | James D. Hague <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin Esq<hi rend="superscript">re</hi>. F.R.S. | &amp;c &amp;c &amp;c</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD enclosed Hague’s account in his second letter to <hi rend="italic">Nature</hi>, [before 3 April 1873], published in the 10 April 1873 issue.</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref>.</note>
+            <note xml:id="foot.f3">Hague refers to <ref target="../nameregs/nameregs_1224.xml" resp="#mjhawkins">George Howard Darwin</ref> and <ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin</ref>, who had visited the United States in 1871 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 19). Hague had met CD in London in February 1871 (<ref target="../bibliographies/bibl_3291.xml" resp="#mjhawkins">Hague 1884</ref>, p. 759).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

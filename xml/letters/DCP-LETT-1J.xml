@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1J">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Dear Friend<ref target="#foot.f1"/>   4 January 1822</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20995</idno>
+            
+            
+            
+            
+            <date when="2002">2002</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1J by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1J.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1J.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="13">13-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">AL</note>
+            <note type="physdesc">AL</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 271/1/1</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno> 271/1/1</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <date when="1822-01-04">4 Jan 1822</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_7868.xml">Dear Friend</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Likes Mariane who is very good to Miss Jones; CD bought cakes in town while Mariane visited Miss Jones; he was embarrassed to be shown into her bedroom when he returned. Miss Clare has had an accident.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_2876">Leighton, Clare</term>
+                <term type="people" ref="#subject_3680">Parker, Marianne</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>My Dear friend,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>You must known that I am very sorry about shakespeare when Maryane, told me to put it up,<ref target="#foot.f2"/> and I like Mariane excessively, she is so very good to M<hi rend="superscript">iss</hi> Jone,<ref target="#foot.f3"/> I will tell you a little accident that happened to me   of course you know M<hi rend="superscript">iss</hi> Jones is in bed, and when I went there with Mariane last night, while she stoopped there I went in town and bought the cakes, and I came back sooner than Mariane was ready, and that foolish old man shoed in the bedroom   then there was a bit of Kick-hoop, not that I went quite in, oh no, quite the reverse</p>
+<p>Your affectionate</p>
+<p>Justice brust with a nose as big as your fist</p>
+<p>PS I hope you were not much alarmed at M<hi rend="superscript">iss</hi> Clare<ref target="#foot.f4"/> accident <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">January 4, 1822</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">3.1 your] <hi rend="italic">over illeg</hi></note>
+                </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The friend has not been identified. See this volume, Supplement, <ref target="./DCP-LETT-1F.xml" resp="#mjhawkins">letter to Dear Friend, 1 January 1822</ref>, n. 1.</note>
+            <note xml:id="foot.f2">CD refers to his sister <ref target="../nameregs/nameregs_3680.xml" resp="#mjhawkins">Marianne Darwin</ref>.</note>
+            <note xml:id="foot.f3">Possibly <ref target="../nameregs/nameregs_6022.xml" resp="#mjhawkins">Martha Jones</ref>, a housemaid, who appears in Robert Waring Darwin’s accounts as receiving money between 1817 and 1822 (DAR 227.5: 82, f. 51 and contents page). The local poor and sick whom <ref target="../nameregs/nameregs_1211.xml" resp="#mjhawkins">Erasmus Alvey Darwin</ref> visited in 1826 included Mrs O. Jones (<hi rend="italic">Correspondence</hi> vol. 1, <ref target="./DCP-LETT-29.xml" resp="#mjhawkins">letter from Susan Darwin, [27 March 1826]</ref>).</note>
+            <note xml:id="foot.f4">Possibly <ref target="../nameregs/nameregs_2876.xml" resp="#mjhawkins">Clare Leighton</ref>, a friend of the family (see <hi rend="italic">Correspondence</hi> vol. 1, letter from Caroline and Susan Darwin, 2 [January 1826], and <ref target="./DCP-LETT-21.xml" resp="#mjhawkins">letter from Catherine Darwin, 15 January [1826]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

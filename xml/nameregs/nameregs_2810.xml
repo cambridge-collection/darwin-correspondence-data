@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-2810" status="released">
+    <persName>
+        <forename>Charlotte</forename>
+        <choice>
+            <seg><surname notBefore="1797" notAfter="1832">Wedgwood</surname></seg>
+            <seg><surname notBefore="1832" notAfter="1862">Langton</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1797–1862</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Emma Darwin’s sister. Married Charles Langton in 1832. Resided at Maer, Staffordshire, 1840–6, and at Hartfield Grove, Hartfield, Sussex, 1847–62.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_2338.xml" resp="#mjhawkins"><hi rend="italic">Emma Darwin</hi> (1915)</ref></p>
+        <p><ref target="../bibliographies/bibl_2662.xml" resp="#mjhawkins">Freeman 1978</ref></p>
+    </note>
+    <note type="volume">1,2,4,5,6,7,8,9,10,11,18,24,WSL,29,30</note>
+    <note type="keywords">
+        <term type="name">Darwin, Emma</term>
+        <term type="name">Langton, Charles</term>
+        <term type="place">Maer</term>
+        <term type="place">Staffordshire</term>
+        <term type="place">Hartfield</term>
+        <term type="place">Sussex</term>
+    </note>
+</person>

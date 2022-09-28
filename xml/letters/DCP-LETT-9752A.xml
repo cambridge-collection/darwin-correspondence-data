@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9752A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To C.-F. Reinwald   [12 December 1874]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20807</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9752A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9752A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9752A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">ADraftS</note>
+            <note type="physdesc">ADraftS 2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 271.2: 1</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>271.2: 1</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <date when="1874-12-12">[12 Dec 1874]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3970.xml">Reinwald, C.-F.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks for translation of his <hi rend="italic">Journal of researches</hi>. Is pleased by its appearance.</p>  
+<p>Also thank Edmond Barbier for his kind words. [See <hi rend="doubleUnderline">9752</hi>.]</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Journal of researches</term>
+                <term type="languages" ref="#">French</term>
+                <term type="people" ref="#subject_272">Barbier, Edmond</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">positive self-criticism</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am much obliged for the Tr. of my Journal,<ref target="#foot.f2"/> received this morning. I am pleased with its appearance. I most sincerely hope that the Translation may sell well &amp; remunerate you. I beg you to thank M. Barbier for his very kind expressions toward me<ref target="#foot.f3"/></p>
+<p>I remain | Dear Sir | Yours faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.1 I am pleased] ‘I am’ <hi rend="italic">after del</hi> ‘&amp;’; ‘pleased’ <hi rend="italic">after del</hi> ‘very’ </note>
+                <note xml:id="tnote.n2">1.2 Translation] <hi rend="italic">after del illeg</hi> </note>
+                <note xml:id="tnote.n3">1.3 &amp; remunerate you] <hi rend="italic">interl</hi> </note>
+                <note xml:id="tnote.n4">1.3 I beg] <hi rend="italic">after del</hi> ‘&amp;’ </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter, the <ref target="./DCP-LETT-9752.xml" resp="#mjhawkins">letter from C.-F. Reinwald, 10 December 1874</ref>, and the <ref target="./DCP-LETT-9755.xml" resp="#mjhawkins">letter to Theodor Eimer, 12 December 1874</ref>.</note>
+            <note xml:id="foot.f2">Barbier trans. 1875.</note>
+            <note xml:id="foot.f3">In a translator’s preface, <ref target="../nameregs/nameregs_272.xml" resp="#mjhawkins">Edmond Barbier</ref> wrote that the fact that the text of <ref target="../bibliographies/bibl_4250.xml" resp="#mjhawkins"><hi rend="italic">Journal of researches</hi></ref> had not been updated since 1845 was compensated for by the particular flavour of a work from the illustrious naturalist’s youth, and by the interest of seeing the development of the ideas that led to the publication of <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref> (Barbier trans. 1875, pp. vii–viii).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1789">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To T. C. Eyton   3 December [1855]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">116</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1789 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1789.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1789.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.116)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>116</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1855-12-03">3 Dec [1855]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1570.xml">Eyton, T. C.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Now has several pigeons, and intends to get pigeons from all parts of the world.</p>
+            <p>Glad TCE is working at dogs. Would TCE like head of Chinese dog?</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">dogs</term>
+                <term type="animals" ref="#">pigeons</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Dec. 3<hi rend="superscript">d</hi>.</date>
+                    <salute>Dear Eyton</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Very many thanks for the information which will be of the greatest use to me.— I am well in my subject &amp; have got several Pigeons already in water &amp; very many alive &amp; flourishing, &amp; I mean to try to get <hi rend="underline">Domestic</hi> Pigeons from all parts of the world.—<ref target="#foot.f1"/></p>
+<p>I am delighted to hear that you are at dogs;<ref target="#foot.f2"/> it will be splendid for my work individually, &amp; I am sure most desirable for Science.</p>
+<p>I have somewhere, I am almost certain, the head of a Chinese Dog:<ref target="#foot.f3"/> would you like to have this? if so (always supposing that I can find it) shall I send it you direct, or have it left anywhere in London.—</p>
+<p>I have alive a German Spitz Dog,<ref target="#foot.f4"/> very pure bred; if it sh<hi rend="superscript">d</hi>. die, sh<hi rend="superscript">d</hi>. I send you the carcase? but as it is young, probably it will live long.—</p>
+<p>With many thanks | Yours most truly | Ch. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.3 <hi rend="italic">Domestic</hi>] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">3.1 the] <hi rend="italic">before omitted point</hi></note>
+                    <note xml:id="tnote.n3">3.3 or] <hi rend="italic">over</hi> ‘—’</note>
+                    <note xml:id="tnote.n4">4.2 carcase?] ‘?’ <hi rend="italic">over full stop</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See CD’s memorandum, [December 1855].</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-1769.xml" resp="#automat">letter to T. C. Eyton, 25 October [1855]</ref>.</note>
+            <note xml:id="foot.f3">In CD’s Questions and experiments notebook, p. 22 (<ref target="../bibliographies/bibl_5912.xml" resp="#mjhawkins"><hi rend="italic">Notebooks</hi></ref>), there is a list of points to discuss with Eyton dated October 1844, including a reference to ‘Chinese Dog’s Head to send’.</note>
+            <note xml:id="foot.f4">A pomeranian dog.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

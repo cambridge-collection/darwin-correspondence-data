@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10577">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Ernst Haeckel   12 August 1876</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">5438</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10577 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10577.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10577.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Ernst-Haeckel-Haus (Bestand A-Abt. 1:1-52/ 39 [9892])</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_160.xml">Haeckel Haus</repository>
+                    <collection>(Bestand A-Abt. 1:1-52/39 [9892])</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1876-08-12">12 Aug 1876</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2048.xml">Haeckel, E. P. A.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Glad EH is coming to England.</p>
+            <p>Will be visiting eldest son in Southampton in September [but visit apparently delayed until 7 Oct, see "Journal"].</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="places" ref="#">England</term>
+                <term type="places" ref="#">Southampton</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">Other people</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>Aug 12. 76</date>
+                    <salute>My dear Haeckel</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am glad to hear that you are coming to England, &amp; shall be delighted to see you here.<ref target="#foot.f1"/> But I am sorry to say it is in some degree doubtful whether I shall be then at home.</p>
+<p>My eldest son who lives at Southampton has had severe concussion of the brain &amp; is now in Scotland for health’s sake<ref target="#foot.f2"/>   He returns to his home early in September, &amp; shortly afterwards we are going to visit him.<ref target="#foot.f3"/> How long we shall stay at Southampton is quite doubtful, as it will depend on how far we are a comfort to him. Therefore as soon as you know within a few days at what time you could come to Down, be so kind as to write to me &amp; I will then tell you whether we shall be at home. You will see that we could not possibly put off our visit to my son, under these circumstances—</p>
+<p>my dear Häckel | Yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">No letter from Haeckel announcing plans to visit England has been found, but he attended the meeting of the British Association for the Advancement of Science at Glasgow in September and visited CD on 26 September 1876 (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242); <ref target="../bibliographies/bibl_4494.xml" resp="#mjhawkins">Krauße 1987</ref>, p. 133).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_1245.xml" resp="#mjhawkins">William Erasmus Darwin</ref> was recovering from a concussion suffered when he had a riding accident in May (see <ref target="./DCP-LETT-10553.xml" resp="#mjhawkins">letter to Andrew Clark, [late June 1876]</ref> and n. 1). William and his sister Elizabeth Darwin travelled to Scotland, returning to Down on 31 August 1876 (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242)).</note>
+            <note xml:id="foot.f3">The Darwins delayed their visit to Southampton until October because of the death of their daughter-in-law, <ref target="../nameregs/nameregs_1205.xml" resp="#mjhawkins">Amy Darwin</ref>, on 11 September 1876, following the birth of her son (CD’s ‘Journal’ (Appendix II)).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

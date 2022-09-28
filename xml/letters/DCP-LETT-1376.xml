@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1376">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Robert Fitch   [December? 1850]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3483</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1376 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1376.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1376.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl>Trenn (1974): 485</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 4: 376</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Norwich Castle</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_298.xml">Norwich Castle</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1850-12-01" notAfter="1850-12-31">[Dec? 1850]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1642.xml">Fitch, Robert</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Describes progress of J. de C. Sowerby in engraving fossil cirripede specimens.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">cirripede</term>
+                <term type="people" ref="#subject_4481">Sowerby, J. C.</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">fossils</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Monday</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I send one line to assure you that it is not my fault, or that of the Palæont. Soc. that your collection (as well as of many other people) has been detained so utterly unreasonably long. I have got back <hi rend="doubleUnderline">several</hi> of your specimens <hi rend="underline">quite safe</hi> with excellent drawings from M<hi rend="superscript">r</hi> Sowerby but he has yet several in hand. He has, also, arranged the places of all on the Plates; but his progress is intolerably slow. We do all we can to urge him on. I assure you the very week on which I can get from Sowerby proof-Plates &amp; see that the Engravings are correct your specimens shall most faithfully be all returned. Until then I trust to your kindness &amp; liberality to be patient with me.— This obviously requires no answer</p>
+<p>Yours faithfully obliged | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.3 <hi rend="italic">quite safe</hi>] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated on the basis that the letter falls between letters to <ref target="../nameregs/nameregs_1642.xml" resp="#mjhawkins">Robert Fitch</ref>, <ref target="./DCP-LETT-1369.xml" resp="#mjhawkins">11 November [1850]</ref> and <ref target="./DCP-LETT-1387.xml" resp="#mjhawkins">24 January [1851]</ref> (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 5). By the middle of January 1851 CD had received the completed illustrations from <ref target="../nameregs/nameregs_4481.xml" resp="#mjhawkins">James de Carle Sowerby</ref> (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 5, letter to J. de C. Sowerby, 21 January [1851]).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-2355" status="released">
+    <persName>
+        <forename>Hyacinth</forename>
+        <choice>
+            <seg>
+                <surname notBefore="1842" notAfter="1871">Symonds</surname>
+            </seg>
+            <seg>
+                <surname notBefore="1871" notAfter="1876">Jardine</surname>
+            </seg>
+            <seg>
+                <surname notBefore="1876" notAfter="1882">Hooker</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1842–1921</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of William Samuel Symonds. Married Sir William Jardine of Applegirth, seventh baronet, in 1871; widowed in 1874. Married Joseph Dalton Hooker in 1876.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_117.xml" resp="#mjhawkins">Allan 1967</ref> s.v. ‘Hooker pedigree’</p>
+        <p><ref target="../bibliographies/bibl_1096.xml" resp="#mjhawkins"><hi rend="italic">Burke’s peerage</hi></ref> 1876</p>
+    </note>
+    <note type="volume">12,17,18,24,25,26,27,28,29,30</note>
+    <note type="keywords">
+        <term type="name">Hooker, J. D.</term>
+    </note>
+</person>

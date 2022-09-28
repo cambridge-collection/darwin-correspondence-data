@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1390">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To William Jackson Hooker   17 February [1851]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1558</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1390 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1390.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1390.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Cleveland Health Sciences Library (Robert M. Stecher collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_93.xml">Cleveland</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1851-02-17">17 Feb [1851]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2367.xml">Hooker, W. J.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Encloses letter from J. D. Hooker. Glad he will soon be home.</p>
+            <p>Everyone will be astonished at oaks and birches of tropics.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">birches</term>
+                <term type="plants" ref="#">oaks</term>
+                <term type="people" ref="#subject_2357">Hooker, J. D.</term>
+                <term type="places" ref="#">tropics</term>
+                <term type="scientific_terms" ref="#">exclamations</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Feb. 17<hi rend="superscript">th</hi>.</date>
+                    <salute>My dear Sir William</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>You will no doubt like to see the enclosed letter of your son,<ref target="#foot.f1"/> which, whenever perfectly convenient you can return to me.— I am heartily glad to think that he will pretty soon now be at home again.<ref target="#foot.f2"/> What work he will have on his hands; it is enough to make one fear to think of it. Everyone will, I suppose, be quite astonished to hear of the Oaks &amp; Birches of the Tropics;<ref target="#foot.f3"/> it strikes me as almost disheartening; almost as bad as if some geologist were to find Tertiary shells in a Silurian formation.— Falconer’s conduct is enough to make one swear at him.<ref target="#foot.f4"/></p>
+<p>Pray believe me with my respects &amp; kind remembrances to Lady Hooker: | Your’s very sincerely | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.1 with] <hi rend="italic">added</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 4, <ref target="./DCP-LETT-1371.xml" resp="#mjhawkins">letter from J. D. Hooker, 26 November 1850</ref>.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_2357.xml" resp="#mjhawkins">Joseph Dalton Hooker</ref> had spent three years botanising in India and was at this time on his way back to England. He arrived in England on 25 March, having left Calcutta on 7 February (L. Huxley ed. 1918, 1: 332).</note>
+            <note xml:id="foot.f3"><ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 4, <ref target="./DCP-LETT-1371.xml" resp="#mjhawkins">letter from J. D. Hooker, 26 November 1850</ref>. J. D. Hooker had found that oak and birch trees were common in the tropical valleys of India, facts that he considered ‘disturb our preconceived notions of the geographical distribution of the most familiar tribes of plants, and throw great doubt on the conclusions which fossil plants are supposed to indicate.’ (J. D. Hooker 1854, 2: 336 n.).</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_1585.xml" resp="#mjhawkins">Hugh Falconer</ref>, superintendent of the Calcutta botanic garden, had neglected to forward J. D. Hooker’s mail (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 4, letters from J. D. Hooker, <ref target="./DCP-LETT-1371.xml" resp="#mjhawkins">26 November 1850</ref> and <ref target="./DCP-LETT-1319.xml" resp="#mjhawkins">6 and 7 April 1850</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

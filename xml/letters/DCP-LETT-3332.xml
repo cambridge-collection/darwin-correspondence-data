@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3332">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From George Bentham   29 November 1861</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7853</idno>
+            
+            
+            
+            
+            <date when="1994">1994</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3332 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3332.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3332.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="09">9</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 109 (ser. 2): 121</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>109: B121</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_398.xml">Bentham, George</persName>
+                <placeName>Kew</placeName>
+                <date when="1861-11-29">29 Nov 1861</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Lists pairs of <hi rend="italic">Oxalis</hi> species with differing proportions of stamens and styles.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Oxalis</term>
+                <term type="scientific_terms" ref="#">dimorphism</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Royal Gardens Kew</hi></placeName>
+                    <date>Nov 29/61</date>
+                    <salute>My dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>The Oxalis pairs distinguished on account of the proportion of the stamens and styles, and which have nevertheless been supposed to belong to one species are according to Zuccarini</p> 
+<figure type="diagram"> 
+<p>O. fulgida and rubella</p>
+<p>O. macrostylis and tubiflora</p>
+<p>O laburnifolia and sanguinea</p>
+<p>O. canescens and secunda</p>
+<p>O. gracilis and reclinata</p>
+<p>O. cuneata and cuneifolia</p> </figure> 
+<p>(Zuccar. Nachtr. Amer. Oxal. p. 19)<ref target="#foot.f1"/> and I believe there are several others<ref target="#foot.f2"/></p>
+<p>Yours very sincerely | George Bentham</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note>1.4 O. fulgida … cuneifolia 1.9] ‘Oxalis’ <hi rend="italic">added ink</hi></note>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../bibliographies/bibl_8582.xml" resp="#mjhawkins">Zuccarini 1831</ref>. See <ref target="./DCP-LETT-3330.xml" resp="#mjhawkins">letter to George Bentham, 26 November [1861]</ref> and <ref target="./DCP-LETT-3331.xml" resp="#mjhawkins">letter from George Bentham, 26 November 1861</ref>.</note>
+            <note xml:id="foot.f2">CD cited Bentham concerning dimorphism in <hi rend="italic">Oxalis</hi> at the end of his paper ‘On the two forms, or dimorphic condition, in the species of <hi rend="italic">Primula</hi>, and on their remarkable sexual relations’, <hi rend="italic">Journal of the Proceedings of the Linnean Society (Botany)</hi> 6 (1862): 77–96 (see also <ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 2: 62).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

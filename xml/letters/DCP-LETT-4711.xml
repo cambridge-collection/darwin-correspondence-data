@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4711">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From T. H. Huxley to G. G. Stokes   9 December 1864</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7837A</idno>
+            
+            
+            
+            
+            <date when="2001">2001</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4711 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4711.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4711.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="12">12</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 99: 88v draft</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">CUL (George Stokes papers, Add. 7656 H1386)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <idno>Add. 7656 H1386, George Stokes papers</idno>
+                    
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2486.xml">Huxley, T. H.</persName>
+                <placeName>unstated</placeName>
+                <date when="1864-12-09">9 Dec 1864</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4573.xml">Stokes, G. G.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>THH rejects GGS’s charges. Chides him with possibility that if he substituted "Falconer" for "Busk" he might have done it also for "excluded" and "omitted".</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_760">Busk, George</term>
+                <term type="people" ref="#subject_1585">Falconer, Hugh</term>
+                <term type="scientific_terms" ref="#">negative criticism of correspondent</term>
+                <term type="scientific_terms" ref="#">scientific controversy, confrontation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Jermyn S<hi rend="superscript">t</hi></placeName>
+                    <date>Dec. 9<hi rend="superscript">th</hi> 1864</date>
+                    <salute>My dear Stokes—</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am quite puzzled by the sarcastic tone of the last paragraph of your note of yesterday.<ref target="#foot.f1"/> I am not aware that I ever abused referees for keeping papers—or attacked the secretary for not stirring them up— I do recollect once getting a resolution of Council that referees should be stirred up, passed;<ref target="#foot.f2"/> but that has so long become a dead letter that you cannot be thinking of it.</p>
+<p>The fact is I have not been at all remiss in ‘getting on with my own’ paper— The artist is keeping me waiting &amp; I have stirred him up over &amp; over again—<ref target="#foot.f3"/> Perhaps you will try your hand now.</p>
+<p>Now it is my turn to have a little chaff, as we have taken to that line— Don’t you think that “As Falconer : Busk " excluded : omitted” is a good rule of three sum—?;<ref target="#foot.f4"/> and that our worthy &amp; usually very accurate secretary,<ref target="#foot.f5"/> who could make the one mistake in writing, might (without too great sin) be supposed to have made the other in reading—?</p>
+<p>Ever yours very faithfully | T. H. Huxley</p>
+<p>P.S. The above problem in proportion is of course of a private character—</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-4709.xml" resp="#mjhawkins">letter from G. G. Stokes to T. H. Huxley, 8 December 1864</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-4709.xml" resp="#mjhawkins">letter from G. G. Stokes to T. H. Huxley, 8 December 1864</ref> and n. 4.</note>
+            <note xml:id="foot.f3">T. H. Huxley 1864b. The illustrator was J. Erxleben.</note>
+            <note xml:id="foot.f4">Huxley refers to <ref target="../nameregs/nameregs_1585.xml" resp="#mjhawkins">Hugh Falconer</ref> and <ref target="../nameregs/nameregs_760.xml" resp="#mjhawkins">George Busk</ref>. See letters from T. H. Huxley to G. G. Stokes, <ref target="./DCP-LETT-4702.xml" resp="#mjhawkins">6 December 1864</ref> and <ref target="./DCP-LETT-4706.xml" resp="#mjhawkins">8 December 1864</ref>, and <ref target="./DCP-LETT-4704.xml" resp="#mjhawkins">letter from G. G. Stokes to T. H. Huxley, 7 December 1864</ref>.</note>
+            <note xml:id="foot.f5">Stokes was a secretary of the <ref target="../nameregs/nameregs_4110.xml" resp="#mjhawkins">Royal Society of London</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

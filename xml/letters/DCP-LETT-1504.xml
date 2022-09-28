@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1504">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Albany Hancock   25 February [1853]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3186B</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1504 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1504.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1504.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+<notesStmt>
+    <relatedItem type="publication">
+        <bibl><hi rend="italic">Correspondence</hi> 5: 119–20</bibl>
+    </relatedItem>
+</notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">J. Hancock 1886, p. 275</bibl>
+            <bibl type="printedSource">Hancock, John 1886: 275</bibl>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1853-02-25">25 Feb [1853]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2091.xml">Hancock, Albany</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Asks at what depth <hi rend="italic">Alcippe</hi> is found and on what date the shell with <hi rend="italic">Alcippe</hi> specimens that AH sent was taken.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Alcippe</term>
+                <term type="animals" ref="#">shell</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">historical time</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">sea, sea-currents</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough, Kent,</placeName>
+                    <date>Feb. 25th.</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+<p>Whenever you have a few minutes leisure I should be very much obliged for answers to two questions, if you can answer them. (1) At what depth is Alcippe found?<ref target="#foot.f1"/> (2) At about what date was the shell taken which you sent me in spirits with all the specimens of Alcippe. I want to know, because most of the males were well filled with spermatozoa.<ref target="#foot.f2"/> I fear I wrote to you at too great length in my former letter.<ref target="#foot.f3"/></p>
+<p>Pray believe me, | Yours very truly obliged, | Charles Darwin.</p>
+<p>The dried specimens you sent me by post lately, swarmed with males, but all too dry and shrivelled to do much good with.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">According to CD’s description in <ref target="../bibliographies/bibl_4838.xml" resp="#mjhawkins"><hi rend="italic">Living Cirripedia</hi> (1854): </ref>530, <hi rend="italic">Alcippe</hi> specimens were taken by Hancock at depths of 15 to 20 fathoms.</note>
+            <note xml:id="foot.f2">CD apparently sought to establish how the short-lived complemental males could detect the proper period when the female ova are ready for impregnation (<ref target="../bibliographies/bibl_4838.xml" resp="#mjhawkins"><hi rend="italic">Living Cirripedia</hi> (1854): </ref>561).</note>
+            <note xml:id="foot.f3"><ref target="./DCP-LETT-1501.xml" resp="#mjhawkins">Letter to Albany Hancock, 12 February [1853]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

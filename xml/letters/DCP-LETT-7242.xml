@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7242">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Hermann Hoffmann   23 June 1870</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19638</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7242 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7242.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7242.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p, 2 sketches (1p)</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 193: 113–14</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>193: 112–13</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2323.xml">Hoffmann, Hermann</persName>
+                <placeName>Giessen</placeName>
+                <date when="1870-06-23">23 June 1870</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends drawings of the foot of chicken showing swimming membrane.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">chicken</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Giessen.</placeName>
+                    <date>23.6.70</date>
+                    <salute>Dear Sir!</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Seeing from your work on variat. in domest (germ. transl. I 1868 p. 321) that you have probablÿ not seen yourself a cock or hen with swimming-membranes between the toes, I am beg your permission to send you the copÿ of such a case, which I had an opportunitÿ to see living these latter daÿs in the neighbourhood of our town.<ref target="#foot.f1"/> The tribe, to which this young chicken belongs, is the ordinarÿ one of our peasants, of no particular or qualified charakter; the cocks verÿ often almost of the size and colour of Gallus Bankiva. The little cock was about 5–7 days old, his other limbs and everÿ visible part, the beak, eÿes, front, walk, voice were altogether normal.— The case excited some attention, the hen (mother) having been frequentlÿ covered bÿ a male-duck (anas boschas domesticus).— I see no reason to beleave his efforts in anÿ waÿ successful.<ref target="#foot.f2"/></p>
+<p>With the highest respects | Yours | H Hoffmann | Prof.</p> 
+                </div>
+            </div>
+        <div type="enclosure" subtype="other">
+      
+          <div type="transcription">
+                     
+<figure type="diagram">
+    <p rend="centre">Phasianus</p>
+    <p rend="centre">Gallus domest. pull. mas.<ref target="#foot.f3"/></p>
+    <p>feathers  no nail</p>
+<p rend="centre">von oben<ref target="#foot.f4"/></p> </figure>
+              <figure type="diagram">
+                  <p>feathers</p>
+                  <p rend="centre">from below</p>
+                  <p>H. H.</p>
+                  <p rend="centre">nat. size</p>
+                  <p rend="centre">Rödchen near Giessen. 13.6.70</p>
+              </figure>
+                </div>
+        
+    </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Hoffmann refers to the German translation of <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref>, Carus trans. 1868. In the English edition, the passage referred to is <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 259: ‘Golden-spangled Polish fowls are said to have the skin between their toes much developed; Mr. Tegetmeier observed this in one bird, but it was not so in one which I examined.’</note>
+            <note xml:id="foot.f2">CD referred to Hoffmann’s sketch in <ref target="../bibliographies/bibl_7952.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi> 2d ed.</ref>, 1: 272. <hi rend="italic">Anas boschas</hi> (now <hi rend="italic">A. platyrhynchos</hi>, the mallard) is the wild ancestor of most domestic ducks.</note>
+            <note xml:id="foot.f3"><hi rend="italic">Phasianus gallus</hi> var. <hi rend="italic">domesticus</hi> is now <hi rend="italic">Gallus gallus domesticus</hi>, the domestic fowl. <hi rend="italic">Mas</hi>: male.</note>
+            <note xml:id="foot.f4"><hi rend="italic">Von oben</hi>: from above (German).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

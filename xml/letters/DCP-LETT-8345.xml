@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8345">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Charles Lyell   22 May [1872]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">416</idno>
+            
+            
+            
+            
+            <date when="2013">2013</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8345 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8345.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8345.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="20">20</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 146: 318</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.416)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>416</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1872-05-22">22 May [1872]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3051.xml">Lyell, Charles</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Comments on migration as a factor in evolution. Suggests pamphlet by August Weismann on the subject [<hi rend="italic">Über den Einfluss der Isolierung</hi> (1872)].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Uber den Einfluss der Isolierung</term>
+                <term type="rx" ref="#">Weismann, A. F. L. 1872</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">isolation, islands</term>
+                <term type="scientific_terms" ref="#">mineralogy, minerals</term>
+                <term type="scientific_terms" ref="#">transmutation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>May 22</date>
+                    <salute>My dear Lyell</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Very many thanks for your letter. You will find at p. 332 &amp; again at p. 348 of new Edit. of Origin some remarks on forms not changing when migrating in a body.—<ref target="#foot.f2"/> Some naturalists have been struck with probable truth of this view.— By the way if you care to read anything new on general subject, a pamphet by one of best zoologists in Europe, Prof. Weismann, viz “Ueber den Einfluss der Isolirung: Leipzig 1872”, is <hi rend="underline">well worth</hi> in some respects, reading.—<ref target="#foot.f3"/></p>
+<p>What a grand tour you have had &amp; how young you are: I wish I was as youthful.—<ref target="#foot.f4"/></p>
+<p>Ever yours | C. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to the sixth edition of <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>, which was published in February 1872 (<ref target="../bibliographies/bibl_2661.xml" resp="#mjhawkins">Freeman 1977</ref>); see n. 2, below.</note>
+            <note xml:id="foot.f2">Lyell’s letter has not been found. In <ref target="../bibliographies/bibl_6019.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 6th ed.</ref>, p. 332, CD wrote that Arctic species moving south in a body as the climate changed would not have been liable to much modification; on p. 348, he applied the same argument to species arriving on an island in body, or receiving regular reinforcements from the same species on the mainland.</note>
+            <note xml:id="foot.f3">There is a heavily annotated copy of <ref target="../bibliographies/bibl_8272.xml" resp="#mjhawkins">Weismann 1872</ref> in the Darwin Library–CUL (see <ref target="../bibliographies/bibl_5214.xml" resp="#mjhawkins"><hi rend="italic">Marginalia</hi></ref> 1: 857–60). See also <ref target="./DCP-LETT-8275.xml" resp="#mjhawkins">letter to August Weismann, 5 April 1872</ref>.</note>
+            <note xml:id="foot.f4">In April 1872, Lyell and his wife, <ref target="../nameregs/nameregs_3056.xml" resp="#mjhawkins">Mary Elizabeth Lyell</ref>, visited the Aurignac caves in the south of France (K. M. Lyell ed. 1881, 2: 438.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

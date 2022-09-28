@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-415">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Forbes Royle   [24 May 1838]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1838</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-415 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-415.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-415.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="C">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 147: 397</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>147: 397</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Gt Marlborough St, 36</placeName>
+                <date when="1838-05-24">[24 May 1838]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4114.xml">Royle, J. F.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Would like to attend a lecture by JFR on "geography of plants with relation to the Himalayas".</p>
+            <p>"A grand battle" at the Geological Society between Sedgwick and G. B. Greenough.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1969">Greenough, G. B.</term>
+                <term type="people" ref="#subject_4276">Sedgwick, Adam</term>
+                <term type="places" ref="#">Himalayas</term>
+                <term type="rx" ref="#">Royle, J. F. 1839</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">scientific controversy, confrontation</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+                <term type="societal" ref="#">Geological Society</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>Dear Royle</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I heard the other day you were going to give a lecture somewhere on the geography of plants with relation to the Himalayah.<ref target="#foot.f1"/> Will you have the kindness to oblige me by sending me one line to tell me the where and the when, as I should very much like, in case my information is correct, to hear it. Excuse me troubling you.</p>
+<p>You ought to have been at Geolog. Soc. last night. We had a grand battle between Sedgwick<ref target="#foot.f2"/> and Greenough,<ref target="#foot.f3"/> the former most eloquent, the latter most obstinate but most good-humoured.</p>
+<p>Yours most truly | Chas. Darwin</p>
+<p>Thursday Morn<hi rend="superscript">g</hi>. <lb resp="#mjhawkins"/>36 Grt. Marlbro’ St.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Royle lectured at the Royal Institution on 1 June 1838 on ‘The vegetation of the Himalayan chain in connection with climate’ (Royal Institution Archives). CD apparently attended the lecture. In <ref target="../bibliographies/bibl_5907.xml" resp="#mjhawkins"><hi rend="italic">Notebook C</hi></ref>: 223–4 he made the following entry: <quote> D<hi rend="superscript">r</hi> Royle *Royal Institution [<hi rend="italic">interl</hi>] seems to think Botanical Provinces will turn out not nearly so confined as now thought.— N. American, Europæan &amp; Chinese genera &amp; some species on Himalaya.— some English beetles, birds &amp; a fox most close The most curious case is saxifrage, almost *closely allied [<hi rend="italic">above</hi> <hi rend="italic">del</hi> ‘same’] species Himalayas. 13,000 &amp; Melville Is<hi rend="superscript">d</hi>.— West Africa &amp; India some plants same.</quote></note>
+            <note xml:id="foot.f2">At the meeting Sedgwick had concluded the reading of ‘A synopsis of the English series of stratified rocks inferior to the old red sandstone’ (<hi rend="italic">Proceedings of the Geological Society</hi> 2 (1833–8): 675–85).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_1969.xml" resp="#mjhawkins">George Bellas Greenough</ref> had begun work on a revision of his geological map of England (<ref target="../nameregs/nameregs_1841.xml" resp="#mjhawkins">Geological Society of London</ref>, Council Minutes, 5 June 1839).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-997">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Richard Owen   [April? 1848]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">15540</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-997 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-997.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-997.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+            <notesStmt>
+                <relatedItem type="publication">
+                    <bibl> <hi rend="italic">Correspondence</hi> 4: 127</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">R. S. Owen 1894, 1: 209</bibl>
+            <bibl type="printedSource">Owen, Richard 1894 1: 209</bibl>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1848-04-01" notAfter="1848-04-30">[Apr? 1848]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3629.xml">Owen, Richard</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Pleased at RO’s praise of <hi rend="italic">Coral reefs</hi>.</p>  
+<p>Has read with very great interest RO’s "Report on the archetype" [<hi rend="italic">Rep. BAAS</hi> 16 (1846): 169–340]. RO should give name to every letter or number in his woodcuts.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Coral reefs</term>
+                <term type="it" ref="#">Rep. BAAS</term>
+                <term type="rx" ref="#">Owen, Richard 1846f</term>
+                <term type="scientific_terms" ref="#">archetypes</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">positive self-criticism</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down, Farnborough, Kent.</placeName>
+                    <date/>
+                    <salute>My dear Owen,—</salute>
+                </opener>
+                <div type="transcription">
+<p>… I am <hi rend="underline">much</hi> pleased at your praise of my Coral volume, and am very glad you recommend it to the notice of voyagers.<ref target="#foot.f2"/> It would undoubtedly be far more suggestive to any one who will really attend to the subject, but for the generality, perhaps, the abstract in my journal would be the most [useful]… .<ref target="#foot.f3"/> I have lately read with <hi rend="underline">very great</hi> interest all the parts which I could follow in your Report on Archetypes, &amp;c.<ref target="#foot.f4"/> You may remember that I suggested explanations to the woodcuts. I am not a quarter satisfied yet. You may with perfect justice say you do not write for tyros; but if ever you take compassion (and there is no other claim) on ignoramuses such as myself, you will in every woodcut give the name to every letter or number in your woodcuts, even if repeated 500 times, for just that many times will it make your work intelligible to the ignorant.</p>
+<p>Believe me, | Yours very sincerely, | C.DARWIN.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Erroneously dated 1843 in <ref target="../bibliographies/bibl_6119.xml" resp="#mjhawkins">R. S. Owen 1894</ref>, 1: 208. The revised date is established by the references to Owen’s recommendation of <ref target="../bibliographies/bibl_1571.xml" resp="#mjhawkins"><hi rend="italic">Coral reefs</hi></ref> and to his book, <hi rend="italic">On the archetype and homologies of the vertebrate skeleton</hi>, which was publicly available at the beginning of April 1848 (see n. 4, below).</note>
+            <note xml:id="foot.f2">In Owen’s chapter on zoology in the Admiralty manual (Herschel ed. 1849, p. 349).</note>
+            <note xml:id="foot.f3"><ref target="../bibliographies/bibl_4252.xml" resp="#mjhawkins"><hi rend="italic">Journal of researches</hi> 2d ed.</ref>, pp. 465–82.</note>
+            <note xml:id="foot.f4"><ref target="../bibliographies/bibl_6074.xml" resp="#mjhawkins">R. Owen 1848</ref>, originally a report delivered at the British Association meeting of 1846. It was expanded and published as a separate volume between 14 and 29 March 1848 (<hi rend="italic">Publishers’</hi> <hi rend="italic">Circular</hi>, 1 April 1848). On 1 January 1848, CD recorded that he had read all the reports of the British Association up to 1847 (DAR 119; <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 4, Appendix IV), so the comparison between Owen’s paper and the published book may have been fresh in his mind.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

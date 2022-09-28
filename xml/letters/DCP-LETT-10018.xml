@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10018">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Fritz Schultze   14 June [1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">470</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10018 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10018.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10018.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 147: 429</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.470)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>470</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Abinger Hall Down letterhead</placeName>
+                <date when="1875-06-14">14 June [1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4239.xml">Schultze, Fritz</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks FS for his book [<hi rend="italic">Kant und Darwin</hi>].</p> 
+            <p>Sends regards to Haeckel.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Kant und Darwin</term>
+                <term type="people" ref="#subject_2048">Haeckel, E. P. A.</term>
+                <term type="rx" ref="#">Schultze, Fritz 1875</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+                <term type="scientific_terms" ref="#">transmutation</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>
+                        <seg><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R. </hi></seg>
+                        <seg>[Abinger Hall, Surrey.]</seg>
+                    </placeName>
+                    <date>June 14<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very much obliged for your courteous letter, &amp; for the present of your new work.—<ref target="#foot.f2"/> It is an extraordinary honour to me to have my name coupled in any manner with that of the illustrious Kant, &amp; I hope soon to read what you say about his views of natural selection.<ref target="#foot.f3"/> I am, however, too poor a German scholar to understand any deep metaphysical discussion.</p>
+<p>With much respect &amp; my best thanks, I remain | Dear Sir | Yours faithfully | Charles Darwin</p>
+<p>P.S | When you see Prof. Häckel, pray give him my kindest remembrances &amp; thanks for his note.—<ref target="#foot.f4"/></p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.5 discussion] <hi rend="italic">over illeg</hi> </note>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-10014.xml" resp="#mjhawkins">letter from Fritz Schultze, 12 June 1875</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-10014.xml" resp="#mjhawkins">letter from Fritz Schultze, 12 June 1875</ref>. Schultze sent a copy of his book <hi rend="italic">Kant und Darwin</hi> (<ref target="../bibliographies/bibl_8741.xml" resp="#mjhawkins">Schultze 1875</ref>).</note>
+            <note xml:id="foot.f3">For <ref target="../nameregs/nameregs_2641.xml" resp="#mjhawkins">Immanuel Kant’s</ref> views about selection, see the <ref target="./DCP-LETT-10012.xml" resp="#mjhawkins">letter from Ernst Haeckel, 6 June 1875</ref> and n. 2.</note>
+            <note xml:id="foot.f4">Haeckel had written to CD about Schultze’s book and also sent a copy (see <ref target="./DCP-LETT-10012.xml" resp="#mjhawkins">letter from Ernst Haeckel, 6 June 1875</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

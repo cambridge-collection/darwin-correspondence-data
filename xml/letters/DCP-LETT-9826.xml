@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9826">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Alpheus Hyatt   21 January [1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3867</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9826 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9826.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9826.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Maryland Historical Society (Alpheus Hyatt Papers MS 1007)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_260.xml">Maryland HS</repository>
+                    <collection>(MS 1007)</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1875-01-21">21 Jan [1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2487.xml">Hyatt, Alpheus</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks for note and extract.</p> 
+<p>Will be glad to read AH’s memoir when published [? "The Jurassic and Cretaceous Ammonites collected in South America by Prof. James Orton" <hi rend="italic">Boston Soc. Nat. Hist.</hi> [Proc Mem Jnl!?] 17 (1875): 365–72].</p> 
+            <p>Recalls AH’s visit to Down.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="geology" ref="#">Jurassic</term>
+                <term type="it" ref="#">Boston Soc. Nat. Hist.</term>
+                <term type="places" ref="#">Down</term>
+                <term type="rx" ref="#">Hyatt, Alpheus 1875</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">fossils</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">geological time, epochs</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Jan. 21<hi rend="superscript">st</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am much obliged for your kind &amp; interesting note, &amp; printed extract, which latter however is not very clear.<ref target="#foot.f2"/> I will consider all that you have suggested &amp; shall be extremely glad to read at some future time your valuable memoir when published.—<ref target="#foot.f3"/> I remember your visit here with much pleasure,<ref target="#foot.f4"/> &amp; remain with all good wishes | Yours very faithfully | Charles Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.1 printed] <hi rend="italic">added</hi> </note>
+                <note xml:id="tnote.n2">1.2 latter] <hi rend="italic">interl</hi> </note>
+                <note xml:id="tnote.n3">1.3 read] <hi rend="italic">after del</hi> ‘consider’ </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-9233.xml" resp="#mjhawkins">letter from Alpheus Hyatt, 8 January [1875]</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-9233.xml" resp="#mjhawkins">letter from Alpheus Hyatt, 8 January [1875]</ref>.</note>
+            <note xml:id="foot.f3">An abstract of Hyatt’s memoir on Jurassic ammonites (<ref target="../bibliographies/bibl_8692.xml" resp="#mjhawkins">Hyatt 1874</ref>) was published in 1875.</note>
+            <note xml:id="foot.f4">It is not known when Hyatt visited Down.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

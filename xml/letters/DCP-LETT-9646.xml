@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9646">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From A. Haines<ref target="#foot.f1"/>   19 September 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17543</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9646 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9646.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9646.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 166: 84</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>166: 84</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2054.xml">Haines, A.</persName>
+                <placeName>Eaton, Ohio</placeName>
+                <date when="1874-09-19">19 Sept 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>States his admiration for CD’s views and their progress in the U. S.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="places" ref="#">U. S.</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">reception of Darwinism</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>State of Ohio Preble County | Eaton</placeName>
+                    <date>September 19<hi rend="superscript">th</hi>. 1874.</date>
+                    <seg type="supplemental">Charles Darwin M.A. R.S. ect | London England.</seg>
+                    <salute>Dear Sir.</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Having read your “Descent of Man”, with great interest, and other kindred works; I feel inclined to drop you this complimentary note as a token of my regards for you as the pioneer thinker and author upon the subject, which you have so ably and learnedly discussed. The line of thought adopted by you, from the many proofs which you adduce, certainly lies in the direction of truth. You are therefore much admired in America, both as an original thinker and as an author upon the subject which you discuss; and your views upon the Origin and descent of Species are rapidly gaining ground and coming to the front.</p>
+<p>In this connexion, it may not be out of place, to inform you, that it is credibly reported to me, that in the Southern parts of the State of Kentucky, there is a species of Swine without any cleft in the hoof.<ref target="#foot.f2"/> I do not know this to be true, of my own personal knowledge, but am so informed by an engineer, in whose veracity I have confidence.</p>
+<p>Development discussed in the Vestiges of Creation,<ref target="#foot.f3"/> as by the law of natural selection—reduced by you to a science in the descent of Man, and thus explained by you, it is silently, but surely proseliting America. This view of creation would be adopted at once, if it were not for the superstitious ideas still clustering around Genesis. But as it is with us, I assure you, the origin and descent of species, as you explain it, is rapidly gaining ground, even here in Ohio, and will soon come to the front, with all thoughtful scholars, as the only rational and scientific solution of this mysterious question of creation.</p>
+<p>My object in writing you is two fold; the one to advise you of the interest taken in Ohio in your scientific researches; and the other is to obtain a letter from you, so I may, at least have your genuine autograph.</p>
+<p>Yours very truly | A. Haines Sen<hi rend="superscript">r</hi>.</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Haines has not been identified.</note>
+            <note xml:id="foot.f2">On the absence of cleft, or syndactyly, in pigs, see Madgwick <hi rend="italic">et al.</hi> 2013.</note>
+            <note xml:id="foot.f3"><hi rend="italic">Vestiges of the natural history of creation</hi> (<ref target="../bibliographies/bibl_1348.xml" resp="#mjhawkins">[Chambers] 1844</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

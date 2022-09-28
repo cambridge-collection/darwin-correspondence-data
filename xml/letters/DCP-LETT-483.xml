@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-483">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To William Whewell   4 [January 1839]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14954</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-483 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-483.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-483.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Trinity College, Cambridge (Add c 88: 5)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_422.xml">Trinity Cambridge</repository>
+                    <idno>Add c 88: 5</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Upper Gower St, 12</placeName>
+                <date when="1839-01-04">4 [Jan 1839]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_5090.xml">Whewell, William</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Informs him of J. B. Jukes’s plans concerning the Newfoundland survey post.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_2620">Jukes, J. B.</term>
+                <term type="places" ref="#">Newfoundland</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">survey post</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <date>Friday morning 4<hi rend="superscript">th</hi>.—</date>
+                    <salute>Dear Whewell</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I heard from Lonsdale last night that you wished to hear the result of my communication with M<hi rend="superscript">r</hi> Jukes.— He informs me that it his intention either to start by the first ship, which leaves (about March?) taking with him the best recommendations he can procure, &amp; then trust to the chance of the Governor employing him,—or to defer the whole scheme for the summer after the next, &amp; thus to wait, until he shall have received an answer to his application I believe the ice does not allow of any communication till the Spring.— On account of the great delay M<hi rend="superscript">r</hi> Jukes seemed inclined to the first alternative.<ref target="#foot.f1"/></p>
+<p>I have communicated all that has been done to Capt. Beaufort, &amp; informed him, you would as President acknowledge the Governor’s communication.—</p>
+<p>Should you see Henslow, will you thank him from me for his letter &amp; M<hi rend="superscript">rs</hi> Henslow for her invitation to Cambridge;<ref target="#foot.f2"/> I should very much have enjoyed a visit, as there are few places in the world like Cambridge, but I have been so busy house-hunting, preparatory to my marriage state, that I have had no time for any other employment.</p>
+<p>Believe me | Most truly yours | Chas. Darwin <lb resp="#mjhawkins"/> 12 Upper Gower St<hi rend="superscript">t</hi>.—</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.5 &amp; thus 1.6] ‘&amp;’ <hi rend="italic">over</hi> ‘—-’</note>
+                    <note xml:id="tnote.n2">3.1 from] <hi rend="italic">over</hi> ‘for’</note>
+                    <note xml:id="tnote.n3">3.3 but I] ‘I’ <hi rend="italic">over</hi> ‘m’</note>
+                    <note xml:id="tnote.n4"><hi rend="italic">point omitted after</hi> : 3.1 ‘thank’; 3.2 ‘for’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Jukes adopted this alternative and was appointed geological surveyor of Newfoundland, 1839–40.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-456.xml" resp="#mjhawkins">letter from J. S. Henslow, 16 December 1838</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

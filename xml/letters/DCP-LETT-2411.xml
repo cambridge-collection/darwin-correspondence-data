@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2411">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Lubbock   9 February [1859]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8466</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2411 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2411.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2411.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 146: 80</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 263: 27 (EH 88206476)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>263: 27 (EH 88206476)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Moor Park</placeName>
+                <date when="1859-02-09">9 Feb [1859]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3026.xml">Lubbock, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>CD sees JL’s cases of same organs varying greatly in allied forms as a serious difficulty in regard to his own ideas.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">close species</term>
+                <term type="scientific_terms" ref="#">negative attitude/assessment</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+                <term type="scientific_terms" ref="#">variation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Moor Park, Farnham | Surrey</placeName>
+                    <date>Feb. 9<hi rend="superscript">th</hi></date>
+                    <salute>Dear Lubbock</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Many thanks for your interesting note.— I am very glad to hear about your brother.<ref target="#foot.f2"/> What a splendid joke about Falconer.—<ref target="#foot.f3"/></p>
+<p>I sh<hi rend="superscript">d</hi>. much like to see the Builder, with Huxley, which shall be returned.—<ref target="#foot.f4"/></p>
+<p>I do not think Instincts present any great difficulty, for they vary &amp; the variations are inherited. Your cases of important organs differing much in (<hi rend="underline">apparently</hi>) allied forms is a much greater &amp; very serious difficulty &amp; I can take refuge only in our ignorance of correlations<ref target="#foot.f5"/></p>
+<p>I have several other letters to write &amp; am as idle as a dog, so Farewell | Yours very truly | C. Darwin</p>
+<p>I have despatched letter to Wollaston.—<ref target="#foot.f6"/></p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">3.3 (<hi rend="italic">apparently</hi>)] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">3.3 very] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year 1859 is the only one in which CD visited Moor Park in February (de Beer ed. 1959).</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-2408.xml" resp="#mjhawkins">letter to John Lubbock, [6 February 1859]</ref>, and <ref target="./DCP-LETT-2409.xml" resp="#mjhawkins">letter from John Lubbock, 8 February 1859</ref>.</note>
+            <note xml:id="foot.f3">The reference to <ref target="../nameregs/nameregs_1585.xml" resp="#mjhawkins">Hugh Falconer</ref> was apparently in the missing portion of the <ref target="./DCP-LETT-2409.xml" resp="#mjhawkins">letter from John Lubbock, 8 February 1859</ref>.</note>
+            <note xml:id="foot.f4">An extract from <ref target="../nameregs/nameregs_2486.xml" resp="#mjhawkins">Thomas Henry Huxley’s</ref> closing lecture to working men, delivered at the Government School of Mines in the autumn of 1858, appeared in <hi rend="italic">the Builder</hi>, 15 January 1859,pp. 35–6. It concerned the relationship between science and religion.</note>
+            <note xml:id="foot.f5">See <ref target="./DCP-LETT-2409.xml" resp="#mjhawkins">letter from John Lubbock, 8 February 1859</ref> and n. 3.</note>
+            <note xml:id="foot.f6">This letter was written in pencil. The letter from Lubbock to <ref target="../nameregs/nameregs_5216.xml" resp="#mjhawkins">Thomas Vernon Wollaston</ref> has not been found. CD was to forward it to Wollaston (see <ref target="./DCP-LETT-2408.xml" resp="#mjhawkins">letter to John Lubbock, [6 February 1859]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

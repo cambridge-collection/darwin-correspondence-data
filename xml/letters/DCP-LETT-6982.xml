@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6982">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From E. A. Darwin   11 November [1869]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8640</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6982 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6982.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6982.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 105: B64</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>105: B64</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1211.xml">Darwin, E. A.</persName>
+                <placeName>unstated</placeName>
+                <date when="1869-11-11">11 Nov [1869]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>A parcel of engravings has come; shall EAD send them on?</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00105-000-00380_files/8/0_0.jpg" width="3049px" height="5328px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00105-000-00380_files/11/1_1.jpg" width="3049px" height="5328px"/>
+        <surface n="B:64r" xml:id="i380">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00105-000-00380.jpg" width="3049px" height="5328px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00105-000-00380_files/8/0_0.jpg" width="3049px" height="5328px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00105-000-00380.dzi" width="3049px" height="5328px"/>
+        </surface>
+        <surface n="B:64v" xml:id="i381">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00105-000-00381.jpg" width="3049px" height="5328px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00105-000-00381_files/8/0_0.jpg" width="3049px" height="5328px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00105-000-00381.dzi" width="3049px" height="5328px"/>
+        </surface>
+    </facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <date>Nov 11</date>
+                </opener>
+                <div type="transcription">
+                     
+<p>A parcel of engravings is come done up but with your paper of instructions outside.<ref target="#foot.f2"/> Shall I send them on?</p>
+<p>E D</p>
+<p>Sterling sent today is very interesting but is he quite fair about ‘Selection’<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to <ref target="../bibliographies/bibl_7480.xml" resp="#mjhawkins">Stirling 1869</ref> (see n. 3, below).</note>
+            <note xml:id="foot.f2">The engravings may have been those completed by Edward A. Smith (see <ref target="./DCP-LETT-6979.xml" resp="#mjhawkins">letter to Frederick Smith, 9 November [1869]</ref>).</note>
+            <note xml:id="foot.f3">The reference is to <ref target="../nameregs/nameregs_4568.xml" resp="#mjhawkins">James Hutchison Stirling’s</ref> <hi rend="italic">As regards protoplasm, in relation to Professor Huxley’s essay, On the physical basis of life</hi> (<ref target="../bibliographies/bibl_7480.xml" resp="#mjhawkins">Stirling 1869</ref>); for Stirling’s discussion of CD’s theory, including his use of the term ‘selection’, see pp. 58–64.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

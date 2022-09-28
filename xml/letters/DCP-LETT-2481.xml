@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2481">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Lubbock   11 August [1857]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8472</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2481 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2481.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2481.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 146: 72</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 263: 21 (EH 88206470)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>263: 21 (EH 88206470)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1857-08-11">11 Aug [1857]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3026.xml">Lubbock, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks JL not to call as he has a "very old friend" [J. S. Henslow] coming to visit him.</p>
+            <p>Yesterday visited poultry show at Crystal Palace.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">poultry</term>
+                <term type="people" ref="#subject_2235">Henslow, J. S.</term>
+                <term type="places" ref="#">Crystal Palace</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="social" ref="#">show</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down.</placeName>
+                    <date>Aug<hi rend="superscript">t</hi>. 11<hi rend="superscript">th</hi></date>
+                    <salute>My dear Lubbock</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am going to do a most ungracious thing, viz to ask you not to call here on Thursday, for I heard yesterday that a very old friend is coming to spend the day here,<ref target="#foot.f2"/> &amp; childish as it must seem to you, this is a <hi rend="underline">very great</hi> exertion to me, &amp; the last straw breaks the camel’s back,—especially such a miserable worthless camel as I am.— I am sure I need not say how much pleasure a talk with you gives me whenever you have time &amp; inclination to call.—</p>
+<p>Forgive me | Dear Lubbock| Yours very sincerely | Ch. Darwin</p>
+<p>I did not write in answer about the Chinese fowls, as I thought I sh<hi rend="superscript">d</hi> see you before very long. When I do see you &amp; hear about them, I will settle whether the <hi rend="underline">long journey</hi> to Bromley is worth while.</p>
+<p>I went yesterday to Crystal Palace for Poultry show, &amp; returned rather soured in temper, as I saw nothing worth seeing in my line.—<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.1 not] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">1.4 a miserable] ‘a’ <hi rend="italic">over</hi> ‘as’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The dates of this and the <ref target="./DCP-LETT-2396.xml" resp="#automat" cert="medium">letter to Lubbock on 12 [August 1857]</ref> are based on <ref target="../nameregs/nameregs_2235.xml" resp="#mjhawkins">John Stevens Henslow’s</ref> proposed trip to Down (see <ref target="./DCP-LETT-2132.xml" resp="#automat" cert="medium">letter to Henslow, 10 August [1857]</ref>, n. 1).</note>
+            <note xml:id="foot.f2">Henslow was the expected visitor (see <ref target="./DCP-LETT-2132.xml" resp="#automat" cert="medium">letter to Henslow, 10 August [1857]</ref>, and <ref target="./DCP-LETT-2130.xml" resp="#mjhawkins">letter to J. D. Hooker, 1 August [1857]</ref>).</note>
+            <note xml:id="foot.f3">Beginning in 1857, the Crystal Palace was the site of a twice yearly poultry show, the largest in the London area (<ref target="../bibliographies/bibl_7061.xml" resp="#mjhawkins">Secord 1981</ref>, p. 171).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

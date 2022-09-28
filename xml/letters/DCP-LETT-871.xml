@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-871">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Paul Edmund de Strzelecki   [25 May 1845]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1068</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-871 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-871.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-871.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl>Slabczynski (1958): 380</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 3: 195</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Yale University: Beinecke Rare Book and Manuscript Library (GEN MSS MISC Group 1559 F-3)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_480.xml">Yale Beinecke</repository>
+                    <collection>GEN MSS MISC</collection>
+                    <idno>Group 1559 F-3</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1845-05-25">[25 May 1845]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4598.xml">Strzelecki, P. E. de</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks PEdeS for gift of his book [<hi rend="italic">Physical description of New South Wales and Van Diemen’s Land</hi> (1845)].</p> 
+            <p>Asks how much engravings of shells cost.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="animals" ref="#">shells</term>
+                <term type="it" ref="#">Physical description of New South Wales and Van Diemen’s Land</term>
+                <term type="rx" ref="#">Strzelecki, P. E. de 1845</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Sunday</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I received a few days since your kind &amp; valuable present:<ref target="#foot.f1"/> I am exceedingly obliged to you for it, though I feel that I have no claim on so magnificent a present.</p>
+<p>I congratulate you on having completed a work which must have cost you so much labour &amp; I am astonished at the number of deep subjects which you discuss. I must be permitted to express my sorrow that there are not far more copious extracts from the ‘M.S. Journal’: I hope some day to see it fully published.— You speak of your unidiomatic English; I heartily wish that one quarter of our English authors could think &amp; write in language one half as spirited yet so simple.</p>
+<p>Once again allow me to thank you very sincerely &amp; believe me My dear Sir | Yours very faithfully | C. Darwin</p>
+<p>You were so good, when I last saw you, as to say, that you would take the trouble of informing me (as a guide for myself) what you paid for the engraving of the <hi rend="underline">shells</hi> alone.<ref target="#foot.f2"/> The plates appear to me admirable.</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.3 are] <hi rend="italic">over</hi> ‘is’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../bibliographies/bibl_7522.xml">Strzelecki 1845</ref>. A copy in the Darwin Library–CUL is inscribed ‘To <ref target="../nameregs/nameregs_1.xml">Charles Darwin</ref> Esq<hi rend="superscript">r</hi> M.A. from the Author 19<hi rend="superscript">th</hi>. of May.’ It is lightly annotated, with a note ‘Abstract March 57’ (the time CD began to write his ‘big book’, <ref target="../bibliographies/bibl_5799.xml" resp="#mjhawkins"><hi rend="italic">Natural selection</hi></ref>).</note>
+            <note xml:id="foot.f2">Strzelecki’s work contains plates illustrating specimens of shells and corals, several of which had also been collected by CD in Van Diemen’s Land (Tasmania). Strzelecki named one species of shell <hi rend="italic">Spirifer darwinii</hi> in honour of CD’s contributions ‘to the advancement of physical geology and natural history generally’ (p. 280). He recorded that he examined some of CD’s collection in London.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

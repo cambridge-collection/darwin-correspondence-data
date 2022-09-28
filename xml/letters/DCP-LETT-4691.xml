@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4691">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Obadiah Westwood   2 December 1864</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3655</idno>
+            
+            
+            
+            
+            <date when="2001">2001</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4691 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4691.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4691.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="12">12</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Field Museum of Natural History, Chicago (Walsh)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_133.xml">Field Museum</repository>
+                    <collection>Walsh</collection>
+                    <idno/>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_5077.xml">Westwood, J. O.</persName>
+                <placeName>Oxford</placeName>
+                <date when="1864-12-02">2 Dec 1864</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends photo for B. D. Walsh; requests those of New World entomologists, and CD’s.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_4944">Walsh, B. D.</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Oxford</placeName>
+                    <date>2 Dec<hi rend="superscript">r</hi>. 1864</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I enclose my “Carte de Visite” for M<hi rend="superscript">r</hi> B D Walsh—<ref target="#foot.f1"/> I should be obliged to you to ask him if it be possible to obtain a portrait either of the late Thomas Say or Thaddeus W. Harris—<ref target="#foot.f2"/> of course I should also be glad to have the portrait of M<hi rend="superscript">r</hi>. Walsh “en carte de Visite”<ref target="#foot.f3"/> &amp; any other brother Entomologist of the New World—<hi rend="doubleUnderline">as also yours</hi>—</p>
+<p>Believe me | Yours very truly | Jno O Westwood <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Chas Darwin Esq.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">In his letter of 7 November 1864, <ref target="../nameregs/nameregs_4944.xml" resp="#mjhawkins">Benjamin Dann Walsh</ref> had requested photographs of CD and Westwood. CD’s letter to Westwood conveying this request has not been found.</note>
+            <note xml:id="foot.f2">Westwood refers to the American entomologists <ref target="../nameregs/nameregs_4194.xml" resp="#mjhawkins">Thomas Say</ref> and <ref target="../nameregs/nameregs_2138.xml" resp="#mjhawkins">Thaddeus William Harris</ref>.</note>
+            <note xml:id="foot.f3">CD enclosed Westwood’s letter in his second letter to B. D. Walsh, [4 December 1864?].</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

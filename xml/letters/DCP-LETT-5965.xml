@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5965">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From W. E. Darwin   [13 April 1868]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6127</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5965 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5965.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5965.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 162: 98</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>162: 98</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1245.xml">Darwin, W. E.</persName>
+                <placeName>Southampton</placeName>
+                <date when="1868-04-13">[13 Apr 1868]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Action of facial muscles at onset of crying.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">expression, emotion</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Southampton</placeName>
+                    <date>Monday</date>
+                    <salute>My dear Father,</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I watched today a child of about 5 very gradually change from cheerfulness up to the very verge of squalling, and then back again by up &amp; downs to cheerfulness, so that I saw the change come over its face at least 3 times. it was a plump face so that the contraction of the depressor quite wrinkled the skin on each side of the chin, &amp; the contraction of little Zygomatic cause quite a deep little groove on each side of the nose, so that it was an easy face to observe. I am perfectly certain that the depressor began acting first, and left off acting last; and after it had contracted a good deal so as to be in a good horse shoe the zygomatics began acting strongly, but I could not be certain that they pulled up the corners at all, I do not see that that is necessary to determine, because I saw that they both could act perfectly together, for directly the child felt it was in the order for crying there came another contraction simultaneously of the depressores &amp; of the Zygomatics   I do not think the child actually made a noise, and the mouth was of this shape<figure rend="inline width15">
+                        <graphic url="../images/dcp_lett_5965.jpg"/>
+                    </figure> 
+roughly. The child seemed at first to be rather wishing to cry for pity, and afterwards when scolded to try to stop.</p>
+<p>I could not watch the eyebrows but I saw tolerably another boy (of about 4) in same way beginning crying &amp; I am pretty sure the eyebrows became oblique, at all events the eyebrows were not lowering &amp; there was a contraction at inner corner of each, but I will look again<ref target="#foot.f2"/></p>
+<p>your affect son WED</p>
+<p>I write to confirm Langstaff, whom I have not seen yet<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter and the <ref target="./DCP-LETT-6124.xml" resp="#mjhawkins">letter to W. E. Darwin, 16 April [1868]</ref>. In 1868, the Monday before 16 April was 13 April.</note>
+            <note xml:id="foot.f2">CD discussed the movements of the facial muscles, the shape of the mouth, and the position of the eyebrows in his chapter on weeping in <hi rend="italic">Expression.</hi></note>
+            <note xml:id="foot.f3">William refers to <ref target="../nameregs/nameregs_2806.xml" resp="#mjhawkins">Charles Langstaff</ref>. See <ref target="./DCP-LETT-5981.xml" resp="#mjhawkins">letter from W. E. Darwin, 5 March [1868]</ref> and n. 4.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3417">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Lubbock   29 January 1862</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6820</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3417 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3417.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3417.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 170.1: 27</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>170: 27</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3026.xml">Lubbock, John</persName>
+                <placeName>Lamas, Chislehurst</placeName>
+                <date when="1862-01-29">29 Jan 1862</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Will visit CD on Saturday.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>My dear M<hi rend="superscript">r</hi>. Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>The Carpenters<ref target="#foot.f1"/> are not coming this Saturday, so if still quite convenient to you I should be very glad to spend the evening with you.<ref target="#foot.f2"/></p>
+<p>I shall come down by the 3.30 train &amp; drive straight over to down.</p>
+<p>If however you do not feel so well, or for any reason would rather I came some other day you will I am sure not hesitate to say so.</p>
+<p>Believe me | Yours affec | John Lubbock <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Lamas</p>
+<p>Wednesday 29 Jan./62</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The reference is to <ref target="../nameregs/nameregs_839.xml" resp="#mjhawkins">William Benjamin Carpenter</ref> and his wife Louisa (see <ref target="./DCP-LETT-3414.xml" resp="#mjhawkins">letter from John Lubbock, 27 January 1862</ref>).</note>
+            <note xml:id="foot.f2">In the <ref target="" resp="#automat">letter from Emma Darwin to William Erasmus Darwin, [3 February 1862]</ref> (DAR 219), Emma reported that Lubbock had visited them on 1 February.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

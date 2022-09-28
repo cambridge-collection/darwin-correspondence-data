@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2300">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. D. Fox   2 July [1858]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7116</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2300 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2300.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2300.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 144: 255</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Christ’s College Library, Cambridge (MS 53 Fox 116)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_83.xml">CCLC</repository>
+                    <collection>MS 53</collection>
+                    <idno>Fox 116</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1858-07-02">2 July [1858]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1730.xml">Fox, W. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Baby [Charles Waring Darwin] died of scarlet fever on 28 June. "Fear has almost driven away grief."</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin family</term>
+                <term type="people" ref="#subject_1209">Darwin, C. W.</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Down]</placeName>
+                    <date>July 2<hi rend="superscript">d</hi></date>
+                    <salute>My dear Fox</salute>
+                </opener>
+                <div type="transcription">
+<p>Our poor Baby died on 28<hi rend="superscript">th</hi> at night.—<ref target="#foot.f1"/> One of his nurses has caught Fever. We had resolved not to move the others, after consultation &amp; taking all sorts of precautions; but your letter has been turning point &amp; this very day they all go to Sussex to their Aunt, who is here &amp; takes them.<ref target="#foot.f2"/> We stay till Etty can move &amp; I of course stay till nurse is out of all danger whatever.</p>
+<p>You may believe we are terribly anxious, but fear has almost driven away grief.— What a miserable fortnight we have had.—</p>
+<p>Many thanks my dear Fox for your most kind &amp; affectionate letter | Yours | C. Darwin</p>
+<p>We have <hi rend="underline">all</hi> had slight sore-throats, but I often have, &amp; my wife thought it might be in some degree fancy in all.—</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 &amp; taking … precautions 1.3] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_1209.xml" resp="#mjhawkins">Charles Waring Darwin</ref> died of scarlet fever on 28 June 1858 (‘Journal’; Appendix II).</note>
+            <note xml:id="foot.f2">Fox, having experienced the death of several children in his own household from scarlet fever, had evidently advised CD to move his children out of danger as soon as possible (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 5, letters to W. D. Fox, <ref target="./DCP-LETT-1522.xml" resp="#mjhawkins">17 July [1853]</ref>, and <ref target="./DCP-LETT-1526.xml" resp="#mjhawkins">29 [July 1853]</ref>). Sarah Elizabeth (Elizabeth) Wedgwood, <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> sister, had arrived at Down House on 25 June 1858. She took the children to her home in Hartfield, Sussex, on 2 July (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary). CD and Emma stayed at Down until9 July.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

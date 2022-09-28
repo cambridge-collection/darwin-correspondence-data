@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2521">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Phillips   11 November [1859]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7275</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2521 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2521.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2521.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <relatedItem type="publication">
+                <bibl>Edmonds (1951): 25</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 7: 371</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Oxford University Museum of Natural History Archive Collections (John Phillips collection))</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_313.xml">Oxford UMNH</repository>
+                    <collection>John Phillips</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Ilkley Down letterhead</placeName>
+                <date when="1859-11-11">11 Nov [1859]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3773.xml">Phillips, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends <hi rend="italic">Origin</hi> to JP. Says it is as yet only an abstract. Fears JP will "fulminate anathemas" against it. Asks him to read it all straight through, otherwise it will be unintelligible.</p> 
+            <p>Is not so foolish as to expect to convert anyone. CD remembers how many long years his own conversion took. Hooker "has completely given up species as immutable creatures".</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Origin</term>
+                <term type="people" ref="#subject_2357">Hooker, J. D.</term>
+                <term type="scientific_terms" ref="#">negative attitude/assessment</term>
+                <term type="scientific_terms" ref="#">reception of Darwinism</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+                <term type="scientific_terms" ref="#">transmutation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Brom〈ley Kent〉 [Ilkley]</placeName>
+                    <date>Nov 11<hi rend="superscript">th</hi>.</date>
+                    <salute>My dear Phillips</salute>
+                </opener>
+                <div type="transcription">
+<p>I have directed Murray to send you a copy of my book on the Origin of Species, which as yet is only an abstract.— I fear that you will be inclined to fulminate awful anathemas against it.<ref target="#foot.f1"/> I assure you that it is the result of far more labour, than is apparent in its present highly condensed state.—</p>
+<p>If you have time to read it, let me beg you to read it all straight through, as otherwise it will be unintelligible. Try not to condemn it utterly, till you have finished it &amp; reflected on the recapitulation. Not that I am so foolish as to expect to convert anyone, who has long viewed the subject from an opposite point of view. I remember too well how many long years my own conversion took. The utmost which I hope, is that you may see that more can be said on the side of the mutability of specific forms, than is at first apparent. If indeed your own observations have made you at all sceptical on this subject, then my Book may produce some effect.<ref target="#foot.f2"/> Hooker, whose studies make him, I think, one of the most competent judges in Europe, has completely given up species as immutable creations.</p>
+<p>Pray forgive me for troubling you with this note, which does not require any answer &amp; pray believe me | Dear Phillips | Yours very sincerely | Charles Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.1 as] <hi rend="italic">before omitted point</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Phillips was president of the Geological Society in 1859 and had been instrumental earlier in the year in the society’s award of the Wollaston Medal to CD (see letters to John Phillips, <ref target="./DCP-LETT-2402.xml" resp="#mjhawkins">21 January [1859]</ref> and <ref target="./DCP-LETT-2410.xml" resp="#mjhawkins">8 February [1859]</ref>). He was the senior geologist at Oxford University following <ref target="../nameregs/nameregs_707.xml" resp="#mjhawkins">William Buckland’s</ref> death in 1856.</note>
+            <note xml:id="foot.f2">Phillips’s acknowledgment of CD’s letter has not been found, but CD described his response to <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref> as ‘cautious but decidedly, I fear, hostile’ (see the second <ref target="./DCP-LETT-2554.xml">letter to T. H. Huxley, 25 November [1859]</ref>). See also <ref target="./DCP-LETT-2556.xml" resp="#mjhawkins">letter to John Phillips, 26 November [1859]</ref>. Phillips discussed <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref> in his anniversary address to the Geological Society in 1860 (<hi rend="italic">Quarterly Journal of the Geological Society of London</hi> 16 (1860): xxxvi).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

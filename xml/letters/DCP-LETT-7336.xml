@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7336">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Charles Wyville Thomson   7 October 1870</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10974</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7336 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7336.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7336.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 178: 113</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>178: 113</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4730.xml">Thomson, C. W.</persName>
+                <placeName>Strandtown, Belfast</placeName>
+                <date when="1870-10-07">7 Oct 1870</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Seeks CD’s support as a candidate for Edinburgh Chair in Natural History.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">chair in natural history</term>
+                <term type="societal" ref="#">University of Edinburgh</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Strandtown | Belfast</hi></placeName>
+                    <date>October 7<hi rend="superscript">th</hi> 1870.</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>As you are probably aware D<hi rend="superscript">r</hi>. Allman has been obliged to resign the Edinburgh Chair—<ref target="#foot.f1"/> I am a candidate for it and although I have not the honor of your personal acquaintance I cannot refrain from asking you for a few words of recommendation if you think that I am justified in applying for this post in my native town—</p>
+<p>I am the more anxious for your sanction of my candidature as my later work has so direct a bearing on the illustration of your views.<ref target="#foot.f2"/></p>
+<p>Believe me | My dear Sir | Yours with great respect | Wyville Thomson</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_95.xml" resp="#mjhawkins">George James Allman</ref> resigned from his position as professor of natural history at the University of Edinburgh and keeper of the natural history collection of the Edinburgh Museum of Science and Art due to poor health (<ref target="../bibliographies/bibl_7601.xml" resp="#mjhawkins">Swinney 1999</ref>, pp. 55–6).</note>
+            <note xml:id="foot.f2">See, for example, Thomson’s work on the embryology and development of echinoderms (<ref target="../bibliographies/bibl_7721.xml" resp="#mjhawkins">C. W. Thomson 1861</ref>, 1862, and 1863). See also <ref target="../bibliographies/bibl_7726.xml" resp="#mjhawkins">C. W. Thomson 1869</ref>; an inscribed and annotated copy is in the Darwin Pamphlet Collection–CUL.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

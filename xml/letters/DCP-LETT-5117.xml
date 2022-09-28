@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5117">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From George Henslow   11 June [1866]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9374</idno>
+            
+            
+            
+            
+            <date when="2004">2004</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5117 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5117.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5117.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="14">14</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">AL</note>
+            <note type="physdesc">AL 4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 166: 161</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>166: 161</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2232.xml">Henslow, George</persName>
+                <placeName>London, South Crescent, 10</placeName>
+                <date when="1866-06-11">11 June [1866]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends proofs [of "On hybridization among plants", <hi rend="italic">Pop. Sci. Rev.</hi> 5 (1866): 304–13].</p> 
+            <p>Regrets delay in returning CD’s books.</p>
+            <p>Encourages CD to make "disparaging remarks".</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Pop. Sci. Rev.</term>
+                <term type="rx" ref="#">Henslow, George 1866</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">hybrids</term>
+                <term type="scientific_terms" ref="#">negative attitude/assessment</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>10 Sth Crescent | Bedford Sq | W.C.</placeName>
+                    <date>11<hi rend="superscript">th</hi> June.</date>
+                    <salute>Dear M<hi rend="superscript">r</hi> Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I greatly regret my carelessness in not writing again to tell you, I did <hi rend="underline">not</hi> send the books, but have them still.<ref target="#foot.f2"/> The reason was, that when I took my M.S.S. to Hardwicke, he said he would put it in type <hi rend="underline">immediately</hi> &amp; send me the proofs in a few days.<ref target="#foot.f3"/> Then I thought, If that was the case, I had better keep the books till the Proof came, in case I might have to refer to them again: I did so, &amp; hoping to get the proof, as he promised I did not write, but it only arrived on Sat<hi rend="superscript">y</hi>. night last!</p>
+<p>I am much obliged for your kindness in so readily acceding to my request to look over the sheets which I send enclosed. Please do not hesitate to make any disparaging comments you may think fit; or any suggestion you may deem desirable</p>
+<p>I have added a little postscript for your consideration as to whether you would allow me to subjoin.<ref target="#foot.f4"/></p>
+<p>I should be obliged by the return of the proof at your earliest convenience as publishers are apt to get rather importunate sometimes!</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-5095.xml" resp="#mjhawkins">letter from George Henslow, 18 May 1866</ref>.</note>
+            <note xml:id="foot.f2">CD had lent Henslow books for an article on <ref target="../nameregs/nameregs_3492.xml" resp="#mjhawkins">Charles Victor Naudin’s</ref> research on hybridity (Henslow 1866b). See <ref target="./DCP-LETT-5095.xml" resp="#mjhawkins">letter from George Henslow, 18 May 1866</ref> and n. 2.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_2113.xml" resp="#mjhawkins">Robert Hardwicke</ref> was the publisher of <hi rend="italic">Popular Science Review.</hi> The journal was published quarterly; Henslow’s article appeared in the third issue for 1866.</note>
+            <note xml:id="foot.f4">See <ref target="./DCP-LETT-5118.xml" resp="#mjhawkins">letter to George Henslow, 12 June [1866]</ref> and n. 3.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

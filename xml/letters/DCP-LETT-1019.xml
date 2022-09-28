@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1019">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From J. L. Stokes   6 November 1846</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6630</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1019 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1019.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1019.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="publication">
+                <bibl>Rees &amp; Rees (1892): 481</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 3: 363</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Auckland Public Library (Grey collection GL D8 (1))</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_18.xml">Auckland PL</repository>
+                    <collection>Grey</collection>
+                    <idno>GL D8 (1)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4574.xml">Stokes, J. L.</persName>
+                <placeName>Haverfordwest</placeName>
+                <date when="1846-11-06">6 Nov 1846</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Is upset by what has happened [see <hi rend="doubleUnderline">1017</hi>], but does not know how CD’s note reached Grey.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="b" ref="#">1017</term>
+                <term type="scientific_terms" ref="#">negative attitude/assessment</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Haverfordwest | South Wales</placeName>
+                    <date>Saturday | Nov. 6<hi rend="superscript">th</hi>. 46</date>
+                    <salute>My dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+<p>Your letter of the 3<hi rend="superscript">d</hi>. with its enclosure has <hi rend="underline">greatly</hi> surprised and annoyed me.</p>
+<p>I remember receiving the note of yours you have alluded to and thought I had destroyed it at the time, but how, or by what unfair means it has been most wickedly sent to Governor Grey I am quite at a loss to know<ref target="#foot.f1"/> It gives me great concern to think, that I should in any way be the means of placing you in such a disagreeable position, and rest assured it will ever be a matter of deep regret to your very faithful friend | J Lort Stokes</p>
+<p>P.S. | I shall endeavour to find out the mischief maker.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Stokes later concluded that CD’s original letter had been sent to his printers mixed in with proof-sheets. See letters to <ref target="../nameregs/nameregs_1650.xml" resp="#mjhawkins">Robert FitzRoy</ref>, <ref target="./DCP-LETT-1030.xml" resp="#mjhawkins">23 November [1846]</ref>, and to J. L. Stokes, [<hi rend="italic">c.</hi> 26 November 1846].</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

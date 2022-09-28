@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1841A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Samuel Birch   [12 March 1856]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20396</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1841A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1841A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1841A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="publication">
+                <bibl><hi rend="italic">Correspondence</hi> 6: 57</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">British Museum (Department of the Middle East, correspondence 1826–67: 1489)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_65.xml">BM</repository>
+                    <collection>Dept of the Middle East corres 1826–67</collection>
+                    <idno>1489</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Queen Anne St, 57</placeName>
+                <date when="1856-03-12">[12 Mar 1856]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_453.xml">Birch, Samuel</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Arranges an appointment.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">meeting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>57 Queen Anne St | Cavendish Sq<hi rend="superscript">re</hi>.</placeName>
+                    <date>Wednesday</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I will take advantage of your most kind offer<ref target="#foot.f2"/> &amp; call on you on Friday about 11 oclock; if I do not hear to contrary I will venture to assume that this will suit you.—</p>
+<p>Pray believe me, | Yours very truly obliged | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD was in London between 10 and 14 March 1856 (see the <ref target="./DCP-LETT-1843.xml" resp="#mjhawkins">letter to W. D. Fox, 15 March [1856]</ref>) staying with his brother, whose address he gives. He attended a council meeting of the <ref target="../nameregs/nameregs_4110.xml" resp="#mjhawkins">Royal Society of London</ref> on Thursday, 13 March (Royal Society council minutes).</note>
+            <note xml:id="foot.f2">See letters to J. E. Gray, <ref target="./DCP-LETT-1820A.xml" resp="#automat">14 January [1856]</ref>, and to <ref target="../nameregs/nameregs_453.xml" resp="#mjhawkins">Samuel Birch</ref>, 6 February [1856]. Birch translated for CD passages referring to pigeons from an ancient Chinese encyclopaedia and on fowls from ancient Egyptian and Japanese sources. See <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>, 27–8, and <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 205, 230, 247. For a list of CD’s Chinese sources, see <ref target="../bibliographies/bibl_6171.xml" resp="#mjhawkins">Pan 1984</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

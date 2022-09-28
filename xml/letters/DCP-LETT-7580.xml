@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7580">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Robert Swinhoe   14 March 1871</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10860</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7580 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7580.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7580.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 177: 335</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>177: 335</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4642.xml">Swinhoe, Robert</persName>
+                <placeName>London, Oakley Square, 33</placeName>
+                <date when="1871-03-14">14 Mar 1871</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Is leaving for Ningpo; asks CD for another copy of his [Queries about expression], which he will try to answer.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="places" ref="#">Ningpo</term>
+                <term type="scientific_terms" ref="#">expression, emotion</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+                <term type="scientific_terms" ref="#">social behaviour</term>
+                <term type="social" ref="#">Other people</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>33 Oakley Square | Chelsea SW.</placeName>
+                    <date>14 March, 1871.</date>
+                    <salute>My dear M<hi rend="superscript">r</hi>. Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I do not distinctly recollect, but I have an idea that a stoop is affected which would throw up the shoulders a little. I never saw a Chinaman throw up his shoulders in the emphatic way a Frenchman does, or in the cringing manner of a Bengalie.<ref target="#foot.f1"/></p>
+<p>If you will kindly send me another copy of the Queries on Expression I will make some more efforts to answer them in view of the people at Ningpo (below Shanghai), to which Port I am now appointed Consul.<ref target="#foot.f2"/> I leave England by the Southampton Mail of the 1<hi rend="superscript">st</hi>. of April next, and my address will be, RS.</p> 
+<figure type="diagram"> 
+<p>H.M. Consul</p>
+<p>Ningpo</p>
+<p>China.</p> </figure> 
+<p>Never forget to work me if I can be of the slightest use to you. I am always at your service.</p>
+<p>With many thanks for your kind wishes, | I remain, | Your’s very sincerely, | Robert Swinhoe.</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">In <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref>, pp. 264–72, CD discussed the shrugging of shoulders and cited Swinhoe for information on Chinese practice (<hi rend="italic">ibid.</hi>, p. 269). No letter from CD to Swinhoe on the subject has been found.</note>
+            <note xml:id="foot.f2">Ning-po is now Ningbo. CD had sent Swinhoe a copy of his Queries on expression in 1867 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 15, <ref target="./DCP-LETT-5423F.xml" resp="#mjhawkins">letter to Robert Swinhoe, [27 February 1867]</ref>, and <ref target="./DCP-LETT-5598.xml" resp="#mjhawkins">letter from Robert Swinhoe, 5 August 1867</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

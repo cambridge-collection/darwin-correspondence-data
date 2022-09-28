@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6493">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From J. B. Innes   7 December 1868</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8790</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6493 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6493.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6493.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl>Stecher (1961): 225</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 167: 21</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>167: 21</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2502.xml">Innes, J. B.</persName>
+                <placeName>Milton Brodie</placeName>
+                <date when="1868-12-07">7 Dec 1868</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Describes a supposed cross between a cow and a red deer or doe.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">cow</term>
+                <term type="animals" ref="#">deer, red</term>
+                <term type="animals" ref="#">doe</term>
+                <term type="scientific_terms" ref="#">crossing</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                
+                <term type="tag" ref="#darwin_and_church">Darwin And The Church</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Milton Brodie</placeName>
+                    <date>7<hi rend="superscript">th</hi>. Dec<hi rend="superscript">r</hi> 1868</date>
+                    <salute>Dear Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>At our cattle shew today there was exhibited an odd looking beast supposed to be a cross between a Highland cow and a red deer or roe—<ref target="#foot.f1"/> It has much of the deer head, and legs, it is a dun, the hair curley, on body, and nearly bare on legs. I did not see it at liberty but it is said to go with the long trot of the deer and to carry its head looking about like them. It strikes one on looking at it to have as much of the deer as cow about it. All that the owner, M<hi rend="superscript">c</hi>Donald tenant of Blervie<ref target="#foot.f2"/> knows about it is that a little cow in the hills who had been in places frequented by deer had calved it two years ago. A veterinary surgon at Inverness M<hi rend="superscript">c</hi>Lean bought it and I have told him to ascertain what he can about it and tell me, in case you may care to know about it. I have asked him to give an accurate description of its coat, the formation of legs, gait, habits, to ascertain whether the dam had been put to bull, or if a bull was within reach of access when she was running loose— To send a photograph of the beast, a female</p>
+<p>If this is a curiosity and anything occurs to you to ask I will put the questions, or you could ask them of M<hi rend="superscript">r</hi>. M<hi rend="superscript">c</hi>Lean VS. Inverness.<ref target="#foot.f3"/></p>
+<p>M<hi rend="superscript">r</hi>. Key, a corn merchant in Forres told me he had once before seen a beast of the kind but it was not such an ugly one as this.<ref target="#foot.f4"/></p>
+<p>Believe me Dear Darwin | Yours faithfully | J Brodie Innes</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Innes refers to a breed of <hi rend="italic">Bos taurus</hi> native to Scotland (Highland cattle), to <hi rend="italic">Cervus elaphus scoticus</hi> (the red deer), and to <hi rend="italic">Capreolus capreolus</hi> (the roe deer).</note>
+            <note xml:id="foot.f2">Probably <ref target="../nameregs/nameregs_8798.xml">James McDonald</ref>. Blervie castle is five miles south-east of Forres in northern Scotland.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_3276.xml">Lachlan McLean</ref>. </note>
+            <note xml:id="foot.f4">Mr Key has not been further identified.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

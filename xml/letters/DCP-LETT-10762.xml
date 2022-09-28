@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10762">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Francis Darwin   [<hi rend="italic">c.</hi> December 1876]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19879</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10762 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10762.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10762.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Copy</note>
+            <note type="physdesc" n="C">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 153: 28</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>153: 28</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1876-12-01" notAfter="1876-12-31">[<hi rend="italic">c.</hi> Dec 1876]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1222.xml">Darwin, Francis</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Asks for details of dimorphism in <hi rend="italic">Sethia</hi> from Thwaites, <hi rend="italic">Enumeratio plantarum Zeylaniae</hi> [1864]. [See <hi rend="italic">Forms of flowers</hi>, p. 122.]</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Sethia</term>
+                <term type="it" ref="#">Enumeratio plantarum Zeylaniae</term>
+                <term type="rx" ref="#">Thwaites, G. H. K. 1864</term>
+                <term type="scientific_terms" ref="#">dimorphism</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+                     
+<figure type="diagram"> 
+<p>Thwaites Enumeratio Pl. Zeylan (Ceylon) (right title and <hi rend="underline">date</hi>) p.p. 54 or 205. Sethia<ref target="#foot.f2"/></p> </figure> 
+<p>In one form the stamens are of equal length and in the other form alternately long and short— which is it?</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter and the <ref target="./DCP-LETT-10728.xml" resp="#mjhawkins">letter to Asa Gray, 20 December 1876</ref>.</note>
+            <note xml:id="foot.f2">In his taxonomic study, <hi rend="italic">Enumeratio plantarum Zeylaniæ</hi> (Enumeration of the plants of Ceylon; <ref target="../bibliographies/bibl_7760.xml" resp="#mjhawkins">Thwaites 1858–64</ref>, 5: 54, 205), <ref target="../nameregs/nameregs_4750.xml" resp="#mjhawkins">George Henry Kendrick Thwaites</ref> used the terms <hi rend="italic">stylosa</hi> and <hi rend="italic">staminea</hi> to describe the different floral forms of <hi rend="italic">Sethia obtusifolia</hi> (a synonym of <hi rend="italic">Erythroxylum obtusifolium</hi>), <hi rend="italic">Sethia acuminata</hi> (a synonym of <hi rend="italic">Erythroxylum macrophyllum</hi>), and <hi rend="italic">Limnanthemum indicum</hi> (a synonym of <hi rend="italic">Nymphoides indica</hi>, water snowflake). In his description of <hi rend="italic">Sethia obtusifolia</hi>, Thwaites remarked that although he initially considered that the two forms might be different species, he later concluded that they foreshadowed a ‘dioecious character’ (<hi rend="italic">ibid.</hi>, p. 54). CD included Thwaites’s description of <hi rend="italic">Limnanthemum indicum</hi> and the species of <hi rend="italic">Sethia</hi> in <ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref>, pp. 116, 122.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

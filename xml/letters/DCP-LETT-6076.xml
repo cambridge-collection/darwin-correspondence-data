@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6076">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From W. E. Darwin   [7–15 April 1868]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6128A</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6076 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6076.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6076.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">incomplete</note>
+            <note type="physdesc" n="AL">2pp inc</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 162: 80/4</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>162: 80/4</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1245.xml">Darwin, W. E.</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1868-04-07" notAfter="1868-04-15">[7–15 Apr 1868]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Langstaff has never seen the platysma act, and he believes it to be rudimentary in humans.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_2806">Langstaff, C. L.</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+                <term type="scientific_terms" ref="#">rudimentary organs</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                </opener>
+                <div type="transcription">
+                     
+<p>Langstaff says that he never has seen the platysma act &amp; always looks out.<ref target="#foot.f2"/></p>
+<p>His belief from his own experience is that it is what may be called rudimentary in Human Beings.</p>
+<p>There is often very bad dyspnoea under Chloroform and he has lately seen a bad case of Tetynus<ref target="#foot.f3"/> where the head was thrown far back &amp; the muscles from the shoulders acting violently, the mouth was violently clenched, &amp; from the position of head he should have thought the platysma ought to have acted, as the clenching of the jaws would give it a purchase to act from.<ref target="#foot.f4"/></p>
+<p>I will ask him again about this case</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date range is established by the relationship between this letter and the letters from W. E. Darwin, <ref target="./DCP-LETT-6100.xml" resp="#mjhawkins">[7 April 1868]</ref> and <ref target="./DCP-LETT-6122.xml" resp="#mjhawkins">[15 April 1868]</ref>.</note>
+            <note xml:id="foot.f2">In <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref>, p. 301, CD cited <ref target="../nameregs/nameregs_2806.xml" resp="#mjhawkins">Charles Langstaff’s</ref> observation that the platysma did not contract in patients with extreme respiratory difficulties. The platysma, or platysma myoides, was described by CD as a rudimentary muscle in humans (<ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> 1: 19). See also <ref target="./DCP-LETT-6098.xml" resp="#automat">letter from St G. J. Mivart, 6 April 1868</ref>, n. 2.</note>
+            <note xml:id="foot.f3">Tetanus, or lockjaw.</note>
+            <note xml:id="foot.f4">Having received information from various sources, CD concluded that the platysma did contract in patients suffering from lockjaw (<ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref>, p. 301).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

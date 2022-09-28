@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-682">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Ernst Dieffenbach   19 July [1843]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1054</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-682 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-682.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-682.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+            <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <note type="postmark">19 JY 19 1843</note>
+                <relatedItem type="publication">
+                    <bibl> <hi rend="italic">Correspondence</hi> 2: 374–5</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Historical Society of Pennsylvania (Gratz collection, case 12, box 7)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_320.xml">Pennsylvania HS</repository>
+                    <collection>Gratz</collection>
+                    <idno>case 12, box 7</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1843-07-19">19 July [1843]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1322.xml">Dieffenbach, Ernst</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Says Colburn will allow German publisher to use copperplate and woodcuts [for <hi rend="italic">Journal of researches</hi>]. Has been delayed in corrections owing to death of a relative [Josiah Wedgwood II].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin family</term>
+                <term type="it" ref="#">Journal of researches</term>
+                <term type="people" ref="#subject_1004">Colburn, Henry</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down | near Bromley | Kent</placeName>
+                    <date>July 19<hi rend="superscript">th</hi>—</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I write to inform you that M<hi rend="superscript">r</hi> Colburn is willing to let you have the use of the copper-plate of the map &amp; of any of the three woodcuts in my volume,<ref target="#foot.f1"/> but <hi rend="doubleUnderline">I</hi> must guarantee their safe return so you must come to a distinct understanding with your publishers, if you please, that they must be carefully returned.— M<hi rend="superscript">r</hi> Colburn would rather prefer to supply your publisher with copies of the map ready printed off at 10<hi rend="superscript">s</hi> per hundred; but you can take your choice; the carriage of the plate to Brunswick backwards &amp; forwards may perhaps be an item.</p>
+<p>I have been delayed for a whole week in making my corrections, by the death of a relative,<ref target="#foot.f2"/> which called me to a distant part of England; but I shall recommence my labour of love to day.—</p>
+<p>I am quite ignorant whether the expence of postage to Berlin is great, <hi rend="underline">I paying as far as I can.</hi> — Perhaps you will be so kind as to inform me, what this single letter costs, for if not very expensive, I could send my notes &amp; corrections by Post, or by any other method you might propose.—</p>
+<p>How soon shall you go to press?</p>
+<p>Excuse this hurried letter &amp; believe me | Dear Sir | Yours very faithfully | Charles Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">3.1 great] <hi rend="italic">above del</hi> ‘expensive’</note>
+                    <note xml:id="tnote.n2">3.2 this] <hi rend="italic">over</hi> ‘the’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Refers to the 1844 German edition of <ref target="../bibliographies/bibl_4250.xml" resp="#mjhawkins"><hi rend="italic">Journal of researches </hi></ref> (see <ref target="./DCP-LETT-680.xml" resp="#mjhawkins">letter to Henry Colburn, 4 July [1843]</ref>).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_5026.xml" resp="#mjhawkins">Josiah Wedgwood II</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

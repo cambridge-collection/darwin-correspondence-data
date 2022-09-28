@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-960">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From C. G. Ehrenberg   11 March 1846<choice><seg type="original"><ref target="#foot.f1"/></seg><seg type="translation"><ref target="#foot_trans.f1"/></seg></choice></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13007</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-960 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-960.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-960.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp (German) †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 39: 62–3</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>39: 62–3</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1480.xml">Ehrenberg, C. G.</persName>
+                <placeName>Berlin</placeName>
+                <date when="1846-03-11">11 Mar 1846</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Describes Infusoria in Rio Gallegos samples.</p>
+            <p>"Fluthgebiete" means estuary deposit.</p>
+            <p>Discusses dust samples from Malta. Asks for further samples.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Infusoria</term>
+                <term type="geology" ref="#">dust</term>
+                <term type="geology" ref="#">estuary deposit</term>
+                <term type="places" ref="#">Malta</term>
+                <term type="places" ref="#">Rio Gallegos</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">soil and other substrates</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Berlin</placeName>
+                    <date>d. 11 Maerz 1846.</date>
+                    <salute>Hochzuverehrender Herr</salute>
+                </opener>
+                <div type="transcription">
+<p>Ihre neue freundliche Zusendung von Gebirgsproben durch die Preuß. Gesandtschaft in London habe ich empfangen und ich würde mich schon längst beeilt haben Ihnen Nachricht darüber zu geben, wenn nicht eine schwere Krankheit meiner Frau mich fast ein halbes Jahr lang schon in meiner ganzen Correspondenz gestört hätte.</p>
+<p><anchor xml:id="ann.a1" type="annotationStart"/>Folgende Mittheilungen mögen Ihnen anzeigen daß ich dessenungeachtet Ihre Wünsche nicht unberücksichtigt gelassen habe.</p>
+<p>1. <anchor xml:id="ann.a3" type="annotationStart"/>Die Proben vom Gallegas Fluße in Patagonien zeigen zwar auch mikroskopische Organismen, aber ganz andere als die große weiße Tuff Masse von St. Cruz. Es sind Süßwasser—oder brakische Formen und nicht geglüht. Diese Ablagerungen schließen sich demnach an die von Monte Hermoso an. Übrigens habe ich das Organische nur in den 2 bimsteinartigen lockeren Proben besonders in der gelblichen gefunden<anchor xml:id="ann.a4" type="annotationEnd"/> <anchor xml:id="ann.a2" type="annotationEnd"/>.<ref target="#foot.f2"/></p>
+<p>2 Sie wünschen ferner zu wissen ob das Wort <hi rend="underline">Fluthgebiet</hi> einerley sey mit dem englischen Ausdruck <hi rend="underline">Estuary deposit</hi>.<ref target="#foot.f3"/> Beides ist wohl ziemlich gleich bedeutend, doch könnte eine <hi rend="underline">Ablagerung</hi> (<hi rend="underline">deposit</hi>) im <hi rend="underline">Fluthgebiete des Meeres</hi> eine <hi rend="underline">Süßwasser Ablagerung</hi> seyn, während <hi rend="underline">estuary deposit</hi> wohl entschieden stets des <hi rend="underline">Meeres Ablagerung</hi> ist <hi rend="underline">bei der Fluth</hi>. Das <hi rend="underline">obere</hi> <hi rend="underline">Fluthgebiet des Meeres</hi> <hi rend="underline">im Festlande</hi> ist <hi rend="underline">the</hi> <hi rend="underline">upper</hi> <hi rend="underline">district of the tide</hi> <hi rend="underline">in a River or Continent</hi>, wo durch Aufstauung des Flußwassers und dessen Mischung stets brakische Deposits erfolgen, wie z.B. bei Hamburg 18 deutsche Meilen vom Meere ein oberes Fluthgebiet ist, bei Cuxhaven das untere. Das obere wird oft nur ausnahmsweise erreicht von der Fluth.</p>
+<p>3. Die mir gesandte Probe von atmosphaerischem Staube aus Malta habe ich sogleich analysirt und das merkwürdige Resultat in unserer Akademie der Wissensch. vorgetragen.<ref target="#foot.f4"/> Ich habe darin 43 Organismen beobachtet, von denen 31 auch im Capverdischen Staube völlig gleichartig sind. Ihre gelehrte und so reichhaltige Zusammenstellung der Staub-Beobachtungen möchten Sie doch ja publiciren. Der Gegenstand scheint mir wichtig zu seyn und wenn auch unsere Ansichten über den Ursprung und die Luftzüge etwas differiren, so wird die dadurch angeregte fortgesezte Beobachtung doch bald die Wahrscheinlichkeits-Grenze finden. Es ist natürlich daß die bisher noch verhältnißmäßig geringe Zahl von geographischen Beobachtungen der mikroskopischen Organismen Sicherheit der Resultate nicht geben kann. Dennoch ist der Weg der Beobachtung der allein gangbare und das Resultat desselben das allein wissenschaftlich befestigende. Sie sind mitten in der herrlichsten Gelegenheit den auffallenden Gegenstand weiter zu entwickeln.</p>
+<p>Mit dieser oder irgend einer anderen nahen Gelegenheit erhalten Sie meine lezten Mittheilungen über diese Objecte. Meine freundlichsten Grüße schließen den jetzigen Brief.</p>
+<p>Ich verbleibe in aufrichtiger Hochachtung | Ihr | freundlich ergebenster | Dr C G Ehrenberg</p>
+<p>Sollten Sie gelegentlich mir einige Fragmente von jezt auf Ascension wachsenden Gräsern senden können so wäre es mir sehr lieb zur Vergleichung. Nur müßten sichere Namen dabey seyn, sonst können es Blattfragmente oder Stengel Fragmente ohne botanischen Werth seyn, zoll groß.</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note target="#ann.a1" targetEnd="#ann.a2">‘(<hi rend="italic">fresh water &amp; brackish, not like white tuff—</hi>)’<ref target="#foot.f5"/> <hi rend="italic">added pencil</hi></note>
+                <note target="#ann.a3" targetEnd="#ann.a4"><hi rend="italic">scored pencil</hi>; ‘only part useful’<hi rend="italic">added pencil</hi></note>
+                <note> <hi rend="italic">On cover</hi>: ‘Ch. IV &amp; V’ <hi rend="italic">pencil</hi>; ‘Thanks’ <hi rend="italic">pencil</hi> ‘Hooker grasses; named species’ <hi rend="italic">pencil, partially circled pencil</hi>; ‘V. my catalogue’<ref target="#foot.f6"/> <hi rend="italic">pencil</hi> ‘Beaufort Dusts’<ref target="#foot.f7"/> <hi rend="italic">pencil</hi> ‘Cordillera rock’ <hi rend="italic">pencil</hi> </note>
+            </div>
+
+        </div>
+        
+        
+        <div type="translation">
+            <div type="text">
+                <opener>
+                    <placeName>Berlin</placeName>
+                    <date>11 March 1846</date>
+                    <salute>Most honoured Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have received your kind new shipment of mountain samples through the Prussian embassy in London and I would have hastened long ago to give you news of it if the severe illness of my wife had not disturbed my entire correspondence for almost half a year.</p>
+<p>Nevertheless the following information may indicate to you that I have not left your wishes unattended.</p>
+<p>1. The samples from the River Gallegos in Patagonia also show microscopic organisms, but completely different ones from the large white tuff mass from St. Cruz. They are freshwater—or brackish forms and not fused. Accordingly these deposits are related to those of Mount Hermoso. Incidentally I found organic material only in the 2 friable pumice-like samples especially in the yellowish one.<ref target="#foot.f2"/></p>
+<p>2 In addition, you want to know whether the word <hi rend="underline">Fluthgebeit</hi> is identical with the English expression <hi rend="underline">Estuary deposit</hi>.<ref target="#foot.f3"/> They both mean much the same thing, but an <hi rend="underline">Ablagerung (deposit)</hi> in a <hi rend="underline">Fluthgebeit of the sea</hi> could be a <hi rend="underline">freshwater deposit</hi>, whereas <hi rend="underline">estuary deposit</hi> is definitely always a <hi rend="underline">deposit of the sea in a tidal area</hi>. The <hi rend="underline">obere Fluthgebeit des Meeres im Festlande</hi> is <hi rend="underline">the upper district of the tide in a River or Continent</hi>. Here the blocking up of the river water and its mixing [with seawater] always results in brackish deposits, e.g. near Hamburg there is an upper tidal district 18 German miles from the sea, and a lower tidewater district at Cuxhaven. The tide reaches the upper one only on occasion.</p>
+<p>3. I immediately analysed the sample of atmospheric dust that was sent to me from Malta, and I reported the remarkable result to our Academy of Science.<ref target="#foot.f4"/> I observed 43 organisms in it, of which 31 are exactly like those in the Cape Verde dust. You would certainly want to publish your learned and comprehensive collection of dust observations. The matter seems important to me and even if our views on the origin of the dust and winds differ somewhat, the continued observation that would be stimulated thereby would soon establish the boundaries of probability. It is to be expected that the relatively small number of geographical observations of microscopic organisms made so far cannot give definitive results. Nevertheless the path of observation is the only one to follow and its result alone can give scientific confirmation. You are in the midst of a most magnificent situation for developing the resulting material further.</p>
+<p>You will receive my last report on these matters either on this occasion or another one soon. My heartiest greetings close this letter.</p>
+<p>I remain with sincere respect | Your most humble | Dr C G Ehrenberg</p>
+<p>If you have the opportunity to send me some fragments of grasses now growing on Ascension I should like them for comparison. There must be dependable names on them, but they can be leaf fragments or stem fragments without botanic value, an inch in size.</p> 
+                </div>
+            </div>
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">For a translation of this letter see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 3, Appendix I.</note>
+            <note xml:id="foot_trans.f1">For the transcription of this letter in the original German and CD’s annotations, see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 3, pp. 298–9.</note>
+            <note xml:id="foot.f2">The information in this paragraph was used in <ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref>, p. 117. It led CD to conclude that ‘the 200 to 300 feet plain at Port Gallegos is of unknown age, but probably of subsequent origin to the great Patagonian tertiary formation.’</note>
+            <note xml:id="foot.f3">CD quoted this letter as his authority in correcting mistranslations of Ehrenberg’s term ‘Fluthgebiete’. Previously, it had been translated by Alcide d’Orbigny as a ‘flood’, lending support to Orbigny’s view that the Pampas deposits had been laid down by a debacle. See <ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref>, p. 248 n., and <ref target="./DCP-LETT-923.xml" resp="#mjhawkins">letter to C. G. Ehrenberg, 29 October [1845]</ref>, n. 2.</note>
+            <note xml:id="foot.f4">Ehrenberg 1845c, pp. 377–81.</note>
+            <note xml:id="foot.f5">The information was used in <ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref>, p. 117, see n. 2, above.</note>
+            <note xml:id="foot.f6">A reference to CD’s catalogue of <hi rend="italic">Beagle</hi> plant specimens which had been sent to <ref target="../nameregs/nameregs_2357.xml" resp="#mjhawkins">Joseph Dalton Hooker</ref> by <ref target="../nameregs/nameregs_2235.xml" resp="#mjhawkins">John Stevens Henslow</ref>.</note>
+            <note xml:id="foot.f7">This entry and CD’s subsequent <ref target="./DCP-LETT-965.xml" resp="#mjhawkins">letter to C. G. Ehrenberg, 25[–31?] March [1846]</ref>, indicate that CD followed up the Atlantic dust problem with the Hydrographer’s Office, but no letter to <ref target="../nameregs/nameregs_348.xml" resp="#mjhawkins">Francis Beaufort</ref> on the subject has been found; nor is there any further mention of this question in the extant correspondence until 23 November 1876, when CD wrote to <ref target="../nameregs/nameregs_849.xml" resp="#mjhawkins">Julius Victor Carus</ref> stating that he did not know why he had doubted his Atlantic dust paper and he now thought it worth translating.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

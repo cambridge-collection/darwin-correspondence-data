@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10019">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Lawson Tait   [after 17 June 1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3880</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10019 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10019.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10019.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Shrewsbury School, Taylor Library</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_386.xml">Shrewsbury School</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Abinger Hall</placeName>
+                <date notBefore="1875-06-18" notAfter="1875-06-30">[after 17 June 1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4653.xml">Tait, R. L.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>RLT will find abundant evidence of absorption by <hi rend="italic">Aldrovanda</hi> in CD’s forthcoming book [<hi rend="italic">Insectivorous plants</hi>]. Congratulates him on his discovery of ferments.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Aldrovanda</term>
+                <term type="it" ref="#">Insectivorous plants</term>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="scientific_terms" ref="#">positive criticism of correspondent</term>
+                <term type="scientific_terms" ref="#">predators</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Abinger Hall | <hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Aldrovanda is rootless &amp; floats freely &amp; catches abundant prey in various parts of world.—<ref target="#foot.f2"/> If you will wait till my book appears, I think you will find abundant evidence of absorption.—<ref target="#foot.f3"/> Your separation of the ferments, seems a capital discovery.—<ref target="#foot.f4"/> I have not strength to give evidence of absorption.</p>
+<p>yours sincerely | Ch Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter and the <ref target="" resp="#automat">letter from Lawson Tait, 17 June [1875]</ref>.</note>
+            <note xml:id="foot.f2">Tait expressed an interest in <hi rend="italic">Aldrovanda</hi> (the waterwheel plant) in his <ref target="./DCP-LETT-10021.xml" resp="#mjhawkins" cert="high">letter of 17 June [1875]</ref>.</note>
+            <note xml:id="foot.f3"><ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref> was published on 2 July 1875 (see CD’s ‘Journal’ (Appendix II)); the section on <hi rend="italic">Aldrovanda</hi> is on pp. 321–31. CD concluded that its glands secreted true digestive fluid and absorbed the digested matter.</note>
+            <note xml:id="foot.f4">In his first letter of 12 June [1875], Tait had informed CD that he had isolated a pepsin-like substance from the glands of <hi rend="italic">Drosera dichotoma</hi> (a synonym of <hi rend="italic">D. binata</hi>, the forked-leaf sundew).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

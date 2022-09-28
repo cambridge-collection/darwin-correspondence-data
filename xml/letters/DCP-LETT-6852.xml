@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6852">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To M. C. Lloyd   4 August [1869]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">373</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6852 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6852.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6852.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.373)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>373</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1869-08-04">4 Aug [1869]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2965.xml">Lloyd, M. C.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Encloses letter from W. B. Dawkins concerning "our old savage progenitors with their ground-down teeth".</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="human_group" ref="#">savages</term>
+                <term type="people" ref="#subject_1262">Dawkins, W. B.</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">historical time</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down.</hi> | Beckenham | <hi rend="print">Kent. S.E.</hi></placeName>
+                    <date>Aug. 4<hi rend="superscript">th</hi></date>
+                    <salute>My dear Miss Lloyd</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have thought that you w<hi rend="superscript">d</hi>. like to see the enclosed letter from M<hi rend="superscript">r</hi> B. Dawkins, who has evidently been much pleased by his visit, though in some geological respects not so interesting as he expected.<ref target="#foot.f2"/> There is something wonderfully curious in coming across remains of an old savage progenitor, with their ground-down teeth.—<ref target="#foot.f3"/></p>
+<p>Pray believe me | yours truly obliged | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 Beckenham.] <hi rend="italic">before del</hi> ‘<hi rend="italic">Bromley.</hi>’ </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by reference to <ref target="../nameregs/nameregs_1262.xml" resp="#mjhawkins">William Boyd Dawkins’s</ref> visit to north Wales; see n.2, below.</note>
+            <note xml:id="foot.f2">Dawkins visited Lloyd’s family home at Rhagatt near Corwen in north Wales from 29 to 30 July 1869. He was investigating the site where a group of prehistoric bones, sent on to him by CD, had been discovered. (Dawkins 1870, <ref target="../bibliographies/bibl_4966.xml" resp="#mjhawkins">Lucas 2007</ref>, p. 326; see also <ref target="./DCP-LETT-6836A.xml" resp="#mjhawkins">letter to W. B. Dawkins, 19 July [1869]</ref>, and <ref target="./DCP-LETT-7044.xml" resp="#automat">letter to M. C. Lloyd, [24 July 1869]</ref> and n. 2.) Dawkins’s letter to CD has not been found, but presumably reported the initial results of his investigation; see n. 3, below.</note>
+            <note xml:id="foot.f3">Dawkins commented in his later published account of the excavations that all the adult human teeth discovered at Rhagatt were ground perfectly flat (Dawkins 1870, p. 444).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

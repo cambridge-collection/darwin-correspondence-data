@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10455">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From P. M. G. Egerton   17 April 1876</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16784</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10455 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10455.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10455.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 163: 8</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>163: 8</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1478.xml">Egerton, P. M. G.</persName>
+                <placeName>Oulton Park</placeName>
+                <date when="1876-04-17">17 Apr 1876</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>F. S. Holmes is welcome to examine his fish vertebrae.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">fish</term>
+                <term type="people" ref="#subject_2342">Holmes, F. S.</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Oulton Park, | Tarporley.</hi></placeName>
+                    <date>April 17 76</date>
+                    <salute>Dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I only received your letter of the 18<hi rend="superscript">th</hi> of March on Saturday,<ref target="#foot.f1"/> as my Town residence has been invaded by painters for the last month and every thing in confusion. I do not anticipate much from the examination of the microscopic structure of vertebral centra, but I should be very happy to help Professor Hope with materials if I had them. I could find, I have no doubt, some vertebrae in my drawers but I could not give the generic or specific names to those of the Selachians. Most of our older fishes were notochordal.<ref target="#foot.f2"/> If there were any chance of the Professor paying a visit to this country he should have the free run of my collection, but I hardly think I could select any thing that would help him. If this method of investigation is to give good results, the Professor ought to be blindfolded as to the age and genera of the specimens examined in order to preclude foregone conclusions. I was delighted to see your signature once again and hope that your health has not suffered from the late severe weather<ref target="#foot.f3"/></p>
+<p>Believe me | Yours very sincerely | P M Grey Egerton</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The letter from CD has not been found.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_1066.xml" resp="#mjhawkins">Edward Drinker Cope</ref> described Selachii in <hi rend="italic">The vertebrata of the Cretaceous formations of the West</hi> (<ref target="../bibliographies/bibl_9037.xml" resp="#mjhawkins">Cope 1875</ref>, pp. 243–4). The former group Selachii included sharks and dogfishes; it was roughly equivalent to the modern superorder Euselachii. The vertebral centrum forms around and usually replaces the notochord. Although all vertebrates have notochords as embryos, they are only retained in those (like hagfish and lampreys) that do not develop fully differentiated vertebrae; see, for instance, Rolleston 1870, p. lxix. Egerton must have misread ‘Cope’ as ‘Hope’. Cope’s letter to CD has not been found.</note>
+            <note xml:id="foot.f3"><hi rend="italic">The Times</hi>, 15 April 1876, p. 5, recorded heavy snow across the Midlands and home counties.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

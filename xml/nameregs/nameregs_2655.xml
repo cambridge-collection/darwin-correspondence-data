@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-2655" status="released">
+    <persName>
+        <forename>Frances</forename>
+        <forename>Anne</forename>
+                <choice><seg><surname notBefore="1809" notAfter="1834">Kemble</surname></seg>
+            <seg><surname notBefore="1835" notAfter="1848">Butler</surname></seg>
+                <seg><surname notBefore="1849" notAfter="1893">Kemble</surname></seg></choice>
+    </persName>
+    <persName type="additional" subtype="preferred" resp="#mjhawkins">Fanny</persName>
+    
+    <note type="dates"><date>1809–93</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Actress and author. Toured America from 1831. Married American plantation owner Pierce Butler in 1834; divorced, 1848. Acted occasionally when visiting England and became a successful monologist. An abolitionist; published her account of living on a Georgia slave plantation in 1838–9 when she finally retired from performing in 1863.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_1727.xml" resp="#mjhawkins"><hi rend="italic">DAB</hi></ref></p>
+        <p><ref target="../bibliographies/bibl_5933.xml"><hi rend="italic">ODNB</hi></ref></p>.
+    </note>
+    <note type="volume">1,24,30</note>
+    <note type="keywords">
+        <term type="name">Butler, Pierce</term>
+        <term type="l">Actress</term>
+        <term type="l">author</term>
+    </note>
+    
+</person>

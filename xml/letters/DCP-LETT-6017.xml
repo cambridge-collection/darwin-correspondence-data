@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6017">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. B. Tegetmeier   17 [March 1868]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1385</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6017 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6017.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6017.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 148: 51</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Archives of the New York Botanical Garden (Charles Finney Cox Collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_302.xml">NYBG</repository>
+                    <collection>Charles Finney Cox</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Chester Place, 4</placeName>
+                <date when="1868-03-17">17 [Mar 1868]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4682.xml">Tegetmeier, W. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>For experiment on effect of male beauty, pigeons should be coloured on the breast.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">pigeons</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">instructions</term>
+                <term type="scientific_terms" ref="#">physical ‘external’ characters</term>
+                <term type="scientific_terms" ref="#">sex differences</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>4 Chester Place | <hi rend="print">N.W.</hi></placeName>
+                    <date>17<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>From facts given me by M<hi rend="superscript">r</hi> J. Jenner Weir &amp; his Brother, it was stupid in me not to have suggested to you to colour the <hi rend="underline">breast</hi> of the pigeon, where the metallic tints are displayed, instead of the wings or tail.—<ref target="#foot.f2"/> I certainly sh<hi rend="superscript">d</hi>. be very much obliged if you would do this; &amp; if in course of summer you have the opportunity it would be capital to place 2 males with one female, one of the males being coloured on breast.— You can have no spare time, otherwise I w<hi rend="superscript">d</hi> ask you to buy on my account a few young pigeons &amp; keep them for me &amp; try the colour.—</p>
+<p>I was very glad to have the pleasure of seeing you yesterday.—</p>
+<p>My dear Sir | Yours very sincerely | Ch. Darwin</p>
+<p>M<hi rend="superscript">r</hi> <hi rend="doubleUnderline">H</hi>. Weir says that some male pigeons, from playing antics &amp; courting the female so well, are troublesome from causing paired females to be unfaithful to their mates; &amp; that such “gay” males (as the fanciers call them) have sometimes to be shut up.—<ref target="#foot.f3"/> Have you ever heard of such specially amorous “gay” deceivers??</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.6 young] <hi rend="italic">interl</hi> </note>
+                <note xml:id="tnote.n2">4.2 paired] <hi rend="italic">above del</hi> ‘the’ </note>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter and the <ref target="./DCP-LETT-6016.xml" resp="#mjhawkins">letter from J. J. Weir, 16 March 1868</ref>.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_5048.xml" resp="#mjhawkins">John Jenner Weir</ref> and Harrison Weir had expressed the opinion that colour did not play a significant role in sexual selection in pigeons but noted that the iridescent neck was the only part of the body with brilliant colours and that males inflated their necks during courtship (see <ref target="./DCP-LETT-6016.xml" resp="#mjhawkins">letter from J. J. Weir, 16 March 1868</ref>).</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-6016.xml" resp="#mjhawkins">letter from J. J. Weir, 16 March 1868</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

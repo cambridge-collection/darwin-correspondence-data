@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9424">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Henry Cecil   21 April 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16400</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9424 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9424.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9424.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 161: 129</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>161: 129</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_868.xml">Cecil, Henry</persName>
+                <placeName>Bournemouth</placeName>
+                <date when="1874-04-21">21 Apr 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Affirms his belief in an impassable spiritual gulf between man and the lower creatures.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">affinity and analogy</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">highness and lowness</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Bregner, | Bournemouth.</placeName>
+                    <date>April 21<hi rend="superscript">st</hi>., 1874.</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I was from home last week when your very courteous acknowledg<hi rend="superscript">t</hi>. of my thanks as a reader of the “Researches” arrived.<ref target="#foot.f1"/></p>
+<p>I am well satisfied that as regards the many-sided natural history of the world it is quite the most admirable book of travel I ever read. That <hi rend="underline">as</hi> <hi rend="underline">animals</hi> we are very closely akin to every beast of the field, and creeping thing of the leaf and ground is no new thought to me. I cannot understand how anyone should closely observe beasts birds and insects and doubt it;— but that we have a whole world of being into which these do not enter seems to me as little doubtful too.</p>
+<p>You will say—“Can you conceive of a Tierra-del-Fuegian developing into a Darwin?” I think “Yes”—and that your own observation on board the “Beagle” is no little help towards conceiving it.<ref target="#foot.f2"/> But I confess that until we catch some lower creature <hi rend="underline">in the</hi> <hi rend="underline">act of passing</hi> the “great gulf fixed”<ref target="#foot.f3"/> between them and us, I must consider the difference not one of developement but essential life—and probable future history. And that on the ground simply of observation and established facts.</p>
+<p>But the misfortune of that unmapped region (as it seems to us) is that it has been explored by few Darwins—and that there Sciolism, pretence, superstition and prejudice have triumphantly held their own.</p>
+<p>But I must only again thank you and remain | yours very truly | Henry Cecil. <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin Esq<hi rend="superscript">re</hi>.</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-9399.xml" resp="#mjhawkins">letter from Henry Cecil, 9 April 1874</ref>. CD’s reply to Cecil has not been found.</note>
+            <note xml:id="foot.f2">CD described his encounters with the Yaghan peoples of Tierra del Fuego at length in <ref target="../bibliographies/bibl_4250.xml" resp="#mjhawkins"><hi rend="italic">Journal of researches</hi></ref>.</note>
+            <note xml:id="foot.f3">Luke 16: 26.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

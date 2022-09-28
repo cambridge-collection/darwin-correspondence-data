@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-522">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Robert FitzRoy   20 June [1839]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">5089</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-522 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-522.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-522.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 204: 147</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>204: 147</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1650.xml">FitzRoy, Robert</persName>
+                <placeName>Bromham, Bedford</placeName>
+                <date when="1839-06-20">20 June [1839]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Robert Brown has mistreated Capt. P. P. King by holding back for nine years the plants collected on King’s voyage of the <hi rend="italic">Adventure</hi> and <hi rend="italic">Beagle</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_671">Brown, Robert (a)</term>
+                <term type="people" ref="#subject_2697">King, P. P.</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">negative criticism of a third-party</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="ships" ref="#">Adventure</term>
+                <term type="ships" ref="#">Beagle</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Bromham | Bedford</placeName>
+                    <date>20<hi rend="superscript">th</hi>. June</date>
+                    <salute>Dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+<p>Thank you for the communication respecting M<hi rend="superscript">r</hi>. Brown. What your <hi rend="underline">own</hi> opinions are you do not say—but I have no hesitation in telling <hi rend="underline">you</hi> that upon his <hi rend="underline">own showing</hi> I think he has treated King worse than I was before aware. It appears he has not only kept back King’s plants from the <hi rend="underline">British</hi> Museum, but also from the <hi rend="underline">Edinburgh</hi> for <hi rend="underline">nine</hi> years! King’s letter to him might tell in <hi rend="underline">law</hi> but is sadly against him with reference to feeling.<ref target="#foot.f1"/></p>
+<p>Though Anderson was (at all events <hi rend="underline">partly</hi>) paid by a London Seedsman or Nursery Gardener—he was accommodated &amp; <hi rend="underline">victualled </hi> by the <hi rend="underline">public</hi> for whose interests the <hi rend="underline">Captain</hi> of the Ship was in some degree resp〈on〉sible to the <hi rend="underline">Admiralty.</hi> <ref target="#foot.f2"/></p>
+<p>Your’s very truly | Robt FitzRoy</p>
+<p>PS. I am eagerly and most agreeably occupied with your book— I will write in a few days about it.</p>
+<p>We both beg to be kindly remembered to M<hi rend="superscript">rs</hi>. Darwin whom I hope soon to see again.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_2697.xml">Phillip Parker King</ref>. The disagreement between Phillip Parker King and <ref target="../nameregs/nameregs_671.xml">Robert Brown</ref> arose in consequence of Brown’s delay in describing King’s botanical specimens (see <ref target="./DCP-LETT-353.xml" resp="#mjhawkins">letter to John Stevens Henslow, 28 March [1837]</ref>). King’s letter to Brown, mentioned here, is now missing.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_107.xml">James Anderson</ref> is listed as ‘Botanical Collector’ on board the <hi rend="italic">Adventure</hi> during the first surveying voyage (1826–30) (<ref target="../bibliographies/bibl_5784.xml" resp="#mjhawkins"><hi rend="italic">Narrative </hi></ref> 1: xii).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

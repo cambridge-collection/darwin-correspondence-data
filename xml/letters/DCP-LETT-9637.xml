@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9637">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Joseph Simms   14 September 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10738</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9637 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9637.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9637.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 177: 164</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>177: 164</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4359.xml">Simms, Joseph</persName>
+                <placeName>London, Mabledon Place, 3</placeName>
+                <date when="1874-09-14">14 Sept 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends copy of one of his books.</p>
+            <p>Asks for drawing of CD’s right foot.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>3 Mabledon Place | Euston Road | London</placeName>
+                    <date>Sept 14, 1874,</date>
+                    <seg type="supplemental">Mr. Darwin,</seg>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>To-day I send you one of my books, hoping it may prove sufficiently interesting that you can say a word in its favour for print.<ref target="#foot.f1"/> Address as above</p>
+<p>Very Respectfully yours | J. Simms, M.D.</p>
+<p>P.S. | Within one week a letter would reach me at</p> 
+<figure type="diagram"> 
+<p>3 Eastbourne Terrace</p>
+<p>Bishop’s Road,</p>
+<p>Paddington</p>
+<p>London, N.W.</p> </figure> 
+<p rend="left">where I am at present in lodgings   From Mabledon Place letters are forwarded to me at any time.</p>
+<p>J.S.</p>
+<p>Your name is mentioned on page 192.<ref target="#foot.f2"/></p>
+<p>I wish a drawing of your right foot, very much, for a work I am intending to print at some future time—<ref target="#foot.f3"/></p>
+<p>If you will favour me you can plant the foot on white paper lightly while sitting and with pencil draw an outline close round the entire foot. It matters not whether with stocking or not. Better without stocking.</p>
+<p>If you grant this unusual request please give your height while standing in stockings.</p>
+<p>I have a compliment for you, and it is this. While I was travelling in Germany I often heard it from scientific men that Mr. Darwin produced the deepest and best work of modern times—</p>
+<p>J. Simms, M.D.</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Simms refers to his book of physiognomy, <hi rend="italic">Nature’s revelations of character</hi> (<ref target="../bibliographies/bibl_7206.xml" resp="#mjhawkins">Simms 1873</ref>); it is not mentioned in any of CD’s publications.</note>
+            <note xml:id="foot.f2">In <ref target="../bibliographies/bibl_7206.xml" resp="#mjhawkins">Simms 1873</ref>, pp. 191–2, CD’s portrait appears as an illustration of ‘Observativeness Large’, the ‘quality or disposition to look closely and with rigid care at every object’ as expressed by ‘full, long, arching eyebrows, which are lowered down close to the eyes’.</note>
+            <note xml:id="foot.f3">Simms’s later publication has not been identified.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

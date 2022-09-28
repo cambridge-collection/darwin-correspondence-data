@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-698" status="released">
+    <persName>
+        <forename>Christina</forename>
+        <forename>Laura</forename>
+        <choice>
+            <seg><surname notBefore="1810" notAfter="1851">Smith</surname></seg>
+            <seg><surname notBefore="1851" notAfter="1853">Buchanan</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1810–53</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of James Smith of Jordanhill. Married Walter Buchanan in 1851.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_1095.xml" resp="#mjhawkins"><hi rend="italic">Burke’s landed gentry</hi></ref> 1863</p>
+        <p>Scotland old parish registers births 575/ 20 319 Renfrew (Scotlandspeople.gov.uk, accessed 8 August 2018)</p>
+    </note>
+    <note type="volume">10</note>
+    <note type="keywords">
+        <term type="name">James Smith</term>
+        <term type="name">Walter Buchanan</term>
+        <term type="place">Jordanhill</term>
+    </note>
+    
+</person>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11048">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Daniel Oliver   12 July 1877</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10291</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11048 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11048.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11048.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 173: 34</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>173: 34</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3589.xml">Oliver, Daniel</persName>
+                <placeName>Kew</placeName>
+                <date when="1877-07-12">12 July 1877</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks for <hi rend="italic">Forms of flowers</hi>.</p>  
+<p>Alexander Dickson would like to know whether anyone has described the epidermal cells lining the pitcher of <hi rend="italic">Cephalotus</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Cephalotus</term>
+                <term type="it" ref="#">Forms of flowers</term>
+                <term type="people" ref="#subject_1319">Dickson, Alexander</term>
+                <term type="scientific_terms" ref="#">cell theory, cell behaviour</term>
+                <term type="scientific_terms" ref="#">dimorphism</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">plant physiology</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">type and morphology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Kew</placeName>
+                    <date>12 July, | 1877</date>
+                    <salute>My dear M<hi rend="superscript">r</hi> Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>You are really the most generous man in the world! Dyer has handed me a copy of your “Forms of Flowers” inscribed <hi rend="underline">from the author</hi>.<ref target="#foot.f1"/> Thank you very much. But I do not deserve this consideration one bit.</p>
+<p>Prof. Alex. Dickson of Glasgow has been making observations in his elaborate way on the singular epidermal cells lining the pitcher of <hi rend="underline">Cephalotus</hi>. He wants to know if any of those “confounded Germans” (as he disrespectfully calls them) have anticipated him. I am not aware that anybody has described histolog<hi rend="superscript">l</hi>. details of <hi rend="underline">Cephalotus</hi>. May I ask if you happen to have any such reference you w<hi rend="superscript">d</hi>. very kindly let him—or me for him—have it?<ref target="#foot.f2"/></p>
+<p>Very sincerely yours | D. Oliver</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Oliver’s name and <ref target="../nameregs/nameregs_4712.xml" resp="#mjhawkins">William Turner Thiselton-Dyer’s</ref> appear on CD’s presentation list for <ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref> (see Appendix IV).</note>
+            <note xml:id="foot.f2">CD’s reply has not been found. <ref target="../nameregs/nameregs_1319.xml" resp="#mjhawkins">Alexander Dickson</ref> read a paper on <hi rend="italic">Cephalotus follicularis</hi> at the meeting of the British Association for the Advancement of Science in August 1877; an abstract was published in the <hi rend="italic">Journal of Botany, British and Foreign</hi> (<ref target="../bibliographies/bibl_9550.xml" resp="#mjhawkins">Dickson 1878</ref>). <hi rend="italic">Cephalotus follicularis</hi> is the Australian pitcher-plant.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

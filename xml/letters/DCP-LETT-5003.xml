@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5003">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From H. B. Jones   10 February [1866]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17700</idno>
+            
+            
+            
+            
+            <date when="2004">2004</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5003 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5003.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5003.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="14">14</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="endorsement" subtype="letter">(Feb. 10<hi rend="superscript">th</hi> 1866.) | Diet Table</note>
+            <note type="physdesc" n="ALS">3pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 168: 77</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>168: 77</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2601.xml">Jones, H. B.</persName>
+                <placeName>Royal Institution</placeName>
+                <date when="1866-02-10">10 Feb [1866]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends a diet for CD’s flatulence.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin himself, bad or deteriorating</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Royal Institution of Great Britain</hi></placeName>
+                    <salute>My dear M<hi rend="superscript">r</hi> Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I wish I had got over your flatulence; but it is not easy &amp; your progress must be slow.<ref target="#foot.f1"/> However you have done famously so far; and a good change in May abroad or at home ought to do you great good.<ref target="#foot.f2"/> I wish you could get a rough pony &amp; be shaken once daily to make the chemistry go on better<ref target="#foot.f3"/>   I think the mineral acid sh<hi rend="superscript">d</hi> be continued &amp; take a dose of the Potass-ammonia when the flatulence is worst<ref target="#foot.f4"/></p>
+<p>If you are on a good diet &amp; change it for a worse one in a fortnight I do not see the wisdom of the change<ref target="#foot.f5"/>   I send you a model diet with the Exception of a potatoe which is intended to tempt you.<ref target="#foot.f6"/></p>
+<p>It should be baked in the oven &amp; made so that it crumbles with the pressure of a fork</p>
+<p>I am very glad to hear that you were able to work a little</p>
+<p>Y<hi rend="superscript">rs</hi> most truly | H Bence Jones <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Feb 10</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">In his <ref target="" resp="#automat">letter to Jones of 3 January [1866]</ref>, CD had complained of continuing flatulence while noting the beneficial effect of coffee on the condition. As the present letter lacks direct replies to CD’s observation about oxide of iron and question about taking coffee in his <ref target="./DCP-LETT-4968A.xml" resp="#mjhawkins" cert="high">letter of 3 January [1866]</ref>, it is likely that Jones’s reply to that letter, and a further letter from CD, are missing.</note>
+            <note xml:id="foot.f2">CD went to stay with his brother, <ref target="../nameregs/nameregs_1211.xml" resp="#mjhawkins">Erasmus Alvey Darwin</ref>, from 21 April until 2 May 1866; on 29 May, CD went to Leith Hill Place, Surrey, returning to Down on 2 June (CD’s ‘Journal’, Appendix II). Leith Hill Place was the home of <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> brother, <ref target="../nameregs/nameregs_5027.xml" resp="#mjhawkins">Josiah Wedgwood III</ref> (<ref target="../bibliographies/bibl_2662.xml" resp="#mjhawkins">Freeman 1978</ref>).</note>
+            <note xml:id="foot.f3">CD began riding the cob, Tommy, on 4 June 1866 (<ref target="../bibliographies/bibl_2662.xml" resp="#mjhawkins">Freeman 1978</ref>, p. 276; <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242)).</note>
+            <note xml:id="foot.f4">In the <ref target="./DCP-LETT-4968A.xml" resp="#automat" cert="low">letter to H. B. Jones, 3 January [1866]</ref>, CD reported that taking muriatic acid with cayenne pepper and ginger suited him ‘<hi rend="italic">excellently</hi>’. Mineral acid is a generic term for inorganic acids, including hydrochloric (formerly muriatic) acid (<ref target="../bibliographies/bibl_5936.xml" resp="#mjhawkins"><hi rend="italic">OED</hi></ref>). On the use of acids in the treatment of stomach disorders, see <ref target="../bibliographies/bibl_6656.xml" resp="#mjhawkins">Ringer 1869</ref>, pp. 80–2. ‘Potass-ammonia’ probably refers to a chalk-potash and ammonia remedy for acidity (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 12, <ref target="./DCP-LETT-4367.xml" resp="#mjhawkins">letter from William Jenner, [after 24 November] 1864</ref> and n. 3).</note>
+            <note xml:id="foot.f5">In the <ref target="./DCP-LETT-4968A.xml" resp="#automat" cert="low">letter to H. B. Jones, 3 January [1866]</ref>, CD wrote of various alterations to his diet.</note>
+            <note xml:id="foot.f6">The enclosure has not been found.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

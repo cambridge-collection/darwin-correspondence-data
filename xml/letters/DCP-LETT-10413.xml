@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10413">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Francis Galton   2 March [1876]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">12187</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10413 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10413.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10413.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">UCL Library Services, Special Collections (GALTON/3/2/1/157)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_425.xml">UC London</repository>
+                    <idno>GALTON/3/2/1/157</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1876-03-02">2 Mar [1876]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1797.xml">Galton, Francis</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends signed enclosure.</p>
+            <p>FG will hear of germination of peas in a few days.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin family</term>
+                <term type="plants" ref="#">peas</term>
+                <term type="scientific_terms" ref="#">fertilisation and generation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down</placeName>
+                    <date>March 2nd</date>
+                    <salute>My dear Galton,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have signed the enclosed with much pleasure.<ref target="#foot.f2"/></p>
+<p>You shall hear about germination of the Peas in a few days.<ref target="#foot.f3"/></p>
+<p>Yours sincerely, | C. Darwin.</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-10395.xml" resp="#mjhawkins">letter from Francis Galton, 16 February 1876</ref>.</note>
+            <note xml:id="foot.f2">The enclosure has not been identified.</note>
+            <note xml:id="foot.f3">CD was assisting Galton with experiments on sweetpeas (<hi rend="italic">Lathyrus odoratus</hi>); see <ref target="./DCP-LETT-10395.xml" resp="#mjhawkins">letter from Francis Galton, 16 February 1876</ref> and n. 1.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

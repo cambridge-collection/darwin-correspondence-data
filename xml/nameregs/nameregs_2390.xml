@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-2390" status="released">
+    <persName>
+        <forename>Frances</forename>
+        <forename>Joanna</forename>
+        <choice>
+        <seg>
+            <surname notBefore="1814" notAfter="1844">Horner</surname>
+        </seg>
+        <seg>
+            <surname notBefore="1844" notAfter="1894">Bunbury</surname>
+        </seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1814–94</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of Leonard Horner. Married Charles James Fox Bunbury in 1844. Published <ref target="../bibliographies/bibl_1069.xml">memorials of her husband (1890–3)</ref> and his life and letters (1894).</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_1335.xml" resp="#mjhawkins"><hi rend="italic">CDEL</hi></ref></p>
+        <p><ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref> s.v. Bunbury, Charles James Fox</p>
+    </note>
+    <note type="volume">2,3,11,14,16</note>
+    <note type="keywords">
+        <term type="name">Horner, Leonard</term>
+        <term type="name">Bunbury, C. J. F.</term>
+    </note>
+    
+</person>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1579">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Robert Patterson   21 August [1854]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">12204</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1579 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1579.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1579.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+            <notesStmt>
+                <relatedItem type="publication">
+                    <bibl><hi rend="italic">Correspondence</hi> 5: 204</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Praeger 1935, p. 713</bibl>
+            <bibl type="printedSource">Praeger, W. E. 1935: 713</bibl>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1854-08-21">21 Aug [1854]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3708.xml">Patterson, Robert</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Has found a half dozen [cirripede] specimens belonging to William Thompson and a few MS notes. Asks for instructions for sending them to RP.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">cirripedes</term>
+                <term type="people" ref="#subject_4727">Thompson, William (a)</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>DOWN, FARNBOROUGH, KENT</placeName>
+                    <date>Aug. 21 [1854]<ref target="#foot.f1"/></date>
+                    <salute>DEAR SIR:—</salute>
+                </opener>
+                <div type="transcription">
+<p>I have now gone through all the cirripedes in the house, and I find some half dozen specimens (including some bottles) belonging to poor Thompson.<ref target="#foot.f2"/> None of these are of much value, excepting as being (at least some of them) rare as Irish.</p>
+<p>I have also a few M.S. notes. Will you be so kind as to say how I shall send them. They are rather too heavy &amp; being glass not fit to go by post. and they are not worth the carriage of so long a journey. Is there anywhere in London where they could lie till other objects accumulated? I am sorry to cause this trouble but would be much obliged if you could send me a line. Unfortunately I cannot say positively that I shall be at Liverpool;<ref target="#foot.f3"/> otherwise that probably would have been a good way of transmitting the specimens.</p>
+<p>Pray believe me | Dear Sir | Yours sincerely | C. DARWIN</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date as given in <ref target="../bibliographies/bibl_6399.xml" resp="#mjhawkins">Praeger 1935</ref>, p. 713.</note>
+            <note xml:id="foot.f2">William Thompson (see <ref target="./DCP-LETT-1565.xml" resp="#mjhawkins">letter to Robert Patterson, 6 April [1854]</ref>).</note>
+            <note xml:id="foot.f3">The forthcoming meeting of the British Association for the Advancement of Science, which was held in Liverpool, 20–7 September. CD had originally planned to attend but changed his mind and did not go.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

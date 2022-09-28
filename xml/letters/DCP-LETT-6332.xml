@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6332">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Eduard Koch   27 August 1868<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13928</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6332 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6332.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6332.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">incomplete<ref target="#foot.f4"/></note>
+            <note type="physdesc" n="ALS">**</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Interlibrium (Cat. 276)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_198.xml">Interlibrum</repository>
+                    <idno>Cat. 276</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1868-08-27">27 Aug 1868</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2732.xml">Koch, Eduard</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Would like to see reviews of book [<hi rend="italic">Variation</hi>].</p> 
+            <p>Health has lately been indifferent.</p>
+            <p>Cannot at present pledge to give [EK?] translation rights to next book.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin himself, bad or deteriorating</term>
+                <term type="it" ref="#">Variation</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">reception of Darwinism</term>
+                <term type="scientific_terms" ref="#">variation</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                </opener>
+                <div type="transcription">
+                     
+<p>I certainly should much like to see any reviews of my book, especially of the 2nd volume, &amp; […] I should be grateful if you would send me any of the best, either favorable or unfavorable.<ref target="#foot.f2"/></p>
+<p>My health has lately been indifferent &amp; I have made but small progress in my next book, which will not be of large size. I do not suppose it will be finished for a year. When ready I will communicate with you, but cannot at present pledge myself to give you the right of translation<ref target="#foot.f3"/>[…]</p>
+<p>Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The address (Down) and the date are given in the sale catalogue.</note>
+            <note xml:id="foot.f2">CD refers to the German translation of <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> (Carus trans. 1868). Koch was the manager of <ref target="../nameregs/nameregs_4246.xml" resp="#mjhawkins">E. Schweizerbart’sche Verlagsbuchhandlung</ref>, the publisher of the translation. See <ref target="./DCP-LETT-6284.xml" resp="#mjhawkins">letter from Eduard Koch, 21 July 1868</ref>.</note>
+            <note xml:id="foot.f3">The next book published by CD was <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref>, a two-volume work, in 1871. The German translation was made by <ref target="../nameregs/nameregs_849.xml" resp="#mjhawkins">Julius Victor Carus</ref> and published by Schweizerbart (Carus trans. 1871).</note>
+            <note xml:id="foot.f4">The original letter is complete; the catalogue entry does not mention how many pages long it is.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

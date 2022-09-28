@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8713F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Francis Darwin   [1873]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">21483</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8713F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8713F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8713F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="endorsement" subtype="letter">F.D 73’</note>
+            <note type="physdesc" n="ALS"/>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 274.1: 11</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>274.1: 11</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1222.xml">Darwin, Francis</persName>
+                <placeName>London</placeName>
+                <date notBefore="1873-01-01" notAfter="1873-12-31">[1873]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Klein says water ought to be changed daily. Asks to tell G Revalenta shop shut. Klein reports discovery about toads’ ova does not bear on pangenesis.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1224">Darwin, G. H.</term>
+                <term type="people" ref="#subject_2716">Klein, E. E.</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">New University Club, | S<hi rend="superscript">t</hi>. James’s Street. S.W.</hi></placeName>
+                    <salute>Dear Father</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Klein says the water ought to be changed every day<ref target="#foot.f1"/>   I should think you might draw if off with a syphon, which Jim could rig up with glass tubing &amp; indiarubber ditto— I found I could pour off a good deal of water by stretching a bit of gauze over the lip of the basin.</p> 
+<figure rend="blockCentred width20"> 
+    <graphic url="../images/DCP-LETT-8713F.svg"/>
+</figure> 
+<p rend="left">I left a bit I used on the fern heap in Deadman’s corner; but I should think the syphon wd be best— Please tell G the Revalenta shop is shut today.<ref target="#foot.f2"/> Klein says his discovery about toads’ ova does <hi rend="underline">not</hi> bear on pangenesis.<ref target="#foot.f3"/> I don’t know why he said it was good for you.</p>
+<p>Yr affec | Frank Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_2716.xml" resp="#mjhawkins">Edward Emanuel Klein</ref> was a bacteriologist and histologist. The experiment has not been identified. Jim was <ref target="../nameregs/nameregs_1226.xml" resp="#mjhawkins">Horace Darwin’s</ref> nickname.</note>
+            <note xml:id="foot.f2">Francis probably refers to <ref target="../nameregs/nameregs_1224.xml" resp="#mjhawkins">George Howard Darwin</ref>. Revalenta was a mixture of lentil and barley meal, sold as a health food (<ref target="../bibliographies/bibl_3430.xml" resp="#mjhawkins">Hassall 1855</ref>, pp. 237–50).</note>
+            <note xml:id="foot.f3">The discovery has not been identified. For CD’s hypothesis of pangenesis, see <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 2: 357–404.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

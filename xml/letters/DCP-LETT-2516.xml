@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2516">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To James Dwight Dana   11 November [1859]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1172</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2516 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2516.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2516.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 143: 365</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Yale University Library: Manuscripts and Archives (Dana Family Papers (MS 164) Series 1, Box 2, folder 44)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_446.xml">Yale Manuscripts</repository>
+                    <collection>Dana Family Papers (MS 164)</collection>
+                    <idno>Series 1, Box 2, folder 44</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Ilkley Down letterhead</placeName>
+                <date when="1859-11-11">11 Nov [1859]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1190.xml">Dana, J. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Has sent JDD a copy of <hi rend="italic">Origin</hi>; knows it will horrify him, but hopes JDD will credit him with an honest search for truth. Believes that JDD may come to think there is more to be said "in favour of mutability of species than is at first appreciated".</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Origin</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">reception of Darwinism</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+                <term type="scientific_terms" ref="#">transmutation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent [Ilkley]</placeName>
+                        <date>Nov. 11<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir.</salute>
+                </opener>
+                <div type="transcription">
+<p>I have sent you a copy of my Book (as yet only an abstract) on the Origin of species. I know too well that the conclusion, at which I have arrived, will horrify you, but you will, I believe &amp; hope, give me credit for at least an honest search after the truth.<ref target="#foot.f1"/> I hope that you will read my Book, straight through; otherwise from the great condensation it will be unintelligible. Do not, I pray, think me so presumptuous as to hope to convert you; but if you can spare time to read it with care, &amp; will then do what is far more important, keep the subject under my point of view for some little time occasionally before your mind, I have hopes that you will agree that more can be said in favour of the mutability of species, than is at first apparent.<ref target="#foot.f2"/> It took me many long years before I wholly gave up the common view of the separate creation of each species.</p>
+<p>Believe me, with sincere respect &amp; with cordial thanks for the many acts of scientific kindness which I have received from you, | My dear Sir | Yours very sincerely | Charles Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had corresponded with Dana, professor of geology at Yale University, since 1849. They had common interests in invertebrate zoology and the formation of coral reefs (see particularly <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vols. 5 and 6). Dana had recently published his belief in the fixity of species (<ref target="../bibliographies/bibl_1756.xml" resp="#mjhawkins">Dana 1857</ref>).</note>
+            <note xml:id="foot.f2">Ill health prevented Dana from reading <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref> immediately (see <ref target="./DCP-LETT-2615.xml" resp="#mjhawkins">letter to J. D. Dana, 30 December [1859]</ref>). Subsequent correspondence reveals that Dana was unable to read the book until 1862 (<ref target="../bibliographies/bibl_1163.xml" resp="#mjhawkins"><hi rend="italic">Calendar</hi></ref> no. 3845; see also <ref target="../bibliographies/bibl_2857.xml" resp="#mjhawkins">Gilman 1899</ref>, p. 311).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

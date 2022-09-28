@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1349">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Maria Hooker   31 August [1850]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">95</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1349 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1349.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1349.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.95)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>95</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1850-08-31">31 Aug [1850]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2361.xml">Hooker, Maria (a)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Expresses sympathy to MSH on W. J. Hooker’s illness.</p> 
+<p>Will send his comments on Hodgson’s physico-geographical memoir ["On the physical geography of the Himalayas", <hi rend="italic">J. Asiat. Soc. Bengal</hi> 18 (1849): 761–88] directly to him.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Other people</term>
+                <term type="it" ref="#">J. Asiat. Soc. Bengal</term>
+                <term type="people" ref="#subject_2367">Hooker, W. J.</term>
+                <term type="places" ref="#">Himalayas</term>
+                <term type="rx" ref="#">Hodgson, B. H. 1849</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Aug 31.</date>
+                    <salute>Dear Lady Hooker</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am truly sorry to hear of Sir William’s illness<ref target="#foot.f1"/> &amp; sincerely hope he may soon recover his strength: pray give him my kind regards &amp; thanks for the enclosed note &amp; extract.— I had never even heard of M<hi rend="superscript">r</hi>. Hodgson’s Physico=geographical memoir:<ref target="#foot.f2"/> if a copy has ever come for me, it may be lying at some of the Societies, in which case I shall probably soon receive it.— Whenever I read it, should I have anything to remark, I will assuredly write direct to M<hi rend="superscript">r</hi>. Hodgson.—</p>
+<p>I am delighted to hear that your son is enjoying the grand Sylhet mountains.—<ref target="#foot.f3"/></p>
+<p>Pray believe me. | Yours sincerely obliged | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">0.3 Lady] ‘L’ <hi rend="italic">over</hi> ‘l’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">W. J. Hooker suffered from a serious recurrent throat ailment (see <ref target="../bibliographies/bibl_117.xml" resp="#mjhawkins">Allan 1967</ref>, p. 188).</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_3709.xml" resp="#mjhawkins">Hodgson 1849</ref>.</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-1319.xml" resp="#mjhawkins">letter from J. D. Hooker, 6 and 7 April 1850</ref>. Hooker set out on his expedition to the Khasia Hills and Silhet on 1 May 1850.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

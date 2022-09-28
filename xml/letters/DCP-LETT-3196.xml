@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3196">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Hugh Falconer   24 [June 1861]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20224</idno>
+            
+            
+            
+            
+            <date when="1994">1994</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3196 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3196.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3196.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="09">9</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <note type="postmark">JU 24 | 61</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">LL</hi> 2: 375</bibl>
+            </relatedItem>
+                
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Bellmans (dealers) (5 December 2019, lot 632)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_678.xml">Bellmans</repository>
+                    <collection>5 Dec 2019</collection>
+                    <idno>lot 632</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1861-06-24">24 [June 1861]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1585.xml">Falconer, Hugh</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks HF for offer of valuable specimen, but CD has no aquarium. Suggests the Zoological Society would be the best place for it.</p>
+            <p>Will keep HF’s note among a very few precious letters.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="societal" ref="#">Zoological Society</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>24<hi rend="superscript">th</hi></date>
+                    <salute>My dear Falconer</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I have just received your note &amp; by good luck a day earlier than properly &amp; I lose not a moment in answering you, &amp; thanking you heartily for your offer of the valuable specimen; but I have no aquarium &amp; shall soon start for Torquay so that it would be a thousand pities that I sh<hi rend="superscript">d</hi> have it.<ref target="#foot.f2"/> Yet I sh<hi rend="superscript">d</hi>. certainly much like to see it, but I fear it is impossible.— Would not the Zoolog. Soc be the best place, &amp; then the interest which many would take in this extraordinary animal would repay you for your trouble.—</p>
+<p>Kind as you have been in taking the trouble &amp; offering me this specimen, to tell the truth I value your note more than the specimen. I shall keep your note amongst a very few precious letters. Your kindness has quite touched me.—</p>
+<p>Yours affectionately &amp; gratefully | Ch. Darwin</p> 
+                </div>
+            </div>
+       <div type="tnotes">
+                <note xml:id="tnote.n1">1.00 for Torquay] <hi rend="italic">interl</hi></note>
+            </div>
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">This letter was originally published in <hi rend="italic">Correspondence</hi> vol. 9 from the printed copy in <ref target="../bibliographies/bibl_4842.xml"><hi rend="italic">LL</hi></ref>.</note>
+            <note xml:id="foot.f2">Falconer had offered CD a live <hi rend="italic">Proteus anguinus</hi> (the olm), a blind cave salamander (see <ref target="./DCP-LETT-3194.xml" resp="#mjhawkins">letter from Hugh Falconer, 23 June 1861</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

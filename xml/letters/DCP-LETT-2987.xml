@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2987">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Daniel Oliver   [21 November 1860]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">2827</idno>
+            
+            
+            
+            
+            <date when="1993">1993</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2987 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2987.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2987.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="08">8</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="publication">
+                <bibl>Huxley (1918) 2: 230</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 8: 484</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 261.10: 27 (EH)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>261.10: 27 (EH)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1860-11-21">[21 Nov 1860]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3589.xml">Oliver, Daniel</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>The plant CD’s father called "flycatcher" was not <hi rend="italic">Asclepias</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Asclepias</term>
+                <term type="plants" ref="#">flycatcher</term>
+                <term type="people" ref="#subject_1234">Darwin, R. W.</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="scientific_terms" ref="#">identification</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Down]</placeName>
+                    <salute>My dear M<hi rend="superscript">r</hi> Oliver.—</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Thank you for your note—<ref target="#foot.f2"/> I do not think the plant can be an Asclepias:<ref target="#foot.f3"/> as far as my memory serves the flowers were very simple &amp; I think the proboscis was caught between stamens &amp; pistil. The minute white or very pale pink flowers were not in trusses or umbels. I have seen the plant fairly studded with captured flies. My Father called it the Fly-catcher. It died down in winter. The leaves were narrow.— stem thin, much branched smooth &amp; I think slightly succulent. You did send me the curious account of Asclepias, which surprises me much, considering R. Browns paper on importance of insects in its fertilisation.—<ref target="#foot.f4"/> The conferva seems a good suggestion.—</p>
+<p>Yours very sincerely | C. Darwin</p>
+<p>In the Fly-catcher the orifice of corolla was small.—   It is odd that such a plant sh<hi rend="superscript">d</hi>. not be in Kew.—   It lived 30 years ago for very many years in my Father’s flower-garden.— Would you ask Sir William if he can recognise my vague account?<ref target="#foot.f5"/></p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.3 white or very pale pink] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">1.6 stem thin, … succulent.] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n3">3.2 30 years ago] <hi rend="italic">interl</hi></note>
+                </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The note seems to be the ‘scrap’ referred to in the preceding letter.</note>
+            <note xml:id="foot.f2">Oliver’s letter has not been found.</note>
+            <note xml:id="foot.f3">CD had asked Oliver whether he could identify a plant that had grown in Robert Waring Darwin’s garden (<ref target="./DCP-LETT-2985.xml" resp="#mjhawkins">letter to Daniel Oliver, 16 November [1860]</ref>).</note>
+            <note xml:id="foot.f4">Brown 1833. There is a lightly annotated copy of the paper in the Darwin Pamphlet Collection–CUL.</note>
+            <note xml:id="foot.f5"><ref target="../nameregs/nameregs_2367.xml" resp="#mjhawkins">William Jackson Hooker</ref>. The ‘Fly-catcher’ was a species of dogbane, <hi rend="italic">Apocynum androsaemifolium</hi>. See <ref target="./DCP-LETT-2995A.xml" resp="#mjhawkins">letter from Daniel Oliver, 23 November 1860</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

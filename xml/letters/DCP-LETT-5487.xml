@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5487">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Thomas Blunt   5 April [1867]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3663</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5487 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5487.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5487.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Houghton Library, Harvard University (Albert Stephens Borgman autograph collection MS Am 1631: 95)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_180.xml">Harvard Houghton</repository>
+                    <collection>Albert Stephens Borgman autograph collection</collection>
+                    <idno>MS Am 1631: 95</idno>
+                </msIdentifier>
+            </msDesc>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_385.xml">Shropshire Archives</repository>
+                    <collection>(SA 6001/134/49)</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1867-04-05">5 Apr [1867]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_497.xml">Blunt, Thomas</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Congratulates TB on his son’s success in scientific studies.</p>
+            <p>Susan Darwin’s death [Oct 1866] has severed last ties of family with Shrewsbury.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin family</term>
+                <term type="people" ref="#">Blunt, Thomas’s son</term>
+                <term type="people" ref="#subject_1202">Darwin family</term>
+                <term type="people" ref="#subject_1239">Darwin, S. E.</term>
+                <term type="places" ref="#">Shrewsbury</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="social" ref="#">Other people</term>
+                <term type="societal" ref="#">education</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>April 5<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I write merely a line to thank you for your kind note.— We knew that your partnership was dissolved, but added the name from habit.—<ref target="#foot.f2"/></p>
+<p>I most sincerely congratulate you on the success of your son in his scientific studies. Science runs in your blood.—<ref target="#foot.f3"/></p>
+<p>The loss of my poor sister, Susan, has been a great one to many; &amp; now after so many years there is no longer any connection between our family &amp; Shrewsbury.<ref target="#foot.f4"/></p>
+<p>With every good wish | Believe me | My dear Sir | Yours sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">3.2 longer any] <hi rend="italic">interl</hi> </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to <ref target="../nameregs/nameregs_1239.xml" resp="#mjhawkins">Susan Elizabeth Darwin’s</ref> death; see n. 4, below.</note>
+            <note xml:id="foot.f2">CD’s letter to Blunt and Blunt’s reply have not been found. <hi rend="italic">Post Office directory</hi> entries suggest that the partnership of <ref target="" resp="#mjhawkins">Blunt and Salter</ref> was dissolved sometime between 1863 and 1870; Blunt continued in business as a chemist with his son, <ref target="../nameregs/nameregs_6842.xml" resp="#mjhawkins">Thomas Porter Blunt</ref> (<ref target="../bibliographies/bibl_6368.xml" resp="#mjhawkins"><hi rend="italic">Post Office directory of Gloucestershire, with Bath, Bristol, Herefordshire, and Shropshire</hi></ref> 1863, 1870).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_6842.xml" resp="#mjhawkins">Thomas Porter Blunt</ref> took a first class degree in natural sciences at Oxford University in December 1864 (<ref target="../bibliographies/bibl_6130.xml" resp="#mjhawkins"><hi rend="italic">Oxford University calendar</hi></ref> 1865).</note>
+            <note xml:id="foot.f4">Susan died in October 1866; she had lived at the Darwin family home, The Mount, in Shrewsbury. After her death, the house was sold. (See <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 14.)</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

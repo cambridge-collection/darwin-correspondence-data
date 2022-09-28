@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11627">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Raphael Meldola   24 July [1878]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">2669</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11627 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11627.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11627.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Oxford University Museum of Natural History (Hope Entomological Collections 1350: Hope/Westwood Archive, Darwin folder)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_312.xml">Oxford Hope</repository>
+                    <collection>Entomological Collections 1350:</collection>
+                    <idno>Hope/Westwood, Darwin folder</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1878-07-24">24 July [1878]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3289.xml">Meldola, Raphael</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Does not think the <hi rend="italic">Petunia</hi> is anything remarkable.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Petunia</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">flora</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>July 24<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I do not think that the Petunia is anything very remarkable; but thank you for your kindness.—<ref target="#foot.f2"/></p>
+                    <p>I received Weismann all right.—<ref target="#foot.f3"/></p>
+                    <p>You may perhaps like to keep enclosed, just received—<ref target="#foot.f4"/></p>
+<p>In Haste | Yours very faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-11553.xml" resp="#mjhawkins">letter from Raphael Meldola, 13 June 1878</ref>.</note>
+            <note xml:id="foot.f2">Meldola’s letter enclosing or accompanying the petunia has not been found.</note>
+            <note xml:id="foot.f3">Meldola evidently had returned the copy of <ref target="../nameregs/nameregs_5050.xml" resp="#mjhawkins">August Weismann’s</ref> third essay on sexual selection in Daphnidae that CD had lent him (<ref target="../bibliographies/bibl_9505.xml" resp="#mjhawkins">Weismann 1876–80</ref>; see <ref target="./DCP-LETT-11553.xml" resp="#mjhawkins">letter from Raphael Meldola, 13 June 1878</ref>).</note>
+            <note xml:id="foot.f4">The enclosure has not been found, but it was probably the ‘curious Lepidoptera case’ mentioned in the <ref target="./DCP-LETT-11626.xml">letter to Fritz Müller, 24 July 1878</ref> and n. 4.</note>
+        </div>     
+         
+    </body>
+    </text>
+</TEI>

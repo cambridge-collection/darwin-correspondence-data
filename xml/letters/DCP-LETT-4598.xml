@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4598">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To E. W. V. Harcourt   23 August [1856]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">5510</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4598 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4598.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4598.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 6: 207</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Wellcome Collection</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_437.xml">Wellcome</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1856-08-23">23 Aug [1856]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2102.xml">Harcourt, E. W. V.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Has received [C. L.?] Brehm’s work [unspecified]. Will return it in two or three weeks.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_605">Brehm, C. L.</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Aug<hi rend="superscript">t</hi> 23<hi rend="superscript">d</hi>.</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I have received Brehm all safe &amp; am <hi rend="underline">very</hi> much obliged for it, &amp; will return it in 2 or 3 weeks time;<ref target="#foot.f2"/> I would not have kept it so long, but I am going out for a week.—</p>
+<p>Yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the relationship to the <ref target="./DCP-LETT-1451.xml" resp="#mjhawkins">letter to E. W. V. Harcourt, 19 August [1856]</ref>.</note>
+            <note xml:id="foot.f2">CD had asked to borrow <ref target="../bibliographies/bibl_879.xml" resp="#mjhawkins">Brehm 1831</ref> in his <ref target="./DCP-LETT-1451.xml" resp="#mjhawkins">letter to E. W. V. Harcourt, 19 August [1856]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

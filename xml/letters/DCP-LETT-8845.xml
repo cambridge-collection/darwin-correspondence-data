@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8845">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Thomas Davidson   7 April 1873</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">426</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8845 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8845.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8845.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.426)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>426</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Montague St, 16 Down letterhead</placeName>
+                <date when="1873-04-07">7 Apr 1873</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1251.xml">Davidson, Thomas</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks TD for catalogue of his Cretacean fossils.</p>
+            <p>Regrets he cannot visit Brighton.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="geology" ref="#">Cretaceous</term>
+                <term type="places" ref="#">Brighton</term>
+                <term type="scientific_terms" ref="#">fossils</term>
+                <term type="scientific_terms" ref="#">geological time, epochs</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi> [16 Montague Street, London]</placeName>
+                    <date>Ap. 7 1873</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am much obliged for your kind invitation, &amp; for the catalogue of your wonderful collection of Cretacean Fossils.<ref target="#foot.f1"/> There are few things that I should enjoy more than seeing the Brighton Aquarium &amp; accepting your invitation; but I have found by repeated experience that I cannot visit any where.</p>
+<p>Your instance of inheritance is very curious &amp; I am fully prepared to entirely accept it.</p>
+<p>My dear Sir | yours faithfully &amp; obliged | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Davidson’s letter and catalogue have not been found. Davidson published a monograph on British fossil Brachiopoda (<ref target="../bibliographies/bibl_1833.xml" resp="#mjhawkins">Davidson 1851–86</ref>), the first volume of which included the Cretaceous species. Davidson’s collections were bequeathed to the <ref target="../nameregs/nameregs_8646.xml" resp="#mjhawkins">British Museum</ref> (Natural History).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

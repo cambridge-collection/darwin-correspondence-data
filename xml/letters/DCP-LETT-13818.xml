@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-13818">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Innes   9 January [1858–9]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9022</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-13818 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-13818.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-13818.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp †</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 7: 4–5</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 205.2: 242</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>205.2: 242</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2502.xml">Innes, J. B.</persName>
+                <placeName>Downe</placeName>
+                
+            <date xml:id="date1" when="1858-01-09" exclude="#date2">9 Jan 1858</date>
+            <date xml:id="date2" when="1859-01-09" exclude="#date1">9 Jan 1859</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends record of pigeon flight from London to Antwerp. [Lord W. Lennox, <hi rend="italic">Merrie England</hi> (1857), p. 185.]</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">pigeon</term>
+                <term type="places" ref="#">Antwerp</term>
+                <term type="places" ref="#">London</term>
+                <term type="scientific_terms" ref="#">behaviour</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geography</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00578_files/8/0_0.jpg" width="3294px" height="5689px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00578_files/11/1_1.jpg" width="3294px" height="5689px"/>
+        <surface xml:id="i1" n="242r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00578.jpg" rend="portrait" width="3294px" height="5689px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00578_files/8/0_0.jpg" width="3294px" height="5689px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00578.dzi" width="3294px" height="5689px"/>
+        </surface>
+        
+        <surface xml:id="i2" n="242v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00579.jpg" rend="portrait" width="3294px" height="5689px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00579_files/8/0_0.jpg" width="3294px" height="5689px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00579.dzi" width="3294px" height="5689px"/>
+        </surface>
+</facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><anchor xml:id="ann.a1" type="annotationStart"/>Downe</placeName>
+                    <date>Jan 9<hi rend="superscript">th</hi>.</date>
+                    <salute>Dear Darwin,</salute>
+                </opener>
+                <div type="transcription">
+<p>Thanks for your note I will try to go to Bromley on the 25<hi rend="superscript">th</hi>. to put M<hi rend="superscript">rs</hi>. Lettington in cash.<ref target="#foot.f2"/> I met M<hi rend="superscript">r</hi>. Lubbock today and mentioned our school question that he might think of it.<ref target="#foot.f3"/> I have no doubt myself. We can talk it over some day—<anchor xml:id="ann.a2" type="annotationEnd"/></p>
+<p>I met with a record of pigeon flying yesterday which possibly you may not have—</p>
+<p>10<hi rend="superscript">th</hi>. July 1830. 100 pigeons from Antwerp were flown in London. 18 prizes to be given. They started at 8.45 AM<hi rend="underline"> strong breeze from W.S.W.</hi></p>
+<p>Arrived at Antwerp 1<hi rend="superscript">st</hi>. in 5<formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> hours 2<hi rend="superscript">nd</hi>. 30 seconds later. Six five minutes after the winner, and all 18 prizes gained within 8<formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>4</mn></mfrac></math></formula> hours. 26 birds reached home within 20 hours. No record of the rest.<ref target="#foot.f4"/></p>
+<p>Faithfully Yours | John Innes</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note target="#ann.a1" targetEnd="#ann.a2"><hi rend="italic">crossed pencil</hi></note>
+                <note> <hi rend="italic">Top of first page</hi> : ‘18’<ref target="#foot.f5"/> <hi rend="italic">brown crayon</hi> </note>
+                <note> <hi rend="italic">Bottom of last page</hi>, <hi rend="italic">pencil</hi>: ‘London to Antwerp 195 British miles  <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> hour 11 195 17.72 in <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> hour 11 2 85 35.44 of mile in hour<ref target="#foot.f6"/> 77 80 17 30’ ‘Merrie England by Lord. W. <ref target="../bibliographies/bibl_4684.xml" resp="#mjhawkins">Lennox 1858</ref> p. 185.—’ <hi rend="italic">ink</hi>  </note>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is inferred from CD’s interest in ascertaining the distances that birds might be able to fly. The point was relevant to his work on the distribution of plant seeds and animal ova and larvae by means of birds, a topic he investigated from the autumn of 1857 to 1859. The publication date of <ref target="../bibliographies/bibl_4684.xml" resp="#mjhawkins">Lennox 1858</ref> (see n. 4, below) indicates that the letter was written some time after 1857.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_2905.xml" resp="#mjhawkins">Amy Lettington</ref> was the draper in Down village (<hi rend="italic">Post Office directory</hi> <hi rend="italic">of the six home counties</hi> 1859). CD was the treasurer of the Down Coal and Clothing Club, a society funded by charitable subscriptions from local gentry. The money thus acquired was used to buy coal and clothing for villagers. From an entry in the club subscription book (Down House MS) for the year 1844, it appears that it was possible for villagers to buy clothing on account at Mrs Lettington’s shop and that she was subsequently reimbursed by CD, as treasurer. <ref target="../nameregs/nameregs_7222.xml" resp="#mjhawkins">John Innes</ref>, the perpetual curate of Down, had previously been the treasurer of the club (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 4, <ref target="./DCP-LETT-1172.xml" resp="#mjhawkins">letter to John Innes, [8 May 1848]</ref>). He retained a close interest in its affairs (see <ref target="../bibliographies/bibl_5565.xml" resp="#mjhawkins">J. R. Moore 1985</ref>, pp. 468–6).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_3026.xml" resp="#mjhawkins">John Lubbock</ref>. Innes and CD had been involved with plans to set up a national school in Down funded by John William Lubbock, <ref target="../nameregs/nameregs_3026.xml" resp="#mjhawkins">John Lubbock’s</ref> father (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 5, letters to J. W. Lubbock, <ref target="./DCP-LETT-1530.xml" resp="#automat">6 September [1853]</ref> and <ref target="./DCP-LETT-1536.xml" resp="#automat">11 October [1853]</ref>). The school was established in 1853.</note>
+            <note xml:id="foot.f4">A note made by CD (see CD annotations) indicates that Innes’s information was taken from <ref target="../bibliographies/bibl_4684.xml" resp="#mjhawkins">Lennox 1858</ref>, p. 185. The book was published early in December 1857 (<hi rend="italic">Publishers’ Circular</hi>, 15 December 1857, p. 580).</note>
+            <note xml:id="foot.f5">The number of CD’s portfolio of notes on the means of dispersal of plants and animals.</note>
+            <note xml:id="foot.f6">CD’s estimate that birds could fly at 35 miles per hour was included in <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>, p. 361.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

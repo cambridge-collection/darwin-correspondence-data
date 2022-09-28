@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2342">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To George Bentham   15 October [1858]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">12043</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2342 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2342.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2342.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 143: 94</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Royal Botanic Gardens, Kew (Bentham Correspondence, Vol. 3, Daintree–Dyer, 1830–1884, GEB/1/3: f. 686)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_213.xml">Kew</repository>
+                    <collection>Bentham, George letters</collection>
+                    <idno>GEB/1/3: f. 686</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1858-10-15">15 Oct [1858]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_398.xml">Bentham, George</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>At Hooker’s request, sends his copy of Gärtner [<hi rend="italic">Bastarderzeugung</hi> (1849)], "shamefully scribbled over".</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Bastarderzeugung</term>
+                <term type="people" ref="#subject_2357">Hooker, J. D.</term>
+                <term type="rx" ref="#">Gärtner, K. F. von 1849</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Oct 15<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>At Hooker’s desire I send you Gærtner:<ref target="#foot.f2"/> my copy is shamefully scribbled over, so that I fear it will disgust you. You can keep it for some months if you desire,<ref target="#foot.f3"/> but please let me have it carefully back sometime as it is of much value to me, from the scribbling.<ref target="#foot.f4"/></p>
+<p>Yours very sincerely | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.3 sometime] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is based on the assumption that Bentham was preparing his paper on species (see n. 3, below).</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_2736.xml" resp="#mjhawkins">Gärtner 1849</ref>. CD’s annotated copy is in the Darwin Library–CUL; notes on the work are in DAR 116.</note>
+            <note xml:id="foot.f3">Bentham was preparing a paper in which he addressed questions of nomenclature and paid particular attention to the definition of species. The paper was read at a meeting of the <ref target="../nameregs/nameregs_2944.xml" resp="#mjhawkins">Linnean Society</ref> on 15 November 1858 but was not published until 1861 (Bentham 1861). Long extracts from it were printed in <hi rend="italic">Gardeners’ Chronicle and Agricultural Gazette</hi>, 20 November 1858, p. 847, and 27 November 1858, pp. 862–3. Although Bentham did not cite <ref target="../bibliographies/bibl_2736.xml" resp="#mjhawkins">Gärtner 1849</ref>, he may have wished to consult the data that <ref target="../nameregs/nameregs_1774.xml" resp="#mjhawkins">Karl Friedrich von Gärtner</ref> had given on plant hybridisation.</note>
+            <note xml:id="foot.f4">CD had made extensive use of Gärtner’s work in 1855 and 1856. See <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vols. 5 and 6. For CD’s annotations on his copy of the work, see <ref target="../bibliographies/bibl_5214.xml" resp="#mjhawkins"><hi rend="italic">Marginalia</hi></ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

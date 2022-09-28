@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4042">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To [Thomas White Woodbury]<ref target="#foot.f1"/>   15 March [1863]<ref target="#foot.f2"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13949</idno>
+            
+            
+            
+            
+            <date when="1999">1999</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4042 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4042.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4042.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="11">11</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">**</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">B. Altman &amp; Co. (<hi rend="italic">New York Times</hi>, 12 October 1975, p. 39) </bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_6.xml">B. Altman</repository>
+                    <idno>New York Times 1975.10.12</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>unstated</placeName>
+                <date when="1863-03-15">15 Mar [1863]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_5233.xml">Woodbury, T. W.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>TWW should look at bee and comb specimens received by CD from Africa.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">bee</term>
+                <term type="places" ref="#">Africa</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">nesting and other home-making or web-making behaviour</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Down]</placeName>
+                    <date>March 15</date>
+                </opener>
+                <div type="transcription">
+                     
+<p>[Suggests that Woodbury look at some bee and comb specimens received by CD from Africa.]<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The recipient is identified by the relationship between this letter and the <ref target="./DCP-LETT-4049.xml" resp="#mjhawkins">letter from T. W. Woodbury, 17 March 1863</ref>.</note>
+            <note xml:id="foot.f2">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-4049.xml" resp="#mjhawkins">letter from T. W. Woodbury, 17 March 1863</ref>.</note>
+            <note xml:id="foot.f3">The specimens were probably those obtained by <ref target="../nameregs/nameregs_2357.xml" resp="#mjhawkins">Joseph Dalton Hooker</ref> from <ref target="../nameregs/nameregs_3151.xml" resp="#mjhawkins">Gustav Mann</ref>, who was collecting botanical specimens in West Africa for the Royal Botanic Gardens, Kew (see <ref target="./DCP-LETT-4040.xml" resp="#mjhawkins">letter from J. D. Hooker, [15 March 1863]</ref>). CD and Woodbury, who was one of the contributors to the beekeeping section of the <hi rend="italic">Journal of Horticulture and Cottage Gardener</hi>, had corresponded in the summer of 1862, when CD was writing the section for <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> about bees from different localities (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 10).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10645">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. V. Carus   18 October [1876]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7350</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10645 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10645.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10645.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Staatsbibliothek zu Berlin – Preußischer Kulturbesitz (Slg. Darmstaedter Lc 1859: Darwin, Charles, Bl. 68–69)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_379.xml">SB zu Berlin - Preußischer KB</repository>
+                    <collection>Slg. Darmstaedter</collection>
+                    <idno>Lc 1859: Darwin, Charles, Bl. 68–9</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Bassett Down letterhead</placeName>
+                <date when="1876-10-18">18 Oct [1876]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_849.xml">Carus, J. V.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Proof sheets [of <hi rend="italic">Cross and self-fertilisation</hi>] have been lost.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Cross and self-fertilisation</term>
+                <term type="scientific_terms" ref="#">crossing</term>
+                <term type="scientific_terms" ref="#">fertilisation and generation</term>
+                <term type="scientific_terms" ref="#">fertility and/or sterility</term>
+                <term type="scientific_terms" ref="#">flora</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi> [Bassett, Southampton.]</placeName>
+                    <date>Oct 18<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am sorry to hear of the loss.— I directed the sheets myself &amp; am sure that there was no error. But I do not understand whether it is the <hi rend="underline">first</hi> or <hi rend="underline">second</hi> lot which is lost.<ref target="#foot.f2"/> Therefore will you kindly tell me what sheets you <hi rend="underline">actually possess</hi>? I return home on the 20<hi rend="superscript">th</hi>.<ref target="#foot.f3"/></p>
+<p>Yours very sincerely | Ch. Darwin</p>
+<p>I have other sheets ready but I suppose you are not in a hurry</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.2 it is] ‘it’ <hi rend="italic">above del</hi> ‘was’ </note>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-10654.xml" resp="#mjhawkins">letter to J. V. Carus, 25 October 1876</ref>.</note>
+            <note xml:id="foot.f2">Carus’s letter has not been found. CD sent the second set of proof-sheets of <ref target="../bibliographies/bibl_8595.xml" resp="#mjhawkins"><hi rend="italic">Cross and self fertilisation</hi></ref> with his <ref target="./DCP-LETT-10627.xml" resp="#mjhawkins" cert="high">letter to J. V. Carus of [early October 1876]</ref>); he had sent the first set with his letter of 27 September 1876.</note>
+            <note xml:id="foot.f3">CD was in Southampton visiting <ref target="../nameregs/nameregs_1245.xml" resp="#mjhawkins">William Erasmus Darwin</ref> (CD’s ‘Journal’ (Appendix II)).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

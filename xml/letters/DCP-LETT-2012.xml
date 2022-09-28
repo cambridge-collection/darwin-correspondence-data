@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2012">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To <hi rend="italic">Gardeners’ Chronicle</hi>   [before 6 December 1856]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">15617</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2012 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2012.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2012.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Collected papers</hi> 1: 264</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 6: 296</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance"><hi rend="italic">Gardeners’ Chronicle and Agricultural Gazette</hi>, 6 December 1856, p. 806</bibl>
+            <bibl type="printedSource">Gard. Chron. 1856: 806</bibl>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1809-01-01" notAfter="1856-12-05">[before 6 Dec 1856]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1808.xml">Gardeners’ Chronicle</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>CD is collecting all the evidence he can on natural crossing of varieties of plants. Asks readers of <hi rend="italic">Gardeners’ Chronicle</hi> to give evidence "showing either that Leguminous crops, when grown close together do sometimes cross or on the other hand that they may invariably be grown close together without any chance of deterioration".</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">leguminous crops</term>
+                <term type="it" ref="#">Gardeners’ Chronicle</term>
+                <term type="scientific_terms" ref="#">crossing</term>
+                <term type="scientific_terms" ref="#">degeneration</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">varieties</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+<p>I have been lately collecting all the evidence which I can get from the observation of others and my own, on the natural crossing of varieties of plants. The evidence in regard to Leguminous plants is curiously conflicting, but preponderates against their ever crossing without artificial aid.<ref target="#foot.f2"/> I should esteem it a singular favour if any of your correspondents would give in your paper or send me any evidence showing either that Leguminous crops, when grown close together, do sometimes cross; or, on the other hand, that they may invariably be grown close together without any chance of deterioration.<ref target="#foot.f3"/> <hi rend="underline">Charles Darwin, Down, Bromley, Kent.</hi></p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated from the issue of the <hi rend="italic">Gardeners’ Chronicle and Agricultural Gazette</hi> in which the letter appeared.</note>
+            <note xml:id="foot.f2">CD summarised contemporary views of this point in <ref target="../bibliographies/bibl_5799.xml" resp="#mjhawkins"><hi rend="italic">Natural selection</hi></ref>, pp. 69–71. He was principally concerned with the conflicting opinions of <ref target="../nameregs/nameregs_5120.xml" resp="#mjhawkins">Arend Friedrich August Wiegmann</ref> in <ref target="../bibliographies/bibl_8364.xml" resp="#mjhawkins">Wiegmann 1828</ref> and <ref target="../nameregs/nameregs_1774.xml" resp="#mjhawkins">Karl Friedrich von Gärtner</ref> in <ref target="../bibliographies/bibl_2736.xml" resp="#mjhawkins">Gärtner 1849</ref>.</note>
+            <note xml:id="foot.f3">No response has been located in <hi rend="italic">Gardeners’ Chronicle</hi>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

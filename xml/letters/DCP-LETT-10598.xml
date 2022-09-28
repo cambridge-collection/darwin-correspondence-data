@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10598">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Johann von Fischer<choice><seg type="original"><ref target="#foot.f1"/></seg><seg type="translation"><ref target="#foot_trans.f1"/></seg></choice>   [before 15 September 1876]<ref target="#foot.f2"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14231A</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10598 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10598.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10598.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">incomplete</note>
+            <note type="physdesc" n="ALS">6pp (German) inc †, CD note 2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 164: 120, 120a</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>164: 120, 120a</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1635.xml">Fischer, Johann von</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1809-01-01" notAfter="1876-09-14">[before 15 Sept 1876]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Describes behaviour of apes and monkeys in presenting coloured hindquarters.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">apes</term>
+                <term type="animals" ref="#">monkeys</term>
+                <term type="scientific_terms" ref="#">behaviour</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">physical ‘external’ characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00492_files/8/0_0.jpg" width="5819px" height="7825px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00492_files/11/1_1.jpg" width="5819px" height="7825px"/>
+        <surface n="120:1r" xml:id="i492">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00492.jpg" width="5819px" height="7825px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00492_files/8/0_0.jpg" width="5819px" height="7825px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00492.dzi" width="5819px" height="7825px"/>
+        </surface>
+        <surface n="120:1v" xml:id="i493">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00493.jpg" width="5819px" height="7825px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00493_files/8/0_0.jpg" width="5819px" height="7825px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00493.dzi" width="5819px" height="7825px"/>
+        </surface>
+        <surface n="120:2r" xml:id="i494">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00494.jpg" width="5819px" height="7856px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00494_files/8/0_0.jpg" width="5819px" height="7856px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00494.dzi" width="5819px" height="7856px"/>
+        </surface>
+        <surface n="120:2v" xml:id="i495">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00495.jpg" width="5779px" height="7825px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00495_files/8/0_0.jpg" width="5779px" height="7825px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00495.dzi" width="5779px" height="7825px"/>
+        </surface>
+        <surface n="120:3r" xml:id="i496">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00496.jpg" width="5730px" height="7825px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00496_files/8/0_0.jpg" width="5730px" height="7825px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00496.dzi" width="5730px" height="7825px"/>
+        </surface>
+        <surface n="120:3v" xml:id="i497">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00497.jpg" width="5730px" height="7825px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00497_files/8/0_0.jpg" width="5730px" height="7825px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00497.dzi" width="5730px" height="7825px"/>
+        </surface>
+        <surface n="120:4r" xml:id="i498">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00498.jpg" width="5730px" height="7825px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00498_files/8/0_0.jpg" width="5730px" height="7825px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00498.dzi" width="5730px" height="7825px"/>
+        </surface>
+        <surface n="120:4v" xml:id="i499">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00499.jpg" width="5730px" height="7825px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00499_files/8/0_0.jpg" width="5730px" height="7825px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00499.dzi" width="5730px" height="7825px"/>
+        </surface>
+        <surface n="120:5r" xml:id="i500">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00500.jpg" width="4318px" height="6000px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00500_files/8/0_0.jpg" width="4318px" height="6000px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00500.dzi" width="4318px" height="6000px"/>
+        </surface>
+        <surface n="120:5v" xml:id="i501">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00501.jpg" width="4318px" height="6000px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00501_files/8/0_0.jpg" width="4318px" height="6000px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00501.dzi" width="4318px" height="6000px"/>
+        </surface>
+        <surface n="120:6r" xml:id="i502">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00502.jpg" width="4318px" height="6000px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00502_files/8/0_0.jpg" width="4318px" height="6000px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00502.dzi" width="4318px" height="6000px"/>
+        </surface>
+        <surface n="120:6v" xml:id="i503">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00503.jpg" width="4318px" height="6000px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00503_files/8/0_0.jpg" width="4318px" height="6000px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00503.dzi" width="4318px" height="6000px"/>
+        </surface>
+    </facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+                     
+<p>Ueber die Ursache, warum der Mandrill seinen gefärbten Hintertheil im Spiegel betrachtete, wagte ich damals, als ich den Artikel verfasste keinerlei Betrachtungen über diesen Gegenstand zu machen, da mir jeder Anhaltspunkt fehlte und ich mich begnügen musste, blos das nackte Factum mitzutheilen.<ref target="#foot.f3"/> Seitdem ist mir jedoch mehr Material zugekommen.</p>
+<p>Meine 3 Macacus rhesus, 1 M. nemestrinus, 1 Cynocephalus mormon, 1 C. leucophaeus, sowie 1 Cynopithecus niger benehmen sich gerade so, sobald ich Spiegel zu meinen Beobachtungen verwende.<ref target="#foot.f4"/></p>
+<p>Ich will versuchen dieses Benehmen zu erklären:</p>
+<p>Der Hintertheil ist der Theil des Affenkörpers, welcher am empfindlichsten ist und scheinen die Affen das Kitzeln dieses Theiles sehr zu lieben, wenigstens ist Dieses bei allen meinen zahmen Exemplaren entschieden der Fall.</p>
+<p>Ich erhielt vor fünf Jahren einen noch jetzt bei mir lebenden Rhesus-Affen, der mir eine Fülle von Material verschafft hat.</p>
+<p>In den ersten Tagen seines Hierseins, zeigte dieses robuste männliche Thier fortwährend seinen rosaroth gefärbten Hinterthiel, sobald Jemand an seinen Käfig trat. Da dieses bei Damenbesuch höchst lästig war, versuchte ich es ihm abzugewöhnen. Um dieses zu bezwecken, gab ich ihm jedesmal bei dieser Gelegenheit einen derben Schlag, worauf er zwar in der ersten Zeit wüthend wurde, nachher jedoch diese Untugend vollständig ablegte.</p>
+<p>Eines Tages litt er an einem heftigen Durchfall und war die Gegend um den After fast immer von den wässerigen Excrementen nass. Da Dieses höchst schädlich ist, wegen der ätzender Eigenschaft derselben, worauf die Haare herausfallen, die nackten, epidermislosen Stellen sich entzünden und dem Thier ungemein heftigen Juckreiz verursachen, so beschloss ich das Thier herauszufangen und diesen, bereits wunden Theil auszuwaschen. Der Affe entsprang mir in meine Arbeitsstube und als ich ihm freundlich zuredete so zeigte er mir seinen Hintertheil. Ich näherte mich dem Thier und begann denselben mit einem weichen Schwämmchen und lauwarmen Wasser zu säubern. Bei der ersten Berührung ergoss sich der Affe in einen förmlichen Schwall von gurgelnden und grunzenden Tönen nach, beim Mandrill beschriebener Art grinsend und die grösste Freude bezeugend, so dass ich unwillkürlich lachen musste.</p>
+<p>Nach beendeter Säuberung die 2–3 Mal täglich vorgenommen wurde, lief er in seinen Käfig zurück, noch lange freudig grunzend. Offenbar hat ihm die eben beschriebene Operation sehr zugesagt. Trete ich nun an seinen Käfig heran und spreche mit ihm recht schmeichelnd, so zeigt er mir sofort die beschriebenen Theile, diese sonderbare Liebkosung abwartend. Wenn Nichts geschieht so schaut er sich mehrmals um, die Stellungen verändernd oder nach hinten zwischen die Beine sehend. Berühre ich ihn mit einen Holzstäbchen so zeigt er sehr grosses Behagen, denn er bleibt regungslos, behaglich grunzend, stehen.</p>
+<p>Da er viel frei umherläuft, so kommt er häufig dicht an die Käfige anderer Affen und hält ihnen den Hintertheil vor, worauf sich diese sofort beeilen, diesen Theil von Unsauberkeiten jeder Art zu reinigen, wobei er und die andern Affen freudige Laute ausstossen. Er seinerseits thut diesen Liebesdienst bei andern Affen auch.</p>
+<p>Hat diese Procedur einige Minuten gedauert, so beginnen gewöhnlich die Affen ihr Spiel und scheint dieses Manöver eine Art Begrüssung wie das Uriniren bei Hunden zu sein.</p>
+<p>Lasse ich die oben angeführten Affen in der Stube alle zusammen frei herumlaufen so sieht es zu Komisch aus, wenn sich zwei Affen begegnen, sich angrinsen und dann beide sich umdrehen und sich gegenseitig die Hintertheile zeigen, worauf sie bald zu spielen anfangen.</p>
+<p>Daher vermuthe ich, dass der Mandrill und die andern Affen deshalb vor den Spiegel diese Stellung einnehmen, weil sie im selben einen andern Affen vermuthen.</p>
+<p>Ueber den Ursprung der Vorliebe, gerade an diesen Theil des Körpers gekitzelt zu werden, lassen sich nur Vermuthungen aufstellen. Ich glaube nicht, dass hier nur Geschlechstrieb die Ursache ist, weil der Hauptsitz des Reizes um den After sitzt und nicht an den Geschlechtstheilen. Vielleicht leiden die Affen in der Freiheit an kleinen Helminthen, wie Menschen an Oxyuris, welche jenen Reiz verursachen? Oder ist es die Gewohnheit diese Theile von Koth, Dornen, Splittern et.c. et.c. zu säubern?</p>
+<p>Für letzteren Umstand spricht Etwas: Wenn sich Affen bei mir in klebrige z.B. harzige Stoffe oder auf stechende Gegenstände, wie z.B. Strohhäcksel gesetzt hatten, so säuberten sie die Sitzfläche zuerst mit den Händen und kehrten zuletzt dem Zuschauer dieselbe zu.</p>
+<p>Was den Zweck der farbigen Stellen beim Mandrill und andern Cynocephalen z.B. anbelangt, so glaube ich auch, dass sie dazu erlangt sind um als sexuelle Ornamente zu dienen und die Geschlechter, während der Brunstzeit, wo alle diese Theile viel lebhafter gefärbt sind, auf einander aufmerksam zu machen.</p>
+<p>Bei Affen die in dichtbelaubten Baumkronen leben, war diese Anpassung nicht so nothwendig, wie gerade bei den Cynocephalus-Arten die auf offenen Felsenstrecken leben und dadurch einer ausgedehnten Fernsicht ausgesetzt sind, daher glaube ich, dass sie, um sich gegenseitig in die Augen fallen zu lassen, einer so eclatanten Ausschmückung bedurften, denn sonst würden die Weibchen auf die Männchen und umgekehrt, sich auf grossen Entfernungen gar nicht bemerken können. Für Affen dagegen z.B. Cebus Arten und andere die in Baumkronen leben, würde ein solches Ornament, wegen Mangel an Aussicht unnütz oder sogar schädlich sein, da sie dadurch nur ihren Feinden auffallen würden.<ref target="#foot.f5"/></p>
+<p>Ich will Ihen werther Herr hier ein Beispiel aus meiner Erfahrung mittheilen.</p>
+<p>Ich hielt ein Päarchen Cynopithecus niger zusammen und hoffte von diesem, im Alter etwas ungleichen Paar Nachkommenschaft zu erzielen. Allein das bedeutend grössere Weibchen mishandelte das sehr schwächliche Männchen derart, dass das letzte nicht einmal zu fressen wagte, wenn das Weibchen dabei war.</p>
+<p>Ich trennte die Thiere und stellte die Käfige in meiner Thierstube einander gegenüber. Eine zeitlang fletschten sie sich an schliesslich jedoch beachteten sie sich gar nicht mehr.</p>
+<p>Eines Tages bemerkte ich beim Männchen eine grosse Erregtheit, indem es heftig gegen die Drahtstäbe prallte und an denselben rüttelte. Seine ganze Aufmerksamkeit war auf den Käfig des Weibchens gerichtet. Ich bemerkte bei demselben vorerst Nichts Auffälliges.</p>
+<p>Da meine Arbeitsstube von dem Raum, in dem die Affen untergebracht sind, nur durch eine Glasthür getrennt ist, konnte ich die beiden Thiere fast unbemerkt beobachten. Ich sah wie sich das Weibchen, bald nachdem ich mich entfernt hatte, umdrehte und dem Männchen mit gurgelnden Tönen die stark geröthete Sitzfläche zeigte, was ich früher nie an diesem Thier bemerkt hatte. Beim Anblick dies Gegenstandes erregte sich das Männchen sichtlich, denn es polterte heftig an den Stäben, ebenfalls gurgelnde Laute ausstossend.</p>
+<p>Dieser Zustand schritt täglich fort und zuletzt sah ich, dass die ganze hintere Fläche wie entzündet und heftig geschwollen beim Weibchen war. Auch ein erwachsener, sonst ruhiger Papio sphinx<ref target="#foot.f6"/> war während dieser Zeit wie toll und gehorchte mir gar nicht mehr.</p>
+<p>Offenbar hatte der Anblick dieser Theile die Affen erregt. Um desto mehr da Affen um diese Zeit meist mit dem Hintertheil zum Zuschauer gekehrt sitzen und möchte ich fast annehmen dass sie es bewusst thun, da sie die Stellungen verändern um recht deutlich diese Parthie in ihrer ganzen Vollendung zu zeigen oder zum Kitzeln aufzufordern. Denn wenn zwei Zuschauer vor dem Käfig stehen und der Eine diese Manipulation ignorirt, so wendet sich ein solcher Affe gewöhnlich zum andern.</p>
+<p>Da die Affen meines Wissens wenig vom Geruchsinn geleitet werden sondern hauptsächlich das Gesicht und das Gehör bei ihnen die Hauptsinne sind, die sie am häufigsten brauchen, so brauchen sie auch Ornamente zum gegenseitigen so zu sagen Aushängeschild, und glaube ich, dass diese Ornamente ein Analogon zum stark riechenden Secret bei einigen paarungssüchtigen Thieren, z.B. Hündinnen ist, das dort als nothwendig beibehalten ist um die Männchen anzulocken, weil die Hunde, Thiere sind, die fast ausschliesslich vom Geruch regiert werden.</p>
+<p>Das ist wenigstens der Schluss zu dem ich durch meine Beobachtungen gekommen bin.</p>
+<p>Ich bitte Sie hochgeehrter Herr diesen Zeilen Beachtung schenken zu wollen und verbleibe ich | mit aufrichtiger Verehrung | Ihr ganz ergebener | Joh. von Fischer</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note>6.2 sobald ... trat. 6.3] <hi rend="italic">double scored pencil</hi></note>
+                <note>11.1 Lasse … anfangen. 11.4] <hi rend="italic">double scored pencil</hi></note>
+                <note>12.1 Daher … vermuthen. 12.2] <hi rend="italic">scored pencil</hi></note>
+                <note>15.3 wo alle … machen. 15.4] <hi rend="italic">scored pencil</hi></note>
+                <note>16.3 daher … bedurften, 16.5] <hi rend="italic">scored pencil</hi></note>
+                <note>16.4 in … lassen,] <hi rend="italic">underl pencil</hi></note>
+                <note><hi rend="italic">Top of p. 5</hi>: ‘As all the monkeys where the hinder parts of them big, much less highly [<hi rend="italic">interl</hi>] coloured.’ <hi rend="italic">pencil</hi></note>
+                <note>21.4 umdrehte … ausstossend. 21.7] <hi rend="italic">opening square bracket pencil and orange crayon; closing square bracket orange crayon</hi></note>
+                <note><hi rend="italic">Top of letter</hi>: ‘Monkeys showing Red Hinder End’ <hi rend="italic">pencil</hi></note>
+            </div>
+            <div type="cdnotes">
+            <ab><ref target="#foot.f7"/></ab>
+            <note> 
+<p>p. I. 3 *spec. of [<hi rend="italic">interl</hi>] Mac. Rhesus.<hi rend="superscript">(1)</hi> (Mac. nemestrinus.)<hi rend="superscript">(2)</hi> Cyn mormon<hi rend="superscript">(3)</hi> C. leucophæus<hi rend="superscript">(4)</hi> &amp; Cynopithecus niger<hi rend="superscript">(5)</hi>— all [<hi rend="italic">below del</hi> ‘(&amp; mandrill<hi rend="superscript">(6)</hi>)’] act in [<hi rend="italic">interl</hi>] this way towards [<hi rend="italic">above del</hi> ‘with’] L. Glass.— Rump sensitive, like being scratched *grunt [‘grunt’ <hi rend="italic">del</hi>] with pleasure [<hi rend="italic">interl</hi>], in all his species</p>
+<p>♂ Rhesus, *kept for 5 years [<hi rend="italic">interl</hi>]—shows rosy [<hi rend="italic">above del</hi> ‘rosy’] rump when anyone approaches.— Cured [<hi rend="italic">above del</hi> ‘cured’] him *of habit [<hi rend="italic">interl</hi>] by beating him. Washing rump [<hi rend="italic">interl</hi>]— showed [‘rump’ <hi rend="italic">del</hi>] rump—to be coloured.— showed rump &amp; was cleaned by other monkeys &amp; <hi rend="italic">all</hi> grunted [<hi rend="italic">below del</hi> ‘grunted’] with pleasure &amp; he acts thus to other monkeys—<ref target="#foot.f8"/> Afterwards play together—&amp; this cleaning seems a kind of greeting— when 2 monkeys meet *first grin [<hi rend="italic">above del</hi> ‘grin’] &amp; then both [<hi rend="italic">interl</hi>] turn around &amp; show one another their rumps &amp; then soon *commence to [<hi rend="italic">interl</hi>] play. This explains action of looking in glass, as they act as if there was another M.<ref target="#foot.f9"/></p>
+<p>Cause of habit — perhaps to clear dung [<hi rend="italic">above del</hi> ‘dung’]—thorns &amp;c— seem <hi rend="italic">particular</hi> in cleaning [<hi rend="italic">above del</hi> ‘cleaning’] their rumps &amp; *after doing so [<hi rend="italic">interl above del</hi> ‘then’] turn *round to show it [<hi rend="italic">interl above del</hi> ‘then’] to an [<hi rend="italic">over</hi> ‘the’] observer. Service [<hi rend="italic">above del</hi> ‘Service’ <hi rend="italic">above del</hi> ‘Service’] of coloured surface *he thinks [<hi rend="italic">interl</hi>] to be seen by other sex at a [<hi rend="italic">interl</hi>] distance.— of no use to true-species—</p>
+<p>Cynopithecus niger, excited one [‘♁’ <hi rend="italic">del</hi>] ♂ of own species &amp; Papio sphynx (as if mad [<hi rend="italic">above del</hi> ‘mad’] after he Fischer [<hi rend="italic">interl</hi>] had withdrawn—showed [<hi rend="italic">interl</hi>] strongly reddened rump to ♂ &amp; made a gurgling [<hi rend="italic">above del</hi> ‘gurgling’] noise.— *she acted thus [<hi rend="italic">above del</hi> ‘took place every proceeded’] daily— whole *rump appeared as if [<hi rend="italic">above del</hi> ‘rump’] inflamed &amp; swollen.<ref target="#foot.f10"/></p>
+<p>—Clearly sight of this part excited the ♂ monkeys— Believe show rump consciously for they turn so as to show this part to the observer right clearly— if 2 observers stand, before monkey, *the M. [<hi rend="italic">above del</hi> ‘M.’] turns to one who attends most— Monkeys not guided by scent.—</p></note>
+              </div>
+
+            
+            
+            
+        </div>
+        
+        
+        <div type="translation">
+            <div type="text">
+                <opener>
+                </opener>
+                <div type="transcription">
+                     
+<p>On the reason why the mandrill looks at his coloured rump in the mirror, when I wrote the article I dared not offer any reflections on this matter since I had no evidence whatsoever, and I had to be satisfied with communicating just the bare facts.<ref target="#foot.f3"/> Since then, however, more material has come my way.</p>
+<p>My 3 Macacus rhesus, 1 M. nemestrinus, 1 Cynocephalus mormon,1 C. leucophaeus as well as 1 Cynopithecus niger behave in exactly the same manner as soon as I use a mirror in my observations.<ref target="#foot.f4"/></p>
+<p>I will try to explain this behaviour:</p>
+<p>The rump is the part of the monkey’s body which is most sensitive, and monkeys appear to enjoy having it tickled very much, at least this is decidedly the case with all my tame specimens.</p>
+<p>Five years ago I got a rhesus-monkey that is still living with me now and that has supplied me with a wealth of material.</p>
+<p>In the first days after his arrival, this robust male animal constantly displayed his rose pink rump as soon as somebody approached his cage. Since this was a great nuisance when there were lady visitors, I tried to cure him of the habit. With this in mind, I gave him a hard slap every time it occurred, and while this initially made him angry, he eventually completely broke this bad habit.</p>
+<p>One day he was suffering from severe diarrhoea and the area around his anus was almost constantly wet with watery excrement. Since this is most harmful, due to its caustic properties, making the hair fall out, the bare, skinless areas inflamed, and causing the animal excessive itchiness, I decided to take the animal out of his cage and to wash the chafed part. The monkey escaped into my study, and when I talked to him coaxingly he showed me his posterior. I approached the animal and began to clean the affected part with a soft sponge and lukewarm water. At the first touch the monkey let out a regular flood of gurgling and grunting sounds, grinning in the way described for the mandrill and displaying the greatest enjoyment, so that I automatically had to laugh.</p>
+<p>Upon completion of this cleaning procedure, which was carried out 2 to 3 times a day, he ran back into his cage, grunting with pleasure for quite some time. Clearly the operation just described was very much to his liking. Now, when I approach his cage and talk to him cajolingly, he shows me the part in question at once, in anticipation of this peculiar caress. If nothing happens, he looks round several times, altering his stance or looking through his legs. When I touch him with a little wooden rod, he exhibits much contentment, for he remains standing still, grunting with enjoyment.</p>
+<p>Since he runs free a lot of the time, he often comes very close to the cages of other monkeys and shows them his rump, whereupon they at once proceed to remove any kind of dirt from this part, while he and the other monkeys utter sounds of pleasure. He for his part also does this favour for the other monkeys.</p>
+<p>After a few minutes of this, the monkeys usually begin to play, and this manoeuvre appears to be some kind of greeting ritual, like urinating in dogs.</p>
+<p>When I let all of the monkeys mentioned above run free together in the room, it looks too comical when two meet, grin at one another and then turn around and show each other their rump, after which they soon begin to play.</p>
+<p>Thus I suspect that the mandrill and the other monkeys assume this posture in front of a mirror because they assume there is another monkey in it.</p>
+<p>The cause of the fondness for having particularly that part of the body tickled can only be conjectured. I do not believe that sex drive is the cause here, for the main location of interest is around the anus and not near the genitals. Perhaps monkeys in the wild suffer from tiny helminths, like humans suffer from threadworm, which causes the stimulus? Or is it a habit to clean these parts of faeces, thorns, splinters etc. etc.?</p>
+<p>There is evidence in favour of the latter interpretation: If my monkeys sit down on sticky e.g. resinous substances or on something prickly, such as e.g. chopped straw, they first clean the seat with their hands and finally turn them towards any onlooker.</p>
+<p>In regard to the purpose of the coloured parts of the mandrill and other Cynocephali for example, I also believe that they have been acquired to serve as sexual ornaments, in order to attract the attention of the other sex during mating season, when all these parts are much more brightly coloured.</p>
+<p>For monkeys that live in densely foliated treetops, this adaptation was not as important as for the various Cynocephali that live on open, rocky ground and in this way an extended view is interrupted, which is why I think that in order to catch one another’s eye, they need such a striking adornment, for otherwise the female would not be able to notice the male at all and vice versa, due to the great distances involved. On the other hand, for monkeys e.g. species of Cebus, and others that live in treetops, such an ornamentation would be useless, due to the bad visibility, or even harmful, for it would alert their enemies to their presence.<ref target="#foot.f5"/></p>
+<p>I will give you, honoured Sir, an example from my experience.</p>
+<p>I kept a pair of Cynopithecus niger together, hoping that this pair, of somewhat unequal age, would reproduce. However, the significantly bigger female mistreated the very weak male to such an extent that the latter dared not even eat when the female was present.</p>
+<p>I separated the animals and set their cages up so they faced each other in my animal room. For a while they bared their teeth at one another but eventually they ignored each other.</p>
+<p>One day I noticed that the male was very excited, impetuously throwing itself against the bars and rattling at them. All his attention was focused on the cage of the female. I initially did not notice anything out of the ordinary about her.</p>
+<p>Since my study is separated from the room in which the monkeys live by a glass door only, I was able to observe the two animals almost unnoticed. I saw that soon after I had left the female turned round and, with gurgling sounds, showed the male her much reddened seat, which I had never noticed before on this animal. At the sight of it the male got noticeably excited, for he made a racket at the bars and also uttered gurgling sounds.</p>
+<p>This situation progressed daily and finally I saw that the entire back area of the female was as though inflamed and much swollen. A fully grown, normally calm Papio sphinx<ref target="#foot.f6"/> also was carrying on like mad during this period and was completely out of control.</p>
+<p>Clearly the sight of this part excited the monkeys. All the more so since during this period, monkeys tend to sit with their posterior turned towards the onlooker, and I might almost assume that they do so on purpose, for they alter their posture to set off this part to advantage in all its splendour, or to invite being tickled. For if there are two onlookers standing at the cage, and one of them ignores this manipulation, such a monkey commonly turns to the other one.</p>
+<p>Since to my knowledge monkeys are hardly guided by their sense of smell, rather principally sight and hearing are the main senses that they use most frequently, they need ornaments to serve so to speak for mutual advertisement, and I believe that these ornaments are an analogon to the strongly smelling secretions of some animals in heat, e.g. bitches, where this secretion is needed to attract the male, for dogs are animals that are almost exclusively guided by their sense of smell.</p>
+<p>At least this is the conclusion I have arrived at as a result of my observations.</p>
+<p>Hoping you deem these lines worthy of your attention, highly honoured Sir, I remain | with sincere respect | your obedient servant | Joh. von Fischer.</p> 
+                </div>
+            </div>
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">For a translation of this letter, see Appendix I.</note>
+            <note xml:id="foot_trans.f1">For a transcription of this letter in its original German, see pp. 267–70.</note>
+            <note xml:id="foot.f2">The date is established by the relationship between this letter and the <ref target="./DCP-LETT-10600.xml" resp="#mjhawkins">letter from Johann von Fischer, 15 September 1876</ref>. See CD’s note on this letter, which indicates that it was the first.</note>
+            <note xml:id="foot.f3">CD first wrote to Fischer after reading ‘Aus dem Leben eines jungen Mandril (<hi rend="italic">Cynocephalus mormon</hi>); seine Erkrankung und sein Tod’ (From the life of a young mandrill (<hi rend="italic">Cynocephalus mormon</hi>); his illness and death; Fischer 1876a), published in two parts in <hi rend="italic">Der Zoologische Garten</hi>, April and May–June 1876 (see CD’s article ‘Sexual selection in relation to monkeys’, <hi rend="italic">Nature</hi>, 2 November 1876, pp. 18–19). This letter is evidently Fischer’s response to CD’s letter, which has not been found.</note>
+            <note xml:id="foot.f4"><hi rend="italic">Macacus rhesus</hi> is a synonym of <hi rend="italic">Macaca mulatta</hi> (rhesus macaque); <hi rend="italic">Macacus nemestrinus</hi> is a synonym of <hi rend="italic">Macaca nemestrina</hi> (southern pig-tailed macaque); <hi rend="italic">Cynocephalus mormon</hi> is a synonym of <hi rend="italic">Mandrillus sphinx</hi> (mandrill); <hi rend="italic">Cynocephalus leucophaeus</hi> is a synonym of <hi rend="italic">Mandrillus leucophaeus</hi> (drill); <hi rend="italic">Cynopithecus niger</hi> is a synonym of <hi rend="italic">Macaca nigra</hi> (Celebes crested macaque).</note>
+            <note xml:id="foot.f5"><hi rend="italic">Cynocephalus</hi> is a synonym of <hi rend="italic">Papio</hi>, the genus of baboons. Mandrills and drills were formerly included within or as a subgenus of baboons but are now placed in their own genus, <hi rend="italic">Mandrillus</hi>. While baboons are savannah or open-forest dwellers, mandrills are restricted to equatorial rainforests. <hi rend="italic">Cebus</hi> is a genus of capuchin monkeys.</note>
+            <note xml:id="foot.f6">Fischer evidently uses the name <hi rend="italic">Papio sphinx</hi> to refer to the Guinea baboon (now <hi rend="italic">Papio papio</hi>), based on <ref target="../bibliographies/bibl_9366.xml" resp="#mjhawkins">Erxleben 1777</ref>, pp. 15–17. <hi rend="italic">Papio sphinx</hi> can also refer to the mandrill, but Fischer used the name <hi rend="italic">Cynocephalus mormon</hi> for the mandrill. The history of the nomenclature of the baboon and the mandrill is complex; for more on this topic, see Delson and Napier 1976.</note>
+            <note xml:id="foot.f7">CD’s note is a summary of the contents of the letter. CD added ‘First letter’ in pencil in the margin at the top of the note.</note>
+            <note xml:id="foot.f8">CD crossed from the beginning of the note to this point in pencil.</note>
+            <note xml:id="foot.f9">CD crossed from ‘Afterwards’ to this point in ink.</note>
+            <note xml:id="foot.f10">CD crossed from ‘Cause’ to this point in pencil and from there to the end of the note in ink.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

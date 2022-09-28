@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9559A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Edward Frankland   22 July 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20662</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9559A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9559A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9559A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">The John Rylands Library, The University of Manchester</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_371.xml">Rylands</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1874-07-22">22 July 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1739.xml">Frankland, Edward</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks for the specific gravity of common phosphate of ammonia.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>July 22 1874</date>
+                    <salute>My dear Professor Frankland</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Can you tell me what is the specific gravity of Phosphate of Ammonia? In Watt’s Dict. I find the Spec. grav. of several phosphates of Amm., but then I do not know which is the common phos.<ref target="#foot.f1"/></p>
+<p>I bought a bottle from Hopkin &amp; Williams<ref target="#foot.f2"/> labelled simply “phos. of Amm.”, containing a colourless chrystaline mass, &amp; it is of this that I want to know the specific gravity. I enclose a card addressed, &amp; if you will write the number on it, it will save you a little trouble.</p>
+<p>Yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD’s annotated copy of <ref target="../nameregs/nameregs_6972.xml" resp="#mjhawkins">Henry Watts’s</ref> <hi rend="italic">Dictionary of chemistry</hi> is in the Darwin Library–Down (see <ref target="../bibliographies/bibl_5214.xml" resp="#mjhawkins"><hi rend="italic">Marginalia</hi></ref> 1: 195–6). CD’s copy consists of the first three volumes of the second edition (<ref target="../bibliographies/bibl_8215.xml" resp="#mjhawkins">Watts 1872–4</ref>), volumes four and five of an 1871 reprint of the first edition (<ref target="../bibliographies/bibl_8214.xml" resp="#mjhawkins">Watts 1863–8</ref>), and a supplement to the first edition dated 1872. Specific gravity is a measurement of relative density of a substance in comparison to water. Different forms of phosphate of ammonia (now more commonly known as ammonium phosphate) have different numbers of ammonium ions and thus different specific gravities. The commonest solid forms are monoammonium phosphate and diammonium phosphate.</note>
+            <note xml:id="foot.f2">Hopkin &amp; Williams were manufacturers of fine laboratory and photographic chemicals, with offices at 10 Cavendish Street, London, and a factory in Wandsworth, Surrey (<ref target="../bibliographies/bibl_6380.xml" resp="#mjhawkins"><hi rend="italic">Post Office London directory</hi></ref> 1872). CD had obtained chemicals from them for his work on insectivorous plants (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 21, <ref target="./DCP-LETT-9042.xml" resp="#mjhawkins">letter to W. W. Baxter, 4 September 1873</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

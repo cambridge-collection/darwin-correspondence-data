@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4239">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To H. B. Dobell   17 July [1864]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8261</idno>
+            
+            
+            
+            
+            <date when="2001">2001</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4239 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4239.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4239.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="12">12</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">photocopy, incomplete</note>
+            <note type="physdesc" n="ALS">1p inc?</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 143: 392</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 221.5: 8 (photocopy)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>221.5: 8 photocopy</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1864-07-17">17 July [1864]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1339.xml">Dobell, H. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks HBD for his note. The analogy of surnames had not occurred to CD – only that of language generally, as shown so well by Lyell. Fears HBD’s argument about progression would not have much weight.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_3051">Lyell, Charles</term>
+                <term type="scientific_terms" ref="#">affinity and analogy</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">change</term>
+                <term type="scientific_terms" ref="#">communication</term>
+                <term type="scientific_terms" ref="#">historical time</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>July 17<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I write merely a line to thank you for your note.—<ref target="#foot.f2"/> The analogy of surnames had not occurred to me, only language generally, as has been well shown by Sir C. Lyell.—<ref target="#foot.f3"/></p>
+<p>With respect to progression, I fear the argument w<hi rend="superscript">d</hi> not have much weight, unless a man was already convinced—</p>
+<p>My dear Sir | Yours very faithfully | Ch. Darwin</p>
+<p>over</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-4568.xml" resp="#automat">letter from H. B. Dobell, 15 July 1864</ref>.</note>
+            <note xml:id="foot.f2"><ref target="./DCP-LETT-4568.xml" resp="#automat">Letter from H. B. Dobell, 15 July 1864</ref>.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_3051.xml" resp="#mjhawkins">Charles Lyell</ref> discussed the analogy between languages and species in <hi rend="italic">Antiquity of man</hi> (see C. Lyell 1863a, pp. 454–70). See also <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> 1: 59–62.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

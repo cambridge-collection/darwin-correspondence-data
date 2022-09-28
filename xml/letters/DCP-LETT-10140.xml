@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10140">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Samuel Newington   30 August 1875</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10225</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10140 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10140.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10140.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 172: 34</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>172: 34</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3512.xml">Newington, Samuel</persName>
+                <placeName>Ticehurst</placeName>
+                <date when="1875-08-30">30 Aug 1875</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Reports a competition between the air roots of two varieties of grapevines. The victor changed the flavour and shape of the loser’s fruit.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">fruit</term>
+                <term type="plants" ref="#">grapevines</term>
+                <term type="scientific_terms" ref="#">causation</term>
+                <term type="scientific_terms" ref="#">change</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">physical ‘external’ characters</term>
+                <term type="scientific_terms" ref="#">plant physiology</term>
+                <term type="scientific_terms" ref="#">struggle for existence</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Ridgeway | Ticehurst.</placeName>
+                    <date>30th August 1875</date>
+                    <salute>Dear Sir:</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I sh: much like you to see a bird I have here, to which the enclosed description refers.<ref target="#foot.f1"/> I have also a vine I think you would take an interest in. it is the Madresfield Court; a large oval grape, inarched on the Black Hamburgh, both vines growing on their own roots. The type ie, the B Hamburgh. has got the better of the sport, the M Court: the berries on the MC being quite round &amp; the flavour changed to that of the B Hamburgh.<ref target="#foot.f2"/> I have several other things which I think would interest you. I see a train leaves Sevenoaks at 2-37. &amp; arrives at <hi rend="underline">Wadhurst</hi> at 3-25, where I could send to meet you.<ref target="#foot.f3"/></p>
+<p>I find that if the type be cut off from the sport, the sap of the type causes the oval grapes of the sport to be spherical for one year, but not afterwards.</p>
+<p>believe me | Y<hi rend="superscript">rs</hi> Faithfully | S Newington.</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The enclosure has not been found, but was a description of an apparent duck–fowl hybrid (see the <ref target="./DCP-LETT-10294.xml" resp="#mjhawkins">letter from Samuel Newington, 10 December 1875</ref>).</note>
+            <note xml:id="foot.f2">Black Hamburgh and Madresfield are varieties of <hi rend="italic">Vitis vinifera</hi> (the wine grape). Newington is using ‘sport’ in the sense of ‘scion’, and ‘type’ in the sense of ‘stock’.</note>
+            <note xml:id="foot.f3">Wadhurst in Sussex was about three miles from Newington’s residence in Ticehurst.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

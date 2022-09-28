@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3435">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Henry Holland   [1 or 8 February 1862]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14349</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3435 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3435.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3435.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 166.2: 235</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>166: 235</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2337.xml">Holland, Henry</persName>
+                <placeName>London, Brook St</placeName>
+            <date xml:id="date1" when="1862-02-01" exclude="#date2">1 Feb 1862</date>
+            <date xml:id="date2" when="1862-02-08" exclude="#date1">8 Feb 1862</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Suggests a change in the postscript [referred to in <hi rend="doubleUnderline">3423</hi>].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="b" ref="#">3423</term>
+                <term type="it" ref="#">Essays on scientific and other subjects</term>
+                <term type="rx" ref="#">Holland, Henry 1862</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>2 Brook Street</placeName>
+                    <date>Saturday</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Thank you cordially for your letter.<ref target="#foot.f2"/> While thus kindly acquiescing in what I have written, I fancy I see that you are not quite satisfied with my mode of using the word <hi rend="underline">path</hi>—<ref target="#foot.f3"/> This then I will change, &amp; in some such fashion as follows</p>
+<p>“This must be considered a new path of research in the great field of Life; &amp; one which, steadily pursued by exact &amp; patient observation, cannot fail of conducting to many important results. It is certain that some future revision &amp; reform will be required, of all existing catalogues of species &amp; genera.— How far this may carry us is yet doubtful,” &amp;c</p>
+<p>I write, as you will see, in great haste to secure the post, &amp; put down the above lines as suggested to me while writing them. But something like these words I shall take instead of the other sentences of which I before sent you.</p>
+<p>Ever yours affect<hi rend="superscript">ly</hi> | H Holland</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The possible dates are conjectured by the relationship to the <ref target="./DCP-LETT-3423.xml" resp="#mjhawkins">letter from Henry Holland, 30 January [1862]</ref> (see also n. 2, below).</note>
+            <note xml:id="foot.f2">CD’s letter in response to the <ref target="./DCP-LETT-3423.xml" resp="#mjhawkins">letter from Henry Holland, 30 January [1862]</ref>, has not been found. Holland had asked CD to comment on a postscript he had written to one of the essays that he was preparing to republish as a collection (<ref target="../bibliographies/bibl_3735.xml" resp="#mjhawkins">Holland 1862</ref>), since it contained a discussion of CD’s work.</note>
+            <note xml:id="foot.f3">Holland refers to the enclosure sent with the <ref target="./DCP-LETT-3423.xml" resp="#mjhawkins">letter from Henry Holland, 30 January [1862]</ref>; the enclosure has not been found, but the published note has been reproduced with that letter.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-555" status="released">
+    <persName>
+        <forename>John</forename>
+        <forename>Thomas</forename>
+        <forename>Irvine</forename>
+        <forename>Boswell</forename>
+        <choice>
+            <seg><surname notBefore="1822" notAfter="1868">Syme</surname></seg>
+            <seg><surname notBefore="1868" notAfter="1875">Boswell-Syme</surname></seg>
+            <seg><surname notBefore="1875" notAfter="1888">Boswell</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1822–88</date></note>
+    <sex value="M"/>
+    <note type="biography">
+        <p>Scottish botanist. Curator of the Botanical Society, Edinburgh, 1850.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_1985.xml" resp="#mjhawkins">R. Desmond 1994</ref></p>
+        <p><ref target="../bibliographies/bibl_5514.xml" resp="#mjhawkins"><hi rend="italic">Modern English biography</hi></ref></p>
+        <p><ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref></p>
+    </note>
+    <note type="volume">5,6,7,23</note>
+    <note type="keywords">
+        <term type="societal">Botanical Society, Edinburgh </term>
+        <term type="place">Edinburgh</term>
+        <term type="nationality">Scottish</term>
+        <term type="a">botanist</term>
+    </note>
+    
+</person>

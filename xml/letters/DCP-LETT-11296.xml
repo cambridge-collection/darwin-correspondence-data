@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11296">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From H. E. Stanley to James Torbitt   29 December 1877</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14582</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11296 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11296.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11296.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 177: 245</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>177: 245</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_8174.xml">Stanley, H. E. J.</persName>
+                <placeName>Alderley Park</placeName>
+                <date when="1877-12-29">29 Dec 1877</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4777.xml">Torbitt, James</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Reports on potatoes grown from Torbitt’s seed.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">potatoes</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">seeds</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Alderley Park</placeName>
+                    <date>Dec<hi rend="superscript">r</hi>. 29/77</date>
+                    <salute>Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>in reply to your letter inquiring as to the result of the potatoe seed you sent to me in 1876, I find that potatoes raised this year from seedlings grown from your seed sown last year, are of a good size and have kept sound up to this date, whilst the ordinary potatoes about here had begun early to become unsound.<ref target="#foot.f1"/></p>
+<p>yours obediently | Stanley</p> 
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">Torbitt had sent CD a packet of potato seeds in April 1876, together with his pamphlet on potato blight. Torbitt also sent his pamphlet and seeds to all the members of both houses of Parliament (Stanley was in the House of Lords) as well as to landowners in Ulster (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 24, <ref target="./DCP-LETT-10440.xml" resp="#mjhawkins">letter to James Torbitt, 4 April 1876</ref>, and <ref target="../bibliographies/bibl_9032.xml" resp="#mjhawkins">Torbitt 1876</ref>). Stanley evidently tested these seeds on his Alderley estate in Cheshire. No covering letter from Torbitt to CD has been found. For more on Torbitt’s research and CD’s interest, see <ref target="../bibliographies/bibl_9034.xml" resp="#mjhawkins">DeArce 2008</ref>.</note>
+        </div>  
+      
+    </body>
+    </text>
+</TEI>

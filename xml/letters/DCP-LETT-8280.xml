@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8280">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To William Bowman   8 April [1872]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6035</idno>
+            
+            
+            
+            
+            <date when="2013">2013</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8280 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8280.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8280.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="20">20</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 143: 138, DAR 249: 10</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Sir John Paget Bowman (private collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_58.xml">Bowman, Sir John Paget</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1872-04-08">8 Apr [1872]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_571.xml">Bowman, William</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks to borrow "Sölberg Wells, Treatise on the Diseases of the Eye 1869" referred to by F. C. Donders.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1354">Donders, F. C.</term>
+                <term type="people" ref="#subject_5057">Wells, J. S.</term>
+                <term type="scientific_terms" ref="#">pathology, disease</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent</hi>.</placeName>
+                    <date>Ap. 8<hi rend="superscript">th</hi></date>
+                    <salute>My dear Bowman</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Donders in describing the movement of the eye in meditation refers me to “Sölberg Wells, Treatise on the Diseases of the Eye 1869;” &amp; says that perhaps you could lend it me.—<ref target="#foot.f2"/> If you could spare it for only 2 or 3 days it would be quite sufficient. Can you do so? I suppose that it is a large book, as he refers to p. <hi rend="underline">548</hi>.; so, it had better be sent (if you can send it) to</p> 
+<figure type="diagram"> 
+<p>C. Darwin</p>
+<p>Orpington Station</p>
+<p>Kent</p>
+<p>South Eastern</p>
+<p>Railway.</p> </figure> 
+<p>Believe me, my dear Bowman | Yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.5 (if…it)]<hi rend="italic">parentheses over commas</hi> </note>
+                <note xml:id="tnote.n2">1.9 South…Railway. 1.10]<hi rend="italic">added</hi> </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-8266.xml" resp="#mjhawkins">letter from F. C. Donders, 1 April 1872</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-8266.xml" resp="#mjhawkins">letter from F. C. Donders, 1 April 1872</ref> and n. 3. CD refers to <ref target="../nameregs/nameregs_5057.xml" resp="#mjhawkins">John Soelberg Wells</ref> and <ref target="../bibliographies/bibl_8278.xml" resp="#mjhawkins">Wells 1869</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

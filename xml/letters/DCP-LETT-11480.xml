@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11480">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Henry Potonié   20 April 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13591</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11480 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11480.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11480.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Copy</note>
+            <note type="physdesc" n="C">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 147: 249a</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>147: 249a</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1878-04-20">20 Apr 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3831.xml">Potonié, Henry</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks for information [about early evolutionary views of Alexander Braun].</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_595">Braun, A. C. H.</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+                <term type="scientific_terms" ref="#">transmutation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>April 20<hi rend="superscript">th</hi> 1878</placeName>
+                <salute>Dear Sir</salute>
+                    </opener>
+                <div type="transcription">
+                    <p>I am much obliged for your couteous letter.—<ref target="#foot.f1"/></p>
+                    <p>The views of your great Botanist was unknown to me.<ref target="#foot.f2"/> Should I again correct the “Origin” I will introduce the case; but the book is stereotyped, I do not at present intend again to alter it, as I think that I can employ my little remaining strugle best by endeavouring to do some new work.—<ref target="#foot.f3"/></p>
+<p>I remain Dear Sir your faithfully obliged | Chas. Darwin. <lb resp="#mjhawkins"/></p>
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-11476.xml" resp="#mjhawkins">letter from Henry Potonié, 16 April 1878</ref>.</note>
+            <note xml:id="foot.f2">Potonié had suggested that CD’s historical introduction to <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref> might include <ref target="../nameregs/nameregs_595.xml" resp="#mjhawkins">Alexander Carl Heinrich Braun</ref>, whose work, in Potonié’s opinion, had drawn attention to the common descent of species (<ref target="./DCP-LETT-11476.xml" resp="#mjhawkins">letter from Henry Potonié, 16 April 1878</ref> and n. 2).</note>
+            <note xml:id="foot.f3">CD did not introduce any further substantial changes into the text of <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref> (<ref target="../bibliographies/bibl_2661.xml" resp="#mjhawkins">Freeman 1977</ref>, pp. 80–1).</note>
+        </div>   
+       
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1369">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Robert Fitch   11 November [1850]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3482</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1369 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1369.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1369.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <relatedItem type="publication">
+                <bibl>Trenn (1974): 485</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 4: 367</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Norwich Castle</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_298.xml">Norwich Castle</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1850-11-11">11 Nov [1850]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1642.xml">Fitch, Robert</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Describes progress in illustrating fossil cirripede specimens by J. de C. Sowerby.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">cirripedes</term>
+                <term type="people" ref="#subject_4481">Sowerby, J. C.</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Nov. 11<hi rend="superscript">th</hi>.—</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I am very much obliged for your kind note. By the same Post, there came in answer to my letter of complaint to M<hi rend="superscript">r</hi> Sowerby one of 5 Plates perfect, full of drawings of your specimens.— He assures me he will make as much progress as possible &amp; that one chief cause of the delay has been that his house has been pulled down in the Botanic Gardens.—</p>
+<p>I will again write to him &amp; tell him that you will very soon demand back your specimens whether finished or not.— M<hi rend="superscript">r</hi>. S. is by no means the only Engraver employed by the Pal. Soc.— I did not know how dreadfully dilatory he was, when I picked him out as most capable of doing the work well.—<ref target="#foot.f1"/></p>
+<p>I thank you much for the present of the pamphlet;<ref target="#foot.f2"/> I wish that I was more worthy to receive it—</p>
+<p>Yours sincerely | C. Darwin</p>
+<p>I beg to thank you <hi rend="underline">most particularly</hi> for your further offer of more specimens, but I really stand in no need of any others.—</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 perfect,] <hi rend="italic">comma over full stop</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD employed <ref target="../nameregs/nameregs_4479.xml" resp="#mjhawkins">George Brettingham Sowerby Jr</ref>, nephew of <ref target="../nameregs/nameregs_4481.xml" resp="#mjhawkins">James de Carle Sowerby</ref>, to do the drawings for the remaining volumes of the Cirripedia monograph, <ref target="../bibliographies/bibl_4837.xml" resp="#mjhawkins"><hi rend="italic">Living Cirripedia</hi> (1851)</ref>, <ref target="../bibliographies/bibl_4838.xml" resp="#mjhawkins"><hi rend="italic">Living Cirripedia</hi> (1854)</ref>, <ref target="../bibliographies/bibl_2622.xml" resp="#mjhawkins"><hi rend="italic">Fossil Cirripedia</hi> (1854)</ref>.</note>
+            <note xml:id="foot.f2">Possibly <ref target="../bibliographies/bibl_2527.xml" resp="#mjhawkins">Fitch 1847</ref>, published by the Norfolk and Norwich Archaeological Society, of which Fitch was an active member.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

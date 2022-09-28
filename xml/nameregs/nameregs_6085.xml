@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-6085" status="released">
+    <persName>
+        <forename>Anna</forename>
+        <forename>Vasilyevna</forename>
+        <choice>
+            <seg><surname notBefore="1843" notAfter="1871">Korvin-Krukovskaya</surname></seg>
+            <seg><surname notBefore="1871" notAfter="1887">Jaclard</surname></seg>
+        </choice>
+    </persName>
+        <persName type="additional" subtype="nickname" xml:lang="ru">
+            <forename>Анна</forename>
+            <forename>Васильевна</forename>
+            <surname>Корвин-Круковская</surname>           
+        </persName>   
+    <note type="dates"><date>1843–87</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Russian writer and revolutionary. Sister of Sofia Vasilyevna Kovalevskaya. One of her novels was published by Dostoyevsky. Worked for a publisher in Paris, 1867. Fled to Switzerland with the French communist Victor Jaclard in 1870; married him in 1871. Joined the Russian section of the Internationale. Returned to Paris and worked in the Commune in education and medical services. Co-founded the journal <hi rend="italic">La Social.</hi> Fled to Switzerland in 1872 with her husband, after they were both condemned to forced labour. Went to Russia in 1874. Returned to Paris in 1880 after being pardoned.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_1892.xml" resp="#mjhawkins"><hi rend="italic">DBF</hi></ref></p>
+        <p><ref target="../bibliographies/bibl_4414.xml" resp="#mjhawkins">Koblitz 1983</ref>.</p>
+    </note>
+    <note type="volume">18,19</note>
+</person>

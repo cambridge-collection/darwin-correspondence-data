@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7335">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Robert Main   6 October 1870</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">384</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7335 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7335.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7335.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Copy</note>
+            <note type="physdesc" n="C">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.384)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>384</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1870-10-06">6 Oct 1870</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3131.xml">Main, Robert</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Regrets he is unable to correct his "little manual" ["Geology" in <hi rend="italic">Manual of scientific enquiry</hi> (1849)]. Recommends that John Phillips revise it.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Manual of scientific enquiry</term>
+                <term type="people" ref="#subject_3773">Phillips, John</term>
+                <term type="rx" ref="#">Herschel, J. F. W. 1849</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">geology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Beckenham | Kent S.C.<ref target="#foot.f1"/></placeName>
+                    <date>Octr 6. 1870</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I regret much that I am unable to correct my little Manual.<ref target="#foot.f2"/> I have lately been unwell from over-work, &amp; I am going to leave home immediately for a complete rest.<ref target="#foot.f3"/></p>
+<p>On my return I must go on correcting the proofs of a work now on hand,<ref target="#foot.f4"/> &amp; I really feel incapable of undertaking any other task. Could you ask Professor Phillips to give you a list of books in addition to the few mentioned by me, &amp; perhaps you would persuade him to read over my essay &amp; append to it his own name, some additional suggestions.<ref target="#foot.f5"/></p>
+<p>As I have not attended much to geology lately, such suggestions would be immeasurably better than any which I could add.</p>
+<p>Pray believe me dear Sir | Yours very faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">S.C.: copyist’s error for ‘S.E.’</note>
+            <note xml:id="foot.f2">CD refers to his essay ‘Geology’, first published in <hi rend="italic">A manual of scientific enquiry; prepared for the use of Her Majesty’s Navy: and adapted for travellers in general</hi> (Herschel ed. 1849, pp. 156–95). John William Frederick Herschel published a second edition (Herschel ed. 1851), and <ref target="../nameregs/nameregs_3131.xml" resp="#mjhawkins">Robert Main</ref> had superintended a third edition (Main ed. 1859; see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 7, <ref target="./DCP-LETT-2477A.xml" resp="#mjhawkins">letter to Robert Main, 27 July [1859]</ref>).</note>
+            <note xml:id="foot.f3">CD was away from home from 13 to 20 October 1870 (see ‘Journal’ (Appendix II)).</note>
+            <note xml:id="foot.f4">CD refers to <hi rend="italic">Descent.</hi></note>
+            <note xml:id="foot.f5">John Phillips, professor of geology at Oxford University, revised CD’s article in Main ed. 1871, pp. 248–75 (the fourth edition of the <hi rend="italic">Manual of scientific enquiry</hi>; see Main ed. 1871, p. 248).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

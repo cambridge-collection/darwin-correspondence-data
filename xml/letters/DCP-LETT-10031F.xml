@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10031F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Mr Russell   26 June [1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20962</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10031F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10031F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10031F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Nate’s Autographs (dealer) (January 1995)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_284.xml">Nate’s Autographs</repository>
+                    <idno>1995.01.00</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Abinger Hall Down letterhead</placeName>
+                <date when="1875-06-26">26 June [1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_7811.xml">Russell, Mr</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Is sorry his correspondent has had so much trouble about his address. Suggests he send the book from R. D. Fitzgerald [<hi rend="italic">Australian orchids</hi>, vol. 1 (1875–82)] either by post or by rail.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Australian orchids</term>
+                <term type="rx" ref="#">Fitzgerald, R. D. 1875–1882</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>
+                        <seg><hi rend="print">Down, | Beckenham, Kent.</hi> | (<hi rend="print">Railway Station |</hi>
+                        <hi rend="print">Orpington. S.E.R.</hi>)</seg> <seg>[Abinger Hall, Surrey.]</seg>
+                    </placeName>
+                    <date>June 26<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very sorry that you have had so much trouble about my address.— My house is seven miles from Beckenham in an out of the way place, &amp; I have been &amp; am still absent from my home— I would suggest you sending the book, which M<hi rend="superscript">r</hi> Fitzgerald has been so kind as to send to me, either by post or Railway to me, &amp; after I have seen it, will write to M<hi rend="superscript">r</hi>. Fitzgerald.<ref target="#foot.f2"/></p>
+<p>Pray accept my thanks &amp; I remain Dear Sir | Yours Faithfully | Ch. Darwin.</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 (<hi rend="italic">Railway … S.E.R.</hi>)] <hi rend="italic">parentheses added</hi> </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-10061A.xml" resp="#mjhawkins">letter to Mr Russell, 12 July 1875</ref>. The correspondent is referred to as ‘<ref target="../nameregs/nameregs_7811.xml" resp="#mjhawkins">Mr Russell</ref>’ in the <ref target="./DCP-LETT-10069.xml" resp="#mjhawkins">letter to R. D. Fitzgerald, 16 July 1875</ref>. He has not been further identified.</note>
+            <note xml:id="foot.f2">The book was the first part of <ref target="../nameregs/nameregs_1652.xml" resp="#mjhawkins">Robert David Fitzgerald’s</ref> <hi rend="italic">Australian orchids</hi> (<ref target="../bibliographies/bibl_8668.xml" resp="#mjhawkins">Fitzgerald 1875–94</ref>; see <ref target="./DCP-LETT-10061A.xml" resp="#mjhawkins">letter to Mr Russell, 12 July 1875</ref>). Fitzgerald had evidently asked Russell to give a copy of it to CD.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

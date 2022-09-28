@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11143">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. V. Carus   16 September [1877]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7399</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11143 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11143.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11143.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Staatsbibliothek zu Berlin – Preußischer Kulturbesitz (Slg. Darmstaedter Lc 1859: Darwin, Charles, Bl. 168–169)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_379.xml">SB zu Berlin - Preußischer KB</repository>
+                    <collection>Slg. Darmstaedter</collection>
+                    <idno>Lc 1859: Darwin, Charles, Bl. 168–9</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1877-09-16">16 Sept [1877]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_849.xml">Carus, J. V.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks JVC for correcting a bad blunder in <hi rend="italic">Forms of flowers</hi>.</p> 
+            <p>His health fairly good; has been able to work "pretty hard".</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin himself, good or improving</term>
+                <term type="it" ref="#">Forms of flowers</term>
+                <term type="scientific_terms" ref="#">dimorphism</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">type and morphology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Sept. 16<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Very many thanks for the errata.<ref target="#foot.f2"/> That at p. 205 of “shortest” instead of “mid-length” is a dreadful one.</p>
+<p>Originally I wrote “longer” &amp; “shorter” stamens in each flower &amp; afterwards changed to the 3 terms, of “shortest” “mid-length” &amp; “longest”; &amp; it is clear that I omitted to correct the heading of the table.—<ref target="#foot.f3"/></p>
+<p>I cannot give actual measurements, though, as you say, it would have been far better: I was hurried &amp; so was my son, &amp; we thought relative size was alone of importance.<ref target="#foot.f4"/></p>
+                    <p>I had intended (but it seems that I forgot) to send you a perfect copy, &amp; will now write to Publisher to do so.— The book has been published a few weeks ago.—<ref target="#foot.f5"/></p>
+<p>I am heartily glad that you are better.<ref target="#foot.f6"/> I can give a fairly good account of myself, &amp; have been able to work pretty hard.—</p>
+<p>My dear Sir | Yours sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">2.1 “longer”] <hi rend="italic">after del</hi> ‘of’ </note>
+                <note xml:id="tnote.n2">4.1 (but … forgot)] <hi rend="italic">parentheses over commas</hi></note>
+                <note xml:id="tnote.n3">4.1 now] <hi rend="italic">interl</hi> </note>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-11136.xml" resp="#mjhawkins">letter from J. V. Carus, 13 September 1877</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-11136.xml" resp="#mjhawkins">letter from J. V. Carus, 13 September 1877</ref>. Carus had sent corrections to <ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref>, which he was translating into German.</note>
+<note xml:id="foot.f3">See <ref target="./DCP-LETT-11136.xml" resp="#mjhawkins">letter from J. V. Carus, 13 September 1877</ref> and n. 2. Carus had queried the heading of the table that was published as ‘Illegitimate Plants raised from Short-styled Parents fertilised with pollen from own-form shortest stamens’ (<ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref>, p. 205).</note>
+            <note xml:id="foot.f4">In his <ref target="./DCP-LETT-11136.xml">letter of 13 September 1877</ref>, Carus had asked for the unit of calibration of the micrometer used to measure relative diameters of pollen-grains in <ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref>. The measurements were made by <ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin</ref> (<ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref>, p. 186).</note>
+            <note xml:id="foot.f5"><ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref> was published by John Murray on 9 July 1877 (<ref target="../bibliographies/bibl_2661.xml" resp="#mjhawkins">Freeman 1977</ref>). Carus’s name is on CD’s presentation list for the book, but is deleted; he had been sent proof-sheets (see Appendix IV, and <ref target="./DCP-LETT-11005.xml" resp="#mjhawkins">letter to J. V. Carus, 17 June [1877]</ref>).</note>
+            <note xml:id="foot.f6">Carus suffered from bronchial problems (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 24, <ref target="./DCP-LETT-10419.xml" resp="#mjhawkins">letter from J. V. Carus, 19 March 1876</ref> and n. 4.)</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

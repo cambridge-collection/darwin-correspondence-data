@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1416">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To E. A. Darwin   [25 April 1851]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">2721</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1416 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1416.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1416.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">V&amp;A / Wedgwood Collection (MS W/M 310)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_429.xml">V&amp;A / Wedgwood Collection</repository>
+                    <idno>(MS W/M 310)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1851-04-25">[25 Apr 1851]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1211.xml">Darwin, E. A.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Writes about the death of Anne. Wishes EAD to insert an announcement of the death in the newspapers.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin family</term>
+                <term type="people" ref="#subject_1203">Darwin, A. E.</term>
+                <term type="social" ref="#">Darwin family</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down.</placeName>
+                    <date>Friday</date>
+                    <salute>My dear Erasmus.</salute>
+                </opener>
+                <div type="transcription">
+<p>Will you be so kind as to get inserted as follows in Times &amp; in any other one or two Papers of largest circulation. “At Malvern on the 23<hi rend="superscript">d</hi> inst; of Fever, Anne Elizabeth Darwin, aged ten years, eldest daughter of Charles Darwin Es<hi rend="superscript">q</hi>. of Down Kent.”—</p>
+<p>I have no idea whether men who supply newspaper insert these, if so Swale<ref target="#foot.f1"/> I employ &amp; w<hi rend="superscript">d</hi>. of course have written to him.—</p>
+<p>I will pay for this &amp; Electric Telegraph together.—</p>
+<p>—Poor Emma is well bodily &amp; very firm, but feels bitterly &amp; God knows we can neither see on any side a gleam of comfort.—</p>
+<p>Fannys sweetness, firmness, constancy &amp; experience were of inexpressible comfort to me at Malvern, &amp; to the last day of my life it will be a comfort to me to think of the tears she so tenderly wept over our poor dear child, when all was over.</p>
+<p>My dear Erasmus | Yours affect<hi rend="superscript">y</hi> | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.3 aged] <hi rend="italic">after del</hi> ‘eldest’</note>
+                    <note xml:id="tnote.n2">3.1 together] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n3">4.2 comfort] ‘t’ <hi rend="italic">over illeg</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">In 1851 the firm was known as <ref target="../nameregs/nameregs_4634.xml" resp="#mjhawkins">Swale and Wilson</ref>, publishers, general stationers, and news-vendors, of 21 Great Russell Street, London (<ref target="../bibliographies/bibl_6380.xml" resp="#mjhawkins"><hi rend="italic">Post Office London directory</hi></ref> 1851).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

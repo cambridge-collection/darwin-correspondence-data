@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9318">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Lubbock   27 February 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6878A</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9318 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9318.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9318.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc">ADraft 1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 261.7: 8 (EH 88205933)<ref target="#foot.f3"/> </bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>261. 7: 8b</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3026.xml">Lubbock, John</persName>
+                <placeName>High Elms</placeName>
+                <date when="1874-02-27">27 Feb 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>The land CD wants to buy probably belongs to his marriage-settlement and would thus be difficult to sell.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="places" ref="#">Lubbock, John’s land</term>
+                <term type="social" ref="#">Other people</term>
+                <term type="societal" ref="#">marriage settlement</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>High Elms.</placeName>
+                    <date>27<hi rend="superscript">th</hi>. Feb. 1874.</date>
+                    <seg type="supplemental">Private.</seg>
+                    <salute>My dear M<hi rend="superscript">r</hi>. Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I should have been very glad to meet your wishes by selling you the bit of land you wish for, but I am afraid, nay almost certain, that it is one of those included in my marriage settlements, in which case it would be difficult to deal with it till Johnnie is of age.<ref target="#foot.f1"/> However I enclose my note to M<hi rend="superscript">r</hi>. Denby<ref target="#foot.f2"/> (of 8 Frederick’s P<hi rend="superscript">lce</hi>. Old Jewry) in case you think it worth while to make quite certain. I have also been buying some accomodation land: unfortunately for me I want more than you do.</p>
+<p>yours most sincerely High Elms. Feb 27<hi rend="superscript">th</hi>/74.</p>
+<p rend="left">Dear M<hi rend="superscript">r</hi>. Denby,</p>
+<p>Will you please give M<hi rend="superscript">r</hi>. Darwin the information he wishes for with reference to the piece of land he rents of me.</p>
+<p>I am yours very truly</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had asked to buy a piece of wooded land, including the famous sandwalk, that he rented from Lubbock (see <ref target="./DCP-LETT-9310.xml" resp="#mjhawkins">letter to John Lubbock, 23 February 1874</ref>). <ref target="../nameregs/nameregs_7307.xml" resp="#mjhawkins">John Birkbeck Lubbock</ref> (who turned 16 in 1874) was Lubbock’s eldest son.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_5512.xml" resp="#mjhawkins">Thomas William Denby</ref> was Lubbock’s solicitor.</note>
+            <note xml:id="foot.f3">Lubbock wrote his reply and the note to Denby at the foot of CD’s letter to him of 23 February 1874.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

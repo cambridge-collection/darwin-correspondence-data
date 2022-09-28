@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1617">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To C. J. F. Bunbury   [before 9 May 1856]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19597</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1617 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1617.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1617.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc">AmemS 2pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 73: 159</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>73: 159</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1809-01-01" notAfter="1856-05-08">[before 9 May 1856]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_722.xml">Bunbury, C. J. F.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Adds comments to a list of Cape of Good Hope plants which are also European and gives some additions to the list [see <hi rend="italic">Natural selection</hi>, p. 552].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Natural selection</term>
+                <term type="places" ref="#">Cape of Good Hope</term>
+                <term type="places" ref="#">Europe</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+<p>List of Plants, common to Europe, observed by Meyer in Drége’s Cape collection: Flora B. 2. 1843. “Zwei pflanzengeograph. Documente.” s. 9.<ref target="#foot.f2"/></p>
+<p>N. Certainly or probably naturalised by man’s intervention.</p>
+<p>A. Aquatic or Marsh Plants.</p>
+<p>S sea-side Plants</p>
+<p>(?) Plants of which M<hi rend="superscript">r</hi> Bunbury knows nothing.</p>
+<p>Those unmarked will be the most striking cases of specific identity with Europe.<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by CD’s reference to a ‘list’ in the <ref target="./DCP-LETT-1871.xml" resp="#mjhawkins">letter to C. J. F. Bunbury, 9 May [1856]</ref>. See also <ref target="./DCP-LETT-1856.xml" resp="#mjhawkins">letter to C. J. F. Bunbury, 21 April [1856]</ref>, in which CD asked for Bunbury’s assistance in comparing the floras of South Africa and Europe.</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_2140.xml" resp="#mjhawkins">Drège 1843</ref> included an introduction by Heinrich Friedrich Meyer.</note>
+            <note xml:id="foot.f3">There follows a list of ninety-six plant species copied by an amanuensis from <ref target="../bibliographies/bibl_2140.xml" resp="#mjhawkins">Drège 1843</ref>. The list has been annotated by Bunbury using the symbols listed by CD. Ten species also have had ‘(S. Am.)’ written next to them by Bunbury. At the bottom of the list, Bunbury added the following comments: <quote> I have added the mark (S. Am.) to those which I know to be found also in South America.— CB. Addenda to the above list. CB. Typha latifolia—A. Polypogon Monspeliensis. Lappago racemosa (=Cenchrus racemosus, L. Rubus fruticosus (according to Ecklon &amp; Zeyher, but I will not undertake to answer for its absolute identity with the British plant.)</quote> The reference is to Ecklon and Zeyher 1835–7. The list was also annotated by CD after it was returned by Bunbury. CD referred to this list and to Bunbury’s analysis in <ref target="../bibliographies/bibl_5799.xml" resp="#mjhawkins"><hi rend="italic">Natural selection</hi></ref>, p. 552, where he stated: <quote> Some are littoral plants which may possibly have travelled by the coast; about 14 are aquatic or marsh plants which seem to have, as we have seen, some special means of diffusion; but 30 plants apparently do not come under either of these categories &amp; I should infer (if really not naturalized by man’s agency) had migrated through the tropics during the cold period.</quote></note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

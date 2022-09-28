@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6834">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From W. B. Dawkins   17 July 1869</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14186</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6834 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6834.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6834.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 162: 123</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>162: 123</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1262.xml">Dawkins, W. B.</persName>
+                <placeName>Welshpool</placeName>
+                <date when="1869-07-17">17 July 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>On the genealogy of the horse.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">horse</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Gungrog. | Welsh Pool.</placeName>
+                    <date>17 July 1869</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Your very kind note was forwarded from London here, and reached me this morning.<ref target="#foot.f1"/></p>
+<p>I should very much like to see the bones etc that you have obtained from Ruthin, and would run over to see the fissure, if you could put me in the way of doing so.<ref target="#foot.f2"/> I am staying here for 14 days, after which I return home to</p> 
+<figure type="diagram"> 
+<p>Norman Road, Rusholme, | Manchester, where,</p> </figure> 
+<p rend="left">if you will be kind enough to send the remains, I will try to make out the species.</p>
+<p>That Ruthin district is very interesting, and ought to furnish large numbers of cave-beasts. The Cefn cave contained the rare <hi rend="underline">R. leptorhinus</hi>.<ref target="#foot.f3"/></p>
+<p>I am delighted to see how fast Geolog. evidence is being discovered in favor of the ‘Development Theory’. This last week, I read a paper of Prof. Owen’s in which three species of S. American “Hippidian” (Ow) fill up in great measure the blank between Horse and Hipparians   This discovery makes Mr. Gaudry’s genealog of Horse very complete.<ref target="#foot.f4"/></p>
+<p>The small sketch of the British mammals, (Pleistocene) is very incomplete: but at some future time I hope to fill it in, and to finish the details.<ref target="#foot.f5"/></p>
+<p>I am | My dear Sir | Yours truly | W. Boyd Dawkins <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin Esq. F.R.S</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD’s letter to Dawkins has not been found.</note>
+            <note xml:id="foot.f2">Dawkins refers to prehistoric bones that had been collected from a cave near Corwen in the hills south of the town of Ruthin in Wales and given to CD (for more on CD’s acquisition of the bones, see <ref target="../bibliographies/bibl_4966.xml" resp="#mjhawkins">Lucas 2007</ref>, pp. 325–6).</note>
+            <note xml:id="foot.f3">Cefn cave is one of a group of Palaeolithic and later caves in the lower Elwy valley near Denbigh. Dawkins had written a paper on the dentition of <hi rend="italic">Rhinoceros leptorhinus</hi> (Dawkins 1867).</note>
+            <note xml:id="foot.f4">In his paper ‘On fossil remains of equines from Central and South America’ (<ref target="../bibliographies/bibl_6114.xml" resp="#mjhawkins">Owen 1869</ref>), <ref target="../nameregs/nameregs_3629.xml" resp="#mjhawkins">Richard Owen</ref> proposed the group name ‘Hippidion’ for three species of extinct American horses (<ref target="../bibliographies/bibl_6114.xml" resp="#mjhawkins">Owen 1869</ref>, p. 572). ‘Hipparion’ was a group of extinct old-world horses. <ref target="../nameregs/nameregs_1829.xml" resp="#mjhawkins">Albert Gaudry</ref> had discussed the group in ‘Sur les Hipparions’ (<ref target="../bibliographies/bibl_2749.xml" resp="#mjhawkins">Gaudry 1865</ref>).</note>
+            <note xml:id="foot.f5">Dawkins refers to Dawkins and Sanford 1866–72.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

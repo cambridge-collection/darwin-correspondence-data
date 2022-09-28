@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7732">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From C. H. Brett   1 May 1871</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16306</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7732 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7732.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7732.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 90: 74</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>90: 74</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_612.xml">Brett, C. H.</persName>
+                <placeName>Belfast</placeName>
+                <date when="1871-05-01">1 May 1871</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Corrects <hi rend="italic">Descent</hi>: snipes do breed in Ireland.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">snipes</term>
+                <term type="it" ref="#">Descent</term>
+                <term type="places" ref="#">Ireland</term>
+                <term type="scientific_terms" ref="#">breeding behaviour</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">sexual selection</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00090-000-00152_files/8/0_0.jpg" width="3450px" height="6560px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00090-000-00152_files/11/1_1.jpg" width="3450px" height="6560px"/>
+        <surface xml:id="i1" n="74r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00090-000-00152.jpg" rend="portrait" width="3450px" height="6560px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00090-000-00152_files/8/0_0.jpg" width="3450px" height="6560px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00090-000-00152.dzi" width="3450px" height="6560px"/>
+        </surface>
+</facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">6, Chichester Street, | Belfast.</hi></placeName>
+                    <date>1, May 1871</date>
+                    <salute>Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>In y<hi rend="superscript">r</hi>. “Descent of man” Vol. 1 p. 260 you say “Snipes do not breed here”. Excuse me observing that they certainly do breed in Ireland for I have frequently found their nests.<ref target="#foot.f1"/></p>
+<p>Your obed<hi rend="superscript">t</hi>. serv<hi rend="superscript">t</hi>. (&amp; instructed disciple) | Cha<hi rend="superscript">s</hi>. H. Brett <lb resp="#mjhawkins"/></p>
+<p rend="left">Cha<hi rend="superscript">s</hi>. Darwin Esq: | M.D.</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note><hi rend="italic">Top of letter</hi>: ‘I ought to say do not <hi rend="doubleUnderline">habitually</hi> breed here’ <hi rend="italic">pencil</hi></note>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD removed this sentence (which first appeared in the second printing of the first edition of <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref>) in the second edition of <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> (see <hi rend="italic">Decent</hi> 2d ed., p. 212). On the breeding habits of the common snipe (<hi rend="italic">Gallinago gallinago</hi>), see Holloway comp. 1996, p. 184.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

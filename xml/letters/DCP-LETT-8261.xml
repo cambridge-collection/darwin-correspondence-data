@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8261">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From J. D. Hooker to Charles Lyell   30 March 1872</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">4715</idno>
+            
+            
+            
+            
+            <date when="2013">2013</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8261 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8261.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8261.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="20">20</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 103: 107–8</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>103: 107–8</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2357.xml">Hooker, J. D.</persName>
+                <placeName>Kew</placeName>
+                <date when="1872-03-30">30 Mar 1872</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3051.xml">Lyell, Charles</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends, for signature, a statement approving change in rules of the Leopoldino Academy [Dresden] to be forwarded to CD to sign.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1">Darwin, C. R.</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">Leopoldino Academy, Dresden</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Royal Gardens Kew</hi></placeName>
+                    <date>March 30 /72</date>
+                    <salute>My dear Lyell</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Prof Braun of Berlin has urged me to procure signatures to the enclosed approval of the new rules for the Leopold: Acad:<ref target="#foot.f1"/></p>
+<p>Braun is so sound &amp; good a man that I have no hesitation in signing a similar copy to that enclosed, &amp; returning it as addressed.</p>
+<p>If you do not object to sign enclosed copy, please do so, &amp; forward it with this note</p>
+<p>its to C. Darwin to sign, who will post the paper to Dresden as addressed<ref target="#foot.f2"/></p>
+<p>Ever yrs | Jos D Hooker</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Hooker refers to the Academia Caesarea Leopoldino-Carolina Germanica Naturae Curiosorum (the German academy of sciences), known as Leopoldina. The new rules were introduced in order to establish a permanent home for the academy, which, since its inception, had moved its location to wherever the current president was based. As part of the reorganisation, in 1872 the new post of deputy (<hi rend="italic">Stellvertreter</hi>) was created and <ref target="../nameregs/nameregs_595.xml" resp="#mjhawkins">Alexander Carl Heinrich Braun</ref> was chosen for the post (see Berg und Kaasch 2010).</note>
+            <note xml:id="foot.f2">CD became a member of Leopoldina in 1857; it was the first foreign society to elect CD to membership (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 6, letter to Secretary, Academia Caesarea Leopoldino-Carolina, 8 September [1857] and n. 2).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

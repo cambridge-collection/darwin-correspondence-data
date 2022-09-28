@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10265">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Murray   19 November [1875]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9084</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10265 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10265.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10265.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="endorsement" subtype="letter">1875</note>
+            <note type="physdesc" n="ALS">2pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 210.11: 3</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>210.11: 3</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+                <placeName>London, Albemarle St, 50</placeName>
+                <date when="1875-11-19">19 Nov [1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Report on sales of <hi rend="italic">Origin</hi>, <hi rend="italic">Insectivorous plants</hi>, and <hi rend="italic">Climbing plants</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="it" ref="#">Origin</term>
+                <term type="scientific_terms" ref="#">movements and habits of plants</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">50, Albemarle S<hi rend="superscript">t</hi>. | W.</hi></placeName>
+                    <date>Nov<hi rend="superscript">r</hi> 19</date>
+                    <salute>My Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>The sale of your work has been going on so prosperously &amp; I have made so much way with the Editions that it is time I sh<hi rend="superscript">d</hi> arrange with you for payments wch I propose to do in the manner following. For</p> 
+
+    <table>
+        <row>
+            <cell>1500</cell>
+            <cell rend="left">Origin of Species</cell>
+            <cell rend="left">£130"—</cell>
+        </row>
+        <row>
+            <cell>3000</cell>
+            <cell rend="left">Insectivorous Plants</cell>
+            <cell rend="left">560"—</cell>
+        </row>
+        <row>
+            <cell>1500</cell>
+            <cell rend="left">Climbing Plants</cell>
+            <cell rend="left">63"—<ref target="#foot.f1"/></cell>
+        </row>
+    </table>
+ 
+<p>If you consider this equitable I will forward at once cheques for above amounts.</p>
+<p>We have still copies on hand of all the works. Of Climbing Plants 300, but I think we might print of 500 more before distributing the type. Your two corrections shall be mad<ref target="#foot.f2"/></p>
+<p>I am My Dear Sir | yours very faithfully | John Murray <lb resp="#mjhawkins"/></p>
+<p rend="left">Chas Darwin Esq</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note>1.6 63"—] <hi rend="italic">underl</hi>; ‘753’ <hi rend="italic"> added below, ink</hi></note>
+                <note>3.1 Climbing Plants] ‘Climbing Plants’ <hi rend="italic">circled and line to</hi> ‘Insectivorous’ <hi rend="italic">ink</hi></note>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The figures are the number of copies printed of <ref target="../bibliographies/bibl_6019.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 6th ed.</ref>, <ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref>, and <ref target="../bibliographies/bibl_1458.xml" resp="#mjhawkins"><hi rend="italic">Climbing plants</hi> 2d ed.</ref></note>
+            <note xml:id="foot.f2">Murray meant <ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref> rather than <ref target="../bibliographies/bibl_1458.xml" resp="#mjhawkins"><hi rend="italic">Climbing plants</hi> 2d ed.</ref> CD had enclosed an errata slip for a reprinting of <ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref> in his <ref target="./DCP-LETT-10263.xml" resp="#automat" cert="low">letter to Cooke of 17 November 1875)</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

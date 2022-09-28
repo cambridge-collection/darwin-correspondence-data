@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-3476" status="released">
+    <persName>
+        <forename>Frances</forename>
+        <forename>Maria</forename>
+        <choice>
+            <seg><surname notBefore="1792" notAfter="1813">Philips</surname></seg>
+            <seg><surname notBefore="1813" notAfter="1835">Alcock</surname></seg>
+            <seg><surname notBefore="1835" notAfter="1872">Napier</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1792/3–1872</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter and co-heiress of William Philips of Court Henry, Llangathen, Carmarthenshire, Wales. Married Captain Richard Alcock RN (1781–1827) in Deal, Kent, in 1813. Married Charles James Napier in 1835.</p></note>
+    <note type="sources">
+        <p>Census returns of England and Wales 1851 (The National Archives: Public Record Office HO107/1478/188/5)</p>
+        <p><ref target="../bibliographies/bibl_9920.xml">J. Marshall 1823–35</ref>, 4 (pt1): 67–8</p>
+        <p><ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref> s.v. Napier, Charles James</p>
+    </note>
+    <note type="volume">11</note>
+    <note type="keywords">
+        <term type="name">Napier, C. J.</term>
+    </note>
+    
+    
+</person>

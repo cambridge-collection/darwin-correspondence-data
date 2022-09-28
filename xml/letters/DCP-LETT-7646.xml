@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7646">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Anne Barnard   31 March [1871]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">390</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7646 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7646.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7646.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.390)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>390</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml" resp="high">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1871-03-31">31 Mar [1871]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_285.xml" resp="high">Barnard, Anne</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks AHB for her letter about girl with pointed ears.</p>
+            <p>His undying gratitude to her father [J. S. Henslow].</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#">Barnard, A. H.’s father</term>
+                <term type="people" ref="#subject_2235">Henslow, J. S.</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">mind, cognitive behaviour</term>
+                <term type="scientific_terms" ref="#">pathology, disease</term>
+                <term type="scientific_terms" ref="#">physical ‘external’ characters</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down.</hi> | Beckenham | <hi rend="print">Kent. S.E.</hi></placeName>
+                    <date>March 31<hi rend="superscript">st</hi></date>
+                    <salute>My dear M<hi rend="superscript">rs</hi>. Barnard</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very much obliged to you for your kindness in writing to me.<ref target="#foot.f2"/> I had read that the insane (&amp; therefore probably idiots) are apt to have deformed ears, so that I wrote some weeks ago to the Doctor of a large Asylum, asking him to observe about the “points”, but have not as yet received any answer.—<ref target="#foot.f3"/></p>
+<p>It is indeed very many years since we met.— To the last day of my life I shall think of your Father with the deepest respect, and affection, &amp; gratitude for his invariable kindness towards me.<ref target="#foot.f4"/></p>
+<p>Pray believe me | yours truly obliged | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 Beckenham] <hi rend="italic">before del</hi> ‘<hi rend="italic">Bromley.</hi>’ </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-7644.xml" resp="#mjhawkins">letter from Anne Barnard, 30 March 1871</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-7644.xml" resp="#mjhawkins">letter from Anne Barnard, 30 March 1871</ref>.</note>
+            <note xml:id="foot.f3">The doctor has not been identified.</note>
+            <note xml:id="foot.f4">CD refers to <ref target="../nameregs/nameregs_2235.xml" resp="#mjhawkins">John Stevens Henslow</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

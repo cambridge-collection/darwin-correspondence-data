@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-13802">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Peter Martin Duncan   13 April [1868?]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">272</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-13802 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-13802.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-13802.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.272)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>272</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1868-04-13">13 Apr [1868?]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1422.xml">Duncan, P. M.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Promises to send coral specimens.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">coral</term>
+                <term type="scientific_terms" ref="#">coral</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley.| Kent. S.E.</hi></placeName>
+                    <date>Ap 13—</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Sir C. Lyell tells me that you were pleased at receiving some specimens from the Keeling Islands.<ref target="#foot.f2"/> Accordingly I have looked out all the corals which I can find, &amp; I will send them on Thursday m<hi rend="superscript">g</hi>. to the Geolog. Soc.<ref target="#foot.f3"/></p>
+<p>They are not numerous, &amp; I certainly once had more, but I cannot now find them. Such as they are, they may be worth your acceptance, as the habitat &amp; station of each is correctly given in a paper inclosed in the box.<ref target="#foot.f4"/> One specimen in a large, white pill-box is the only one not collected by myself. I think you will understand the catalogue altho’ the numbers are not consecutive.</p>
+<p>I suppose you do not care about the soft parts of corals. I have a few notes regarding some of those sent, but I believe that they are so imperfect that they are worth absolutely nothing</p>
+<p>Pray believe me my dear Sir | yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is conjectured from the reference to specimens of coral from the Keeling Islands (see n. 2, below).</note>
+            <note xml:id="foot.f2">In a letter to <ref target="../nameregs/nameregs_3051.xml" resp="#mjhawkins">Charles Lyell</ref>, dated 9 April 1868 (<ref target="../nameregs/nameregs_1454.xml" resp="#mjhawkins">Edinburgh University</ref> Library, Gen. 110/1137), Duncan discussed his interest in working on collections at the <ref target="../nameregs/nameregs_1841.xml" resp="#mjhawkins">Geological Society of London</ref> that included the Keeling Islands coral specimens. No letter from Lyell to CD on this subject has been found.</note>
+            <note xml:id="foot.f3">CD had visited the Keeling Islands in 1836 while on HMS <hi rend="italic">Beagle</hi> (see <ref target="../bibliographies/bibl_4252.xml" resp="#mjhawkins"><hi rend="italic">Journal of researches</hi> 2d ed.</ref>, pp. 452–72). A carrier service between Down and London was operated every Thursday by <ref target="../nameregs/nameregs_4447.xml" resp="#mjhawkins">George Snow</ref> (<hi rend="italic">Post Office directory for the six home counties</hi> 1866).</note>
+            <note xml:id="foot.f4">Duncan referred at least twice in print to CD’s collections. In <ref target="../bibliographies/bibl_2203.xml" resp="#mjhawkins">Duncan 1869</ref>, Duncan referred to some deep-sea corals from Cape Verde that CD had given him. Duncan later described as a new species a coral, <hi rend="italic">Placopsammia darwini</hi> (a synonym of <hi rend="italic">Tubastraea coccinea</hi>, the orange cup coral), that had been collected by CD in the Galápagos Islands during the <hi rend="italic">Beagle</hi> voyage (<ref target="../bibliographies/bibl_2204.xml" resp="#mjhawkins">Duncan 1876</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

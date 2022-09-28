@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1385">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Mumford<ref target="#foot.f1"/>   1 January 1851</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1266</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1385 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1385.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1385.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc">ADS 1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">The Royal Society (LUB: D17)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_364.xml">Royal Society</repository>
+                    <idno>LUB: D17</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1851-01-01">1 Jan 1851</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3446.xml">Mumford, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Receipt for £3 5s, proceeds of a lecture, for the Down Coal and Clothing Club.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="places" ref="#">Down</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">Coal and Clothing Club</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+<p>Received of M<hi rend="superscript">r</hi>. Mumford, three Pounds five shillings being the proceeds of the Lecture,<ref target="#foot.f2"/> for the Down Coal &amp; Clothing Club.—<ref target="#foot.f3"/></p>
+<p>C. Darwin <lb resp="#mjhawkins"/> Down Jan 1<hi rend="superscript">st</hi>. 1851.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Master of the free school for boys in Down (<hi rend="italic">Post Office directory of the</hi> <hi rend="italic">six home counties</hi> 1851).</note>
+            <note xml:id="foot.f2">This letter is preserved in the Lubbock Papers at the Royal Society and refers to a lecture given by John William Lubbock. An entry in the Down Coal Club honorary subscriptions book (Down House MS) for 1850–1 reads: ‘Sir. J. Lubbock proceeds of Astronom. Lecture [£]3. 5[<hi rend="italic">s</hi>.]’.</note>
+            <note xml:id="foot.f3">CD was treasurer of the club from 1848 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 4, <ref target="./DCP-LETT-1172.xml" resp="#mjhawkins">letter to John Innes, [8 May 1848]</ref>, n. 2).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11562">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From C. W. Thomson   22 June 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10977</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11562 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11562.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11562.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 178: 116</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>178: 116</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4730.xml">Thomson, C. W.</persName>
+                <placeName>Bonsyde</placeName>
+                <date when="1878-06-22">22 June 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Seeks CD’s support for W. C. M’Intosh, candidate for Chair in Natural History at Aberdeen.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_3272">McIntosh, W. C.</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">professorship in natural history</term>
+                <term type="societal" ref="#">University of Aberdeen</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Bonsyde | Linlithgow, N.B.</hi></placeName>
+                    <date>June 22<hi rend="superscript">d</hi> | 1878</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>The Professorship of Nat: Hist: in the University of Aberdeen is to be vacant at the close of the current Summer Session— D<hi rend="superscript">r</hi>. M<hi rend="superscript">c</hi>Intosh of Murthly is a candidate—and I think his careful work on the Annelids and Nemerteans gives him a good claim.<ref target="#foot.f1"/> He has been my colleague for some years past as Examiner in Zoology in Edin University and he has won our entire confidence in that capacity being at once well-informed and judicious—</p>
+<p>Pray do not take the trouble of answering this note, but if you see your way to giving him a help I think his appoint would be an advantage.</p>
+                    <p>D<hi rend="superscript">r</hi>. Hoeck has I understand nearly finished the “Challenger” Pycnogonids and I am still reserving the Cirripeds for him— I wish to see his Pycnogonid work before I send them to him.<ref target="#foot.f2"/> One of the Nat: Hist: memoirs is finished— M<hi rend="superscript">r</hi>. Davidson on the Brachiopoda— I only wish a larger departmt had been in his hands.<ref target="#foot.f3"/></p>
+<p>Believe me with great respect, yours very truly | C. Wyville Thomson</p> 
+                </div>
+            </div>
+              
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_3272.xml" resp="#mjhawkins">William Carmichael McIntosh</ref> had published two volumes of his <ref target="../nameregs/nameregs_3945.xml" resp="#mjhawkins">Ray Society</ref> monograph on British marine annelids (<ref target="../bibliographies/bibl_10554.xml" resp="#automat" cert="low">McIntosh 1873–1922</ref>); the first volume dealt with nemertine worms (ribbon worms; now included in phylum Nemertea).  The position of regius professor of natural history at Aberdeen was vacated by <ref target="../nameregs/nameregs_3525.xml" resp="#mjhawkins">James Nicol</ref> in 1878, and awarded to <ref target="../nameregs/nameregs_1561.xml" resp="#mjhawkins">James Cossar Ewart</ref> in 1879. Thomson was regius professor of natural history at the University of Edinburgh.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_2319.xml" resp="#mjhawkins">Paulus Peronius Cato Hoek’s</ref> report on specimens of Pycnogonida (sea spiders) collected by HMS <hi rend="italic">Challenger</hi> between 1873 and 1876 was published in 1881 (<ref target="../bibliographies/bibl_10313.xml" resp="#mjhawkins">Hoek 1881</ref>); his report on Cirripedia came out in 1884 (<ref target="../bibliographies/bibl_10317.xml" resp="#mjhawkins">Hoek 1884</ref>).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_1251.xml" resp="#mjhawkins">Thomas Davidson’s</ref> report on Brachiopoda was received on 28 September 1878 and published in 1881 (Davidson 1881).</note>
+        </div>      
+          
+    </body>
+    </text>
+</TEI>

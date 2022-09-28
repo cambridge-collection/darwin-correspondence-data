@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9544">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To David Moore   12 July 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">2763</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9544 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9544.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9544.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS(A)</note>
+            <note type="physdesc" n="LS(A)">2pp</note>
+            <relatedItem type="publication">
+                <bibl>Nelson &amp; Seaward (1981): 161</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">National Botanic Gardens of Ireland Library, Glasnevin (DSS/DM/1/1/16)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_556.xml">Glasnevin</repository>
+                    <idno>DSS/DM/1/1/16</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1874-07-12">12 July 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3381.xml">Moore, David</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks for <hi rend="italic">Drosophyllum</hi>. No longer needs <hi rend="italic">Utricularia</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Drosophyllum</term>
+                <term type="plants" ref="#">Utricularia</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <date>July 12 1874</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Drosophyllum has just arrived in perfect condition, &amp; I thank you sincerely for this valuable present.<ref target="#foot.f1"/> I received yesterday a large stock of Utricularia from the New Forest so that I need not trouble you to send any more of this plant.<ref target="#foot.f2"/> I thank you for your very interesting letter.</p>
+<p>I have been particularly glad to hear about P. grandiflora, as I rec<hi rend="superscript">d</hi> plants a few days ago from Cornwall, &amp; am now growing them.<ref target="#foot.f3"/></p>
+<p>Pray accept my cordial thank &amp; believe me | yours very faithfully | In Haste | Charles Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">3.1 In Haste] <hi rend="italic">in CD’s hand</hi> </note>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-9541.xml" resp="#mjhawkins">letter from David Moore, 9 July 1874</ref>.</note>
+            <note xml:id="foot.f2">CD probably received the <hi rend="italic">Utricularia</hi> (bladderwort) from <ref target="../nameregs/nameregs_1245.xml" resp="#mjhawkins">William Erasmus Darwin</ref>, who had been searching for the plant (see <ref target="./DCP-LETT-9534F.xml" resp="#mjhawkins">letter to John Ralfs, 8 July 1874</ref> and n. 2).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_3919.xml" resp="#mjhawkins">John Ralfs</ref> sent CD specimens of <hi rend="italic">Pinguicula grandiflora</hi> (large-flowered butterwort; see <ref target="./DCP-LETT-9540.xml" resp="#mjhawkins">letter from John Ralfs, 9 July 1874</ref>). Moore had mentioned that it was easier to grow than <hi rend="italic">P. vulgaris</hi> (common butterwort) because it did not die out like the latter (see <ref target="./DCP-LETT-9541.xml" resp="#mjhawkins">letter from David Moore, 9 July 1874</ref> and n. 4).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

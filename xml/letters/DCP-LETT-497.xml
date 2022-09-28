@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-497">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To William Lonsdale   [8 March 1839]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">805</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-497 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-497.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-497.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno/>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Upper Gower St, 12</placeName>
+                <date when="1839-03-08">[8 Mar 1839]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2989.xml">Lonsdale, William</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Has finished earthquake paper ["Volcanic phenomena in South America" (1840), <hi rend="italic">Collected papers</hi> 1: 53–86]. Gives instructions about a woodcut. There should be an outline map.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Collected papers</term>
+                <term type="places" ref="#">America, South</term>
+                <term type="scientific_terms" ref="#">volcanoes and earthquakes</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>My dear Lonsdale</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have at last finished my earth quake paper.—<ref target="#foot.f2"/> I have read it so often over, thinking more of the sense than the wording, that I cannot improve it.— each word seems by an inevitable doom to stand where it does, &amp; wrong or right, there it must remain for all that I can do to alter it.—</p>
+<p>The part of Wood cut no 3. is not to be drawn below the line, which I have made across it,—&amp; the lines, like outlines of hills, are not to be introduced.</p>
+<p>There certainly should be an outline map as you suggested, which should extend from the Cordillera on the East to Juan Fernandez on the West, &amp; from Latitude 32<hi rend="superscript">o</hi> to 45<hi rend="superscript">o</hi> 50’S.</p>
+<p>I hope when I have my paper in proof sheets to improve it without any <hi rend="doubleUnderline">great</hi> <hi rend="underline">corrections,</hi> but any previous corrections whatsoever from you will be most gratefully received.—</p>
+<p>Believe me | Most truly Yours | Chas. Darwin <lb resp="#mjhawkins"/> 12 Upper Gower St</p>
+<p>Friday.</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.1 paper] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">1.3 to stand] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n3">2.1 The part of] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n4">3.2 &amp; from] ‘f’ <hi rend="italic">over</hi> ‘L’</note>
+                    <note xml:id="tnote.n5"><hi rend="italic">point omitted after</hi> : 2.2 ‘lines’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated on the basis of n. 2, below.</note>
+            <note xml:id="foot.f2">‘On the connexion of certain volcanic phenomena’, <ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 1: 53–86. The paper was originally read at the Geological Society on 7 March 1838. According to his ‘Journal’ (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 2, Appendix II), CD worked on it during the first week of March 1839 and corrected it in September and early October. The references to the woodcut and map suggest the earlier date, before proof sheets were available. The final version was published in the Society’s <hi rend="italic">Transactions</hi> 2d ser. 5 (1840): 601–31.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

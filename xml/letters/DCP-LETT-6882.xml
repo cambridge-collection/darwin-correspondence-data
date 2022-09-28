@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6882">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From James Orton   8 September 1869</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10298</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6882 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6882.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6882.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 173: 38</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>173: 38</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3599.xml">Orton, James</persName>
+                <placeName>Vassar College</placeName>
+                <date when="1869-09-08">8 Sept 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends a lower molar of fossil horse from Quito. Curious as to its species, especially in view of Owen’s findings in Mexico.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">horse, fossil</term>
+                <term type="places" ref="#">Quito</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">fossils</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">identification</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Vassar College | Poughkeepsie, New York.</placeName>
+                    <date>Sept. 8. 1869.</date>
+                    <seg type="supplemental">Charles Darwin Esq &amp;c | Down, Bromley, Kent.</seg>
+                    <salute>My dear Sir—</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I take the liberty of sending you the first lower molar of a Horse, the skull of which (almost entire) I found fossil in a deep deposit in the Valley of Quito, 10000 ft. above the sea. The remains of the Horse, as I mentioned in a former letter, were accompanied by relics of a Mastodon, Deer, Llama, Auchenia &amp;c.<ref target="#foot.f1"/> I am curious to know the <hi rend="underline">species</hi> of the Horse; how it differs from other sp. of Horse found elsewhere in South America and lately by Prof Owen in the tertiary of Mexico.<ref target="#foot.f2"/> The entire specimen (and I believe this is the first equine skull found in South America) would be a better guide; but perhaps this tooth will show its affinities. If you have not the time to examine it, will you please send it to Prof. Owen.</p>
+<p>I am with high respect | Your obedient Servant | James Orton.</p>
+<p>PS. My book on “The Andes and the Amazon” will be out in November, when I shall have the honor of sending you a copy.<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note><hi rend="italic">Top of letter</hi>: ‘Name will <hi rend="italic">[illeg]</hi> suffice’ <hi rend="italic">pencil</hi></note>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Orton’s letter of 4 January 1869 described his scientific expedition to South America, where he had found mammalian fossils. <hi rend="italic">Auchenia</hi> is a genus of the family Camelidae; it formerly included extant species like llamas and alpacas but is now restricted to one fossil species.</note>
+            <note xml:id="foot.f2">For <ref target="../nameregs/nameregs_3629.xml" resp="#mjhawkins">Richard Owen’s</ref> paper on fossil horses, see <ref target="../bibliographies/bibl_6114.xml" resp="#mjhawkins">Owen 1869</ref>. See also the <ref target="./DCP-LETT-6834.xml" resp="#mjhawkins">letter from W. B. Dawkins, 17 July 1869</ref>.</note>
+            <note xml:id="foot.f3"><ref target="../bibliographies/bibl_6027.xml" resp="#mjhawkins">Orton 1870</ref> was dedicated to CD (see <ref target="./DCP-LETT-6542.xml" resp="#mjhawkins">letter from James Orton, 4 January 1869</ref>, and <ref target="./DCP-LETT-6570.xml" resp="#mjhawkins">letter to James Orton, 23 January [1869]</ref>). CD’s annotated copy is in the Darwin Archive–CUL (see <ref target="../bibliographies/bibl_5214.xml" resp="#mjhawkins"><hi rend="italic">Marginalia</hi></ref> 1: 644).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

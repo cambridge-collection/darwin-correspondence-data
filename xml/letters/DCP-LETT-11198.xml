@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11198">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To [Agnes Taylor?]<ref target="#foot.f1"/>   22 October [1877]<ref target="#foot.f2"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">5398</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11198 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11198.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11198.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Morton Pepper (private collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_321.xml">Pepper, Morton</repository>
+                    <collection>(private collection)</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1877-10-22">22 Oct [1877]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4668.xml">Taylor, Agnes</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>CD sends £5.5.0 with a formal note "as some aid to Mrs Beke", but does not wish to subscribe for Dr Beke’s work on Mt Sinai.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="people" ref="#subject_370">Beke, C. T.</term>
+                <term type="people" ref="#subject_371">Beke, E. A.</term>
+                <term type="places" ref="#">Mt Sinai</term>
+                <term type="scientific_terms" ref="#">geography</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Oct 22<hi rend="superscript">d</hi></date>
+                </opener>
+                <div type="transcription">
+                     
+<p>M<hi rend="superscript">r</hi> Ch. Darwin has the pleasure to enclose a cheque of 5.5.0 as some aid to M<hi rend="superscript">rs</hi>. Beke.<ref target="#foot.f3"/> M<hi rend="superscript">r</hi>. Darwin does not wish to subscribe for D<hi rend="superscript">r</hi>. Beke’s work on M. Sinai.—<ref target="#foot.f4"/></p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.1 enclose] <hi rend="italic">after del</hi> ‘se’</note>
+            </div>
+
+           
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The correspondent is conjectured from the letters from <ref target="../nameregs/nameregs_4668.xml" resp="#mjhawkins">Agnes Taylor</ref> written in March 1882, concerning help for <ref target="../nameregs/nameregs_371.xml" resp="#mjhawkins">Emily Beke</ref>.</note>
+            <note xml:id="foot.f2">The year is established by the date of CD’s cheque (see n. 3, below).</note>
+            <note xml:id="foot.f3">There is a payment for this amount to <ref target="../nameregs/nameregs_371.xml" resp="#mjhawkins">Emily Beke</ref>  in CD’s Classed account books (Down House MS), dated 22 October 1877.</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_370.xml" resp="#mjhawkins">Charles Tilstone Beke</ref> had died in 1874 in Bromley, Kent; his work on determining the true position of Mount Sinai, the result of his last expedition to the Red Sea, was edited by <ref target="../nameregs/nameregs_371.xml" resp="#mjhawkins">Emily Beke</ref> (<ref target="../bibliographies/bibl_10044.xml" resp="#automat" cert="low">Beke 1878</ref>). Charles Beke’s wealth at the time of his death was less than £200 (<ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10236">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From T. H. Huxley   2 November 1875</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3444</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10236 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10236.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10236.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="publication">
+                <bibl>Huxley (1900) 1: 440</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 166: 344</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>166: 344</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2486.xml">Huxley, T. H.</persName>
+                <placeName>London, Marlborough Place, 4</placeName>
+                <date when="1875-11-02">2 Nov 1875</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Arrangements for CD’s appearance before Vivisection Commission.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">Vivisection Commission</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>4 Marlborough Place | N.W</placeName>
+                    <date>Nov<hi rend="superscript">r</hi>. 2. 1875</date>
+                    <salute>My dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Our Secretary has telegraphed to you to Down &amp; written to Queen Anne S<hi rend="superscript">t</hi>—<ref target="#foot.f1"/> But to make sure I send this note to say that we expect you at 13 Delahay S<hi rend="superscript">t</hi> at 2 o’clock tomorrow<ref target="#foot.f2"/> And that I have looked out the highest chair that was to be got for you!</p>
+<p>Ever | Yours very faithfully | T. H. Huxley</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had agreed to appear before the Royal Commission on vivisection (see <ref target="./DCP-LETT-10235.xml" resp="#mjhawkins">letter to T. H. Huxley, 1 November [1875]</ref>). The secretary to the Royal Commission was <ref target="../nameregs/nameregs_7568.xml" resp="#mjhawkins">Nathaniel Baker</ref> (<ref target="../bibliographies/bibl_8615.xml" resp="#mjhawkins"><hi rend="italic">Report of the Royal Commission on vivisection</hi></ref>, p. xxi); his letter to CD has not been found.</note>
+            <note xml:id="foot.f2">Thirteen Delahay Street, Westminster, London, had been used for previous Royal Commissions (<ref target="../bibliographies/bibl_6380.xml" resp="#mjhawkins"><hi rend="italic">Post Office London directory</hi></ref> 1875).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

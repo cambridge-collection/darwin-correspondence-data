@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10640">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From J. I. Rogers   12 October 1876</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10554</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10640 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10640.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10640.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 176: 195</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>176: 195</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4057.xml">Rogers, J. I.</persName>
+                <placeName>London, Cannon St, 119</placeName>
+                <date when="1876-10-12">12 Oct 1876</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>His brother, George, reports from Calcutta a case of a man whose hands are divided like a cow’s foot.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">cow</term>
+                <term type="people" ref="#subject_4054">Rogers, George</term>
+                <term type="places" ref="#">Calcutta</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">monstrosity</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">119, Cannon Street, | London, | E.C</hi></placeName>
+                    <date>12<hi rend="superscript">th</hi> October/76.</date>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>My brother George Rogers of 5 Fancy Lane, Calcutta, asks me to send you the following which he thinks may interest you:—</p>
+<p>“One of my Palanquin bearers<ref target="#foot.f1"/> has his hands divided like a cow’s foot. The middle fingers and metacarpal bones (that is the bone at the back of the hand) are entirely wanting &amp; the hands are as I say divided right down the centre as far as the wrist bone. The man was of course born that way &amp; the skin is perfect. There appears to be a small lump which <hi rend="underline">may</hi> be a rudimentary middle finger inside the forefinger, but I should have thought that the rudimentary fin〈gers〉 (if any there be) would be found attached to the wrist bone. The man will be burned when he dies so there will be no chance of securing the hands for a museum but in the meantime I could get any examination made that M<hi rend="superscript">r</hi> Darwin would like.”<ref target="#foot.f2"/></p>
+<p>My brother’s commission must be my excuse for trespassing on your time, | And believe me to be, | Dear Sir, yours obdtly | J Innes Rogers <lb resp="#mjhawkins"/></p>
+<p rend="left">C. Darwin Esq F.RS. | Beckenham. <lb resp="#mjhawkins"/></p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">A palanquin is a covered conveyance carried on horizontal poles by multiple bearers (<ref target="../bibliographies/bibl_5936.xml" resp="#mjhawkins"><hi rend="italic">OED</hi></ref>).</note>
+            <note xml:id="foot.f2">On the importance of cremation in Hindu burial practices, see <ref target="../bibliographies/bibl_10067.xml" resp="#mjhawkins">Olson 2007</ref>, pp. 99–100. Cremation was legalized in England in 1885 (see Davies and Mates 2005, p. 137).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5510">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Francis Parker   22 April 1867</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10371</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5510 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5510.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5510.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 174: 19</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>174: 19</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3674.xml">Parker, Francis</persName>
+                <placeName>Chester</placeName>
+                <date when="1867-04-22">22 Apr 1867</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends £600 bequeathed by Susan Darwin to CD’s younger children.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin family</term>
+                <term type="people" ref="#">Darwin, C. R.’s younger children</term>
+                <term type="people" ref="#subject_1239">Darwin, S. E.</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">39, Watergate Street, | Chester.</hi></placeName>
+                    <date>22<hi rend="superscript">nd</hi>. April | 1867</date>
+                    <salute>Dear Uncle Charles</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>You are probably aware that Aunt Susan left each of your younger children a Legacy of <hi rend="underline">£100</hi>—<ref target="#foot.f1"/> on the other side I send you an extract from her Will, and I now enclose you a Bankers order for £<hi rend="underline">600</hi>— I think it will be more convenient that you should receive the Legacies and invest the amount in one sum and you can pay it to each as they come of age—</p>
+<p>Perhaps you will have the goodness to write me a letter stating that you have received the amount of their Legacies on their behalves</p>
+<p>I am | Yours very sincerely | Francis Parker <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin Esq<hi rend="superscript">re</hi>.</p>
+<p rend="left">Down Bromley Kent.</p>
+<p>Extract from the Will of the late Miss Susan Elizabeth Darwin dated 1<hi rend="superscript">st</hi>. November 1865—</p>
+<p>“I give and bequeath to my nephews George Howard Darwin, Francis Darwin   Leonard Darwin, and Horace Darwin and my nieces Henrietta Emma Darwin and Elizabeth Darwin (the younger sons and daughters of my Brother Charles Robert Darwin) One hundred pounds each”—</p>
+<p>I send you in a separate cover the Undermentioned Legacy receipts for signature—</p> 
+<figure type="diagram"> 
+<p>Value Geo. Howard Darwin …  100 Francis Darwin .... . 100 Leonard Darwin .... . 100 Horace Darwin . ....  100 Henrietta Emma Darwin …  100 Elizabeth Darwin .... . . 100</p>
+<p>Cha<hi rend="superscript">s</hi>. Rob<hi rend="superscript">t</hi>. Darwin</p>
+<p>(Specific Legacy— a portrait</p>
+<p>of Miss Darwins father<ref target="#foot.f2"/>—valued</p>
+<p>at £4—)</p>
+<p>Henrietta Emma Darwin</p>
+<p>(a Silver Tea Urn—valued</p>
+<p>at £28<hi rend="superscript">.</hi>2<hi rend="superscript">.</hi>6)—</p> </figure> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_1239.xml" resp="#mjhawkins">Susan Elizabeth Darwin</ref>, CD’s sister, died in October 1866 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 14). Henry Parker (1827/8–92) and his brother Francis were the executors of her will (<ref target="../nameregs/nameregs_1239.xml" resp="#mjhawkins">Susan Elizabeth Darwin’s</ref> will, Probate Registry, York).</note>
+            <note xml:id="foot.f2">Robert Waring Darwin.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

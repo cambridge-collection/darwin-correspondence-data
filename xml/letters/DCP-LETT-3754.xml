@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3754">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Henry Johnson   8 October 1862</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17690</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3754 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3754.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3754.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 168: 67</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>168: 67</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2586.xml" resp="high">Johnson, Henry (a)</persName>
+                <placeName>Shrewsbury</placeName>
+                <date when="1862-10-08">8 Oct 1862</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml" resp="high">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Doubts he has a chance of being elected F.R.S. because he is 58.</p>
+            <p>Will send a skull.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+                <term type="social" ref="#">Other people</term>
+                <term type="societal" ref="#">F.R.S.</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Shrewsbury</placeName>
+                    <date>Oct 8 | 1862</date>
+                    <salute>My dear Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very much obliged to you for your very kind letter,<ref target="#foot.f1"/> and also for the Photograph, which is a capital likeness of you—&amp; which I shall always greatly value.<ref target="#foot.f2"/> I should know it anywhere.</p>
+<p>I did not know that the difficulty of getting into the R. Society was so great. There is no other scientific distinction except the F.R.S. that I should care to add to my name—but, I confess to have had always rather a longing for that but the sum paid by my brother always frightened me.<ref target="#foot.f3"/></p>
+<p>From what you tell me about the number of Candidates on the list, I think I should hardly <hi rend="underline">live</hi> to be elected for I am already 58.!!<ref target="#foot.f4"/></p>
+<p>I dont think it is impossible that I might be able to get leave to send you a skull of the Wroxeter ox.<ref target="#foot.f5"/></p>
+<p>Whenever we have a meeting of the Council I will remember to moot the question.<ref target="#foot.f6"/></p>
+<p>Yours very sincerely | Henry Johnson</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD’s letter has not been found. Johnson had written to CD inquiring about the costs entailed in becoming a fellow of the <ref target="../nameregs/nameregs_4110.xml" resp="#mjhawkins">Royal Society of London</ref> (see <ref target="./DCP-LETT-3743.xml" resp="#mjhawkins">letter from Henry Johnson, 30 September 1862</ref>).</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-3743.xml" resp="#mjhawkins">letter from Henry Johnson, 30 September 1862</ref>. CD probably sent Johnson a copy of the photograph taken by <ref target="../nameregs/nameregs_1245.xml" resp="#mjhawkins">William Erasmus Darwin</ref> in 1861, which is reproduced as the frontispiece to <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 9 (see also <ref target="./DCP-LETT-3709.xml" resp="#mjhawkins">letter to Daniel Oliver, [17 September 1862]</ref> and n. 8).</note>
+            <note xml:id="foot.f3">Johnson’s brother was <ref target="../nameregs/nameregs_2583.xml" resp="#mjhawkins">George Henry Sacheverell Johnson</ref>, dean of Wells and vicar of St Cuthbert’s, Wells (<ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref>, <hi rend="italic">Salopian Shreds and Patches</hi> 5 (1882): 2). The fee for admission as a fellow of the <ref target="../nameregs/nameregs_4110.xml" resp="#mjhawkins">Royal Society of London</ref> was £10; thereafter, the annual fee was £4. Alternatively, one could pay a ‘composition’ fee of £40 (<ref target="../bibliographies/bibl_6563.xml" resp="#mjhawkins"><hi rend="italic">Record of the Royal Society of London</hi></ref>, p. 100).</note>
+            <note xml:id="foot.f4">Johnson did not become a fellow of the <ref target="../nameregs/nameregs_4110.xml" resp="#mjhawkins">Royal Society of London</ref> (<ref target="../bibliographies/bibl_6563.xml" resp="#mjhawkins"><hi rend="italic">Record of the Royal Society of London</hi></ref>, pp. 517–66).</note>
+            <note xml:id="foot.f5">The reference has not been traced; however, among the remains of extinct animal species found at Wroxeter were ‘crania of the <hi rend="italic">Bos longifrons</hi>, one of which, now in the Museum [of the Shropshire Natural History and Antiquarian Society], bears … the mark of the blow of the butcher’s axe by which it was slaughtered’, and also bones of another species of ox which was thought to be extinct (Wright 1872, p. 321). The reference is to the museum of the Shropshire Natural History Society, under whose auspices the remains of the Roman city of Uriconium, at Wroxeter in Shropshire, were being excavated. CD did not refer to the Wroxeter finds in his account of the history of the different species of cattle in <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 79–93.</note>
+            <note xml:id="foot.f6">Johnson was honorary secretary of the Shropshire Natural History Society, he had also been appointed to the committee responsible for the excavation of the remains at Wroxeter (Wright 1872, p. iii).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

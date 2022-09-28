@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11146">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From M. C. Stanley   19 September 1877</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16721</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11146 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11146.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11146.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 162: 169</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>162: 169</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4527.xml" resp="high">Stanley, M. C.</persName>
+                <placeName>Knowsley, Prescot</placeName>
+                <date when="1877-09-19">19 Sept 1877</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml" resp="high">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Count Schouvaloff asserts that CD’s works are prohibited in Russia. Is he not mistaken?</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_4339">Shuvalov, P. A.</term>
+                <term type="places" ref="#">Russia</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Knowsley, | Prescot.</hi></placeName>
+                    <date>19 Sept/77</date>
+                    <salute>Dear M<hi rend="superscript">r</hi> Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Count Schouvaloff has been asserting today that your works are still prohibited in Russia. I told him your story as you told it to me, but he thinks I have made a mistake.<ref target="#foot.f1"/> If you would not mind dictating a letter to me stating what you believe to be true, I sh<hi rend="superscript">d</hi>. be much interested to be able to tell him that <hi rend="underline">he</hi> was mistaken.<ref target="#foot.f2"/></p>
+<p>Still if you prefer to let the matter alone take no notice of my request.</p>
+<p>Y<hi rend="superscript">r</hi> very sincerely | M C Derby</p> 
+                </div>
+            </div>
+
+            
+              
+            
+            
+            
+
+
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">Peter Andreivich Shuválov (or Schouvaloff), Russian ambassador to London, frequently visited Stanley and her husband, Lord Derby (<ref target="../nameregs/nameregs_4524.xml" resp="#mjhawkins">Edward Henry Stanley</ref>). Derby, the foreign secretary, was resisting pressure from Queen Victoria and the prime minister, <ref target="../nameregs/nameregs_1328.xml" resp="#mjhawkins">Benjamin Disraeli</ref>, for British military intervention against Russia in the war with the Ottoman Empire. For the Stanleys’ involvement in this episode and their relationship with Shuválov, see <ref target="../bibliographies/bibl_10117.xml" resp="#mjhawkins">Grosvenor 2011</ref> and <ref target="../bibliographies/bibl_10118.xml" resp="#mjhawkins">Otte 2011</ref>. Popularisations of CD’s theories had been banned in Russia, but his works were widely read (<ref target="../bibliographies/bibl_1393.xml" resp="#mjhawkins">Choldin 1985</ref>, p. 85), and CD was aware of his popularity. See also <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 15, <ref target="./DCP-LETT-5612.xml" resp="#mjhawkins">letter to Charles Lyell, 22 August [1867]</ref> and n. 8). </note>  
+            <note xml:id="foot.f2">No reply from CD has been found.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

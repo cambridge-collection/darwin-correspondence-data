@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1166A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To William Alexander Baillie Hamilton<ref target="#foot.f1"/>    28 March [1848]<ref target="#foot.f2"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20572</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1166A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1166A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1166A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence </hi> 7: 483–4</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">The National Archives (TNA) (ADM/5580 009075)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_285.xml">The National Archives</repository>
+                    <idno>ADMI/5580 009075</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1848-03-28">28 Mar [1848]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2078.xml">Hamilton, W. A. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sir John Herschel has not received the parcel of "Scientific Instructions", which was posted on the 15th. He requests an <hi rend="italic">accurate search</hi> at the Admiralty.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_2259">Herschel, J. F. W.</term>
+                <term type="societal" ref="#">Admiralty</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down | Farnborough | Kent</placeName>
+                    <date>March 28<hi rend="superscript">th</hi></date>
+                    <salute>Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have just heard from Sir John Herschel that my parcel of “Scientific Instructions” has not been received, or has been mislaid at the Admiralty.<ref target="#foot.f3"/></p>
+<p>It was of such very large size &amp; secured inside with string, that I think it quite impossible, that it can have been lost by the Post Office.— I have traced it into the Office at this place where it was posted, I believe on the 15<hi rend="superscript">th</hi> inst.— The direction was very plain, &amp; was exactly as follows</p> 
+<figure type="diagram"> 
+<p>On H. M. Service To the Secretary (for Sir J. W. Herschel B) Admiralty London Scientific Instructions C. Darwin</p> </figure> 
+<p>I think it certain that it is at the Admiralty, or has been sent to some other person, instead of to Sir J. Herschel. Or is it possible that L<hi rend="superscript">d</hi>. Auckland can have taken it?<ref target="#foot.f4"/> I beg sincerely to apologise for giving so much trouble, but I do hope that you will kindly take the trouble to have an <hi rend="underline">accurate</hi> <hi rend="underline">search</hi> made for it, as it would cause me the loss of some weeks of labour. The M.S extending to 50 M.S. pages.—</p>
+<p>I beg to remain | Sir | Your very obedient ser<hi rend="superscript">t</hi> | C. Darwin</p>
+<p>I should be extremely much obliged by an answer after a search &amp; then I will write to the Post Office<ref target="#foot.f5"/> <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">To R A B. Hamilton Esq</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.3 where it … 15<hi rend="superscript">th</hi>. inst.] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">2.4 exactly] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n3">3.5 cause] <hi rend="italic">above del</hi> ‘give’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Although CD addressed the letter to ‘R A B. Hamilton Esq’, this seems to have been a mistake. The letter is clearly intended to go to W. A. B. Hamilton, who was secretary to the Admiralty from 1845 to 1855; it is included in Hamilton’s papers in the Public Record Office.</note>
+            <note xml:id="foot.f2">The year is given by the reference to CD’s chapter on geology prepared for the Admiralty <hi rend="italic">Manual of scientific enquiry</hi>, edited by <ref target="../nameregs/nameregs_2259.xml" resp="#mjhawkins">John Frederick William Herschel</ref> (Herschel ed. 1849). CD completed his chapter on 20 March 1848 (see <hi rend="italic">Correspondence</hi> vol. 4, Appendix I).</note>
+            <note xml:id="foot.f3">CD had sent his parcel of manuscript on 21 March (see <hi rend="italic">Correspondence</hi> vol. 4, <ref target="./DCP-LETT-1164.xml" resp="#mjhawkins">letter to J. F. W. Herschel, [21 March 1848]</ref>).</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_1448.xml" resp="#mjhawkins">George Eden</ref>, Earl of Auckland, was first lord of the Admiralty from 1846 to 1849.</note>
+            <note xml:id="foot.f5">A letter from Herschel, dated 23 March 1848, instructing Hamilton to search for the parcel had already been circulated in the Admiralty to no avail. This letter bears an official stamp ‘MAR. 28 1848’. CD’s letter was also circulated, but the Admiralty was unable to trace the manuscript and CD had to send another copy to Herschel. See <hi rend="italic">Correspondence</hi> vol. 4, <ref target="./DCP-LETT-1173.xml" resp="#mjhawkins">letter to J. F. W. Herschel, 7 May [1848]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

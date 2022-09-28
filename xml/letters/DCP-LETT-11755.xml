@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11755">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Francis Darwin   [22 November 1878]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19814</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11755 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11755.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11755.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <note type="postmark">NO 22 78 </note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 211: 48</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>211: 48</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+            
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Bryanston St, 4</placeName>
+                <date when="1878-11-22">[22 Nov 1878]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1222.xml">Darwin, Francis</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Suggests experiment to detect salts deposited on surface of leaves.</p>
+            <p>Wants FD to have another go at horse-chestnut radicles.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">horse-chestnut</term>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">instructions</term>
+                <term type="scientific_terms" ref="#">movements and habits of plants</term>
+                <term type="scientific_terms" ref="#">plant physiology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[4 Bryanston Street, London.]</placeName>
+                    <salute>My dear Backy</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>It is grand about the Pelargonium leaves &amp; seems to me a <hi rend="underline">most</hi> curious subject to investigate.<ref target="#foot.f1"/> I think that I will endeavour to see Frankland &amp; see what he can suggest.<ref target="#foot.f2"/> It seems to me that you ought now to ascertain whether any alkali comes from leaves without glands or Hairs, &amp; secondly whether the elimination is connected with the action of light, excluding every ray.<ref target="#foot.f3"/></p>
+                    <p>If you can decide anything before we go let me hear. If I see Frankland, it will be on Monday or Tuesday. Boussingault<ref target="#foot.f4"/> statement that salts pass <hi rend="doubleUnderline">into</hi> leaves has some bearing with your discovery that they pass <hi rend="doubleUnderline">out</hi> of leaves.— With plants not exposed to rain &amp; not syringed out, there ought to be potash on the surface, so that if many leaves were <hi rend="underline">rapidly</hi> washed &amp; the water evaporated almost to dryness, these ought to be alkaline. Can the good of syringing be in part to wash off the excreted matter?<ref target="#foot.f5"/></p>
+                    <p>Have another go with radicles of Horse-chesnut— These are far more important than Spanish chesnut for me.—<ref target="#foot.f6"/> In the study there is basket with Horse-chesnuts put all of them to soak for 36<hi rend="superscript">o</hi> &amp; then put onto tin-boxes in Hot-House for germination.—</p>
+                    <p>Tell abbadubba<ref target="#foot.f7"/> that Baba sends him a kiss.</p>
+<p>yours affect | C. D</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">2.5 washed] <hi rend="italic">after del</hi> ‘washed’ </note>
+                <note xml:id="tnote.n2">3.3 all] <hi rend="italic">after del</hi> ‘a g’ </note>
+            </div>
+
+        </div>
+        
+        
+        <div type="footnotes">
+            
+            <note xml:id="foot.f1">Francis had described experiments with geranium leaves in his <ref target="./DCP-LETT-11754F.xml">letter of [before 22 November 1878]</ref>; geranium is sometimes used as a common name for both <hi rend="italic">Geranium</hi> and <hi rend="italic">Pelargonium</hi>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-11755A.xml">letter to Edward Frankland, 22 November [1878]</ref>.</note>
+            <note xml:id="foot.f3">Leaves of <hi rend="italic">Geranium</hi> and <hi rend="italic">Pelargonium</hi> have trichomes (hairs); CD may have wanted to eliminate the possibility that the dissolved matter was secreted from the trichomes rather than the pores of the leaf.</note>
+            <note xml:id="foot.f4">Jean-Baptiste Boussingault.</note>
+            <note xml:id="foot.f5">While in Würzburg, Francis had conducted experiments on whether bloom prevented nitrogenous matter in leaves from expiring when the leaf was immersed in water (see <ref target="./DCP-LETT-11632.xml" resp="#mjhawkins">letter from Francis Darwin, [4–7 August 1878]</ref> and nn. 4 and 8). </note>
+            <note xml:id="foot.f6">See <ref target="./DCP-LETT-11754F.xml" resp="#mjhawkins">letter from Francis Darwin, [before 22 November 1878]</ref> and n. 2.</note>
+            <note xml:id="foot.f7"><ref target="../nameregs/nameregs_1206.xml" resp="#mjhawkins">Bernard Darwin</ref>.</note>
+          
+        </div>  
+      
+    </body>
+    </text>
+</TEI>

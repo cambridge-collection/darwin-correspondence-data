@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4085">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To George Gabriel Stokes   [12 February 1863?]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20291</idno>
+            
+            
+            
+            
+            <date when="1999">1999</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4085 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4085.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4085.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="11">11</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Cambridge University Library Add 7656: D76</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <idno>Add 7656: D76</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Queen Anne St, 6</placeName>
+                <date when="1863-02-12">[12 Feb 1863?]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4573.xml">Stokes, G. G.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks GGS for calculation [to determine the chances of the same peculiarity recurring in a family, see <hi rend="italic">Variation</hi> 2: 5]</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Variation</term>
+                <term type="scientific_terms" ref="#">heredity</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+                <term type="scientific_terms" ref="#">physical ‘external’ characters</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>6. Queen Anne St | London. W.</placeName>
+                    <date>Thursday</date>
+                    <salute>My dear Prof. Stokes</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Absence from home has prevented me from sooner thanking you most sincerely for the trouble which you have so kindly taken for me. I was rather crazy with curiosity to know what the chances were.—<ref target="#foot.f2"/></p>
+<p>I believe your way of stating the problem is rather better for me.— I think I understand your two letters.<ref target="#foot.f3"/> The second way of calculating the case is much the best for me.—</p>
+<p>I have made a copy for myself of your M.S. sentence &amp; have altered the few words &amp; figures which are necessary. I cannot suppose that I have made any blunder; so if I do <hi rend="doubleUnderline">not</hi> receive your sentence back, I shall understand that it is right.</p>
+<p>with my sincere thanks | pray believe me | Yours truly obliged | Ch. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.2 calculating] <hi rend="italic">above del</hi> ‘putting’</note>
+                    <note xml:id="tnote.n2">3.1 for myself] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n3">3.1 sentence] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n4">3.2 &amp; figures] <hi rend="italic">above del</hi> ‘ne’</note>
+                </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is conjectured from the address; CD stayed at 6 Queen Anne Street, London, between 4 and 14 February 1863 (see ‘Journal’ (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 11, Appendix II)). In 1863, 5 and 12 February were Thursdays. The wording of the letter suggests that Stokes’s letter was forwarded from Down, making 12 February the most likely date.</note>
+            <note xml:id="foot.f2">Stokes was a mathematical physicist and Lucasian professor at <ref target="../nameregs/nameregs_795.xml" resp="#mjhawkins">Cambridge University</ref> (<ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref>). CD had apparently asked Stokes to determine the statistical chances of the same peculiarity recurring in a family. In <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 2: 5, CD stated on Stokes’s authority that, given a peculiarity occurring on average in one individual in a million, and a population of sixty million, consisting of ten million families of six members each, ‘the odds will be no less than 8333 millions to 1 that in the ten million families there will not be even a single family in which one parent and two children will be affected by the peculiarity in question’. See also the manuscript of CD’s ‘big book’ on species (<ref target="../bibliographies/bibl_5799.xml" resp="#mjhawkins"><hi rend="italic">Natural selection</hi></ref>, pp. 480–1 n.), in which Stokes is cited with regard to the extreme improbability of the same rare peculiarity appearing in father and child without some genetic connection.</note>
+            <note xml:id="foot.f3">The letters from Stokes have not been found.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

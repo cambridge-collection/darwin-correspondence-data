@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9632">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To D. F. Nevill   11 September [1874]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1571</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9632 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9632.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9632.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="ALS">2pp</note>
+            <note type="postmark">SP 11 74</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Cleveland Health Sciences Library (Robert M. Stecher collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_93.xml">Cleveland</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1874-09-11">11 Sept [1874]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3505.xml">Nevill, D. F.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Returns a <hi rend="italic">Drosera</hi>, from which he cut a piece for microscopic examination.</p>  
+<p><hi rend="italic">Utricularia montana</hi> just arrived.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Drosera</term>
+                <term type="plants" ref="#">Utricularia montana</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>Sept. 11<hi rend="superscript">th</hi></date>
+                    <salute>Dear Lady Dorothy Nevill</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I send this afternoon the Drosera to the R<hi rend="superscript">y</hi>. packed up as carefully as we can, &amp; I sincerely hope it may reach you safely.— It has interested me in a high degree &amp; differs in one important respect from any other species which I have seen.<ref target="#foot.f1"/> I hope that you will not consider me unreasonable when I tell you that I cut off for microscopical examination, one leaf in bud, one young leaf, &amp; a <hi rend="underline">portion</hi> of two old leaves. But I cut them from the middle so that they will hardly be missed.</p>
+<p>I beg leave to remain | Your Ladyships | Most truly obliged | Charles Darwin</p>
+<p>U. Montana just arrived in excellent state.<ref target="#foot.f2"/> | C.D.</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD evidently returned the specimen of <hi rend="italic">Drosera dichotoma</hi> that he had received from Nevill (see <ref target="./DCP-LETT-9627.xml" resp="#mjhawkins">letter to D. F. Nevill, 7 September 1874</ref>). <hi rend="italic">Drosera dichotoma</hi> is a synonym of <hi rend="italic">D. binata</hi>, the forked-leaf sundew. In <ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref>, p. 283, CD noted in <hi rend="italic">D. binata</hi> the ‘remarkable peculiarity’ of tentacles on the backs of the leaves.</note>
+            <note xml:id="foot.f2">CD had requested a specimen of <hi rend="italic">Utricularia montana</hi>, an epiphytic bladderwort, in his <ref target="./DCP-LETT-9627.xml" resp="#automat" cert="medium">letter to Nevill of 7 September 1874</ref>. <hi rend="italic">Utricularia montana</hi> is a synonym of <hi rend="italic">U. alpina.</hi></note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1117">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Higgins   10 September [1847]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1958</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1117 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1117.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1117.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Lincolnshire Archives (HIG/4/2/1/6)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_237.xml">Lincolnshire RO</repository>
+                    <collection>Correspondence with John Higgins</collection>
+                    <idno>HIG/4/2/1/6</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1847-09-10">10 Sept [1847]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2279.xml">Higgins, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Agrees to lease land to Mr Mason. Discusses arrangements for bank draft.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="people" ref="#subject_3204">Mason, H. P.</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Sept 10<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I shall be very glad to oblige M<hi rend="superscript">r</hi> Mason: I certainly do not want to sell, but please to tell him with my compliments that if he prefers buying to taking a lease of it, the bit of land is at his service.<ref target="#foot.f1"/> I have myself been similarly circumstanced &amp; disappointed &amp; therefore am all the gladder to oblige M<hi rend="superscript">r</hi> Mason.<ref target="#foot.f2"/> As you remark, I expect not to be put to any expence.—</p>
+<p>I had intended before rent-time asking you a trifling question: I observe that the Banker charges 9<hi rend="superscript">s</hi> for remitting the money on a 3 weeks draft. Now I am so ignorant of money matters that I do not know what risk there is in drafts being sent by Post: are they often forged; for if so, paying 9<hi rend="superscript">s</hi> would be worth it as an insurance. Otherwise I gruudge wasting 18<hi rend="superscript">s</hi> per annum. Can Drafts be scored to a Banker, like cheques, that would make them essentially quite safe?</p>
+<p>When at your leisure, will you be so kind, as to tell me what is best. &amp; believe me my dear Sir | Yours very faithfully | C. R. Darwin. <lb resp="#mjhawkins"/> To J. Higgins Esq<hi rend="superscript">e</hi></p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.1 sell] <hi rend="superscript">1</hi>‘l’ <hi rend="italic">over illeg</hi></note>
+                    <note xml:id="tnote.n2">1.4 As] ‘A’ <hi rend="italic">over illeg</hi></note>
+                    <note xml:id="tnote.n3">3.1 &amp; believe … faithfully 3.2] <hi rend="italic">added</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_3204.xml" resp="#mjhawkins">Henry Payne Mason</ref>, rector of Beesby, Lincolnshire.</note>
+            <note xml:id="foot.f2">CD possibly refers to the fact that, due to an irregularity in conveyancing ownership of some land adjoining Down House, he had been obliged to repurchase a small strip of land (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 2, <ref target="./DCP-LETT-674.xml" resp="#mjhawkins">letter to Susan Darwin, [8 December 1843]</ref>, n. 3). It may be the same ‘slip of land’ referred to in <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 3, <ref target="./DCP-LETT-810.xml" resp="#mjhawkins">letter to Emma Darwin, [7–8 February 1845]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

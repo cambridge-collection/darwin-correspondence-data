@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2443">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Murray   1 April 1859</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20241</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2443 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2443.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2443.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="CC"/>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">National Library of Scotland (John Murray Archive) (Ms. 41913 p.32)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_278.xml">Murray Archive</repository>
+                    <idno>Ms. 41913 p.32</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+                <placeName>unstated</placeName>
+                <date when="1859-04-01">1 Apr 1859</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>On the strength of CD’s details about his work on species and his knowledge of CD’s former publications, JM offers to publish [<hi rend="italic">Origin</hi>] without seeing the MS.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Origin</term>
+                <term type="scientific_terms" ref="#">origin</term>
+                <term type="scientific_terms" ref="#">species, speciation</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Albemarle S<hi rend="superscript">t</hi>.</placeName>
+                    <date>Apl. 1. 1859</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+<p>I hasten to thank you for your obliging letter of yesterday &amp; for the interesting details regarding your work on Species contained in it.— On the strength of this information &amp; my knowledge of your former publications,<ref target="#foot.f1"/> I can have no hesitation in swerving from my usual routine &amp; in stating at once even without seeing the MS. that I shall be most happy to publish it for you on the same terms as those on which I publish for Sir Charles Lyell—viz—I will print an edition fixing the number of copies with your concurrence, according to what shall appear to me (on perusal of a part, at least, of the work) to be adviseable—&amp; before publication, as soon as I can ascertain the cost of its production I will make you an offer amounting as nearly as I can ascertain to <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>2</mn><mn>3</mn></mfrac></math></formula> <hi rend="superscript">ds</hi> of the net proceeds of the edition—payable by note of hand at six months from the day of publication xxxxxxx<ref target="#foot.f2"/> I shall be quite willing to give the author 12 copies for himself &amp; as many more as he may require at the trade price xxxxx</p>
+<p>Yours very faithfully | (signed) John Murray. <lb resp="#mjhawkins"/> Charles Darwin Esq</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">For CD’s earlier correspondence with John Murray concerning the publication of <ref target="../bibliographies/bibl_4252.xml" resp="#mjhawkins"><hi rend="italic">Journal of researches</hi> 2d ed.</ref>, see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 3. For CD’s other publications before April 1859, see <ref target="../bibliographies/bibl_2661.xml" resp="#mjhawkins">Freeman 1977</ref>.</note>
+            <note xml:id="foot.f2">The copyist inserted crosses in the places where the final text of the letter was to contain precise dates and figures. In the absence of the letter, there is no evidence to indicate what details were inserted.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

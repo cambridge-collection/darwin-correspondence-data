@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5530">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Nicholas Trübner   7 May 1867</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">11000</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5530 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5530.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5530.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 178: 194</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>178: 194</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName>Trübner, Nicholas</persName>
+                <placeName>London, Paternoster Row, 60</placeName>
+                <date when="1867-05-07">7 May 1867</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Weisse of Stuttgart is keen to publish a translation of the book on which CD is working [<hi rend="italic">Variation</hi>].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Variation</term>
+                <term type="languages" ref="#">German</term>
+                <term type="places" ref="#">Stuttgart</term>
+                <term type="scientific_terms" ref="#">variation</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">London. | 60, Paternoster Row E.C.</hi></placeName>
+                    <date>May 7 <hi rend="print">186</hi>7</date>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>A correspondent of mine, Mr. Weisse of Stuttgart,<ref target="#foot.f1"/> is very desirous of publishing a <hi rend="underline">German</hi> translation of the work upon which you are now engaged. In case you have not already arranged with a German Translator I shall be very glad if you will permit me to negotiate with you on behalf of my friend.<ref target="#foot.f2"/></p>
+<p>I have the honour to be | Dear Sir | yours most respectfully | N Trübner <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin Esq</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Mr Weisse has not been further identified.</note>
+            <note xml:id="foot.f2">Trübner refers to <hi rend="italic">Variation.</hi> CD had already accepted the offer of <ref target="../nameregs/nameregs_849.xml" resp="#mjhawkins">Julius Victor Carus</ref> to translate the work; it was published by E. Schweizerbart’sche Buchhandlung (see <ref target="./DCP-LETT-5498.xml" resp="#mjhawkins">letter to J. V. Carus, 11 April [1867]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

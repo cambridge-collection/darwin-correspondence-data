@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2244">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To the Secretary, Royal Society<ref target="#foot.f1"/>   22 March 1858</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1247</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2244 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2244.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2244.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">The Royal Society (RR3: 147)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_364.xml">Royal Society</repository>
+                    <idno>RR3: 147</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1858-03-22">22 Mar 1858</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4110.xml">Royal Society</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Recommends Leonard Horner’s "Account of some recent researches near Cairo" for publication in <hi rend="italic">Philosophical Transactions</hi> [<hi rend="italic">R. Soc. Lond.</hi> 148 (1858): 53–9]. Believes all the details and sections should be published in full because of importance of investigations leading to the conclusion that man has existed in Egypt for over 13000 years.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Philosophical Transactions R. Soc. Lond.</term>
+                <term type="places" ref="#">Cairo</term>
+                <term type="places" ref="#">Egypt</term>
+                <term type="rx" ref="#">Horner, Leonard 1858</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">historical time</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>March 22<hi rend="superscript">d</hi>/58</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>M<hi rend="superscript">r</hi> Horner’s “Account of some recent Researches near Cairo” ought, in my opinion, to be published in full in the Philosoph. Transactions.<ref target="#foot.f2"/> Considering the importance of any investigation leading to the result that Man has existed in Ægypt for between 13,000 &amp; 14,000 years,<ref target="#foot.f3"/> I think that all the details &amp; sections, though given with great minuteness, should be published, as possibly being hereafter of great assistance to some future investigator.</p>
+<p>Dear Sir | Yours faithfully | Ch. Darwin <lb resp="#mjhawkins"/> To the Sec<hi rend="superscript">y</hi>. | Royal Soc<hi rend="superscript">y</hi>.—</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_4573.xml" resp="#mjhawkins">George Gabriel Stokes</ref> and <ref target="../nameregs/nameregs_4314.xml" resp="#mjhawkins">William Sharpey</ref> were the secretaries of the Royal Society in 1858.</note>
+            <note xml:id="foot.f2">This was the second part (<ref target="../bibliographies/bibl_3867.xml" resp="#mjhawkins">Horner 1858</ref>) of <ref target="../nameregs/nameregs_2392.xml" resp="#mjhawkins">Leonard Horner’s</ref> paper on the alluvial deposits of the Nile basin. The first part (<ref target="../bibliographies/bibl_3866.xml" resp="#mjhawkins">Horner 1855</ref>) had also been published in the <hi rend="italic">Philosophical</hi> <hi rend="italic">Transactions of the Royal Society of London</hi>, after being refereed by CD (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 5, <ref target="./DCP-LETT-1649.xml" resp="#mjhawkins">letter to Leonard Horner, 18 [March 1855]</ref>, and <ref target="./DCP-LETT-1650.xml" resp="#mjhawkins">letter to the Royal Society, 19 March 1855</ref>).</note>
+            <note xml:id="foot.f3">During the excavations, Horner had found a fragment of pottery at a depth of 39 feet. Assuming a rate of deposition of 3<formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> inches of sediment per century, Horner calculated that man had lived in the Nile basin since 11,517 B.C. Horner’s conclusions were later invalidated by the discovery of a Roman tile beneath the pottery shards (see Tristram 1860).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

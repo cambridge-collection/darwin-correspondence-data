@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5291">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Daniel Hanbury   1 December 1866</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17548</idno>
+            
+            
+            
+            
+            <date when="2004">2004</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5291 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5291.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5291.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="14">14</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 166: 93</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>166: 93</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2088.xml">Hanbury, Daniel</persName>
+                <placeName>London, Lombard St</placeName>
+                <date when="1866-12-01">1 Dec 1866</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Wishes to consult Fritz Müller on pharmacological matters.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_3070">Müller, J. F. T.</term>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+                <term type="scientific_terms" ref="#">pathology, disease</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Plough Court, Lombard Street | E.C.</placeName>
+                    <date>1 Dec. 1866.</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Some months ago you presented to the Linnean Society a communication (just now printed) from a certain <hi rend="underline">Fritz Müller</hi> of Desterro in Brazil.<ref target="#foot.f1"/></p>
+<p>Will you tell me whether this gentleman is still in that locality, and whether being so, I might address him for information on one or two pharmacological matters?<ref target="#foot.f2"/></p>
+<p>I do not know in which province Desterro is situated.<ref target="#foot.f3"/> The gazetteer I have at hand does not mention it. Believe me to remain | Yours faithfully</p>
+<p>Dan<hi rend="superscript">l</hi> Hanbury. <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">C. Darwin Esq.</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The reference is to <ref target="../nameregs/nameregs_3070.xml" resp="#mjhawkins">Fritz Müller’s</ref> ‘Notes on some climbing plants near Desterro, in south Brazil’ (F. Müller 1865b; see also <ref target="./DCP-LETT-5196.xml" resp="#mjhawkins">letter to Fritz Müller, 23 August [1866]</ref> and n. 8). The paper is also published in <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 13 as the <ref target="./DCP-LETT-4881F.xml" resp="#mjhawkins">letter from Fritz Müller, [12 and 31 August, and 10 October 1865]</ref>.</note>
+            <note xml:id="foot.f2">Much of Hanbury’s research focused on the botanical origin of drugs (see Ince ed. 1876, p. 496).</note>
+            <note xml:id="foot.f3">Destêrro (now Florianópolis) was located on Santa Catarina Island in the province (now state) of Santa Catarina, Brazil (<ref target="../bibliographies/bibl_1526.xml" resp="#mjhawkins"><hi rend="italic">Columbia gazetteer of the world</hi></ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

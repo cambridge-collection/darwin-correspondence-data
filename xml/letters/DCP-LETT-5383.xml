@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5383">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Murray   30 January [1867]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9515</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5383 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5383.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5383.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 15</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 345</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 345</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+                <placeName>London, Albemarle St</placeName>
+                <date when="1867-01-30">30 Jan [1867]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>First portion of <hi rend="italic">Variation</hi> MS has been set up. Murray will not decide on number to be printed until he has read a good portion. The agreement applies only to the first edition.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Variation</term>
+                <term type="scientific_terms" ref="#">variation</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Albemarle St</placeName>
+                    <date>Jan<hi rend="superscript">y</hi>. 30</date>
+                    <salute>My Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have this day got back the first portion of your MS. wch shall be delivered to your Servant whenever he may call—</p>
+<p>The remainder will be in my hands Sat<hi rend="superscript">y</hi>. morn<hi rend="superscript">g</hi> &amp; will also be delivered—if called for.<ref target="#foot.f2"/></p>
+<p>I will not decide on the N<hi rend="superscript">o</hi>. to be printed until I can read a good portion— Our agreement will apply only to <hi rend="underline">First</hi> Edition<ref target="#foot.f3"/></p>
+<p>My Dear Sir | Yours very faithfully | John Murray <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Chas Darwin Esq</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-5382.xml" resp="#mjhawkins">letter to John Murray, 29 January [1867]</ref>.</note>
+            <note xml:id="foot.f2">For CD’s request for the manuscript of <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref>, see the <ref target="./DCP-LETT-5382.xml" resp="#mjhawkins">letter to John Murray, 29 January [1867]</ref>. In 1867, the Saturday after 30 January was 2 February.</note>
+            <note xml:id="foot.f3">For CD’s and Murray’s agreement concerning the publication of <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref>, see the <ref target="./DCP-LETT-5380.xml" resp="#mjhawkins">letter from John Murray, 28 January [1867]</ref>, and the <ref target="./DCP-LETT-5382.xml" resp="#mjhawkins">letter to John Murray, 29 January [1867]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

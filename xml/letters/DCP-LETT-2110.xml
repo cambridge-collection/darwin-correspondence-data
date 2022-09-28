@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2110">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. B. Tegetmeier   23 June [1857]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1310</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2110 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2110.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2110.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Archives of the New York Botanical Garden (Charles Finney Cox Collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_302.xml">NYBG</repository>
+                    <collection>Charles Finney Cox</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Moor Park</placeName>
+                <date when="1857-06-23">23 June [1857]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4682.xml">Tegetmeier, W. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>CD anxious to examine rumpless chick 24 hours before hatching.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">chick, rumpless</term>
+                <term type="scientific_terms" ref="#">embryology</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Moor Park | Farnham | Surrey</placeName>
+                    <date>June 23<hi rend="superscript">d</hi></date>  
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I quite forgot to say one thing in my last note.<ref target="#foot.f2"/> Of the eggs of the rumpless Fowls only 3 hatched—2 jet black &amp; one a little banded. Now would you believe it, owing to my fault in not having given clear enough instructions these three were hatched two or three days before I heard of it!— So that after all your kindness I have not got a chicken about 24 hours before Birth.—<ref target="#foot.f3"/> Shall you hatch any more? What would you say to exchange two of my chickens when nearly full grown, for an egg with young chick in it, about 24 hours before birth.— You could have two nearly full-grown instead of one not born.—</p>
+<p>In case you had eggs hatching soon, I may state that I shall be here till the 30<hi rend="superscript">th</hi> morning, &amp; after that at Down.— Forgive, if you can, my stupidity: I beg you not to take the trouble to answer this merely to acknowledge it.—</p>
+<p>Your’s very sincerely | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.1 Of] <hi rend="italic">over</hi> ‘On’</note>
+                    <note xml:id="tnote.n2">1.5 about] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n3">1.7 about] <hi rend="italic">after del</hi> ‘bef’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by CD’s reference to remaining at Moor Park until 30 June. In his ‘Journal’ for 1857, CD recorded returning to Down from Moor Park on this day (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 6, Appendix II).</note>
+            <note xml:id="foot.f2"><ref target="./DCP-LETT-2108.xml" resp="#mjhawkins">Letter to W. B. Tegetmeier, [18 June 1857]</ref>.</note>
+            <note xml:id="foot.f3">CD wished to know how early in development rudimentary organs became rudimentary (see <ref target="./DCP-LETT-2048.xml" resp="#mjhawkins">letter to W. B. Tegetmeier, 6 February [1857]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-13877F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To ?   11 March [1862–9]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20887</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-13877F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-13877F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-13877F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Karpeles Manuscript Library Museums</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_208.xml">Karpeles</repository>
+                </msIdentifier>
+            </msDesc>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>97: C9r</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                
+            <date xml:id="date1" when="1862-03-11" exclude="#date2 #date3 #date4 #date5 #date6 #date7 #date8">11 Mar 1862</date>
+            <date xml:id="date2" when="1863-03-11" exclude="#date1 #date3 #date4 #date5 #date6 #date7 #date8">11 Mar 1863</date>
+            <date xml:id="date3" when="1864-03-11" exclude="#date1 #date2 #date4 #date5 #date6 #date7 #date8">11 Mar 1864</date>
+            <date xml:id="date4" when="1865-03-11" exclude="#date1 #date2 #date3 #date5 #date6 #date7 #date8">11 Mar 1865</date>
+            <date xml:id="date5" when="1866-03-11" exclude="#date1 #date2 #date3 #date4 #date6 #date7 #date8">11 Mar 1866</date>
+            <date xml:id="date6" when="1867-03-11" exclude="#date1 #date2 #date3 #date4 #date5 #date7 #date8">11 Mar 1867</date>
+            <date xml:id="date7" when="1868-03-11" exclude="#date1 #date2 #date3 #date4 #date5 #date6 #date8">11 Mar 1868</date>
+            <date xml:id="date8" when="1869-03-11" exclude="#date1 #date2 #date3 #date4 #date5 #date6 #date7">11 Mar 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_9999.xml">Unidentified</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Gives permission to insert in his magazine anything from CD’s works.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">quotations / citations</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>March 11<hi rend="superscript">th</hi>.</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>You are most entirely welcome to insert anything from any of my works in your Magazine. I sh<hi rend="superscript">d</hi>. think my Journal would give better extracts on the habits of animals than the “Origin”.<ref target="#foot.f2"/></p>
+<p>Dear Sir | In Haste | your faithful servant | C. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the form of the address, which CD used from May 1861 to April 1869. The recipient has not been identified.</note>
+            <note xml:id="foot.f2">CD refers to <hi rend="italic">Journal of researches</hi> and <hi rend="italic">Origin.</hi></note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

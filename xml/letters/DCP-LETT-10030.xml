@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10030">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From J. W. Clark   25 June 1875</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16424</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10030 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10030.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10030.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 161: 154</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>161: 154</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_939.xml">Clark, J. W. (b)</persName>
+                <placeName>Southampton</placeName>
+                <date when="1875-06-25">25 June 1875</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Observations of fear in animals marked by dilation of pupils.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">expression, emotion</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>18 High Street. | Southampton.</placeName>
+                    <date>June 25. 1875.</date>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>In reference to your remarks upon the dilations of the pupils of the eye through fear, in your work on “The Expression of the Emotions”, I beg to send you the following, hoping, that it may be of service to you—<ref target="#foot.f1"/> I distinctly recollect observing, &amp; remarking upon, the largely dilated pupils in an Irish water-spaniel, a black retriever, &amp; within the last few days, in a fox-terrier which I have lately observed to ensure the correctness of my former observations.<ref target="#foot.f2"/> In the History of British India (Edinburgh Literary Library ed. 1843) page 32 I find this passage as descriptive of a horse’s fear of a lion—<ref target="#foot.f3"/></p>
+<p>“.... his quivering limbs &amp; large dilated eyes exhibit the depth of uncontrolled dismay ....”</p>
+<p>The dilation I venture to think refers to the pupils (&amp; not simply to the eyelids) because I have observed it in a donky not infrequently when frightened.</p>
+<p>I shall hope to obtain some fuller &amp; more exact information on this point; meanwhile I hope you will excuse the liberty I take in thus writing to you, and believe me to remain your sincere well-wisher &amp; admirer, | J. W. Clark.</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note><hi rend="italic">Top of letter</hi>: ‘(Expression)’ <hi rend="italic">square brackets in original</hi></note>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">In <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref>, pp. 303–4, CD wrote that he had only one example of pupils dilating with fear.</note>
+            <note xml:id="foot.f2">A note was added to <ref target="../bibliographies/bibl_2401.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi> 2d ed.</ref>, p. 321, citing the examples of pupil dilation given by Clark in this letter and the <ref target="./DCP-LETT-10158.xml" resp="#mjhawkins">letter from J. W. Clark, 16 September 1875</ref>. Clark’s name was given incorrectly as T. W. Clark in the note. <ref target="../bibliographies/bibl_2401.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi> 2d ed.</ref> was published after CD’s death using CD’s notes.</note>
+            <note xml:id="foot.f3">The passage is from <hi rend="italic">Historical and descriptive account of British India, from the most remote period to the conclusion of the Afghan war</hi> (H. Murray <hi rend="italic">et al.</hi> 1843, 3: 31).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

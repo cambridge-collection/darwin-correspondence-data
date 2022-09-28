@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-2882" status="released">
+    <persName>
+        <forename>Mary</forename>
+        <choice>
+            <seg><surname notBefore="1799" notAfter="1832">Parker</surname></seg>
+            <seg><surname notBefore="1833" notAfter="1882">Leighton</surname></seg></choice>
+    </persName>
+    
+    <note type="dates"><date>1799–1864</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of Thomas Netherton Parker of Sweeney Hall, Shropshire. Married Sir Baldwin Leighton in 1832.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_1095.xml"><hi rend="italic">Burke’s landed gentry</hi></ref> 1879.</p>
+    </note>
+    <note type="volume">1</note>
+    <note type="keywords">
+        <term type="name">Leighton, Baldwin</term>
+        <term type="place">Shropshire</term>
+    </note>
+    
+</person>

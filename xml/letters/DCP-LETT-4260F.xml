@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4260F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Henrietta Emma Darwin    [1 August 1863]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">21087</idno>
+            
+            
+            
+            
+            <date when="1999">1999</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4260F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4260F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4260F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="11">11</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">mem</note>
+            <note type="physdesc">Amem 1p †</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 11: 575</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 189: 9</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>189: 9</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1225.xml">Litchfield, H. E.</persName>
+                <placeName>unstated</placeName>
+                <date when="1863-08-01">[1 Aug 1863]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>A memorandum describing the expressive behaviour of a cat with added notes by CD.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">cat</term>
+                <term type="scientific_terms" ref="#">expression, emotion</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+                     
+<p>A young cat of about the age of 10 months when put upon a soft cloak or gown used to take a piece in her mouth &amp; then pound with her claws out &amp; purr.<ref target="#foot.f2"/></p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note>gown] ‘generally’ <hi rend="italic">interl after, ink</hi></note>
+                <note>purr.] ‘&amp; close her eyes &amp; look happy.— Explain the pounding.— No mistake.’ <hi rend="italic">added ink</hi> | ‘(&amp; Purr)’ <hi rend="italic">added pencil</hi> | ‘Aug. 1.— 1863 | Expression’<ref target="#foot.f3"/> <hi rend="italic">added ink</hi> . Transcribed 27/11/96 as previously missed. AMP. . Checked 27/11/96. SL.</note>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by CD’s annotations to the letter.</note>
+            <note xml:id="foot.f2">Henrietta made a series of observations on behaviour in cats; there is a memorandum in DAR 189: 7, annotated 28 March 1862, in which Henrietta recorded her observations on the cries of cats and their meaning.</note>
+            <note xml:id="foot.f3">CD evidently preserved these observations for use in <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref>, pp. 126–9. <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref> was published by John Murray in 1872.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-2501" status="released">
+    <persName>
+        <forename>Eliza</forename>
+        <forename>Mary</forename>
+        <choice>
+            <seg><surname notBefore="1820" notAfter="1847">Laidlaw</surname></seg>
+            <seg><surname notBefore="1847" notAfter="1861">Innes</surname></seg>
+            <seg><surname notBefore="1861" notAfter="1909">Brodie Innes</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1820–1909</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of John Laidlaw of Dominica, West Indies, and his wife Mary Stuart. Married John Innes (from 1861 John Brodie Innes) at Hythe, Kent, in 1847. Died at Milton Brodie, Morayshire, Scotland.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_1095.xml" resp="#mjhawkins"><hi rend="italic">Burke’s landed gentry</hi></ref> 1879 s.v. Brodie-Innes, John</p>
+        <p><hi rend="italic">Gentleman’s Magazine</hi> n.s. 28 (1847): 80</p>
+        <p>Scotland statutory deaths 125/00 0005 (Scotlandspeople.gov.uk, accessed 26 March 2014)</p>
+    </note>
+    <note type="volume">10,11,12,16,17,19,22,23,28,29</note>
+    <note type="keywords">
+        <term type="name">Laidlaw, John</term>
+        <term type="name">Innes, J. B.</term>
+        <term type="place">Dominica</term>
+        <term type="place">West Indies</term>
+        <term type="place">Hythe</term>
+        <term type="place">Kent</term>
+        <term type="place">Milton Brodie</term>
+        <term type="place">Scotland</term>
+    </note>
+    
+    
+</person>

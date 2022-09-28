@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-577">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">Frances Allen to G. N. Smith   19 August [1840]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19552A</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-577 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-577.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-577.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+            <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+                <relatedItem type="publication">
+                    <bibl> <hi rend="italic">Correspondence</hi> 2: 273</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Tenby Museum</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_412.xml">Tenby</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_86.xml">Allen, Frances</persName>
+                <placeName>Cresselly</placeName>
+                <date when="1840-08-19">19 Aug [1840]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4410.xml">Smith, G. N.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Forwards list of questions from CD relating to GNS’s paper on Caldy [see <hi rend="doubleUnderline">576</hi>].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="b" ref="#">576</term>
+                <term type="geology" ref="#">caves</term>
+                <term type="people" ref="#subject_1">Darwin, C. R.</term>
+                <term type="places" ref="#">Caldy</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I forwarded the paper respecting Caldy, to M<hi rend="superscript">r</hi>. Charles Darwin— it found him unfortunately very ill in bed,<ref target="#foot.f1"/> but it has excited his interest very much, and he wrote down a list of questions, which he would be obliged to you to answer—<ref target="#foot.f2"/> He desired his sister in law to write a note for him, but she thought it would perhaps be more satisfactory to send the notes he had written down himself which you will excuse, when you know it was written from his bed— His present address is J Wedgwoods Esq<hi rend="superscript">re</hi> Maer Hall—Newcastle—Staffordshire—and his house in town—is 12 Upper Gower S<hi rend="superscript">t</hi>.</p>
+<p>Believe me dear Sir Your Sincerely Obliged | F. Allen <lb resp="#mjhawkins"/> Cresselly August 19<hi rend="superscript">th</hi>—</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">According to his ‘Journal’ (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 2, Appendix II), CD was taken ill on 4 August.</note>
+            <note xml:id="foot.f2">See letter to <ref target="../nameregs/nameregs_4410.xml" resp="#mjhawkins">Gilbert Nicholas Smith</ref>, [<hi rend="italic">c.</hi> 15 August 1840].</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

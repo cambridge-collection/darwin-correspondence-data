@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11186">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From A. R. Smith   16 October 1877</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10756</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11186 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11186.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11186.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 177: 182</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>177: 182</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4393.xml">Smith, A. R.</persName>
+                <placeName>Bristol</placeName>
+                <date when="1877-10-16">16 Oct 1877</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Gives a possible explanation of exceptions to CD’s observation [<hi rend="italic">Descent</hi>, ch. 7] that characters correlated with one sex tend to appear late in life.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Descent</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">heredity</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">sex</term>
+                <term type="scientific_terms" ref="#">sexual selection</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+                <term type="scientific_terms" ref="#">time and age (‘organic’ time)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>37 Old Market St | Bristol.</placeName>
+                    <date>Oct 16<hi rend="superscript">th</hi>/77</date>
+                    <seg type="supplemental">Charles Darwin Esq</seg>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                   <p>In your “Descent of Man” (Chapter VIII “On the Relation between the period of Development” etc) you give as a general rule that characters inherited by the sex they first appeared in only appear late in life.<ref target="#foot.f1"/> It struck me that the following might be one of the causes of the exceptions: that they first appeared late in life but have been transmitted at earlier &amp; earlier periods, according to the rule you give in “Inheritance at corresponding periods of Life”, till at last they appear about the time of birth &amp; that by the time they had worked down (so to speak) to this point they had become correlated with sex.<ref target="#foot.f2"/></p>
+<p>perhaps exceptions to converse of the second rule, viz that characters which are inherited by both sexes generally appear early in life, are occasionally caused by a reverse process.</p>
+<p>Hoping that you will excuse my writing to you, | I remain | Yours truly | A R Smith</p>
+<p>P.S. In your preface you say that the causes of correlation are unknown.<ref target="#foot.f3"/> Would it not be sometimes caused (as I have taken for granted) by the correlated characters having appeared together for a long time &amp; so, through inheritance, have acquired a strong tendency to appear together?</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> 1: 286.</note>
+            <note xml:id="foot.f2">CD noted that characteristics appearing at a certain age in parents tended to reappear in their offspring at the same age; deviations from this rule favoured the earlier rather than the later appearance of the character (<ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> 1: 280–1). </note>
+            <note xml:id="foot.f3"><ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> 1: 9.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

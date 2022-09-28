@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1052">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Daniel Sharpe   [19 January 1847]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1947</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1052 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1052.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1052.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp &amp; C</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 147: 472</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl>De Beer (1958): 106</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 4: 4</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">The British Library (Add MS 42240: 21–2)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_43.xml">The British Library</repository>
+                    <collection>Add MS 42240</collection>
+                    <idno>21–2</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1847-01-19">[19 Jan 1847]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4311.xml">Sharpe, Daniel</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Comments on letter by Bernhard Studer ["Remarks on the geological relations of the gneiss of the Alps", <hi rend="italic">Edinburgh New Philos. J.</hi> 42 (1846–7): 186] and on article by DS ["On slaty cleavage", <hi rend="italic">J. Geol. Soc. Lond.</hi> 3 (1847): 74–105]. Discusses geological cleavage and foliation.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Edinburgh New Philos. J.</term>
+                <term type="rx" ref="#">Studer, Bernhard 1847b</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough | Kent</placeName>
+                    <date>Tuesday</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I do not know whether you look at the Edin. New. Phil. Journal, but if not, do read a very short letter from Studer at p. 186 of last Number.<ref target="#foot.f2"/> I have been pleased with it, as it confirms my facts &amp; views on the “foliation” of gneiss &amp;c. being quite distinct from stratification: Studer does not seem to have perceived that foliation is only much developed cleavage.—</p>
+<p>I often think over what little I was able to understand of your Paper,<ref target="#foot.f3"/> &amp; I anxiously look forward to read it in extenso.—<ref target="#foot.f4"/>  [DIAGRAM HERE] cleavage A cleavage A cleavage A</p>
+<p>When non=cleaving beds intervene between those with cleavage, have you ever noticed <hi rend="underline">very</hi> carefully the lines of junction? do the edges of the cleavage planes ever indent in ever so small a degree the bases or tops of the intercalated non=cleaved beds. If you have time to send me one single line, just inform me on this head—</p>
+<p>believe me | Yours very truly | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.4 perceived] <hi rend="italic">after omitted point</hi></note>
+                    <note xml:id="tnote.n2">2.1 little] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n3">3.2 junction?] ‘?’ <hi rend="italic">over</hi> ‘;’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date of the letter and identity of the correspondent are based on CD’s letters to <ref target="../nameregs/nameregs_4602.xml" resp="#mjhawkins">Bernhard Studer</ref>, <ref target="./DCP-LETT-1054.xml" resp="#mjhawkins">20 January [1847]</ref>, and to <ref target="../nameregs/nameregs_4311.xml" resp="#mjhawkins">Daniel Sharpe</ref>, [23 January 1847].</note>
+            <note xml:id="foot.f2">Studer 1847b, published in the January issue of the <hi rend="italic">Edinburgh New</hi> <hi rend="italic">Philosophical Journal</hi>. The printed letter, originally addressed to <ref target="../nameregs/nameregs_1681.xml" resp="#mjhawkins">James David Forbes</ref>, reported observations that had led Studer to conclude that the laminae in Alpine gneiss could not be sedimentary strata. See also <ref target="./DCP-LETT-1073.xml" resp="#mjhawkins">letter to Bernhard Studer, 21 March [1847]</ref>, n. 4.</note>
+            <note xml:id="foot.f3">Sharpe 1847, which was first read at a meeting of the Geological Society on 2 December 1846. CD attended this meeting (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 3, Appendix II).</note>
+            <note xml:id="foot.f4">Sharpe evidently sent a manuscript version of the paper to CD (see <ref target="./DCP-LETT-1083.xml" resp="#mjhawkins">letter to Daniel Sharpe, [23 January 1847]</ref>). Sharpe had previously discussed his views with CD in November 1846 (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 3, <ref target="./DCP-LETT-1016.xml" resp="#mjhawkins">letter to Daniel Sharpe, [1 November 1846]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

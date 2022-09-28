@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-636" status="released">
+    <persName>
+        <forename type="preferred">Albertine</forename>
+        <forename>Eugenie</forename>
+        <forename>Elizabeth</forename>
+        <choice>
+            <seg><surname notBefore="1835" notAfter="1856">Lavit</surname></seg>
+            <seg><surname notBefore="1856" notAfter="1921">Bristowe</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1835–1921</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of Jean Jacques Lavit of Paris. Married Samuel Boteler Bristowe in 1856.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_1822.xml" resp="#mjhawkins"><hi rend="italic">Darwin pedigree</hi></ref></p>
+        <p><hi rend="italic">England &amp; Wales, national probate calendar</hi> (<hi rend="italic">index of wills and administrations</hi>), <hi rend="italic">1858–1966, 1973–95</hi> (Ancestry.co.uk, accessed 3 October 2018)</p>
+    </note>
+    <note type="volume">11</note>
+    <note type="keywords">
+        <term type="name">Lavit, J. J.</term>
+        <term type="name">Bristowe, S. B.</term>
+        <term type="place">Paris</term>
+    </note>
+    
+</person>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8903">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To T. B. Leffen   7 May 1873</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3820</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8903 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8903.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8903.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">State Library Victoria, Melbourne (MS 6219, Box 231/3. Diary of G. F. Belcher vol. 3)<ref target="#foot.f2"/> </bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_227.xml">State Library Victoria</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1873-05-07">7 May 1873</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_6142.xml">Leffen, T. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks for note and information.</p>
+            <p>Mentions venomous caterpillars in Africa and Australia.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">caterpillars</term>
+                <term type="places" ref="#">Africa</term>
+                <term type="places" ref="#">Australia</term>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>May 7 1873</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I write merely to thank you for your note &amp; information, &amp; to express a hope that you may receive benefit from your present residence. I had previously heard of the Australian caterpillars; but no <hi rend="underline">one</hi> knows how they cause such severe pain.<ref target="#foot.f1"/> In Africa there is a species believed to belong to the same genus, which is so venomous that if a hand touches a surface previously touched by the caterpillar, dreadful inflammation follows over nearly the whole surface of the body.</p>
+<p>With my thanks &amp; hopes for your recovery I remain | dear Sir | yours faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Leffen’s letter has not been found. He probably wrote in response to CD’s discussion of the protective mechanisms of caterpillars in <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> 1: 416. Leffen may have written about caterpillars of cup moths (Limacodidae), which have retractable stinging spines that cause irritation, and are fairly common in Australia.</note>
+            <note xml:id="foot.f2">This letter was pasted into a volume of the diary of <ref target="../nameregs/nameregs_6372.xml" resp="#mjhawkins">George Frederick Belcher</ref>, who noted on the verso of the letter that it was given to him on 4 April 1874 by Leffen.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

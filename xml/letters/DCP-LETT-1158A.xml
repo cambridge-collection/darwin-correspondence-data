@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1158A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To James Clark Ross    25 February [1848]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20623</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1158A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1158A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1158A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 7: 482–3</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Scott Polar Research Institute (MS 1226/10)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_381.xml">Scott Polar</repository>
+                    <idno>MS 1226/10</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1848-02-25">25 Feb [1848]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4082.xml">Ross, J. C.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks for sending cirripedes. Cannot make out the label, so can JCR tell him the bank and the depth. Hopes to keep the specimens for 6 or 8 weeks before returning them.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">cirripedes</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geography</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down | Farnborough | Kent</placeName>
+                    <date>Feb. 25<hi rend="superscript">th</hi>.</date>
+                    <salute>Dear Sir James Ross</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very much obliged to you for so kindly remembering my wish to see any Cirripedes in your possession:<ref target="#foot.f2"/> I received them only a few days since owing to my not having been for a long time in London.— I am now very sorry to trouble you, but I cannot make out the label enclosed: will you kindly tell me what Bank it is, &amp; if you remember the depth. The dry Balani, I presume came from T. del Fuego.<ref target="#foot.f3"/></p>
+<p>Finally, one more question: sh<hi rend="superscript">d</hi> I return the specimens to you at the Athenæum Club? I hope you will allow me to keep them for about six or eight weeks for I shall not return to the genus Balanus just at present.<ref target="#foot.f4"/></p>
+<p>I am really sorry thus to trouble you.</p>
+<p>Pray believe me | Yours sincerely | C. Darwin <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">To | Capt. Sir J. Ross | R.N. &amp;c &amp;c.</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.1 sh<hi rend="superscript">d</hi>] <hi rend="italic">altered from</hi> ‘shal’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is suggested by the relationship to a letter to Ross in December 1847 requesting Ross’s assistance with his cirripede monograph. See n. 2, below.</note>
+            <note xml:id="foot.f2">In a <ref target="./DCP-LETT-1140.xml" resp="#automat" cert="medium">letter to Ross, 31 December 1847</ref> (<hi rend="italic">Correspondence</hi> vol. 4), CD asked Ross to collect cirripede specimens for him during his forthcoming voyage in search of <ref target="../nameregs/nameregs_1742.xml" resp="#mjhawkins">John Franklin</ref> (1848–9). Ross had previously collected cirripedes during his Antarctic exploring expedition (1839–43) and seems to have sent these to CD in response to his request. Specimens of <hi rend="italic">Balanus</hi> from Ross’s Antarctic collection were described in <hi rend="italic">Living Cirripedia</hi> (1854): 209, 225.</note>
+            <note xml:id="foot.f3">The letter is annotated ‘An<hi rend="superscript">d</hi> 30 Mar’, presumably the date of a letter from Ross to CD that is now missing.</note>
+            <note xml:id="foot.f4">CD recorded having worked on <hi rend="italic">Balanus</hi> in February 1847 and did not again study this genus of sessile cirripedes until late in 1850. See <hi rend="italic">Correspondence</hi> vol. 4, Appendix I.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3293">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To T. H. Huxley   22 October [1861]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3287</idno>
+            
+            
+            
+            
+            <date when="1994">1994</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3293 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3293.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3293.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="09">9</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 145: 220</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Imperial College of Science, Technology and Medicine Archives (Huxley 5: 177)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_192.xml">Imperial College</repository>
+                    <idno>Huxley 5: 177</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1861-10-22">22 Oct [1861]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2486.xml">Huxley, T. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Mr Campbell (recommended by H. Spencer) would be a treasure but doubts any man has patience to experiment at another’s suggestion.</p> 
+<p>Jocular comments about THH’s audacity in doubting <hi rend="italic">Catasetum</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Catasetum</term>
+                <term type="people" ref="#subject_805">Campbell, James (b)</term>
+                <term type="people" ref="#subject_4495">Spencer, Herbert</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">exclamations</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">negative attitude/assessment</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Oct. 22<hi rend="superscript">d</hi></date>
+                    <salute>My dear &amp; good Agent.</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>If M<hi rend="superscript">r</hi> Campbell will really work, he would be a treasure beyond price.<ref target="#foot.f2"/> But I have no faith in anyone having patience enough to experiment on another’s man’s suggestion. I have written to him to enquire.— When you see H. Spencer, pray thank him.—<ref target="#foot.f3"/></p>
+<p>I have got my drawings done &amp; can now breathe freely.<ref target="#foot.f4"/> By the way you audacious agent to doubt about Catasetum: I will turn you off without a character, for do not think I am such a fool as to be grateful for a thousand good acts</p>
+<p>Ever yours | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.1 freely.] <hi rend="italic">before omitted point</hi></note>
+                    <note xml:id="tnote.n2">2.3 as] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is provided by CD’s reference to having completed the illustrations for <ref target="../bibliographies/bibl_6010.xml" resp="#mjhawkins"><hi rend="italic">Orchids</hi></ref> (see n. 4, below).</note>
+            <note xml:id="foot.f2">Mr Campbell has not been identified.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_4495.xml" resp="#mjhawkins">Herbert Spencer</ref> and Huxley were close friends.</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_4479.xml" resp="#mjhawkins">George Brettingham Sowerby Jr</ref> had been at Down House preparing the illustrations for <ref target="../bibliographies/bibl_6010.xml" resp="#mjhawkins"><hi rend="italic">Orchids</hi></ref> (see letters to W. E. Darwin, <ref target="./DCP-LETT-3284.xml" resp="#mjhawkins">12 October [1861]</ref>, and to John Murray, [21 October 1861]).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

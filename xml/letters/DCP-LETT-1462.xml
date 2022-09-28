@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1462">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To T. H. Huxley   22 November [1851]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3203</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1462 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1462.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1462.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 145: 149</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Imperial College of Science, Technology, and Medicine Archives (Huxley 5: 14)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_192.xml">Imperial College</repository>
+                    <idno>Huxley 5: 14</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1851-11-22">22 Nov [1851]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2486.xml">Huxley, T. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Proposes to send THH vol. 1 of <hi rend="italic">Living Cirripedia</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Living Cirripedia</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough | Kent</placeName>
+                    <date>Nov. 22<hi rend="superscript">d</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>Will you be so kind as to inform me whether you are a member of the Ray Society: if you are not, I am anxious to be allowed to send you a copy of my volume on Cirripedia,<ref target="#foot.f1"/> for I hope &amp; <hi rend="underline">flatter</hi> myself some <hi rend="underline">small</hi> portion would somewhat interest you. Not knowing your address I have directed this to the care of M<hi rend="superscript">r</hi>. Taylor.<ref target="#foot.f2"/></p>
+<p>Pray believe me | Dear Sir | Yours very faithfully | Charles Darwin <lb resp="#mjhawkins"/> T. H. Huxley Esq<hi rend="superscript">e</hi></p>
+<p>If you have become a member of the Ray Soc<hi rend="superscript">y</hi>., I hope that you will forgive my troubling you for nothing.—</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../bibliographies/bibl_4837.xml" resp="#mjhawkins"><hi rend="italic">Living Cirripedia</hi> (1851)</ref>, which was not available for distribution until late January 1852. Members of the <ref target="../nameregs/nameregs_3945.xml" resp="#mjhawkins">Ray Society</ref> automatically received the publications of the society. Huxley was not a member at this time (L. Huxley ed. 1900, 1: 89). According to CD’s list of presentation copies of <ref target="../bibliographies/bibl_4837.xml" resp="#mjhawkins"><hi rend="italic">Living Cirripedia</hi> (1851)</ref>, the volume was sent to Huxley (MS attached to CD’s copy of <ref target="../bibliographies/bibl_4838.xml" resp="#mjhawkins"><hi rend="italic">Living Cirripedia</hi> (1854)</ref> in the <ref target="../nameregs/nameregs_795.xml" resp="#mjhawkins">Cambridge University</ref> Library).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_4674.xml" resp="#mjhawkins">Richard Taylor</ref>, publisher of the <hi rend="italic">Annals and Magazine</hi> <hi rend="italic">of Natural History</hi>, in which some of Huxley’s papers had appeared.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

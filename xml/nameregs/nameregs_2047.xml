@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-2047" status="released">
+    <persName>
+        <forename>Agnes</forename>
+        <choice>
+            <seg><surname notBefore="1842" notAfter="1867">Huschke</surname></seg>
+            <seg><surname notBefore="1867" notAfter="1915">Haeckel</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1842–1915</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of Emil Huschke. Second wife of Ernst Haeckel, whom she married in 1867.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_4494.xml" resp="#mjhawkins">Krauße 1987</ref></p>
+    </note>
+    <note type="volume">15,16,17,24</note>
+    <note type="keywords">
+        <term type="name">Huschke, Emil</term>
+        <term type="name">anatomist</term>
+        <term type="name">Haeckel, E. P. A.</term>
+    </note>
+</person>

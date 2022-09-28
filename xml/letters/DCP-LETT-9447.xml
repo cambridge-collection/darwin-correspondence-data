@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9447">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From J. F. McLennan   8 May 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14414</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9447 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9447.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9447.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 21</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 21</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3277.xml">McLennan, J. F.</persName>
+                <placeName>Campden Hill</placeName>
+                <date when="1874-05-08">8 May 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks for issue of <hi rend="italic">Anthropologia</hi>. Would be pleased if CD would write to Murray on his behalf.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Anthropologia</term>
+                <term type="people" ref="#subject_3463">Murray, John (b)</term>
+                <term type="scientific_terms" ref="#">breeding behaviour</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">social behaviour</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">61. Bedford Gardens. | Campden Hill. W.</hi></placeName>
+                    <date>8 May 74</date>
+                    <salute>My dear M<hi rend="superscript">r</hi>. Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Many thanks for the Anthropologia of which I have ordered a copy.<ref target="#foot.f1"/> When I get it I shall return you yours.</p>
+<p>I shall probably write to you about the papers it contains by &amp; bye.</p>
+<p>Meantime as to M<hi rend="superscript">r</hi>. Murray, I have neither spoken nor written to any one about my book since I saw him. There is no publisher I sh<hi rend="superscript">d</hi>. more like to have than M<hi rend="superscript">r</hi>. Murray if he w<hi rend="superscript">d</hi>. publish for me; &amp; I shall be exceedingly obliged to you—even if nothing comes of it—if you will write to him in my behalf.—<ref target="#foot.f2"/></p>
+<p>I felt moribund a few days ago. Now I am better. The bleeding stopped on Tuesday &amp; D<hi rend="superscript">r</hi>. Clark,<ref target="#foot.f3"/> whom I saw today, asks me not to think very much of it.</p>
+<p>With kind regards to M<hi rend="superscript">rs</hi>. Darwin I am | y<hi rend="superscript">rs</hi>. sincerely | J. F M’Lennan. <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin Esq | &amp;c &amp;c</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">McLennan had requested a copy of the article by <ref target="../nameregs/nameregs_7388.xml" resp="#mjhawkins">Charles Staniland Wake</ref> (<ref target="../bibliographies/bibl_8044.xml" resp="#mjhawkins">Wake 1873</ref>) that appeared in the journal <hi rend="italic">Anthropologia</hi> (see <ref target="./DCP-LETT-9442.xml" resp="#mjhawkins">letter from J. F. McLennan, 5 May 1874</ref> and n. 2).</note>
+            <note xml:id="foot.f2">McLennan had approached CD’s publisher, John Murray, about a new edition of his book <hi rend="italic">Primitive marriage</hi> (<ref target="../bibliographies/bibl_5125.xml" resp="#mjhawkins">McLennan 1865</ref>; see <ref target="./DCP-LETT-9442.xml" resp="#mjhawkins">letter from J. F. McLennan, 5 May 1874</ref> and n. 3). No second edition was published.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_934.xml" resp="#mjhawkins">Andrew Clark</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

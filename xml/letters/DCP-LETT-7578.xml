@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7578">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To G. B. Murdoch   13 March 1871</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13569</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7578 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7578.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7578.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 146: 465</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">ML</hi> 2: 93</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">David Henderson-Howat (private collection)</bibl>
+            <bibl type="printedSource">David Henderson-Howat</bibl>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1871-03-13">13 Mar 1871</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3454.xml">Murdoch, G. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Believes he has committed an oversight with regard to sexual selection in insects. Cites conclusions of B. T. Lowne, which are similar to GBM’s.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">insects</term>
+                <term type="people" ref="#subject_3015">Lowne, B. T.</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">negative self-criticism</term>
+                <term type="scientific_terms" ref="#">quotations / citations</term>
+                <term type="scientific_terms" ref="#">sexual selection</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down.</hi> | Beckenham | <hi rend="print">Kent. S.E.</hi></placeName>
+                    <date>Mar 13 1871</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am much obliged for your valuable letter. I am strongly inclined to think that I have made a great &amp; complete oversight with respect to the subject which you discuss. I am the more surprised at this, as I remember reflecting on some points which ought to have led me to your conclusion.<ref target="#foot.f1"/></p>
+<p>By an odd chance, I received the day before yesterday a letter from Mr Lowne (author of an excellent book on the anatomy of the Blow-fly) with a discussion very nearly to the same effect as yours.<ref target="#foot.f2"/> His conclusions were drawn from studying male insects with great horns, mandibles &amp;c. He informs me that his paper on this subject will soon be published in the Transact. Entomolog. Soc.<ref target="#foot.f3"/> I am inclined to look at your &amp; Mr Lowne’s view as specially valuable from probably throwing light on the greater variability of male than female animals, which manifestly has much bearing on sexual selection. I will keep your remarks in mind whenever a new edition of my book is demanded.<ref target="#foot.f4"/></p>
+<p>With my best thanks | I remain my dear Sir | In Haste | yours very faithfully | Ch. Darwin.</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-7564.xml" resp="#mjhawkins">letter from G. B. Murdoch, 10 March 1871</ref>.</note>
+            <note xml:id="foot.f2">The letter from <ref target="../nameregs/nameregs_3015.xml" resp="#mjhawkins">Benjamin Thompson Lowne</ref> has not been found, but CD’s inscribed and annotated copy of Lowne 1870 is in the Darwin Library–CUL (see <ref target="../bibliographies/bibl_5214.xml" resp="#mjhawkins"><hi rend="italic">Marginalia</hi></ref> 1: 510).</note>
+            <note xml:id="foot.f3">The reference is to <ref target="../bibliographies/bibl_4903.xml" resp="#mjhawkins">Lowne 1871</ref>.</note>
+            <note xml:id="foot.f4">In <ref target="../bibliographies/bibl_1967.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi> 2d ed.</ref>, pp. 224–5, CD added a section on the greater variability of male than of female animals, but did not cite Murdoch or Lowne.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

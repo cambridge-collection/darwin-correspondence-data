@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-2178" status="released">
+    <persName>
+        <forename>Sarah</forename>
+        <choice>
+            <seg>
+                <surname notBefore="1819" notAfter="1862">Hawthorn</surname>
+            </seg>
+            <seg>
+                <surname notBefore="1862" notAfter="1871">Jenyns</surname>
+            </seg>
+            <seg>
+                <surname notBefore="1871" notAfter="1908">Blomefield</surname>
+            </seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1819–1908</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Eldest daughter of the clergyman Robert Hawthorn, of Stapleford, Cambridgeshire. Married Leonard Jenyns (from 1871 Leonard Blomefield) in 1862.</p></note>
+    <note type="sources">
+        <p><hi rend="italic">England &amp; Wales, national probate calendar</hi> (<hi rend="italic">index of wills and administrations</hi>), <hi rend="italic">1858–1966, 1973–95</hi> (Ancestry.co.uk, accessed 8 October 2018)</p>
+        <p><ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref> s.v. Blomefield, Leonard.</p>
+    </note>
+    <note type="volume">11</note>
+    <note type="keywords">
+        <term type="name">clergyman</term>
+        <term type="name">Hawthorn, Robert</term>
+        <term type="name">Jenyns, Leonard</term>
+        <term type="place">Stapleford</term>
+        <term type="place">Cambridgeshire</term>
+    </note>
+    
+</person>

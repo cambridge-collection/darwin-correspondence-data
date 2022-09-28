@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10662">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Asa Gray   4 [November 1876]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3636</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10662 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10662.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10662.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">ApcS damaged</note>
+            <note type="physdesc" n="ApcS">damaged</note>
+            <note type="postmark">NO 4 | 〈7〉6</note>
+            <relatedItem type="publication">
+                <bibl>HRS, no. 128</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Archives of the Gray Herbarium of Harvard University (130c)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_156.xml">Harvard Gray Herbarium</repository>
+                    <idno>130c</idno>
+                </msIdentifier>
+                </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1876-11-04">4 [Nov 1876]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1957.xml">Gray, Asa</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends some sheets [of <hi rend="italic">Cross and self-fertilisation</hi>].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Cross and self-fertilisation</term>
+                <term type="scientific_terms" ref="#">crossing</term>
+                <term type="scientific_terms" ref="#">fertilisation and generation</term>
+                <term type="scientific_terms" ref="#">fertility and/or sterility</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                
+                <term type="tag" ref="#asa_gray_set">Asa Gray Letters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <date>4<hi rend="superscript">th</hi></date>
+                </opener>
+                <div type="transcription">
+                     
+<p>I send by this post rest of sheets, some not proofread, but corrected. Title &amp; Index shall be sent hereafter.—<ref target="#foot.f2"/></p>
+<p>C. Darwin <lb resp="#mjhawkins"/></p>
+<p rend="left">Down.</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The month and year are established by the postmark and by the relationship between this letter and the <ref target="./DCP-LETT-10656.xml" resp="#mjhawkins">letter to Asa Gray, 28 October 1876</ref>.</note>
+            <note xml:id="foot.f2">CD was sending Gray proof-sheets of <ref target="../bibliographies/bibl_8595.xml" resp="#mjhawkins"><hi rend="italic">Cross and self fertilisation</hi></ref> (<ref target="./DCP-LETT-10656.xml" resp="#mjhawkins">letter to Asa Gray, 28 October 1876</ref>). Gray had asked for them to be sent within thirty days in his <ref target="./DCP-LETT-10639.xml" resp="#mjhawkins">letter of 12 October 1876</ref>; this postcard was franked in New York on 15 November (as well as in Beckenham on 4 November).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

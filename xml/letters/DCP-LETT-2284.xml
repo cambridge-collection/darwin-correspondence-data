@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2284">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Lubbock   10 June 1858</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6811</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2284 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2284.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2284.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 170: 21</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>170: 21</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3026.xml">Lubbock, John</persName>
+                <placeName>High Elms</placeName>
+                <date when="1858-06-10">10 June 1858</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks for queen-bee larva and pupa.</p> 
+<p>Nervous system of <hi rend="italic">Coccus</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">bee, queen</term>
+                <term type="animals" ref="#">Coccus</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">larvae</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+                <term type="scientific_terms" ref="#">pupae</term>
+                <term type="scientific_terms" ref="#">sex</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="underline">High Elms, | Farnborough, | Kent.</hi></placeName>
+                    <date>10 June 58</date>
+                    <salute>Dear M<hi rend="superscript">r</hi>. Darwin</salute>
+                </opener>
+                <div type="transcription">
+<p>I hope you are better. Many thanks for the Queen Bee larva &amp; Pupa which will be very useful some day.  [DIAGRAMS HERE] C. persicæ? 1 b a b C. hesperidum 2 b a a b</p>
+<p>The above two figures represent the posterior part of the subœsophageal ganglion, in the two species of Coccus whose nervous system I have examined.<ref target="#foot.f1"/> In C. persicæ? the ganglion end like a trident, whose 3 teeth pass gradually into the central stem and two lateral nerves.</p>
+<p>In some specimens of both species I have seen the nerve a rise directly from the ganglion and not from the nerve b.<ref target="#foot.f2"/></p>
+<p>Believe me | Yours most sincerely | J Lubbock <lb resp="#mjhawkins"/> C Darwin Esq</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_3026.xml" resp="#mjhawkins">John Lubbock</ref> was preparing a paper on the digestive and nervous systems of the insect <hi rend="italic">Coccus hesperidum</hi> (Lubbock 1858). His paper was read at a meeting of the Royal Society on 18 November 1858. An offprint of the paper marked by CD is in the Darwin Pamphlet Collection–CUL.</note>
+            <note xml:id="foot.f2">CD was impressed to hear that important organs like nerves were subject to variation in their number and position. Lubbock’s information was cited in <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>, p. 46.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

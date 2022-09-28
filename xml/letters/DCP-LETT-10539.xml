@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10539">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Auguste Forel   19 June 1876</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8014</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10539 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10539.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10539.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 144: 133</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">ML</hi> 2: 11;</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl>Walser (1968): 136</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Universität Zürich, Archiv für Medizingeschichte (AfM ZH PN 31.2:794)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_453.xml">Zürich Archiv für Medizingeschichte</repository>
+                    <idno>AfM ZH PN 31.2:794</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1876-06-19">19 June 1876</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1686.xml">Forel, A.-H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks how the Coleoptera that inhabit the nests of ants colonise a new nest. Wallace has suggested their ova become attached to winged female ants.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">ants</term>
+                <term type="animals" ref="#">Coleoptera</term>
+                <term type="people" ref="#subject_4935">Wallace, A. R.</term>
+                <term type="scientific_terms" ref="#">castes</term>
+                <term type="scientific_terms" ref="#">eggs</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">nesting and other home-making or web-making behaviour</term>
+                <term type="scientific_terms" ref="#">relation of organism to organism</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi> | (<hi rend="print">Railway Station | Orpington. S.E.R.</hi>)</placeName>
+                    <date>June 19 1876</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I hope you will allow me to suggest an observation, should any opportunity occur, on a point which has interested me for many years. Namely how do the Coleoptera which inhabit the nests of ants colonize a new nest?</p>
+<p>Mr Wallace, in reference to the presence of such Coleoptera in Madeira, suggests that their ova may be attached to the winged female ants, &amp; that these are occasionally blown across the ocean to the island.<ref target="#foot.f1"/> It w<hi rend="superscript">d</hi> be very interesting to discover whether the ova are adhesive, &amp; whether the female coleoptera are guided by instinct to attach them to the female ants; or whether the larvæ pass thro an early stage, as with Sitaris or Meloe, &amp; cling to the bodie’s of the females.<ref target="#foot.f2"/> This note obviously requires no answer.</p>
+<p>I trust that you continue your most interesting investigations on ants.<ref target="#foot.f3"/></p>
+<p>Believe me dear Sir | yours very faithfully | Charles Darwin</p>
+<p>P.S I fear it w<hi rend="superscript">d</hi> be too troublesome to examine a large number of the bodies of the females when swarming</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_4935.xml" resp="#mjhawkins">Alfred Russel Wallace</ref> made this suggestion in his <hi rend="italic">Geographical distribution of animals</hi> (Wallace 1876a, 1: 212).</note>
+            <note xml:id="foot.f2"><hi rend="italic">Sitaris</hi> and <hi rend="italic">Meloe</hi> are genera in the family Meloidae, blister beetles. Blister beetles go through several larval stages, the first of which is usually what is now called a planidium or triungulin, a mobile larva that can find a host on which to feed. See <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 11, <ref target="./DCP-LETT-3939.xml" resp="#mjhawkins">letter to John Lubbock, 23 [February 1863]</ref> and n. 4, and <ref target="../bibliographies/bibl_9329.xml" resp="#mjhawkins">Newport 1845–7</ref>.</note>
+            <note xml:id="foot.f3">CD and Forel corresponded about ants in 1874 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 22; see also <ref target="../bibliographies/bibl_8587.xml" resp="#mjhawkins">Forel 1874</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

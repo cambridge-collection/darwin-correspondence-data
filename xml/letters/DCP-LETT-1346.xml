@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1346">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. de C. Sowerby   [12 or 19 August 1850]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">845</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1346 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1346.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1346.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+            <date xml:id="date1" when="1850-08-12" exclude="#date2">12 Aug 1850</date>
+            <date xml:id="date2" when="1850-08-19" exclude="#date1">19 Aug 1850</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4481.xml">Sowerby, J. C.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>CD asks for the return of a specimen [to be used for illustration in <hi rend="italic">Fossil Cirripedia</hi> (Lepadidae)], so he can do some identifying.</p> 
+            <p>J. S. Bowerbank has again asked on behalf of the Palaeontographical Society what progress has been made.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="animals" ref="#">Lepadidae</term>
+                <term type="it" ref="#">Fossil Cirripedia</term>
+                <term type="people" ref="#subject_568">Bowerbank, J. S.</term>
+                <term type="scientific_terms" ref="#">identification</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="societal" ref="#">Palaeontographical Society</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough | Kent</placeName>
+                    <date>Monday</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I am sorry to trouble you, but I have received some specimens, which I dare not name without seeing the <hi rend="underline">scutum</hi> of <hi rend="underline">Pollicipes</hi> <hi rend="underline">rigidus</hi>;<ref target="#foot.f1"/> will you please send it me as soon as you can, enclosed in a <hi rend="doubleUnderline">tin</hi> or <hi rend="doubleUnderline">wooden</hi> little Box by Post; on no account, please put it in paste-board box; I will return stamps for posting.—when the specimen itself is returned.</p>
+<p>I have been disappointed in not having received anything from you.— Please remember how time slips by.— I am plagued to return specimens &amp; only the other day I was asked by M<hi rend="superscript">r</hi> Bowerbank on part of Pal. Soc. what progress I was making &amp; I could only answer by stating that everything depended on you.— All this is very disagreeable to me &amp; I do earnestly hope that you will endeavour to make more progress:<ref target="#foot.f2"/> I know not what to say to those gentlemen, whose specimens I borrowed for only a few weeks.—</p>
+<p>Believe me | Yours very faithfully | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.3 Post] <hi rend="italic">before omitted point</hi></note>
+                    <note xml:id="tnote.n2">1.4 paste-board] <hi rend="italic">after del</hi> ‘wooden’</note>
+                    <note xml:id="tnote.n3">1.4 when the specimen itself is returned. 1.5] <hi rend="italic">added</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">In order to determine whether a specimen received from <ref target="../nameregs/nameregs_2141.xml" resp="#mjhawkins">William Harris</ref> was a new species, CD needed to examine <hi rend="italic">Pollicipes rigidus</hi> (a synonym of <hi rend="italic">P. elegans</hi>), which it closely resembled (see <ref target="../bibliographies/bibl_2621.xml" resp="#mjhawkins"><hi rend="italic">Fossil Cirripedia</hi> (1851): </ref>43).</note>
+            <note xml:id="foot.f2">J. de C. Sowerby’s slow progress was no doubt the reason for CD’s employing <ref target="../nameregs/nameregs_4479.xml" resp="#mjhawkins">George Brettingham Sowerby Jr</ref> to do the drawings for <ref target="../bibliographies/bibl_2622.xml" resp="#mjhawkins"><hi rend="italic">Fossil Cirripedia</hi> (1854)</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

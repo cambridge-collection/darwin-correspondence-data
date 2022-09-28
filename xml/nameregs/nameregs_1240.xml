@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-1240" status="released">
+    <persName>
+        <forename>Sara</forename>
+        <choice>
+            <seg>
+                <surname notBefore="1839" notAfter="1877">Sedgwick</surname>
+            </seg>
+            <seg>
+                <surname notBefore="1878" notAfter="1902">Darwin</surname>
+            </seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1839–1902</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>American. Daughter of Sara Ashburner and Theodore Sedgwick. Sister of Susan Ridley Sedgwick Norton. Married William Erasmus Darwin in 1877.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_2662.xml" resp="#mjhawkins">Freeman 1978</ref></p>
+        <p><ref target="../bibliographies/bibl_7866.xml" resp="#mjhawkins">Turner 1999</ref></p>
+    </note>
+    <note type="volume">19,23,WSL,25,26,27,28,29,30</note>
+    <note type="keywords">
+        <term type="name">Darwin, C. R.</term>
+        <term type="name">Darwin, W. E.</term>
+       
+    </note>
+</person>

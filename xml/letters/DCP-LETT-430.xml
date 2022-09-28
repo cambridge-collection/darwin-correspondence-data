@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-430">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. F. W. Herschel   2 [November 1838]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3006</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-430 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-430.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-430.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">The Royal Society (HS6: 10)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_364.xml">Royal Society</repository>
+                    <idno>HS6: 10</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Gt Marlborough St, 36</placeName>
+                <date when="1838-11-02">2 [Nov 1838]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2259.xml">Herschel, J. F. W.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Requests information for W. S. Macleay on JFWH’s method of catching pelagic animals while ship is under way.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_3118">Macleay, W. S.</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I happened to mention to M<hi rend="superscript">r</hi> Macleay, who sails in a few days to Australia,<ref target="#foot.f1"/> the plan, you told me the other evening, you had followed with success in catching pelagic animals, when the Ship has way on her.— M<hi rend="superscript">r</hi> Macleay is particularly anxious to know the size of the mesh, &amp; where he can obtain the kind of netting.—</p>
+<p>I called the other day on Lady Herschel, &amp; had hoped to have been enabled to have asked you this question; so I hope you will excuse the liberty I take in troubling you with this note, as I promised M<hi rend="superscript">r</hi> Macleay—I would endeavour to procure from you an answer before I again saw him.—</p>
+<p>Believe me | Yours truly obliged | Charles Darwin <lb resp="#mjhawkins"/> Friday 2<hi rend="superscript">d</hi> <ref target="#foot.f2"/></p>
+<p>36 Grt. Marlbro’ St.</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.4 netting] ‘ting’ <hi rend="italic">added</hi></note>
+                    <note xml:id="tnote.n2">2.1 enabled] <hi rend="italic">altered from</hi> ‘able’</note>
+                    <note xml:id="tnote.n3">2.3 would] <hi rend="italic">over illeg</hi></note>
+                    <note xml:id="tnote.n4">2.4 answer] ‘er’ <hi rend="italic">over</hi> ‘ers’</note>
+                    <note xml:id="tnote.n5"><hi rend="italic">point omitted after</hi> : 1.2 ‘me’; 1.4 ‘of the’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">By 29 May 1839, CD had heard of William Sharp MacLeay’s safe arrival at Rio de Janeiro (see letter to W. S. MacLeay, 29 May 1839).</note>
+            <note xml:id="foot.f2">‘Friday 2<hi rend="superscript">d</hi>’ occurred in February, March, and November 1838, but Herschel did not return to England until May.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2219">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. D. Fox   22 February [1858]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7111</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2219 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2219.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2219.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 144: 249</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Christ’s College Library, Cambridge (MS 53 Fox 111)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_83.xml">CCLC</repository>
+                    <collection>MS 53</collection>
+                    <idno>Fox 111</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1858-02-22">22 Feb [1858]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1730.xml">Fox, W. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks for Hewitson [<hi rend="italic">British oology</hi>].</p> 
+            <p>Has found more variability in birds’ nests than he expected.</p> 
+<p>Interested in WDF’s note about turkey terrified by a frog [see <hi rend="italic">Natural selection</hi>, p. 488 n.].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">birds</term>
+                <term type="animals" ref="#">turkey</term>
+                <term type="it" ref="#">British oology</term>
+                <term type="it" ref="#">Natural selection</term>
+                <term type="rx" ref="#">Hewitson, W. C. 1831–1844</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">expression, emotion</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">nesting and other home-making or web-making behaviour</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Feb. 22<hi rend="superscript">d</hi></date>
+                    <salute>My dear Fox</salute>
+                </opener>
+                <div type="transcription">
+<p>I was in London last week &amp; got Hewitson all safe at Athenæum Club.<ref target="#foot.f1"/> It is indeed magnificently bound &amp; I am not surprised that you did not like to send it per post, &amp; am only surprised that you would send it anyhow.— I was headachy &amp; half-knocked up during all my stay &amp; I found it impossible to look it over whilst in London &amp; so have brought it with me, &amp; shall consult it deliberately for I have found more variability in Birds nests than I expected after I had put my notes together.<ref target="#foot.f2"/> I presume you are in no hurry, &amp; so will leave it at M<hi rend="superscript">r</hi>. Woods,<ref target="#foot.f3"/> when next, in about 6 weeks, when I go to London.— Very many thanks for the loan.—</p>
+<p>In your last note, what a funny fact that it of the Turkeys &amp; the frog: I think it will do to work in: I wish I knew about how old they were, but probably you will not recollect. How fine it would have been if they had squatted at the sight of the monster.—<ref target="#foot.f4"/></p>
+<p>You say that if you can anyhow manage it, you will this Spring pay us a visit; it would really give Emma &amp; myself great pleasure; so do not forget &amp; come if you can. I am not likely to be from home, this summer, without it be sometimes for a fortnight to Moor Park.— I think Etty gets gradually rather stronger.</p>
+<p>Farewell my dear old friend. If the spirit moves you at anytime to send me a line about yourself, glad shall I be. Ever yours | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.6 after I had] <hi rend="italic">above del</hi> ‘when I’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../bibliographies/bibl_3611.xml" resp="#mjhawkins">Hewitson 1831–44</ref>. See letters to W. D. Fox, <ref target="./DCP-LETT-2202.xml" resp="#automat">14 January [1858]</ref> and <ref target="./DCP-LETT-2208.xml" resp="#automat">31 January [1858]</ref>.</note>
+            <note xml:id="foot.f2">Birds’ nests and the variability of nest-making instincts are discussed in <ref target="../bibliographies/bibl_5799.xml" resp="#mjhawkins"><hi rend="italic">Natural selection</hi></ref>, pp. 498–506.</note>
+            <note xml:id="foot.f3">Possibly <ref target="../nameregs/nameregs_5234.xml" resp="#mjhawkins">Charles Henry Lardner Woodd</ref>, who was Fox’s brother-in-law.</note>
+            <note xml:id="foot.f4">Fox had evidently replied to CD’s query about fear in young turkeys and chickens (see <ref target="./DCP-LETT-2208.xml" resp="#mjhawkins">letter to W. D. Fox, 31 January [1858]</ref>). CD used Fox’s information in <ref target="../bibliographies/bibl_5799.xml" resp="#mjhawkins"><hi rend="italic">Natural selection</hi></ref>, pp. 487–8 n. 5. Fox had observed a brood of young turkeys and their mother, all of whom were terrified by a frog peeping out of a hole. He suggested that their instinct probably led them to mistake the frog’s eyes for those of a deadly North American snake.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

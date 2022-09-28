@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1814">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Maurice Herbert   2 January [1856]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">121</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1814 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1814.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1814.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.121)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>121</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1856-01-02">2 Jan [1856]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2246.xml">Herbert, J. M.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks JMH for book of poems.</p>
+            <p>Recalls early days together. He cannot visit due to health.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin himself, bad or deteriorating</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Jan. 2<hi rend="superscript">d</hi>.—</date>
+                    <salute>My dear Herbert</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I thank you sincerely for your most friendly letter.—<ref target="#foot.f2"/> I shall have to send at end of week to Athenæum<ref target="#foot.f3"/> &amp; will there get the volume of Poems, which M<hi rend="superscript">rs</hi>. Herbert &amp; you have so kindly sent us, &amp; which I have no doubt we shall like much.<ref target="#foot.f4"/> My wife desires to be most kindly remembered to M<hi rend="superscript">rs</hi>. Herbert, &amp; she has often regretted that we have been so completely separated. Some few months ago I was looking over a few old &amp; valued letters which I keep, &amp; amongst others there were some of yours &amp; which were so pleasant that they quite warmed my old heart.<ref target="#foot.f5"/> I began a letter to you on the strength of old remembrances, but as I was interrupted I afterwards destroyed it, having nothing particular to say, except what I am sure you will believe, that I shall keep to my dying day as unfading remembrance of the many pleasant hours (especially at Barmouth) which we have spent together.—<ref target="#foot.f6"/></p>
+<p>My health will, I fear, never be fully reestablished, &amp; though anyone would think me a strong man, this is very far from the case; &amp; hence I never go from home, so that I much fear there is little chance of our being able to visit you at Rocklands,<ref target="#foot.f7"/> though I am very Sure it would give us much pleasure.— If ever you have time to spare when in London it would give us real pleasure, if you could pay us a visit here.—</p>
+<p>With our united very kind remembrances to you both, My dear Herbert | Your old &amp; affect<hi rend="superscript">e</hi>. friend | Charles Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.4 regretted] ‘ed’ <hi rend="italic">over illeg</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year in which the letter was written is conjectured from an 1855 watermark (<ref target="../bibliographies/bibl_1282.xml" resp="#mjhawkins">Carroll 1976</ref>).</note>
+            <note xml:id="foot.f2">The letter has not been found. Herbert had been one of CD’s close friends during their undergraduate days at <ref target="../nameregs/nameregs_795.xml" resp="#mjhawkins">Cambridge University</ref>. See <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 1.</note>
+            <note xml:id="foot.f3">CD used his London club as an address for the delivery of books and parcels.</note>
+            <note xml:id="foot.f4">The volume of poetry has not been identified. In 1877, Herbert edited a book of his wife’s poems entitled <hi rend="italic">Poems by the late Mary Anne Herbert</hi> (London).</note>
+            <note xml:id="foot.f5">For the extant correspondence between CD and Herbert, see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vols. 1 and 2.</note>
+            <note xml:id="foot.f6">In the summer of 1828, CD spent two months with Herbert and <ref target="../nameregs/nameregs_775.xml" resp="#mjhawkins">Thomas Butler</ref> in Barmouth on an ‘Entomo-Mathematical expedition’ (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 1, <ref target="./DCP-LETT-43.xml" resp="#mjhawkins">letter to W. D. Fox, [30 June 1828]</ref>, and Appendix I).</note>
+            <note xml:id="foot.f7">Herbert’s home in Herefordshire. Since 1847, Herbert had been a county court judge on the Herefordshire, Radnorshire, and Monmouthshire circuit (<ref target="../bibliographies/bibl_144.xml" resp="#mjhawkins"><hi rend="italic">Alum. Cantab.</hi></ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

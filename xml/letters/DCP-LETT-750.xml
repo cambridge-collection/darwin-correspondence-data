@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-750">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Philip de Malpas Grey-Egerton   5 May [1844]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3462</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-750 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-750.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-750.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="CD note"/>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 163: 6</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>163: 6</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1478.xml">Egerton, P. M. G.</persName>
+                <placeName>London, Eaton Place, 30</placeName>
+                <date when="1844-05-05">5 May [1844]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends Lord Enniskillen’s account of origin of the Irish yew: transplanted from the wild; propagated by cuttings thereafter. Offspring recently raised from seed are intermediate between common and Irish [weeping] yew.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">yew, common</term>
+                <term type="plants" ref="#">yew, Irish</term>
+                <term type="plants" ref="#">yew, Irish weeping</term>
+                <term type="people" ref="#">Enniskillen, Earl of</term>
+                <term type="scientific_terms" ref="#">cultivation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">intermediate forms, gradation</term>
+                <term type="scientific_terms" ref="#">origin</term>
+                <term type="scientific_terms" ref="#">seeds</term>
+                <term type="scientific_terms" ref="#">varieties</term>
+                <term type="scientific_terms" ref="#">young, offspring</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>30 Eaton Place</placeName>
+                    <date>May 5.</date>
+                    <salute>Dear Darwin.</salute>
+                </opener>
+                <div type="transcription">
+<p>I send you Enniskillen’s<ref target="#foot.f1"/> account of the discovery of the Irish Yew.<ref target="#foot.f2"/> “Old Hugh” (<hi rend="underline">not Yew</hi>) “Willis of Ahaterourke under Ben Achlin found two upright Yews in the mountain between the Cove and the Ben near Lugahurra hollow about 80 years ago. He brought one to his Landlord and planted the other in his own Garden where it now stands a fine tree. The remnants of the other are now in the Flower garden here. I have always heard that the first plants raised were from cuttings, and to judge from the appearance of the mother plant it must be true. I never heard of seed being sown till M<hi rend="superscript">r</hi> Young our Gardener tried it and raised 3 plants which differ from the parent and are intermediate between it and the Common Yew <lb resp="#mjhawkins"/> Florence Court<ref target="#foot.f3"/></p>
+<p>April 26.</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note> 1.10 Yew] ‘ ‘’ ’ <hi rend="italic">added pencil</hi> </note>
+                <note> <hi rend="italic">Top of first page</hi>: ‘Wild vars’<hi rend="italic">brown crayon</hi> ‘Ch IV’ <hi rend="italic">circled brown crayon</hi> ‘Just allude to these &amp; describe under wild vars.<ref target="#foot.f4"/> <hi rend="italic">pencil</hi> </note>
+                <note> <hi rend="italic">End of letter</hi>: ‘Ennuskillen. | P. G. Egerton’ <hi rend="italic">pencil</hi> </note>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_1008.xml" resp="#mjhawkins">William Willoughby Cole</ref>, 3d Earl of Enniskillen, Fermanaugh, Ireland.</note>
+            <note xml:id="foot.f2">CD had heard of the discovery earlier from Egerton and had apparently asked him to obtain an account from Enniskillen. On 20 April 1844 CD made the following note: <quote> Sir. P. Egerton tells me that he [<hi rend="italic">altered from</hi> ‘has’] has seen original Irish Yew at [<hi rend="italic">over illeg</hi> ] Florence Court; it was found as young tree in open [<hi rend="italic">interl</hi> ] mountains &amp; removed—. reproduced by cuttings &amp; seeds. believes that former truest.— One seedling has come up different &amp; Lord E. has promised one to Sir P. E.— I think this proves a natural seedling &amp; weeping yew.— Species will turn out (N.B Leighton says there is difference in leaves of weeping yew??) made by jumps—curious both these yews coming true to seeds.— (DAR 163).</quote> <lb resp="#mjhawkins"/>Leighton is <ref target="../nameregs/nameregs_2883.xml" resp="#mjhawkins">William Allport Leighton</ref> and the reference is to Leighton 1841, pp. 497–8.</note>
+            <note xml:id="foot.f3">Lord Enniskillen’s seat.</note>
+            <note xml:id="foot.f4">CD preserved the letter for possible use in chapter four of his ‘big book’ which was to be devoted to ‘Variation under nature’. However, the yew is not mentioned in chapter four of either <ref target="../bibliographies/bibl_5799.xml" resp="#mjhawkins"><hi rend="italic">Natural selection</hi></ref> or the <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>. The sudden appearance of useful or ornamental varieties of trees, including the weeping yew, is discussed in <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 361.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10459">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Smith, Elder &amp; Co.   20 April [1876]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6101</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10459 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10459.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10459.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <note type="postmark">AP 20 〈7〉6</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">National Library of Scotland (Ms.23181, ff.21-25 (S. E. &amp; Co. work slip, ff.21-22, letter ff.23-24, address envelope f.25))</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_292.xml">NL Scotland</repository>
+                    <collection>(Ms.23181,</collection>
+                    <idno>ff.21-25)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1876-04-20">20 Apr [1876]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4407.xml">Smith, Elder &amp; Co.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>J. V. Carus wishes to translate <hi rend="italic">Volcanic islands</hi> and <hi rend="italic">South America</hi> into German. Can Smith and Elder provide copies?</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="it" ref="#">South America</term>
+                <term type="it" ref="#">Volcanic islands</term>
+                <term type="languages" ref="#">German</term>
+                <term type="people" ref="#subject_849">Carus, J. V.</term>
+                <term type="scientific_terms" ref="#">geography</term>
+                <term type="scientific_terms" ref="#">isolation, islands</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">volcanoes and earthquakes</term>
+                <term type="societal" ref="#">Smith and Elder</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>April 20<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Prof. Victor Carus wishes to translate into German my volume on “Volcanic Islands” &amp; that on “S. America”. He says that he cannot procure a copy; but I remember you telling me about a year ago, that you had plenty of copies.— Will you be so kind as to inform me whether you have a copy of each so that I may inform Herr. Koch, the publisher.—<ref target="#foot.f2"/></p>
+<p>Begging that you will excuse my troubling you I remain | Dear Sir | Yours very faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-10453.xml" resp="#mjhawkins">letter from J. V. Carus, 16 April 1876</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-10453.xml" resp="#mjhawkins">letter from J. V. Carus, 16 April 1876</ref>. <ref target="../bibliographies/bibl_8001.xml" resp="#mjhawkins"><hi rend="italic">Volcanic islands</hi></ref> and <ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref>, parts of CD’s geological observations on the <hi rend="italic">Beagle</hi> voyage, were published by <ref target="../nameregs/nameregs_4407.xml" resp="#mjhawkins">Smith, Elder &amp; Co</ref>. in 1844 and 1846 respectively. <ref target="../nameregs/nameregs_2732.xml" resp="#mjhawkins">Eduard Koch</ref> was head of CD’s German publisher, <ref target="../nameregs/nameregs_4246.xml" resp="#mjhawkins">E. Schweizerbart’sche Verlagsbuchhandlung</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

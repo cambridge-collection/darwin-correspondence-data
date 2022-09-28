@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6806">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Joseph Bullar   27 June [1862]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">256</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6806 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6806.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6806.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.256)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>256</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down letterhead</placeName>
+                <date when="1862-06-27">27 June [1862]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_718.xml">Bullar, Joseph</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks JB for "orchid flowers with Diptera".</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Diptera</term>
+                <term type="plants" ref="#">orchids</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">relation of organism to organism</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>June 27<hi rend="superscript">th</hi></date>
+                </opener>
+                <div type="transcription">
+                     
+<p>M<hi rend="superscript">r</hi> Darwin presents his compliments to D<hi rend="superscript">r</hi>. Bullar &amp; is very much obliged to him for so kindly sending him the orchid flowers with Diptera—</p>
+<p>M<hi rend="superscript">r</hi> Darwin has just made out by the aid of one of his sons, that orchis maculata is fertilised by the aid of Diptera.—<ref target="#foot.f2"/></p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and CD’s notes on <hi rend="italic">Orchis maculata</hi> dated 20 June 1862 (see n. 2, below).</note>
+            <note xml:id="foot.f2">In a note dated 20 June 1862 (DAR 70: 12–14), CD recorded that his son <ref target="../nameregs/nameregs_1224.xml" resp="#mjhawkins">George Howard Darwin</ref> had caught six flies (<hi rend="italic">Empis lucida</hi>) with pollinia of <hi rend="italic">Orchis maculata</hi> attached to their eyes, as well as one specimen of <hi rend="italic">E. pennipes</hi> with pollinia attached to its thorax. He also noted that his son <ref target="../nameregs/nameregs_1245.xml" resp="#mjhawkins">William Erasmus Darwin</ref> saw a fly remove pollinia of <hi rend="italic">O. maculata</hi> (a synonym of <hi rend="italic">Dactylorhiza maculata</hi>, the heath spotted orchid) in Southampton. In the same note CD recorded having received three flowers of <hi rend="italic">O. latifolia</hi> (a synonym of <hi rend="italic">Dactylorhiza incarnata</hi> subsp. <hi rend="italic">incarnata</hi>, the early marsh-orchid) with a black fly in the nectary from a doctor in Southampton, evidently a reference to Bullar, who practised there (<hi rend="italic">Medical directory</hi> 1862).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

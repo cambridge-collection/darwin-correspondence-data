@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1799">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From George Gordon<ref target="#foot.f1"/>   24 December 1855</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19595</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1799 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1799.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1799.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 205.7: 281</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>205.7: 281</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1920.xml">Gordon, George (b)</persName>
+                <placeName>Hothouse and Hardy Dept</placeName>
+                <date when="1855-12-24">24 Dec 1855</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Reports success of hybrid cross with <hi rend="italic">Vallota</hi> and the failure of another cross.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Vallota</term>
+                <term type="scientific_terms" ref="#">crossing</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">hybrids</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00007-000-00571_files/8/0_0.jpg" width="5454px" height="4510px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00007-000-00571_files/11/1_1.jpg" width="5454px" height="4510px"/>
+        <surface xml:id="i1" n="281r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00007-000-00571.jpg" rend="landscape" width="5454px" height="4510px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00007-000-00571_files/8/0_0.jpg" width="5454px" height="4510px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00007-000-00571.dzi" width="5454px" height="4510px"/>
+        </surface>
+</facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Hothouse &amp; Hardy Dep<hi rend="superscript">t</hi></placeName>
+                    <date>Dec<hi rend="superscript">r</hi> 24<hi rend="superscript">th</hi>. 1855</date>
+                </opener>
+                <div type="transcription">
+                    
+<p><anchor xml:id="ann.a1" type="annotationStart"/>The young plants from Beatons<ref target="#foot.f2"/> seeds grew well the first season, but when the tops died down the[y] formed no roots and perished<anchor xml:id="ann.a2" type="annotationEnd"/></p>
+<p>The other Cross between Brunsvigia Josephinæ &amp; Vallota purpurea have done well, we have now two nice bulbs.<ref target="#foot.f3"/></p>
+<p>George Gordon</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note> 1.1 The young plants] ‘of Cystanthus crossed by Vallota’ <hi rend="italic">added pencil</hi> </note>
+                <note target="#ann.a1" targetEnd="#ann.a2">‘<hi rend="italic">[</hi>Q<hi rend="italic">]</hi>’<hi rend="italic">added pencil, circled pencil</hi></note>
+                <note> 2.1 Vallota] ‘Amaryllis’ <hi rend="italic">added pencil</hi> </note>
+                <note> <hi rend="italic">Top of page</hi>: ‘17’<ref target="#foot.f4"/> <hi rend="italic">brown crayon</hi> </note>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Superintendent of the hardy and hothouse departments at the gardens of the Horticultural Society of London at Chiswick.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_345.xml" resp="#mjhawkins">Donald Beaton</ref>, gardener in Hatfield and then in Kilburn, was the author of several papers on hybridisation of plants.</note>
+            <note xml:id="foot.f3">Beaton’s cross-fertilisations between <hi rend="italic">Amaryllis belladonna</hi> and <hi rend="italic">Brunswigia josephinae</hi>, and between the former and <hi rend="italic">Vallota purpurea</hi>, had been described in <ref target="../bibliographies/bibl_481.xml" resp="#mjhawkins">Beaton 1850</ref>. CD discussed his results in <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 2: 139 in relation to the observable increase in fertility after cross-breeding between species of <hi rend="italic">Amaryllis</hi>. In a note, CD further recorded (p. 139 n. 76): ‘The seedlings thus raised were given to the Hort. Soc.; but I find, on inquiry, that they unfortunately died the following winter.’</note>
+            <note xml:id="foot.f4">CD’s portfolio of notes on hybrids.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

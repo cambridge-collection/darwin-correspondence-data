@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-1089" status="released">
+    <persName>
+        <forename>Matilda</forename>
+        <forename>Eloisa</forename>
+        <choice>
+            <seg><surname notBefore="1816" notAfter="1844">Cotton</surname></seg>
+            <seg><surname notBefore="1844" notAfter="1892">Kenyon</surname></seg>
+        </choice>
+    </persName>
+    <persName type="additional" subtype="preferred" resp="#mjhawkins">Mattie</persName>
+    
+    <note type="dates"><date>1816–92</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of Eloisa and Henry Calveley Cotton. Married Charles Orlando Kenyon (1815/16–90) in 1844. Fanny and Sarah Owen’s cousin.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_9153.xml"><hi rend="italic">BMD</hi></ref> (<hi rend="italic">Marriage index, Death index</hi>)</p>
+        <p><ref target="../bibliographies/bibl_1096.xml"><hi rend="italic">Burke’s peerage</hi></ref> 1980</p>
+        <p><hi rend="italic">England, select births and christenings, 1538–1975</hi> (Ancestry.com, accessed 22 June 2017)</p>
+    </note>
+    <note type="volume">1</note>
+    <note type="keywords">
+        <term type="name">Cotton, H. C.</term>
+        <term type="name">Owen, F. M. (a)</term>
+        <term type="name">Owen, S. H. M.</term>
+    </note>
+    
+</person>

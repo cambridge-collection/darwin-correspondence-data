@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10624">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. C. Marshall   29 September [1876]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">500</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10624 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10624.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10624.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.500)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>500</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1876-09-29">29 Sept [1876]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3176.xml">Marshall, W. C.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Mr Laslett, a builder, will meet WCM on Tuesday.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#">builder</term>
+                <term type="people" ref="#subject_7905">Laslett, I. W.</term>
+                <term type="social" ref="#">Darwin family</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Sept. 29<hi rend="superscript">th</hi></date>
+                    <salute>Dear Marshall</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>M<hi rend="superscript">r</hi>. L. will meet you here on Tuesday.—<ref target="#foot.f2"/> You had better write direct to him, appointing hour, &amp; address him</p> 
+<figure type="diagram"> 
+<p>“M<hi rend="superscript">r</hi>. Laslett</p>
+<p>Builder</p>
+<p>Farnborough</p>
+<p><hi rend="doubleUnderline">Kent</hi>.”</p> </figure> 
+<p>We leave home early on Wednesday morning &amp; therefore we cannot ask you to sleep here, &amp; as you seem so busy I daresay it w<hi rend="superscript">d</hi> be inconvenient for you to do so.<ref target="#foot.f3"/></p>
+<p>Yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-10609.xml" resp="#mjhawkins">letter to W. C. Marshall, 19 September 1876</ref>.</note>
+            <note xml:id="foot.f2">CD wanted Marshall to design an addition to Down House (see <ref target="./DCP-LETT-10609.xml">letter to W. C. Marshall, 19 September 1876</ref>); <ref target="../nameregs/nameregs_7905.xml">Isaac Withers Laslett</ref> was a local builder.</note>
+            <note xml:id="foot.f3">The Darwins left Down on Wednesday 4 October 1876, staying at Leith Hill Place, Surrey from 4 to 7 October, and at <ref target="../nameregs/nameregs_1245.xml" resp="#mjhawkins">William Erasmus Darwin’s</ref> house in Southampton from 7 to 20 October (see ‘Journal’ (Appendix II)).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

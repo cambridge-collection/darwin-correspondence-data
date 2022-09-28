@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1769">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To T. C. Eyton   25 October [1855]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">114</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1769 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1769.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1769.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.114)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>114</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1855-10-25">25 Oct [1855]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1570.xml">Eyton, T. C.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Unable to give information on Mrs Shaw of Crayford.</p>
+            <p>Mentions TCE’s interest in dog- and pig-skeleton researches.</p>
+            <p>Interested in seeing the Eyton Museum.</p>
+            <p>Reminisces about entomology [at Cambridge].</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">dog</term>
+                <term type="animals" ref="#">insects</term>
+                <term type="animals" ref="#">pig</term>
+                <term type="people" ref="#">Shaw, Mrs</term>
+                <term type="places" ref="#">Cambridge</term>
+                <term type="places" ref="#">Crayford</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="societal" ref="#">Museum</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Oct. 25<hi rend="superscript">th</hi></date>
+                    <salute>Dear Eyton</salute>
+                </opener>
+                <div type="transcription">
+<p>Crayford<ref target="#foot.f1"/> is a good way from here &amp; I do not happen to know a soul at all in that direction, &amp; therefore I am very sorry to say I can neither give, nor procure, any information regarding M<hi rend="superscript">rs</hi>. Shaw.—<ref target="#foot.f2"/></p>
+<p>I am delighted to hear that you have begun to think of Dogs,<ref target="#foot.f3"/> which subject would, I sh<hi rend="superscript">d</hi>. think, make an excellent continuation of your capital Pig-skeleton researches.—<ref target="#foot.f4"/></p>
+<p>What a museum you will have!<ref target="#foot.f5"/> and most truly shall I some day enjoy seeing it. Pray give my kind remembrances to M<hi rend="superscript">rs</hi>. Eyton,<ref target="#foot.f6"/> whom, it is very long since I have had the pleasure of seeing. Ah the good old times of Entomology, I have never enjoyed anything in Natural History so much since.<ref target="#foot.f7"/></p>
+<p>Most truly your’s | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">A village near Dartford, Kent, about ten miles north-east of Down.</note>
+            <note xml:id="foot.f2">There is no information about Mrs Shaw, but a John Shaw is listed among the gentry living in Crayford (<ref target="../bibliographies/bibl_6375.xml" resp="#mjhawkins"><hi rend="italic">Post Office directory of the six home counties</hi></ref> 1855).</note>
+            <note xml:id="foot.f3">CD cited Eyton, ‘who has had much experience with dogs,’ concerning their period of gestation in <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 30.</note>
+            <note xml:id="foot.f4">See <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 74, where CD reproduced a table from Eyton 1837, p. 23, showing the difference in the number of vertebrae and ribs in the different kinds of pigs.</note>
+            <note xml:id="foot.f5">Eyton had collected extensively in many different fields of natural history. In 1855 he established a museum at the family seat at Eyton, Shropshire (<ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref>).</note>
+            <note xml:id="foot.f6"><ref target="../nameregs/nameregs_1569.xml" resp="#mjhawkins">Elizabeth Frances Eyton</ref>.</note>
+            <note xml:id="foot.f7">Eyton had been one of CD’s insect-collecting friends when they were Cambridge undergraduates. He was also a Shropshire neighbour. See <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 1.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1683">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. D. Fox   17 May [1855]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7091</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1683 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1683.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1683.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 144: 229</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">LL</hi> 2: 53</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 5: 331</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Christ’s College Library, Cambridge (MS 53 Fox 91)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_83.xml">CCLC</repository>
+                    <collection>MS 53</collection>
+                    <idno>Fox 91</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1855-05-17">17 May [1855]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1730.xml">Fox, W. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks WDF to induce schoolboys to collect eggs of lizards and snakes for him. He will see whether they float and stay alive on sea-water.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">lizards</term>
+                <term type="animals" ref="#">snakes</term>
+                <term type="people" ref="#">schoolboys</term>
+                <term type="scientific_terms" ref="#">eggs</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">sea, sea-currents</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>May 17<hi rend="superscript">th</hi></date>
+                    <salute>My dear Fox.</salute>
+                </opener>
+                <div type="transcription">
+<p>You will hate the very sight of my handwriting; but after this time I promise I will ask for nothing more, at least for a long time.— As you live on Sandy Soil, have you Lizards at all common? If you have, sh<hi rend="superscript">d</hi>. you think it too ridiculous to offer a reward for me for Lizards eggs to the Boys in your school;—a shilling for every half-dozen, or more if rare, till you get 2 or 3 dozen &amp; send them to me.— If snake’s eggs were brought in mistake it would be very well, for I want such also: &amp; we have neither lizards or snakes about here.—</p>
+<p>My object is to see whether such eggs will float on sea-water, &amp; whether they will keep alive thus floating for a month or two in my cellar. I am trying experiments on transportation of all organic beings, that I can; &amp; Lizards are found on every isl<hi rend="superscript">d</hi>. &amp; therefore I am very anxious to see whether their eggs stand sea water. Of course this note need not be answered, without by a strange &amp; favourable chance you can someday answer it with the eggs.<ref target="#foot.f1"/></p>
+<p>Your most troublesome friend | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.4 for me] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">After sending this letter, CD realised that most British lizards are viviparous. See <ref target="./DCP-LETT-1686.xml" resp="#mjhawkins">letter to W. D. Fox, 23 May [1855]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

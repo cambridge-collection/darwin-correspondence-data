@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7087">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Brodie Innes   28 January 1870</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8797</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7087 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7087.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7087.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp encl</note>
+            <relatedItem type="publication">
+                <bibl>Stecher (1961): 234</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 167: 27</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>167: 27</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2502.xml">Innes, J. B.</persName>
+                <placeName>unstated</placeName>
+                <date when="1870-01-28">28 Jan 1870</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>JBI sends clipping about a hybrid between a deer and a cow, from the same parish as the one reported in 1868.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">deer</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">hybrids</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+                     
+<p>H<hi rend="smallCaps">ybrid</hi> C<hi rend="smallCaps">ow</hi>.— <hi rend="underline">There is at present a hybrid cow among a herd at the home farm of Beaufort—a cross apparently between a deer and a cow. Except in the colour, which is black, the animal is identical in appearance with the one lately sold by Mr Maclean, V.S., to the proprietor of Wombwell’s Menagerie.<ref target="#foot.f1"/> Strange to say, both animals were bred in or near the same parish—Ardclach<ref target="#foot.f2"/>—and in many respects bear a similar history. Mr Lawson, manager at Beaufort,<ref target="#foot.f3"/> bought the cow last autumn among a herd of cattle, and it has since been seen and admired by many. The hybrid cow in Wombwell’s menagerie was calved at Lochindorb,<ref target="#foot.f4"/> and was exhibited by Mr M’Donald, Blervie,<ref target="#foot.f5"/> at the Forres Christmas Cattle Show in 1868.</hi> <lb resp="#mjhawkins"/></p>
+<p rend="left">Dear Darwin</p>
+<p>The above is from the Elgin Courant of this day 28<hi rend="superscript">th</hi>. Jan<hi rend="superscript">ry</hi>. 1870.<ref target="#foot.f6"/> I have not seen the animal. It is satisfactory to know that the former one, which I told you of before, and which seemed if not a hybrid, a wonderfully good imitation of one has gone to a menagerie where perhaps in life or death the truth of its origin may be tested. Some old red deer seems to have taken to erratic courses about the ancient haunts of the Wolf of Badenoch<ref target="#foot.f7"/></p>
+<p>Faithfully Yours | J Brodie Innes</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_3276.xml">Lachlan McLean</ref>, a veterinary surgeon at Inverness, had bought the supposed deer–cow hybrid from <ref target="../nameregs/nameregs_8798.xml">James McDonald</ref> of Blervie at the Forres Cattle Show on 7 December 1868 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 16, letters from J. B. Innes, <ref target="./DCP-LETT-6493.xml" resp="#mjhawkins">7 December 1868</ref> and <ref target="./DCP-LETT-6502.xml" resp="#mjhawkins">14 December 1868</ref>, and <ref target="./DCP-LETT-6504.xml" resp="#mjhawkins">letter from Lachlan McLean to J. B. Innes, 15 December 1868</ref>).
+                .  On the history of Wombwell’s Menagerie, which had three branches, see <ref target="../bibliographies/bibl_807.xml" resp="#mjhawkins">Bostock 1927</ref>.</note>
+            <note xml:id="foot.f2">Ardclach is a hamlet eleven miles south-south-west of Forres.</note>
+            <note xml:id="foot.f3">Probably <ref target="../nameregs/nameregs_8799.xml">William Lawson</ref>, farmer, of Fanellan, about one mile west of Beaufort Castle on the Beauly river, thirteen miles west of Inverness.</note>
+            <note xml:id="foot.f4">Lochindorb Castle is south of Forres.</note>
+            <note xml:id="foot.f5">Blervie castle is five miles south-east of Forres.</note>
+            <note xml:id="foot.f6">Innes glued the clipping to the top of his letter.</note>
+            <note xml:id="foot.f7">The ‘wolf of Badenoch’ was <ref target="../nameregs/nameregs_6806.xml" resp="#mjhawkins">Alexander Stewart</ref>, earl of Buchan, who occupied Lochindorb from about 1371 (<ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

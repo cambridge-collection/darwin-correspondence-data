@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8091">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Nevil Maskelyne to John Lubbock   3 December [1871]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10067</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8091 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8091.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8091.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 177: 260</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>177: 260</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4579.xml" resp="high">Story-Maskelyne, M. H. N.</persName>
+                <placeName>London, Hyde Park</placeName>
+                <date when="1871-12-03">3 Dec [1871]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3026.xml" resp="high">Lubbock, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks JL to obtain copies of CD’s botanical works for his wife.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1">Darwin, C. R.</term>
+                <term type="people" ref="#">Story-Maskelyne, M. H. N.’s wife</term>
+                <term type="people" ref="#subject_4580">Story-Maskelyne, T. M.</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>112 Gloucester Terrace | Hyde Park W</placeName>
+                    <date>Dec<hi rend="superscript">r</hi>. 3.</date>
+                    <salute>My dear Lubbock</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>The memoirs I spoke to you about of M<hi rend="superscript">r</hi>. Darwin’s that my Wife<ref target="#foot.f2"/> is anxious to obtain for her botanical studies are</p>
+<p>On the dimorphism of Linum</p>
+<p>On climbing plants and</p>
+<p>A supplement to the ‘Fertilisation of Orchids’; of this last she possesses the volume to which it is supplemental but has not the supplement.<ref target="#foot.f3"/></p>
+<p>If you can obtain these or any of them for my wife you will be doing her a considerable kindness; and I am sure if M<hi rend="superscript">r</hi>. Darwin was acquainted with her and knew with what interest she has followed his work and his developement of the botanical questions discussed in these papers he would gladly give her the copies if he has them to spare.</p>
+<p>Believe me to be | Ever your’s very truly | Nevil S Maskelyne.</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-8100.xml" resp="#mjhawkins">letter from Nevil Maskelyne, 8 December 1871</ref>.</note>
+            <note xml:id="foot.f2">Thereza Mary Dillwyn Maskelyne.</note>
+            <note xml:id="foot.f3">Maskelyne refers to <ref target="../bibliographies/bibl_7887.xml">‘Two forms in species of <hi rend="italic">Linum</hi>’</ref>, <ref target="../bibliographies/bibl_1456.xml">‘Climbing plants’</ref>, and <ref target="../bibliographies/bibl_2498.xml">‘Fertilization of orchids’</ref> (the supplement to <ref target="../bibliographies/bibl_6010.xml"><hi rend="italic">Orchids</hi></ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

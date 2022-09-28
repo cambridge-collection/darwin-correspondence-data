@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11429F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Francis Darwin to Anton Stecker   17 March 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">21600</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11429F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11429F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11429F.xml</ref>.</licence></availability>
+</publicationStmt>
+            <seriesStmt>
+                <title level="s">The Correspondence of Charles Darwin</title>
+                <biblScope unit="vol" n="26">26</biblScope>
+            </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS"/>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Cleveland Health Sciences Library (Robert M. Stecher collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_93.xml">Cleveland Health Sciences Library</repository>
+                    <collection>(Robert M. Stecher collection)</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1222.xml">Darwin, Francis</persName>
+                <placeName>Down</placeName>
+                <date when="1878-03-17">17 Mar 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4539.xml">Stecker, Anton</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends father’s regrets that CD will not be able to help Stecker as appointments are few in number and much sought after.</p>
+        </abstract>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>March 17. 1878</date>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>My father asks me to inform you that he has so few opportunities of helping you in the way you desire that he fears he cannot promise you his assistance. The appointments such as you mention are as you know very few in number, they are also much sought after.<ref target="#foot.f1"/> My fathers health is not good &amp; from living always in the country he sees a limited number of scientific men. He sincerely regrets that he cannot help you in your object, which he fully sympathises in.</p>
+<p>Yours faithfully | Francis Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">Stecker had asked for CD’s support in obtaining a natural history appointment (see <ref target="./DCP-LETT-11418.xml">letter from Anton Stecker to Francis Darwin, 12 March 1878</ref>). He later obtained positions on German expeditions to Africa (<ref target="../bibliographies/bibl_5928.xml" resp="#mjhawkins"><hi rend="italic">OBL</hi></ref>). </note>
+        </div>  
+      
+    </body>
+    </text>
+</TEI>

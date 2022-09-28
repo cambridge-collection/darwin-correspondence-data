@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10261">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Lawson Tait   16 November [1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10903</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10261 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10261.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10261.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 178: 22</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>178: 22</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4653.xml">Tait, R. L.</persName>
+                <placeName>Birmingham</placeName>
+                <date when="1875-11-16">16 Nov [1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Has CD ever come across <hi rend="italic">Dischidia rafflesiana</hi>?</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Dischidia rafflesiana</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">7, Great Charles St. | Birmingham.</hi></placeName>
+                    <date>Nov<hi rend="superscript">r</hi>. 16</date>
+                    <salute>My Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Have you seen the Dischidia Rafflesiana?</p>
+<p>Carpenter describes it (quotum, D<hi rend="superscript">r</hi>. Wallich’s Plantae Asiaticae Rariores) at p 152 Principles of Comparative Physiology 4<hi rend="superscript">th</hi>. Edition.<ref target="#foot.f2"/> Do you know if it is in cultivation?</p>
+<p>Yours faithfully, | Lawson Tait</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to pitcher-plants; Tait was experimenting on the tropical pitcher-plant, <hi rend="italic">Nepenthes</hi>, in 1875.</note>
+            <note xml:id="foot.f2"><hi rend="italic">Dischidia rafflesiana</hi>, now <hi rend="italic">Dischidia major</hi>, was first described in <ref target="../nameregs/nameregs_4939.xml" resp="#mjhawkins">Nathaniel Wallich’s</ref> <hi rend="italic">Plantae Asiaticae rariores</hi> (<ref target="../bibliographies/bibl_8136.xml" resp="#mjhawkins">Wallich 1830–2</ref>, 1: 32, 2: 142). In <hi rend="italic">Principles of comparative physiology</hi>, <ref target="../nameregs/nameregs_839.xml" resp="#mjhawkins">William Benjamin Carpenter</ref> compared the plant’s pitchers, which often contained large quantities of ants, to the stomach of animals (<ref target="../bibliographies/bibl_1259.xml" resp="#mjhawkins">Carpenter 1854</ref>, p. 152). CD had asked <ref target="../nameregs/nameregs_2357.xml" resp="#mjhawkins">Joseph Dalton Hooker</ref> about the pitchers of <hi rend="italic">Dischidia</hi> (see letters from J. D. Hooker, <ref target="./DCP-LETT-9935.xml" resp="#mjhawkins">16 April 1875</ref> and <ref target="./DCP-LETT-9936.xml" resp="#mjhawkins">17 April 1875</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

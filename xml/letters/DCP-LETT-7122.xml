@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7122">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Hensleigh Wedgwood   [March 1870]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">11032</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7122 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7122.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7122.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">incomplete</note>
+            <note type="physdesc" n="inc">†</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 181: 56</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>181: 56</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_5019.xml">Wedgwood, Hensleigh</persName>
+                <placeName>London, Cumberland Place, 1</placeName>
+                <date notBefore="1870-03-01" notAfter="1870-03-31">[Mar 1870]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>On the expression of disagreeable surprise.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">expression, emotion</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+                <term type="scientific_terms" ref="#">social behaviour</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">1 Cumberland Place, | Regent’s Park. N.W.</hi></placeName>
+                </opener>
+                <div type="transcription">
+                     
+<p>“Here the grey man expressed his astonishment and disapprobation by a prolonged whistle”</p>
+<p>—Wenderholme II. 91.<ref target="#foot.f2"/></p>
+<p>This is the interjection whew! But why does disagreeable surprise so express itself? I think it is rather when something turns out the contrary of what one expects.</p>
+<p>The fox scheming to catch a goose would picture to himself the goose in some of its usual haunts, then he would imagine some way of pouncing upon it,</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note>3.1 This … itself?] <hi rend="italic">scored blue crayon</hi></note>
+                <note>4.1 The fox … it, 4.2] <hi rend="italic">crossed pencil</hi></note>
+                <note><hi rend="italic">Top of letter</hi>: ‘H. Wedgwood | March 1870’ <hi rend="italic">pencil</hi></note>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by CD’s annotation at the top of the letter.</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_3325.xml" resp="#mjhawkins">Hamerton 1869</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2037">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To T. H. Huxley   4 January [1857]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3220</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2037 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2037.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2037.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 145: 170</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Imperial College of Science, Technology, and Medicine Archives (Huxley 5: 48)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_192.xml">Imperial College</repository>
+                    <idno>Huxley 5: 48</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1857-01-04">4 Jan [1857]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2486.xml">Huxley, T. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Congratulations [on Mrs H’s delivery].</p> 
+<p><hi rend="italic">Balanus balanoides</hi> positively identified by CD.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Balanus balanoides</term>
+                <term type="health" ref="#">Other people</term>
+                <term type="people" ref="#subject_2478">Huxley, H. A.</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">identification</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Jan. 4<hi rend="superscript">th</hi></date>
+                    <salute>My dear Huxley</salute>
+                </opener>
+                <div type="transcription">
+<p>I congratulate you heartily on M<hi rend="superscript">rs</hi>. Huxley’s troubles being over.—<ref target="#foot.f2"/> It is a horrid affair at the best of times; &amp; I fear a repitition will not make you feel younger.—</p>
+<p>The Balanus is positively B. balanoides, &amp; you may positively state that the surface to which it adhered was not beneath level of lowest tide<ref target="#foot.f3"/></p>
+<p>I will bring specimen when next I come to London.—</p>
+<p>Ever yours | C. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is given by CD’s reference to the birth of <ref target="../nameregs/nameregs_2484.xml" resp="#mjhawkins">Noel Huxley</ref> (see n. 2, below).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_2484.xml" resp="#mjhawkins">Noel Huxley</ref> was born 31 December 1856 (L. Huxley ed. 1900, 1: 150–1).</note>
+            <note xml:id="foot.f3">CD had described the tidal locations in which individuals of <hi rend="italic">Balanus balanoides</hi> were found in <ref target="../bibliographies/bibl_4838.xml" resp="#mjhawkins"><hi rend="italic">Living Cirripedia</hi> (1854): </ref>272.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

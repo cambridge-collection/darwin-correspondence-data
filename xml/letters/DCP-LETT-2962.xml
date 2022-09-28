@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2962">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Innes   26 October [1860]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1508</idno>
+            
+            
+            
+            
+            <date when="1993">1993</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2962 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2962.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2962.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="08">8</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <note type="postmark">OC 26 1860</note>
+            <relatedItem type="publication">
+                <bibl>Stecher (1961): 206</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 8: 445</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Cleveland Health Sciences Library</bibl>
+            <msDesc>
+                               <msIdentifier>
+                    <repository key="../repo/repo_93.xml">Cleveland Health Sciences Library</repository>
+                   <idno>(Robert M. Stecher collection)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Eastbourne</placeName>
+                <date when="1860-10-26">26 Oct [1860]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2502.xml">Innes, J. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Etty has had a relapse. "What the end will be, we know not."</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin family</term>
+                <term type="people" ref="#subject_1225">Darwin, H. E.</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>15 Marine Parade | Eastbourne</placeName>
+                    <date>Oct 26<hi rend="superscript">th</hi></date>
+                </opener>
+                <div type="transcription">
+                     
+<p>Dear Innes</p>
+<p>Very many thanks for your kind note &amp; all the trouble you have taken for me.—<ref target="#foot.f1"/></p>
+<p>Etty progressed very well here for 4 weeks, but I am sure that you will sympathise with us, when you hear that she had a terrible attack of sickness on Monday &amp; which has not yet ceased. She is much prostrated &amp; what the end will be, we know not.—   My poor wife is much knocked up.—   I am very glad you give a good of Johnny.—<ref target="#foot.f2"/></p>
+<p>Yours most truly | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">0.2 26] ‘6’ <hi rend="italic">over</hi> ‘7’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-2912.xml" resp="#mjhawkins">letter to John Innes, 11 September [1860]</ref>.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_2504.xml" resp="#mjhawkins">John William Brodie Innes</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

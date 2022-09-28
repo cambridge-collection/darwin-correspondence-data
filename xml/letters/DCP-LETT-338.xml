@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-338">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From J. S. Henslow   [5 November 1837 – March 1838]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19259</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-338 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-338.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-338.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="inc"/>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 39: 88a</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>39: 88a</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2235.xml">Henslow, J. S.</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1837-11-05" notAfter="1838-03-31">[5 Nov 1837 – Mar 1838] </date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Fragment glued to CD’s notes on rock specimens. The recto refers to one of CD’s specimens, the verso mentions his Keeling Island plants.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="geology" ref="#">rock</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+                     
+<p><hi rend="underline">378 yellow</hi> =a prism of about 79 1/2— not yet ascertained what it belongs to<ref target="#foot.f2"/></p>
+<p>Ochrosia—as I am 〈    〉 〈p〉uzzled about your Keeling plant—<ref target="#foot.f3"/> the authorities give such <hi rend="italic">[</hi>contradictory testimony<hi rend="italic">]</hi> &amp; even <hi rend="italic">[</hi>it<hi rend="italic">]</hi></p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date range is inferred from CD’s <ref target="./DCP-LETT-384.xml" resp="#mjhawkins">letter to J. S. Henslow, [4 November 1837]</ref>, requesting the mineral specimen numbers and colours of the paper and the <ref target="./DCP-LETT-406.xml" resp="#mjhawkins">letter to J. S. Henslow, [26 March 1838]</ref>, when the specimen (378 yellow) had recently been identified by <ref target="../nameregs/nameregs_3332.xml" resp="#mjhawkins">William Hallowes Miller</ref>.</note>
+            <note xml:id="foot.f2">CD’s note about the specimen is in DAR 39.1: 88, in a catalogue of mineral specimens collected during the voyage. See <ref target="./DCP-LETT-384.xml" resp="#mjhawkins">letter to J. S. Henslow, [4 November 1837]</ref>, n. 1 for CD’s numbering code.</note>
+            <note xml:id="foot.f3">Henslow found <hi rend="italic">Ochrosia parviflora</hi> (a synonym of <hi rend="italic">O. oppositifolia</hi>) particularly difficult to identify from existing botanical sources, see <ref target="../bibliographies/bibl_3551.xml" resp="#mjhawkins">Henslow 1838</ref>, p. 345.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

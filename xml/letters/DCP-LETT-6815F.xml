@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6815F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From James Oliver to George Cupples   3 July 1869</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16229B</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6815F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6815F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6815F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 86: 67</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>86: A67</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3591.xml">Oliver, James</persName>
+                <placeName>Howpasley, Hawick</placeName>
+                <date when="1869-07-03">3 July 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1163.xml">Cupples, George</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Information about sexes of sheep at time of castration. Mortality of male lambs higher than that of females.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">lambs</term>
+                <term type="animals" ref="#">sheep</term>
+                <term type="scientific_terms" ref="#">death</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">human intervention</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+                <term type="scientific_terms" ref="#">pathology, disease</term>
+                <term type="scientific_terms" ref="#">sex</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Howpasley</placeName>
+                    <date>3<hi rend="superscript">d</hi> July 1869</date>
+                    <salute>Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have been from home for the last three weeks on account of my health, and only came home this afternoon, when I found yours of the 29 ult. awaiting me.</p>
+<p>I have now had considerable experience in the breeding and rearing of Cheviot Sheep but in a hill country only, where it is impossible to tell the number of either of the sexes when lambed, or born as few of them require any assistance and we never have them in hand until the time of castration, however I do not think there can be much difference in the number of either of the sexes when lambed, but if the lambing season is cold and wet the male sex are more liable to die from having a greater tendency to a stoppage of the urine—<ref target="#foot.f1"/> My numbers this season at the time of castration were male 826 female 864</p>
+<p>I remain Sir | Your obed<hi rend="superscript">t</hi>. servant | Ja<hi rend="superscript">s</hi>. Oliver <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">George Cupples Esq<hi rend="superscript">re</hi>.</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Oliver refers to what is now known as obstructive urolithiasis, a urethral blockage that is more common in male lambs, especially those that have been castrated.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

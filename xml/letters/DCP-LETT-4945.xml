@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4945">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Robert Burn   2 December [1865]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20283</idno>
+            
+            
+            
+            
+            <date when="2002">2002</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4945 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4945.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4945.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="13">13</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS(A)</note>
+            <note type="physdesc" n="LS(A)">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 221.5: 4 (photocopy)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>221.5: 4</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1865-12-02">2 Dec [1865]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_742.xml">Burn, Robert</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Enters Francis Darwin at Trinity College, Cambridge. Encloses certificate from Alfred Wrigley and £20 entrance and caution money. Wants Francis to have rooms in College.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="people" ref="#subject_1222">Darwin, Francis</term>
+                <term type="places" ref="#">Cambridge</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="societal" ref="#">Trinity College</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Dec 2.</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I should be much obliged if you would enter my son Francis Darwin at Trinity for next October. I enclose his master the Rev. D<hi rend="superscript">r</hi> Wrigley’s certificate<ref target="#foot.f2"/> &amp; a cheque for entrance &amp; caution money for £20.<ref target="#foot.f3"/></p>
+<p>If it is possible I sh<hi rend="superscript">d</hi> much wish my son to have rooms in college &amp; sh<hi rend="superscript">d</hi> therefore be very much obliged if you w<hi rend="superscript">d</hi> put his name down for the first chance.</p>
+<p>I beg leave to remain | Dear Sir | yours very faithfully | Charles R. Darwin <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">To Rev<hi rend="superscript">d</hi>. R. Burn</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">4.1 To Revd. R. Burn] <hi rend="italic">in CD’s hand</hi></note>
+            </div>
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by <ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin’s</ref> matriculation at Trinity College, Cambridge, in October 1866 (<ref target="../bibliographies/bibl_144.xml" resp="#mjhawkins"><hi rend="italic">Alum. Cantab.</hi></ref>).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_5263.xml" resp="#mjhawkins">Alfred Wrigley</ref> was headmaster of Clapham Grammar School. <ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin</ref> attended the school from the summer of 1860 to the summer of 1866 (CD’s Classed account book (Down House MS)).</note>
+            <note xml:id="foot.f3">Caution money: ‘money deposited as a security for good conduct, [especially] by a student on entering a college’ (<ref target="../bibliographies/bibl_5936.xml" resp="#mjhawkins"><hi rend="italic">OED</hi></ref>). A payment to Burn of £20 for ‘entrance for Trinity’ is recorded in CD’s Account book–cash account (Down House MS) on 2 December 1865.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

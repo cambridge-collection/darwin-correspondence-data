@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6548">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From George Cupples   11 January 1869</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16581</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6548 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6548.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6548.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 161: 288</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>161: 288</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1163.xml">Cupples, George</persName>
+                <placeName>Guard Bridge</placeName>
+                <date when="1869-01-11">11 Jan 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Writing to friends on CD’s behalf about deer: T. T. Wright, Archibald McNeill.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">deer</term>
+                <term type="people" ref="#subject_3282">McNeill, Archibald</term>
+                <term type="people" ref="#subject_5260">Wright, T. T.</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>The Cottage | Guard Bridge | Fifeshire. N.B.</placeName>
+                    <date>Jan<hi rend="superscript">y</hi>. 11/69.</date>
+                    <salute>Dear Mr Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Thanks for your kind letter.<ref target="#foot.f1"/> I have no doubt I can get exact information on the point you refer to—and by this post write on <hi rend="underline">fallow-deer</hi> to <hi rend="underline">Mr Wright</hi> (whom I shall request to communicate direct with you.)<ref target="#foot.f2"/> I also write to Mr Macneil of Colonsay as to red-deer and roe-deer—and about the same to my friend the head-forester of the great Breadalbane forest of Black Mount, who has been more than 40 years among deer.<ref target="#foot.f3"/> I shall write to you with their replies as to all three species.</p>
+<p>My brochure on deerhounds, I hope, may get out this year—but has been kept back by other literary matters.<ref target="#foot.f4"/></p>
+<p>Yours very truly | George Cupples <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin, Esq<hi rend="superscript">r</hi>.</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Cupples probably refers to the <ref target="./DCP-LETT-6546F.xml" resp="#mjhawkins">letter to George Cupples, [6–9? January 1869]</ref>.</note>
+            <note xml:id="foot.f2">Cupples refers to <ref target="../nameregs/nameregs_5256.xml" resp="#mjhawkins">John Wright</ref>. See <ref target="./DCP-LETT-6543.xml" resp="#mjhawkins">letter from George Cupples, 4 January 1869</ref> and n. 3.</note>
+            <note xml:id="foot.f3">Cupples refers to <ref target="../nameregs/nameregs_3282.xml" resp="#mjhawkins">Archibald McNeill</ref> and <ref target="../nameregs/nameregs_4035.xml" resp="#mjhawkins">Peter Robertson</ref>. McNeill had sent information to Cupples on the size of male and female deer-hounds and Robertson had given information on the proportion of the sexes in the breed (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 16, <ref target="./DCP-LETT-6274.xml" resp="#mjhawkins">letter from George Cupples, 13 July 1868</ref>).</note>
+            <note xml:id="foot.f4">Cupples’s only work on deer-hounds (<ref target="../bibliographies/bibl_1693.xml" resp="#mjhawkins">Cupples 1894</ref>) was published posthumously.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

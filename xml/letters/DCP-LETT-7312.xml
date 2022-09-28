@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7312">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Francis Darwin   30 August [1867–70]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19864</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7312 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7312.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7312.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 153: 12</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 271.3: 1</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>217.3: 1</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+            <date xml:id="date1" when="1867-08-30" exclude="#date2 #date3 #date4">30 Aug 1867</date>
+            <date xml:id="date2" when="1868-08-30" exclude="#date1 #date3 #date4">30 Aug 1868</date>
+            <date xml:id="date3" when="1869-08-30" exclude="#date1 #date2 #date4">30 Aug 1869</date>
+            <date xml:id="date4" when="1870-08-30" exclude="#date1 #date2 #date3">30 Aug 1870</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1222.xml">Darwin, Francis</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks FD to check whether a Latin sentence is correct.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="languages" ref="#">Latin</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down</placeName>
+                    <date>Aug 30</date>
+                    <salute>My dear Frank</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Will you look over the enclosed Latin sentence &amp; see that it is correct.<ref target="#foot.f2"/> If any of your Classical friends are up, perhaps you c<hi rend="superscript">d</hi>. get one to glance over it.—<ref target="#foot.f3"/> Please return it tolerably soon.</p>
+<p>In Haste   Yours affect<hi rend="superscript">ly</hi>. | C. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">c<hi rend="superscript">d</hi>.] <hi rend="italic">interl</hi> </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date range is established by the reference to <ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin’s</ref> being at Cambridge (see n. 3, below).</note>
+            <note xml:id="foot.f2">The enclosure has not been found. It may have been the text of <hi rend="italic">Descent</hi> 2: 345, n. 53, an account of steatopygia that CD had translated into Latin in order to disguise content considered indelicate (see <ref target="./DCP-LETT-7339.xml" resp="#mjhawkins">letter from John Murray, 10 October [1870]</ref> and n. 3).</note>
+            <note xml:id="foot.f3">Francis went up to Cambridge on 12 October 1866 and was admitted as a student at Trinity College, Cambridge on 29 September 1866; he graduated in December 1870 (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242); <hi rend="italic">Alum. Cantab.</hi>; <hi rend="italic">Cambridge University calendar</hi>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

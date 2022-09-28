@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-2244" status="released" n="b">
+    <persName>
+        <forename>Edward</forename>
+        <choice>
+            <seg><surname notBefore="1785" notAfter="1807">Clive</surname></seg>
+            <seg><surname notBefore="1807" notAfter="1848">Herbert</surname></seg>
+        </choice>
+    </persName>
+    <persName type="additional" subtype="title">2d earl of Powis</persName>
+    
+    <note type="dates"><date>1785–1848</date></note>
+    <sex value="M"/>
+    <note type="biography">
+        <p>Politician. Tory MP for Ludlow, 1806–39. Assumed the surname Herbert, in lieu of Clive, in 1807. Succeeded to the earldom in 1839.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref>.</p>
+    </note>
+    <note type="volume">2,3,10,18,24</note>
+    <note type="keywords">
+        <term type="name">Clive, Edward (b)</term>
+        <term type="place">Ludlow</term>
+        <term type="p">Politician</term>
+    </note>
+</person>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11517">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Raphael Meldola   20 May [1878]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">2676</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11517 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11517.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11517.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Apc</note>
+            <note type="physdesc">Apc</note>
+            <note type="postmark">MY 21 78</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Oxford University Museum of Natural History (Hope Entomological Collections 1350: Hope/Westwood Archive, Darwin folder)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_312.xml">Oxford Hope</repository>
+                    <collection>Entomological Collections 1350:</collection>
+                    <idno>Hope/Westwood, Darwin folder</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1878-05-20">20 May [1878]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3289.xml">Meldola, Raphael</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>RM should take no more trouble over the subject [Otto Zacharias’ photos; see 11510].</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">insect</term>
+                <term type="people" ref="#subject_5291">Zacharias, Otto</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">From Mr. C. Darwin, Down, Beckenham.</hi></placeName>                   
+                </opener>
+                <div type="transcription">
+                     
+                    <p>Many thanks for card.— Pray take no more trouble on subject.<ref target="#foot.f1"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Down | May 20<hi rend="superscript">th</hi>.</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 <hi rend="italic">From … Beckenham</hi>] ‘<hi rend="italic">Mr.</hi>’ <hi rend="italic">altered from</hi> ‘<hi rend="italic">Mrs.</hi>’ </note>
+            </div>
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">Meldola’s postcard has not been found, but contained an identification of photographs of insects that CD had received from <ref target="../nameregs/nameregs_5291.xml" resp="#mjhawkins">Otto Zacharias</ref> (see letters from <ref target="../nameregs/nameregs_3289.xml" resp="#mjhawkins">Raphael Meldola</ref>, <ref target="./DCP-LETT-11493.xml" resp="#mjhawkins">3 May 1878</ref> and n. 2, and <ref target="./DCP-LETT-11524.xml" resp="#mjhawkins">23 May 1878</ref>).</note>         
+        </div>    
+        
+    </body>
+    </text>
+</TEI>

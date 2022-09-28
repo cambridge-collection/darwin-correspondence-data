@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9930">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. T. Thiselton-Dyer   14 April [1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19916</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9930 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9930.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9930.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Royal Botanic Gardens, Kew (Miscellaneous Correspondence - Letter from C. R. Darwin to W. T. Thiselton-Dyer)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_213.xml">Kew</repository>
+                    <collection>(Misc Corr:</collection>
+                    <idno>letter from CD to WTT-D)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1875-04-14">14 Apr [1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4712.xml">Thiselton-Dyer, W. T.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks WTT-D for his present of Sachs’s book [<hi rend="italic">Textbook of botany</hi> (1875)].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Textbook of botany</term>
+                <term type="rx" ref="#">Sachs, Julius von 1875</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Ap. 14</date>
+                    <salute>Dear M<hi rend="superscript">r</hi> Dyer</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very much obliged for your present of Sachs.<ref target="#foot.f2"/> I am particularly glad to have a copy, for all that I have read of the book has made me a most ardent admirer of it</p>
+<p>Pray believe me to be | Yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to Sachs 1875a (see n. 2, below).</note>
+            <note xml:id="foot.f2">Thiselton-Dyer had assisted in the translation of <ref target="../nameregs/nameregs_4143.xml" resp="#mjhawkins">Julius Sachs’s</ref> <hi rend="italic">Text-book of botany: morphological and physiological</hi> (Sachs 1875a). See also <ref target="./DCP-LETT-9878.xml" resp="#mjhawkins">letter from Moritz Traube, 2 March 1875</ref> and n. 4.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

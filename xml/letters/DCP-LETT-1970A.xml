@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1970A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To the Royal Society   8 October [1856?]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20771</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1970A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1970A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1970A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">photocopy</note>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 249: 111</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_380.xml">David Schulson</repository>
+                    <idno>(2003)</idno>
+                </msIdentifier>
+            </msDesc>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>249:111 photocopy</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <date when="1856-10-08">8 Oct [1856?]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4110.xml">Royal Society of London</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>The bearer has called for the books. Requests volumes of <hi rend="italic">Isis</hi> for 1828 and 1829.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Isis</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+                     
+<p rend="left">Royal Soc<hi rend="superscript">y</hi> | Somerset House</p>
+<p>The Bearer has called for the Books</p>
+<p>C. Darwin <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Down | Oct. 8<hi rend="superscript">th</hi>—</p>
+<p>Will you please also send me, Isis Band XXI Heft II. and Isis 1828. H. 2. (I daresay this is the same volume.)—<ref target="#foot.f2"/></p>
+<p>Also Isis 1829 VI p. 639 | Brehm, Abstammung der Hauskatke.<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is conjectured from CD’s interest in research on cats (see n. 3, below), and from the day the Down carrier visited London. The Down carrier service, operated by <ref target="../nameregs/nameregs_4447.xml" resp="#mjhawkins">George Snow</ref>, went to London early on Thursdays (<hi rend="italic">Post Office directory of the six home counties</hi> 1851), so it is likely that CD wrote this note on a Wednesday. Between 1842, when the Darwins moved to Down, and end of 1856, when the library of the Royal Society commenced its move from Somerset House (<hi rend="italic">Record of the Royal Society of London</hi>, p. 65), 8 October fell on a Wednesday in 1845 (when, however, CD was away from Down from 15 September to 26 October; see <hi rend="italic">Correspondence</hi> vol. 3, Appendix II), 1851, and 1856. In 1851 CD was working on the proofs of <hi rend="italic">Fossil Cirripedia</hi> between August and November (<hi rend="italic">Correspondence</hi> vol. 5, Appendix I), and there are no references to cats in his extant correspondence. In mid-October 1856, CD finished the second chapter of the manuscript of his ‘big book’ on species (<hi rend="italic">Correspondence</hi> vol. 6, Appendix III). According to CD’s table of contents for his manuscript of his ‘big book’, cats were discussed in this chapter (<hi rend="italic">Natural selection</hi>, p. 25; the first two chapters of the manuscript are no longer extant). Cats are mentioned frequently in his 1856 correspondence (see <hi rend="italic">Correspondence</hi> vol. 6).</note>
+            <note xml:id="foot.f2">Volume 21 of <hi rend="italic">Isis</hi> was the volume for 1828; CD may have been interested in <ref target="../nameregs/nameregs_605.xml" resp="#mjhawkins">Christian Ludwig Brehm’s</ref> article ‘Ueber <hi rend="italic">Columba domestica, livia et Amalia</hi>’, in part 2, pp. 135–41.</note>
+            <note xml:id="foot.f3">CD refers to Brehm’s article ‘Wo stammt die Hauskatze her?’ (Where does the domestic cat originate?), <hi rend="italic">Isis</hi> 22 (1829): 639.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

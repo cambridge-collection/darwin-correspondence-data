@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-13812">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Gould   [<hi rend="italic">c</hi>. October 1846]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8373</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-13812 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-13812.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-13812.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 3: 343–4</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Cambridge University Library Add 4251: 329</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <idno>Add 4251: 329</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1846-10-01" notAfter="1846-10-31">[c. Oct 1846]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1935.xml">Gould, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Recommends Ernst Dieffenbach for expedition to Guatemala.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1322">Dieffenbach, Ernst</term>
+                <term type="places" ref="#">Guatemala</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Tuesday</date>
+                    <salute>Dear Gould</salute>
+                </opener>
+                <div type="transcription">
+<p>I have seen in the Papers that you are going to Guatimala; is this actually true!!<ref target="#foot.f2"/> I am very curious to know, but my immediate object in writing is to say that I have had a letter from D<hi rend="superscript">r</hi>. Dieffenbach expressing a great wish to accompany you.<ref target="#foot.f3"/> His means of living, however, are limited &amp; he could not travel under 200£ per annum. All his collections would be at his employer’s disposal.— He has a very general &amp; I believe sound knowledge on Chemistry, Geology, Natural Philosophy &amp; some Botany &amp; Zoology, so that he would be in many respects a very good man for an Expedition.— Will you kindly send me a line &amp; tell me some news of your plans? Pray do.—</p>
+<p>Do you know anything &amp; would you exert yourself a little to get Dieffenbach taken on L<hi rend="superscript">d</hi>. Ranelagh’s expedition,<ref target="#foot.f4"/> supposing, as I fear is too probable, that you will not want him yourself.<ref target="#foot.f5"/></p>
+<p>With all good wishes. Ever yours sincerely. | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.7 very] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">2.1 know] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated on the basis of nn. 2 and 5, below.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_1935.xml" resp="#mjhawkins">John Gould</ref> never went to Guatemala (<ref target="../bibliographies/bibl_6899.xml" resp="#mjhawkins">Sauer 1982</ref>) although it appears that he did begin to plan such an expedition, see n. 5, below. No reference to his plans in British newspapers has been traced; however, in a letter to <ref target="../nameregs/nameregs_1935.xml" resp="#mjhawkins">John Gould</ref> dated 29 October 1846 (<ref target="../nameregs/nameregs_8646.xml" resp="#mjhawkins">British Museum</ref> (Natural History), Zoology Library) <ref target="../nameregs/nameregs_1322.xml" resp="#mjhawkins">Ernst Dieffenbach</ref> states that Gould’s proposed expedition was mentioned in the continental newspaper <hi rend="italic">Galignani</hi>.</note>
+            <note xml:id="foot.f3">This letter has not been found, but see letters to <ref target="../nameregs/nameregs_1680.xml" resp="#mjhawkins">Edward Forbes</ref>, <ref target="./DCP-LETT-867.xml" resp="#mjhawkins">13 May [1845]</ref>, and to J. D. Hooker, [19 May 1846], in which CD refers to Dieffenbach’s wish to join a natural history expedition. In 1845 Dieffenbach was offered an opportunity to join an expedition to the west coast of North America, which he declined (see G. Bell, pp. 110–11).</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_2607.xml" resp="#mjhawkins">Thomas Heron Jones</ref>, 3d Viscount Ranelagh, announced plans for an expedition to South America in <hi rend="italic">Athenæum</hi>, 8 August 1846, p. 819, and further details were published in <hi rend="italic">Athenæum</hi>, 21 November 1846, p. 1191. The expedition was never carried out.</note>
+            <note xml:id="foot.f5">Dieffenbach wrote to Gould on his own behalf, reiterating the comments made by CD, in a letter dated 29 October 1846 from Giessen (<ref target="../nameregs/nameregs_8646.xml" resp="#mjhawkins">British Museum</ref> (Natural History), Zoology Library). Gould’s reply, dated 25 November 1846, makes it clear that his plans were ‘still in Embryo’, that the newspaper reports were unauthorized, and that he was in no position to offer Dieffenbach any assistance (<ref target="../nameregs/nameregs_8646.xml" resp="#mjhawkins">British Museum</ref> (Natural History), Zoology Library).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

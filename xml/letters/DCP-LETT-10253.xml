@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10253">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Arthur Nicols   [before 10 November 1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10255</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10253 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10253.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10253.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">incomplete</note>
+            <note type="physdesc" n="ALS">4pp inc †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 172: 62</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>172: 62</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3528.xml">Nicols, Arthur</persName>
+                <placeName>Hampstead</placeName>
+                <date notBefore="1875-10-01" notAfter="1875-11-09">[before 10 Nov 1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Discusses his ambitions.</p>
+            <p>Writes of rats that gnaw through lead pipes to find water.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">rats</term>
+                <term type="scientific_terms" ref="#">behaviour</term>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="social" ref="#">Other people</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+                     
+<p>I hoped therefore that I should be able to do higher work than “pot-boiling”—feeling as I do if not a capacity for something better than general reviewing and scraps of nat. history contributions to various papers, at least the kind of enthusiasm for the study of Nature which generally brings some result however small. I intended to pass three years in Australia working in some fashion at the interesting ants there had he fulfilled his promise—the non fulfilment of which is totally inexplicable.<ref target="#foot.f2"/></p>
+<p>I must then do the best I can although the disappointment is at times very bitter when I see men of better opportunities occupying these glorious fields of work—but even at 35. years of age and with perfect health I should not be doing right in giving up ambition.</p>
+<p>Pardon this mere personal reference, which I should not have had the courage to make had I not found both in history and experience that those who have achieved most have the widest sympathies.</p>
+<p>yours faithfully | Arthur Nicols.</p>
+<p>P.S I have just heard of a habit of the rat which, I think, will interest you. I have it from my landlord an intelligent fellow, who is a practical smith. I was aware that rats on board ship frequently gnaw through the side of a cask until the wood is so thin that they can suck the water through it, because I have seen such places; and I believe they never make an entire breach in the wood. It was quite new to me however that they did this with <hi rend="underline">leaden</hi> pipes. Some years ago my informant was called to a house where one of the floors was always damp. The service pipe of the house he found to have been drilled in many places by rats, and the water was escaping at a great number of pin holes along about a yard of its length. He preserved a piece of this pipe for some time and thinks he may find it now. The teeth marks of the rats were quite distinct and they had pared the lead down to such a thinness that it broke at the centre of the incision and supplied them. This must have been the general drinking place of a great number of rats.</p>
+<p>Arthur Nicols.</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note><hi rend="italic">Top of letter</hi>: ‘11. Church row—Hampstead’ <hi rend="italic">blue crayon</hi></note>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter and the <ref target="./DCP-LETT-10255.xml" resp="#mjhawkins">letter from Arthur Nicols, 10 November 1875</ref>.</note>
+            <note xml:id="foot.f2">The person referred to has not been identified; the first part of Nicols’s letter is missing. Nicols had sent CD observations on animal behaviour made on a previous visit to Australia (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vols. 19 and 20).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

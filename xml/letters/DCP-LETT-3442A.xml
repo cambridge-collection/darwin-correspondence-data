@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3442A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Maurice Alberts<ref target="#foot.f1"/>   10 February 1862</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20834</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3442A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3442A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3442A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 230: 9a</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>230: 9a</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_62.xml">Alberts, Maurice</persName>
+                <placeName>Prussian Legation, London</placeName>
+                <date when="1862-02-10">10 Feb 1862</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Has received diploma from the University of Breslau [honorary doctorate in medicine and surgery]. Should he forward it or will CD pick it up in London? [See <hi rend="doubleUnderline">3226a</hi> and <hi rend="doubleUnderline">3446</hi>.]</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">honorary doctorate in medicine and surgery</term>
+                <term type="societal" ref="#">University of Breslau</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Prussian Legation | London</placeName>
+                    <date>Feb. 10. 1862</date>
+                    <salute>Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>The University of Breslau has transmitted to this Legation a letter and a Doctor Diploma for you,<ref target="#foot.f2"/> and I request you to let one know whether you expect to come to London soon so that you might call for the same or whether I shall forward it to you by rail.—<ref target="#foot.f3"/></p>
+<p>I am | Sir | Your ob<hi rend="superscript">d</hi> servt | M. Alberts. | Secretary</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The name of Alberts, the secretary of the Prussian embassy in London, is wrongly transcribed in <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 9 and in the <ref target="../bibliographies/bibl_1163.xml" resp="#mjhawkins"><hi rend="italic">Calendar</hi></ref> (Supplement) as ‘H. Albertof’.</note>
+            <note xml:id="foot.f2">At the celebration of the 50th anniversary of the foundation of the <ref target="../nameregs/nameregs_4845.xml" resp="#mjhawkins">University of Breslau</ref> (2–4 August 1861), CD was awarded an honorary doctorate in medicine and surgery by the Faculty of Medicine (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 9, <ref target="./DCP-LETT-3226A.xml" resp="#mjhawkins">letter from the University of Breslau, 4 August 1861</ref>). The diploma is in DAR 229 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 10, Appendix IX).</note>
+            <note xml:id="foot.f3">CD’s reply has not been found, but see the <ref target="./DCP-LETT-3445.xml" resp="#mjhawkins">letter from Maurice Alberts, 13 February 1862</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

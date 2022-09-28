@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7530">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To T. H. Farrer   2 [March 1871]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1425</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7530 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7530.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7530.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 144: 61</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Linnean Society of London (LS Ms 299/14a)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_238.xml">Linnean Society</repository>
+                    <collection>LS Ms 299</collection>
+                    <idno>14a</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Queen Anne St, 6</placeName>
+                <date when="1871-03-02">2 [Mar 1871]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1599.xml">Farrer, T. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Was aware of Maine’s view but never thought of its extension to morals. Cannot avoid thinking that personal property like flint tools must have "strictly belonged to individuals as much as a bone to a dog".</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">dog</term>
+                <term type="geology" ref="#">flint</term>
+                <term type="people" ref="#subject_3133">Maine, H. J. S.</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">historical time</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">individuals</term>
+                <term type="scientific_terms" ref="#">instinct</term>
+                <term type="scientific_terms" ref="#">social behaviour</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>6. Q. Anne St</placeName>
+                    <date>Thursday 2<hi rend="superscript">d</hi></date>
+                    <salute>My dear Farrer</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Many thanks for your note. The parallelism is new to me &amp; certainly seems to hold good.<ref target="#foot.f2"/> I was aware of the view as propounded by Maine, but never thought of its application or extension to morals.—<ref target="#foot.f3"/> With savages at the present day, as far as what may be called their real property is concerned the communal view I believe generally holds good, but I cannot avoid thinking that personal property, such as flint tools &amp;c, must from the earliest period have strictly belonged to the individual, as much as a bone to a dog or a nest to a bird—</p>
+<p>We are off to the quietude of Down from the tremendous uproar of this great place in the course of a few minutes.—<ref target="#foot.f4"/></p>
+<p>Yours very sincerely | Ch Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.4 is concerned] <hi rend="italic">interl</hi> </note>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The month and year are established by the relationship between this letter and the <ref target="./DCP-LETT-7528.xml" resp="#mjhawkins">letter from T. H. Farrer, 1 March 1871</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-7528.xml" resp="#mjhawkins">letter from T. H. Farrer, 1 March 1871</ref>.</note>
+            <note xml:id="foot.f3">In his letter of 1 March 1871, Farrer drew a parallel between <ref target="../nameregs/nameregs_3133.xml" resp="#mjhawkins">Henry James Sumner Maine’s</ref> view that the first notions of property related to communal rather than individual property, and CD’s view that the social instinct arose earlier than the selfish virtues (see <ref target="../bibliographies/bibl_5164.xml" resp="#mjhawkins">Maine 1861</ref> and <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> 1: 85).</note>
+            <note xml:id="foot.f4">CD was in London from 23 February to 2 March 1871 (see ‘Journal’ (Appendix II)).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

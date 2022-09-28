@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11136">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From J. V. Carus   13 September 1877</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8737A</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11136 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11136.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11136.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">AL incomplete</note>
+            <note type="physdesc" n="AL">inc †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 161: 110</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>161: 110</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_849.xml">Carus, J. V.</persName>
+                <placeName>Leipzig</placeName>
+                <date when="1877-09-13">13 Sept 1877</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends a list of errata in <hi rend="italic">Forms of flowers</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Forms of flowers</term>
+                <term type="scientific_terms" ref="#">dimorphism</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">type and morphology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Leipzig</placeName>
+                    <date>Sept 13. 1877.</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Although I am afraid that it will be too late for the first edition of your new book on different forms of flowers, yet I give you a short list of some few Errata, as usual.<ref target="#foot.f1"/></p>
+<p>p. 36. l.15 dele stop (,) after “plants”.</p>
+<p>p. 43. l.3 from bottom (text) read “plant<hi rend="underline">s</hi>” instead of plant.</p>
+<p>p 53. l.8 from bottom (text) read “form” instead of form<hi rend="underline">s</hi>.</p>
+<p>p. 162. l.12 from bottom read “acts” instead of “is”.</p>
+<p>p 196 l.17 (Class III) read “stamen<hi rend="underline">s</hi>”, not stamen</p>
+<p>p 205. Class III read “from own-form <hi rend="underline">mid-length</hi> stamens” instead of <hi rend="underline">shortest</hi> stamens</p>
+                    <p>“Shorter” would do perhaps; but the terms “longest”, “mid-length” and “shortest” refer to three different definite lengths; and in accordance therewith, there are no shortest stamens in the short-styled form.<ref target="#foot.f2"/></p>
+<p>In different places of the book you mention “divisions of the micrometer”. Although you speak mostly of relative lengths or distances, yet I venture to suggest, that it would be perhaps still more clear, if you would give also an absolute measure May I therefore ask you, what these divisions are, <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>100</mn></mfrac></math></formula><hi rend="superscript">ths</hi> of an inch or</p> 
+                </div>
+            </div>
+                <div type="annotations">
+                    <note>2.1 p. … stamen 6.1] <hi rend="italic">del ink</hi></note>
+                    <note>7.1 p 205. … stamens 7.2] <hi rend="italic">crossed pencil</hi></note>
+                    <note>8.1 “Shorter” … or 9.4] <hi rend="italic">crossed ink</hi></note>
+                    <note><hi rend="italic">Top of letter</hi>: ‘Victor Carus’ <hi rend="italic">ink</hi></note>
+                </div>
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Carus was translating <ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref> into German (see <ref target="./DCP-LETT-11005.xml" resp="#mjhawkins">letter to J. V. Carus, 17 June [1877]</ref> and n. 4); the English edition had been published on 9 July 1877 (<ref target="../bibliographies/bibl_2661.xml" resp="#mjhawkins">Freeman 1977</ref>).</note>
+            <note xml:id="foot.f2">In his reply to Carus of 16 September [1877], CD explained that he had failed to correct the heading of the table that was published as ‘Illegitimate Plants raised from Short-styled Parents fertilised with pollen from own-form shortest stamens’ (<ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref> p. 205).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7402F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To ?   28 December [1870]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">21456</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7402F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7402F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7402F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Christie’s (dealers) (23 November 2009)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_88.xml">Christie’s</repository>
+                    <collection>23 November 2009</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1870-12-28">28 Dec [1870]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_9999.xml">Unidentified</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Regrets that Hartogh Heijs van Zouteveen has already translated his new book into Dutch.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_2155">Hartogh Heijs van Zouteveen, Hermanus</term>
+                <term type="places" ref="#">Delft</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down.</hi> | Beckenham | <hi rend="print">Kent. S.E.</hi></placeName>
+                    <date>Dec. 28</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am much obliged for your note.<ref target="#foot.f2"/> It would have given me great pleasure to have had you as the Translator into Dutch of my new book. But D<hi rend="superscript">r</hi> Hartogh van Zouteveen applied some time ago &amp; has already completed a large part of vol. I, to be published by Mr. Ijkema of Delft.—<ref target="#foot.f3"/> So it is impossible for me to make any change.—</p>
+<p>Dear Sir | Yours faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 Beckenham] <hi rend="italic">before del</hi> ‘<hi rend="italic">Bromley.</hi>’ </note>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-7384.xml" resp="#mjhawkins">letter from Hermanus Hartogh Heijs van Zouteveen, 27 November 1870</ref> (<hi rend="italic">Correspondence</hi> vol. 18).</note>
+            <note xml:id="foot.f2">No correspondence about another Dutch translation of <hi rend="italic">Descent</hi> has been found in the Darwin Archive–CUL.</note>
+            <note xml:id="foot.f3">See <hi rend="italic">Correspondence</hi> vol. 18, <ref target="./DCP-LETT-7384.xml" resp="#mjhawkins">letter from Hermanus Hartogh Heijs van Zouteveen, 27 November 1870</ref>. Johan IJkema published the Dutch translation of Descent (Hartogh Heijs van Zouteveen trans. 1871–2).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

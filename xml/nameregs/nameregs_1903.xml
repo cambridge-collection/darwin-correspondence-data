@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-1903" status="released">
+    <persName>
+        <forename>Robert</forename>
+        <forename>Alfred</forename>
+        <forename>Cloyne</forename>
+        <choice>
+            <seg><surname notBefore="1808" notAfter="1854">Austen</surname></seg>
+            <seg><surname notBefore="1854" notAfter="1884">Godwin-Austen</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1808–84</date></note>
+    <sex value="M"/>
+    <note type="biography">
+        <p>Geologist. Noted for his work on the stratigraphy of southern England. Predicted the existence of coal-bearing strata in the south-east of England. Secretary of the Geological Society of London, 1843–4 and 1853–4. Assumed the additional name Godwin from 1854. FRS 1849.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_2160.xml" resp="#mjhawkins"><hi rend="italic">DSB</hi></ref></p>
+        <p><ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref>.</p>
+    </note>
+    <note type="volume">11,14,18</note>
+    <note type="keywords">
+        <term type="society">FRS</term>
+        <term type="societal">Geological Society</term>
+        <term type="place">southern England</term>
+        <term type="place">England, south-east</term>
+        <term type="place">London</term>
+        <term type="geological">stratigraphy</term>
+        <term type="geological">coal-bearing strata</term>
+        <term type="a">Geologist</term>
+    </note>
+</person>

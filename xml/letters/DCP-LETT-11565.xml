@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11565">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. T. Thiselton-Dyer   25 June [1878]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6764</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11565 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11565.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11565.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Royal Botanic Gardens, Kew (Thiselton-Dyer, W. T., Letters from Charles Darwin 1873–81: 133–4)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_213.xml">Kew</repository>
+                    <idno>Thiselton-Dyer, W. T. letters: 133–4</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1878-06-25">25 June [1878]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4712.xml">Thiselton-Dyer, W. T.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks WTT-D to identify a leaf.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">identification</term>
+                <term type="scientific_terms" ref="#">plant physiology</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>June 25<hi rend="superscript">th</hi></date>
+                    <salute>My dear Dyer</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I sh<hi rend="superscript">d</hi>. be greatly obliged if you could tell me the name of genus &amp; nearest species of enclosed leaf. It was given to my gardener by another gardener as a Caladium.<ref target="#foot.f2"/> It has never flowered with me: all the leaves are like the enclosed, but somewhat larger &amp; they rise from a great conical stock or corm or tuber.— I enclose addressed card &amp; you need only write name (if leaf can be recognised) at back.—</p>
+                    <p>I want to know name, because the leaf moves so much at night from horizontal to 69° below horizon, that it deserves to be said to sleep, &amp; monocot. sleepers are rare.—<ref target="#foot.f3"/></p>
+<p>yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.4 corm] <hi rend="italic">above del</hi> ‘corm’ </note>
+                <note xml:id="tnote.n2">2.2 69°] <hi rend="italic">after del</hi> ‘4’ </note>
+            </div>
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-11571.xml">postcard from W. T. Thiselton-Dyer, [27 June 1878]</ref>.</note>
+            <note xml:id="foot.f2">CD’s gardener was <ref target="../nameregs/nameregs_2906.xml" resp="#mjhawkins">Henry Lettington</ref>; the other gardener has not been identified. <hi rend="italic">Caladium</hi> is a genus of flowering plants native to Central and South America; they belong to the family Araceae (arums).</note>
+            <note xml:id="foot.f3">CD’s experimental notes on the sleep of <hi rend="italic">Caladium esculentum</hi> are in DAR 209.14: 15–18; see also <hi rend="italic">Movement of plants</hi>, pp. 390–1.</note>
+        </div>      
+          
+    </body>
+    </text>
+</TEI>

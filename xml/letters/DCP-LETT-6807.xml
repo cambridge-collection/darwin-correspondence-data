@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6807">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Edward Alfred Smith   30 June [1869]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">372</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6807 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6807.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6807.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.372)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>372</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Caerdeon</placeName>
+                <date when="1869-06-30">30 June [1869]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_6758.xml">Smith, E. A.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks EAS for excellent proofs of woodcuts [for <hi rend="italic">Descent</hi>].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Descent</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Caerdeon | Barmouth | N. Wales</placeName>
+                    <date>June 30<hi rend="superscript">th</hi>—</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Absence from home has prevented me from sooner thanking you for the proofs of woodcuts, which will do very well &amp; some seem excellently executed.<ref target="#foot.f2"/></p>
+<p>In Fig 2<hi rend="superscript">a</hi>. I think the fig of the female would be a good deal improved, if made rather less dark; she now looks much more massive than the male.— Please observe that the <hi rend="doubleUnderline">♂</hi> must be removed.—</p>
+<p>I must have these proofs or others returned to me: Be so kind as to attend to this.—</p>
+<p>Please, also, be so good as to return the M.S. list of specimens or instructions for the wood cuts; for I have forgotten the names of some of the species figured.<ref target="#foot.f3"/></p>
+<p>Please address the returned M.S. to address above given which will be my address for all this month.</p>
+<p>I am much obliged for your assistance: I shall probably, but not certainly, require a few more cuts; but my work has lately been much delayed by ill-health.—</p>
+<p>Dear Sir | Yours faithfully | Ch. Darwin</p>
+<p>P.S. | <hi rend="underline">I think</hi> I formerly returned a proof for correction, &amp; a revise was never sent me.— When I get my M.S. list, I can look over the proofs, &amp; ascertain whether I have copies of all.—</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">5.1 to] <hi rend="italic">after del</hi> ‘as’ </note>
+                <note xml:id="tnote.n2">6.2 lately] <hi rend="italic">first</hi> ‘l’ <hi rend="italic">over</hi> ‘b’ </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the address. CD and his family stayed at Caerdeon in North Wales in June and July 1869 (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242)).</note>
+            <note xml:id="foot.f2">The woodcuts were for <hi rend="italic">Descent.</hi> See also <ref target="./DCP-LETT-7051.xml" resp="#automat">letter to E. A. Smith, [before 30 June 1869]</ref>.</note>
+            <note xml:id="foot.f3">CD’s list of woodcuts for <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> is in DAR 82: B29</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

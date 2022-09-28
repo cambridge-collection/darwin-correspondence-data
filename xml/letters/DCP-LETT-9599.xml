@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9599">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Tyndall   12 August [1874]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3986</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9599 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9599.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9599.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 148: 182</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 261.8: 21 (EH 88205959)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>261.8: 21 (EH 88205959)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Bassett</placeName>
+                <date when="1874-08-12">12 Aug [1874]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4839.xml">Tyndall, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Returns proofs [of JT’s Belfast address, <hi rend="italic">Rep. BAAS</hi> 44 (1874): lxvi–xcvii]. Gratified by what it says about his work and is anxious to read the whole address; it is a grand subject.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Rep. BAAS</term>
+                <term type="places" ref="#">Belfast</term>
+                <term type="rx" ref="#">Tyndall, John 1874</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">positive self-criticism</term>
+                <term type="scientific_terms" ref="#">reception of Darwinism</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Bassett | Southampton</placeName>
+                    <date>Aug 12 | (9<hi rend="superscript">o</hi> A.M.)</date>
+                    <salute>My dear Tyndall</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>The sheets have just arrived &amp; I return them by the first post, which leaves this place in <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> an hour.<ref target="#foot.f2"/> I have read over the whole about my work, &amp; have been most deeply gratified by what you say. As far as a rather hasty reading suffices, I have not one word of criticism to make. It all seems to me excellent, &amp; as clear as light. I shall be most anxious to read the first &amp; last part, as I can clearly see that the whole will interest me in the highest degree.</p>
+<p>It is a grand subject—</p>
+<p>In great haste | Yours very cordially | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 Bassett | Southampton] <hi rend="italic">above del</hi> ‘<hi rend="italic">Down, | Beckenham, Kent.</hi>’ </note>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-9587.xml" resp="#mjhawkins">letter from John Tyndall, 5 August 1874</ref>.</note>
+            <note xml:id="foot.f2">Tyndall had asked CD to read the proof-sheets of his presidential address to the British Association for the Advancement of Science; in it, Tyndall discussed CD’s theory of natural selection (see <ref target="./DCP-LETT-9587.xml" resp="#mjhawkins">letter from John Tyndall, 5 August 1874</ref>, and Tyndall 1874, pp. lxxxiii–lxxxvii).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

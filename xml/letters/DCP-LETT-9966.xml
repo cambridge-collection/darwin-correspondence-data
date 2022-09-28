@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9966">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To James Paget   3 May 1875</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">467</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9966 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9966.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9966.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.467)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>467</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1875-05-03">3 May 1875</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3643.xml">Paget, James</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks JP for volume of his lectures [<hi rend="italic">Clinical lectures and essays</hi>, ed. H. Marsh (1875)].</p> 
+            <p>Mentions "vivisection question".</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Clinical lectures and essays</term>
+                <term type="people" ref="#">Marsh, H.</term>
+                <term type="rx" ref="#">Paget, James 1875</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">pathology, disease</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>May 3 | 1875.</date>
+                    <salute>My dear Paget</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very much obliged for your kind present of your Lectures. From their titles I feel sure that they will, like all your other writings which I have read, interest me greatly.<ref target="#foot.f1"/></p>
+<p>The vivisection question seems to be going on in every way as well as c<hi rend="superscript">d</hi> be desired.<ref target="#foot.f2"/></p>
+<p>My dear Paget | yours very sincerely | Charles Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Paget’s <hi rend="italic">Clinical lectures and essays</hi> (<ref target="../bibliographies/bibl_8724.xml" resp="#mjhawkins">Paget 1875</ref>) contained sixteen essays, fifteen of which had already been published in medical journals or hospital reports. There is an annotated copy of Paget’s <hi rend="italic">Lectures on surgical pathology</hi> (<ref target="../bibliographies/bibl_6139.xml" resp="#mjhawkins">Paget 1853</ref>) in Darwin Library–CUL, and a copy of the third edition of this work in Darwin Library–Down (<ref target="../bibliographies/bibl_5214.xml" resp="#mjhawkins"><hi rend="italic">Marginalia</hi></ref> 1: 658–61).</note>
+            <note xml:id="foot.f2">Paget had given his support for a vivisection bill prepared by CD and his friends to be presented to Parliament (see letter to from J. S. Burdon Sanderson, 30 April [1875].</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

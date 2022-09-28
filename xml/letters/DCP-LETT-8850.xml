@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8850">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Tyndall   8 April [1873]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3977</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8850 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8850.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8850.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS(A)</note>
+            <note type="physdesc" n="LS(A)">4pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 148: 173</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 261.8: 13 (EH 88205951)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>261.8: 13 (EH 88205951)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Montague St, 16</placeName>
+                <date when="1873-04-08">8 Apr [1873]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4839.xml">Tyndall, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>CD will write to William Spottiswoode about the fund for Huxley. CD is raising his subscription to £300. "We have done a good day’s work … [it] gives me a higher opinion of human nature than I had before, though I am not one of those who think lowly of mankind."</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="business" ref="#">Other people</term>
+                <term type="people" ref="#subject_2486">Huxley, T. H.</term>
+                <term type="people" ref="#subject_4500">Spottiswoode, William</term>
+                <term type="social" ref="#">holiday fund</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>16 Montague St | Montague Sq | W</placeName>
+                    <date>Ap 8</date>
+                    <seg type="supplemental"><hi rend="italic">Private</hi></seg>
+                    <salute>My dear Tyndall</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>After you left I thought of the extreme interest &amp; kindness which Spottiswoode showed on our subject, &amp; it appeared to me proper that I should write to him which I have done, and I mention it to you to save your taking the trouble.<ref target="#foot.f2"/> As he would have known if present what was done I gave him an outline of our decision &amp; thought it fair to tell him what had been subscribed. I presume he will communicate directly with Lubbock.<ref target="#foot.f3"/> As you will naturally desire to know how the subscription stands I may mention that my brother<ref target="#foot.f4"/> will give £100 and that I have changed mine to £300   These will be despatched tomorrow.</p>
+<p>I really think we have done a good days work and I remain, yours most cordially | Ch. Darwin</p>
+<p>Our meeting this morning will give me a higher opinion of human nature for the rest of my life than I ever had before, though I am not one of those who think lowly of mankind.</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">2.00 Ch.… mankind. 3.3] <hi rend="italic">in CD’s hand</hi> </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to a meeting that took place on 8 April 1873 (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242), <ref target="./DCP-LETT-8851.xml" resp="#mjhawkins">letter to William Spottiswoode, [8 April 1873]</ref>).</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-8851.xml" resp="#mjhawkins">letter to William Spottiswoode, [8 April 1873]</ref>. CD had evidently met Spottiswoode on 7 April and discussed the plan of a subscription to raise money for <ref target="../nameregs/nameregs_2486.xml" resp="#mjhawkins">Thomas Henry Huxley</ref>.</note>
+            <note xml:id="foot.f3">The money raised for the subscription was handled by <ref target="../nameregs/nameregs_3026.xml" resp="#mjhawkins">John Lubbock’s</ref> bank, <ref target="../nameregs/nameregs_4024.xml" resp="#mjhawkins">Robarts, Lubbock &amp; Co</ref>. (see <ref target="./DCP-LETT-8872.xml" resp="#mjhawkins">letter to T. H. Huxley, 23 April 1873</ref>).</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_1211.xml" resp="#mjhawkins">Erasmus Alvey Darwin</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

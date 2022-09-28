@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4369">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From W. E. Darwin   [after 19 May 1864]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19554</idno>
+            
+            
+            
+            
+            <date when="2001">2001</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4369 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4369.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4369.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="12">12</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">mem<ref target="#foot.f2"/></note>
+            <note type="physdesc">sketch †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 108: 83</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>108: 83</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1245.xml">Darwin, W. E.</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1864-05-20" notAfter="1882-12-31">[after 19 May 1864]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>[Outline sketches of pollen from long- and short-styled yellow cowslips and from a red cowslip.]</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">cowslip, red</term>
+                <term type="plants" ref="#">cowslips, yellow</term>
+                <term type="scientific_terms" ref="#">dimorphism</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">physical ‘external’ characters</term>
+                <term type="scientific_terms" ref="#">pollen</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+<figure type="diagram"> 
+<p>Yellow Cowslip Long styled Yellow Cowslip Short styled Red Cowslip</p> </figure> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note><hi rend="italic">Top of first column</hi>: ‘Cowslip’<ref target="#foot.f3"/> <hi rend="italic">underl blue crayon</hi></note>
+                <note><hi rend="italic">Top of second column</hi>: ‘Cowslip’ <hi rend="italic">underl blue crayon</hi></note>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this memorandum, the memorandum from W. E. Darwin, [30 April 1864], and the <ref target="./DCP-LETT-4502.xml" resp="#mjhawkins">letter from W. E. Darwin, [19 May 1864]</ref>, in which he said he had received CD’s cowslip and would measure it. See n. 3, below.</note>
+            <note xml:id="foot.f2">The sketches are reproduced at 33 per cent of their original size.</note>
+            <note xml:id="foot.f3">In the <ref target="./DCP-LETT-4479.xml" resp="#mjhawkins">letter to W. E. Darwin, [14–17 May 1864]</ref>, and the <ref target="./DCP-LETT-4442.xml" resp="#mjhawkins">letter from H. E. Darwin to W. E. Darwin, [18 May 1864]</ref>, CD had asked that the cowslip pollen also be sketched dry; the pollen in this memorandum appears to be dry compared with the pollen in the memorandum from W. E. Darwin of [30 April 1864]. This sketch was probably filed by CD with the sketch of wet cowslip pollen on which he recorded measurements by William of both dry and wet cowslip pollen, ‘1864–1865’ (see memorandum from W. E. Darwin, [30 April 1864] and n. 3). Possibly these two sketches were also attached to others that have not been found. It is not known who struck through the sketch of red cowslip pollen.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

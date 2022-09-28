@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-710">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To G. R. Waterhouse   [November 1843]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6104</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-710 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-710.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-710.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Natural History Museum, Library and Archives (Gen. lib. MSS/WAT)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_288.xml">NHM</repository>
+                    <idno>Gen. lib. MSS/WAT</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1843-11-01" notAfter="1843-11-30">[Nov 1843]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4972.xml">Waterhouse, G. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Congratulates GRW on appointment to position at British Museum.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="social" ref="#">Other people</term>
+                <term type="societal" ref="#">British Museum</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down, near Bromley | Kent</placeName>
+                    <date>Thursday</date>
+                    <salute>My dear Waterhouse</salute>
+                </opener>
+                <div type="transcription">
+<p>I am indeed delighted at your news &amp; most heartily congratulate you on your appointment having come so quickly &amp; so satisfactorily—<ref target="#foot.f1"/></p>
+<p>I can only look at it as a step to future promotion; &amp; may my prediction come true. Poor as the place at present is, after what you have gone through at the Zoological Society, the certainty of it must be a great comfort— I should think Kœnig<ref target="#foot.f2"/> was an odd fish, but I fancy from all I have heard, that he is a well meaning man.—</p>
+<p>I suppose you will begin working like a Trojan at fossil Osteology—</p>
+<p>With our united congratulations &amp; kind wishes to M<hi rend="superscript">rs</hi>. Waterhouse | believe me | Most truly Your’s | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1"><hi rend="italic">point omitted after</hi> : 2.1 ‘come’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Waterhouse was appointed assistant in the Mineralogical Department of the <ref target="../nameregs/nameregs_8646.xml" resp="#mjhawkins">British Museum</ref> in November 1843 (<ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref>).</note>
+            <note xml:id="foot.f2">Charles Dietrich Eberhard König was in charge of the Mineralogical Department of the <ref target="../nameregs/nameregs_8646.xml" resp="#mjhawkins">British Museum</ref>. Waterhouse worked mainly on fossil Mammalia.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

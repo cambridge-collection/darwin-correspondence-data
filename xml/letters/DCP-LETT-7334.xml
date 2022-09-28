@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7334">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From V. O. Kovalevsky   5 October 1870</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17782</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7334 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7334.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7334.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 169: 83</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>169: 83</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2751.xml">Kovalevsky, V. O.</persName>
+                <placeName>Sandown</placeName>
+                <date when="1870-10-05">5 Oct 1870</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Forwards Alexander Kovalevsky’s letter [<hi rend="doubleUnderline">7326</hi>] with the information on the vertebrate character of ascidian larvae.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="b" ref="#">7326</term>
+                <term type="animals" ref="#">ascidian</term>
+                <term type="animals" ref="#">vertebrate</term>
+                <term type="people" ref="#subject_2749">Kovalevsky, A. O.</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">larvae</term>
+                <term type="scientific_terms" ref="#">type and morphology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Sandown</placeName>
+                    <date>5 Octob. 1870.</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I communicated the wish You expressed to put in Your new work something about the vertebrate character of the Ascidian larva, to my brother and some days ago he sent me a letter to You with some particulars about this question.<ref target="#foot.f1"/> Till then he has not received Your work on the Cirripedia and so could not thank You for it.<ref target="#foot.f2"/> I return in three days to London and after a week more we both intent to go to Leipsic for the winter; I hope to see You once more before my departure.<ref target="#foot.f3"/></p>
+<p>Yours | Very truly | W. Kovalevsky</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">No letter from CD to Kovalevsky regarding the addition to <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> has been found; however, Kovalevsky visited the Darwins at some point between 15 August and 1 September 1870 (see <ref target="./DCP-LETT-7302.xml" resp="#mjhawkins">letter from V. O. Kovalevsky, 15 August [1870]</ref>, and letter from S. V. Kovalevskaya and V. O. Kovalevsky, 1 September 1870). For <ref target="../nameregs/nameregs_2749.xml" resp="#mjhawkins">Alexander Onufrievich Kovalevsky’s</ref> account of ascidian larva forwarded through his brother, see the <ref target="./DCP-LETT-7326.xml" resp="#automat">letter from A. O. Kovalevsky, 25 September 1870</ref>.</note>
+            <note xml:id="foot.f2">CD evidently gave copies of his monographs on living barnacles (<ref target="../bibliographies/bibl_4837.xml" resp="#mjhawkins"><hi rend="italic">Living Cirripedia</hi> (1851)</ref> and (1854)) to V. O. Kovalevsky who then sent them to his brother in Naples (see <ref target="./DCP-LETT-7322.xml" resp="#mjhawkins">letter from V. O. Kovalevsky, 20 September 1870</ref>).</note>
+            <note xml:id="foot.f3">Kovalevsky had been in England since mid-August (see <ref target="./DCP-LETT-7302.xml" resp="#mjhawkins">letter from V. O. Kovalevsky, 15 August [1870]</ref>). He and his wife, Sofia Vasilyevna Kovalevskaya, intended to spend the winter in Leipzig, Germany. For Kovalevsky’s previous visit to Down, see n. 1, above.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5822">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Bartholomew James Sulivan   31 January 1868</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10822</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5822 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5822.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5822.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 177: 290</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>177: 290</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4614.xml">Sulivan, B. J.</persName>
+                <placeName>Bournemouth</placeName>
+                <date when="1868-01-31">31 Jan 1868</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Congratulations on George Darwin’s performance at Cambridge.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1224">Darwin, G. H.</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="societal" ref="#">tripos success</term>
+                <term type="societal" ref="#">University of Cambridge</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Bournemouth</placeName>
+                    <date>Jan<hi rend="superscript">y</hi> 31: 68</date>
+                    <salute>My dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I must send you and M<hi rend="superscript">rs</hi>. Darwin my sincere congratulations on the position your son has taken at Cambridge—<ref target="#foot.f1"/> I know what especial gratification it must be to you from your own Connection with the University—<ref target="#foot.f2"/> It is the more valuable this year from the Senior Wrangler being so superior that his position was said to be certain some time before<ref target="#foot.f3"/>—&amp; from the general opinion there that it would be a very good year—</p>
+<p>I hope the good news has helped to give you a fresh stock of health and spirits.</p>
+<p>My wife<ref target="#foot.f4"/> joins me in best congratulations &amp; kind regards | Believe me | Yours very sincerely | B. J. Sulivan</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_1224.xml" resp="#mjhawkins">George Howard Darwin</ref> was second in the final examination for the mathematical tripos at Cambridge (<ref target="../bibliographies/bibl_1170.xml" resp="#mjhawkins"><hi rend="italic">Cambridge University calendar</hi></ref> 1868).</note>
+            <note xml:id="foot.f2">CD had been a student at Christ’s College, Cambridge, from 1828 to 1831 (<ref target="../bibliographies/bibl_144.xml" resp="#mjhawkins"><hi rend="italic">Alum. Cantab.</hi></ref>).</note>
+            <note xml:id="foot.f3">The senior wrangler at Cambridge in 1868 was <ref target="../nameregs/nameregs_3429.xml" resp="#mjhawkins">John Fletcher Moulton</ref> (<ref target="../bibliographies/bibl_1170.xml" resp="#mjhawkins"><hi rend="italic">Cambridge University calendar</hi></ref> 1868).</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_6821.xml" resp="#mjhawkins">Sophia Sulivan</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

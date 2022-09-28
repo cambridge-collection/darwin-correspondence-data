@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4486">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Richard Kippist   6 May [1864]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">5512</idno>
+            
+            
+            
+            
+            <date when="2001">2001</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4486 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4486.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4486.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="12">12</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="endorsement" subtype="letter">Ackn<hi rend="superscript">d</hi> May 7/64 | R. K.</note>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Wellcome Collection (MS.7781/1–32)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_437.xml">Wellcome</repository>
+                    <collection>MS.7781</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml" resp="high">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1864-05-06">6 May [1864]</date>
+            </correspAction>
+            <correspAction type="received" subtype="personGrp">
+                <persName key="../nameregs/nameregs_2705.xml" resp="high">Kippist, Richard</persName>
+                <persName key="../nameregs/nameregs_2944.xml" resp="high">Linnean Society of London</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Recommends paper by John Scott to be read at Linnean Society.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_4258">Scott, John</term>
+                <term type="rx" ref="#">Darwin, C. R. 1864c</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">Linnean Society</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>May 6<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I enclose a paper by M<hi rend="superscript">r</hi> J. Scott, which it seems to me is well worth communicating to the Linn. Soc<hi rend="superscript">y</hi>.—<ref target="#foot.f1"/> It will be dry to read aloud, but the facts seem to me very curious.—<ref target="#foot.f2"/></p>
+<p>My dear Sir | Yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.1 by M<hi rend="superscript">r</hi> J. Scott] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The reference is to the manuscript of Scott 1864b. John Scott sent the manuscript with his letter to CD of 5 May [1864]. Scott’s paper was read before the <ref target="../nameregs/nameregs_2944.xml" resp="#mjhawkins">Linnean Society</ref> on 2 June 1864. Kippist, who was librarian of the <ref target="../nameregs/nameregs_2944.xml" resp="#mjhawkins">Linnean Society</ref>, also performed many of the functions of a secretary to the society (<ref target="../bibliographies/bibl_2699.xml" resp="#mjhawkins">Gage 1938</ref>).</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-4485.xml" resp="#mjhawkins">letter from John Scott, 5 May [1864]</ref> and n. 2.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

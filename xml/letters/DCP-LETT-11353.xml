@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11353">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Raphael Meldola   12 February [1878]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">2654</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11353 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11353.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11353.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Apc</note>
+            <note type="physdesc">Apc</note>
+            <note type="postmark">FE 13 78</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Oxford University Museum of Natural History (Hope Entomological Collections 1350: Hope/Westwood Archive, Darwin folder)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_312.xml">Oxford Hope</repository>
+                    <collection>Entomological Collections 1350:</collection>
+                    <idno>Hope/Westwood, Darwin folder</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1878-02-12">12 Feb [1878]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3289.xml">Meldola, Raphael</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks RM for his interesting paper ["Entomological notes bearing on evolution", <hi rend="italic">Ann. &amp; Mag. Nat. Hist.</hi> 5th ser. 1 (1878): 155].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">insects</term>
+                <term type="it" ref="#">Ann. &amp; Mag. Nat. Hist.</term>
+                <term type="rx" ref="#">Meldola, Raphael 1878</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+                <term type="scientific_terms" ref="#">transmutation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">From Mr. C. Darwin, Down, Beckenham.</hi></placeName>
+                </opener>
+                <div type="transcription">
+                     
+<p>Many thanks for the copies of your very interesting paper.— I will send some to Fritz Müller.<ref target="#foot.f1"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Feb. 12<hi rend="superscript">th</hi>.</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 <hi rend="print">Mr.</hi>] <hi rend="italic">altered from</hi> ‘Mrs.’</note>
+                <note xml:id="tnote.n2">1.1 some] <hi rend="italic">above del</hi> ‘a couple’ </note>
+            </div>
+
+          
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Meldola sent copies of his paper ‘Entomological notes bearing on evolution’ (<ref target="../bibliographies/bibl_9618.xml" resp="#mjhawkins">Meldola 1878</ref>); CD’s copy is in the Darwin Pamphlet Collection–CUL. The paper included extracts from <ref target="../nameregs/nameregs_3070.xml" resp="#mjhawkins">Fritz Müller’s</ref> notes in his <ref target="./DCP-LETT-7820.xml" resp="#automat" cert="low">letter to CD of 14 June 1871</ref> (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 19); see <ref target="./DCP-LETT-11308.xml" resp="#mjhawkins">letter from Raphael Meldola, 2 January [1878]</ref> and n. 4.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

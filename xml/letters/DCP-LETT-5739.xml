@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5739">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Roland Trimen   24 December [1867]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3931</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5739 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5739.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5739.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 148: 139</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl>Poulton (1909a): 280</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 15</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Royal Entomological Society (Trimen papers, box 21: 61)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_337.xml">R. Entomol. Soc.</repository>
+                    <collection>Trimen papers</collection>
+                    <idno>box 21: 61</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1867-12-24">24 Dec [1867]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4806.xml">Trimen, Roland</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Invites RT to come to Down for a week-end.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="places" ref="#">Down</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">inviting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Dec. 24<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>If you are not engaged, will you give me the great pleasure of your company here next Saturday, &amp; stay the Sunday with us. We dine at 7 oclock.—<ref target="#foot.f2"/></p>
+<p>You would have to come by Train to Bromley, but I am sorry to say this place is six miles from the Station.</p>
+<p>I am bound to tell you that my health is very uncertain &amp; I am continually liable to bad days, &amp; even on my best days I cannot talk long with anyone; but if you will put up with the best will to see as much of you as I can, I hope that you will come.—</p>
+<p>Pray believe me, | my dear Sir | Yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the fact that Trimen visited CD at Down at the end of 1867 (see <ref target="../bibliographies/bibl_6389.xml" resp="#mjhawkins">Poulton 1909</ref>, p. 28 n. 2). See also n. 2, below.</note>
+            <note xml:id="foot.f2">Trimen, who lived in South Africa, was in London in late 1867 to work on a paper about mimicry in African butterflies (<ref target="../bibliographies/bibl_7825.xml" resp="#mjhawkins">Trimen 1868</ref>; see <ref target="../bibliographies/bibl_6390.xml" resp="#mjhawkins">Poulton 1920</ref>, p. xxiv). For CD’s letters to Trimen between 1863 and 1871, and a commentary on their relationship, see <ref target="../bibliographies/bibl_6389.xml" resp="#mjhawkins">Poulton 1909</ref>, pp. 213–46.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

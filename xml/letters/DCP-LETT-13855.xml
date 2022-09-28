@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-13855">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Josiah Wedgwood III   [May 1844]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">2711</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-13855 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-13855.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-13855.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 3: 34</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">V&amp;A / Wedgwood Collection (MS W/M 1028)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_521.xml">V&amp;A / Wedgwood Collection</repository>
+                    <idno>(MS W/M 1028)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1844-05-01" notAfter="1844-05-31">[May 1844]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_5027.xml">Wedgwood, Josiah, III</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Family financial matters.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin family</term>
+                <term type="people" ref="#subject_1202">Darwin family</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <date>Wednesday</date>
+                    <salute>Dear Jos.</salute>
+                </opener>
+                <div type="transcription">
+<p>Emma tells me that you have or will have next week 600 or 700£ to pay over.— My Father has kindly offered to take 600£ more from me, would you therefore please to send this money if now ready, with some which you have to send from Aunt Sarah.;<ref target="#foot.f2"/> if not now ready, will you send it whenever it is ready.— If the sum is more than 600£, would you please to keep the difference till some future time.— My Father requests that you will be so kind, as to send him a copy of the same sort of receipt, which you had for the 1400£, &amp; he will return it to you properly signed.— I forget, whether you require any document from Emma: if you do, w<hi rend="superscript">d</hi> you please to send us the form, &amp; I will keep a copy of it, so that we need not trouble you again, as I utterly forget the sort of document, you formerly required about the Railway Shares.—<ref target="#foot.f3"/></p>
+<p>Yours affectionately | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.1 will] <hi rend="italic">before interl del</hi> ‘soon’</note>
+                    <note xml:id="tnote.n2">1.2 from me] <hi rend="italic">before del</hi> ‘(which with 900# part of the former money, [‘making’ <hi rend="italic">del interl</hi>] he has got security for)’</note>
+                    <note xml:id="tnote.n3">1.4 whenever] <hi rend="italic">after del</hi> <hi rend="italic">illeg</hi></note>
+                    <note xml:id="tnote.n4">1.5 the difference] ‘the’ <hi rend="italic">over</hi> ‘it’; ‘difference’ <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n5">1.9 us] <hi rend="italic">after del</hi> ‘me’</note>
+                </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated from an entry in <ref target="../nameregs/nameregs_1234.xml">Robert Waring Darwin</ref>’s Investment Book, 1831–48 (Down House MS) in the account headed ‘Trust Money—<ref target="../nameregs/nameregs_1218.xml">Emma</ref> &amp; <ref target="../nameregs/nameregs_1.xml" resp="#mjhawkins">Charles Darwin</ref>’, reading: ‘1844 Borrowed May 28 £600’. CD was at The Mount, his father’s home in Shrewsbury, from 23 April to 30 May (‘Journal’; <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 3, Appendix II).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_5038.xml">Sarah Elizabeth (Sarah) Wedgwood</ref>, CD’s aunt.</note>
+            <note xml:id="foot.f3">A document, signed by <ref target="../nameregs/nameregs_1218.xml">Emma</ref>, requesting that railway shares be purchased from trust money left by <ref target="../nameregs/nameregs_5026.xml">her father</ref> is dated 16 October 1843 (Keele University Library, Mosley Collection). <ref target="../nameregs/nameregs_5027.xml" resp="#mjhawkins">Josiah Wedgwood III</ref> was a trustee of CD and Emma’s marriage settlement (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 2, <ref target="./DCP-LETT-438.xml" resp="#mjhawkins">letter from Josiah Wedgwood II and Emma Wedgwood to R. W. Darwin, 15 November 1838</ref>, n.1).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

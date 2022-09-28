@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7345F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Francis Darwin   [before 18 October 1870]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">21486</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7345F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7345F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7345F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS"/>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 274.1: 14</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>274.1: 14</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1222.xml">Darwin, Francis</persName>
+                <placeName>Cambridge</placeName>
+                <date notBefore="1809-01-01" notAfter="1870-10-16">[before 18 Oct 1870]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Needs more money to pay his tutoring bills.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_742">Burns, Robert</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">University “Pitt” Club</hi></placeName>
+                    <salute>My dear Father</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am sorry to say that I have only <hi rend="superscript">£</hi>46–5<hi rend="superscript">s</hi>– in the bank, &amp; the two bills of Burn’s are together £115<ref target="#foot.f2"/>   I am afraid I must have been shockingly extravagant some how; &amp; very idle not kept accounts so that I could seen how things were going. I only got my pass book this morning or I would have written to you before</p>
+<p>Your affec son | Francis Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter and the <ref target="./DCP-LETT-7346.xml" resp="#mjhawkins">letter to Francis Darwin, 18 October [1870]</ref> (<hi rend="italic">Correspondence</hi> vol. 18).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_742.xml" resp="#mjhawkins">Robert Burn</ref> was Francis’s tutor at Trinity College, Cambridge, where Francis was an undergraduate from 1866 until 1870, when he received his BA (<hi rend="italic">Admissions to Trinity College, Cambridge</hi> 5: 329,<hi rend="italic"> Cambridge University calendar</hi> 1870, p. xxiv; see also <hi rend="italic">Correspondence</hi> vol. 13, <ref target="./DCP-LETT-4945.xml" resp="#mjhawkins">letter to Robert Burn, 2 December [1865]</ref>). CD recorded a payment to Francis of £115 on 18 October 1870 in his Account books–cash account (Down House MS).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

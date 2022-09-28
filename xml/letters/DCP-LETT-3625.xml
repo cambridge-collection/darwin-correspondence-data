@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3625">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Frederick Smith   28 June 1862</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14560</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3625 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3625.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3625.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p damaged †</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 10: 277</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 177: 195</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>177: 195 (fragile)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4408.xml">Smith, Frederick (a)</persName>
+                <placeName>British Museum</placeName>
+                <date when="1862-06-28">28 June 1862</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Has seen Francis Walker, who has identified CD’s two Hymenoptera species ["caught in Musk Orchis" – CD note].</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_4929">Walker, Francis</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">identification</term>
+                <term type="social" ref="#">meeting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Brit Museum</placeName>
+                    <date>June 28<hi rend="superscript">th</hi>. 1862.</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have seen M<hi rend="superscript">r</hi>. Walker this morn<hi rend="superscript">g</hi>. and he gives me the names of the two species—〈<hi rend="underline">Tetr</hi>〉<hi rend="underline">astichus Diaphantus</hi> and the little fellow with dark fasciæ on 〈the〉 wings is <hi rend="underline">Coleothrips fasciata</hi>—<ref target="#foot.f1"/> Many thanks for the Volume on the Fertilization of Orchis which I have just received—<ref target="#foot.f2"/> what 〈a〉 most interesting subject. I 〈    〉 just had from the 〈Journal〉</p>
+<p>believe me | Yours very Sincerely | Fred<hi rend="superscript">k</hi> Smith</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note>1.2 <hi rend="italic">Diaphantus</hi>] ‘this is the common one’ <hi rend="italic">interl ink</hi></note>
+                <note><hi rend="italic">Top of page</hi>: ‘Hymenoptera caught on Musk Orchis’ <hi rend="italic">ink</hi> <ref target="#foot.f3"/> *S1 !alignleft!<hi rend="italic">CD note</hi>:<ref target="#foot.f4"/> *S2 *M<hi rend="superscript">r</hi>. Waterhouse [<hi rend="italic">circled ink</hi>]<ref target="#foot.f5"/> This is minute Beetle with pollinia of Musk Orchis—</note>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The reference is to the entomologist <ref target="../nameregs/nameregs_4929.xml" resp="#mjhawkins">Francis Walker</ref> (see <ref target="./DCP-LETT-3622.xml" resp="#mjhawkins">letter from Frederick Smith, 27 June [1862]</ref>). See also n. 3, below. <hi rend="italic">Coleothrips fasciata</hi> is a synonym of <hi rend="italic">Aeolothrips fasciatus</hi>, the banded-wing thrips. <hi rend="italic">Tetrastichus diaphantus</hi> is a synonym of <hi rend="italic">Baryscapus diaphantus</hi>.</note>
+            <note xml:id="foot.f2">The names of Frederick Smith and <ref target="../nameregs/nameregs_4929.xml" resp="#mjhawkins">Francis Walker</ref> are both on CD’s presentation list for <ref target="../bibliographies/bibl_6010.xml" resp="#mjhawkins"><hi rend="italic">Orchids</hi></ref> (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 10, Appendix IV).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_1224.xml" resp="#mjhawkins">George Howard Darwin</ref> had recently begun observing, on his father’s behalf, the insects that entered the flower of the green musk orchis, <hi rend="italic">Herminium monorchis</hi> (see CD’s notes of these observations, dated 22–7 June 1862, in DAR 70: 32–6; see also DAR 70: 31, 37). CD reported George’s findings in the German translation of <ref target="../bibliographies/bibl_6010.xml" resp="#mjhawkins"><hi rend="italic">Orchids</hi></ref> (Bronn trans. 1862, pp. 47–8 n.; see the second enclosure to the <ref target="./DCP-LETT-3630.xml" resp="#mjhawkins">letter to H. G. Bronn, 30 June [1862]</ref>). He later published them in <ref target="../bibliographies/bibl_2498.xml" resp="#mjhawkins">‘Fertilization of orchids’</ref>, p. 145 (<ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 2: 142), stating that <hi rend="italic">Tetrastichus diaphantus</hi> was the most common of the minute Hymenoptera that visited <hi rend="italic">H. monorchis</hi>, and that the Hymenoptera identified in the paper had all been named for him ‘by our highest authority, Mr. Frederick Smith’ (<ref target="../bibliographies/bibl_2498.xml" resp="#mjhawkins">‘Fertilization of orchids’</ref>, p. 142; <ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 2: 139).</note>
+            <note xml:id="foot.f4">CD’s note is on a scrap of paper that was pinned to the letter.</note>
+            <note xml:id="foot.f5">CD probably refers to the entomologist, <ref target="../nameregs/nameregs_4972.xml" resp="#mjhawkins">George Robert Waterhouse</ref>, who was keeper of the geology department at the <ref target="../nameregs/nameregs_8646.xml" resp="#mjhawkins">British Museum</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

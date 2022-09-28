@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-1312" status="released">
+    <persName>
+        <forename>Elinor</forename>
+        <forename>Mary</forename>
+        <choice>
+            <seg><surname notBefore="1837" notAfter="1872">Bonham-Carter</surname></seg>
+            <seg><surname notBefore="1872" notAfter="1923">Dicey</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1837–1923</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of Joanna Maria Bonham-Carter, a family friend of the Darwins. The family lived at Keston, Kent, from 1853. Married Albert Venn Dicey in 1872.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_786.xml" resp="#mjhawkins">Bonham-Carter 1960</ref></p> 
+            <p><ref target="../bibliographies/bibl_1095.xml" resp="#mjhawkins"><hi rend="italic">Burke’s landed gentry</hi></ref> 1965.</p>
+    </note>
+    <note type="volume">10,12,14,16,18,19,20,22,WSL,25,30</note>
+    <note type="keywords">
+        <term type="name">Bonham-Carter, Henry</term>
+        <term type="name">Dicey, A. V.</term>
+    </note>
+</person>

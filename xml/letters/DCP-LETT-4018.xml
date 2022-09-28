@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4018">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To George Maw   28 February [1863]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19539</idno>
+            
+            
+            
+            
+            <date when="1999">1999</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4018 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4018.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4018.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="11">11</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Royal Horticultural Society, Lindley Library (MAW/1/9)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_339.xml">R. Hortic. Soc.</repository>
+                    <collection>George Maw correspondence</collection>
+                    <idno>MAW/1/9</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1863-02-28">28 Feb [1863]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3232.xml">Maw, George</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks GM for a curious lily.</p>
+            <p>Recommends some papers on coal.</p>
+            <p>Gives his opinion on the importance of forming theories if one is to be a good and original observer.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">lily</term>
+                <term type="geology" ref="#">coal</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Feb. 28<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am much obliged for the curious Lily: I do not think it comes under my case, for I suppose it is not capable of propagation by bulbs.—<ref target="#foot.f2"/></p>
+<p>When D<hi rend="superscript">r</hi> Hooker comes here next he shall see it, so it shall be made best use of.—<ref target="#foot.f3"/> I am glad you stick to your view, though I think ultimately you will have to give it up.<ref target="#foot.f4"/> It is an old theory of mine, that no one can be a good &amp; <hi rend="underline">original</hi> observer unless he forms a multitude of theories &amp; destroys a multitude of theories. Publication of theories is another question.</p>
+<p>Almost the best papers I have ever read on Coal are some lately published in late numbers of Sillimans American Journal by Lesquereux.—<ref target="#foot.f5"/> They would be worth your reading &amp; you will like them all the better, as they give the “Origin of Species” a few little unpleasant kicks.—<ref target="#foot.f6"/></p>
+<p>I have the pleasure of knowing M<hi rend="superscript">r</hi> Crotch only by a little correspondence.<ref target="#foot.f7"/> I am told he is a bold advocate of mutability of Species.—</p>
+<p>My dear Sir | Yours sincerely | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">3.1 on Coal] <hi rend="italic">after del</hi> ‘are’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-4012.xml" resp="#mjhawkins">letter from George Maw, 25 February 1863</ref>.</note>
+            <note xml:id="foot.f2">With his letter of 25 February 1863, <ref target="../nameregs/nameregs_3232.xml" resp="#mjhawkins">George Maw</ref> enclosed a specimen of <hi rend="italic">Lilium candidum</hi>. CD did not consider it a case of bud-variation because ‘modifications which arise through bud-variation can generally be propagated . . . by grafting, budding, cuttings, bulbs, &amp;c., and occasionally even by seed’ (<ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref>, 1: 373), and this was not the case with the aberrant flowers of <hi rend="italic">L. candidum</hi>.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_2357.xml" resp="#mjhawkins">Joseph Dalton Hooker</ref> visited CD at Down House on 22 March 1863 (see <ref target="./DCP-LETT-2027.xml" resp="#mjhawkins">letter from J. D. Hooker, [24 March 1863]</ref>).</note>
+            <note xml:id="foot.f4">CD refers to Maw’s theory of the deposition of coal (see letters from <ref target="../nameregs/nameregs_3232.xml" resp="#mjhawkins">George Maw</ref>, <ref target="./DCP-LETT-3999.xml" resp="#mjhawkins">19 February 1863</ref> and <ref target="./DCP-LETT-4012.xml" resp="#mjhawkins">25 February 1863</ref>).</note>
+            <note xml:id="foot.f5"><ref target="../bibliographies/bibl_4705.xml" resp="#mjhawkins">Lesquereux 1859–63</ref>. The Swiss bryologist and palaeontologist <ref target="../nameregs/nameregs_2901.xml" resp="#mjhawkins">Leo Lesquereux</ref> sent CD the second and third parts of his seven-part series of articles on the coal formations of the United States, published in the <hi rend="italic">American Journal of Science and Arts</hi>, founded and edited by Benjamin Silliman. The annotated copies are in the Darwin Pamphlet Collection–CUL.</note>
+            <note xml:id="foot.f6">Maw had published a review of <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref> (<ref target="../bibliographies/bibl_5313.xml" resp="#mjhawkins">[Maw] 1861</ref>) in which he made a number of criticisms that CD thought were ‘capitally &amp; very originally’ put (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 9, <ref target="./DCP-LETT-3214.xml" resp="#mjhawkins">letter to George Maw, 19 July [1861]</ref>). Lesquereux had argued (<ref target="../bibliographies/bibl_4705.xml" resp="#mjhawkins">Lesquereux 1859–63</ref>, pt 3, pp. 380–1) that the coal formations of North America did not provide evidence of evolutionary change in plant species.</note>
+            <note xml:id="foot.f7">See <ref target="./DCP-LETT-3052.xml" resp="#mjhawkins">letter from William Duppa Crotch, 25 January 1861</ref> (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 9).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

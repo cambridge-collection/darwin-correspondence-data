@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10608">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To P. M. Duncan   19 September 1876</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">498</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10608 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10608.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10608.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS(A)</note>
+            <note type="physdesc" n="LS(A)">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.498)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>498</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1876-09-19">19 Sept 1876</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1422.xml">Duncan, P. M.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Encloses coral specimen and manuscript account of it by William Lonsdale.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">coral</term>
+                <term type="people" ref="#subject_2989">Lonsdale, William</term>
+                <term type="scientific_terms" ref="#">coral</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Sep. 19. 76</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>On turning out a pile of rubbish in one of my rooms I found a parcel with a fossil coral &amp; a long M.S account (beautifully written) by Lonsdale.<ref target="#foot.f1"/> I believe that this arrived during one of my long illnesses, anyhow it was completely forgotten. From the length of the MS &amp; the many references I suppose that the Specimen must have interested Lonsdale. Therefore I will send you in a day or two by rail the M.S &amp; Specimen, all of which you can throw away if of no interest.<ref target="#foot.f2"/></p>
+<p>I hope that I shall have not troubled you in vain and remain, | My dear Sir, | Yours very faithfully | Charles Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.5 in a … two] <hi rend="italic">interl in CD’s hand</hi> </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_2989.xml" resp="#mjhawkins">William Lonsdale’s</ref> manuscript on the fossil coral together with a specimen was sent to CD in 1864; CD had suggested then that he (CD) ought to send them to the <ref target="../nameregs/nameregs_1841.xml" resp="#mjhawkins">Geological Society of London</ref> (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 18, Supplement, <ref target="./DCP-LETT-5080A.xml" resp="#mjhawkins">letter to William Lonsdale, 6 May [1864]</ref>).</note>
+            <note xml:id="foot.f2">CD evidently forwarded the material to Duncan because, like Lonsdale, he specialised in fossil corals. Duncan had written a monograph on British fossil corals, published by the <ref target="../nameregs/nameregs_3646.xml" resp="#mjhawkins">Palaeontographical Society</ref> of London (<ref target="../bibliographies/bibl_2202.xml" resp="#mjhawkins">Duncan 1866–72</ref>). Duncan was also president of the Geological Society at this time. Lonsdale died in 1871 (<ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

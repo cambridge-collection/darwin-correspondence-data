@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1801A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To George Gulliver   27 December [1855]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20802</idno>
+            
+            
+            
+            
+            <date when="2002">2002</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1801A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1801A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1801A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="13">13-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <note type="postmark">DE 28 1855</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Josh B. Rosenblum (private collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_359.xml">Rosenblum, Josh B.</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1855-12-27">27 Dec [1855]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2019.xml">Gulliver, George</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>His thanks for the present [<hi rend="italic">The works of William Hewson</hi>, edited by GG, 1846]. [See <hi rend="doubleUnderline">1796</hi>.]</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="b" ref="#">1796</term>
+                <term type="it" ref="#">The works of William Hewson</term>
+                <term type="rx" ref="#">Gulliver, George 1846</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Dec<hi rend="superscript">r</hi> 27<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I write one line to say that I have this morning received safely your most kind present of Hewson’s work.<ref target="#foot.f1"/> I have just looked at the Table, &amp; am astounded at the number of the measurements.<ref target="#foot.f2"/></p>
+<p>With very sincere thanks | yours truly obliged | Ch. Darwin.</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">In his <ref target="./DCP-LETT-1796.xml" resp="#automat" cert="medium">letter to Gulliver of 18 December [1855]</ref> (<hi rend="italic">Correspondence</hi> vol. 5), CD had accepted Gulliver’s offer of <hi rend="italic">The works of William Hewson</hi> (Gulliver ed. 1846). CD’s annotated copy is in the Darwin Library–CUL (see <hi rend="italic">Marginalia</hi> 1: 378).</note>
+            <note xml:id="foot.f2">Gulliver had tabulated comparative measurements of red blood cells of various species of mammals, birds, reptiles, amphibians, and fish for his edition of the works of the physiologist <ref target="../nameregs/nameregs_2271.xml" resp="#mjhawkins">William Hewson</ref> (Gulliver ed. 1846, pp. 237–44). CD was interested in obtaining measurements of corpuscles of pigeons and dogs (see <hi rend="italic">Correspondence</hi> vol. 5, <ref target="./DCP-LETT-1796.xml" resp="#mjhawkins">letter to George Gulliver, 18 December [1855]</ref>; see also <hi rend="italic">Correspondence</hi> vol. 6, <ref target="./DCP-LETT-1632.xml" resp="#mjhawkins">letter from George Gulliver, 20 January [1856]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

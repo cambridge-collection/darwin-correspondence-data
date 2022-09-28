@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10291">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Archibald Geikie   9 December 1875</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7214</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10291 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10291.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10291.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">The University of Edinburgh Centre for Research Collections (Gen 524/12 Coll-74/11/12 1. 1)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_124.xml">Edinburgh</repository>
+                    <idno>(Gen 524/12 Coll-74/11/12 1. 1)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1875-12-09">9 Dec 1875</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1836.xml">Geikie, Archibald</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>CD has signed James Croll’s certificate [of nomination to Royal Society] with real pleasure.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1127">Croll, James</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">Royal Society of London</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Dec. 9<hi rend="superscript">th</hi>. 1875</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have signed M<hi rend="superscript">r</hi>. Croll’s certificate with real pleasure<ref target="#foot.f1"/></p>
+<p>Dear Sir | Yours faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD refers to <ref target="../nameregs/nameregs_1127.xml" resp="#mjhawkins">James Croll’s</ref> certificate of nomination to the <ref target="../nameregs/nameregs_4110.xml" resp="#mjhawkins">Royal Society of London</ref>. CD recommended Croll from general rather than personal knowledge (The Royal Society archive GB 117, EC/1876/08). Croll was elected a fellow of the society in June 1876 (<ref target="../bibliographies/bibl_6563.xml" resp="#mjhawkins"><hi rend="italic">Record of the Royal Society of London</hi></ref>). See also <hi rend="italic">Correspondence</hi> vol. 30, <ref target="./DCP-LETT-10289G.xml">letter from Archibald Geikie, 7 December 1875</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

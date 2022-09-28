@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11716">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From C. G. Semper   5 October 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10712</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11716 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11716.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11716.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">TLS</note>
+            <note type="physdesc" n="TLS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 177: 140</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>177: 140</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4291.xml">Semper, K. G.</persName>
+                <placeName>Würzburg</placeName>
+                <date when="1878-10-05">5 Oct 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks CD for writing machine.</p>
+            <p>Recalls visit by CD’s son [Francis].</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1222">Darwin, Francis</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="smallCaps">wuerzburg</hi></placeName>
+                    <date>5. <hi rend="smallCaps">oct</hi>. 1878.</date>
+                    <salute><hi rend="smallCaps">my dear mr. darwin</hi>!</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p><hi rend="smallCaps">you will, i hope, allow me to express once more my gratitude for the splendid present, you made me with the writi</hi>n<hi rend="smallCaps">g machine, which i am using now almost constantly for all my writing work.<ref target="#foot.f1"/> it has, indeed, been rather hard work to get accustomed to it, the more so, be cause the letters are dist</hi>r<hi rend="smallCaps">ributed in such a way, as to render it more difficult to write with it german letters, than english ones. nevertheless, it is great boon to me and i am certain to get used to it in such a way as to make penwriting superfluous.</hi></p>
+                    <p><hi rend="smallCaps">i have been asked several times already, whether your son will soon return to wuerzburg or not.<ref target="#foot.f2"/> he is held in good remembrance amongst us and he may be sure to find on his return everybody well disposed to receive him most cordially.</hi></p>
+                    <p><hi rend="smallCaps">please remember me to him and give my best regards to mrs. darwin and believe me | yours | very truly</hi> | C. Semper.</p> 
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had given Semper a typewriter; see <ref target="./DCP-LETT-11624.xml">letter from C. G. Semper, 22 July 1878</ref>. Semper suffered from writer’s palsy (see <ref target="./DCP-LETT-11604.xml">letter from Francis Darwin, [12 July 1878]</ref> and n. 8). </note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin</ref> was in Germany, where he worked in the laboratory of <ref target="../nameregs/nameregs_4143.xml" resp="#mjhawkins">Julius Sachs</ref> at Würzburg, a centre of research in plant physiology, from 3 June until 8 August 1878 (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242), <ref target="" resp="#automat">letter from Emma Darwin to W. E. Darwin, [11 August 1878]</ref> (DAR 219.1: 114)).</note>
+        </div>
+    
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1828">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Phillips   28 January [1856]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7270</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1828 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1828.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1828.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Oxford University Museum of Natural History Archive Collections (John Phillips collection))</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_313.xml">Oxford UMNH</repository>
+                    <collection>John Phillips</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1856-01-28">28 Jan [1856]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3773.xml">Phillips, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks JP for beautiful book [? <hi rend="italic">The rivers, mountains and sea-coast of Yorkshire</hi>, 2d ed. (1855)].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">The rivers, mountains and sea-coast of Yorkshire</term>
+                <term type="rx" ref="#">Phillips, John 1855b</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Jan. 28<hi rend="superscript">th</hi></date>
+                    <salute>My dear Phillips</salute>
+                </opener>
+                <div type="transcription">
+<p>I have received this morning your very kind present;<ref target="#foot.f2"/> but I am almost ashamed to accept so beautiful a book in return for my old &amp; dry works on Rocks.—<ref target="#foot.f3"/></p>
+<p>With very sincere thanks. Believe me. Yours very truly | Ch. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 a] <hi rend="italic">added</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the relationship to the <ref target="./DCP-LETT-1822.xml" resp="#mjhawkins">letter to John Phillips, 18 January [1856]</ref>.</note>
+            <note xml:id="foot.f2">Phillips 1855. CD’s copy is in the Darwin Library–Down. The work includes a series of views of Yorkshire taken from sketches by Phillips.</note>
+            <note xml:id="foot.f3"><hi rend="italic">Geology of ‘Beagle’</hi>. See <ref target="./DCP-LETT-1822.xml" resp="#mjhawkins">letter to John Phillips, 18 January [1856]</ref>, n. 6.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3545">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To P. L. Sclater   14 May [1862]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">277</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3545 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3545.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3545.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="endorsement" subtype="letter">May 1862</note>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.277)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>277</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1862-05-14">14 May [1862]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4251.xml">Sclater, P. L.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Asks for information about peacocks, especially <hi rend="italic">Pavo nigripennis</hi>. Suggests a crossing experiment.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Pavo nigripennis</term>
+                <term type="animals" ref="#">peacocks</term>
+                <term type="scientific_terms" ref="#">crossing</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>May 14<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sclater</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Very sincere thanks for your two notes.<ref target="#foot.f1"/> It will not be fair to plague you or M<hi rend="superscript">r</hi> Gurney with another note, but when you see him, will you ask him whether he can remember at the time when the P. nigripennis appeared he had any white or pied Birds.<ref target="#foot.f2"/> In two of the three cases mentioned by Sir R. Heron there were white &amp; pied birds in the lot.—<ref target="#foot.f3"/> With four cases now recorded I would wager the P. nigripennis will prove a variety,—<ref target="#foot.f4"/>hardly more surprising in its origin, than the so-called Himalayan rabbit.<ref target="#foot.f5"/> It is a very curious case. Have you a white Peacock in the Gardens; if so do match a white &amp; common for the chance of P. nigripennis appearing.— The effects of crossing are sometimes marvellous in bringing out old &amp; lost characters or in producing new characters—</p>
+<p>Yours very sincerely | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.9 are] <hi rend="italic">altered from</hi> ‘is’</note>
+                </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The letters from Sclater have not been found; evidently they were in response to CD’s queries on peacocks (see <ref target="./DCP-LETT-3543.xml" resp="#automat">letter to P. L. Sclater, 12 May [1862]</ref>).</note>
+            <note xml:id="foot.f2">CD refers to <ref target="../nameregs/nameregs_2027.xml" resp="#mjhawkins">Hudson Gurney</ref> (see <ref target="./DCP-LETT-3543.xml" resp="#automat">letter to P. L. Sclater, 12 May [1862]</ref> and n. 1).</note>
+            <note xml:id="foot.f3"><ref target="../bibliographies/bibl_3588.xml" resp="#mjhawkins">Heron 1835</ref>. CD cited <ref target="../nameregs/nameregs_2254.xml" resp="#mjhawkins">Robert Heron’s</ref> observations in <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 290.</note>
+            <note xml:id="foot.f4">In his account of variation in the peacock (<ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 290–2), CD presented five cases of japanned birds suddenly appearing in common peacock flocks. CD regarded the japanned form as a variety of the common form (see <ref target="./DCP-LETT-3544.xml" resp="#automat">letter to W. D. Fox, 12 May [1862]</ref>, n. 6); Sclater regarded it as a distinct species (see <ref target="./DCP-LETT-3543.xml" resp="#automat">letter to P. L. Sclater, 12 May [1862]</ref> and n. 1). CD concluded his discussion by stating (<ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 291–2): <quote type="quote"> On the view that the black-shouldered peacock is a variety, the case is the most remarkable ever recorded of the abrupt appearance of a new form, which so closely resembles a true species that it has deceived one of the most experienced of living ornithologists. </quote></note>
+            <note xml:id="foot.f5">CD described the origin of the Himalayan breed of rabbit in <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 108–9. He stated that these rabbits, white except for the ears, nose, feet, and upper side of the tail, which are brownish-black, were initially thought to be specifically distinct from other domestic breeds and given the name <hi rend="italic">Lepus nigripes</hi>. CD then recounted how it was subsequently discovered that the Himalayans resulted from a complex cross: the offspring of ‘chinchillas’ crossed with the common black breed were crossed with the offspring of chinchillas that had been crossed with silver-greys. The Himalayan progeny, ‘notwithstanding their sudden origin, if kept separate, bred perfectly true’ (<hi rend="italic">ibid.</hi>, p. 109).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

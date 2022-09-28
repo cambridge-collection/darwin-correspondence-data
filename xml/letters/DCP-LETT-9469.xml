@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9469">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From V. O. Kovalevsky   25 May 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17807</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9469 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9469.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9469.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 169: 97</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>169: 97</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2751.xml">Kovalevsky, V. O.</persName>
+                <placeName>Paris</placeName>
+                <date when="1874-05-25">25 May 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Regret at reading of Huxley’s death [a false report].</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Other people</term>
+                <term type="people" ref="#subject_2486">Huxley, T. H.</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Paris</placeName>
+                    <date>May 25 1874</date>
+                    <salute>Dear Sir!</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have been some two months occupied by geology in different small places of Central &amp; South France and only two days ago in the Museum of Perigueux. I found the last Number of Gervais’ Journal of Zoology announcing Huxley’s death.<ref target="#foot.f1"/> This is really hard to bear and it did strike me as if I had lost a brother. This is certainly the greatest loss not only for Science but for human progress in General, which could occur,— Huxley, Hancock, Phillips— what a mourning year for Zoology.<ref target="#foot.f2"/> You will greatly oblige me by favouring me with a line giving some particulars of this most unhappy event.— Besides I know Professor Huxley had no large private means and a considerable family, will the Government do something to place the family above the reach of want or will it be done by private subscription as in the case of Sars;<ref target="#foot.f3"/> in this latter case I will take the liberty to observe that M<hi rend="superscript">r</hi> Huxley was not only an Englishman but a member of the great Republic of Science and all scientific men of all countries may take a right to take part in raising a fund for the family of one of their first leaders. For my part I have a belief that should such a suscription really be organised we could hope for a large sum from scientific people in our country beeing suscribed, as Huxley was very popular in Russia.—</p>
+<p>Excuse the incoherent manner of this letter, I write it in a great hurry. The last time I have been taken up with the investigation of some freshwater deposits of the chalk and I have large Cyrenas, Unio and Melaniae from the Gault upwards to the White Chalk period.—<ref target="#foot.f4"/></p>
+<p>I am alone in Paris and will return in a few days to Berlin, but please adress Your letter—<hi rend="underline">Paris Rue Linné 31 bis,</hi> au 1<hi rend="superscript">r</hi>.</p>
+<p>Your truly | W. Kowalevsky</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The false report of <ref target="../nameregs/nameregs_2486.xml" resp="#mjhawkins">Thomas Henry Huxley’s</ref> death appeared in <hi rend="italic">Journal de zoologie</hi> 3 (1874): 48. The journal was edited by <ref target="../nameregs/nameregs_1853.xml" resp="#mjhawkins">Paul Gervais</ref>, and a retraction was printed on p. 151.</note>
+            <note xml:id="foot.f2">Kovalevsky refers to <ref target="../nameregs/nameregs_2091.xml" resp="#mjhawkins">Albany Hancock</ref>, who died on 24 October 1873, and John Phillips, who died on 24 April 1874 (<ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref>).</note>
+            <note xml:id="foot.f3">After <ref target="../nameregs/nameregs_4185.xml" resp="#mjhawkins">Michael Sars</ref> died in 1869, evidently his wife, Maren Cathrine, and his eight surviving children (<ref target="../bibliographies/bibl_5817.xml" resp="#mjhawkins"><hi rend="italic">NBL</hi></ref>) received a subscription. In 1873, several friends of Huxley, including CD, raised a subscription to help him through financial difficulties during a period of ill health (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 21, <ref target="./DCP-LETT-8876.xml" resp="#mjhawkins">letter to subscribers to T. H. Huxley’s gift, [25 April 1873]</ref>).</note>
+            <note xml:id="foot.f4"><hi rend="italic">Cyrena</hi> (a synonym of <hi rend="italic">Corbicula</hi>) is a genus of bivalve molluscs; <hi rend="italic">Unio</hi> is a genus of freshwater mussels; <hi rend="italic">Melania</hi> (a synonym of <hi rend="italic">Thiara</hi>) is a genus of freshwater snails. Gault is the formation of stiff blue clay deposited during the early Cretaceous period, and white chalk was deposited during the later Cretaceous period.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

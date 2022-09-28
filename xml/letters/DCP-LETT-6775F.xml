@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6775F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Ponderer to the <hi rend="italic">Athenæum</hi>   [before 5 June 1869]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20987</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6775F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6775F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6775F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        
+        <sourceDesc>
+            <bibl type="provenance"> <hi rend="italic">Athenæum</hi>, 5 June 1869, p. 772 </bibl>
+            <bibl type="printedSource">Athenæum 1869.06.05: 772</bibl>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2.xml">"Ponderer"</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1809-01-01" notAfter="1869-06-04">[before 5 June 1869]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_173.xml">Athenæum</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Inquires how CD arrived at the conclusion that fifteen million elephants could be produced from a single pair in five centuries [<hi rend="italic">Origin</hi>, 5th ed., p. 74].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">elephants</term>
+                <term type="people" ref="#subject_1">Darwin, C. R.</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">generations</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">years</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+                     
+<p><hi rend="underline">Darwin’s Elephants</hi>.— In the last edition of Mr.  Darwin’s ‘Origin of Species,’ he makes the following statement (chap. iii., page 74, line 18):—“The elephant is reckoned the slowest breeder of all known animals, and I have taken some pains to estimate its probable minimum state of natural increase. It will be under the mark to assume that it begins breeding when thirty years old, and goes on breeding till ninety years old, bringing forth three pair of young in this interval. If this be so, at the end of the fifth century there would be alive fifteen million elephants descended from the first pair.”<ref target="#foot.f2"/> Perhaps some of your readers will be able to enlighten my dull intellect as to the process of reasoning by which this result is obtained. According to Mr. Darwin’s theory, each pair brings forth a pair when it is thirty, when it is sixty, and when it is ninety. Hence if there be one pair in the first year, there will be one pair born in the thirtieth year; these two pairs will produce two pairs in the sixtieth year, and these four will produce four pairs in the ninetieth. After that we have only to add the numbers born in the three preceding periods to find out how many are born in each period; because after they have attained the age of ninety years they cease to breed. This method of reasoning gives the number of pairs born in each period of thirty years as 1, 1, 2, 4, 7, 13, 24, 44, 81, 149, 274, 504, 927, 1,705, 3,136, 5,768, 10,609, 19,513; the last number being born in the period commencing with the five hundred and tenth year. Therefore the number of elephants alive at that time would be 42,762 pairs, that is, 85,524 elephants, less the number that would have died by reason of their age. But Mr. Darwin says that there would be fifteen millions. On what does he base his calculation? | P<hi rend="smallCaps">onderer</hi>.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the date of publication of this letter in the <hi rend="italic">Athenæum</hi>, 5 June 1869.</note>
+            <note xml:id="foot.f2">‘Ponderer’ refers to <ref target="../bibliographies/bibl_6017.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 4th ed.</ref>; see also the first edition of <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>, p. 64, where the passage exists in almost the same form. It was altered in the sixth edition (<ref target="../bibliographies/bibl_6019.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 6th ed.</ref>, p. 51) so that the conclusion read, ‘if this be so, after a period of from 740 to 750 years there would be nearly nineteen million elephants alive, descended from the first pair.’</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

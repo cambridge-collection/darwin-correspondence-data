@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4092">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From M. T. Masters   14 April 1863</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10073</idno>
+            
+            
+            
+            
+            <date when="1999">1999</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4092 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4092.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4092.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="11">11</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 69</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 69</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3217.xml">Masters, M. T.</persName>
+                <placeName>Peckham</placeName>
+                <date when="1863-04-14">14 Apr 1863</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks CD for specimens which show that an abnormality in one genus is normal in another, which bears on CD’s views on descent.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">higher groupings (‘family’, ‘class’, ‘order’ etc)</term>
+                <term type="scientific_terms" ref="#">monstrosity</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Rye Lane | Peckham. SE</placeName>
+                    <date>April 14. 1863</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Many thanks for the specimens you were kind enough to forward to me<ref target="#foot.f1"/>   They singularly well illustrate the truth of the oft made remark that what is abnormal in one genus is the rule in another and have much significance when considered in relation to your views of inheritance and descent<ref target="#foot.f2"/>   I notice that the more perfectly developed flowers are placed toward the upper part of the cluster</p>
+<p>The peculiar arrangement of the stamens in this family is exceedingly curious and not well-understood I think—<ref target="#foot.f3"/></p>
+<p>Again thanking you for your kindness believe me dear Sir | Faithfully Y<hi rend="superscript">rs</hi>. | Maxwell. T. Masters. <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Ch<hi rend="superscript">as</hi>. Darwin Esq</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See letters to M. T. Masters, <ref target="./DCP-LETT-4076.xml" resp="#automat">6 April [1863]</ref> and <ref target="./DCP-LETT-4091.xml" resp="#automat">[8–13 April 1863]</ref>.</note>
+            <note xml:id="foot.f2">CD discussed <hi rend="italic">Corydalis</hi> in <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 2: 58–9, as part of his chapter on reversion (<hi rend="italic">ibid.</hi>, pp. 28–61). See also <ref target="./DCP-LETT-4076.xml" resp="#automat">letter to M. T. Masters, 6 April [1863]</ref> and n. 3.</note>
+            <note xml:id="foot.f3">In the Fumariaceae the six stamens are in two sets of three, on opposite sides of the flower, and are covered by the fused inner pair of petals. The three stamens in each set are often fused together at the base, with only the middle stamen having a complete anther (<ref target="../bibliographies/bibl_2372.xml" resp="#mjhawkins">Ernst 1962</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

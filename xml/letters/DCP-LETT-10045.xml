@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10045">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Arnold Dodel<choice><seg type="original"><ref target="#foot.f1"/></seg><seg type="translation"><ref target="#foot_trans.f1"/></seg></choice>   6 July 1875</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16748</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10045 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10045.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10045.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp (German)</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 162: 195</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>162: 195</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1342.xml">Dodel-Port, Arnold</persName>
+                <placeName>Zurich</placeName>
+                <date when="1875-07-06">6 July 1875</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks CD for a copy of <hi rend="italic">Insectivorous plants</hi>.</p>  
+<p>Describes experiment on <hi rend="italic">Drosera</hi> carried out with his pupils.</p> 
+            <p>Describes reception of the book at the University of Zurich.</p>
+            <p>Comments on Nägeli’s concept of a "morphological species".</p>
+            <p>Expresses belief in importance of natural selection.</p> 
+<p>Mentions his forthcoming publication ["Ulothrix zonata", <hi rend="italic">Jahrb. f. wiss. Bot.</hi> 10 (1876): 417–550].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Drosera</term>
+                <term type="plants" ref="#">Ulothrix zonata</term>
+                <term type="it" ref="#">Insectivorous plants</term>
+                <term type="it" ref="#">Jahrb. f. wiss. Bot.</term>
+                <term type="people" ref="#">Dodel-Port, Arnold’s pupils</term>
+                <term type="people" ref="#">Nageli, C. W. von</term>
+                <term type="rx" ref="#">Dodel-Port, Arnold 1876</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">predators</term>
+                <term type="scientific_terms" ref="#">reception of Darwinism</term>
+                <term type="scientific_terms" ref="#">selection</term>
+                <term type="scientific_terms" ref="#">species, speciation</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+                <term type="scientific_terms" ref="#">type and morphology</term>
+                <term type="societal" ref="#">University of Zurich</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Zürich</placeName>
+                    <date>den 6 Juli 1875.</date>
+                    <seg type="supplemental">M<hi rend="superscript">r</hi>. Charles Darwin in Down, Beckenham, Kent, England.</seg>
+                    <salute>Hochgeehrtester Herr!</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Ihr köstliches Werk “Insectivorous Plants”, welches zu senden Sie die Güte hatten, kam mir letzten Samstag, 3. Juli, richtig zu, eben in dem Augenblicke, da ich in dem Begriffe stand, mit meinen Schülern eine botanische Excursion an den 1<formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> Stunden von hier entfernten Katzensee zu unternehmen.<ref target="#foot.f2"/> Beim raschen durchblättern Ihres glänzenden Werkes, das mich als Botaniker ganz besonders interessiren muß, fand ich das hübsche Capitel über <hi rend="underline">Drosera rotundifolia</hi>, eine am Katzensee in Tausenden von Exemplaren vorkommenden Pflanze. Ihr Buch mußte daher die Excursion mitmachen und es hat uns treffliche Dienste geleistet. Wir fanden die Pflanze im günstigsten Stadium u hatten Gelegenheit, hunderte von <hi rend="underline">gefangenen</hi> Insekten, lebend, todt u in Auflösung begriffen, auf den Blättern von Drosera zu sehen. Meine Schüler waren nicht weniger erstaunt u erfreut als ich u das veranlaßte mich, einige Dutzend der lebenden Pflanze mit nach Hause zu nehmen, um die Beobachtungen zu wiederholen. Am Sonntag (4/VII) experimentirte ich mit kleinen Fliegen, Eiweißstückchen, Fleisch etc., nahm auch Zeichnungen auf u habe nun das Vergnügen, in meinem botanisch-mikroskopischen Laboratorium auf der hiesigen Universität dutzenden von fleißigen Studenten die Resutate <hi rend="underline">Ihrer</hi> Untersuchungen an der lebenden Pflanze zu demonstriren.<ref target="#foot.f3"/> Ich sage nicht zu viel, wenn ich Ihnen mittheile, daß Ihre neuste glänzende Arbeit an hiesiger Universität bereits großes Interesse geweckt hat. Professoren u Studenten nehmen fleissig von den vorgenommenen Experimenten Notiz; nächsten Donnerstag wird eine 2te Excursion zu demselben Zwecke an den Katzensee führen. Kurz, <hi rend="underline">wir Alle</hi>, die Freunde u Apostel Ihrer fruchtbaren Theorie, bringen Ihnen unsern Dank dar. Die Verehrung, die hier Ihrem Namen zu Theil wird, mag Ihnen etwelchen Trost bieten, (wenn Sie desselben bedürfen—) gegenüber gehässigen Verhöhnungen.</p>
+<p>Ihre neueste kostbare Arbeit über “Insektenfressende Pflanzen” bestärkt mich neuerdings in der Uberzeugung, daß alle Organe, so <hi rend="underline">unbedeutend</hi> sie uns erscheinen mögen, Haare, Trichome etc. der betreffenden Species ihren Nützen bringen. Ich meine—u habe dies auch offen in meiner “Schöpfungsgeschichte”, <hi rend="underline">entgegen</hi> meinem hochverehrten Lehrer: Prof. C. Nägeli in München, ausgesprochen—<hi rend="underline">es giebt keine sogenannten morphologischen</hi> Arten.<ref target="#foot.f4"/> Wo wir den Nutzen einer unscheinbaren “morphologischen” Differenz zwischen verschiedenen Formen noch nicht erkannt haben, da müssen wir an <hi rend="underline">Ihrem</hi> Princip der “natural selection” noch keineswegs verzweifeln. Was <hi rend="underline">wir</hi> noch nicht erkennen, das wird von einer folgenden Generation erkannt werden. Diese Ansicht theilen auch andere Botaniker die in der Wissenschaft einen guten Klang haben, so z. B. A. Kerner in Insbruck dessen vorzügliche Arbeit über Asyngamie etc. ich in meiner “Schöpf-Gesch.” vorläufig angezeigt habe.<ref target="#foot.f5"/> Kurz, wir glauben daß es mit den sogenannten “morphologischen Arten”, die auf dem Wege natürl. Zuchtwahl nicht entstanden sein sollen, Nichts ist, mit andern Worten: <hi rend="underline">daß das Princip der</hi> <hi rend="underline">natürlichen Zuchtwahl</hi> bei der Differenzirung <hi rend="underline">aller Species</hi> mitgewirkt hat.</p>
+<p>So glauben wir denn, wir Vertreter u Apostel Ihrer Theorie auf dem Continent, daß das Princip der natürl. Zuchtwahl im Kampf um’s Dasein sich in allen Fällen von Species-Bildung bestätigen wird. Wir treten <hi rend="underline">keinen Rückzug</hi> an: die zahlreichen biologischen Arbeiten der Neuzeit lassen uns getrost weiter dociren: <hi rend="underline">Darwin</hi> hat Recht.</p>
+<p>Ich bin im Begriff, eine hübsche Untersuchung über die untere Grenze des pflanzlichen Geschlechtslebens im Manuscript (mit 8 Tafeln) abzuschliessen. Ohne die Kenntniß Ihrer Theorie wäre ich schwärlich dazugekommen, diese Resultate zu erhalten. Sobald meine Arbeit über “<hi rend="underline">Ulothrix zonata</hi>” und ihre geschlechtliche u ungeschlechtliche Fortpflanzung” die Presse verlassen wird, werde ich Ihnen solche zusenden.<ref target="#foot.f6"/></p>
+<p>Meinen herzlichen Dank für Ihr ausgezeichnetes Buch! Mögen Sie Ihren Jüngern noch lange, lange erhalten bleiben!</p>
+<p>Meinen tiefsten Empfindungen hiermit in schwachen Worten Ausdruck gebend, verbleibe ich | in tiefster Verehrung: | D<hi rend="superscript">r</hi>. Arnold Dodel, | Docent der Botanik | <hi rend="superscript">a</hi>/d. Universität Zürich.</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+        
+        
+        <div type="translation">
+            <div type="text">
+                <opener>
+                    <placeName>Zurich</placeName>
+                    <date>6 July 1875.</date>
+                    <seg type="supplemental">M<hi rend="superscript">r</hi>. Charles Darwin in Down, Beckenham, Kent, England.</seg>
+                    <salute>Most honoured Sir!</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Your delightful work “Insectivorous Plants”, which you so kindly sent me, reached me as intended last Saturday, 3 July, at the very moment when I was about to set out on a botanical excursion with my pupils to Katzensee, which lies 1<formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> hours from here.<ref target="#foot.f2"/> While quickly leafing through your brilliant work, which to me as a botanist must be of very special interest, I found the lovely chapter on <hi rend="underline">Drosera rotundifolia</hi>, a plant which occurs round the Katzensee in thousands. Thus your book had to go along on the excursion, and it did us excellent service. We found the plants at the most favourable stage &amp; had the opportunity to observe hundreds of <hi rend="underline">trapped</hi> insects, alive, dead &amp; in the process of dissolving, on the leaves of Drosera. My pupils were no less surprised &amp; delighted than I myself &amp; this induced me to take a few dozen live plants home with me to repeat the observations. On Sunday (4/VII) I experimented with small flies, bits of egg white, meat etc., also made drawings &amp; now have the pleasure of demonstrating, in my botanical-microscopical laboratory at the university here, the results of <hi rend="underline">your</hi> investigations on the living plant to dozens of eager students.<ref target="#foot.f3"/> I am not exaggerating when I tell you that your latest brilliant work has already awakened a keen interest at the university here. Professors &amp; students are busily taking notes on the experiments I conduct; next Thursday, a second excursion with the same purpose will lead us again to the Katzensee. In short, we, the friends &amp; apostles of your fertile theory, <hi rend="underline">all of us</hi> offer you our thanks. The veneration that your name receives here may give you some comfort (should you need any—) in the face of spiteful derision.</p>
+<p>Your latest valuable work on “Insectivorous plants” again strengthens my conviction that all organs, however <hi rend="underline">insignificant</hi> they may appear to us, hairs, trichomes etc., benefit the species concerned. I believe—&amp; I have said so often in my “Schöpfungsgeschichte”, <hi rend="underline">against</hi> my highly venerated teacher: Prof. C. Nägeli in Munich—that <hi rend="underline">there are no so-called morphological</hi> species.<ref target="#foot.f4"/> Whenever we are still unable to identify the use of an inconspicuous “morphological” difference between various forms, this by no means means that we must doubt <hi rend="underline">your</hi> principle of “natural selection”. What <hi rend="underline">we</hi> are unable to discover will be discovered by a later generation. Other botanists of high repute in the field share this view, such as e.g. A. Kerner in Insbruck whose excellent work on asyngamy etc. I announced in my “Schöpf-Gesch.”<ref target="#foot.f5"/> In short, we believe that there is nothing in the notion of so-called “morphological species” that have supposedly not come into existence through natural selection, in other words: <hi rend="underline">that the principle of natural selection</hi> has acted in the differentiation of <hi rend="underline">all species</hi>.</p>
+<p>Thus we, the spokesmen &amp; apostles of your theory on the continent, believe that the principle of natural selection through the struggle for survival will be confirmed for all cases of species-formation. We will <hi rend="underline">not retreat</hi>: together with the numerous biological works of recent times, we may confidently continue to teach: <hi rend="underline">Darwin</hi> is right.</p>
+<p>I am just concluding a nice investigation of the lower limits of plant sexuality in manuscript (with 8 tables). Without knowledge of your theory I would hardly have been able to obtain my results. As soon as my work on “<hi rend="underline">Ulothrix zonata</hi>” and its sexual &amp; asexual reproduction” has left the press, I will send you a copy.<ref target="#foot.f6"/></p>
+<p>My heartfelt thanks for your exquisite book! May you remain young for a long, long time yet!</p>
+<p>Giving expression to my deepest sentiments with feeble words, I remain | with the profoundest respect: | D<hi rend="superscript">r</hi>. Arnold Dodel, | lecturer in botany | at the University of Zurich.</p> 
+                </div>
+            </div>
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">For a translation of this letter, see Appendix I.</note>
+            <note xml:id="foot_trans.f1">For a transcription of the letter in its original German, see pp. 252–4.</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref> was published on 2 July 1875 (CD’s ‘Journal’ (Appendix II)). Dodel’s name is on CD’s presentation list for the book (Appendix IV). Katzensee is a lake on the border of Zurich.</note>
+            <note xml:id="foot.f3">For CD’s experiments with <hi rend="italic">Drosera rotundifolia</hi> (common or round-leaved sundew) using egg white and other substances, see <ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref>, pp. 92–128.</note>
+            <note xml:id="foot.f4">In his book, <hi rend="italic">Die neuere Schöpfungsgeschichte nach dem gegenwärtigen Stande der Naturwissenschaften</hi> (New history of creation according to the present state of natural science; <ref target="../bibliographies/bibl_2076.xml" resp="#mjhawkins">Dodel 1875</ref>, pp. 92–8), Dodel had discussed the history of the concept of species. He noted that Carl von Nägeli, while accepting the formation of new varieties through natural selection, still recognised the existence of basic kinds from which varieties derived through adaptation to local conditions. Nägeli had outlined his theory in an essay on the origin and the concept of natural historical species (<ref target="../bibliographies/bibl_5780.xml" resp="#mjhawkins">Nägeli 1865</ref>); for more on his notion of morphological characteristics not subject to natural selection, and CD’s response, see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 16, letters to J. D. Hooker, <ref target="./DCP-LETT-6512.xml" resp="#mjhawkins">25 December [1868]</ref> and <ref target="./DCP-LETT-6515.xml" resp="#mjhawkins">29 December 1868</ref>; see also <ref target="../bibliographies/bibl_6018.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 5th ed.</ref>, pp. 151–7).</note>
+            <note xml:id="foot.f5"><ref target="../nameregs/nameregs_2677.xml" resp="#mjhawkins">Anton Kerner von Marilaun</ref> had presented his work on asyngamy (the prevention of intercrossing in plants due to different flowering periods) in early 1874, but its publication was delayed, so Dodel relied on a letter from Kerner von Marilaun in his discussion of Kerner’s findings (Kerner von Marilaun 1874; see <ref target="../bibliographies/bibl_2076.xml" resp="#mjhawkins">Dodel 1875</ref>, pp. 276–7).</note>
+            <note xml:id="foot.f6">Dodel’s study, <hi rend="italic">Die Kraushaar-Alge, Ulothrix zonata. Ihre geschlechtliche und ungeschlechtliche Fortpflanzung</hi> (frizzy hair alga, <hi rend="italic">Ulothrix zonata</hi>. Its sexual and asexual reproduction; <ref target="../bibliographies/bibl_8605.xml" resp="#mjhawkins">Dodel 1876</ref>) appeared in <hi rend="italic">Jahrbücher für wissenschaftliche Botanik</hi>. CD’s offprint of the paper is in the Darwin Library–CUL. <hi rend="italic">Ulothrix zonata</hi> is a species of algae that can reproduce both sexually and asexually, depending on variations in light and temperature.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

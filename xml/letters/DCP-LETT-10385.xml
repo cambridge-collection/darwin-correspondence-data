@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10385">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To H. T. Stainton   11 February [1876]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1231</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10385 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10385.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10385.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="endorsement" subtype="letter">read 13.2.76</note>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Natural History Museum, Library and Archives (General Manuscripts MSS DAR 26)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_288.xml">NHM</repository>
+                    <collection>General Manuscripts</collection>
+                    <idno>MSS DAR 26</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1876-02-11">11 Feb [1876]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4514.xml">Stainton, H. T.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Has signed enclosure [Royal Society nomination for McLachlan] with pleasure.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_3274">McLachlan, Robert</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">nomination</term>
+                <term type="societal" ref="#">Royal Society of London</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have signed the enclosed with much pleasure.—<ref target="#foot.f1"/></p>
+<p>I am sorry to read what you say about your health.</p>
+<p>Yours sincerely | C. Darwin <lb resp="#mjhawkins"/></p>
+<p rend="left">Feb. 11<hi rend="superscript">th</hi>—</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The enclosure was the nomination certificate proposing <ref target="../nameregs/nameregs_3274.xml" resp="#mjhawkins">Robert McLachlan</ref> for membership of the <ref target="../nameregs/nameregs_4110.xml" resp="#mjhawkins">Royal Society of London</ref>. The certificate, dated 10 February 1876 and bearing CD’s signature second on the list of proposers, is in the archives of the Royal Society (Royal Society, GB 117, EC/1877/11). The form was submitted on 24 February 1876 and resubmitted in 1877; McLachlan was elected as a fellow on 7 June 1877. Stainton had proposed McLachlan for membership in 1874 and asked CD to sign the nomination form (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 22, <ref target="./DCP-LETT-9243.xml" resp="#mjhawkins">letter from H. T. Stainton, 15 January 1874</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

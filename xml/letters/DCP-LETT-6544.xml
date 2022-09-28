@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6544">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Sven Nilsson   5 January 1869</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3721</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6544 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6544.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6544.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+            <relatedItem type="publication">
+                <bibl>Linroth (1948): 154</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Lund University Library Special Collections (Sven Nilsson papers)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_247.xml">Lund</repository>
+                    <collection>Sven Nilsson papers</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1869-01-05">5 Jan 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3532.xml">Nilsson, Sven</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks SN for the trouble he has taken for him [on Lapland reindeer horns].</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">reindeer</term>
+                <term type="places" ref="#">Lapland</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Jan 5 1869</date>
+                    <salute>Dear &amp; Honoured Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I thank you sincerely for your great kindness in having taken so much trouble to oblige me.</p>
+<p>The information which you have sent is exactly what I wanted, &amp; will be of the greatest value to me.<ref target="#foot.f1"/></p>
+<p>I am very proud to be able to add your photograph to my collection of eminent naturalists.<ref target="#foot.f2"/></p>
+<p>With my best thanks &amp; the most sincere respect | I remain my dear Sir | yours truly obliged | Charles Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">In his letter of 31 December 1868 (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 16), Nilsson had sent CD information on the age at which reindeer acquired antlers and on the possession of antlers by both sexes. In <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> 1: 288, CD cited Nilsson for the information.</note>
+            <note xml:id="foot.f2">Nilsson had enclosed his photograph with his letter of 31 December 1868, but it has not been found in the Darwin Archive–CUL.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

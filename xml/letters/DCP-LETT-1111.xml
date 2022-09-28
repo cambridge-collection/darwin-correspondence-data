@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1111">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To H. T. De la Beche   19 August [1847]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1107</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1111 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1111.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1111.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+            <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+                <relatedItem type="publication">
+                    <bibl> <hi rend="italic">Correspondence</hi> 4: 61–2</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">National Museum of Wales, Department of Natural Sciences (De la Beche)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_294.xml">NM Wales</repository>
+                    <collection>Dept of Natural Sciences</collection>
+                    <idno>De la Beche</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1847-08-19">19 Aug [1847]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1273.xml">De la Beche, H. T.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Bernhard Studer has been at Down. Studer will not be able to join HDelaB’s Ordnance Survey working party.</p>
+            <p>CD is glad to hear about very old rocks under Silurians. "There is something grand and mysterious at these depths."</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="geology" ref="#">rocks</term>
+                <term type="geology" ref="#">Silurian</term>
+                <term type="people" ref="#subject_4602">Studer, Bernhard</term>
+                <term type="places" ref="#">Down</term>
+                <term type="scientific_terms" ref="#">geological time, epochs</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Aug 19<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir Henry</salute>
+                </opener>
+                <div type="transcription">
+<p>I did not write to thank you for your kind note, until I knew Studer’s plans. He has been here &amp; I now find that he is too much pressed for time to visit your working party, though on his return from Wales, he will perhaps return by the great Holyhead road.</p>
+<p>He is much obliged to you for your kind offer &amp; would have liked very much to have accepted it.— He is going to visit the Edinburgh Forbes.—<ref target="#foot.f1"/></p>
+<p>I am glad to hear about the very old rocks under the Silurians;<ref target="#foot.f2"/> there is something so grand &amp; mysterious at these depths.—</p>
+<p>With my thanks, believe me | dear Sir Henry | Yours sincerely | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 your] <hi rend="italic">over</hi> ‘the’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_1681.xml" resp="#mjhawkins">James David Forbes</ref>, who, from 1841, had published papers on the structure of Alpine glaciers, a subject of great interest to Studer.</note>
+            <note xml:id="foot.f2">Following the extension of <ref target="../nameregs/nameregs_3453.xml" resp="#mjhawkins">Roderick Impey Murchison’s</ref> Silurian system in 1842 to include Adam Sedgwick’s initial Cambrian system (see <ref target="../bibliographies/bibl_7064.xml" resp="#mjhawkins">Secord 1986</ref>, pp. 128–30, 147) there had been much debate as to whether there were any rocks older than Murchison’s Silurian formations in Wales. By 1847, however, the Geological Survey had shown that there were ancient rocks, at the time thought to be without fossils, below these Silurian strata in north-western Wales (see Ramsay and Aveline 1848 and Jukes and Selwyn 1848).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

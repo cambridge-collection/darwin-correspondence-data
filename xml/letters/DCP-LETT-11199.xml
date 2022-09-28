@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11199">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To R. I. Lynch   23 October [1877]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">668</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11199 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11199.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11199.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno/>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1877-10-23">23 Oct [1877]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3058.xml">Lynch, R. I.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks for some seeds of coniferous plants. Wants to examine their first leaves.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">coniferous plants</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">plant physiology</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">seeds</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">young, offspring</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Oct 23<hi rend="superscript">d</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>M<hi rend="superscript">r</hi>. Dyer suggests that I ought to examine the cotyledons or first leaves of some Coniferous plants.—<ref target="#foot.f2"/> Could you send me a few seeds of any 2 or 3 kinds which germinate pretty soon &amp; easily.</p>
+<p>I have been much interested by observing the cotyledons of some of the plants, which you were so kind as to select for me, but the observations are most tedious &amp; for various reasons difficult.<ref target="#foot.f3"/></p>
+<p>Dear Sir | yours faithfully | Ch.</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.2 2 or 3] <hi rend="italic">interl</hi> </note>
+                <note xml:id="tnote.n2">2.1 observing] <hi rend="italic">above del</hi> ‘observing’ </note>
+                <note xml:id="tnote.n3">2.1 some of] <hi rend="italic">interl</hi> </note>
+            </div>
+
+          
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-11161.xml" resp="#mjhawkins">letter from W. T. Thiselton-Dyer, [21 October 1877]</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-11161.xml" resp="#mjhawkins">letter from W. T. Thiselton-Dyer, [21 October 1877]</ref> and n. 5.</note>
+            <note xml:id="foot.f3">CD had requested seeds from the Royal Botanic Gardens, Kew (<ref target="./DCP-LETT-11178.xml" resp="#mjhawkins">letter to W. T. Thiselton-Dyer, 11 October [1877]</ref>). He recorded the movements of the cotyledons by placing a fine glass filament on the end of a leaf or stem that would then trace out the movement against a wet sponge or horizontal or vertical glass (see <ref target="../bibliographies/bibl_5637.xml" resp="#mjhawkins"><hi rend="italic">Movement in plants</hi></ref>, pp. 10–66).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

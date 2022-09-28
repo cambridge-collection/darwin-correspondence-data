@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6503">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Evans   14 December 1868</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16809</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6503 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6503.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6503.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 163: 36</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>163: 36</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1553.xml">Evans, John (b)</persName>
+                <placeName>Hemel Hempstead</placeName>
+                <date when="1868-12-14">14 Dec 1868</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Apologises; CD is correct: the object his foreman found is not organic.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#">Evans, John’s foreman</term>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Nash Mills, | Hemel Hempsted.</hi></placeName>
+                    <date>Dec<hi rend="superscript">r</hi>. 14. 1868</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I believe that you are quite right as to the conical objects which I took to be fungi not being organic—<ref target="#foot.f1"/> I have not sent any to M<hi rend="superscript">r</hi> Berkeley<ref target="#foot.f2"/> as I find on testing them by burning that they consist principally of lead— I was so deceived by their appearance, when our foreman brought them to me, that I sent them to you at once without due examination.<ref target="#foot.f3"/> I must therefore apologize for having needlessly troubled you and must take care to trust less to appearances in future</p>
+<p>Believe me My dear Sir | Yours very faithfully | John Evans <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin Esq<hi rend="superscript">re</hi> F.R.S.</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">No earlier correspondence on these objects has been found.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_408.xml" resp="#mjhawkins">Miles Joseph Berkeley</ref>.</note>
+            <note xml:id="foot.f3">The foreman has not been identified. Evans was a partner in the paper-making firm, John Dickinson &amp; Co. (<ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

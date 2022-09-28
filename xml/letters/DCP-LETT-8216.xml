@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8216">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. E. Darwin   [1 March 1872]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6151</idno>
+            
+            
+            
+            
+            <date when="2013">2013</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8216 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8216.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8216.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="20">20</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">L(S)</note>
+            <note type="physdesc" n="L(S)">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 162: 103</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>162: 103</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Devonshire St, 9</placeName>
+                <date when="1872-03-01">[1 Mar 1872] </date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1245.xml">Darwin, W. E.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>David Forbes thinks WED’s chalk samples have been penetrated by surface mud.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="geology" ref="#">chalk</term>
+                <term type="people" ref="#subject_1678">Forbes, David</term>
+                <term type="scientific_terms" ref="#">mineralogy, minerals</term>
+                <term type="scientific_terms" ref="#">soil and other substrates</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>9 Dev: St—</placeName>
+                    <date>Friday</date>
+                    <salute>My dear W<hi rend="superscript">m</hi></salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>It was a capital thought of yours, to get the chalk analysed.<ref target="#foot.f2"/> Immediately on getting your note I called on David Forbes, who is the one man in England who has carefully analysed many specimens of chalk.<ref target="#foot.f3"/> He says that from 1 to 2 per cent of earthy matter is 〈a〉 fair average for the upper chalk with flints. In the lowest &amp; most earthy beds of chalk without flints there is as much as 4 or 5 per cent. Therefore he concludes that the specimens analysed by Capt Parsons must certainly have become penetrated with surface mud.<ref target="#foot.f4"/> This seems to remove the wonderful difficulty of the layer of mould not being thicker at the bottom of your valley. I suppose the chalk about Winchester must be very pure, or unusually porous; for about Down the residue from the dissolved chalk evidently accumulates on the surface, &amp; does not to any great extent percolate into the solid mass—</p>
+<p>yours affecty | Ch Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter, the <ref target="./DCP-LETT-7469.xml" resp="#mjhawkins">letter from W. E. Darwin, [29 February 1872]</ref>, and the <ref target="./DCP-LETT-8233.xml" resp="#mjhawkins">letter from David Forbes, 1 March 1872</ref>. In 1872, 1 March was a Friday.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-7469.xml" resp="#mjhawkins">letter from W. E. Darwin, [29 February 1872]</ref> and n. 3.</note>
+            <note xml:id="foot.f3">CD was in London from 16 February to 21 March 1872 (CD’s ‘Journal’ (Appendix II)).</note>
+            <note xml:id="foot.f4">CD described the chalk samples found by W. E. Darwin and <ref target="../nameregs/nameregs_6487.xml" resp="#mjhawkins">Robert Mann Parsons</ref> in <ref target="../bibliographies/bibl_2241.xml" resp="#mjhawkins"><hi rend="italic">Earthworms</hi></ref>, p. 299.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

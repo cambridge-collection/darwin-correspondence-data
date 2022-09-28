@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-570">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Charles Babbage   26 May [1840]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3455</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-570 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-570.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-570.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl>De Beer (1958): 86</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 2: 268</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">The British Library (Add MS 37191: 294–5)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_43.xml">The British Library</repository>
+                    <collection>Add MS 37191</collection>
+                    <idno>294–5</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Upper Gower St, 12</placeName>
+                <date when="1840-05-26">26 May [1840]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_211.xml">Babbage, Charles</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks if he can bring his guests, J. C. L. and Mme [Simonde de] Sismondi and [Fanny] Allen, to CB’s parties.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_86">Allen, Frances</term>
+                <term type="people" ref="#subject_4374">Sismondi, J. C. L. S. de</term>
+                <term type="people" ref="#subject_4375">Sismondi, Jessie de</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">inviting</term>
+                <term type="social" ref="#">parties</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>12 Upper Gower St</placeName>
+                    <date>May 26<hi rend="superscript">th</hi>.—</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I have called with this note to beg a favour of you. M. Sismondi, the historian &amp; Madam Sismondi (my wife’s aunt) have just arrived in England and are coming together with Miss Allen to stay with us,<ref target="#foot.f1"/> would you, therefore, permit us to bring them to the parties, you have been kind enough to ask us to.</p>
+<p>My sisters have left town, &amp; therefore will be deprived of the pleasure of accepting your kind invitation to them.</p>
+<p>With many thanks | Believe me | My dear Sir | Yours very truly | Charles Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.1 town] ‘t’ <hi rend="italic">over</hi> ‘s’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">According to <ref target="../bibliographies/bibl_2338.xml"><hi rend="italic">Emma Darwin</hi> (1915)</ref> 2: 54, CD was not well enough to receive Emma’s aunt and her husband, the Swiss historian, but the house was lent to them when the Darwins left London for Maer early in June.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

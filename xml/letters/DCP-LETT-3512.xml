@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3512">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Daniel Oliver   20 [April 1862]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">2856</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3512 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3512.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3512.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 261.10: 56 (EH 88206039)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>261.10: 56 (EH 88206039)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1862-04-20">20 [Apr 1862]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3589.xml">Oliver, Daniel</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Requests <hi rend="italic">Oxalis acetosella</hi>, which he suspects is dimorphic.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Oxalis acetosella</term>
+                <term type="scientific_terms" ref="#">dimorphism</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down</placeName>
+                    <date>20<hi rend="superscript">th</hi></date>
+                    <salute>Dear Oliver</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Hooker says you pass daily some Oxalis acetosella.<ref target="#foot.f2"/> Will you oblige me by gathering a dozen or score of flowers <hi rend="doubleUnderline">from different</hi> <hi rend="doubleUnderline">plants<hi rend="underline">, &amp; if possible plants </hi>growing a little apart</hi>.— I find some evidence of dimorphism in the plants here, as in Primula, &amp; much want to see plants from some other station.<ref target="#foot.f3"/> The plant does not grow here within my walking distance.— Would you send me the flowers by Post in a little tin box, with a bit of damp blotting paper.—</p>
+<p>Yours very sincerely | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.5 my] <hi rend="italic">interl</hi></note>
+                </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship to the <ref target="./DCP-LETT-3515.xml" resp="#mjhawkins">letter from Daniel Oliver, 23 April 1862</ref>.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242) records that <ref target="../nameregs/nameregs_2357.xml" resp="#mjhawkins">Joseph Dalton Hooker</ref> spent the Easter weekend, 17 to 21 April 1862, at Down House. In his review of CD’s paper, <ref target="../bibliographies/bibl_2048.xml" resp="#mjhawkins">‘Dimorphic condition in <hi rend="italic">Primula</hi>’</ref>, Oliver cited <ref target="../nameregs/nameregs_3314.xml" resp="#mjhawkins">Louis Eugène Michalet’s</ref> observation that flowers of <hi rend="italic">Oxalis acetosella</hi> produced early in the season differed from those produced in the summer ([Oliver] 1862c, p. 239). Oliver had sent CD the manuscript of his review (see <ref target="./DCP-LETT-3722.xml" resp="#mjhawkins">letter from Daniel Oliver, 14 April 1862</ref>).</note>
+            <note xml:id="foot.f3">There are notes on <hi rend="italic">Oxalis acetosella</hi>, dated 17–27 April 1862, in DAR 109 (ser. 2): 4–5. See also <ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref>, pp. 181–3.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

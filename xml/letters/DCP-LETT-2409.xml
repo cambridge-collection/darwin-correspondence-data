@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2409">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Lubbock   8 February 1859</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19266</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2409 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2409.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2409.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="inc">†</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 48: A67</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>48: A67</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3026.xml">Lubbock, John</persName>
+                <placeName>London, Mansion House St, 11</placeName>
+                <date when="1859-02-08">8 Feb 1859</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Is sorry to hear of bad health of CD and his daughter.</p>
+            <p>Discusses, with an example, the difficulty of explaining structural differences between closely allied species.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin family</term>
+                <term type="health" ref="#">Darwin himself, bad or deteriorating</term>
+                <term type="people" ref="#">Darwin, C. R.’s daughter</term>
+                <term type="scientific_terms" ref="#">close species</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00048-000-00139_files/8/0_0.jpg" width="3535px" height="6113px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00048-000-00139_files/11/1_1.jpg" width="3535px" height="6113px"/>
+        <surface xml:id="i1" n="A67r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00048-000-00139.jpg" rend="portrait" width="3535px" height="6113px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00048-000-00139_files/8/0_0.jpg" width="3535px" height="6113px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00048-000-00139.dzi" width="3535px" height="6113px"/>
+        </surface>
+        
+        <surface xml:id="i2" n="A67v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00048-000-00140.jpg" rend="portrait" width="3535px" height="6113px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00048-000-00140_files/8/0_0.jpg" width="3535px" height="6113px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00048-000-00140.dzi" width="3535px" height="6113px"/>
+        </surface>
+</facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="underline">11, Mansion House Street, | London, | E.C.</hi></placeName>
+                    <date>8 February <hi rend="underline">185</hi>9</date>
+                    <salute>Dear M<hi rend="superscript">r</hi>. Darwin</salute>
+                </opener>
+                <div type="transcription">
+<p>I am indeed sorry to hear so bad an account of you &amp; of your daughter, &amp; hope that change of air may do you both good. Beauy is going on very well, and we now quite hope to save half of the middle joint.<ref target="#foot.f1"/> It is a sad thing for him.</p>
+<p>Many thanks for your suggestion which I like very much, but the conclusions to be made from the internal anatomy are very puzzling. How the present arrangement, for instance, of the vitellogenous cells is<anchor xml:id="ann.a2" type="annotationEnd"/> to be accounted for, <anchor xml:id="ann.a1" type="annotationStart"/>I am at a loss to imagine. Unless indeed we cut the Gordian knot, by assuming a creation? Then again species very nearly allied (apparently) <anchor xml:id="ann.a3" type="annotationStart"/>often present great differences in organs which we should have expected to find very similar. Thus Forficula auricularia has an ovary consisting of numerous short tubes, while in Labidoura gigantea the ovary is composed (according to Leon Dufour)<ref target="#foot.f2"/> of a few long eggtubes.<anchor xml:id="ann.a4" type="annotationEnd"/> What external circumstances can possibly have produced such great differences in animals so</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note target="#ann.a1" targetEnd="#ann.a2"><hi rend="italic">crossed ink</hi></note>
+                <note target="#ann.a3" targetEnd="#ann.a4"><hi rend="italic">scored ink</hi></note>
+                <note> <hi rend="italic">Top of first page</hi>: ‘Ch. 8’<ref target="#foot.f3"/> <hi rend="italic">brown crayon</hi> </note>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_3018.xml" resp="#mjhawkins">Beaumont William Lubbock</ref>.</note>
+            <note xml:id="foot.f2">According to Lubbock, <ref target="../nameregs/nameregs_1409.xml" resp="#mjhawkins">Léon Jean Marie Dufour</ref> was ‘the greatest Entomological anatomist in the world’ (Lubbock 1857a, p. 143). Dufour proposed an important new classification scheme for earwigs based on ovarian tubes (<ref target="../bibliographies/bibl_2176.xml" resp="#mjhawkins">Dufour 1828</ref>).</note>
+            <note xml:id="foot.f3">CD’s annotation refers to chapter 8 of <ref target="../bibliographies/bibl_5799.xml" resp="#mjhawkins"><hi rend="italic">Natural selection</hi></ref>, ‘Difficulties on the theory of natural selection in relation to passages from form to form’.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

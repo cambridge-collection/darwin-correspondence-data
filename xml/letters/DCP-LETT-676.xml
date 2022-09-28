@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-676">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To G. A. Mantell   13 May [1843]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1816</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-676 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-676.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-676.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Alexander Turnbull Library, National Librayr of New Zealand (Mantell Papers: MS-Papers-0083-487 p.41)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_424.xml">Turnbull</repository>
+                    <collection>Mantell Papers: MS-Papers-0083-487</collection>
+                    <idno>p. 41</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1843-05-13">13 May [1843]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3155.xml">Mantell, G. A.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Capt. FitzRoy has read GAM’s letter to CD regarding an appointment for GAM’s son and is disposed to help, but has resolved to make no appointments until he arrives in New Zealand [as Governor].</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1650">FitzRoy, Robert</term>
+                <term type="people" ref="#">Mantell, G. A.’s son</term>
+                <term type="people" ref="#subject_3156">Mantell, R. N.</term>
+                <term type="social" ref="#">Other people</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley | Kent</placeName>
+                    <date>May 13<hi rend="superscript">th</hi>.—</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have the pleasure of informing you that Capt. FitzRoy has read your letter to me attentively &amp; seemed desirous of assisting your son.<ref target="#foot.f1"/></p>
+<p>He has made a rule, to make no promises for places in New Zealand, till he arrives there<ref target="#foot.f2"/> —a resolution he kept, when applied to by one of the highest personages in the realm, but he has put your letter by (together with a very kind one on the same subject from M<hi rend="superscript">r</hi> Murchison) &amp; I hope &amp; think it may very likely lead to something.—</p>
+<p>I hope your health is somewhat improved. with my best wishes | Believe me, very faithfully yours | C. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Walter Baldock Durant Mantell. See <ref target="./DCP-LETT-671A.xml" resp="#mjhawkins">letter to G. A. Mantell, 21 [April 1843]</ref>.</note>
+            <note xml:id="foot.f2">FitzRoy arrived at his post on 23 December 1843.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

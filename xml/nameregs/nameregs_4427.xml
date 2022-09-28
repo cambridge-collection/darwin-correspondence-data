@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-4427" status="released">
+    <persName>
+        <forename>Sabina</forename>
+        <forename>Douglas</forename>
+        <forename>Clavering</forename>
+        <choice>
+            <seg><surname notBefore="1825" notAfter="1878">Smith</surname></seg>
+            <seg><surname notBefore="1878" notAfter="1915">Paisley</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1825–1915</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of James Smith of Jordanhill. Married Robert Paisley (d. 1881) of St Ninian’s, Stirlingshire, in 1878.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_1095.xml" resp="#mjhawkins"><hi rend="italic">Burke’s landed gentry</hi></ref> 1914</p>
+        <p>Census returns of Scotland 1861 (The National Archives of Scotland: Row parish 2/8/4) (Ancestry.com, accessed 27 January 2016)</p>
+        <p>Scotland old parish registers births 575/00 0040 0048 (Scotlandspeople.gov.uk, accessed 27 January 2016)</p>
+        <p>Scotland statutory deaths 503/00 0190 (Scotlandspeople.gov.uk, accessed 27 January 2016)</p>
+    </note>
+    <note type="volume">10,24</note>
+    <note type="keywords">
+        <term type="name">Smith, James</term>
+        <term type="name">Paisley, Robert</term>
+        <term type="place">Jordanhill</term>
+        <term type="place">St. Ninian’s</term>
+        <term type="place">Stirlingshire</term>
+    </note>
+</person>

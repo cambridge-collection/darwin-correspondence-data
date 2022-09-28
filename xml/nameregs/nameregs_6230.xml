@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-6230" status="released">
+    <persName>
+        <forename>Beatrice</forename>
+        <forename>Anne</forename>
+        <forename>Shore</forename>
+        <choice>
+            <seg><surname notBefore="1834" notAfter="1865">Smith</surname></seg>
+            <seg><surname notBefore="1865" notAfter="1914">Lushington</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1834–1914</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of Samuel Smith, barrister, and his wife Mary Shore. Married Godfrey Lushington in 1865.</p></note>
+    <note type="sources">
+        <p>Birth certificates from the Presbyterian, Independent and Baptist registry etc. (The National Archives: Public Record Office RG5/134)</p>
+        <p><ref target="../bibliographies/bibl_9153.xml" resp="#mjhawkins"><hi rend="italic">BMD</hi></ref> (<hi rend="italic">Death index</hi>)</p>
+            <p><ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref> s.v. Lushington, Godfrey.</p>
+    </note>
+    <note type="volume">19</note>
+    
+</person>

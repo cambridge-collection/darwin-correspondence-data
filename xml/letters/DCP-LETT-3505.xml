@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3505">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Andrew Murray   12 April 1862</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10118</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3505 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3505.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3505.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171.2: 325</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 325</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3459.xml">Murray, Andrew</persName>
+                <placeName>R. Hortic. Soc.</placeName>
+                <date when="1862-04-12">12 Apr 1862</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>AM did not borrow a Samuel Scudder pamphlet from CD; in fact he was not aware of its existence.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="rx" ref="#">Scudder, S. H. 1861</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Royal Horticultural Society, | South Kensington, W.</hi></placeName>
+                    <date>12 April <hi rend="print">18</hi>62</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>No! I am not the guilty person.—<ref target="#foot.f1"/></p>
+<p>Since I came here, there has been such a multitude of things passing incessantly thro’ my mind, that I should speak less positively were it not for one Circumstance &amp; that is that I never heard of M<hi rend="superscript">r</hi> Scudders pamphlet before.— I <hi rend="underline">could not</hi> have forgot the Existence of a work upon a subject on which I was interested, particularly if I had borrowed it from you—</p>
+<p>No! you must throw your net again into the world &amp; see if you cannot fish out the right man—</p>
+<p>I have been promised &amp; I believe it is on the way, a specimen of the representative of our Aepus which lives under shale between low &amp; high water in Australia— I think that should interest us both<ref target="#foot.f2"/></p>
+<p>Yours Ever Sincerely | And<hi rend="superscript">w</hi>. Murray</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD was trying to locate a pamphlet (<ref target="../bibliographies/bibl_7043.xml" resp="#mjhawkins">Scudder 1861</ref>) that he thought Murray might have borrowed from him (see <ref target="./DCP-LETT-3503.xml" resp="#mjhawkins">letter to Andrew Murray, 10 April [1862]</ref>).</note>
+            <note xml:id="foot.f2"><hi rend="italic">Aepus</hi> is a beetle found on the seashore towards mid-tide level; when covered by the sea at high tide, it probably survives in air pockets within cracks in rocks (<ref target="../bibliographies/bibl_2388.xml" resp="#mjhawkins">G. Evans 1975</ref>, p. 106).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

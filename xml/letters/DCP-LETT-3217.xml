@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3217">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Tyndall   24 July [1861]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3970</idno>
+            
+            
+            
+            
+            <date when="1994">1994</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3217 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3217.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3217.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="09">9</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 148: 165</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 9: 216</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 261.8: 4 (EH 88205942)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>261.8: 4 (EH 88205942)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Torquay</placeName>
+                <date when="1861-07-24">24 July [1861]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4839.xml">Tyndall, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Has been idling and enjoying the scenery.</p>
+            <p>"At dinner we were all sticking bits of ice together by their points, marvelling at the phenomenon and talking of you."</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="places" ref="#">Torquay</term>
+                <term type="scientific_terms" ref="#">ice, ice-action, icebergs, glaciers</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>2. Hesketh Crescent | Torquay</placeName>
+                    <date>July 24.</date>
+                    <salute>My dear Tyndall</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I write a single line to say that it was not of the least consequence your retaining the letter for as long as you liked.— I shall be most happy at any time to send you the letters again, if you like to publish any passages.—<ref target="#foot.f2"/></p>
+<p>We are all here idling for health-sake &amp; enjoying the beautiful scenery &amp; sea air—</p>
+<p>By the way the other day at dinner we were all sticking bits of ice together by their points, marvelling at the phenomenon &amp; talking of you—<ref target="#foot.f3"/></p>
+<p>Yours most sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is given by reference to the Darwins’ stay in Torquay during the summer of 1861 (see ‘Journal’; Appendix II).</note>
+            <note xml:id="foot.f2">The reference is to letters from Erasmus Darwin to <ref target="../nameregs/nameregs_5025.xml" resp="#mjhawkins">Josiah Wedgwood I</ref> that CD had sent to Tyndall (see <ref target="./DCP-LETT-3067.xml" resp="#mjhawkins">letter to John Tyndall, 23 February [1861]</ref>, and <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 9, Appendix V). The letters discussed physical aspects of the congelation of ice.</note>
+            <note xml:id="foot.f3">Tyndall used the principle of ‘regelation’ to account for the way in which a glacier could be moulded under its own pressure. According to this principle, when ice is broken into fragments under pressure, the fragments, becoming moist through melting, reunite when they again come into contact. See <ref target="../bibliographies/bibl_7903.xml" resp="#mjhawkins">Tyndall 1860</ref>, pp. 351–2.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

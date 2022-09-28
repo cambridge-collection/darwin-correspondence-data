@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2799">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Francis Galton   13 May [1860]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">12190</idno>
+            
+            
+            
+            
+            <date when="1993">1993</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2799 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2799.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2799.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="08">8</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 144: 303, DAR 221.4: 170 electrostatic copy</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">UCL Library Services, Special Collections (GALTON/1/1/9/5/7/6)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_425.xml">UC London</repository>
+                    <idno>GALTON/1/1/9/5/7/6</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1860-05-13">13 May [1860]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1797.xml">Galton, Francis</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Does FG know Mansfield Parkyns well enough to submit query to him? [Probably about domestication of <hi rend="italic">Columba guinea</hi> in Abyssinia. See <hi rend="italic">Variation</hi> 1: 183.]</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_3691">Parkyns, Mansfield</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>May 13<hi rend="superscript">th</hi></date>
+                    <salute>Dear Galton</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have in simple truth been quite unreasonable in begging favours of you; but yet I am going to beg one more.—   I remember that you said that you knew M<hi rend="superscript">r</hi> M. Parkyns.<ref target="#foot.f2"/> If you know him well enough to supplicate an answer to the enclosed query, will you do so for me?<ref target="#foot.f3"/> If you do not, tear up the question; I would not trouble you if I were not really anxious for information on the point—</p>
+<p>Humbly begging forgiveness, I am | Dear Galton | Yours very sincerely | Charles Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is suggested by CD’s work on his pigeon manuscript during 1860 (see n. 3, below).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_3691.xml" resp="#mjhawkins">Mansfield Parkyns</ref> had travelled in Abyssinia from 1843 to 1846; he had been an attaché in the British embassy in Constantinople between 1850 and 1852. CD had read Parkyns’s description of his travels (<ref target="../bibliographies/bibl_6187.xml" resp="#mjhawkins">Parkyns 1853</ref>) in 1855 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 4, Appendix IV, 128: 14). Parkyns and Galton were both active members of the <ref target="../nameregs/nameregs_4103.xml" resp="#mjhawkins">Royal Geographical Society</ref> of London.</note>
+            <note xml:id="foot.f3">The enclosure has not been found, but a passage in <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 183 indicates that CD received information from Parkyns about doves in Abyssinia. Parkyns informed CD that <hi rend="italic">Columba guinea</hi> was not domesticated in Abyssinia, contrary to some reports. CD worked on his chapters on pigeons (<ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 131–224) from March to June 1860 (‘Journal’; Appendix II).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

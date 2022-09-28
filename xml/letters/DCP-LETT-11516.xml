@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11516">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To T. W. Higginson   [18 May 1878]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8059</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11516 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11516.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11516.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Telegram</note>
+            <note type="physdesc" n="T"/>
+            <note type="postmark">MY 18 78</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Houghton Library, Harvard University (MS Am 1162.10: 200)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_180.xml">Harvard Houghton</repository>
+                    <collection>MS Am 1162.10: 200</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1878-05-18">[18 May 1878]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2280.xml">Higginson, T. W.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Glad to see TWH for Sunday dinner.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">inviting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <seg type="supplemental"><hi rend="print">Handed in at the</hi> Farnboro Kent <hi rend="italic">Office at</hi> 11.48 P<hi rend="italic">M.</hi></seg>
+                    <seg type="supplemental"><hi rend="print">From</hi> C. Darwin | Down | Beckenham</seg>
+                    <seg type="supplemental"><hi rend="print">To</hi> Colonel Higginson | Charing Cross Hotel</seg>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>Glad to see you tomorrow Sunday dinner half past seven and bed. Orpington is only Station four miles off post answer will reach me tomorrow<ref target="#foot.f1"/></p> 
+                </div>
+            </div>
+
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">In the event, Higginson was unable to visit on 19 May 1878, but did visit from 24 to 25 May (see <ref target="./DCP-LETT-11516F.xml" resp="#mjhawkins">letter from Emma Darwin to T. W. Higginson, 19 May [1878]</ref>). A short description of this visit is in <ref target="../bibliographies/bibl_3625.xml" resp="#mjhawkins">Higginson 1898</ref>, pp. 285–6.</note>
+        </div>     
+         
+    </body>
+    </text>
+</TEI>

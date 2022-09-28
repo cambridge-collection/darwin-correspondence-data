@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-748">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From George Robert Waterhouse   26 April 1844</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1477</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-748 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-748.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-748.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp ††</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 181: 14</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>181: 14</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4972.xml">Waterhouse, G. R.</persName>
+                <placeName>London, Gloucester Grove West, 10</placeName>
+                <date when="1844-04-26">26 Apr 1844</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Defines the term "typical species" and discusses its use among zoologists. Cites example of type of Carnivora. Comments on general law of development of parts in animals. Cites teeth of Carnivora.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_3335">zoologists</term>
+                <term type="scientific_terms" ref="#">archetypes</term>
+                <term type="scientific_terms" ref="#">definitions (will revert to tyd)</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>10 Gloucester Grove West | Old Brompton</placeName>
+                    <date>Thursday night 26 April 1844</date>
+                    <salute>My dear Darwin/</salute>
+                </opener>
+                <div type="transcription">
+<p>You wont let me off without definitions, you say!. I will try you with something between a definition and an explanation of what I mean by a typical species—*<ref target="#foot.f1"/> The term “<hi rend="underline">typical species</hi>” is used by Zoologists in two senses—it either refers to that species which possesses in the highest degree of developement <hi rend="underline">some</hi> of the characters which distinguish the group xx<ref target="#foot.f2"/> to which it belongs from other groups; or, it has reference to that species which is supposed to exhibit, in the best balanced condition, the greatest number of characters most common to the species forming the group of which it is a member— In the former case the type of the group would be that species which is most removed from other groups but in the latter such would not be the case—</p>
+<p><anchor xml:id="ann.a1" type="annotationStart"/>By way of illustration I will suppose I am called upon to point out a type of the order <hi rend="underline">Carnivora</hi>. According to the first definition I should select a Cat because in the Cat tribe some of the more striking characters of the <hi rend="underline">Carnivora</hi> are most strongly developed; but, were I to adopt the second definition I should choose a Viverra because it may be said to possess most evenly developed the greatest number of characters which are found in the species of its order;<anchor xml:id="ann.a2" type="annotationEnd"/> and, in a Natural classification, such differences should (according to my views) be expressed by placing the Cats, among the Carnivora at the confines of the order which are most removed from the groups forming the orders which are most nearly related to the <hi rend="underline">Carnivora</hi>, whilst the Viverra should be placed in the <hi rend="underline">middle</hi> of the carnivorous order— I would distinguish the two, so called, types by terming the one <hi rend="underline">a type of a carnivorous Mammal</hi>, and the other <hi rend="underline">a type of the Order Carnivora</hi>— I will not however take upon myself to say that a type is a thing which exists in Nature—it may only be an abstract idea— It <hi rend="underline">may</hi> be impossible to name any particular species which would be <hi rend="underline">generally</hi> admitted as a type according to either of the two views above referred to, but it would not be difficult to show that some particular species approaches <hi rend="underline">very near</hi> to the <hi rend="underline">idea</hi> of the type in either case—</p>
+<p>It may help to make my notions clear if I remind you of the general law of developement of parts in animals, viz. that when one organ is greatly developed it is at the expense, as it were, of some other organs—<ref target="#foot.f3"/> <anchor xml:id="ann.a3" type="annotationStart"/>thus the carnassial tooth, so characteristic of the order Carnivora, being a much developed tooth, other neighbouring teeth are robbed of their share of nutriment by it, and in the Cat, which has the carnassier most developed, the false and true molar teeth are <hi rend="underline">least</hi> developed— It has in fact no true molar teeth in the lower jaw, and but a rudimentary one on either side of the upper jaw,<anchor xml:id="ann.a4" type="annotationEnd"/> but taking the order Carnivora as a whole the species could not be characterized as being almost destitute of true molar teeth for the greater portion of the species have two tolerably well developed true molars on each side of the upper jaw, and <hi rend="underline">all</hi>, with the exception of the Cats have one at least on each side of the lower jaw— From this it will be perceived that the Cats furnish an exception among the Carnivora to the most common characters of the dentition, and so far would not would not serve as a good illustration of the order, though they might furnish the best illustration of a flesh-eating Mammal— On the other hand the Viverridæ have two true molars (let it always be understood I mean on <hi rend="underline">both sides</hi> of the jaws) in the upper jaw and one in the lower (combined with a tolerably well developed carnassier) in which character they agree with the <hi rend="underline">Ursidæ</hi> (but here there is no tooth which can functionally be called a carnassier) and are intermediate between the <hi rend="underline">Canidæ</hi> and the <hi rend="underline">Mustelidæ</hi>, the former of these two families having two molars to the upper jaw and ditto to the lower whilst the Mustelidæ have one to each jaw— So much for the dentition and were I to speak of other parts of structure in the Viverras I could show that they are intermediate between the Dogs, Bears, Cats and Weasels— I should therefore call them the typical family of the order Carnivora, and that species of the Viverridæ which was most removed from the Dogs, Bears, Cats and Weasels, the type of the family <hi rend="underline">Viverridæ</hi>—*<ref target="#foot.f4"/></p>
+<p>Believe me | Ever Yours | Geo. R. Waterhouse <lb resp="#mjhawkins"/> *Species are the supposed descendants from a common parent. Animals are said by Zoologists <hi rend="underline">to be of the same species</hi> when they perfectly resemble each other, or when they differ only in degree so far as from experience they have been found to differ in animals of the same parents—those parents being alike—</p>
+<p><hi rend="superscript">xx</hi>By “group” I mean <hi rend="underline">any</hi> assemblage of species—</p>
+<p>* In a classification the family Viverridæ would be central,<ref target="#foot.f5"/> the families of Dogs, Bears Cats &amp; Weasels being arranged around it—and the type of the family Viverridæ would also be <hi rend="underline">central</hi> being the most removed from the species of the other families, and according to the same system the type of a Carnivorous animal would, as I have before stated, be <hi rend="underline">external</hi>. I know the question you are going to put to me now you have read this last paragraph! writing it has opened my eyes to a point for consideration from which something <hi rend="underline">may</hi> spring.</p>
+<p>Qy— What would be the type of a Central group, like the <hi rend="underline">Viverridæ</hi>, according to my <hi rend="underline">first</hi> definition? I dont know one—xx—but I am not answerable for that, for I have never used the word <hi rend="underline">type</hi> but in accordance with the <hi rend="underline">second</hi> definition— this notion has just come into my head but I cant think it out for I am very sleepy—past two o’clock!!</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note target="#ann.a1" targetEnd="#ann.a2">‘When comparison with man excluded [<hi rend="italic">before del</hi> ’exc‘] typical=perfect.—’ <hi rend="italic">added pencil</hi></note>
+                <note target="#ann.a3" targetEnd="#ann.a4">‘Balancement’<hi rend="italic">added brown crayon</hi></note>
+                <note> <hi rend="italic">Top of first page</hi>: ‘According as one or other of these definitions typical form w<hi rend="superscript">d</hi>. the oldest or newest, &amp; typical &amp; perfection have some relation.—’ <hi rend="italic">added pencil</hi> </note>
+                <note> <hi rend="italic">Margin of first page</hi>: ‘On Types’<hi rend="italic">added pencil</hi> </note>
+                <note> <hi rend="italic">End of letter</hi>: ‘I presume, no doubt, if the Viverridæ, had only one *genus, with few species [<hi rend="italic">above del</hi> ’species‘], yet it w<hi rend="superscript">d</hi> be the typical family of the order Carnivora.—&amp; if so the largeness of the genus has no relation to typicalness.— But I can hardly admit, that the one Viverra, w<hi rend="superscript">d</hi> be called by any one typical’ <hi rend="italic">added ink</hi> ‘When I [’discuss‘ <hi rend="italic">del</hi>] allude to typical genera having wide ranges, I can bring all this in.—’ <hi rend="italic">added pencil</hi> </note>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The asterisk refers to a footnote added by Waterhouse to the bottom of the manuscript page. The note referred to is the first of three notes transcribed following the valediction.</note>
+            <note xml:id="foot.f2">‘xx’ refers to a second footnote added by Waterhouse. It is the second of the notes transcribed following the valediction.</note>
+            <note xml:id="foot.f3">CD cited this remark in <ref target="../bibliographies/bibl_5799.xml" resp="#mjhawkins"><hi rend="italic">Natural selection</hi></ref> (p. 305); however, in the <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref> (p. 147) he dropped the reference to Waterhouse and attributed the ‘law’ to <ref target="../nameregs/nameregs_1904.xml" resp="#mjhawkins">Johann Wolfgang von Goethe</ref> and <ref target="../nameregs/nameregs_1839.xml" resp="#mjhawkins">Étienne Geoffroy Saint-Hilaire</ref>. CD had encountered the ‘law of balancement’ earlier. In his copy of E. Geoffroy Saint-Hilaire 1830 he has annotated passages in which it is discussed (pp. 215–19), and in 1837 he referred to Geoffroy Saint-Hilaire’s work in <ref target="../bibliographies/bibl_5906.xml" resp="#mjhawkins"><hi rend="italic">Notebook B</hi></ref>: 210–14.</note>
+            <note xml:id="foot.f4">The asterisk refers to a footnote added by Waterhouse at the end of the manuscript. It is the last of the notes transcribed following the valediction.</note>
+            <note xml:id="foot.f5">Waterhouse had attempted to represent taxonomical relationships as a group of adjacent circles (see <ref target="../bibliographies/bibl_8188.xml" resp="#mjhawkins">Waterhouse 1843</ref> and <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 2, <ref target="./DCP-LETT-718.xml" resp="#mjhawkins">letter to G. R. Waterhouse, [3 or 17 December 1843]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7476F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From W. E. Darwin   6 February 1871</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">21711</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7476F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7476F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7476F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24-Supplement</biblScope>
+        </seriesStmt>
+            <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+                <relatedItem type="publication">
+                    <bibl><hi rend="italic">Correspondence</hi> 24: 508</bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="provenance">Cornford Family Papers (DAR 275: 43)</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="../repo/repo_106.xml">CUL</repository>
+                        <collection>DAR</collection>
+                        <idno>275: 43</idno>
+                    </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1245.xml">Darwin, W. E.</persName>
+                <date when="1871-02-06">6 Feb 1871</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Does shut eyes when scratching himself. Will ask Langstaff about muscles used when playing flute. Is back at work but hobbling around.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="deprecated_people_class" ref="#subject_2806">Langstaff, C. L.</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Bank, Southampton,</hi></placeName>
+                    <date>Feb 6 <hi rend="print">18</hi>71</date>
+                    <salute>My Dear Father,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I certainly do shut my eyes when I scratch myself, but I can find no trace of tears. I fancy that the Drepressor Anguli oris acts most absurdly in Sanders when he is trying to resist gaping but I will watch him.<ref target="#foot.f1"/></p>
+<p>I will see about the Babies photographs.<ref target="#foot.f2"/></p>
+<p>I will remind Langstaff about your Q as to the muscles brought into playing in flute playing.<ref target="#foot.f3"/> I am getting on very well and am at the shop for the 1<hi rend="superscript">st</hi>. time today.<ref target="#foot.f4"/> I have to hobble about as if I was made of glass, so as not to jerk myself, &amp; strain the ligaments in healing.</p>
+<p>I hope you are right again | Your affect son | W E Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD described the action of the depressores anguli oris muscles in <hi rend="italic">Expression</hi>, pp. 193–7. Sanders has not been identified.</note>
+            <note xml:id="foot.f2">CD asked William to try to obtain a photograph of a child smiling or laughing (see this volume, Supplement, <ref target="./DCP-LETT-8529.xml" resp="#mjhawkins">letter to W. E. Darwin, 20 [January or February 1871?]</ref>).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_2806.xml" resp="#mjhawkins">Charles Langstaff</ref> was a surgeon and friend of William’s who had provided CD with observations on expression (see <hi rend="italic">Expression</hi> and <hi rend="italic">Correspondence</hi> vols. 16 and 19).</note>
+            <note xml:id="foot.f4">William was a partner in the Southampton and Hampshire Bank.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

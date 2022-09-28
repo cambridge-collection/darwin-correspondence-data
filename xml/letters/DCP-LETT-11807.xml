@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11807">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From W. M. Hacon   28 December 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17527</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11807 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11807.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11807.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 166: 19</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>166: 19</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2042.xml">Hacon, W. M.</persName>
+                <placeName>London, Fenchurch St, 18</placeName>
+                <date when="1878-12-28">28 Dec 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sending second codicil for CD to sign.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin family</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">18, Fenchurch Street, | London. | E. C.</hi></placeName>
+                    <date>28<hi rend="superscript">th</hi> Dec<hi rend="superscript">r</hi> 1878</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I received yesterday M<hi rend="superscript">r</hi> William Darwin’s letter of the 26<hi rend="superscript">th</hi> Dec<hi rend="superscript">r</hi>. And I now send you the new codicil to your will, ready for execution, in duplicate.<ref target="#foot.f1"/> Its date should be supplied in words, previous to execution; and (as you will doubtless recollect) you must sign, in the presence of two witnesses, present at the same time: and they must attest your execution in your presence and in the presence of each other.</p>
+<p>I am | My dear Sir | Yours very faithfully | W<hi rend="superscript">m</hi> M Hacon <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles R Darwin Es<hi rend="superscript">q</hi> | Down | Beckenham Kent</p> 
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The letter from William has not been found; CD was adding a codicil to his will, increasing the legacies received by his daughters <ref target="../nameregs/nameregs_1225.xml" resp="#mjhawkins">Henrietta Emma Litchfield</ref> and Elizabeth Darwin (see <ref target="./DCP-LETT-11804.xml">letter from W. M. Hacon, 24 December 1878</ref> and n. 3).</note>
+        </div>   
+       
+    </body>
+    </text>
+</TEI>

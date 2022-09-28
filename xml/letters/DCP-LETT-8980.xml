@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8980">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From M. C. Stanley   16 July 1873</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16715</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8980 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8980.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8980.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 162: 166</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>162: 166</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4527.xml" resp="high">Stanley, M. C.</persName>
+                <placeName>Holiwood, Beckenham</placeName>
+                <date when="1873-07-16">16 July 1873</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml" resp="high">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends a bottle containing fish which Lord Arthur Russell had promised to send.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">fish</term>
+                <term type="people" ref="#subject_4126">Russell, Arthur</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Holwood | Beckenham</placeName>
+                    <date>16 July/73</date>
+                    <salute>Dear M<hi rend="superscript">r</hi>. Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I send you a bottle containing some fish from L<hi rend="superscript">d</hi>. Arthur Russell; he says you will understand all about it; &amp; that he had promised to send the parcel.<ref target="#foot.f1"/> I had hoped to bring it myself, but I must postpone my visit till another day but will not delay to forward this precious bottle—<ref target="#foot.f2"/></p>
+<p>Believe me | Yrs very sincerely | M C Derby<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The parcel has not been identified but its contents may have related to the discussion of carp in the <ref target="./DCP-LETT-8915.xml" resp="#mjhawkins">letter from Arthur Russell, 19 May 1873</ref>.</note>
+            <note xml:id="foot.f2">The only reference in <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242) to Stanley’s visiting Down was on 15 November 1871.</note>
+            <note xml:id="foot.f3">Stanley was Lady Derby.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

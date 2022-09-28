@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8970">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To A. R. Wallace   9 July [1873]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1789A</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8970 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8970.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8970.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="publication">
+                <bibl>Marchant, James 1916 1: 316</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Oxford University Museum of Natural History (Hope Entomological Collections 1350 Box 1 Wallace MSS)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_312.xml">Oxford Hope</repository>
+                    <collection>Entomological Collections 1350</collection>
+                    <idno>Box 1 Wallace MSS</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1873-07-09">9 July [1873]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4935.xml">Wallace, A. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Forwards photograph, sent by [J. L. G.] Krefft, of a chrysalis attached to its food-plant; the chrysalis has adjusted its colour remarkably.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">chrysalis</term>
+                <term type="people" ref="#subject_2760">Krefft, J. L. G.</term>
+                <term type="scientific_terms" ref="#">adaptation</term>
+                <term type="scientific_terms" ref="#">embryology</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="scientific_terms" ref="#">physical ‘external’ characters</term>
+                <term type="scientific_terms" ref="#">predators</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>July 9<hi rend="superscript">th</hi></date>
+                    <salute>My dear Wallace</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>D<hi rend="superscript">r</hi>. G. Krefft has sent me the enclosed from Sydney.<ref target="#foot.f2"/> A nurseryman<ref target="#foot.f3"/> saw a caterpillar feeding on a plant &amp; covered the whole up, but, when he searched for the cocoon, was long before he c<hi rend="superscript">d</hi>. find it, so good was its imitation in colour &amp; form to the leaf to which it was attached.</p>
+<p>I hope that the World goes well with you.— Do not trouble yourself by acknowledging this, | Ever yours | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.4 leaf] ‘f’<hi rend="italic">over</hi>‘ve’ </note>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-8895.xml" resp="#mjhawkins">letter from Gerard Krefft, 3 May 1873</ref>.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_2760.xml" resp="#mjhawkins">Gerard Krefft</ref> had enclosed a chrysalis with his letter of 3 May 1873.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_6736.xml" resp="#mjhawkins">Thomas William Shepherd</ref> (see <ref target="./DCP-LETT-8895.xml" resp="#mjhawkins">letter from Gerard Krefft, 3 May 1873</ref> and n. 6).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5508">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Edward Walford   22 [January–April 1865?]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">237</idno>
+            
+            
+            
+            
+            <date when="2002">2002</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5508 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5508.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5508.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="13">13</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="publication">
+                <bibl>Colp (1983): 38</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 13</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.237)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>237</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                
+            <date xml:id="date1" when="1865-01-22" exclude="#date2 #date3 #date4">22 Jan 1865</date>
+            <date xml:id="date2" when="1865-02-22" exclude="#date1 #date3 #date4">22 Feb 1865</date>
+            <date xml:id="date3" when="1865-03-22" exclude="#date1 #date2 #date4">22 Mar 1865</date>
+            <date xml:id="date4" when="1865-04-22" exclude="#date1 #date2 #date3">22 Apr 1865</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4926.xml">Walford, Edward</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>CD would be proud to be one of EW’s series [<hi rend="italic">Portraits of men of eminence</hi> (1863–7)]. If he goes to London in the summer he will call on Mr Edwards [the photographer].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Portraits of men of eminence</term>
+                <term type="rx" ref="#">Walford, Edward 1863–1867</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>22<hi rend="superscript">d</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I should of course be proud to be one of your Series;<ref target="#foot.f2"/> but I cannot spare a day to go to London; &amp; I am not likely to be there soon: I may, however in course of summer, &amp; will call on M<hi rend="superscript">r</hi>. Edwards, if it be then not too late; &amp; he can inform me.—<ref target="#foot.f3"/></p>
+<p>My dear Sir | Yours very faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date range is conjectured on the assumption that CD visited the photographer, <ref target="../nameregs/nameregs_5315.xml" resp="#mjhawkins">Ernest Edwards</ref>, during his stay to London in November 1865, with a view to being included in Walford’s photographic series (see nn. 2 and 3, below), and on the basis of CD’s illness, which began at the end of April (see ‘Journal’, Appendix II).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_4926.xml" resp="#mjhawkins">Edward Walford</ref> had assumed editorial responsibilities for the series <hi rend="italic">Portraits of men of eminence in literature, science, and art, with biographical memoirs</hi>, begun by <ref target="../nameregs/nameregs_3960.xml" resp="#mjhawkins">Lovell Augustus Reeve</ref> (see <ref target="../bibliographies/bibl_8050.xml" resp="#mjhawkins">Walford 1868</ref> and <ref target="../bibliographies/bibl_995.xml" resp="#mjhawkins">Browne 1998</ref>, pp. 269–71). A portrait of CD taken by Edwards appeared in volume 5 of the series, published in 1866 (Reeve and Walford eds. 1863–7, 5: facing p. 49).</note>
+            <note xml:id="foot.f3">CD probably sat for Edwards during his visit to London between 8 and 20 November 1865. See <ref target="./DCP-LETT-4942.xml" resp="#mjhawkins">letter from E. A. Darwin to Emma Darwin, 25 [November 1865]</ref> and nn. 2 and 3.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

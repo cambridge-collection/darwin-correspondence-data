@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6098A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To ?   6 April [1869–71]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20765</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6098A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6098A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6098A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">incomplete<ref target="#foot.f5"/></note>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">L’Autographe S.A. (dealers) (Catalogue 21)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_19.xml">L'Autographe</repository>
+                    <idno>Cat. 21</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+            <date xml:id="date1" when="1869-04-06" exclude="#date2 #date3">6 Apr 1869</date>
+            <date xml:id="date2" when="1870-04-06" exclude="#date1 #date3">6 Apr 1870</date>
+            <date xml:id="date3" when="1871-04-06" exclude="#date1 #date2">6 Apr 1871</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_9999.xml">Unidentified</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>"My experiment was intended solely to show that colour reappeared, and I choose kinds which breed [true] to colour, as is certainly the case with [sports] and those which I tried . . .</p>
+            <p>I have recorded an undoubted case of wild rock Pigeons caught in Scotland having bred in confinement …"</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">pigeons, rock</term>
+                <term type="places" ref="#">Scotland</term>
+                <term type="scientific_terms" ref="#">breeding behaviour</term>
+                <term type="scientific_terms" ref="#">confinement, captivity</term>
+                <term type="scientific_terms" ref="#">constant varieties, races</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">physical ‘external’ characters</term>
+                <term type="scientific_terms" ref="#">reversion</term>
+                <term type="scientific_terms" ref="#">sports</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Beckenham, Kent</placeName>
+                    <date>April 6th</date>
+                </opener>
+                <div type="transcription">
+                     
+<p>[…] My experiment was intended solely to show that colour reappeared, and I choose kinds which breed turn to colour, as is certainly the case with spots and those which I tried<ref target="#foot.f2"/> […]</p>
+<p>[…] I have recorded an undoubted case of wild rock Pigeons caught in Scotland having bred, in confinement<ref target="#foot.f3"/> […]</p>
+<p>[et termine sa lettre en rappelant qu’il est accoutumé à être démenti et habitué au peu de confiance qu’accordent à la véracité de ses écrits ceux]<ref target="#foot.f4"/> […] who do not take the trouble to learn what I have written […]</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date range is established by the address. According to the sale catalogue, the name of the town Bromley is corrected by hand to Beckenham. This form of address was used by CD between April 1869 and May 1871.</note>
+            <note xml:id="foot.f2">Spots are a breed of pigeon; see <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 156. The word transcribed in the catalogue as ‘turn’ was probably ‘true’.</note>
+            <note xml:id="foot.f3">See <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 184–5, and <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 6, <ref target="" resp="#automat">letter to Laurence Edmonston, 19 April [1857]</ref>.</note>
+            <note xml:id="foot.f4">‘He finishes his letter by recalling that he is used to being contradicted and accustomed to the little trust that is placed in the truth of his works by those …’</note>
+            <note xml:id="foot.f5">The original letter is complete and is described in the sale catalogue as being one and a half pages long.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

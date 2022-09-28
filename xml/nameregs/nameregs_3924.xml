@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-3924" status="released">
+    <persName>
+        <forename>Mary</forename>
+        <forename type="preferred">Louisa</forename>
+        <choice>
+            <seg><surname notBefore="1825" notAfter="1852">Williams</surname></seg>
+            <seg><surname notBefore="1852" notAfter="1917">Ramsay</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1825–1917</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of James Williams, clergyman, of Llanfair yng Nghornwy, Anglesey, Wales; married Andrew Crombie Ramsay in 1852.</p></note>
+    <note type="sources">
+        <p><hi rend="italic">England &amp; Wales, national probate calendar</hi> (<hi rend="italic">index of wills and administrations</hi>), <hi rend="italic">1858–1966, 1973–95</hi> (Ancestry.com, accessed 16 October 2018)</p>
+        <p><ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref> s.v. Ramsay, Andrew Crombie</p>
+        <p><hi rend="italic">Wales, select births and baptisms, 1541–1907</hi> (Ancestry.com, accessed 16 October 2018)</p>
+    </note>
+    
+    <note type="volume">11,30</note>
+    <note type="keywords">
+        <term type="name">Williams, James</term>
+        <term type="name">clergyman</term>
+        <term type="name">Ramsay, A. C.</term>
+        <term type="place">Llanfairynghornwy</term>
+        <term type="place">Anglesey</term>
+        <term type="place">Wales</term>
+    </note>
+    
+</person>

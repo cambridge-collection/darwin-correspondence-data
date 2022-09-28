@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2343">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From T. C. Eyton   16 October 1858</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9036</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2343 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2343.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2343.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 205.2: 230</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>205.2: 230</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1570.xml">Eyton, T. C.</persName>
+                <placeName>Eyton</placeName>
+                <date when="1858-10-16">16 Oct 1858</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Has examined feet of many partridges, but has not been able to obtain any quantity of mud from them.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">partridges</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">soil and other substrates</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00522_files/8/0_0.jpg" width="3534px" height="6250px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00522_files/11/1_1.jpg" width="3534px" height="6250px"/>
+        <surface xml:id="i1" n="230r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00522.jpg" rend="portrait" width="3534px" height="6250px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00522_files/8/0_0.jpg" width="3534px" height="6250px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00522.dzi" width="3534px" height="6250px"/>
+        </surface>
+        
+        <surface xml:id="i2" n="230v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00523.jpg" rend="portrait" width="3534px" height="6250px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00523_files/8/0_0.jpg" width="3534px" height="6250px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00002-000-00523.dzi" width="3534px" height="6250px"/>
+        </surface>
+</facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>Dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+<p>I examined a great number of partridges feet this week but although they were slightly muddy or rather dirty could not obtain any quantity from them<ref target="#foot.f1"/> if however I should do so I will send it to you</p>
+<p>Yours truly | Th C Eyton <lb resp="#mjhawkins"/> Eyton | Oct 16 1858</p> 
+                </div>
+            </div>
+<div type="annotations">
+    <note><hi rend="italic">Top of page</hi>: ‘18’<ref target="#foot.f2"/> <hi rend="italic">brown crayon</hi></note>
+</div>
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-2338.xml" resp="#mjhawkins">letter to T. C. Eyton, 11 October [1858]</ref>.</note>
+            <note xml:id="foot.f2">The number of CD’s portfolio of notes on the means of dispersal of plants and animals.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

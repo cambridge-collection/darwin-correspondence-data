@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2950">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Edward Cresy   14 October [1860]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13219</idno>
+            
+            
+            
+            
+            <date when="1993">1993</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2950 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2950.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2950.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="08">8</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Copy</note>
+            <note type="physdesc" n="C">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 143: 314</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>143: 314</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Eastbourne</placeName>
+                <date when="1860-10-14">14 Oct [1860]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1113.xml">Cresy, Edward, Jr</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Discusses letter from A. W. v. Hofmann concerning solution of iodine in water.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_2325">Hofmann, A. W. von</term>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>15 Marine Parade, Eastbourne</placeName>
+                    <date>Oct: 14<hi rend="superscript">th</hi>.</date>
+                </opener>
+                <div type="transcription">
+                     
+<p>My dear Sir</p>
+<p>I have received Hofman’s letter which is extremely interesting to me.<ref target="#foot.f2"/> It is a great shame to trouble you, but I should be very much obliged for a line here, of explanation, if you can give it.</p>
+<p>Does Hofman mean that for instance <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>64,000</mn></mfrac></math></formula> part<ref target="#foot.f3"/> of a grain of arsenic can be detected;—or that <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>4,000,000</mn></mfrac></math></formula> part of a grain of iodine can be detected; surely that is quite incredible. Or does it mean that in a large body of water containing one part of iodine to 4,000,000 of water, that the starch in the course of time will out of this very weak solution absorb iodine so as to colour it. If this is meant these facts do not, in fact, show how little of these substances produce a visible chemical result.<ref target="#foot.f4"/></p>
+<p>Pray forgive me, and believe me | Yours very truly | C. Darwin</p>
+<p><hi rend="doubleUnderline">At present</hi> I fully believe after endless experiments that <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>64,000</mn></mfrac></math></formula> of a grain of C. of Ammonia produces on an absorbent gland of the Drosera a visible effect.<ref target="#foot.f5"/></p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the relationship to the preceding letter.</note>
+            <note xml:id="foot.f2">See the preceding letter.</note>
+            <note xml:id="foot.f3">The copyist originally wrote ‘<hi rend="superscript">1/64,800</hi>’, which has been corrected in an unidentified hand.</note>
+            <note xml:id="foot.f4">CD only resolved the point to his own satisfaction by performing further experiments on the sensitivity of <hi rend="italic">Drosera</hi> leaves to chemical substances. His notes on these experiments are in DAR 60.1. His results were given in <ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref>, chapters 7–9. With respect to ordinary chemical tests for salts, he reported that about <hi rend="superscript">1/4,000</hi> of a grain of arsenic could be detected, ‘but the power of detection depends much on the solutions under trial not being extremely weak’ (<hi rend="italic">Insectivorous</hi> <hi rend="italic">plants</hi>, p. 170 n.).</note>
+            <note xml:id="foot.f5">The figure given by CD is repeated in <ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref>, p. 146, where CD described immersing four <hi rend="italic">Drosera</hi> leaves in a weak solution of carbonate of ammonia for some hours. To find the amount of salt that each gland received, he divided the absolute quantity of ammonia in solution by the total number of glands. See also the first letter to Edward Cresy, 2 November [1860].</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

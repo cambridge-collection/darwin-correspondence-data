@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9745">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From W. G. Walker   6 December 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">11017</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9745 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9745.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9745.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 181: 5</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>181: 5</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4932.xml">Walker, W. G.</persName>
+                <placeName>London, Blenheim Crescent, 66</placeName>
+                <date when="1874-12-06">6 Dec 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>On voluntary vomiting. Dogs re-swallow vomited food.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">dogs</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="scientific_terms" ref="#">mind, cognitive behaviour</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>66, Blenheim Crescent, | Kensington Park,</placeName>
+                    <date>6 Dec<hi rend="superscript">r</hi>. 1874.</date>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Last year I took the liberty on addressing you on a point that occurred to me in connection with your “Expression of the Emotions”.<ref target="#foot.f1"/> I have just finished reading the work a second time, &amp; venture again to write to you. At the same time, please state unreservedly whether communications (of which you doubtless receive a great many) from outsiders are a nuisance to you.</p>
+<p>You say (p. 259) “the suspicion arises that our progenitors must formerly have had the power (like that possessed by ruminants &amp; some other animals) of voluntarily rejecting food which disagreed with them or which they thought would disagree with them”. The explanation is certainly plausible, &amp; perhaps probable, but the conduct of the dog seems to me to present a difficulty. I suppose it is a well-known fact (I have myself observed it several times) that dogs vomit when in a perfect state of health. If this were all, it might well be supposed that they vomited intentionally, to relieve their stomachs of what is, or what they suppose to be, an unwholesome load. But when they have rejected food in this manner, they shortly afterwards proceed to devour what they have so rejected,—‘returning like a dog to his vomit’. If the food is, or is supposed to be, injurious,—whether the vomiting be voluntary or involuntary,—what can be their motive for taking it again into their stomachs?<ref target="#foot.f2"/></p>
+<p>Trusting I shall not be thought impertinent for proposing this point, | I remain, | Faithfully yours, | W. Gregory Walker. <lb resp="#mjhawkins"/></p>
+<p rend="left">Ch. Darwin, Esq<hi rend="superscript">r</hi>.</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note><hi rend="italic">Top of letter</hi>: ‘Expression | Vomiting’ <hi rend="italic">ink</hi></note>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 21, <ref target="./DCP-LETT-9020.xml" resp="#mjhawkins">letter from W. G. Walker, 21 August 1873</ref>.</note>
+            <note xml:id="foot.f2">No reply to this letter has been found, but a note added to the cited passage in the second edition of <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref> remarked that bitches often vomited up food for their young when the young had reached a certain age (<ref target="../bibliographies/bibl_2401.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi> 2d ed.</ref>, p. 271 n. 11).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

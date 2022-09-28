@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1455">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. S. Bowerbank, Ray Society<ref target="#foot.f1"/>   28 September [1851]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">840</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1455 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1455.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1455.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno/>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1851-09-28">28 Sept [1851]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_568.xml">Bowerbank, J. S.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>G. B. Sowerby’s plates [for <hi rend="italic">Living Cirripedia</hi>] are ready for the printer.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Living Cirripedia Living Cirripedia</term>
+                <term type="people" ref="#subject_1053">printer</term>
+                <term type="people" ref="#subject_4479">Sowerby, G. B., Jr</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough | Kent</placeName>
+                    <date>Sept. 28<hi rend="superscript">th</hi>.—</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I hear from M<hi rend="superscript">r</hi>. Sowerby that the 10 Plates for my volume are ready for Printing off,<ref target="#foot.f2"/> &amp; he would be much obliged for the order to this end.</p>
+<p>He has had a Fire &amp; suffered some little loss, &amp; would therefore be grateful if in your power to pass his account for <hi rend="superscript">£</hi>23 ’ <hi rend="superscript">s</hi> 10 pretty soon, &amp; let him have the cash.</p>
+<p>I wrote sometime since about my not having had some Publications of the Ray Soc. which I fancy are published, but perhaps I am mistaken.—</p>
+<p>I am now correcting the 200<hi rend="superscript">th</hi> page of my Volume.—</p>
+<p>My dear Sir | Your’s very faithfuly | C. Darwin</p>
+<p>PS. | Upon reflexion, I think I had better advance, under the circumstances, the money to Sowerby, &amp; then he can hand over to me, your cheque whenever paid to him—<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">3.1 some] <hi rend="italic">above del illeg</hi></note>
+                    <note xml:id="tnote.n2">6.3 him] <hi rend="italic">over</hi> ‘me.’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Bowerbank was treasurer of the <ref target="../nameregs/nameregs_3945.xml" resp="#mjhawkins">Ray Society</ref> as well as being the secretary of the <ref target="../nameregs/nameregs_3646.xml" resp="#mjhawkins">Palaeontographical Society</ref>.</note>
+            <note xml:id="foot.f2">The ten plates for <ref target="../bibliographies/bibl_4837.xml" resp="#mjhawkins"><hi rend="italic">Living Cirripedia</hi> (1851)</ref> to be published by the <ref target="../nameregs/nameregs_3945.xml" resp="#mjhawkins">Ray Society</ref>.</note>
+            <note xml:id="foot.f3">CD’s Account book (Down House MS) has an entry for 1 October 1851: ‘Loaned to Sowerby. Ray Soc. Bills— [£]23 10[<hi rend="italic">s</hi>]’. The minutes of the <ref target="../nameregs/nameregs_3945.xml" resp="#mjhawkins">Ray Society</ref> show that sum paid to Sowerby on 6 October (<ref target="../nameregs/nameregs_3945.xml" resp="#mjhawkins">Ray Society</ref> minutes, <ref target="../nameregs/nameregs_8646.xml" resp="#mjhawkins">British Museum</ref> (Natural History)).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

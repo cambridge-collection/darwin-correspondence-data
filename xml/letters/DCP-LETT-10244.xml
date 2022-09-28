@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10244">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Lawson Tait   6 November [1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10902</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10244 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10244.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10244.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 178: 21</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>178: 21</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4653.xml">Tait, R. L.</persName>
+                <placeName>Birmingham</placeName>
+                <date when="1875-11-06">6 Nov [1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Composition of "Droserin" [see <hi rend="doubleUnderline">10015</hi>].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="b" ref="#">10015</term>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+                <term type="scientific_terms" ref="#">flora</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">7, Great Charles St. | Birmingham.</hi></placeName>
+                    <date>Nov<hi rend="superscript">r</hi>. 6</date>
+                    <salute>My Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have made a very curious discovery within the last few days. My “Droserin” is a compound substance containing the digestive principle which I propose to designate by that name and another substance so deliquescent that it cannot be kept in a dry condition and has the peculiar property, like glycerine, of wandering about &amp; wetting everything<ref target="#foot.f2"/> It is the substance which kills the flies by enabling the water to enter their tracheae.</p>
+<p>Plain water does not wet flies. They swim for days on its surface. But water containing this substance wets &amp; kills flies in a few minutes.</p>
+<p>What shall I call it? I wish your name would allow its being ‘coined’ into “Darwinin”</p>
+<p>I have polished up my greek to get a term descriptive of its peculiar properties, but I am at a loss</p>
+<p>I have no doubt your son Francis<ref target="#foot.f3"/> is a good Grecian &amp; can help me.</p>
+<p>This substance also accounts for the never-drying nature of the secretion</p>
+<p>Yours ever | Lawson Tait</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to Tait’s experiments on digestion in plants (see n. 2, below).</note>
+            <note xml:id="foot.f2">Tait was trying to isolate substances in the digestive fluid of insectivorous plants. On ‘droserin’, see the <ref target="./DCP-LETT-10066.xml" resp="#mjhawkins">letter from Lawson Tait, 15 July [1875]</ref> and n. 5.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

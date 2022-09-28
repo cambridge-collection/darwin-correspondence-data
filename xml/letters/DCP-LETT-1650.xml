@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1650">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To the Royal Society   19 March 1855</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1249</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1650 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1650.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1650.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">The Royal Society (RR2: 111)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_364.xml">Royal Society</repository>
+                    <idno>RR2: 111</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1855-03-19">19 Mar 1855</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4314.xml">Sharpey, William</persName>
+                <orgName key="../nameregs/nameregs_4110.xml">Royal Society of London</orgName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Recommends publication of Leonard Horner’s account of researches in alluvial deposits of Egypt [<hi rend="italic">Philos. Trans. R. Soc. Lond.</hi> 145 (1855): 105–38]. It contains valuable observations which will probably become of still higher value in future.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Philos. Trans. R. Soc. Lond.</term>
+                <term type="places" ref="#">Egypt</term>
+                <term type="rx" ref="#">Horner, Leonard 1855</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Down]</placeName>
+                </opener>
+                <div type="transcription">
+<p>I am of opinion that M<hi rend="superscript">r</hi>. Horner’s Account of the researches made in the alluvial deposits of Ægypt, should be printed in the Philosophical Transactions,<ref target="#foot.f1"/> as the means of permanently recording valuable observations; and which observations probably will become in future times of still higher value.—</p>
+<p>Charles Darwin <lb resp="#mjhawkins"/> Down  March 19<hi rend="superscript">th</hi>. 1855.</p>
+<p>P.S. Figure 3 was not sent to me.</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.3 which observations] ‘observations’ <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../bibliographies/bibl_3866.xml" resp="#mjhawkins">Horner 1855</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

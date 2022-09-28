@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2662">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To T. H. Huxley   23 January [1863 or 1864]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3247</idno>
+            
+            
+            
+            
+            <date when="1999">1999</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2662 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2662.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2662.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="11">11</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 145: 238</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Imperial College of Science, Technology and Medicine Archives (Huxley 5: 254)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_192.xml">Imperial College</repository>
+                    <idno>Huxley 5: 254</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+            <date xml:id="date1" when="1863-01-23" exclude="#date2">23 Jan 1863</date>
+            <date xml:id="date2" when="1864-01-23" exclude="#date1">23 Jan 1864</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2486.xml">Huxley, T. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>THH’s efforts to obtain Copley Medal for CD fail. Thanks THH for kind words of sympathy.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">Copley Medal</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Jan. 23<hi rend="superscript">d</hi></date>
+                    <salute>My dear Huxley</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have signed the enclosed with much pleasure.<ref target="#foot.f2"/></p>
+<p>I cordially thank you for your kind, most kind, expressions about the medal.<ref target="#foot.f3"/> Sympathy &amp; not fame is the true &amp; good reward of labour.—</p>
+<p>Yours most truly | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date range is conjectured by CD’s mention of the Copley Medal (see n. 3, below).</note>
+            <note xml:id="foot.f2">The enclosure has not been found.</note>
+            <note xml:id="foot.f3">The letter from Huxley has not been found. CD was nominated for the <ref target="../nameregs/nameregs_4110.xml" resp="#mjhawkins">Royal Society of London’s</ref> Copley Medal in 1862 and 1863 but his candidature was not successful (Royal Society, Council minutes, vol. 3 (1870), pp. 124, 160). CD was nominated again in 1864 and awarded the medal in November of that year (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 12, <ref target="./DCP-LETT-4651.xml" resp="#mjhawkins">letter from Edward Sabine, 3 November 1864</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

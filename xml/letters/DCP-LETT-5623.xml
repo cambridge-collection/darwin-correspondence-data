@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5623">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From W. B. Dawkins   7 September 1867</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14182</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5623 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5623.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5623.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 162: 119</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>162: 119</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1262.xml">Dawkins, W. B.</persName>
+                <placeName>Upminster</placeName>
+                <date when="1867-09-07">7 Sept 1867</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Variation between individuals of a species.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">individuals</term>
+                <term type="scientific_terms" ref="#">variation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Upminster | Romford, Essex.</placeName>
+                    <date>7 Sept. 1867.</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I thank you very much for your suggestion, which I will carry out in the winter.<ref target="#foot.f1"/> I find menagerie bones absolutely useless for comparison with those of the same animals of Pleistocene age.<ref target="#foot.f2"/> Between wild individuals even of the same recent species there is a large amount of variation, and that variation M<hi rend="superscript">r</hi>. Sanford and myself have used, or rather are using to prove the identity of <hi rend="underline">Felis spelæa</hi> with <hi rend="underline">F. leo</hi>, in the Palæont. Soc.<ref target="#foot.f3"/></p>
+<p>I am | My dear Sir | Yours truly | W. Boyd Dawkins <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin Esq. F.R.S.</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had encouraged Dawkins in his plans to carry out further comparative studies of the dentition of living and extinct representatives within the Rhinocerotidae (see <ref target="./DCP-LETT-5616A.xml" resp="#mjhawkins">letter to W. B. Dawkins, 26 August [1867]</ref>). CD may have made a specific suggestion about the work in a reply to the <ref target="./DCP-LETT-5618.xml" resp="#mjhawkins">letter from W. B. Dawkins, 27 August 1867</ref>, although no such letter has been found.</note>
+            <note xml:id="foot.f2">Dawkins mentioned changes he had observed in the skulls of captive hyenas compared with their wild counterparts in his <ref target="./DCP-LETT-5618.xml" resp="#automat" cert="low">letter to CD of 27 August 1867</ref>.</note>
+            <note xml:id="foot.f3">Dawkins was collaborating with <ref target="../nameregs/nameregs_6690.xml" resp="#mjhawkins">William Ayshford Sanford</ref> on a study of British Pleistocene Felidae (Dawkins and Sanford 1866–72). The four-part monograph was published by the <ref target="../nameregs/nameregs_3646.xml" resp="#mjhawkins">Palaeontographical Society</ref>. The second part of the work, published in 1868, was on <hi rend="italic">Felis spelaea</hi>, the cave lion (now <hi rend="italic">Panthera leo spelaea</hi>). <hi rend="italic">Felis leo</hi> is now <hi rend="italic">Panthera leo.</hi></note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

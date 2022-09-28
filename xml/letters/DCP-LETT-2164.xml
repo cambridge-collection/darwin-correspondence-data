@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2164">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To T. C. Eyton   2 November [1857]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1157</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2164 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2164.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2164.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Cadbury Research Library: Special Collections, University of Birmingham (EYT/1/42)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_42.xml">Birmingham</repository>
+                    <collection>special collections</collection>
+                    <idno>(EYT/1/42)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1857-11-02">2 Nov [1857]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1570.xml">Eyton, T. C.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Has TCE observed whether hybrids of Chinese and common forms [of geese] were wilder, or less tame, than both parents?</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">geese, Chinese</term>
+                <term type="animals" ref="#">geese, common</term>
+                <term type="scientific_terms" ref="#">behaviour</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">hybrids</term>
+                <term type="scientific_terms" ref="#">parents</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>November 2<hi rend="superscript">d</hi>.</date>
+                    <salute>Dear Eyton</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Will you forgive me troubling you with a question, which you can answer by “yes” or “no”. Did you observe that your hybrids between the Chinese &amp; common form, were at all wilder or less tame than <hi rend="underline">both</hi> parents?<ref target="#foot.f2"/> I have been informed that this is sometimes the case with hybrids, as with those from common &amp; Musk Duck.<ref target="#foot.f3"/></p>
+<p>Yours most truly | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 common] <hi rend="italic">above del illeg</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The information given in this letter was used by CD in chapter 10 of his species book, completed in March 1858 (‘Journal’; see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 6, Appendix II).</note>
+            <note xml:id="foot.f2">Eyton had described these hybrid geese in Eyton 1837b and 1840. The question posed in the letter was evidently answered by Eyton, for CD reported that the offspring were not wilder than their parents (<ref target="../bibliographies/bibl_5799.xml" resp="#mjhawkins"><hi rend="italic">Natural selection</hi></ref>, p. 486).</note>
+            <note xml:id="foot.f3">See <ref target="../bibliographies/bibl_5799.xml" resp="#mjhawkins"><hi rend="italic">Natural selection</hi></ref>, p. 486, where CD wrote: ‘Mr. Garnett of Clitheroe in a letter to me states that his hybrids from the musk &amp; common Duck “evinced a <hi rend="italic">singular</hi> tendency to wildness.”’</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

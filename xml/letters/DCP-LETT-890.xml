@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-890">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From G. R. Waterhouse   [11 July 1845]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">11021</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-890 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-890.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-890.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 181: 19</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>181: 19</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4972.xml">Waterhouse, G. R.</persName>
+                <placeName>British Museum</placeName>
+                <date when="1845-07-11">[11 July 1845]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Notes the islands, where known, on which CD’s Galapagos beetles were found. Remarks that in none of the species whose place of origin is known, does he have specimens from more than one island.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">beetles</term>
+                <term type="places" ref="#">Galapagos</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">isolation, islands</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Brit. Mus.</placeName>
+                    <date>Friday—</date>
+                    <salute>My dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+<p>I have not yet had the separate copies of my paper<ref target="#foot.f1"/> sent me &amp; fear more than a week has passed since you wrote— The following are the only species of Beetles in your collection of which I have been able to obtain the habitats <hi rend="underline">Creophilus</hi>—? apparently a new species (from under a dead bird in Chatham Is<hi rend="superscript">d</hi>. Ammophorus galapagoensis, from Chatham Island ————— bifoveatus from James Island There is a third species <hi rend="underline">Amm. obscurus</hi> which was pinned, perhaps it was from a diff<hi rend="superscript">t</hi> Island <hi rend="underline">Pedonœces</hi> galapagoensis James Island ———— pubescens Chatham Is<hi rend="superscript">d</hi>. ———— costatus (a third species not labelled) Apate spe—? Chatham Is<hi rend="superscript">d</hi>. Ormiscus variegatus Charles Is<hi rend="superscript">d</hi> Otiorhynchus cuneiformis Charles Is<hi rend="superscript">d</hi>.</p>
+<p>In none of these cases—though of some of the species there are several specimens—do I find the same species from different Islands—<ref target="#foot.f2"/></p>
+<p>M. De Selys Longchamps,<ref target="#foot.f3"/> a great man for the Neuroptera has been here— I got him to look at the dragon fly from the Galapagos—he said he thought it was a new species &amp; that it was an American form—i.e. Brasilian—</p>
+<p>I write in great haste, having an appointment to attend to immediately</p>
+<p>Believe me | faithfully yours | Geo. R. Waterhouse</p>
+<p>Of a new genus of Heteromera to which I have given the name <hi rend="underline">Stomion</hi>, there are three species— I wonder whether they came from diff<hi rend="superscript">t</hi>. Islands?</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note> 2.1 In none of these cases] ‘ie in only 2 genera’ <hi rend="italic">added ink</hi> </note>
+                <note> <hi rend="italic">Top of first page</hi>: ‘Solidified’<hi rend="italic">ink</hi> </note>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Waterhouse 1845a.</note>
+            <note xml:id="foot.f2">CD used this information in <ref target="../bibliographies/bibl_4252.xml" resp="#mjhawkins"><hi rend="italic">Journal of researches</hi> 2d ed.</ref>, p. 395.</note>
+            <note xml:id="foot.f3">Michel Edmond de Selys-Longchamps.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

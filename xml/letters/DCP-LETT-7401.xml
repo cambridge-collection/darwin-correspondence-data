@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7401">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Charles Lyell   25 December [1870]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">386</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7401 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7401.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7401.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <note type="postmark">DE 26 70</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 146: 315–316</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.386)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>386</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1870-12-25">25 Dec [1870]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3051.xml">Lyell, Charles</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks CL for his book [<hi rend="italic">The student’s elements of geology</hi> (1871)].</p>  
+<p>Is correcting proofs [of <hi rend="italic">Descent</hi>].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Descent</term>
+                <term type="it" ref="#">The student’s elements of geology</term>
+                <term type="rx" ref="#">Lyell, Charles 1871</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">sexual selection</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down.</hi> | Beckenham | <hi rend="print">Kent. S.E.</hi></placeName>
+                    <date>Dec. 25<hi rend="superscript">th</hi></date>
+                    <salute>My dear Lyell</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very much obliged for the new book, received yesterday.<ref target="#foot.f1"/> It seems wonderfully full of matter, &amp; I shall soon look over all the parts likely to contain any new conclusions; but at present I can literally do nothing &amp; think about nothing, except the sickening work of getting my last sheets corrected &amp; recorrected for the press.—<ref target="#foot.f2"/> I have first proofs to correct of only one more short chapter, &amp; then thank all the powers above &amp; below, I shall be a man again &amp; not a horrid grinding machine.— I wish you joy heartily that your labour is over.—</p>
+<p>Ever yours. | C. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 Beckenham] <hi rend="italic">interl before del</hi> ‘<hi rend="italic">Bromley.</hi>’ </note>
+                <note xml:id="tnote.n2">1.5 first … of] <hi rend="italic">interl</hi> </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Lyell had evidently sent a presentation copy of <hi rend="italic">The student’s elements of geology</hi> (<ref target="../bibliographies/bibl_5033.xml" resp="#mjhawkins">Lyell 1871</ref>); CD’s annotated copy is in the Darwin Archive–CUL (see <ref target="../bibliographies/bibl_5214.xml" resp="#mjhawkins"><hi rend="italic">Marginalia</hi></ref> 1: 545–6).</note>
+            <note xml:id="foot.f2">CD was working on the proof-sheets of <hi rend="italic">Descent.</hi></note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

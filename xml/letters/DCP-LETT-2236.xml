@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2236">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Trenham Reeks?<ref target="#foot.f1"/>   10 March [1858]<ref target="#foot.f2"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1158</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2236 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2236.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2236.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+            <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+                <relatedItem type="publication">
+                    <bibl> <hi rend="italic">Correspondence</hi> 7: 45</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">British Geological Survey Archives (GSM 1/501)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_314.xml">British Geological Survey Archives</repository>
+                    <collection>GSM </collection>
+                    <idno>1/501</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1858-03-10">10 Mar [1858]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3957.xml">Reeks, Trenham</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks whether correspondent can assist in determining value of slate slabs with relief figures executed for Josiah Wedgwood [I].</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Other people</term>
+                <term type="geology" ref="#">slate</term>
+                <term type="people" ref="#subject_5025">Wedgwood, Josiah, I</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>March 10<hi rend="superscript">th</hi>.—</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I spoke to you when in London about some 30 slabs of slate with figures in wax, executed long ago for M<hi rend="superscript">r</hi>. Wedgwood.—<ref target="#foot.f3"/> Might I trespass on your kindness to look at them, or show them to any judge, to see if they are valuable.— This will, I hope, not cause you much trouble, as you need not write or return them, for I shall be in London either this or next month.—</p>
+<p>Several are more injured even than these; but most are less so. The majority are of the dark red colour. Some are on thicker slabs.— Some few are in white wax. The slate of some is broken right through. An engraver told me that they were done by hand. And a knowing clergyman said he believed they were executed in latter half of last century by a celebrated artist, whose name I have forgotten.—</p>
+<p>I have picked out about 3 average specimens.— Some are prettier.—</p>
+<p>Will you kindly forgive my begging this favour of you &amp; believe me My dear Sir, with thanks for your assistance about the Barberini Vase.<ref target="#foot.f4"/> | Yours very sincerely | C. Darwin</p>
+<p>They will be delivered by Carrier. (paid) on Thursday (tomorrow)</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">0.2 10<hi rend="superscript">th</hi>—] <hi rend="italic">below del</hi> ‘3<hi rend="superscript">rd</hi>’</note>
+                    <note xml:id="tnote.n2">2.1 these] altered from ‘the’; <hi rend="italic">before del</hi> ‘white one’</note>
+                    <note xml:id="tnote.n3">2.1 are less] ‘are’ <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n4">2.2 Some … wax.] <hi rend="italic">added</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Reeks, curator and librarian of the Museum of Practical Geology, had ‘a great knowledge of pottery’ (<hi rend="italic">Nature</hi> 20 (1879):38). The reliefs mentioned in the letter were sold later in the year (see <ref target="./DCP-LETT-2323.xml" resp="#mjhawkins">letter to Trenham Reeks?, 13 August [1858]</ref>).</note>
+            <note xml:id="foot.f2">Dated from an entry in CD’s Account book (Down House MS) that records that the Barberini vase mentioned in the letter was sold for £75 on 3 April 1858.</note>
+            <note xml:id="foot.f3">The wax bas-reliefs were probably some of those designed by <ref target="../nameregs/nameregs_1657.xml" resp="#mjhawkins">John Flaxman</ref> for <ref target="../nameregs/nameregs_5025.xml" resp="#mjhawkins">Josiah Wedgwood I</ref>. They were probably the ‘wax reliefs’ that CD acquired in 1844 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 3, <ref target="./DCP-LETT-833.xml" resp="#mjhawkins">letter to Susan Darwin, [27 November 1844?]</ref>). Flaxman had worked for the Wedgwood company from 1775 to 1787 and provided wax or plaster models of his work from which Wedgwood craftsmen made casts. The reliefs were used to decorate the company’s famous jasperware. A list of Flaxman’s work for Wedgwood is given in <ref target="../bibliographies/bibl_1554.xml" resp="#mjhawkins">Constable 1927</ref>.</note>
+            <note xml:id="foot.f4">See <ref target="./DCP-LETT-2215.xml" resp="#automat" cert="medium">letter to W. E. Darwin, 11 [February 1858]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

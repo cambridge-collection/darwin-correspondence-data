@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-6292" status="released">
+    <persName>
+        <forename>Alice</forename>
+        <forename>Louisa</forename>
+        <forename>Langton</forename>
+        <choice>
+            <seg><surname notBefore="1852" notAfter="1884">Massingberd</surname></seg>
+            <seg><surname notBefore="1884" notAfter="1927">Clark</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1852–1927</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of Charles Langton Massingberd. Sister of Emily Caroline Langton. Married Percy Leigh Hay Clark (1851/2–87) in 1884.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_9153.xml" resp="#mjhawkins"><hi rend="italic">BMD</hi></ref> (<hi rend="italic">Birth, Marriage, Death index</hi>)</p>
+        <p><ref target="../bibliographies/bibl_1095.xml" resp="#mjhawkins"><hi rend="italic">Burke’s landed gentry</hi></ref> 1937</p>
+        <p><hi rend="italic">England &amp; Wales, national probate calendar</hi> (<hi rend="italic">index of wills and administrations</hi>), <hi rend="italic">1858–1966</hi> (Ancestry.com, accessed 20 May 2015)</p>
+    </note>
+    <note type="volume">16,19,24</note>
+    
+</person>

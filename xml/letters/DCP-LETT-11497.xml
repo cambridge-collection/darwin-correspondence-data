@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11497">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From A. F. Gray   8 May [1878]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8061B</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11497 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11497.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11497.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Nature</hi>, 30 May 1878, p. 121</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance"> <hi rend="italic">Nature</hi>, 30 May 1878, p. 121</bibl>
+            <bibl type="printedSource">Nature 18 1878: 121</bibl>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1956.xml">Gray, A. F.</persName>
+                <placeName>Danversport, Mass.</placeName>
+                <date when="1878-05-08">8 May [1878]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Found a live mussel attached to a blue-winged teal’s foot. Had the bird not been shot, the mussel might have been transported miles.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">bird</term>
+                <term type="animals" ref="#">mussel</term>
+                <term type="animals" ref="#">teal, blue-winged</term>
+                <term type="scientific_terms" ref="#">dispersion</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">relation of organism to organism</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute><hi rend="smallCaps">Dear Sir</hi>,—</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>The following case will, I think, prove of interest to you, as it corroborates your belief that freshwater shells are sometimes transplanted by the agency of aquatic birds.<ref target="#foot.f2"/></p>
+                    <p>In the sketch I have endeavoured to give you a correct idea of the way in which the shell was attached to the duck’s foot.<ref target="#foot.f3"/></p>
+                    <p>It was given to me by Mr. H. L. Newcomb, who shot the bird, which was a blue-winged teal (<hi rend="underline">Querquedula discors</hi>), while flying, near the Artichoke river at West Newbury, Mass., September 6, 1877.<ref target="#foot.f4"/> The shell, the common mussel, or clam (<hi rend="underline">Unio complanatus</hi>), is a very abundant species, being found in nearly all the rivers and ponds of the Atlantic slope.<ref target="#foot.f5"/> How long the shell had been attached is only a matter of conjecture, but it had abraded the skin of the bird’s toe, and left quite an impression. It was living when the bird was shot.</p>
+<p>It would have undoubtedly been transplanted to some pond or river, perhaps miles from its original home, had the bird not been shot, and might then have propagated its kind.</p>
+                    <p><hi rend="smallCaps">Arthur H. Gray</hi><ref target="#foot.f6"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Danversport, Mass., May 8 | To C. Darwin, Esq.</p> 
+<figure rend="blockCentred width15">
+    <graphic url="../images/DCP-LETT-11497.png"/>
+</figure> 
+                </div>
+            </div>
+
+                        
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the date of publication of this letter in <hi rend="italic">Nature</hi>. The letter was sent to <hi rend="italic">Nature</hi> by CD (see <ref target="./DCP-LETT-11521.xml">letter to A. F. Gray, 21 May [1878]</ref>).</note>
+            <note xml:id="foot.f2">In <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>, p. 385, CD described an experiment in which he suspended a duck’s feet in an aquarium where freshwater shells were hatching and soon found numerous minute shells attached to the feet.</note>
+            <note xml:id="foot.f3">The original drawing has not been found but a woodcut was made of it for publication in <hi rend="italic">Nature</hi>, 30 May 1878, p. 121; this image is reproduced here. See also letter to <hi rend="italic">Nature</hi>, [21? May 1878]. The shell, together with the duck’s foot, is in the collection of the Museum of Comparative Zoology, Harvard (MCZ, Malacology 154590); see plate on p. 182.</note>
+            <note xml:id="foot.f4">H. L. Newcomb has not been identified. <hi rend="italic">Querquedula discors</hi> is a synonym of <hi rend="italic">Anas discors</hi> (blue-winged teal).</note>
+            <note xml:id="foot.f5"><hi rend="italic">Unio complanatus</hi> is a synonym of <hi rend="italic">Elliptio complanata</hi> (eastern elliptio), a freshwater mussel.</note>
+            <note xml:id="foot.f6">Gray’s middle initial was misprinted in <hi rend="italic">Nature</hi>.</note>
+        </div>  
+      
+    </body>
+    </text>
+</TEI>

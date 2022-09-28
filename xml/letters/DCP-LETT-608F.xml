@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-608F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Richard Owen   [17 September 1841?]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">21008</idno>
+            
+            
+            
+            
+            <date when="2002">2002</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-608F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-608F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-608F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="13">13-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">The Royal College of Surgeons of England (MS0456/1)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_349.xml">RCS London</repository>
+                    <idno>MS0456/1</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3629.xml">Owen, Richard</persName>
+                <placeName>Park Village East</placeName>
+                <date when="1841-09-17">[17 Sept 1841?]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>CD and [Emma Darwin] are invited to "a holiday musical evening".</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1218">Darwin, Emma</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">inviting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>6, Park Cottages, Park Village East.</placeName>
+                    <date>Friday.</date>
+                    <salute>Dear Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>In the possible event of your being from home I write to say that I shall have a holiday musical evening tonight, and that if you &amp; M<hi rend="superscript">rs</hi>. Darwin will join us—we have tea at <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula>7—it will add to our pleasure very much.<ref target="#foot.f2"/></p>
+<p>Ever your’s, | R<hi rend="superscript">d</hi>. Owen.</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is conjectured from the address, and from Owen’s reference to a ‘holiday musical evening’ (see n. 2, below). Owen is recorded in the <hi rend="italic">Royal blue book</hi> as residing at this address from 1840 to 1842.</note>
+            <note xml:id="foot.f2">On 8 September 1841, Owen wrote to <ref target="../nameregs/nameregs_963.xml" resp="#mjhawkins">William Clift</ref> that he hoped that Clift would come to dinner ‘at No. 6 Park Cottages’ on 12 September, following Owen’s return from holiday on 11 September. He promised: ‘a long and most delightful tour through Cornwall will be re-performed, with innumerable and most rare adventures by land, rock, mine, and sea; and the characters of divers amiable and hospitable friends will be portrayed’ (<ref target="../bibliographies/bibl_6119.xml" resp="#automat" cert="low">R. S. Owen 1894</ref>, 1: 187). It is probable that Owen performed other holiday entertainments during this period. Owen’s biographer records: ‘About this time Owen and his wife saw a good deal of Mr. and Mrs. Darwin’ (<hi rend="italic">ibid.</hi>, p. 188). In 1841, the first Friday after 12 September was 17 September.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

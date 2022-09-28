@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9830">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To B. G. Wilder   26 January [1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13850</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9830 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9830.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9830.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS(A)</note>
+            <note type="physdesc" n="LS(A)">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Cornell University Library, Division of Rare and Manuscript Collections (Burt Green Wilder papers, 1841–1925: Box 1, Folder 5)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_101.xml">Cornell</repository>
+                    <idno>14/26/95</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1875-01-26">26 Jan [1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_5131.xml">Wilder, B. G.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>CD expresses his high opinion of BGW’s papers. Thinks one on brains of dogs particularly valuable ["Anatomical papers on brain of dogs", <hi rend="italic">Rep. Am. Assoc. Adv. Sci.</hi> (1874)].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">dogs</term>
+                <term type="it" ref="#">Rep. Am. Assoc. Adv. Sci.</term>
+                <term type="rx" ref="#">Wilder, B. G. 1874</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Jan 26.</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I have much pleasure in stating that I have read several of your papers, &amp; have been much struck by the ability shown in many of them, as well as by your great energy in the pursuit of Natural Science. One of your latest investigations, that on the brain of dogs, appears to me particularly valuable.<ref target="#foot.f2"/> As I do not know who your competitors are for the Chair of Comparative Anat &amp; Physiology in Harvard<ref target="#foot.f3"/> University, I cannot of course express any opinion of your claims to fill it but you have my good wishes for your success in all ways.</p>
+<p>I remain dear Sir | Yours faithfully | Charles Darwin <lb resp="#mjhawkins"/></p>
+<p rend="left">To | D<hi rend="superscript">r</hi> Burt G. Wilder.</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.5 Harvard] <hi rend="italic">interl in CD’s hand after del</hi> ‘the’</note>
+                <note xml:id="tnote.n2">3.1 To … Wilder.] <hi rend="italic">in CD’s hand</hi> </note>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to the chair of anatomy and physiology at Harvard (see n. 3, below).</note>
+            <note xml:id="foot.f2">There is an annotated copy of Wilder’s paper on cerebral variation in domestic dogs (<ref target="../bibliographies/bibl_8761.xml" resp="#mjhawkins">Wilder 1873</ref>), along with other papers by Wilder, in the Darwin Pamphlet Collection–CUL. CD cited <ref target="../bibliographies/bibl_8761.xml" resp="#mjhawkins">Wilder 1873</ref> in <ref target="../bibliographies/bibl_7952.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi> 2d ed.</ref> 1: 35 n. 56.</note>
+            <note xml:id="foot.f3">The Hersey Professorship of anatomy had been held by <ref target="../nameregs/nameregs_5268.xml" resp="#mjhawkins">Jeffries Wyman</ref>, who died in September 1874 (<ref target="../bibliographies/bibl_152.xml" resp="#mjhawkins"><hi rend="italic">ANB</hi></ref>). The chair was left vacant until 1885 (<ref target="../bibliographies/bibl_3409.xml" resp="#mjhawkins"><hi rend="italic">Harvard University catalogue</hi></ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

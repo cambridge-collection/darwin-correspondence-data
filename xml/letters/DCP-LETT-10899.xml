@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10899">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Pieter Harting   19 March 1877</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6066</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10899 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10899.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10899.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Leiden University Libraries (BPL 1938)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_367.xml">RU Leiden</repository>
+                    <collection>(BPL 885)</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1877-03-19">19 Mar 1877</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2150.xml">Harting, Pieter</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks for account of his work. Cannot read Dutch, but son has translated it.</p>
+            <p>Thanks for album sent by PH’s countrymen.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="human_group" ref="#">Dutch</term>
+                <term type="languages" ref="#">Dutch</term>
+                <term type="people" ref="#subject_1739">Darwin, C. R.’s son</term>
+                <term type="places" ref="#">Holland</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>March 19<hi rend="superscript">th</hi> 1877</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have been deeply gratified by the very great honour which has been conferred on me by a naturalist so well known as yourself, having thought it worth while to publish an account of what I have been able to do in natural Science.—<ref target="#foot.f1"/> I cannot read the Dutch language, but one of my sons has translated to me large portions of your essay, &amp; the extremely kind manner in which you speak of my works has delighted me.</p>
+<p>An account of your countrymen’s generous sympathy in having sent me on my birthday the magnificent Album has been published in almost every newspaper throughout England.; &amp; you may well believe that the present has given me &amp; my family lasting pleasure.<ref target="#foot.f2"/></p>
+<p>I beg you once again to accept my cordial thanks, &amp; to believe me with much respect, Dear Sir | yours faithfully | Charles Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Harting had sent a copy of his article ‘Darwin’ from <hi rend="italic">Album der Natuur</hi> (<ref target="../bibliographies/bibl_9449.xml" resp="#mjhawkins">Harting 1877</ref>); CD’s annotated offprint is in the Darwin Pamphlet Collection–CUL. Harting prefaced his article on CD’s contributions to science with a translation into Dutch of the letters published in <hi rend="italic">Nature</hi>, 8 March 1877, pp. 410–12 (see <ref target="./DCP-LETT-10831.xml" resp="#mjhawkins">letter from A. A. van Bemmelen and H. J. Veth, 6 February 1877</ref>, and letter to A. A. von Bemmelen, 12 February 1877).</note>
+            <note xml:id="foot.f2">For his 68th birthday, CD had been sent an album containing photographs of 217 distinguished professors and lovers of science from Holland; it accompanied the <ref target="./DCP-LETT-10831.xml" resp="#mjhawkins">letter from A. A. van Bemmelen and H. J. Veth, 6 February 1877</ref>. Apart from the announcement in <hi rend="italic">Nature</hi> (see n. 1, above), reports of the album also appeared in <hi rend="italic">The Times</hi>, 22 February 1877, p. 11, and many other newspapers, including the <hi rend="italic">York Herald</hi>, 23 February 1877, p. 8, and the <hi rend="italic">Bristol Mercury</hi>, 24 February 1877, p. 3.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9863">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To G. C. Robertson   19 February [1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6087</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9863 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9863.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9863.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 147: 322, DAR 221.4: 228</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">UCL Library Services, Special Collections (Croom Robertson: MS ADD 88/9–15/11)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_425.xml">UC London</repository>
+                    <collection>Croom Robertson</collection>
+                    <idno>MS ADD 88/9-15/11</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1875-02-19">19 Feb [1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_7475.xml">Robertson, G. C.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>The plan of the new journal [<hi rend="italic">Mind</hi>] seems excellent. CD regrets that he has so much work to do in natural history that it is improbable he can be a contributor.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Mind</term>
+                <term type="scientific_terms" ref="#">mind, cognitive behaviour</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Feb 19. </date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I did receive the circular but had no idea that it came from you.<ref target="#foot.f2"/> The plan of the new Journal seems excellent, &amp; I hope it may be successful. I have so much work in Nat: History half-completed &amp; which I desire to finish, that I am sorry to say I have resolved not to turn to any other subject, so that it is extremely improbable that I can ever be a contributer to your Journal.<ref target="#foot.f3"/></p>
+<p>Believe me dear Sir | Yours very faithfully | Charles Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-9862.xml" resp="#mjhawkins">letter from G. C. Robertson, 17 February 1875</ref>.</note>
+            <note xml:id="foot.f2">Robertson had sent a second copy of a prospectus for the journal <hi rend="italic">Mind</hi> (see <ref target="./DCP-LETT-9862.xml" resp="#mjhawkins">letter from G. C. Robertson, 17 February 1875</ref> and n. 2).</note>
+            <note xml:id="foot.f3">CD published an article in the July 1877 issue of <hi rend="italic">Mind</hi>, <ref target="../bibliographies/bibl_8641.xml" resp="#mjhawkins">‘Biographical sketch of an infant’</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

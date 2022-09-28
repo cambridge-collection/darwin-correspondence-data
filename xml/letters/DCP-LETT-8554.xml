@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8554">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From J. V. Carus   11 October 1872</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8714</idno>
+            
+            
+            
+            
+            <date when="2013">2013</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8554 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8554.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8554.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="20">20</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 161: 85</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>161: 85</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_849.xml">Carus, J. V.</persName>
+                <placeName>Leipzig</placeName>
+                <date when="1872-10-11">11 Oct 1872</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Corrects CD’s spelling of the name of a statue: the Arrotino (spelled "Arretino" by CD) [see <hi rend="italic">Expression</hi>, p. 184, on grief-muscles].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Expression</term>
+                <term type="places" ref="#">Arrotino</term>
+                <term type="scientific_terms" ref="#">expression, emotion</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Leipzig,</placeName>
+                    <date>Oct 11. 1872</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>If your 12<hi rend="superscript">th</hi>. sheet (N) is not yet printed off, you might perhaps still be able to alter a misprint, which puzzled me a great deal   On p 184 line 6 from the bottom you mention a statue (besides the Laocoon) called the Arr<hi rend="underline">e</hi>tino. In all probability you were thinking of that kneeling statue in Florence, which we generally call the “Grinder”. This is the Arr<hi rend="underline">o</hi>tino.<ref target="#foot.f1"/> If it was not for the double r one might think (as it occurred to me) of some one from Arezzo. In this moment I cannot find out a figure of the Arrotino full “en face”, but according to an outline drawing “en profile”, he exhibits the action of the grief muscles.</p>
+<p>Believe me | My dear Sir | Yours very sincerely, | Prof J. Victor Carus</p>
+<p>In haste!</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note><hi rend="italic">Top of letter</hi>: ‘Keep. | Correction | Expression | see to Duchenne’<ref target="#foot.f2"/><hi rend="italic">ink</hi></note>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The <hi rend="italic">Arrotino</hi> (blade-sharpener: Italian) is a first century <hi rend="smallCaps">bce</hi> sculpture in the Uffizi Gallery, Florence. It depicts a man crouching to sharpen a knife on a whetstone. The other sculpture referred to is <hi rend="italic">Laocoön and his sons</hi> in the Vatican Museums, Vatican City. It shows the three figures being strangled by sea serpents. CD corrected the spelling of ‘Arrotino’ in the second printing of <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref>.</note>
+            <note xml:id="foot.f2">In <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref>, p. 184, CD also referred to <ref target="../nameregs/nameregs_1404.xml" resp="#mjhawkins">Guillaume Benjamin Amand Duchenne’s</ref> discussion of the depiction of grief muscles by ancient sculptors (see <ref target="../bibliographies/bibl_2172.xml" resp="#mjhawkins">Duchenne 1862</ref>, p. 20 and pl. 7 figs. 66–73).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8865">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To James Crichton-Browne   17 April [1873]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17910</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8865 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8865.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8865.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Copy</note>
+            <note type="physdesc" n="C">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 143: 344</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>143: 344</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1873-04-17">17 Apr [1873]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_677.xml">Crichton-Browne, James</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Photographs sent by JC-B show great power of acting.</p>
+            <p>David Ferrier’s researches sound wonderful. Does he believe that he excites an idea and this leads to the movement, or that he acts directly on the motor nerves?</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1620">Ferrier, David</term>
+                <term type="scientific_terms" ref="#">behaviour</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">expression, emotion</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">mind, cognitive behaviour</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down,</placeName>
+                    <date>April 17,</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>You are always most kind. The photographs are very curious and show great power of acting; but still I think that I should have known that the expressions were acted, if I had not read your letter first. If you will not think me unreasonable I should like to see the remaining ones.<ref target="#foot.f2"/> Prof. Ferrier’s researches sound most wonderful and interesting. There is nothing like impudence in the world, and I hope that you will add to your kindness by sending me a copy of his paper when published.<ref target="#foot.f3"/> I shall be very curious to learn whether he believes that he excites an idea and that this leads to the movements, or that he acts directly on the motor nerves.<ref target="#foot.f4"/></p>
+<p>With many thanks | Yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-8861.xml" resp="#mjhawkins">letter from James Crichton-Browne, 16 April 1873</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-8861.xml" resp="#mjhawkins">letter from James Crichton-Browne, 16 April 1873</ref> and n. 1.</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-8861.xml" resp="#mjhawkins">letter from James Crichton-Browne, 16 April 1873</ref> and n. 2. No copy of <ref target="../nameregs/nameregs_1620.xml" resp="#mjhawkins">David Ferrier’s</ref> paper has been found in the Darwin Archive.</note>
+            <note xml:id="foot.f4">It was generally accepted that a stimulus provoked an idea that led to movement, a theory that rejected the notion of cerebral localisation. Ferrier’s experiments were designed to show that a stimulus could provoke movement directly. For more on the history of theories of brain function and Ferrier’s experiments showing cerebral localisation, see <ref target="../bibliographies/bibl_8560.xml" resp="#mjhawkins">R. M. Young 1968</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

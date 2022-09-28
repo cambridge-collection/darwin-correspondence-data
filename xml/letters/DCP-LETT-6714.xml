@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6714">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To George Maw   27 April [1869]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19547</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6714 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6714.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6714.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Royal Horticultural Society, Lindley Library (MAW/1/16)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_339.xml">R. Hortic. Soc.</repository>
+                    <collection>George Maw correspondence</collection>
+                    <idno>MAW/1/16</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1869-04-27">27 Apr [1869]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3232.xml">Maw, George</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks GM for specimens of <hi rend="italic">Drosophyllum</hi>; by a strange coincidence CD has also received plants from a correspondent in Oporto [W. C. Tait].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Drosophyllum</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down.</hi> | Beckenham | <hi rend="print">Kent. S.E.</hi></placeName>
+                    <date>Apr 27<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I thank you sincerely for your great kindness about the rare Drosophyllum.— The plants have arrived, but in a rather sickly condition: they may, however, recover.<ref target="#foot.f2"/> A strange coincidence has occurred: after writing to you I received a letter from a stranger in Oporto, offering to send me any plants, so I mentioned the Drosophyllum, which he found immediately &amp; sent me a supply; they arrived in a very bad state, but have recovered enough for me to observe.<ref target="#foot.f3"/> The species, however, possesses far less interest than I had confidently expected.</p>
+<p>D<hi rend="superscript">r</hi> Hooker has been here &amp; tells me that you have sent home a good many plants.<ref target="#foot.f4"/> What an indomitable worker you are in many subjects!</p>
+<p>With very sincere thanks for your great kindness | pray believe me | My dear Sir | Yours very faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 Beckenham] <hi rend="italic">before del</hi> ‘<hi rend="italic">Bromley.</hi>’ </note>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-6704.xml" resp="#mjhawkins">letter from George Maw, 18 April 1869</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-6704.xml" resp="#mjhawkins">letter from George Maw, 18 April 1869</ref>.</note>
+            <note xml:id="foot.f3">CD refers to <ref target="../nameregs/nameregs_4655.xml" resp="#mjhawkins">William Chester Tait</ref>; see <ref target="./DCP-LETT-6577.xml" resp="#automat">letter from W. C. Tait, 26 January 1869</ref>, <ref target="./DCP-LETT-6593.xml" resp="#mjhawkins">letter to W. C. Tait, 2 February [1869]</ref>, and <ref target="./DCP-LETT-6639.xml" resp="#mjhawkins">letter from W. C. Tait, 2 March 1869</ref>. See also <ref target="" resp="#automat">letter to George Maw, 13 January 1868</ref>.</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_2357.xml" resp="#mjhawkins">Joseph Dalton Hooker</ref> was the director of the Royal Botanic Gardens, Kew.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

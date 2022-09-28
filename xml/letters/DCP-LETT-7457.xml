@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7457">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From J. V. Carus   26 January 1871</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8706</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7457 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7457.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7457.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 161: 77</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>161: 77</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_849.xml">Carus, J. V.</persName>
+                <placeName>Leipzig</placeName>
+                <date when="1871-01-26">26 Jan 1871</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>A bibliographical query arising in translation of <hi rend="italic">Descent</hi>. Two misprints noted.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Descent</term>
+                <term type="languages" ref="#">German</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">sexual selection</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Leipzig,</placeName>
+                    <date>Jan. 26. 1871.</date>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>On page 128, note 45 of Vol. I. of your new work you quote some papers of Mr J. <hi rend="underline">Wood.</hi> But unfortunately you give only the references to the <hi rend="underline">Volumes</hi> without giving the <hi rend="underline">title</hi> of the periodical.<ref target="#foot.f1"/> May I ask you to write me, what periodical you mean? Perhaps I may find it out here, but I think the shortest way is to ask you directly. At any rate in a second edition you must give the title.</p>
+<p>Two misprints: p. 118. note 28. Here the <hi rend="underline">second</hi> Volume of the “Variation” is meant. p. 20. note 23. Canestrini quotes <hi rend="underline">Hyrtl</hi> (the Vienna anatomist) instead of <hi rend="underline">Hyrt.</hi><ref target="#foot.f2"/></p>
+<p>Pray excuse my haste, and believe me | Yours ever truly, | J. Victor Carus</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Carus was preparing the German translation of <hi rend="italic">Descent.</hi> The title of the periodical in question, <hi rend="italic">Proceedings of the Royal Society of London</hi>, was added to the list of errata at the beginning of the second volume of the first printing, and to the text of the second printing of <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref>. The reference is to John Wood (1825–91).</note>
+            <note xml:id="foot.f2">The first correction was not made, although it was added to the list of errata at the beginning of the second volume of the first printing; the second was made in <ref target="../bibliographies/bibl_1967.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi> 2d ed.</ref>, p. 14 n. 28. The references are to <ref target="../nameregs/nameregs_815.xml" resp="#mjhawkins">Giovanni Canestrini</ref> and <ref target="../nameregs/nameregs_5976.xml" resp="#mjhawkins">Josef Hyrtl</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

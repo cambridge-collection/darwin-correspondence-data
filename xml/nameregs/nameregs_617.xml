@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-617" status="released">
+    <persName>
+        <forename>Juliet</forename>
+        <choice>
+            <seg><surname notBefore="1776" notAfter="1810">Macpherson</surname></seg>
+            <seg><surname notBefore="1810" notAfter="1850">Brewster</surname></seg></choice>
+    </persName>
+    <note type="dates"><date>b. <hi rend="italic">c</hi>. 1776 d. 1850</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Illegitimate daughter of James Macpherson. Married David Brewster in 1810.</p></note> 
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref> s.v. Brewster, David</p>
+    </note>
+    <note type="volume">4</note>
+    <note type="keywords">
+        <term type="name">James Macpherson</term>
+        <term type="name">David Brewster</term>
+    </note>
+    
+</person>

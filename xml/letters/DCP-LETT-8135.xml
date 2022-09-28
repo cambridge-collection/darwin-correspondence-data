@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8135">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From D. F. Nevill   17 [April 1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10215</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8135 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8135.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8135.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 172: 31</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>172: 31</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3505.xml">Nevill, D. F.</persName>
+                <placeName>Dangstein, Petersfield</placeName>
+                <date when="1875-04-17">17 [Apr 1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Hooker has told her CD is in London. She requests a meeting.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_2357">Hooker, J. D.</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Dangstein, Petersfield</hi></placeName>
+                    <date>17<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I hope to be in London on or about the 22<hi rend="superscript">nd</hi> and it would afford me the greatest pleasure if we could meet   D<hi rend="superscript">r</hi> Hooker who was here a short time ago told me you were in London<ref target="#foot.f2"/>   I would call on you any time you could appoint or would you pay me a visit—I am generally busy from 1–30 till 3—</p>
+<p>Yours most truly | D Nevill</p>
+<p>I live at 45 Charles street | Berkeley Square</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The month and year are established by the salutation, which indicates that this letter predates Nevill and CD’s first meeting on 4 May 1875 (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242; after meeting him in person, Nevill would have written, ‘Dear Mr Darwin’), and by the times of CD’s visits to London. Nevill did not live at 45 Charles Street before 1873, so the letter cannot date from CD and Nevill’s correspondence in the 1860s. An opportunity to meet might have occurred in December 1874, when CD was in London, but Nevill’s <ref target="" resp="#automat">letter from Dangstein on 26 [December 1874]</ref> (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 22) gives no indication that they had just missed seeing one another. The only other time that CD was in London between the resumption of their correspondence in September 1874 and their meeting on 4 May 1875 was April 1875 (see n. 2, below).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_2357.xml" resp="#mjhawkins">Joseph Dalton Hooker</ref> was a frequent visitor to Dangstein (<ref target="../bibliographies/bibl_9251.xml" resp="#mjhawkins">Nevill 1919</ref>, p. 66). CD was in London from 31 March until 12 April 1875 (see ‘Journal’ (Appendix II)).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

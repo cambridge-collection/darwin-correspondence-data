@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5137">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To George Bentham   [July–September 1866]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">12132</idno>
+            
+            
+            
+            
+            <date when="2004">2004</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5137 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5137.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5137.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="14">14</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">AL incomplete</note>
+            <note type="physdesc" n="AL">inc</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Royal Botanic Gardens, Kew (Bentham Correspondence, Vol. 3, Daintree–Dyer, 1830–1884, GEB/1/3: f. 714)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_213.xml">Kew</repository>
+                    <collection>Bentham, George letters</collection>
+                    <idno>GEB/1/3: f. 714</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1866-07-01" notAfter="1866-09-30">[July–Sept 1866]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_398.xml">Bentham, George</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks GB to consider whether it is necessary for the Linnean Society to be so strict about the number of books members may borrow.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="societal" ref="#">Linnean Society</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                </opener>
+                <div type="transcription">
+                     
+<p>P.S.<ref target="#foot.f2"/> If you are on Council of Linn. Soc. do consider whether it is necessary to be so much stricter about Books than the other Societies.<ref target="#foot.f3"/> Now I have six books which I must refer to; &amp; this will take me 3 weeks to do, &amp; will cost me paying carriage <hi rend="underline">three</hi> times up to London &amp; <hi rend="underline">3 times</hi> back;—&amp; I wish only to glance over a short paper in each case.—</p>
+<p>Royal allows 4 Books.—. Geolog. I think, 6 Books.<ref target="#foot.f4"/></p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.4 wish] <hi rend="italic">above del</hi> ‘have’</note>
+                </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date range is established by Bentham’s reply (see <ref target="./DCP-LETT-5218.xml" resp="#mjhawkins">letter from George Bentham, 25 September 1866</ref> and n. 1).</note>
+            <note xml:id="foot.f2">The main section of the letter has not been found. In his <ref target="./DCP-LETT-5218.xml" resp="#automat" cert="low">letter to CD of 25 September 1866</ref>, Bentham refers to two memoranda from CD, one of which is this postscript.</note>
+            <note xml:id="foot.f3">Bentham was president of the <ref target="../nameregs/nameregs_2944.xml" resp="#mjhawkins">Linnean Society</ref>. CD was a fellow of the society, and had been given liberal borrowing privileges under the previous secretary, <ref target="../nameregs/nameregs_392.xml" resp="#mjhawkins">John Joseph Bennett</ref> (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 5, <ref target="./DCP-LETT-1638.xml" resp="#mjhawkins">letter from J. D. Hooker, [before 7 March 1855]</ref>). The current secretary and librarian was <ref target="../nameregs/nameregs_2705.xml" resp="#mjhawkins">Richard Kippist</ref>.</note>
+            <note xml:id="foot.f4">CD refers to the <ref target="../nameregs/nameregs_4110.xml" resp="#mjhawkins">Royal Society of London</ref> and the <ref target="../nameregs/nameregs_1841.xml" resp="#mjhawkins">Geological Society of London</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

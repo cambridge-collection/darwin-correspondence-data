@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3185">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To George Gordon   17 June [1861]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20317</idno>
+            
+            
+            
+            
+            <date when="1994">1994</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3185 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3185.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3185.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="09">9</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <note type="postmark">JU 17 | 61</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Elgin Museum (Gordon Archive 61.7)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_619.xml">Elgin Museum</repository>
+                    <collection>Gordon Archive</collection>
+                    <idno>61.7</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1861-06-17">17 June [1861]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1920.xml">Gordon, George (b)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Asks whether GG can help CD get specimens of <hi rend="italic">Corallorhiza</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Corallorhiza</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>June 17<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>You formerly did me the inestimable service of sending me Goodyera.<ref target="#foot.f1"/> I have now examined almost every British Orchid, except Corallorhiza. I know it is most unlikely that you can aid me in this; but I have thought that you would forgive me writing for the bare chance. As it will save you trouble, I will assume if I do <hi rend="underline">not</hi> hear that you cannot aid me.—<ref target="#foot.f2"/> If you can, will you be so very kind as to let me have a line; as in one fortnight I must go somewhere to the sea-side: &amp; as I shall take my microscope I could send you my address.</p>
+<p>Pray forgive the liberty which I have taken in troubling you &amp; with very sincere thanks for your former great kindness. Pray forgive me | Dear Sir | Yours sincerely obliged | Ch. Darwin</p>
+<p>Goodyera is growing in a shady peat-bed in my garden &amp; I have hopes it will flower with me!</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 8, <ref target="./DCP-LETT-2920.xml" resp="#mjhawkins">letter to George Gordon, 17 September [1860]</ref>. In <ref target="../bibliographies/bibl_6010.xml" resp="#mjhawkins"><hi rend="italic">Orchids</hi></ref>, p. 112 n., CD stated: ‘Specimens of this rare Highland Orchid were most kindly sent me by the Rev. G. Gordon of Elgin.’</note>
+            <note xml:id="foot.f2">The orchid genus <hi rend="italic">Corallorhiza</hi> is not described in <ref target="../bibliographies/bibl_6010.xml" resp="#mjhawkins"><hi rend="italic">Orchids</hi></ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

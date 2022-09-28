@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1041">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Harriet Lubbock   [December 1848–9]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">70</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1041 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1041.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1041.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.70)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <idno>Mss.B.D25.70</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1848-12-01" notAfter="1849-12-31">[Dec 1848–9]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3023.xml">Lubbock, Harriet</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Belittles the loss of a book borrowed from CD.</p>
+            <p>Acknowledges cheque in payment for purchase of microscope for John Lubbock.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="people" ref="#subject_3026">Lubbock, John</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <date>Wednesday Even</date>
+                    <salute>Dear Lady Lubbock</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Pray do not give yourself any trouble about the missing Vol. which, I ought to have said, is of <hi rend="underline">very</hi> little value &amp; is sure not to be wanted soon, if ever.— It will turn up of itself some day.— It is covered with brown-paper pasted on, with no title outside. Pray do not think of looking for it, but leave it to chance.</p>
+<p>Your Ladyships | Truly obliged. | C. Darwin <lb resp="#mjhawkins"/> Thursday. M<hi rend="superscript">g</hi>.</p>
+<p>Will you be so kind as to tell Sir John, I have received his cheque &amp; will send receipt with microscope,<ref target="#foot.f2"/> when complete</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.1 Ladyships] ‘L’ <hi rend="italic">over</hi> ‘l’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The reference to the microscope relates this letter to the letter to John William Lubbock which follows.</note>
+            <note xml:id="foot.f2">The instrument had been ordered for the Lubbocks’ son John, whose interest in natural history was being encouraged by CD. In an autobiographical sketch, <ref target="../nameregs/nameregs_3026.xml" resp="#mjhawkins">John Lubbock</ref> (later Lord Avebury) recalled of CD: ‘He induced my father to give me a microscope, he let me do drawings for some of his books, and I greatly enjoyed my talks and walks with him.’ (Hutchinson ed. 1914, 1: 23).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

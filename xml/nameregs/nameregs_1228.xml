@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-1228" status="released">
+    <persName>
+        <forename>Jane</forename>
+        <forename>Harriett</forename>
+        <choice>
+            <seg><surname notBefore="1794" notAfter="1815">Ryle</surname></seg>
+            <seg><surname notBefore="1815" notAfter="1866">Darwin</surname></seg>
+        </choice>
+    </persName>
+    <note type="dates"><date>1794–1866</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of John and Mary Ryle. Married Francis Sacheverel Darwin in 1815. Mother of Reginald, Violetta, and Anne Eliza Thomasine Darwin.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_1822.xml" resp="#mjhawkins"><hi rend="italic">Darwin pedigree</hi></ref></p>
+        <p><hi rend="italic">England, select births and christenings, 1538–1975</hi> (Ancestry.com, accessed 10 October 2017)</p>
+    </note>
+    <note type="volume">1,27</note>
+    <note type="keywords">
+        <term type="name">Darwin, F. S.</term>
+    </note>
+    
+</person>

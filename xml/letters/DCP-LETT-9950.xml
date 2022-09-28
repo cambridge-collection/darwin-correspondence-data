@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9950">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Humphrey Sandwith   25 April 1875</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10590</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9950 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9950.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9950.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 177: 30</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>177: 30</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4178.xml">Sandwith, Humphry</persName>
+                <placeName>Wimbledon</placeName>
+                <date when="1875-04-25">25 Apr 1875</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Announces death of W. W. Reade.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Other people</term>
+                <term type="people" ref="#subject_3950">Reade, W. W.</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">The Old House,</hi> | <hi rend="print">Wimbledon, S.W.</hi></placeName>
+                    <date>April 25/75</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>As my poor friend W. Winwood Reade often spoke of you during his illness &amp; wished you to be informed of his death, I lose no time in fulfilling this sad duty.<ref target="#foot.f1"/> He died yesterday afternoon about three. We had hoped to have pulled him through the summer at least, but the disease was too strong for us. For the first week of his arrival here he indulged hopes of recovery but during the last five or six days, he gave up all idea of living— I regret to say that his last few hours were physically very painful.<ref target="#foot.f2"/> In one so young Death &amp; Life seem to struggle for mastery in such chronic disorders as his. He preserved his intellect almost to the last &amp; said “I die a philosopher, I have no fear of the future, mark that”</p>
+<p>I beg to remain, dear Sir, | Very truly your’s | H. Sandwith <lb resp="#mjhawkins"/></p>
+<p rend="left">Chas Darwin Esq F.R.S. | &amp;c &amp;c &amp;c</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note><hi rend="italic">Top of letter</hi>: ‘To be returned’ <hi rend="italic">pencil</hi></note>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_3950.xml" resp="#mjhawkins">William Winwood Reade</ref> was staying with Sandwith during his illness (see <ref target="./DCP-LETT-9941.xml" resp="#mjhawkins">letter from W. W. Reade, 20 April 1875</ref>.)</note>
+            <note xml:id="foot.f2">Reade died aged 36 from ‘consumption complicated with other organic disease’ (<hi rend="italic">Pall Mall Gazette</hi>, 26 April 1875, p. 8).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

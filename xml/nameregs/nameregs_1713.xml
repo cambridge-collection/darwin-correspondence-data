@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-1713" status="released">
+    <persName>
+        <forename>Frances</forename>
+        <forename>Jane</forename>
+        <choice>
+            <seg><surname notBefore="1806" notAfter="1852">Fox</surname></seg>
+            <seg><surname notBefore="1852" notAfter="1894">Hughes</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1806–94</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Sister of William Darwin Fox. Married John Hughes, vicar of Penally, South Wales, in 1852. Lived in later years at Brading, Isle of Wight.</p></note>
+    <note type="sources">
+        <p>Census returns of England and Wales 1891 (The National Archives: Public Record Office RG12/894/38/23)</p>
+        <p><ref target="../bibliographies/bibl_1822.xml" resp="#mjhawkins"><hi rend="italic">Darwin pedigree</hi></ref></p>
+        <p><hi rend="italic">England &amp; Wales, national probate calendar</hi> (<hi rend="italic">index of wills and administrations</hi>)<hi rend="italic">, 1858–1966</hi> (Ancestry.com, accessed 4 August 2014)</p>
+    </note>
+    <note type="volume">1,24,28,30</note>
+    <note type="keywords">
+        <term type="name">Fox, W. D.</term>
+    </note>
+</person>

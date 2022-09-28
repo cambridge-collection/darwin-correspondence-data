@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6444">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From M. T. Masters   2 November 1868</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10082</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6444 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6444.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6444.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 78</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 78</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3217.xml">Masters, M. T.</persName>
+                <placeName>Gardeners’ Chronicle</placeName>
+                <date when="1868-11-02">2 Nov 1868</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>After examining a basket of piebald potatoes he does believe them to be a graft-hybrid as Friedrich Hildebrand might suggest.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">potatoes</term>
+                <term type="people" ref="#subject_2283">Hildebrand, F. H. G.</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">grafting</term>
+                <term type="scientific_terms" ref="#">hybrids</term>
+                <term type="scientific_terms" ref="#">negative attitude/assessment</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Gard. Chron. Office | Wellington Street | Covent Garden | W.C.</placeName>
+                    <date>Nov<hi rend="superscript">r</hi> 2. 1868</date>
+                    <salute>My dear Sir/</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>The other day I saw a basket of potatos that at once reminded me of D<hi rend="superscript">r</hi> Hildebrand<ref target="#foot.f1"/>   I secured a piebald tuber half purple half whitish (or less than half purple) and have desired it to be sent to you   This at any rate is no graft hybrid—it is just one of the pink eyed potatoes w<hi rend="superscript">h</hi>. has only been partially colored— whether it is a case of what Naudin would consider dissociation of hybrid characters is another matter—<ref target="#foot.f2"/> I doubt very much indeed any graft-hybridization taking place <hi rend="underline">in potatos</hi>, the limited duration of the stock and other points would lead me to doubt the practicability of a perfect union by grafting taking place—but I speak theoretically ie not from practical knowledge—</p>
+<p>faithfully y<hi rend="superscript">rs</hi> | Maxwell. T. Masters</p>
+<p>P.S. I ought to add that there is a <hi rend="underline">race of</hi> these pie-bald potatos—not merely one individual.</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">In the second printing of <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref>, CD reported <ref target="../nameregs/nameregs_2283.xml" resp="#mjhawkins">Friedrich Hildebrand’s</ref> success in grafting a red variety of potato with a white. The resulting graft-hybrid potato was white at one end and red at the other with a middle section of white streaked with red. Hildebrand later published the results of these experiments (Hildebrand 1868a). See <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 396 (2d printing).</note>
+            <note xml:id="foot.f2">For CD’s discussion of <ref target="../nameregs/nameregs_3492.xml" resp="#mjhawkins">Charles Victor Naudin’s</ref> concept of disjunction of character, see <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 2: 37. For Naudin’s discussion of disjunction, see Naudin 1865, pp. 150–6.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3172">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Lubbock   1 June [1861]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8453</idno>
+            
+            
+            
+            
+            <date when="1994">1994</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3172 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3172.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3172.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="09">9</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 146: 94</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 263: 42 (EH 88206486)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>263: 42 (EH 88206486)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1861-06-01">1 June [1861]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3026.xml">Lubbock, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>William Darwin can go to Southampton any time should the banking proposition come to anything. CD is sure he would work hard.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1245">Darwin, W. E.</term>
+                <term type="places" ref="#">Southampton</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="societal" ref="#">banking proposition</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>June 1<hi rend="superscript">st</hi></date>
+                    <salute>My dear Lubbock</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Many thanks for your note.<ref target="#foot.f2"/> I told William that if the proposition came to anything, he would have to join immediately, &amp; I left the acceptance entirely to his good sense, &amp; he agreed. I am sure he would work hard, for througout life whatever he has done, he has done energetically. He would go down to Southampton at any time, direct from Cambridge; though perhaps it would be best for him on the road to see you &amp; come here. This term ends about 20<hi rend="superscript">th</hi> &amp; no doubt he could get leave of absence for rest of term; &amp; then he will have kept <hi rend="underline">all</hi> his terms, &amp; next year he probably could run up for three days &amp; take his degree, for he has a natural wish (though in fact useless) just to take a degree after having completed his time &amp; worked pretty hard.<ref target="#foot.f3"/> You can, if you like, forward this note to M<hi rend="superscript">r</hi> Atherley;<ref target="#foot.f4"/> &amp; I pledge my word not to mention M<hi rend="superscript">r</hi> Atherley’s name to anyone, not even to my son William, until the affair has progressed</p>
+<p>Dear Lubbock | Ever yours truly | C. Darwin</p>
+<p>P.S. | I think if the affair progresses the best plan will be to send to William per Telegraph to come to London &amp; I would meet him there &amp; have some talk with him &amp; then he could go down to Southampton.</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.5 time,] ‘t’ <hi rend="italic">over illeg</hi></note>
+                    <note xml:id="tnote.n2">3.2 to come] <hi rend="italic">interl</hi></note>
+                </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-3171.xml" resp="#mjhawkins">letter to W. E. Darwin, 1 [June 1861]</ref>, n. 1.</note>
+            <note xml:id="foot.f2">Lubbock’s letter has not been found.</note>
+            <note xml:id="foot.f3">William left Cambridge without a degree in the summer of 1861. Having met the residency requirement of attending three terms for three years, he entered for the mathematical tripos examination of 1862 and gained a degree (<ref target="../bibliographies/bibl_3683.xml" resp="#mjhawkins"><hi rend="italic">Historical register of the University of Cambridge</hi></ref>; <ref target="../bibliographies/bibl_1801.xml" resp="#mjhawkins">F. Darwin 1914</ref>, p. 20).</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_177.xml" resp="#mjhawkins">George Atherley</ref> was a partner in the Southampton and Hampshire Bank, Southampton.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

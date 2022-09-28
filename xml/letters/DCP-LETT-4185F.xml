@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4185F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. H. Flower   25 May [1863]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">21330</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4185F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4185F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4185F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18-Supplement</biblScope>
+        </seriesStmt>
+        
+        <sourceDesc>
+            <bibl type="provenance">RR Auction (dealers) (November 2006)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_365.xml">RR Auction</repository>
+                    <collection>(dealers)</collection>
+                    <idno>(Nov 2006)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <date when="1863-05-25">25 May [1863]</date>
+                <placeName>Down</placeName>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1670.xml">Flower, W. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends cheque to pay for photographs.</p>
+        </abstract>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>May 25<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>As a cheque will probably be less troublesome than a P. order I enclose one with very many thanks, for the Photographs.—<ref target="#foot.f2"/></p>
+<p>M. Quatrefages has received them &amp; is much pleased &amp; surprised at the appearance of the Skull.—<ref target="#foot.f3"/></p>
+<p>With very sincere thanks for your great kindness, believe me | yours sincerely | C. Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-4149.xml" resp="#mjhawkins">letter from W. H. Flower, 9 May 1863</ref> (<hi rend="italic">Correspondence</hi> vol. 11).</note>
+            <note xml:id="foot.f2">According to CD’s Classed account book (Down House MS), CD made a payment of 17<hi rend="italic">s.</hi> for the photographs on 25 May 1863.</note>
+            <note xml:id="foot.f3">Flower had sent CD photographs of the niata ox skull at the Hunterian Museum and CD had sent these to Armand de Quatrefages (see <hi rend="italic">Correspondence</hi> vol. 11, <ref target="./DCP-LETT-4149.xml" resp="#mjhawkins">letter from W. H. Flower, 9 May 1863</ref>, and <ref target="./DCP-LETT-4166A.xml" resp="#mjhawkins">letter to Armand de Quatrefages, 14 May [1863]</ref>). Quatrefages acknowledged receipt of the photographs in his <ref target="./DCP-LETT-4171.xml" resp="#mjhawkins" cert="high">letter of 19 May [1863]</ref> (<hi rend="italic">ibid.</hi>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

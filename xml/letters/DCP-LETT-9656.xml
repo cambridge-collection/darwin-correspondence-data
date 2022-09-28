@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9656">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Auguste Forel<choice><seg type="original"><ref target="#foot.f1"/></seg><seg type="translation"><ref target="#foot_trans.f1"/></seg></choice>   23 September 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16868</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9656 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9656.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9656.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp (French)</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 164: 153</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>164: 153</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1686.xml">Forel, A.-H.</persName>
+                <placeName>Munich</placeName>
+                <date when="1874-09-23">23 Sept 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends a copy of his book on Swiss ants [<hi rend="italic">Les fourmis de la Suisse</hi> (1874)]. Notes points and passages that he thinks will interest CD.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Les Fourmis de la Suisse</term>
+                <term type="rx" ref="#">Forel, A.-H. 1874</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00646_files/8/0_0.jpg" width="3620px" height="6392px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00646_files/11/1_1.jpg" width="3620px" height="6392px"/>
+        <surface n="153:1r" xml:id="i646">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00646.jpg" width="3620px" height="6392px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00646_files/8/0_0.jpg" width="3620px" height="6392px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00646.dzi" width="3620px" height="6392px"/>
+        </surface>
+        <surface n="153:1v" xml:id="i647">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00647.jpg" width="3620px" height="6392px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00647_files/8/0_0.jpg" width="3620px" height="6392px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00647.dzi" width="3620px" height="6392px"/>
+        </surface>
+        <surface n="153:2r" xml:id="i648">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00648.jpg" width="3620px" height="6392px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00648_files/8/0_0.jpg" width="3620px" height="6392px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00648.dzi" width="3620px" height="6392px"/>
+        </surface>
+        <surface n="153:2v" xml:id="i649">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00649.jpg" width="3620px" height="6392px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00649_files/8/0_0.jpg" width="3620px" height="6392px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00649.dzi" width="3620px" height="6392px"/>
+        </surface>
+    </facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Kreisirrenanstalt München</placeName>
+                    <date>23 IX 74</date>
+                    <salute>Monsieur,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Je me permets de vous envoyer en même temps que cette lettre un travail sur les fourmis de la Suisse que je viens de faire paraître dans les Mémoires de la société helvétique des sciences naturelles.<ref target="#foot.f2"/> Il y a beaucoup d’années que j’étudie ce sujet, et je crois être arrivé à un certain nombre de résultats concernant les moeurs si curieuses de ces insectes qui ne pourront manquer de vous intéresser. J’y ai joint l’étude de la systématique et de l’anatomie. Pour ne vous signaler qu’un fait, je suis arrivé à démontrer positivement que certaines espèces (F. <hi rend="underline">exsecta</hi>, <hi rend="underline">truncicola</hi>, <hi rend="underline">pratensis</hi> etc.) qui à l’ordinaire ne font jamais d’esclaves, se trouvent dans des cas fort rares en fourmilières <hi rend="underline">mixtes</hi> avec la <hi rend="underline">F. fusca</hi>, vivant en parfaite intelligence avec elle.<ref target="#foot.f3"/></p>
+<p>Permettez-moi de vous indiquer les pages d’un certain nombre d’observations que je crois pouvoir plus particulièrement vous intéresser:<ref target="#foot.f4"/></p> 
+
+    <table>
+        <row>
+            <cell rend="left">p</cell>
+            <cell rend="left">13</cell>
+            <cell>—</cell>
+            <cell rend="left">19</cell>
+        </row>
+        <row>
+            <cell rend="left">p.</cell>
+            <cell rend="right">121</cell>
+            <cell>—</cell>
+            <cell rend="right">134</cell>
+        </row>
+        <row>
+            <cell rend="left">p.</cell>
+            <cell rend="right">144</cell>
+            <cell>—</cell>
+            <cell rend="right">147</cell>
+        </row>
+        <row>
+            <cell rend="left">p</cell>
+            <cell rend="right">118</cell>
+            <cell>—</cell>
+            <cell rend="right">121</cell>
+        </row>
+        <row>
+            <cell rend="left">"</cell>
+            <cell rend="right">258</cell>
+            <cell>—</cell>
+            <cell rend="right">269</cell>
+        </row>
+        <row>
+            <cell rend="left">pag.</cell>
+            <cell rend="right">272</cell>
+            <cell>—</cell>
+            <cell rend="right">274</cell>
+        </row>
+        <row>
+            <cell rend="left borderBottom">"</cell>
+            <cell rend="right borderBottom">276</cell>
+            <cell rend="borderBottom">—</cell>
+            <cell rend="right borderBottom">283</cell>
+        </row>
+        <row>
+            <cell rend="left borderTop">"</cell>
+            <cell rend="right borderTop">285</cell>
+            <cell rend="borderTop">—</cell>
+            <cell rend="right borderTop">293</cell>
+        </row>
+        <row>
+            <cell rend="left">"</cell>
+            <cell rend="right">299</cell>
+            <cell>—</cell>
+            <cell rend="right">300</cell>
+        </row>
+        <row>
+            <cell rend="left">"</cell>
+            <cell rend="right">308</cell>
+            <cell>—</cell>
+            <cell rend="right">310</cell>
+        </row>
+        <row>
+            <cell rend="left">"</cell>
+            <cell rend="right">341</cell>
+            <cell>—</cell>
+            <cell rend="right">351</cell>
+        </row>
+        <row>
+            <cell rend="left">"</cell>
+            <cell rend="right">314</cell>
+            <cell>—</cell>
+            <cell rend="right">315</cell>
+        </row>
+        <row>
+            <cell rend="left">"</cell>
+            <cell rend="right">371</cell>
+            <cell>—</cell>
+            <cell rend="right">374</cell>
+        </row>
+        <row>
+            <cell rend="left">"</cell>
+            <cell rend="right">386</cell>
+            <cell>—</cell>
+            <cell rend="right">388</cell>
+        </row>
+        <row>
+            <cell rend="left">"</cell>
+            <cell rend="right">391</cell>
+            <cell>—</cell>
+            <cell rend="right">396</cell>
+        </row>
+        <row>
+            <cell rend="left">"</cell>
+            <cell rend="right">440</cell>
+            <cell>—</cell>
+            <cell rend="right">449</cell>
+        </row>
+   </table>
+ 
+<p>Page III (au commencement), alinéa d’en haut.</p>
+<p>Je n’aurais jamais pu arriver à connaître les moeurs des fourmis si je ne m’y étais mis à les étudier dès mon enfance, guidé par l’ouvrage de Pierre Huber.<ref target="#foot.f5"/> Plus tard on ne Dispose plus d’autant de temps, ce qui est mon plus grand regret, car on pourrait employer encore beaucoup de vies d’hommes à la seule étude des moeurs des fourmis.</p>
+<p>Ai-je besoin d’ajouter, Monsieur, que la lumière qu’ont répandue vos travaux sur toutes les sciences naturelles rejaillit aussi sur le petit monde des fourmis, et permet d’y entrevoir l’enchaînement d’une foule de faits qui sans cela seraient totalement incompréhensible (p. ex. la série concernant l’instinct esclavagiste, indiquée au haut de la p. 443).<ref target="#foot.f6"/></p>
+<p>J’espère n’avoir pas trop présumé de mon travail en pensant qu’il pourrait vous intéresser, et je vous prie, Monsieur, d’agréer l’assurance de mon respect et de ma très haute considération, | D<hi rend="superscript">r</hi> Aug. Forel | Assistenzarzt an der | Kreisirrenanstalt | zu München | Bayern</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+        
+        
+        <div type="translation">
+            <div type="text">
+                <opener>
+                    <placeName>Kreisirrenanstalt München</placeName>
+                    <date>23 IX 74</date>
+                    <salute>Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am taking the liberty of sending you, with this letter, a work on the ants of Switzerland that I have just brought out in the Memoirs of the Helvetic Society for the Natural Sciences.<ref target="#foot.f2"/> I have been studying this subject for many years, and I think I have attained certain results concerning the very curious habits of these insects that cannot fail to interest you. I have added to it the study of systematics and anatomy. To indicate just one fact to you, I have managed to demonstrate positively that certain species (F. <hi rend="underline">exsecta</hi>, <hi rend="underline">truncicola</hi>, <hi rend="underline">pratensis</hi> etc.) which in the ordinary way never take slaves, are found in very rare cases in <hi rend="underline">mixed</hi> anthills with <hi rend="underline">F. fusca</hi>, living together in perfect understanding.<ref target="#foot.f3"/></p>
+<p>Allow me to indicate to you the pages of certain observations that I believe may interest you more particularly:<ref target="#foot.f4"/></p> 
+                   
+                        <table>
+                            <row>
+                                <cell rend="left">p</cell>
+                                <cell rend="left">13</cell>
+                                <cell>—</cell>
+                                <cell rend="left">19</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">p.</cell>
+                                <cell rend="right">121</cell>
+                                <cell>—</cell>
+                                <cell rend="right">134</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">p.</cell>
+                                <cell rend="right">144</cell>
+                                <cell>—</cell>
+                                <cell rend="right">147</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">p</cell>
+                                <cell rend="right">118</cell>
+                                <cell>—</cell>
+                                <cell rend="right">121</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">"</cell>
+                                <cell rend="right">258</cell>
+                                <cell>—</cell>
+                                <cell rend="right">269</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">pag.</cell>
+                                <cell rend="right">272</cell>
+                                <cell>—</cell>
+                                <cell rend="right">274</cell>
+                            </row>
+                            <row>
+                                <cell rend="left borderBottom">"</cell>
+                                <cell rend="right borderBottom">276</cell>
+                                <cell rend="borderBottom">—</cell>
+                                <cell rend="right borderBottom">283</cell>
+                            </row>
+                            <row>
+                                <cell rend="left borderTop">"</cell>
+                                <cell rend="right borderTop">285</cell>
+                                <cell rend="borderTop">—</cell>
+                                <cell rend="right borderTop">293</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">"</cell>
+                                <cell rend="right">299</cell>
+                                <cell>—</cell>
+                                <cell rend="right">300</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">"</cell>
+                                <cell rend="right">308</cell>
+                                <cell>—</cell>
+                                <cell rend="right">310</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">"</cell>
+                                <cell rend="right">341</cell>
+                                <cell>—</cell>
+                                <cell rend="right">351</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">"</cell>
+                                <cell rend="right">314</cell>
+                                <cell>—</cell>
+                                <cell rend="right">315</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">"</cell>
+                                <cell rend="right">371</cell>
+                                <cell>—</cell>
+                                <cell rend="right">374</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">"</cell>
+                                <cell rend="right">386</cell>
+                                <cell>—</cell>
+                                <cell rend="right">388</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">"</cell>
+                                <cell rend="right">391</cell>
+                                <cell>—</cell>
+                                <cell rend="right">396</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">"</cell>
+                                <cell rend="right">440</cell>
+                                <cell>—</cell>
+                                <cell rend="right">449</cell>
+                            </row>
+                        </table>
+                                         
+<p>Page III (at the beginning), from the first indent.</p>
+<p>I could never have come to know the habits of ants if I had not undertaken to study them since my childhood, guided by the work of Pierre Huber.<ref target="#foot.f5"/> Later so much time is no longer at one’s disposal, which is my greatest regret, for one could employ many more human lifetimes on the study of ant habits alone.</p>
+<p>Need I add, Sir, that the light your work has shed on all the natural sciences shines also on the little world of ants, and allows a host of facts to be perceived there that would in its absence have been totally incomprehensible (e.g. the series concerning the slave-making instinct, indicated at the top of p. 443).<ref target="#foot.f6"/> I hope I have not presumed too much of my work in thinking that it might interest you; I remain, Sir, yours very truly, | D<hi rend="superscript">r</hi> Aug. Forel | Junior doctor at the | Distric Lunatic Asylum, | Munich | Bavaria</p> 
+                </div>
+            </div>
+            
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">For a translation of this letter, see Appendix I.</note>
+            <note xml:id="foot_trans.f1">For a transcription of this letter in its original French, see pp. QQQQ.</note>
+            <note xml:id="foot.f2">CD’s annotated copy of Forel’s monograph on the ants of Switzerland (<ref target="../bibliographies/bibl_8587.xml" resp="#mjhawkins">Forel 1874</ref>) is in the Darwin Library–CUL (see <ref target="../bibliographies/bibl_5214.xml" resp="#mjhawkins"><hi rend="italic">Marginalia</hi></ref> 1: 237–40).</note>
+            <note xml:id="foot.f3">See <ref target="../bibliographies/bibl_8587.xml" resp="#mjhawkins">Forel 1874</ref>, pp. 371–3. Forel refers to the species <hi rend="italic">Formica exsecta</hi>, <hi rend="italic">F. truncicola</hi> (a synonym of <hi rend="italic">F. truncorum</hi>), <hi rend="italic">F. pratensis</hi>, and <hi rend="italic">F. fusca</hi>.</note>
+            <note xml:id="foot.f4">In the back of his copy of <ref target="../bibliographies/bibl_8587.xml" resp="#mjhawkins">Forel 1874</ref>, CD noted all the pages indicated by Forel and added a brief synopsis of the subject matter in each section (see <ref target="../bibliographies/bibl_5214.xml" resp="#mjhawkins"><hi rend="italic">Marginalia</hi></ref> 1: 237–9).</note>
+            <note xml:id="foot.f5"><ref target="../nameregs/nameregs_2424.xml" resp="#mjhawkins">Jean Pierre Huber’s</ref> <hi rend="italic">Recherches sur les mœurs des fourmis indigènes</hi> (Studies on the habits of native ants; <ref target="../bibliographies/bibl_3906.xml" resp="#mjhawkins">Huber 1810</ref>).</note>
+            <note xml:id="foot.f6">Forel gave a series of examples to show the evolution from non-slave-making ants to those that relied so much on slaves that they lacked workers of their own species. The latter, he argued, could be seen as having returned to an ancestral state without workers by means of parasitism. (<ref target="../bibliographies/bibl_8587.xml" resp="#mjhawkins">Forel 1874</ref>, p. 443.)</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

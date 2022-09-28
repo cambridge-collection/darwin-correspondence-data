@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1427">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. S. Dismorr<ref target="#foot.f1"/>   6 May [1851]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13263</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1427 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1427.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1427.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="C">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 143: 385</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>143: 385</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1851-05-06">6 May [1851]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1327.xml">Dismorr, J. S.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Congratulates JD on discovery of fossil footsteps near Port Philip, Australia. Richard Owen would be glad to examine them. J. B. Jukes most likely to know geology of Port Philip.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_2620">Jukes, J. B.</term>
+                <term type="people" ref="#subject_3629">Owen, Richard</term>
+                <term type="places" ref="#">Australia</term>
+                <term type="places" ref="#">Port Philip</term>
+                <term type="scientific_terms" ref="#">behaviour</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">fossils</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">positive criticism of correspondent</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough</placeName>
+                    <date>May 6</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very much obliged to you for informing me of your interesting discovery of fossil footsteps near Port Philip in Australia— The first observed in the Southern hemisphere &amp; the more interesting from the probability of the Footsteps being palaeozoic—<ref target="#foot.f2"/> Circumstance will prevent my coming to town for a considerable time otherwise I should have much liked to have seen your specimens. Professor Owen of the R College of Surgeons, Lincoln’s Inn Fields the highest authority in the world on Zoology has lately been attending to the subject<ref target="#foot.f3"/> &amp; I feel sure would be very glad to examine the footsteps if you would take the trouble to send or take your specimens there &amp; this note would serve as an introduction to him &amp; I am sure he would be pleased to give you all the information in his power on your interesting specimens Mr Jukes of the Museum of Economic Geology is the most likely man to know whatever little is known of the geology of Port Philip—<ref target="#foot.f4"/> I am extremely glad to hear that you will yourself on your return attend to the formation &amp; I hope that you will be enabled to send home some fossil shells from some overlying bed—</p>
+<p>Dear Sir | Yours faithfully | C Darwin <lb resp="#mjhawkins"/> J S Disnurr Esq</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dismorr was a Scottish-born draper in Australis.</note>
+            <note xml:id="foot.f2">The specimens turned out not to be fossil footprints but rather hollow concretionary forms (see <ref target="" resp="#automat">letter to J. S. Dismorr, 15 May [1851]</ref>).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_3629.xml" resp="#mjhawkins">Richard Owen</ref> had read a paper on Canadian fossil footprints at the Geological Society meeting of 30 April 1851 (<ref target="../bibliographies/bibl_6081.xml" resp="#mjhawkins">R. Owen 1851</ref>).</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_2620.xml" resp="#mjhawkins">Joseph Beete Jukes</ref> was naturalist to the expedition for surveying the north-east coast of Australia in H.M.S. <hi rend="italic">Fly</hi>, 1842–6.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

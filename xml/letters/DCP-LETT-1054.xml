@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1054">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Bernhard Studer   20 January [1847]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1100</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1054 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1054.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1054.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Burgerbibliothek Bern, Bern, Switzerland</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_41.xml">Bern</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1847-01-20">20 Jan [1847]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4602.xml">Studer, Bernhard</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Much interested in BS’s letter on gneiss ["Remarks on the geological relations of the gneiss of the Alps", <hi rend="italic">Edinburgh New Philos. J.</hi> 42 (1847): 186–7].</p>  
+<p>Sends copy of <hi rend="italic">South America</hi>.</p> 
+            <p>Has shown that lamination of metamorphic schists closely allied with cleavage.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="geology" ref="#">cleavage</term>
+                <term type="geology" ref="#">metamorphic schists</term>
+                <term type="it" ref="#">Edinburgh New Philos. J.</term>
+                <term type="it" ref="#">South America</term>
+                <term type="rx" ref="#">Studer, Bernhard 1847b</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough | Kent</placeName>
+                    <date>Jan 20<hi rend="superscript">th</hi>.</date>
+                    <salute>Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I have been so much interested by a letter of yours, in the last Edinburgh New Philosoph. Joournal,<ref target="#foot.f1"/> on the laminæ in gneiss not having been formed as planes of deposition, that I have taken the liberty to send you a copy of my Geolog. Observ. on S. America, published last autumn on account of a discussion on this subject. If you read English I hope you will take the trouble to read from p. 162 to 168, in which I have endeavoured to show that the lamination (denominated by me foliation after a suggestion of Prof. Sedgwick)<ref target="#foot.f2"/> of the metamorphic schists is a closely allied phenomenon with cleavage.</p>
+<p>With many apologies for my presumption in thus addressing you, I beg to remain with much respect | Your faithful &amp; obedt. sert | Charles Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.4 published last autumn] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">1.8 cleavage.] <hi rend="italic">after del</hi> <hi rend="italic">illeg</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Studer 1847b.</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_7072.xml" resp="#mjhawkins">Sedgwick 1835</ref>, pp. 477–80.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3219">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Lubbock   26 July [1861]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8450</idno>
+            
+            
+            
+            
+            <date when="1994">1994</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3219 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3219.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3219.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="09">9</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 146: 99</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 263: 45 (EH 88206489)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>263: 45 (EH 88206489)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Torquay</placeName>
+                <date when="1861-07-26">26 July [1861]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3026.xml">Lubbock, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks JL for assistance with William Darwin’s banking partnership; considers everything is now settled.</p>
+            <p>Is enjoying himself and doing a little work on orchids.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">orchids</term>
+                <term type="people" ref="#subject_1245">Darwin, W. E.</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="societal" ref="#">banking partnership</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>2. Hesketh Crescent | Torquay</placeName>
+                    <date>July 26<hi rend="superscript">th</hi></date>
+                    <salute>My dear Lubbock</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am much obliged to you for so kindly seeing M<hi rend="superscript">r</hi>. Hacon from whom I heard this morning.—<ref target="#foot.f2"/> It was <hi rend="underline">entirely</hi> M<hi rend="superscript">r</hi> Hacon’s wish &amp; suggestion that William should from the first have the power of giving one year’s notice.— Having heard from him what you say I have written to him to agree to the seven years.— So little do I understand the advantages &amp; disadvantages of the several points, that I had got to wish for a longer term than seven years.— So I felt forced to put myself into M<hi rend="superscript">r</hi> Hacon’s hands. I consider now that in fact everything is settled; &amp; I am heartily glad to think that you will have no more trouble.<ref target="#foot.f3"/> William has never for an instant fluctuated in his strong wish to join. Pray repeat my sincere thanks to Sir John.—<ref target="#foot.f4"/></p>
+<p>I am enjoying myself &amp; can walk a couple of miles out; &amp; am doing a very little work in drawing up my Orchis paper.— Whether we shall stop here long I am very doubtful, for it is excessively damp &amp; does not seem to suit Etty or my wife, which is a terrible evil &amp; what to do &amp; where to go Heaven only knows.</p>
+<p>My dear Lubbock | Yours gratefully | Charles Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.6 myself] <hi rend="italic">after del</hi> <hi rend="italic">illeg</hi></note>
+                </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is given by the Darwins’ stay in Torquay (see ‘Journal’; Appendix II).</note>
+            <note xml:id="foot.f2">CD’s solicitor, <ref target="../nameregs/nameregs_2042.xml" resp="#mjhawkins">William Mackmurdo Hacon</ref> of Rowland and Hacon, 31 Fenchurch Street, London, was negotiating the contractual details connected with <ref target="../nameregs/nameregs_1245.xml" resp="#mjhawkins">William Erasmus Darwin’s</ref> joining a Southampton bank. See <ref target="./DCP-LETT-3209.xml" resp="#mjhawkins">letter to John Lubbock, 14 July [1861]</ref>.</note>
+            <note xml:id="foot.f3">The arrangements for making William Darwin a partner in the Southampton and Hampshire Bank, which began in May, were concluded in August (see <ref target="./DCP-LETT-3229.xml" resp="#mjhawkins">letter to John Lubbock, 10 August [1861]</ref>).</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_3026.xml" resp="#mjhawkins">John Lubbock’s</ref> father, John William Lubbock, had given CD advice about the legal provisions of the contract (see <ref target="./DCP-LETT-3209.xml" resp="#mjhawkins">letter to John Lubbock, 14 July [1861]</ref>). Father and son were both partners in the London bank <ref target="../nameregs/nameregs_4024.xml" resp="#mjhawkins">Robarts, Lubbock &amp; Co</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

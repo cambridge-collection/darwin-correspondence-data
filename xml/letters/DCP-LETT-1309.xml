@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1309">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Abraham Clapham   8 March 1850</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16420</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1309 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1309.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1309.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 161: 150</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>161: 150</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_932.xml">Clapham, Abraham</persName>
+                <placeName>Scarborough</placeName>
+                <date when="1850-03-08">8 Mar 1850</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Results of crosses in <hi rend="italic">Phlox</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Phlox</term>
+                <term type="scientific_terms" ref="#">crossing</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Scarbro’</placeName>
+                    <date>8<hi rend="superscript">th</hi>. March 50</date>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+<p>My attention has recently been called to the very singular fact that I have obtained <hi rend="underline">evergreen</hi> phloxes by impregnating the annual varieties (Drummondii) with the perennial species or seedlings—<ref target="#foot.f1"/> this fact is extremely interesting when we consider that the perennial phloxes not only drop their leaves but also that their woody stems completely die down</p>
+<p>I shall try further experiments with the object of obtaining more definite information &amp; remain D<hi rend="superscript">r</hi> Sir | Yours very truly | A. Clapham <lb resp="#mjhawkins"/> C. Darwin Esq<hi rend="superscript">r</hi>. I do not wish you to understand that I profess to have raised the first phlox such as I have described for phlox depressor &amp; several Continental varieties appear to have been obtained either by the accidental or intentional intermixture of the two species, but I am not aware that the curious result which I have named has been before observed—the same object has been attained (so far as regards the acquisition of leaves by crossing Rhododendron onto the Azalia</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note> 1.2 (Drummondii) … consider that 1.4] <hi rend="italic">double scored pencil</hi> </note>
+                <note> <hi rend="italic">Top of first page</hi>: ‘n. 2’<hi rend="italic">pencil, circled pencil</hi>; ‘17’<ref target="#foot.f2"/> <hi rend="italic">brown crayon</hi> </note>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Clapham had carried out hybridisation experiments on <hi rend="italic">Phlox</hi> for CD previously (see letters to <ref target="../nameregs/nameregs_932.xml" resp="#mjhawkins">Abraham Clapham</ref>, <ref target="./DCP-LETT-1137.xml" resp="#mjhawkins">[29 October 1847?]</ref> and <ref target="./DCP-LETT-1278.xml" resp="#mjhawkins">10 December [1849]</ref>). CD’s interest in the nature of annual plants and the possibility of their becoming perennial or being propagated by cuttings from year to year is shown in his Questions &amp; experiments notebook, pp. 2, 5 (<ref target="../bibliographies/bibl_5912.xml" resp="#mjhawkins"><hi rend="italic">Notebooks</hi></ref>).</note>
+            <note xml:id="foot.f2">The number indicates that the letter was filed in one of CD’s portfolios of notes for future use. Portfolio seventeen contained notes and scraps relating to hybrids and hybridism; some of the contents are now in DAR 205.7.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

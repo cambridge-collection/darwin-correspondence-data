@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2061">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To <hi rend="italic">Gardeners’ Chronicle</hi>   [after 28 February 1857]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">15618</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2061 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2061.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2061.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Collected papers</hi> 1: 273</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 6: 349</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance"><hi rend="italic">Gardeners’ Chronicle and Agricultural Gazette</hi>, 7 March 1857, p. 155</bibl>
+            <bibl type="printedSource">Gard. Chron. 1857: 155</bibl>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1857-03-01" notAfter="1882-12-31">[after 28 Feb 1857]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1808.xml">Gardeners’ Chronicle</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Reports that he fertilised a single pale red carnation with the pollen of a crimson Spanish pink, and a Spanish pink with the pollen of the same carnation. He got seed from both crosses and raised many seedlings. There was no difference between the seedlings from reciprocal crosses, not one plant set a single seed.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">carnation, pale red</term>
+                <term type="plants" ref="#">pink, Spanish</term>
+                <term type="plants" ref="#">pink, Spanish, crimson</term>
+                <term type="scientific_terms" ref="#">crossing</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fertility and/or sterility</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">type and morphology</term>
+                <term type="scientific_terms" ref="#">varieties</term>
+                <term type="scientific_terms" ref="#">young, offspring</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+<p>As you have noticed hybrid Dianths,<ref target="#foot.f2"/> you may like to hear that the summer before last I fertilised a poor single pale red Carnation with the pollen of a crimson Spanish Pink; and likewise a Spanish Pink with the pollen of the same Carnation.<ref target="#foot.f3"/> I got seed from both crosses in fair number; namely, 77 seed from two pods of the Spanish Pink, and raised plenty of seedlings. In the eyes of a florist they would be, I presume, quite worthless from their straggling habit; but they were showy, and like most hybrids produced during a long time an extraordinary abundance of flowers. They varied somewhat in colour, but in no other respect; and one variety was of a really beautiful pale crimson. Taken in a mass there was no difference between the reciprocal crosses. Not one plant of either lot set a single seed. One plant came up identical with the Spanish Pink; no doubt owing to a few grains of the pollen of the Spanish Pink not having been removed; for Gærtner has shown that this is sometimes the result when a flower is fertilised with mixed pollen.<ref target="#foot.f4"/> I may add that Gærtner raised many hybrids between various species of Dianthus. <hi rend="underline">C. Darwin, Down, Bromley, Kent.</hi></p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated on the basis that the letter was written in response to an item published in the <hi rend="italic">Gardeners’ Chronicle</hi>, 28 February 1857, p. 132 (see n. 2, below).</note>
+            <note xml:id="foot.f2"><hi rend="italic">Gardeners’ Chronicle</hi>, 28 February 1857, p. 132, described two hybrid <hi rend="italic">Dianthus</hi> plants with quite different flowers that were believed to have grown from seeds from the same seed-capsule.</note>
+            <note xml:id="foot.f3">CD also carried out hybridising experiments on wild <hi rend="italic">Dianthus caryophyllus</hi> in the summer of 1855 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 5, <ref target="./DCP-LETT-1716.xml" resp="#mjhawkins">letter to J. S. Henslow, 11 July [1855]</ref>).</note>
+            <note xml:id="foot.f4"><ref target="../bibliographies/bibl_2736.xml" resp="#mjhawkins">Gärtner 1849</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

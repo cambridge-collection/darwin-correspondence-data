@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-112">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Francis Beaufort   1 September [1831]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1987</idno>
+            
+            
+            
+            
+            <date when="1985">1985</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-112 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-112.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-112.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="01">1</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="endorsement" subtype="letter">Stamped SE 12 31</note>
+            <note type="endorsement" subtype="letter">Notation on letter by Robert Fitzroy: Sept 22<hi rend="superscript">th</hi>. Let him be borne on the books for victuals only 10 F.R</note>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">The National Archives (TNA) (Adm 1/4541 PRO D 262)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_285.xml">The National Archives</repository>
+                    <idno>Adm 1/4541 PRO D 262</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Shrewsbury</placeName>
+                <date when="1831-09-01">1 Sept [1831]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_348.xml">Beaufort, Francis</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>CD accepts going with Capt. FitzRoy. Explains earlier refusal as owing to his father’s disapproval.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1234">Darwin, R. W.</term>
+                <term type="people" ref="#subject_1650">FitzRoy, Robert</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Shrewsbury</placeName>
+                    <date>September the 1<hi rend="superscript">st</hi>.</date>
+                    <salute>Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I take the liberty of writing to you according to M<hi rend="superscript">r</hi>. Peacocks desire to acquaint you with my acceptance of the offer of going with Capt Fitzroy. Perhaps you may have received a letter from M<hi rend="superscript">r</hi>. Peacock, stating my refusal; this was owing to my Father not at first approving of the plan, since which time he has reconsidered the subject: &amp; has given his consent &amp; therefore if the appointment is not already filled up,—I shall be very happy to have the honor of accepting it.— There has been some delay owing to my being in Wales, when the letter arrived.—<ref target="#foot.f1"/> I set out for Cambridge tomorrow morning, to see Professor Henslow: &amp; from thence will proceed immediately to London.—</p>
+<p>I remain Sir | Your humble &amp; obedient servant | Chas. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD made a geological tour of North Wales with <ref target="../nameregs/nameregs_4276.xml">Adam Sedgwick</ref> from 5 to 20 August 1831 (see the <ref target="./DCP-LETT-116.xml" resp="#mjhawkins">letter from Adam Sedgwick, 4 September 1831</ref>); he and Sedgwick, however, were together for no more than about one week during this trip (see <ref target="../bibliographies/bibl_381.xml" resp="#mjhawkins">Barrett 1974</ref>, pp. 147–8). CD returned to Shrewsbury on the 29th (see <ref target="./DCP-LETT-120.xml" resp="#mjhawkins">letter to W. D. Fox, 6 [September 1831]</ref>), after spending some time with friends at Barmouth.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

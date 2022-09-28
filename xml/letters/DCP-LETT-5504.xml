@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5504">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Murray   17 April [1867]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9518</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5504 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5504.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5504.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 348</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 348</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+                <placeName>London, Albemarle St, 50a</placeName>
+                <date when="1867-04-17">17 Apr [1867]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>On cost of electrotypes from woodcuts for <hi rend="italic">Variation</hi> and price to charge Schweizerbart.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="it" ref="#">Variation</term>
+                <term type="societal" ref="#">E. Schweizerbart’sche Verlagsbuchhandlung</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">50<hi rend="superscript">A</hi>, Albemarle S<hi rend="superscript">t</hi>. | W.</hi></placeName>
+                    <date>Ap. 17</date>
+                    <salute>My Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>The cost price of a set of Electrotypes from the woodcuts of your new work is £4"10"— I think M<hi rend="superscript">r</hi> Schweitzererbart sh<hi rend="superscript">d</hi> pay £10"   as for the Russian Edition, you can fix the price as you please—<ref target="#foot.f2"/> I will insure that M<hi rend="superscript">r</hi> Clowes makes good Electros—<ref target="#foot.f3"/></p>
+<p>I can send those for Schweitzerbart as he directs.</p>
+<p>I remain | My Dear Sir | Yours faithfully | John Murray <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Chas Darwin Esq</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-5497.xml" resp="#mjhawkins">letter to John Murray, 10 April [1867]</ref>.</note>
+            <note xml:id="foot.f2">In his <ref target="./DCP-LETT-5497.xml" resp="#automat" cert="medium">letter to Murray of 10 April [1867]</ref>, CD had asked Murray to have a set of stereotypes of the illustrations to <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> made for the publisher <ref target="../nameregs/nameregs_4245.xml" resp="#mjhawkins">Christian Friedrich Schweizerbart</ref> for the German translation; he had enquired about the cost on behalf of the Russian translator, Vladimir Onufrievich Kovalevsky.</note>
+            <note xml:id="foot.f3">Murray refers to <ref target="../nameregs/nameregs_978.xml" resp="#mjhawkins">William Clowes</ref>, a London printer.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

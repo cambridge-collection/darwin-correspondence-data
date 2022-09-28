@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2123">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Lubbock   14 [July 1857]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8475</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2123 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2123.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2123.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">LL</hi> 2: 104</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 6: 430</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 263: 18 (EH88206467)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>263: 18 (EH 88206467)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1857-07-14">14 [July 1857]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3026.xml">Lubbock, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks JL for saving him from "a disgraceful blunder". Following their conversation he has divided the New Zealand flora as JL suggested and finds genera with four or more species are more variable than those with three or less. It will take several weeks to go back over all his material.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="places" ref="#">New Zealand</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">higher groupings (‘family’, ‘class’, ‘order’ etc)</term>
+                <term type="scientific_terms" ref="#">negative attitude/assessment</term>
+                <term type="scientific_terms" ref="#">negative self-criticism</term>
+                <term type="scientific_terms" ref="#">number of species</term>
+                <term type="scientific_terms" ref="#">variation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down.—</placeName>
+                    <date>14<hi rend="superscript">th</hi></date>
+                    <salute>My dear Lubbock</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>You have done me the greatest possible service in helping me to clarify my Brains. If I am as muzzy on all subjects as I am on proportions &amp; chance,—what a Book I shall produce!—</p>
+<p>I have divided N. Zealand Flora as you suggested. There are 339 species in genera of 4 &amp; upwards &amp; 323 in genera of 3 &amp; less. The 339 species have 51 species presenting one or more varieties—<ref target="#foot.f2"/> The 323 species have only 37: proportionally (as 339:323 \:\: 51.:48.5) they ought to have had 48<formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> species presenting vars.— So that the case goes as I want it, but not strong enough, without it be general, for me to have much confidence in.</p>
+<p>I am quite convinced yours is the right way; I had thought of it, but sh<hi rend="superscript">d</hi> never have done it, had it not been for my most fortunate conversation with you.</p>
+<p>I am quite shocked to find how easily I am muddled, for I had before thought over the subject much, &amp; concluded my way was fair. It is dreadfully erroneous. What a disgraceful blunder you have saved me from. I heartily thank you—<ref target="#foot.f3"/></p>
+<p>Ever yours | C. Darwin</p>
+<p>It is enough to make me tear up all my M.S. &amp; give up in despair.—</p>
+<p>It will take me several weeks to go over all my materials. But oh if you knew how thankful I am to you.—</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 muzzy] <hi rend="italic">altered from</hi> ‘muzzey’</note>
+                    <note xml:id="tnote.n2">2.4 (as 339:323 :: 51.:48.5)] <hi rend="italic">square brackets in MS</hi></note>
+                    <note xml:id="tnote.n3">2.5 strong] <hi rend="italic">after del</hi> ‘nearly’</note>
+                    <note xml:id="tnote.n4">2.5 general] <hi rend="italic">after del</hi> ‘very’</note>
+                    <note xml:id="tnote.n5">7.2 to you—] <hi rend="italic">added</hi>; ‘to’ <hi rend="italic">over</hi> ‘—’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the relationship to the <ref target="./DCP-LETT-2130.xml" resp="#mjhawkins">letter to J. D. Hooker, 1 August [1857]</ref>.</note>
+            <note xml:id="foot.f2">CD’s calculations on <ref target="../bibliographies/bibl_3764.xml" resp="#mjhawkins">J. D. Hooker 1853–5</ref> are in DAR 16.2: 239a–46.</note>
+            <note xml:id="foot.f3">Since 1855, CD had been engaged in recording the incidence of varieties in various botanical and zoological catalogues. He wished to show that varieties were most frequent in genera that also contained a large number of species; further calculations aimed to demonstrate that these large genera were also geographically widespread and their component species individually abundant. His calculations consistently gave him the correlations he hoped for, but he failed to notice that his results were the entirely artificial consequence of a faulty method that would always have indicated an apparent positive correlation between genus size and any chosen characteristic. CD’s manuscripts (DAR 15.2, 16.1, and 16.2) show that in July 1857 he changed his method of calculation. Under Lubbock’s guidance, he began to compare the proportion of variable species in large genera with the proportion in small genera using a valid method like the one described in the letter. See <ref target="../bibliographies/bibl_989.xml" resp="#mjhawkins">J. Browne 1980</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

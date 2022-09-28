@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-657">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Richard Owen   [March 1843 – 15 May 1846]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8234</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-657 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-657.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-657.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+            <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+                <relatedItem type="publication">
+                    <bibl> <hi rend="italic">Correspondence</hi> 2: 350</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Michael H. McHugh (private collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_251.xml">McHugh, M. H.</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1843-03-01" notAfter="1846-05-15">[Mar 1843 – 15 May 1846] </date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3629.xml">Owen, Richard</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Invites the Owens to stay at Down, joining Falconer and a few others.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1585">Falconer, Hugh</term>
+                <term type="people" ref="#">Owen, Richard’s family</term>
+                <term type="places" ref="#">Down</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">inviting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Wednesday</date>
+                    <salute>My dear Owen</salute>
+                </opener>
+                <div type="transcription">
+<p>Can you spare a Sunday to rest &amp; air yourself in the country? If so would M<hi rend="superscript">rs</hi>Owen &amp; yourself give us great pleasure of coming here next Saturday, &amp; I hope bring with you your little Boy, whom our nurses could dress &amp;c &amp;c.— Pray excuse this very short notice; some arrangements about building give me no other chance at present.<ref target="#foot.f2"/> Your best plan will be to start by the 3<hi rend="superscript">o</hi>.20’ <hi rend="doubleUnderline">Croydon</hi> Train from London Bridge &amp; stop at Sydenham Station &amp; thence take a Fly on here, where you will arrive just at dinner time.— I have asked Falconer<ref target="#foot.f3"/> &amp; a few others to come by the same Train.—</p>
+<p>With our united kind remembrances to M<hi rend="superscript">rs</hi> Owen, pray believe me | Very sincerely yours | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.6 Sydenham] ‘am’ <hi rend="italic">over</hi> <hi rend="italic">illeg</hi></note>
+                    <note xml:id="tnote.n2">1.6 Station] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Richard and Caroline Owen’s son, referred to in the letter, was <ref target="../nameregs/nameregs_3636.xml" resp="#mjhawkins">William Owen</ref>, born 6 October 1837. His birth date and the reference to dressing him would seem to make 1843 the probable date for this letter, although it is endorsed in an unidentified hand ‘about 15 May 1846’.</note>
+            <note xml:id="foot.f2">The first of several building improvements at Down began in March 1843 (see <ref target="./DCP-LETT-665.xml" resp="#mjhawkins">letter to W. D. Fox, [25 March 1843]</ref>).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_1585.xml" resp="#mjhawkins">Hugh Falconer</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

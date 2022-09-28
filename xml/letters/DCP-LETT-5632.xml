@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5632">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Murray   20 September 1867</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9171</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5632 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5632.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5632.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 147: 117</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">National Library of Scotland (John Murray Archive) (Ms.42152 f. 173)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_278.xml">Murray Archive</repository>
+                    <idno>Ms.42152 f.173</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Queen Anne St, 6</placeName>
+                <date when="1867-09-20">20 Sept 1867</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks for "pleasant remittance" of £250 for 4th edition of <hi rend="italic">Origin</hi>.</p>  
+<p>Glad to see that <hi rend="italic">Orchids</hi> sells a little.</p>  
+<p>Hopes <hi rend="italic">Variation</hi> will be more successful.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="it" ref="#">Orchids</term>
+                <term type="it" ref="#">Origin</term>
+                <term type="it" ref="#">Variation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">variation</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>6 Queen Anne St | W.</placeName>
+                    <date>Sept 20<hi rend="superscript">th</hi> 1867</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I acknowledge receipt &amp; thank you for the very pleasant remittance of <hi rend="superscript">£</hi>250 for the 4<hi rend="superscript">th</hi>. Edit. of Origin.—<ref target="#foot.f1"/></p>
+<p>I enclose cheque for Presentation Copies;<ref target="#foot.f2"/> be so kind as to return me the enclosed receipted.— I am very glad to see that Orchid Book does sell a little.<ref target="#foot.f3"/> I hope the new Book will be more successful;<ref target="#foot.f4"/> but Heaven only knows.</p>
+<p>I think it will be a very good plan that I may see a portion of Index, before, I presume, it is arranged alphabetically &amp; I will compare it with the early sheets.—<ref target="#foot.f5"/></p>
+<p>With my 〈best than〉ks | yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-5630.xml" resp="#mjhawkins">letter from John Murray, 19 September [1867]</ref> and n. 2.</note>
+            <note xml:id="foot.f2">An entry in CD’s Account books–banking account (Down House MS) for 20 September 1867 records a payment of £12 for presentation copies.</note>
+            <note xml:id="foot.f3">According to the account Murray sent, 165 copies of <ref target="../bibliographies/bibl_6010.xml" resp="#mjhawkins"><hi rend="italic">Orchids</hi></ref> had been sold and 516 remained (see enclosure to <ref target="./DCP-LETT-5630.xml" resp="#mjhawkins">letter from John Murray, 19 September [1867]</ref>).</note>
+            <note xml:id="foot.f4">CD refers to <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref>; he had almost finished correcting the first proofs of the work and planned to begin working on the second proofs on 1 October 1867 (see <ref target="./DCP-LETT-5628.xml" resp="#mjhawkins">letter to J. V. Carus, 16 September 1867</ref>).</note>
+            <note xml:id="foot.f5">See <ref target="./DCP-LETT-5630.xml" resp="#mjhawkins">letter from John Murray, 19 September [1867]</ref> and n. 4.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

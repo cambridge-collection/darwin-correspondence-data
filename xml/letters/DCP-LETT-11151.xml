@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11151">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To T. H. Farrer   24 September [1877]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1437</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11151 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11151.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11151.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 144: 77</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Linnean Society of London (LS Ms 299/27)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_238.xml">Linnean Society</repository>
+                    <collection/>
+                    <idno>27</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1877-09-24">24 Sept [1877]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1599.xml">Farrer, T. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks THF for the diary of worm activity at Abinger site.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">worms</term>
+                <term type="places" ref="#">Abinger</term>
+                <term type="scientific_terms" ref="#">behaviour</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">worms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi> | (<hi rend="print">Railway Station | Orpington. S.E.R.</hi>)</placeName>
+                    <date>Sept. 24<hi rend="superscript">th</hi></date>
+                    <salute>My dear Farrer</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very greatly obliged to you for your worm-diary. Such a diary was never kept before, &amp; it will be very useful to me, so as to give an abstract of it.— I had not the least expectation of your taking such extraordinary pains.— Before you leave Abinger for London, will you look once again to see how the worms go on.—<ref target="#foot.f2"/></p>
+<p>I hope sometime that you will continue your explorations under an archæological point of view, though I hope so merely out of general curiosity.<ref target="#foot.f3"/></p>
+<p>Yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-11150.xml" resp="#mjhawkins">letter from T. H. Farrer, 23 September 1877</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-11150.xml" resp="#mjhawkins">letter from T. H. Farrer, 23 September 1877</ref>, enclosure, and n. 2. 
+CD published extracts from Farrer’s observations of worm action at the site of a Roman villa in Abinger in <ref target="../bibliographies/bibl_2241.xml" resp="#mjhawkins"><hi rend="italic">Earthworms</hi></ref>, pp. 186–9, including further observations made on 25 September and 13 October.</note>
+            <note xml:id="foot.f3">The site was left open and in 1880 Farrer made further observations of worm action there, but the excavations were not continued (<ref target="../bibliographies/bibl_2241.xml" resp="#mjhawkins"><hi rend="italic">Earthworms</hi></ref>, p. 188; <ref target="../bibliographies/bibl_10132.xml">Malden ed. 1902–12, 3</ref>: 129–34).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

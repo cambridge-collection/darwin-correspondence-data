@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2887">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To T. H. Huxley   [30? July 1860]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20160</idno>
+            
+            
+            
+            
+            <date when="1993">1993</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2887 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2887.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2887.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="08">8</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Copy</note>
+            <note type="physdesc" n="C">1p inc</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 145</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>145: 209</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>unstated</placeName>
+                <date when="1860-07-30">[30? July 1860]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2486.xml">Huxley, T. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Relates anecdote concerning the blind Henry Fawcett and the Bishop of Oxford; Fawcett proclaimed, within the other’s hearing, that the Bishop had not read the <hi rend="italic">Origin</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Origin</term>
+                <term type="people" ref="#subject_1602">Fawcett, Henry</term>
+                <term type="people" ref="#">Oxford, Bishop of</term>
+                <term type="people" ref="#subject_5128">Wilberforce, Samuel</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Hartfield]</placeName>
+                    <salute>– Wolstenholme<ref target="#foot.f2"/> (tutor of Christ’s Coll) told <hi rend="print">me</hi> (i.e. my son</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>William) last night;<ref target="#foot.f3"/> that two Cambridge men, one a blind man named Fawcett,<ref target="#foot.f4"/> were at the Brit. Assoc.; and after the meeting they happened to be near the B. of Oxford; and the one asked Fawcett whether he thought the Bishop had ever read the Origin; and the blind man shouted out in a loud voice “Oh no, I would swear he has never read a word of it.” The Bishop bounced round with an awful scowl and was just going to pitch into him, when he saw that he was blind, and said nothing.—</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the relationship to the preceding letter.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_5219.xml" resp="#mjhawkins">Joseph Wolstenholme</ref>, a fellow of Christ’s College, Cambridge, was <ref target="../nameregs/nameregs_1245.xml" resp="#mjhawkins">William Erasmus Darwin’s</ref> mathematics tutor.</note>
+            <note xml:id="foot.f3">See preceding letter.</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_1602.xml" resp="#mjhawkins">Henry Fawcett</ref>, a fellow of Trinity Hall, Cambridge, lost his sight in a shooting accident in 1858 (<ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref>). The reference is to <ref target="../nameregs/nameregs_5128.xml" resp="#mjhawkins">Samuel Wilberforce</ref>, the bishop of Oxford. See also Appendix VI.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1238">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Edward Cresy   [24 June 1849]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13206</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1238 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1238.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1238.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="C">1p</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 143: 309</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 143</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>143</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Malvern</placeName>
+                <date when="1849-06-24">[24 June 1849]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1113.xml">Cresy, Edward, Jr</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Declines to canvass for Richard King.</p>
+            <p>Water-cure has benefited health.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin himself, good or improving</term>
+                <term type="people" ref="#subject_2698">King, Richard</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>The Lodge, | Malvern.</placeName>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+<p>Your letter of the 22nd has been forwarded to me here (from Down) where I have been staying since the 10th of March, under the cold water cure, which has benefitted my health to a very considerable extent.</p>
+<p>Dr. King<ref target="#foot.f2"/> from all that you say, from his testimonials and his writings, has, I am sure, my best good wishes, but it is really impossible that I can canvass for a man not personally known to me.<ref target="#foot.f3"/> I fully appreciate the kindness of your feelings and your gratitude to Dr. King for his attentions to you, but, I think, a moment’s reflexion will show you how a strange it would appear to any third person for me to canvass with only second hand information. I return the documents to save the trouble of copies. I return home by beginning of next month, and shd. I see Owen,<ref target="#foot.f4"/> I will mention what you say of Dr. King, but his name must be pretty well known to everyone. I can only repeat with sincerity that he has my good wishes.</p>
+<p>I hope that your Father is well. In Haste, | Yours sincerely, C. Darwin. <lb resp="#mjhawkins"/> Sunday morning.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The Sunday after Edward Cresy’s letter, as mentioned by CD, and the last Sunday that CD spent at Malvern before his return to Down on 30 June (‘Journal’; <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 4, Appendix I).</note>
+            <note xml:id="foot.f2">Cresy had solicited CD’s opinion of <ref target="../nameregs/nameregs_2698.xml" resp="#mjhawkins">Richard King’s</ref> views on Arctic expeditions earlier. See second <ref target="./DCP-LETT-805.xml">letter to Edward Cresy, [before May 1848?]</ref>.</note>
+            <note xml:id="foot.f3">The canvassing may have been in support of King’s proposal to lead a search for <ref target="../nameregs/nameregs_1742.xml" resp="#mjhawkins">John Franklin</ref>. In 1850 he was appointed assistant surgeon with the H.M.S. <hi rend="italic">Resolute</hi> expedition.</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_3629.xml" resp="#mjhawkins">Richard Owen</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

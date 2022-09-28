@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7240F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John and Emma Pender   [before 23 June 1870]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">21089</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7240F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7240F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7240F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Invitation card</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 53.2: 168v</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>53.2 (ser. 2): 168v</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent" subtype="personGrp">
+                <persName key="../nameregs/nameregs_6513.xml">Pender, John</persName>
+                <persName key="../nameregs/nameregs_6512.xml">Pender, Emma</persName>
+                <date notBefore="1809-01-01" notAfter="1870-06-22">[before 23 June 1870]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        
+        <textClass>
+            <keywords>
+                <term type="listb" ref="#">unc</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+                     
+<figure type="diagram"> 
+    <p><hi rend="print">His Royal Highness</hi></p>
+    <p><hi rend="print">The Prince of Wales.</hi></p>
+    <p><hi rend="print">M<hi rend="superscript">r</hi>. &amp; M<hi rend="superscript">rs</hi>. Pender</hi></p>
+    <p><hi rend="print">request the honor of</hi></p>
+<p>M<hi rend="superscript">r</hi>. Charles Darwin’s</p>
+    <p><hi rend="print">Company on the Evening of</hi></p>
+    <p>Thursday <hi rend="print">the</hi> 23<hi rend="superscript">rd</hi>. June <hi rend="print">at</hi> 10 <hi rend="print">o’c〈lock〉</hi><ref target="#foot.f2"/></p> </figure> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note><hi rend="italic">Recto</hi>: ‘Keep’ <hi rend="italic">blue crayon circled blue crayon</hi></note>
+                <note><hi rend="italic">Verso</hi>: ‘Keep’ <hi rend="italic">blue crayon circled blue crayon</hi>; ‘Size of *page, Heading &amp; type [<hi rend="italic">above del</hi> ‘Wood-Blocks’] | Descent of Man<ref target="#foot.f3"/> | for Photographs &amp; folding Plates’ <hi rend="italic">pencil</hi></note>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the day and month mentioned in the invitation and by the year of the Penders’ party to celebrate the opening of the telegraph link with India, 1870 (see <ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref> s.v. Pender, John).</note>
+            <note xml:id="foot.f2">CD had met the prince of Wales (Albert Edward, later Edward VII) at a <ref target="../nameregs/nameregs_4110.xml" resp="#mjhawkins">Royal Society of London</ref> soirée on 28 April 1866 (<ref target="../bibliographies/bibl_2338.xml" resp="#mjhawkins"><hi rend="italic">Emma Darwin</hi> (1915)</ref>, 2: 184–5; <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242)). The party at the Penders’ London house was to celebrate the opening of a telegraphic link with India, which had been achieved under <ref target="../nameregs/nameregs_6513.xml" resp="#mjhawkins">John Pender’s</ref> supervision. About 700 people attended, including the prince of Wales. The Darwins did not arrive in London until 24 June.</note>
+            <note xml:id="foot.f3">CD’s notes are evidently to do with the publication of <hi rend="italic">Descent.</hi></note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

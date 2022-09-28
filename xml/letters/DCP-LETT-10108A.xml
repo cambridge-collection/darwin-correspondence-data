@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10108A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Annie Dowie   4 August [1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20867</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10108A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10108A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10108A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">AL incomplete<ref target="#foot.f3"/></note>
+            <note type="physdesc" n="AL">inc</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Sophie Dupré (dealer) catalogue 25 (1992)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_123.xml">Sophie Dupré</repository>
+                    <idno>catalogue 25</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1875-08-04">4 Aug [1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1369.xml">Dowie, Annie</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>CD sends his thanks for her intercession with her sister [Alice Chambers]. The extract from her father’s [Robert Chambers] diary will be sufficient.</p>
+            <p>He forwards the requested autograph.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_875">Chambers, Alice</term>
+                <term type="people" ref="#subject_875">Chambers, Robert</term>
+                <term type="people" ref="#">Dowie, Annie’s father</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">monstrosity</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">quotations / citations</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down, Beckenham, Kent</placeName>
+                    <date>4th August</date>
+                </opener>
+                <div type="transcription">
+                     
+<p>[… thanking … for] your promised intercession with your sister [… and sending an] autograph—as you care to have it— The extract from your Fathers diary will be quite sufficient […]’<ref target="#foot.f2"/></p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-10106.xml" resp="#mjhawkins">letter to Annie Dowie, 1 August [1875]</ref>.</note>
+            <note xml:id="foot.f2">CD had asked Dowie for further information relating to the apparent regrowth of a finger amputated from the hand of her sister, <ref target="../nameregs/nameregs_7556.xml" resp="#mjhawkins">Alice Chambers</ref> (<ref target="./DCP-LETT-10096.xml" resp="#mjhawkins">letter to Annie Dowie, 27 July 1875</ref>). Dowie’s reply included extracts from the diary of her father, <ref target="../nameregs/nameregs_875.xml" resp="#mjhawkins">Robert Chambers</ref> (<ref target="./DCP-LETT-10097.xml" resp="#mjhawkins">letter from Annie Dowie, [after 27 July 1875]</ref>).</note>
+            <note xml:id="foot.f3">The original letter is complete and is described in the sale catalogue as being one page long with the signature excised.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

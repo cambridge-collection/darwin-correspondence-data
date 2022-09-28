@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-13788">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Edward Cresy   8 January [1862 or 1868]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13213</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-13788 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-13788.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-13788.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Copy</note>
+            <note type="physdesc" n="C">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 143: 321</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>143: 321</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+            <date xml:id="date1" when="1862-01-08" exclude="#date2">8 Jan 1862</date>
+            <date xml:id="date2" when="1868-01-08" exclude="#date1">8 Jan 1868</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1113.xml">Cresy, Edward</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Obliged for the Theophrastus. Will return it.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_707">Cresy, Edward</term>
+                <term type="people" ref="#subject_4703">Theophrastus</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down, | Bromley, | Kent, S.E.</placeName>
+                    <date>Jan. 8th.</date>
+                    <salute>Dear Cresy,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am much obliged to you for Theophrastas, though I did not find much which concerned me.<ref target="#foot.f2"/> I will return it to-night by our Carrier, and I write this to notify the same to you. Many thanks, also, for the date of Boll’s work<ref target="#foot.f3"/> and for other Titles.</p>
+<p>Yours very sincerely, | Ch. Darwin.</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The years are conjectured from the form of the address printed on the stationery and by the reference to returning a book ‘to-night by our Carrier’. CD used this form of printed address between 1861 and 1869 (Carroll ed. 1976, p. xiii). The Down parcel carrier, <ref target="../nameregs/nameregs_4447.xml" resp="#mjhawkins">George Snow</ref>, departed for London every Wednesday night; between 1861 and 1869, the only Wednesdays that fell on 8 January were in 1862 and 1868.</note>
+            <note xml:id="foot.f2">The reference is probably to one of the botanical works of the Greek philosopher Theophrastus, who is mentioned in <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 2: 308 in a citation from <ref target="../bibliographies/bibl_1195.xml" resp="#mjhawkins">A. de Candolle 1855</ref>.</note>
+            <note xml:id="foot.f3">The reference may be to <ref target="../nameregs/nameregs_512.xml" resp="#mjhawkins">Ernst Friedrich August Boll</ref>; the work has not been identified.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1172">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Innes   [8 May 1848]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1500A</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1172 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1172.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1172.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl>Stecher (1961): 203</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 4: 138</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Cleveland Health Sciences Library</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_93.xml">Cleveland</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1848-05-08">[8 May 1848]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2502.xml">Innes, J. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Encloses his £3 subscription to JBI’s Sunday School. Asks to reduce it in the future to £2 per annum.</p>
+            <p>Has been unwell.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="health" ref="#">Darwin himself, bad or deteriorating</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">Sunday School</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down</placeName>
+                    <date>Monday</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I enclose my 3£ subscription for your Sunday school, &amp; I am much obliged to you for informing me it was due.— I was sorry I was unable to see you the day you called &amp; were so good as to leave the Coal Club<ref target="#foot.f2"/> Papers, but I have had an extra amount of unwellness of late.—</p>
+<p>As you will probably like to know beforehand, I take this opportunity of begging to be allowed for the future to reduce my subscription to 2£ per annum to the Sunday School:<ref target="#foot.f3"/> my motive is that we subscribe altogether to five schools &amp; I find the amount is rather too much for my means.</p>
+<p>Pray believe me | my dear Sir | Yours sincerely | C. Darwin <lb resp="#mjhawkins"/> Rev J. Innes</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.3 we] <hi rend="italic">added</hi> <hi rend="italic">after del</hi> ‘I’</note>
+                    <note xml:id="tnote.n2">2.4 much] <hi rend="italic">before omitted point</hi></note>
+                    <note xml:id="tnote.n3">3.1 my dear Sir] <hi rend="italic">added</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">An entry in CD’s Account Book (Down House MS) of 6 May 1848 (Saturday) reads: ‘Sunday School M<hi rend="superscript">r</hi> Innes £3’.</note>
+            <note xml:id="foot.f2">The Down Coal and Clothing Club was a local savings club run by Innes, to which villagers contributed on a regular basis and the local gentry made ‘honorary’ contributions to supplement the funds. CD was apparently taking over responsibility for the club from Innes (<ref target="../bibliographies/bibl_5565.xml" resp="#mjhawkins">Moore 1985</ref>, p. 469). Among the Down House MSS there is a small notebook entitled ‘Down Coal Club Honorary Subscriptions 1841 to 1876 Inclusive.’, and which contains the accounts in CD’s hand from 1848 to 1869. The donations from eight to ten honorary subscribers came to a total ranging from £16 to £35 annually. CD regularly contributed £5. Charitable and co-operative organisations such as this were similar to, but less structured than, the friendly societies, which were primarily intended to provide insurance coverage (<ref target="../bibliographies/bibl_2929.xml" resp="#mjhawkins">Gosden 1973</ref>).</note>
+            <note xml:id="foot.f3">The next payment to the Sunday School recorded in CD’s Account Book (Down House MS), on 16 February 1849, was for this amount.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

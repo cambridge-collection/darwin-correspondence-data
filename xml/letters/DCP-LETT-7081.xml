@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7081">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Richard Kippist   16 January [1870 or 1871]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3717</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7081 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7081.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7081.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Linnean Society of London</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_238.xml">Linnean Society</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+            <date xml:id="date1" when="1870-01-16" exclude="#date2">16 Jan 1870</date>
+            <date xml:id="date2" when="1871-01-16" exclude="#date1">16 Jan 1871</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2944.xml">Linnean Society</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Requests the return of some plates sent in error.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">instructions</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down.</hi> | Beckenham | <hi rend="print">Kent. S.E.</hi></placeName>
+                    <date>Jan 16<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am sorry to have caused you trouble.— The text &amp; the Plates was sent by mistake, &amp; I sh<hi rend="superscript">d</hi> be glad of its return, as one of my sons wishes to keep the Plates, which,, however, w<hi rend="superscript">d</hi> be of very little use to the Soc, as they are chiefly a curiosity in the art of engraving.— Kindly give volume specified to Royal Soc.—<ref target="#foot.f2"/></p>
+<p>My dear sir | Yours sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 Beckenham] <hi rend="italic">before del</hi> ‘<hi rend="italic">Bromley.</hi>’ </note>
+                <note xml:id="tnote.n2">1.2 &amp; I sh<hi rend="superscript">d</hi> … as] <hi rend="italic">interl</hi> </note>
+                <note xml:id="tnote.n3">1.2 wishes] <hi rend="italic">altered from</hi> ‘wishing’ </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The years are established by the form of the address, with ‘Bromley’ struck through and ‘Beckenham’ added by hand; this form was used by CD between April 1869 and May 1871.</note>
+            <note xml:id="foot.f2">The text, plates, son, and volume have not been identified; the text and plates may have been among the books referred to in the <ref target="./DCP-LETT-7434.xml" resp="#mjhawkins">letter to Richard Kippist, 10 January [1870 or 1871]</ref>. CD refers to the <ref target="../nameregs/nameregs_2944.xml" resp="#mjhawkins">Linnean Society</ref> and the <ref target="../nameregs/nameregs_4110.xml" resp="#mjhawkins">Royal Society of London</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

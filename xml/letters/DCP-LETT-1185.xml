@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1185">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Higgins   14 June [1848]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1962</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1185 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1185.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1185.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Lincolnshire Archives (HIG/4/2/1/20)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_237.xml">Lincolnshire RO</repository>
+                    <collection>Correspondence with John Higgins</collection>
+                    <idno>HIG/4/2/1/20</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1848-06-14">14 June [1848]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2279.xml">Higgins, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Discusses possible land transactions.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>June 14<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>Your letter of the 8<hi rend="superscript">th</hi>. has been forwarded to me from Shrewsbury for my decision.— I am obliged to you for your kindness in sending this information, though very doubtful of taking advantage of it.— No doubt it would be pleasanter and advantageous in having it immediately under your eye to have all the land together, but I am not inclined to waste even a pound in rent to obtain it.— It appears to me extremely unlikely that you could sell Sutterton<ref target="#foot.f1"/> to such advantage, that the money thus laid out again in land, including <hi rend="underline">every sort</hi> of expence in the purchase &amp; sale, would realise the same rent. There would, moreover, be some trouble &amp; loss in borrowing money for the purchase, for the chances would be greatly against our selling Sutterton at the exactly proper time.</p>
+<p>Nevertheless I have no wish to keep Sutterton, &amp; supposing (extremely improbable as it appears to me) that you felt confident you could arrange the sale &amp; purchase &amp; <hi rend="doubleUnderline">all</hi> its expences, in such a manner that I should certainly lose none of my income, I should of course be greatly obliged to you. I have written thus explicitly that you may exactly understand my feelings.</p>
+<p>Pray again accept my thanks &amp; believe me | Yours sincerely | C. Darwin <lb resp="#mjhawkins"/> To | John Higgins Esq<hi rend="superscript">r</hi>.</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.3 taking] <hi rend="italic">above del</hi> ‘the’</note>
+                    <note xml:id="tnote.n2">1.4 and advantageous … eye] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n3">1.9 &amp; loss] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n4">2.1 (extremely] <hi rend="italic">parenthesis</hi> <hi rend="italic">over</hi> <hi rend="italic">comma</hi></note>
+                    <note xml:id="tnote.n5">2.3 certainly] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">An estate and farm near the town of Sutterton, Leicestershire, owned by Robert Waring Darwin. There is no record in CD’s Investment Book (Down House MS) of any transaction involving Sutterton in 1848, but Robert Waring Darwin’s Investment Book (Down House MS) carries an account of rent paid on ‘Sutterton Fen’ from 1831 through 1848. Higgins’s letter had presumably been forwarded to CD from Shrewsbury because of his father’s poor health. In a will drawn up in 1845, Robert Waring Darwin had stipulated that the property was to pass to CD. In his <ref target="./DCP-LETT-1211.xml" resp="#mjhawkins">letter to John Higgins, 6 December [1848]</ref>, CD informs Higgins that he has, indeed, inherited Sutterton Fen. On 23 June 1849, CD’s Investment Book shows a payment on Beesby Farm, to which is added for the first time, ‘&amp; Sutterton Estates’.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

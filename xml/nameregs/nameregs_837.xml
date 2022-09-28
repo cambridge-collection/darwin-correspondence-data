@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-837" status="released">
+    <persName>
+        <forename>Louisa</forename>
+       <choice>
+           <seg><surname notBefore="1812" notAfter="1840">Powell</surname></seg>
+           <seg><surname notBefore="1840" notAfter="1887">Carpenter</surname></seg>
+       </choice>
+    </persName>
+    
+    <note type="dates"><date>1812–87</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of Joseph Powell, a merchant in Exeter. Married William Benjamin Carpenter in 1840.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref> s.v. Carpenter, William Benjamin.</p>
+    </note>
+    <note type="volume">10,13,15</note>
+    <note type="keywords">
+        <term type="name">Carpenter, W. B.</term>
+    </note>
+</person>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-244">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Edward Lumb to J. S. Henslow   2 May 1834</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20284</idno>
+            
+            
+            
+            
+            <date when="1985">1985</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-244 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-244.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-244.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="01">1</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 145: 367</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Darwin and Henslow</hi>: 88</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 1: 386</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Royal Botanic Gardens, Kew</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_213.xml">Kew</repository>
+                    <idno>Henslow letters: 19</idno>
+                    
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3040.xml">Lumb, Edward</persName>
+                <placeName>Buenos Ayres</placeName>
+                <date when="1834-05-02">2 May 1834</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2235.xml">Henslow, J. S.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>On CD’s instructions EL has forwarded a case containing part of the head of [Megatherium].</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Megatherium</term>
+                <term type="people" ref="#subject_1">Darwin, C. R.</term>
+                <term type="scientific_terms" ref="#">fossils</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>B<hi rend="superscript">s</hi>. Ayres</placeName>
+                    <date>May 2<hi rend="superscript">d</hi> 18/34</date>
+                    <salute>Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I beg to enclose you bill of lading for a Case of Specimens of Natural History which by direction of M<hi rend="superscript">r</hi> Charles Darwin I forward to you p<hi rend="superscript">r</hi>. Brig “Basenthwaite” Mitchinson Martin for Liverpool— This Case contains part of the Head of the “Megatherium”—<ref target="#foot.f1"/> I regret that on the passage down the River it should have been broken; previous to this accident the Snout or nose extended 1<formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> to two feet more than at present— These are not the bones referred to in the accompanying Letter—<ref target="#foot.f2"/> I expect them down shortly when I shall feel proud in forwarding them to you— Permit me this opportunity of offering my Services to you &amp; to assure you that I shall feel highly gratified if by any Information, or Specimens I can obtain in this Country I can contribute to the advancement of Science in my native land—</p>
+<p>My last letter from M<hi rend="superscript">r</hi>. Darwin was from the Falkland Islands 30 March; at which time all was well— | I have the honour to be Sir | Your most ob<hi rend="superscript">t</hi> Ser<hi rend="superscript">t</hi>| Edward Lumb</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The cranium was described by <ref target="../nameregs/nameregs_3629.xml" resp="#mjhawkins">Richard Owen</ref> in <ref target="../bibliographies/bibl_2623.xml" resp="#mjhawkins"><hi rend="italic">Fossil Mammalia</hi></ref>, pp. 16–35, as that of a ‘gigantic extinct mammiferous animal, referrible to the Order Pachydermata, but with affinities to the Rodentia, Edentata, and Herbivorous Cetacea’. Owen named it <hi rend="italic">Toxodon</hi> <hi rend="italic">platensis</hi>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-216.xml" resp="#mjhawkins">letter to J. S. Henslow, [20–7] September 1833</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

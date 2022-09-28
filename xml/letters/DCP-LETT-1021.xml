@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1021">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To George Grey   10 November 1846</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6628</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1021 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1021.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1021.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl>Rees &amp; Rees (1892): 482</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 3: 364</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Auckland Public Library (Grey collection GL D8 (1))</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_18.xml">Auckland PL</repository>
+                    <collection>Grey</collection>
+                    <idno>GL D8 (1)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1846-11-10">10 Nov 1846</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1984.xml">Grey, George</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>CD apologises for his note to J. L. Stokes [see <hi rend="doubleUnderline">940</hi>], which somehow found its way into GG’s hands.</p> 
+            <p>Praises GG’s work on Australia.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="b" ref="#">940</term>
+                <term type="people" ref="#subject_4574">Stokes, J. L.</term>
+                <term type="places" ref="#">Australia</term>
+                <term type="rx" ref="#">Grey, George 1841</term>
+                <term type="scientific_terms" ref="#">negative attitude/assessment</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Nov. 10. 1846</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I beg to thank you for the courteous tone of your communication of the 10<hi rend="superscript">th</hi> of May 1846, considering the circumstances under which it was written. I enclose a letter which I immediately wrote to Capt. Stokes &amp; his answer;<ref target="#foot.f1"/> these will, I trust, exonerate us of intentional impertinence. Some most malicious person must have sent my note to you. I have been much mortified by perusing it, &amp; though I am not presumptuous enough to suppose that you can care much for my opinion of your work on Australia,<ref target="#foot.f2"/> it is a satisfaction to me to be enabled to name to myself many individuals, to whom I have expressed my strong opinion of the many high qualities shown in your work, of which, the amusement it afforded, was but a small part. Your account of the aborigines I have always thought one of the most able ever written.— As we are not likely to have any further communication, permit me to add that I have a most pleasant recollection of our former acquaintance.—<ref target="#foot.f3"/></p>
+<p>With much respect, I beg to remain | Your’s faithfully | Ch. Darwin <lb resp="#mjhawkins"/> His Excellency | Sir G. Grey<ref target="#foot.f4"/> | &amp;c &amp;c &amp;c</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="./DCP-LETT-1017.xml" resp="#mjhawkins">Letter to J. L. Stokes, 3 November 1846</ref>, and <ref target="./DCP-LETT-1019.xml" resp="#mjhawkins">letter from J. L. Stokes, 6 November 1846</ref>.</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_3131.xml" resp="#mjhawkins">G. Grey 1841</ref>.</note>
+            <note xml:id="foot.f3">CD had probably met Grey in the spring of 1837 when <ref target="../nameregs/nameregs_1650.xml" resp="#mjhawkins">Robert FitzRoy</ref> was awarded the Royal Premium by the <ref target="../nameregs/nameregs_4103.xml" resp="#mjhawkins">Royal Geographical Society</ref> (5 May 1837). At that time plans were being made for Grey’s expedition, sponsored by the Society, to leave in the <hi rend="italic">Beagle</hi> in early June (<hi rend="italic">Journal of</hi> <hi rend="italic">the Royal Geographical Society of London</hi> 7 (1837): x–xi). CD had also visited the <hi rend="italic">Beagle</hi> on 28 May 1837 (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 2, <ref target="./DCP-LETT-356.xml" resp="#mjhawkins">letter to J. S. Henslow, [28 May 1837]</ref>).</note>
+            <note xml:id="foot.f4">Grey was not knighted until 1848.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

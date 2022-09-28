@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-940">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Lort Stokes   [November–December 1845]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13335</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-940 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-940.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-940.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="C">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 144: 121b</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>144: 121b</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1845-11-01" notAfter="1845-12-31">[Nov–Dec 1845]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4574.xml">Stokes, J. L.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Comments on book by George Grey [<hi rend="italic">Journals of two expeditions of discovery in north-west and Western Australia</hi> (1841)]. "The whole expedition was that of a set of School Boys".</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Journals of two expeditions of discovery in north-west and Western Australia</term>
+                <term type="rx" ref="#">Grey, George 1841</term>
+                <term type="scientific_terms" ref="#">negative attitude/assessment</term>
+                <term type="scientific_terms" ref="#">negative criticism of correspondent</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down, Bromley, Kent.</placeName>
+                    <date>Sunday.</date>
+                    <salute>My dear Stokes.</salute>
+                </opener>
+                <div type="transcription">
+<p>I do not think the most sensitive person has the smallest right to take offence at what you have said. You could hardly have corrected, as you were bound to do, what apparently has been a gross error, with more delicacy.<ref target="#foot.f2"/></p>
+<p>Poor Grey has made a very amusing book, but what a catalogue of mishaps &amp; mismanagements.<ref target="#foot.f3"/> The whole expedition was that of a set of School Boys.</p>
+<p>Ever Yours, | C. Darwin.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">In some unknown way this letter fell into the hands of George Grey, see <ref target="./DCP-LETT-979.xml" resp="#mjhawkins">letter from George Grey, 10 May 1846</ref>. Since letters took about seven months to travel between England and New Zealand (see <ref target="./DCP-LETT-979.xml" resp="#mjhawkins">letter from George Grey, 10 May 1846</ref>, received by CD on 3 November 1846), it seems probable that this letter was written late in 1845.</note>
+            <note xml:id="foot.f2">Stokes had asked CD to read some of the proof-sheets of his account of the <hi rend="italic">Beagle</hi> survey of the north-west coast of Australia (<ref target="../bibliographies/bibl_7495.xml" resp="#mjhawkins">Stokes 1846</ref>). These included passages that contradicted remarks in <ref target="../bibliographies/bibl_3131.xml" resp="#mjhawkins">Grey 1841</ref> (see <ref target="./DCP-LETT-1017.xml" resp="#mjhawkins">letter to J. L. Stokes, 3 November 1846</ref>). Stokes differed from Grey on the height of land observed from Discovery Bay and on the course of the Glen Elg River (<ref target="../bibliographies/bibl_7495.xml" resp="#mjhawkins">Stokes 1846</ref>, 1: 201-3). See also <ref target="../bibliographies/bibl_8359.xml" resp="#mjhawkins">Wickham 1838</ref>, pp. 464–5. Ironically, Stokes was mistaken in believing that the Glen Elg flanked Collier Bay and emptied into mangrove swamps bordering Stokes Bay on King Sound, while Grey was more correct in thinking that the river emptied ‘somewhere between Camden Sound and Collier’s Bay’ (<ref target="../bibliographies/bibl_3131.xml" resp="#mjhawkins">Grey 1841</ref>, 1: 271). In fact, the river empties into Collier Bay at the head of Doubtful Bay.</note>
+            <note xml:id="foot.f3"><ref target="../bibliographies/bibl_3131.xml" resp="#mjhawkins">Grey 1841</ref> is the account of an attempt to explore the interior of Australia.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

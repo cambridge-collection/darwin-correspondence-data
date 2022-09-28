@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3528">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. B. Innes   1 May [1862]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1529</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3528 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3528.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3528.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl>Stecher (1961): 209</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 10: 177</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Cleveland Health Sciences Library (Robert M. Stecher collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_93.xml">Cleveland</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1862-05-01">1 May [1862]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2502.xml">Innes, J. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Quiz has had to be killed because he became vicious.</p>
+            <p>Horace Darwin strangely ill.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Quiz</term>
+                <term type="health" ref="#">Darwin family</term>
+                <term type="people" ref="#subject_1226">Darwin, Horace</term>
+                <term type="social" ref="#">Darwin family</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>May 1<hi rend="superscript">st</hi></date>
+                    <salute>Dear Innes</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have bad news about Quiz: perhaps you had better not tell your son for a time.<ref target="#foot.f2"/> He has been killed; it was done instantaneously by a gun. We were forced to do this, for he would fly at poor people, &amp; one day bit a child &amp; two days after a beggar woman &amp; we had an awful row about it. There was another reason we could not stop him having fearful battle with Tartar; I had such a job one day in separating them both streaming with blood; &amp; this was <hi rend="underline">incessantly</hi> happening. Poor little Quiz had, also, got so asthmatic that he could not run, so that altogether we had no choice left us, though we were very sorry about it.</p>
+<p>I hope the world goes well with you all; it has not of late with us, for we have had our youngest boy strangely ill, with singular involuntary movements, for two months;<ref target="#foot.f3"/> but at last he is decidedly better. We feared much that there was mischief in the Brain, but it now seems clear that it was all sympathetic with irritation of stomach.</p>
+<p>I know of no news of any sort here; we all go on exactly as usual as quiet as mice.</p>
+<p>Dear Innes | Yours very sincerely | Charles Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.7 , also,] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to <ref target="../nameregs/nameregs_1226.xml" resp="#mjhawkins">Horace Darwin’s</ref> illness (see n. 3, below).</note>
+            <note xml:id="foot.f2">‘Quiz’ was the pet dog of Innes’s son <ref target="../nameregs/nameregs_2504.xml" resp="#mjhawkins">John William Brodie Innes</ref>. When the Innes family moved to Scotland at the turn of the year they left Quiz with the Darwins (see <ref target="./DCP-LETT-3370.xml" resp="#automat">letter from J. B. Innes, 2 January [1862]</ref> and n. 3).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242) records that <ref target="../nameregs/nameregs_1226.xml" resp="#mjhawkins">Horace Darwin</ref> was seriously ill throughout the early part of 1862.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2560">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Charles Lyell   29 [November 1859]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">180</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2560 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2560.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2560.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 146: 219</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">ML</hi> 1: 136</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 7: 406</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.180)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>180</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Ilkley</placeName>
+                <date when="1859-11-29">29 [Nov 1859]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3051.xml">Lyell, Charles</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Encloses letter from Adam Sedgwick [<hi rend="doubleUnderline">2548</hi>].</p> 
+            <p>Mentions conversion of A. C. Ramsay.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="b" ref="#">2548</term>
+                <term type="it" ref="#">Origin</term>
+                <term type="people" ref="#subject_3922">Ramsay, A. C.</term>
+                <term type="people" ref="#subject_4276">Sedgwick, Adam</term>
+                <term type="scientific_terms" ref="#">origin</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">selection</term>
+                <term type="scientific_terms" ref="#">species, speciation</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+                <term type="scientific_terms" ref="#">transmutation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Ilkley]</placeName>
+                    <date>29<hi rend="superscript">th</hi></date>
+                    <salute>My dear Lyell.—</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I send Sedgwick’s letter: it is terribly muddled &amp; really the first page seems almost childish.—<ref target="#foot.f1"/> I am sadly overworked—so will not write to you— I have worked in a number of your invaluable corrections—indeed <hi rend="underline">all</hi> as far as time permits.</p>
+<p>I infer from letter from Huxley that Ramsay is a convert &amp; I am extremely glad to get <hi rend="underline">pure</hi> geologists, as they will be very few.<ref target="#foot.f2"/> Many thanks for your very pleasant note. What pleasure you have given me. I believe I sh<hi rend="superscript">d</hi> have been miserable had it not been for you &amp; a few others—for I hear of threatening of attacks, which I dare say will be severe enough.— But I am sure I can now bear them.</p>
+<p>Yours gratefully C. D.</p>
+<p>About rattle-snake I meant to have added, suppose the bead at end of tail of Trigonocephalus not to be moulted at each exuviation &amp; to grow bigger with each new skin.—<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">4.1 of Trigonocephalus 4.2] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">4.2 with] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="./DCP-LETT-2548.xml" resp="#mjhawkins">Letter from Adam Sedgwick, 24 November 1859</ref>.</note>
+            <note xml:id="foot.f2">The letter from <ref target="../nameregs/nameregs_2486.xml" resp="#mjhawkins">Thomas Henry Huxley</ref> has not been found, but see <ref target="./DCP-LETT-2558.xml" resp="#automat">letter to T. H. Huxley,27 November [1859]</ref>.</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-2547.xml" resp="#mjhawkins">letter to Charles Lyell, 24 [November 1859]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

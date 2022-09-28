@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1734">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Robert Hunt   31 July [1855]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8502</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1734 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1734.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1734.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+                <relatedItem type="publication">
+                    <bibl><hi rend="italic">Correspondence</hi> 5: 391</bibl>
+                </relatedItem>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 148: 4</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Bonhams (dealers) (28 September 2004)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_50.xml">Bonhams</repository>
+                    <idno>28 Sept 2004</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1855-07-31">31 July [1855]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2453.xml">Hunt, Robert</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Mentions experiments on plants involving coloured glass. Encloses correspondence from glass maker and asks advice.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#">glass maker</term>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">plant physiology</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>July 31<hi rend="superscript">st</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I had hoped to have had no occasion to have troubled you again by letter, but the enclosed<ref target="#foot.f1"/> throws me quite back.— Will you be so kind as to read it over, &amp; tell me what I must answer. I have not the least idea, whether glass coated with colour or coloured throughout makes any difference. Will you be so kind as to let me have one line in answer, &amp; return the enclosed.—</p>
+<p>I asked whether they had (&amp; the price of)</p>
+                    <list rend="simple">
+                        <item>1. “intense cobalt Blue”</item>
+                        <item>2. “silver yellow”</item>
+                        <item>3. “deep copper red”</item>
+                    </list>
+<p>&amp; used your name &amp; stated that my object was to experimentise on plants.—</p>
+<p>Pray forgive this trouble | Yours truly obliged | Charles Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.1 have troubled] ‘have’ <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The enclosure has not been found. It is clear, however, that it was a query from the Chance Brothers Glass Works, Birmingham. CD must have written to the firm, as Hunt had suggested, about coloured glass for his experiments. See <ref target="./DCP-LETT-1730.xml" resp="#mjhawkins">letter from Robert Hunt, 24 July 1855</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

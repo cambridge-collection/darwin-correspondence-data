@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10759">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Alphonse de Candolle<choice><seg type="original"><ref target="#foot.f1"/></seg><seg type="translation"><ref target="#foot_trans.f1"/></seg></choice>   January 1877</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14131</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10759 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10759.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10759.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p (French)</note>
+            <relatedItem type="publication">
+                <bibl>Baehni (1955);145</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 161: 20</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>161: 20</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_813.xml">Candolle, Alphonse de</persName>
+                <placeName>Geneva</placeName>
+                <date notBefore="1877-01-01" notAfter="1877-01-31">Jan 1877</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Introduces his son Casimir, who is visiting England.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_811">Candolle, A. C. P. de</term>
+                <term type="places" ref="#">England</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">introducing</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Genève</placeName>
+                    <date>Janvier 1877.</date>
+                    <seg type="supplemental">A <hi rend="underline">Monsr Ch. Darwin</hi></seg>
+                    <salute>Mon cher Monsieur</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>permetter moi de recommander à votre bienveillance et à celle de Monsieur Francis Darwin, mon fils Casimir, qui se trouve actuellement en Angleterre et qui me témoigne le desir bien naturel de vous être présenté. Il s’est occupé quelquefois des sujets dans les quels vous avez ouvert la voie et assurement il apprendra beaucoup s’il a le bonheur de voir votre champ d’expériences et de causer avec vous.<ref target="#foot.f2"/> J’espère que cela pourra se réaliser sans vous faire perdre un temps excessivement précieux pour la Science.</p>
+<p>Depuis ma lettre du mois de Decembre je vous ai adressé un opuscule sur un point relatif aux descriptions (la spire des feuilles etc), en regrettant d’avoir si peu à vous offrir dans ce moment.<ref target="#foot.f3"/></p>
+<p>Toujours, mon cher Monsieur, votre très dévoué et affectionné | Alph. de Candolle</p> 
+                </div>
+            </div>
+
+       
+            
+            
+            
+        </div>
+        
+        
+        <div type="translation">
+            <div type="text">
+                <opener>
+                    <placeName>Geneva</placeName>
+                    <date>January 1877.</date>
+                    <seg type="supplemental">To <hi rend="italic">M<hi rend="superscript">r</hi> Ch. Darwin</hi></seg>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Allow me to recommend to your kindness and that of Mr Francis Darwin, my son Casimir, who is at present in England and who would naturally like to make your aquaintance. He sometimes works on subjects in which you have paved the way and he will certainly learn much if he has the pleasure of seeing for himself your wide range of experience and of chatting with you.<ref target="#foot.f2"/> I hope that this could happen without making you lose time so precious for Science.</p>
+<p>Since my letter of December last, I have sent you a work on a point relating to descriptions (the whorl of leaves, etc), while regretting that I have so little to offer you at the moment.<ref target="#foot.f3"/></p>
+<p>Always, dear sir, your very devoted and affectionate | Alph. de Candolle</p> 
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">For a translation of this letter, see Appendix I.</note>
+            <note xml:id="foot_trans.f1">For a transcription of this letter in its original French, see pp. QQQQ.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_811.xml" resp="#mjhawkins">Casimir de Candolle</ref> had worked on the insectivorous plant <hi rend="italic">Dionaea muscipula</hi> (Venus fly trap; <ref target="../bibliographies/bibl_9210.xml" resp="#mjhawkins">C. de Candolle 1876</ref>) and on climbing plants (<ref target="../bibliographies/bibl_9220.xml" resp="#mjhawkins">C. de Candolle 1877</ref>).</note>
+            <note xml:id="foot.f3">See <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 24, <ref target="./DCP-LETT-10724.xml" resp="#mjhawkins">letter from Alphonse de Candolle, 16 December 1876</ref>. CD had sent Candolle a copy of <ref target="../bibliographies/bibl_8595.xml" resp="#mjhawkins"><hi rend="italic">Cross and self fertilisation</hi></ref>. Candolle sent CD a short paper, ‘Sur la désignation de la direction des spires dans les plantes’ (On the determination of the direction of whorls in plants; <ref target="../bibliographies/bibl_9469.xml" resp="#mjhawkins">A. de Candolle 1876</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

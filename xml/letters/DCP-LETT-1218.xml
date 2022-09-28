@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1218">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. J. Hooker   [<hi rend="italic">c</hi>. February 1849]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19629</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1218 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1218.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1218.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 152: 746</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Royal Botanic Gardens, Kew (Directors’ Correspondence English letters A–J 1849, 27: 155)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_213.xml">Kew</repository>
+                    <collection>Directors’ Correspondence</collection>
+                    <idno>English letters A-J 1849, 27: 155</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1849-02-01" notAfter="1849-02-28">[c. Feb 1849]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2367.xml">Hooker, W. J.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks WJH for information on J. D. Hooker’s progress.</p>
+            <p>J. D. Hooker promised a copy of his Galapagos paper. Can WJH forward one to the Athenaeum?</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Athenaum</term>
+                <term type="people" ref="#subject_2357">Hooker, J. D.</term>
+                <term type="places" ref="#">Galapagos</term>
+                <term type="rx" ref="#">Hooker, J. D. 1845a</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Sunday</date>
+                    <salute>Dear Sir William Hooker</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very much obliged to you for remembering the interest which I always feel in your son’s progress &amp; for forwarding to me Hodgson’s letter, which I now return. I am delighted that everything looks so flourishing.</p>
+<p>I am much obliged to your kindness in sending me the pamphlets.—<ref target="#foot.f2"/></p>
+<p>Your son promised me a copy of his Galapagos Flora Paper.<ref target="#foot.f3"/> I am really <hi rend="underline">anxious</hi> to possess a copy: can you let me have one &amp; at <hi rend="underline">anytime</hi> leave or send it to the Athenæum Club: I hope that I am not unreasonable in this request.</p>
+<p>Pray be so good as to remember me very kindly to Lady &amp; Miss Hooker &amp; believe me with my best thanks | Yours very faithfully | C. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is based on J. D. Hooker’s statement that the pamphlets referred to in the letter had been sent from India in October 1848 (see second <ref target="./DCP-LETT-1220.xml" resp="#mjhawkins">letter from J. D. Hooker, 3 February 1849</ref>). Parcels appear to have taken about six months to reach England, while letters took about two.</note>
+            <note xml:id="foot.f2">CD refers to the articles written by <ref target="../nameregs/nameregs_2317.xml" resp="#mjhawkins">Brian Houghton Hodgson</ref>. See <ref target="./DCP-LETT-1203.xml" resp="#mjhawkins">letter from J. D. Hooker, 13 October 1848</ref>, and <ref target="./DCP-LETT-1209.xml" resp="#mjhawkins">letter to Maria Hooker, [17 December 1848]</ref>.</note>
+            <note xml:id="foot.f3"><ref target="../bibliographies/bibl_3747.xml">J. D. Hooker 1845a</ref> and <ref target="../bibliographies/bibl_3753.xml">1846b</ref>. Hooker had read these two papers on Galápagos flora to the <ref target="../nameregs/nameregs_2944.xml" resp="#mjhawkins">Linnean Society</ref> in 1845 and 1846. Although they were not published in the <hi rend="italic">Transactions</hi> until 1851, printed texts were available in 1849. CD probably refers to ‘The vegetation of the Galápagos Archipelago’ (<ref target="../bibliographies/bibl_3753.xml">J. D. Hooker 1846b</ref>). See also <ref target="./DCP-LETT-1236.xml">letter to J. D. Hooker, 28 March 1849</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9848">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Albert Günther   9 February [1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19746</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9848 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9848.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9848.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">1p</note>
+            <relatedItem type="publication">
+                <bibl>Gunther (1975): 40</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Shrewsbury School, Taylor Library</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_386.xml">Shrewsbury School</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1875-02-09">9 Feb [1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1779.xml">Günther, A. C. L. G.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Rejoices at AG’s "honourable &amp; important" position [Keeper of the Zoological Department, British Museum].</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#">keeper</term>
+                <term type="social" ref="#">Other people</term>
+                <term type="societal" ref="#">British Museum, zoological department</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Feb 9</date>
+                    <salute>My dear D<hi rend="superscript">r</hi> Günther</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I rejoice at the news in your letter, and heartily congratulate you in being fixed I hope for a long life in so honourable &amp; important a position.<ref target="#foot.f2"/> Be so kind as to give my sincere congratulations to M<hi rend="superscript">r</hi> F. Smith.<ref target="#foot.f3"/></p>
+<p>Believe me to remain | Yours very truly | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-9842.xml" resp="#mjhawkins">letter from Albert Günther, 6 February 1875</ref>.</note>
+            <note xml:id="foot.f2">Günther had recently been appointed keeper of zoology at the <ref target="../nameregs/nameregs_8646.xml" resp="#mjhawkins">British Museum</ref> (see <ref target="./DCP-LETT-9842.xml" resp="#mjhawkins">letter from Albert Günther, 6 February 1875</ref>).</note>
+            <note xml:id="foot.f3">Frederick Smith was appointed assistant keeper (see <ref target="./DCP-LETT-9842.xml" resp="#mjhawkins">letter from Albert Günther, 6 February 1875</ref> and n. 2).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

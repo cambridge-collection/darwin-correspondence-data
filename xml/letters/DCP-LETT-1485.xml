@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1485">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Higgins   2 August [1852]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1972</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1485 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1485.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1485.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Lincolnshire Archives (HIG/4/2/2/6)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_237.xml">Lincolnshire RO</repository>
+                    <collection>Correspondence with John Higgins</collection>
+                    <idno>HIG/4/2/2/6</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1852-08-02">2 Aug [1852]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2279.xml">Higgins, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Discusses rent reduction and possibility of a lease.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough | Kent</placeName>
+                    <date>Aug<hi rend="superscript">t</hi>. 2<hi rend="superscript">d</hi>.</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I am really <hi rend="underline">much</hi> obliged by your kind letter, but am sorry that I should have given you the trouble of writing it.</p>
+<p>From what I had occasionally heard &amp; seen in Print, &amp; more especially from what I had heard from a distant connection, having considerable estates in Worscesterhire,<ref target="#foot.f1"/> I had thought that perhaps I could get some increase of Rent by lease. But what you say shows that leases are very unusual in lands under your care, &amp; I confess I somehow quite forgot the very obvious (when recalled to one’s mind) importance of the probable effect on the currency by the wonderful Australian discoveries.<ref target="#foot.f2"/> This, I conceive, would be reason enough by itself against a long lease.</p>
+<p>Again I beg to say that I am sorry that you sh<hi rend="superscript">d</hi>. have had the trouble of writing &amp; I remain My dear Sir | Your’s sincerely | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.1 occasionally] <hi rend="superscript">2</hi>‘c’ <hi rend="italic">added</hi></note>
+                    <note xml:id="tnote.n2">2.2 what I had heard from] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n3">2.4 leases are very] <hi rend="italic">above del</hi> ‘it is’</note>
+                    <note xml:id="tnote.n4">2.7 itself] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n5">3.1 writing] <hi rend="italic">over</hi> ‘&amp;’</note>
+                    <note xml:id="tnote.n6">3.2 &amp;] <hi rend="italic">added</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_2333.xml" resp="#mjhawkins">Edward Holland</ref>, lord of the manor of Dumbleton, Gloucestershire, was greatly interested in agriculture and owned large estates in Worcestershire.</note>
+            <note xml:id="foot.f2">CD refers to the effects of the Australian gold-rush. See also <ref target="./DCP-LETT-1476.xml" resp="#mjhawkins">letter to W. D. Fox, 7 March [1852]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

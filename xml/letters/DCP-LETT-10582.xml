@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10582">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Smith, Elder &amp; Co.   21 August [1876]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8018</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10582 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10582.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10582.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <note type="postmark">AU 21 76</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Lehigh University Libraries Special Collections (Honeyman Collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_234.xml">Lehigh</repository>
+                    <collection>Honeyman</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1876-08-21">21 Aug [1876]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4407.xml">Smith, Elder &amp; Co.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Asks for tougher paper to be used for maps in <hi rend="italic">Coral reefs</hi>, 2d ed.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Coral reefs</term>
+                <term type="scientific_terms" ref="#">coral</term>
+                <term type="scientific_terms" ref="#">isolation, islands</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Aug. 21<hi rend="superscript">st</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>The Maps do excellently &amp; are returned by this post—<ref target="#foot.f1"/></p>
+<p>I beg leave to call your attention to the paper on which the long map in the Coral Reefs has been printed. My copy has not been much used (indeed very little) &amp; already it is separating along the lines of folding.<ref target="#foot.f2"/> If thinner &amp; <hi rend="doubleUnderline">tougher</hi> paper were used it w<hi rend="superscript">d</hi> be very much better.—</p>
+<p>Dear Sir | Yours faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">2.1 long] <hi rend="italic">interl</hi> </note>
+                <note xml:id="tnote.n2">2.2 (indeed very little)] <hi rend="italic">interl</hi> </note>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_4407.xml" resp="#mjhawkins">Smith, Elder &amp; Co</ref>. were producing a new combined edition of <ref target="../bibliographies/bibl_8001.xml" resp="#mjhawkins"><hi rend="italic">Volcanic islands</hi></ref> and <ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref>, with the title<hi rend="italic"> Geological observations on the volcanic islands and parts of South America visited during the voyage of HMS ‘Beagle’</hi> (<ref target="../bibliographies/bibl_2807.xml" resp="#mjhawkins"><hi rend="italic">Geological observations</hi> 2d ed.</ref>). The maps were made from woodblocks borrowed from the <ref target="../nameregs/nameregs_1841.xml" resp="#mjhawkins">Geological Society of London</ref> (see <ref target="./DCP-LETT-10507.xml" resp="#mjhawkins">letter to Smith, Elder &amp; Co., 15 May 1876</ref> and n. 1).</note>
+            <note xml:id="foot.f2">In <ref target="../bibliographies/bibl_1572.xml" resp="#mjhawkins"><hi rend="italic">Coral reefs</hi> 2d ed.</ref> (published by <ref target="../nameregs/nameregs_4407.xml" resp="#mjhawkins">Smith, Elder &amp; Co</ref>. in 1874), pl. 3, showing an overview of the distribution of coral reefs, was a long foldout insertion placed before the frontispiece; when folded up, it had one horizontal and six vertical folds.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

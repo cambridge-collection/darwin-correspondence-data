@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3922">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Thomas Rivers   17 [January 1863]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3961</idno>
+            
+            
+            
+            
+            <date when="1999">1999</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3922 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3922.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3922.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="11">11</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 147: 309</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">John Wilson (dealer) (catalogue 61, 21 July 1989, item 50)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_441.xml">John Wilson</repository>
+                    <collection>21 July 1989</collection>
+                    <idno>50</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1863-01-17">17 [Jan 1863]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4019.xml">Rivers, Thomas</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Can TR distinguish generally, always, or never, a nectarine-tree from a peach-tree before it flowers or before it fruits? He wants to quote TR’s answer.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">fruit</term>
+                <term type="plants" ref="#">nectarine-tree</term>
+                <term type="plants" ref="#">peach-tree</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">flowers and buds</term>
+                <term type="scientific_terms" ref="#">identification</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">quotations / citations</term>
+                <term type="scientific_terms" ref="#">time and age (‘organic’ time)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down</placeName>
+                    <date>17<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Will you permit me to ask one more question;<ref target="#foot.f2"/> Can you distinguish generally, always, or never a nectarine tree from a Peach before it <hi rend="underline">flowers</hi> or before it <hi rend="underline">fruits</hi>. I sh<hi rend="superscript">d</hi>. like to quote your answer.—<ref target="#foot.f3"/></p>
+<p>Yours sincerely | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 from a Peach] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter and the letters to Thomas Rivers, <ref target="./DCP-LETT-3910.xml" resp="#mjhawkins">11 January [1863]</ref> and <ref target="./DCP-LETT-3918.xml" resp="#mjhawkins">15 January [1863]</ref>.</note>
+            <note xml:id="foot.f2">In December 1862, CD began writing chapter 11 of <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref>, dealing with bud-variation, and initiated a correspondence with Rivers, a renowned Hertfordshire nurseryman (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 10, letters to Thomas Rivers, <ref target="./DCP-LETT-3874.xml" resp="#mjhawkins">23 December [1862]</ref> and <ref target="./DCP-LETT-3879.xml" resp="#mjhawkins">28 December [1862]</ref>). See also letters to Thomas Rivers, <ref target="./DCP-LETT-3906.xml" resp="#mjhawkins">7 January [1863]</ref>, <ref target="./DCP-LETT-3910.xml" resp="#mjhawkins">11 January [1863]</ref>, and <ref target="./DCP-LETT-3918.xml" resp="#mjhawkins">15 January [1863]</ref>.</note>
+            <note xml:id="foot.f3">In <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 340, CD cited Rivers as the authority for his statement that the fruit of the peach and nectarine differed in appearance and flavour, but the trees differed ‘in no other respects’, and could not even be distinguished ‘whilst young’.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

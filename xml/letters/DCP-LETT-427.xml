@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-427">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To [unidentified]   12 September [1838]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1013</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-427 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-427.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-427.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">The Morgan Library and Museum, New York (Gordon N. Ray Collection MA 13958)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_324.xml">Morgan</repository>
+                    <collection>Gordon N. Ray</collection>
+                    <idno>MA 13958</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Gt Marlborough St, 36</placeName>
+                <date when="1838-09-12">12 Sept [1838]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_9999.xml">Unidentified</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Seeks permission to make another visit to Addiscombe [Military College] to see again the model of St Helena. He needs to correct proportion of some geological sections in his <hi rend="italic">Geology</hi> [see <hi rend="italic">Volcanic islands</hi>, ch. 4].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="places" ref="#">Addiscombe Military College</term>
+                <term type="scientific_terms" ref="#">geography</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <date>Sept. 12<hi rend="superscript">th</hi>—</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Perhaps you may remember that some months since, you were kind enough to procure for me from M<hi rend="superscript">r</hi> Clark, a letter asking the Lieut. Governor at Addiscombe<ref target="#foot.f1"/> to allow me to inspect the model of S<hi rend="superscript">t</hi>. Helena kept there.<ref target="#foot.f2"/></p>
+<p>The publication of my geology has been much delayed, &amp; now before going to press, I am particularly anxious to see the model once again, to correct the proportion of some geological sections.<ref target="#foot.f3"/></p>
+<p>Would it be asking you too great a favour to take the trouble of procuring for me some note to the Governor, or <hi rend="underline">resident </hi> authority for this purpose.</p>
+<p>I should esteem it a very great favour, if you could effect this for me; &amp; will excuse the liberty I take in troubling you.— In case you should be able procure permission for me; perhaps you would be good enough to communicate it to me by the Post.</p>
+<p>Believe me dear Sir | Yours very truly obliged | Charles Darwin <lb resp="#mjhawkins"/> 36 Great Marlborough St.</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 at Addiscombe] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">4.3 to me] ‘e’ <hi rend="italic">over</hi> ‘y’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_8073.xml" resp="#mjhawkins">Francis Clark</ref>, of the Secretary’s office, India House, compiled the East India Register and Directory (1841). In it Major-General Sir <ref target="../nameregs/nameregs_4530.xml" resp="#mjhawkins">Ephraim Gerrish Stannus</ref> is listed as Lieutenant Governor of the East India College, Addiscombe. The college was founded in 1809 to train army officers for the East India Company.</note>
+            <note xml:id="foot.f2">The model was constructed by <ref target="../nameregs/nameregs_4270.xml" resp="#mjhawkins">Robert Francis Seale</ref>, author of a book on the geology of St Helena (<ref target="../bibliographies/bibl_7055.xml" resp="#mjhawkins">Seale 1834</ref>). See <ref target="../bibliographies/bibl_8001.xml" resp="#mjhawkins"><hi rend="italic">Volcanic islands</hi></ref>, p. 75 n.</note>
+            <note xml:id="foot.f3">The plan to publish a single volume on ‘volcanic islands and coral reefs’ was eventually abandoned. Although CD had finished writing up most of his material on volcanic islands (see <ref target="./DCP-LETT-428.xml" resp="#mjhawkins">letter to Charles Lyell, [14] September [1838]</ref>) it was not published until 1844, as the second of three volumes on the geology of the voyage. It was preceded by <ref target="../bibliographies/bibl_1571.xml" resp="#mjhawkins"><hi rend="italic">Coral reefs</hi></ref> (1842).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

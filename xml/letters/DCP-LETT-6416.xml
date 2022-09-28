@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6416">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Adam Sedgwick   11 October 1868</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10700</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6416 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6416.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6416.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 177: 129</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>177: 129</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4276.xml">Sedgwick, Adam</persName>
+                <placeName>Cambridge</placeName>
+                <date when="1868-10-11">11 Oct 1868</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Congratulates CD on election of his son [George] as a Fellow of Trinity College.</p>
+            <p>Describes his ill health.</p>
+            <p>Invites CD to visit Cambridge.</p>
+            <p>[Letter dated November in error.]</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Other people</term>
+                <term type="listb" ref="#">unc</term>
+                <term type="people" ref="#subject_1224">Darwin, G. H.</term>
+                <term type="people" ref="#">fellow of Trinity</term>
+                <term type="places" ref="#">Cambridge</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">inviting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Cambridge</placeName>
+                    <date>Oct 11 | 1868</date>
+                    <salute>My dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I returned to College (from my Cathedral residence at Norwich) in time to assist at the <hi rend="underline">admission</hi> of the new Fellows.<ref target="#foot.f1"/> I shook hands with them in our antechapel, not knowing the name of any one of them; &amp; little suspecting that your son was one of them.<ref target="#foot.f2"/> I heard their names afterwards &amp; greatly rejoiced I was to find that the one who is junior on the list was your living representation, I tried to find him out, but he was gone; as I was told by a gyp.<ref target="#foot.f3"/></p>
+<p>Let me send you my warmest congratulations   And now I do hope that you will again sometimes come among us— All my old friends are dead, or have left the University— So that here I am living in solitude, for I cannot bear to go out to any parties— Considering my great age—for I am far advanced in the 84<hi rend="superscript">th</hi>. year—I am in many respects a strong old fellow. Yet my organic machinery is sadly out of tune—<ref target="#foot.f4"/> —E.G. I have in my heart an indurated mitral valve, which makes all climbing impossible. 2. I have an enlarged prostate gland, which makes me unfit for society. (3) I have a stone in my right kidney &amp; 4<hi rend="superscript">thly</hi>. I am liable to dangerous attacks of giddiness, which sometimes fell me to the ground—as if I were shot thro’ the head— But these maladies (if I may so call them) have not increased during the last two or three years: &amp; after several irritating &amp; alarming struggles I have settled down into a kind new equilibrium among my animal functions— Do come down with a family party &amp; renew your acquaintance with Cambridge, &amp; the few old friends left in it—<ref target="#foot.f5"/> New friends you would find in plenty—</p>
+<p>There! I have been slopping my ink so ’tis time for me to conclude. My eyes do not—without a higher power than I am using—allow me to read what I am writing</p>
+<p>Again accept my congratulations &amp; believe me while my heart beats &amp; my lungs heave Ever yours in all christian truth and good will | A Sedgwick</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Sedgwick was a fellow of Trinity College, Cambridge. As a prebendary of Norwich Cathedral, he was required to be in Norwich for two months of the year. (<hi rend="italic">ODNB.</hi>)</note>
+            <note xml:id="foot.f2">Sedgwick refers to <ref target="../nameregs/nameregs_1224.xml" resp="#mjhawkins">George Howard Darwin</ref>; see also <ref target="./DCP-LETT-6219.xml" resp="#mjhawkins">letter from E. A. Darwin, [11 October 1868]</ref>.</note>
+            <note xml:id="foot.f3">Gyp: a college servant at Cambridge and Durham (<ref target="../bibliographies/bibl_1347.xml" resp="#mjhawkins"><hi rend="italic">Chambers</hi></ref>).</note>
+            <note xml:id="foot.f4">Sedgwick suffered intermittently from poor health for most of his life (<ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref>).</note>
+            <note xml:id="foot.f5">CD had been a student at the University of Cambridge from 1828 to 1831; he accompanied Sedgwick on a geological field trip in the summer of 1831. See <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 1 and <ref target="../bibliographies/bibl_994.xml" resp="#mjhawkins">Browne 1995</ref>, pp. 137–43.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

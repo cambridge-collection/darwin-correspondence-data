@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6610">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Ferdinand Maria Malven   12 February [1869]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10153</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6610 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6610.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6610.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 35</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 35</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3150.xml">Malven, F. M.</persName>
+                <placeName>Vienna</placeName>
+                <date when="1869-02-12">12 Feb [1869]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Librarian to the Board of Trade proposes a celebration of CD’s 60th birthday by the Vienna <hi rend="italic">Free Press</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Wiener Freie Presse</term>
+                <term type="people" ref="#subject_2705">librarian</term>
+                <term type="social" ref="#">60th birthday</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">Board of Trade</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Vienna (Austria)</placeName>
+                    <date>february 12.</date>
+                    <salute>Most venerated Sir.</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>The undersigned begs leave to acquaint You, that in a letter which a few days ago he adressed to the Editors of one of our most renowned and influential Newspapers, the “New free Press”, he <hi rend="underline">suggested</hi> the celebration of the to-days 60<hi rend="superscript">th</hi>. anniversary of your birthday.—<ref target="#foot.f2"/> He expressed therein the wish, that our learned Societies might You give a token of their acknowledgment of your immeasurable and immortal scientifical discoveries and achievements.— Believe me Sir, your name is here and everywhere in Germany as worshiped as that of our ever-lamented immortal <hi rend="underline">Humboldt</hi> whose decease by a noteworthy coincidence happened in the same year where your mighty pioneering work appeared!—<ref target="#foot.f3"/> May you excuse my bad English, I never having been in England nor being in the habit to write or to speak English.</p>
+<p>May it please you Sir, to agree the tribute of profound respect and veneration of your most devoted and adherent servant.| ferd. Maria Malven, | librarian to the Imp. and Royal | Austrian board of trade, | companion of the royal order of the saviour of Greece.—</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to CD’s sixtieth birthday.</note>
+            <note xml:id="foot.f2">Malven refers to the <hi rend="italic">Neue Freie Presse</hi>, a liberal Viennese daily paper founded in 1864 (<ref target="../bibliographies/bibl_8171.xml" resp="#mjhawkins">Wandruszka 1958</ref>, p. 64).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_2443.xml" resp="#mjhawkins">Alexander von Humboldt</ref> died in 1859, the year <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref> was published.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

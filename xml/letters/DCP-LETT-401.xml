@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-401">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Gould   [February 1838]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8302</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-401 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-401.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-401.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">William Patrick Watson (dealer) (April 2014)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_484.xml">W. P. Watson</repository>
+                    <collection>(dealer)</collection>
+                    <idno>Apr 2014</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Gt Marlborough St, 36</placeName>
+                <date notBefore="1838-02-01" notAfter="1838-02-28">[Feb 1838]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1935.xml">Gould, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>The publishers [of <hi rend="italic">Zoology</hi>] have agreed to 50 plates [for <hi rend="italic">Birds</hi>]. Asks JG to decide which are most worthy of being done. Also asks him to see whether Bayfield will undertake [to colour] the birds (and quadrupeds) at something under 5d each.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Zoology</term>
+                <term type="people" ref="#subject_3463">publishers</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[36 Great Marlborough Street]</placeName>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have just seen my publisher.<ref target="#foot.f1"/> we have fixed to have fifty plates of birds, so will you <hi rend="underline">at once</hi> take into consideration which are most worthy being done.—<ref target="#foot.f2"/></p>
+<p>Will you also <hi rend="underline">oblige</hi> me by the favour of seeing Bayfield,<ref target="#foot.f3"/> &amp; see whether he will undertake the birds (which are chiefly small ones) at something less than 5<hi rend="superscript">d</hi> a piece, as it is rather more than our estimate calculated upon.—</p>
+<p>If he would also undertake my quadrupeds I should be very glad.— There will be about 28 plates, chiefly small animals.—<ref target="#foot.f4"/> See if you cannot make for me some kind of agreement to take the whole at something under 5<hi rend="superscript">d</hi>.—</p>
+<p>It will be rendering me a very great assistance if you can effect this</p>
+<p>Yours most truly | Chas Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 <hi rend="italic">at once</hi>] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">2.1 see] <hi rend="italic">after del</hi> ‘en’</note>
+                    <note xml:id="tnote.n3">2.2 a] <hi rend="italic">over illeg</hi></note>
+                    <note xml:id="tnote.n4">3.1 undertake] <hi rend="italic">before del</hi> ‘the’</note>
+                </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_4407.xml" resp="#mjhawkins">Smith, Elder &amp; Co</ref>., publishers of the <ref target="../bibliographies/bibl_8579.xml" resp="#mjhawkins"><hi rend="italic">Zoology</hi></ref> and the geological volumes arising from the <hi rend="italic">Beagle</hi> voyage.</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_650.xml" resp="#mjhawkins"><hi rend="italic">Birds</hi></ref> was begun by Gould and completed by <ref target="../nameregs/nameregs_1958.xml" resp="#mjhawkins">George Robert Gray</ref>. The plates are introduced with a note (p. i): ‘The accompanying illustrations, which are fifty in number, were taken from sketches made by Mr. Gould himself, and executed in stone by Mrs. Gould’.</note>
+            <note xml:id="foot.f3">The plates were coloured by Bayfield, who also coloured the plates for <ref target="../bibliographies/bibl_2949.xml" resp="#mjhawkins">Gould 1832–7</ref> (see p. viii, where he is praised and thanked for his work).</note>
+            <note xml:id="foot.f4">The four numbers of <ref target="../bibliographies/bibl_5182.xml" resp="#mjhawkins"><hi rend="italic">Mammalia</hi></ref> by <ref target="../nameregs/nameregs_4972.xml" resp="#mjhawkins">George Robert Waterhouse</ref> have thirty-two unsigned coloured lithograph plates. According to <ref target="../nameregs/nameregs_4407.xml" resp="#mjhawkins">Smith, Elder &amp; Co</ref>.’s accounts these were undertaken by Dickes, possibly <ref target="../nameregs/nameregs_1314.xml" resp="#mjhawkins">William Dickes</ref> (see <ref target="./DCP-LETT-428A.xml" resp="#mjhawkins">letter to A. Y. Spearman, 22 September 1838</ref>, n. 1).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

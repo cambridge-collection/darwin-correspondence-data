@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2165">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Henry Coe   4 November 1857</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16462</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2165 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2165.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2165.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 161: 192</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>161: 192</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_997.xml">Coe, Henry</persName>
+                <placeName>Knowle Asylum, Hampshire</placeName>
+                <date when="1857-11-04">4 Nov 1857</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Responds to CD’s article on kidney beans [<hi rend="italic">Collected papers</hi> 1: 275–7]. Sends beans as evidence of crossing.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">beans, kidney</term>
+                <term type="it" ref="#">Collected papers</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">crossing</term>
+                <term type="scientific_terms" ref="#">flora</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Asylum. Knowle. | N<hi rend="superscript">r</hi>. Fareham. Hants.<ref target="#foot.f1"/></placeName>
+                    <date>4<hi rend="superscript">th</hi>. Nov<hi rend="superscript">r</hi>. 1857.</date> 
+                    <salute>Sir,</salute>
+                </opener>
+                <div type="transcription">
+<p>In an article headed “Bees and Fertilisation of Kidney Beans” published in the Gardeners’ Chronicle of the 24<hi rend="superscript">th</hi>. ult: I read “I am also astonished that the varieties of the Kidney Bean can be raised true when grown near each other. I should have expected that they would have been crossed by the bees bringing pollen from other varieties; and I should be infinitely obliged for any information on this head from any of your correspondents”.—<ref target="#foot.f2"/></p>
+<p>I enclose a few beans they are from the “Black Negro”.— They were planted between the Dwarf Haricot, a “<hi rend="underline">White</hi>” Bean, and a Dwarf entirely “Brown”, thus  about 10 rows Haricot “White” -’- 4 -’- Negro “Black” then Dwarf. “Brown”.</p>
+<p>Such a mixture, I never before met with, and the result was altogether unlooked for or expected— The Haricots (White) are very little touched with the exception of here and there one— The “Brown” not at all.—</p>
+<p>I have the honor to be, | Sir, | Your obed<hi rend="superscript">t</hi>. serv<hi rend="superscript">t</hi>. | Henry Coe. | Gardener <lb resp="#mjhawkins"/> M<hi rend="superscript">r</hi>. C. Darwin— | &amp;c. &amp;c.</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note> <hi rend="italic">Top of first page</hi>: ‘done’<hi rend="italic">pencil</hi>, <hi rend="italic">circled pencil</hi> </note>
+                <note> <hi rend="italic">Bottom of last page</hi>: ‘not 1/5 part of the crossed Beans were pure, all shades betwen Brown &amp; black &amp; one mottled with white— All the pure (if pure) were the black’<ref target="#foot.f3"/> <hi rend="italic">ink</hi> </note>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The County Lunatic Asylum, built in 1852, was about three miles north-west of Fareham, Hampshire. According to his valediction, <ref target="../nameregs/nameregs_997.xml" resp="#mjhawkins">Henry Coe</ref> was a gardener at the asylum.</note>
+            <note xml:id="foot.f2">See letter to <hi rend="italic">Gardeners’ Chronicle</hi>, 18 October [1857].</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-2171.xml" resp="#mjhawkins">letter from Henry Coe, 14 November 1857</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

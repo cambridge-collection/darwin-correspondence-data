@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-694">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To the Admiralty   9 [May 1846]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3092</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-694 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-694.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-694.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Houghton Library, Harvard University (Autograph File, D)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_180.xml">Harvard Houghton</repository>
+                    <collection>Autograph File, D</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1846-05-09">9 [May 1846]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_37.xml">Admiralty</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Encloses letter and paper to be forwarded to B. J. Sulivan.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_4614">Sulivan, B. J.</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down near Bromley | Kent</placeName>
+                    <date>Saturday 9<hi rend="superscript">th</hi>.</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I should be very much obliged if you would kindly forward the accompanying letter to Sulivan in the Philomel,<ref target="#foot.f2"/> &amp; should you be sending <hi rend="underline">any package</hi>, also, the accompanying, paper,<ref target="#foot.f3"/> which relates to a subject, on which he has made some observations at the Falklands.—</p>
+<p>I hope you will excuse me troubling you &amp; believe me | Yours truly obliged | Charles Darwin.</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 also] ‘al’ <hi rend="italic">over</hi> ‘the’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">9 May was the only Saturday the 9th in 1846.</note>
+            <note xml:id="foot.f2">H.M.S. <hi rend="italic">Philomel</hi>, then returning to England, arrived 19 June 1846 (Log of <hi rend="italic">Philomel</hi>, Public Record Office, ADM 53/1025).</note>
+            <note xml:id="foot.f3"><ref target="../bibliographies/bibl_2806.xml" resp="#mjhawkins">‘On the geology of the Falkland Islands’</ref> (read 25 March 1846), <ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 1: 203–12.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

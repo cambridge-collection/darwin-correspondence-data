@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11158">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Sara Sedgwick   29 September [1877]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20210</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11158 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11158.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11158.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">photocopy</note>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl>Emma Darwin 2: 229</bibl>
+            </relatedItem>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 249: 90</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">The British Library (Surrogate RP 9524)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_43.xml">The British Library</repository>
+                    <idno>RP 9524</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1877-09-29">29 Sept [1877]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1240.xml">Sedgwick, Sara</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Rejoices that SS has accepted his son [William]. Judging from his own experience "life would be a most dreary blank without a dear wife to love with all one’s soul".</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1245">Darwin, W. E.</term>
+                <term type="people" ref="#subject_1240">Sedgwick, Sara</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="social" ref="#">engagement</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi> | (<hi rend="print">Railway Station | Orpington. S.E.R.</hi>)</placeName>
+                    <date>Sept. 29<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sara</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I must tell you how deeply I rejoice over my son’s good fortune—<ref target="#foot.f2"/> You will believe me, when I say that for very many years I have not seen any woman, whom I have liked &amp; esteemed so much as you.— I hope &amp; firmly believe that you will be very happy together, notwithstanding that you may find Southampton rather a dull place, about which my son feels such great fears. His dread that you are sacrificing too much in giving up your American home is natural, but I trust will prove groundless.—<ref target="#foot.f3"/> Judging from my own experience life would be a most dreary blank without a dear wife to love with all one’s soul.</p> 
+    <p>I can say with absolute truth that no act or conduct of William has ever in his whole life caused me one minute’s anxiety or disapproval. His temper is beautifully sweet &amp; affectionate &amp; he delights in doing little kindnesses. That you may be happy together is my strong desire, &amp; I thank you from the bottom of my heart for having accepted him.</p>
+<p>My dear Sara | Yours affectionately | Charles Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 (<hi rend="print">Railway … S.E.R.</hi>)] <hi rend="italic">parentheses added</hi></note>
+            </div>
+            
+            
+            
+
+            
+        </div>
+     
+     
+     <div type="footnotes">
+<note xml:id="foot.f1">The year is established by the reference to <ref target="../nameregs/nameregs_1240.xml" resp="#mjhawkins">Sara Sedgwick</ref> and <ref target="../nameregs/nameregs_1245.xml" resp="#mjhawkins">William Erasmus Darwin’s</ref> engagement (see n. 2 below).</note>
+<note xml:id="foot.f2">William Darwin and <ref target="../nameregs/nameregs_1240.xml" resp="#mjhawkins">Sara Sedgwick</ref> were married on 29 November 1877 (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242)). See also <ref target="./DCP-LETT-11190.xml" resp="#mjhawkins">letter from J. D. Hooker, 19 October 1877</ref>.</note>
+<note xml:id="foot.f3">William was a partner in a bank in Southampton. <ref target="../nameregs/nameregs_1240.xml" resp="#mjhawkins">Sara Sedgwick’s</ref> family lived in Massachussetts.</note>
+</div>   
+       
+    </body>
+    </text>
+</TEI>

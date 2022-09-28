@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11764">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From R. F. Cooke   27 November 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9671</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11764 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11764.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11764.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 501</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 501</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent" subtype="personGrp">
+                <persName key="../nameregs/nameregs_1053.xml">Cooke, R. F.</persName>
+                <persName key="../nameregs/nameregs_2575.xml">John Murray, Publishers</persName>
+                <placeName>London, Albemarle St, 50a</placeName>
+                <date when="1878-11-27">27 Nov 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends report on annual trade sale [missing]. New printings of <hi rend="italic">Journal of researches</hi> and <hi rend="italic">Descent</hi> are needed.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+                <term type="scientific_terms" ref="#">sexual selection</term>
+                <term type="social" ref="#">Other people</term>
+                <term type="societal" ref="#">John Murray, Publishers</term>
+                <term type="societal" ref="#">Murray’s annual trade sale</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">50A, Albemarle Street, London. W.</hi></placeName>
+                    <date>Nov 27 <hi rend="print">187</hi>8</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>Our report this year is not so satisfactory as we could wish, but I nevertheless send it to you, as you may be interested to know what we sold at our <hi rend="underline">Annual Trade Sale</hi> &amp; also the stock remaining.<ref target="#foot.f1"/></p>
+                    <p>We shall have to reprint at once the “Naturalists Journal” &amp; also the “Descent of Man” &amp; we propose to print off 1000 copies of the latter if you have no objection.<ref target="#foot.f2"/></p>
+<p>Have you any correction for either work?</p>
+                  <p>I trust you are keeping in good health. With kind compliments | Yours faithfully | Rob<hi rend="superscript">t</hi>. Cooke</p><lb/>
+                    <p rend="left">Cha<hi rend="superscript">s</hi>. Darwin Esq<hi rend="superscript">r</hi></p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The report has not been found. There is a printed list of the ‘uniform edition of Mr. Darwin’s works’ in DAR 210.14 annotated by CD with the number of copies sold and on hand in 1878. CD’s publisher, John Murray, held an annual sales dinner each November for the book trade (<ref target="../bibliographies/bibl_5765.xml" resp="#mjhawkins">Murray 1908–9</ref>, p. 540).</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_4250.xml" resp="#mjhawkins"><hi rend="italic">Journal of researches</hi></ref> had last been printed in 1876; the fourteenth thousand was issued under the title ‘A naturalists voyage’ in 1879. A ‘revised and augmented’ edition of <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> had been printed in 1877; the thirteenth thousand was issued in 1879. (<ref target="../bibliographies/bibl_2661.xml" resp="#mjhawkins">Freeman 1977</ref>.) </note>
+        </div> 
+     
+    </body>
+    </text>
+</TEI>

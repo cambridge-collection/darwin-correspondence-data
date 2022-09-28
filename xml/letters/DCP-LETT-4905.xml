@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4905">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From T. H. Huxley   2 October 1865</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3405</idno>
+            
+            
+            
+            
+            <date when="2002">2002</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4905 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4905.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4905.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="13">13</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <relatedItem type="publication">
+                <bibl>Huxley (1900) 1: 268</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 13</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 166: 310</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>166: 310</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2486.xml">Huxley, T. H.</persName>
+                <placeName>London, Abbey Place, 26</placeName>
+                <date when="1865-10-02">2 Oct 1865</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Has returned from holiday. Family news.</p>
+            <p>Concern over Hooker’s health.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Other people</term>
+                <term type="people" ref="#subject_2357">Hooker, J. D.</term>
+                <term type="social" ref="#">holiday</term>
+                <term type="social" ref="#">Other people</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>26 Abbey Place | S<hi rend="superscript">t</hi> Johns Wood</placeName>
+                    <date>Oc<hi rend="superscript">t</hi>. 2<hi rend="superscript">nd</hi> 1865</date>
+                    <salute>My dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>‘This comes hoping you are well’ &amp; for no other purpose than to say as much. I am just back from seven weeks idleness at Littlehampton with my wife &amp; children the first time I have had a holiday of any extent with them for years.<ref target="#foot.f1"/></p>
+<p>We are all flourishing—the babies particularly so—and I find myself rather loth to begin grinding at the mill again. There is a vein of laziness in me which crops out uncommonly strong in your godson<ref target="#foot.f2"/>—who is about the idlest, jolliest young four year old I know—</p>
+<p>You will have been as much grieved as I have been about dear old Hooker—<ref target="#foot.f3"/> According to the last accounts however he is mending &amp; I hope to see him in pristine vigour again before long</p>
+<p>My wife is gone to bed or she would join me in kindest regards &amp; remembrances to M<hi rend="superscript">rs</hi> Darwin &amp; your family—</p>
+<p>Ever yours faithfully | T H Huxley</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Littlehampton, a coastal resort in Sussex, was a popular holiday destination for Huxley, his wife <ref target="../nameregs/nameregs_2478.xml" resp="#mjhawkins">Henrietta Anne Huxley</ref>, and their six children, Jessie, Marian, Leonard, Rachel, Nettie, and Henry, who ranged in age from 7 years to 9 months (see <ref target="../bibliographies/bibl_3989.xml" resp="#mjhawkins">L. Huxley 1900</ref>, 1: 302).</note>
+            <note xml:id="foot.f2">Huxley refers to <ref target="../nameregs/nameregs_2481.xml" resp="#mjhawkins">Leonard Huxley</ref>. See <ref target="../bibliographies/bibl_1979.xml" resp="#mjhawkins">A. Desmond 1994–7</ref>, 1: 290–1.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_2357.xml" resp="#mjhawkins">Joseph Dalton Hooker</ref> had suffered a severe attack of rheumatic fever in August and had recently been recuperating at Buxton, Derbyshire (see <ref target="./DCP-LETT-4883.xml" resp="#mjhawkins">letter from F. H. Hooker, [17 August 1865]</ref>, and <ref target="./DCP-LETT-4899.xml" resp="#mjhawkins">letter from J. D. Hooker, [26 September 1865]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

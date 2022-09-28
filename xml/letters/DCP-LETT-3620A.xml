@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3620A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Nicholas Trübner   23 June [1862]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20624</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3620A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3620A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3620A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 249: 115, DAR 249: 116</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Remember When Antiquities (catalogue 26)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_327.xml">Plunkett, Daniel</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1862-06-23">23 June [1862]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4787.xml">Trübner, J. N.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>"I have received a letter from Dr. Asa Gray this morning who says ""pray ask Mr. Trubner to send at once 1/2 dozen copies of the Orchid book"". Will you be so good as to attend to it."</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Orchids</term>
+                <term type="people" ref="#subject_1957">Gray, Asa</term>
+                <term type="people" ref="#">Trubner, J. N.</term>
+                <term type="scientific_terms" ref="#">instructions</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>June 23<hi rend="superscript">d</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have received a letter from D<hi rend="superscript">r</hi>. Asa Gray this morning, who says “pray ask M<hi rend="superscript">r</hi>. Trübner to send at once <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> a dozen copies of the (Darwin’s) Orchis Book.” (Murray).—<ref target="#foot.f2"/></p>
+<p>Will you be so good as to attend to this—</p>
+<p>Yours faithfully | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 at once] <hi rend="italic">interl</hi></note>
+                </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by reference to the publication of <ref target="../bibliographies/bibl_6010.xml" resp="#mjhawkins"><hi rend="italic">Orchids</hi></ref>. See also <ref target="./DCP-LETT-3634.xml" resp="#mjhawkins">letter to Asa Gray, 1 July [1862]</ref>.</note>
+            <note xml:id="foot.f2">The letter from Gray has not been found. Trübner, a publisher and bookseller, frequently acted as Gray’s London agent (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vols. 8 and 9). In addition to reviewing <ref target="../bibliographies/bibl_6010.xml" resp="#mjhawkins"><hi rend="italic">Orchids</hi></ref> for the <hi rend="italic">American Journal of Science and Arts</hi> (A. Gray 1862a), Gray was attempting to find an American publisher for the book, which had been published in Britain by John Murray (see <ref target="./DCP-LETT-3559.xml" resp="#mjhawkins">letter from Asa Gray, 18 May 1862</ref> and n. 3).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

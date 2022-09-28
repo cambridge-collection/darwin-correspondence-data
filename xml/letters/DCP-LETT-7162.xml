@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7162">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Murray   9 April [1870]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9188</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7162 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7162.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7162.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 147: 132</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">National Library of Scotland (John Murray Archive) (Ms. 42152 ff. 207–208)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_278.xml">Murray Archive</repository>
+                    <idno>Ms.42152 ff.207-208</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1870-04-09">9 Apr [1870]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Finds <hi rend="italic">Academy</hi> contains valuable matter for his work.</p>  
+<p><hi rend="italic">Descent</hi> progresses slowly – will not be ready for press for several months.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Academy</term>
+                <term type="it" ref="#">Descent</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Beckenham | Kent</placeName>
+                    <date>Apr 9<hi rend="superscript">th</hi></date>
+                    <salute>My dear M<hi rend="superscript">r</hi> Murray</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I had intended last month to write to thank you very much for sending me the Academy; but pray do not trouble yourself, as I take it in myself, &amp; generally find valuable matter for my work.—<ref target="#foot.f2"/> I am steadily at work on my new book, but I do not suppose I shall be ready for press for several months;<ref target="#foot.f3"/> as my progress is always crawling half as far backwards as I advance forwards.—</p>
+<p>Permit me to add how sincerely grieved I was some time ago to hear of your dreadful loss: I have lost children &amp; know &amp; can feel what the blow is.<ref target="#foot.f4"/></p>
+<p>Believe me | Yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.2 &amp;] <hi rend="italic">over</hi> ‘—’ </note>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to the <hi rend="italic">Academy</hi> (see n. 2, below).</note>
+            <note xml:id="foot.f2">Murray was the publisher of the <hi rend="italic">Academy</hi>; the first issue came out in October 1869 and included a notice of <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> (see <ref target="./DCP-LETT-7125.xml" resp="#automat">letter from C. E. C. B. Appleton, 2 March [1870]</ref>).</note>
+            <note xml:id="foot.f3">CD refers to <hi rend="italic">Descent.</hi></note>
+            <note xml:id="foot.f4">Murray’s youngest son, Arthur, died of congestion of the lungs while at Eton in 1870 (<ref target="../bibliographies/bibl_6206.xml" resp="#mjhawkins">Paston 1932</ref>, p. 149).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

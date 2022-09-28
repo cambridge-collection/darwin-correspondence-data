@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11145">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Wilhelm Breitenbach<choice><seg type="original"><ref target="#foot.f1"/></seg><seg type="translation"><ref target="#foot_trans.f1"/></seg></choice>   19 September 1877</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14078</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11145 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11145.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11145.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp (German) damaged</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 160: 291</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>160: 291</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_607.xml">Breitenbach, Wilhelm</persName>
+                <placeName>Unna</placeName>
+                <date when="1877-09-19">19 Sept 1877</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Describes data relating to variability of <hi rend="italic">Primula elatior</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Primula elatior</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">variation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01258_files/8/0_0.jpg" width="2876px" height="5077px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01258_files/11/1_1.jpg" width="2876px" height="5077px"/>
+        <surface n="291:1r" xml:id="i1258">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01258.jpg" width="2876px" height="5077px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01258_files/8/0_0.jpg" width="2876px" height="5077px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01258.dzi" width="2876px" height="5077px"/>
+        </surface>
+        <surface n="291:1v" xml:id="i1259">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01259.jpg" width="2876px" height="5077px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01259_files/8/0_0.jpg" width="2876px" height="5077px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01259.dzi" width="2876px" height="5077px"/>
+        </surface>
+        <surface n="291:2r" xml:id="i1260">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01260.jpg" width="2876px" height="5077px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01260_files/8/0_0.jpg" width="2876px" height="5077px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01260.dzi" width="2876px" height="5077px"/>
+        </surface>
+        <surface n="291:2v" xml:id="i1261">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01261.jpg" width="2876px" height="5077px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01261_files/8/0_0.jpg" width="2876px" height="5077px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01261.dzi" width="2876px" height="5077px"/>
+        </surface>
+    </facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>Verehrtester Herr Darwin!</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>Vor längerer Zeit theilte ich Ihnen einige Beobachtungen über die Variabilität von <hi rend="underline">Primula elatior</hi> mit.<ref target="#foot.f2"/> Diese Beobachtungen habe ich fortgesetzt, und ich will Ihnen dieselben in ihrer Gesammtheit hier geben.</p>
+<p>Gesammtzahl der untersuchten Blüthen <hi rend="underline">2077</hi>. Von diesen waren langgrifflig: <hi rend="underline">1192</hi>, kurzgrifflig <hi rend="underline">852</hi>, gleichgrifflig <hi rend="underline">33</hi>. Jedesmal auf einer Dolde fanden sich folgende Zusammenstellungen:</p> 
+
+    <p>
+    <table rend="left">
+        <row>
+            <cell rend="left borderBottom borderRight">Langgrifflig</cell>
+            <cell rend="centre borderBottom borderRight">2</cell>
+            <cell rend="centre borderBottom borderRight">3</cell>
+            <cell rend="centre borderBottom borderRight">4</cell>
+            <cell rend="centre borderBottom borderRight">4</cell>
+            <cell rend="centre borderBottom borderRight">4</cell>
+            <cell rend="centre borderBottom borderRight">3</cell>
+            <cell rend="centre borderBottom borderRight">2</cell>
+            <cell rend="centre borderBottom borderRight">8</cell>
+            <cell rend="centre borderBottom borderRight">4</cell>
+            <cell rend="centre borderBottom">10</cell>
+        </row>
+        <row>
+            <cell rend="left borderRight">Kurzgrifflig</cell>
+            <cell rend="centre borderRight">2</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">2</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre">2</cell>
+        </row>
+     </table>
+    </p>
+    <p>
+    <table rend="left">
+        <row>
+            <cell rend="left borderBottom borderRight">〈Lan〉ggrifflig</cell>
+            <cell rend="centre borderBottom borderRight">2</cell>
+            <cell rend="centre borderBottom borderRight">10</cell>
+            <cell rend="centre borderBottom borderRight">5</cell>
+            <cell rend="centre borderBottom borderRight">2</cell>
+            <cell rend="left borderBottom">Summa: 63</cell>
+        </row>
+        <row>
+            <cell rend="left borderBottom borderRight">〈Kurz〉grifflig:</cell>
+            <cell rend="centre borderBottom borderRight">1</cell>
+            <cell rend="centre borderBottom borderRight">1</cell>
+            <cell rend="centre borderBottom borderRight">2</cell>
+            <cell rend="centre borderBottom borderRight">2</cell>
+            <cell rend="left borderBottom">Summa: 19.</cell>
+        </row>
+    </table>
+    </p>
+    <p>
+    <table rend="left">
+        <row>
+            <cell rend="left borderBottom borderRight">Langgrifflig:</cell>
+            <cell rend="centre borderBottom borderRight">5</cell>
+            <cell rend="centre borderBottom borderRight">3</cell>
+            <cell rend="centre borderBottom borderRight">3</cell>
+            <cell rend="centre borderBottom borderRight">4</cell>
+            <cell rend="centre borderBottom borderRight">3</cell>
+            <cell rend="centre borderBottom borderRight">3</cell>
+            <cell rend="centre borderBottom borderRight">6</cell>
+            <cell rend="centre borderBottom borderRight">7</cell>
+            <cell rend="centre borderBottom borderRight">3</cell>
+            <cell rend="centre borderBottom borderRight">2</cell>
+            <cell rend="centre borderBottom borderRight">1</cell>
+            <cell rend="centre borderBottom">1</cell>
+        </row>
+        <row>
+            <cell rend="left borderRight">Gleichgrifflig:</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">2</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">2</cell>
+            <cell rend="centre">1</cell>
+        </row>
+    </table>
+    </p>
+    <p>
+    <table rend="left">
+        <row>
+            <cell rend="left borderBottom borderRight">Langgrifflig</cell>
+            <cell rend="centre borderBottom borderRight">4</cell>
+            <cell rend="centre borderBottom borderRight">7</cell>
+            <cell rend="centre borderBottom borderRight">5</cell>
+            <cell rend="centre borderBottom borderRight">8</cell>
+            <cell rend="centre borderBottom borderRight">5</cell>
+            <cell rend="centre borderBottom borderRight">6</cell>
+            <cell rend="centre borderBottom borderRight">4</cell>
+            <cell rend="centre borderBottom borderRight">127</cell>
+            <cell rend="left borderBottom">Summa: 99</cell>
+        </row>
+        <row>
+            <cell rend="left borderRight">Gleichgrifflig</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">2</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">12</cell>
+            <cell rend="left">Summa: 25</cell>
+        </row>
+    </table>
+    </p>
+    <p>
+    <table rend="left">
+        <row>
+            <cell rend="left borderBottom borderRight">Kurzgrifflig</cell>
+            <cell rend="centre borderBottom borderRight">1</cell>
+            <cell rend="centre borderBottom borderRight">2</cell>
+            <cell rend="centre borderBottom borderRight">2</cell>
+            <cell rend="centre borderBottom borderRight">2</cell>
+            <cell rend="centre borderBottom borderRight">5</cell>
+            <cell rend="left borderBottom">Summa: 12</cell>
+        </row>
+        <row>
+            <cell rend="left borderRight">Gleichgrifflig</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="left">Summa: 5.</cell>
+        </row>
+    </table>
+    </p>
+    <p>
+    <table rend="left">
+        <row>
+            <cell rend="left borderBottom borderRight">Langgrifflig.</cell>
+            <cell rend="centre borderBottom borderRight">1</cell>
+            <cell rend="centre borderBottom borderRight">3</cell>
+            <cell rend="left borderBottom">Summa: 4</cell>
+        </row>
+        <row>
+            <cell rend="left borderBottom borderRight">Kurzgrifflig.</cell>
+            <cell rend="centre borderBottom borderRight">1</cell>
+            <cell rend="centre borderBottom borderRight">2</cell>
+            <cell rend="left borderBottom">Summa: 3.</cell>
+        </row>
+        <row>
+            <cell rend="left borderRight">Gleichgrifflig.</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="left">Summa: 2</cell>
+        </row>
+     </table>
+    </p>
+
+<p>In einem Falle war die einzige offene Blüthe einer Dolde gleichgrifflig.</p>
+<p>Die langgriffligen Blüthenformen sind häufiger als die kurzgriffligen, sowol in ihrer Gesammtheit, als auch wenn sie mit kurzgriffligen auf einer Dolde combinirt sich finden. Ebenso sind, wenn eine Dolde langgrifflige und gleichgrifflige Blüthen trägt, erstere an Zahl überwiegend. Am zahlreichsten fand ich Vereinigungen von langgriffligen und gleichgriffligen Blüthen auf einer Dolde, nemlich in 21 Fällen, während langgrifflige und kurzgrifflige mir nur in 14 Fällen begegnet sind. Fälle, in denen alle drei Formen auf einer Dolde vereinigt sind, habe ich bis jetzt keine mehr gefunden, ausser den beiden, welche ich Ihnen schon früher mittheilte. Beim Vorhandensein von verschiedenen Blüthenformen auf einer Dolde verhalten sich kurzgrifflige und gleichgrifflige an Zahl ziemlich gleich, beide werden aber von den langgriffligen übertroffen.</p>
+                    <p>Augenblicklich ist eine Arbeit von mir über Schmetterlingsrüssel unter der Presse, welche ich Ihnen, wenn sie fertig ist, zuzusenden mir erlauben werde; ebenso Ihrem Herrn Sohn Francis.<ref target="#foot.f3"/></p>
+<p>Mit vorzüglichster | Hochachtung | Wilhelm Breitenbach <lb resp="#mjhawkins"/></p>
+<p rend="left"><hi rend="underline">Unna. 19. Sept. 1877.</hi></p> 
+                </div>
+            </div>
+
+            
+             
+            
+            
+            
+            
+            
+        </div>
+        
+        
+        <div type="translation">
+            <div type="text">
+                <opener>
+                    <salute>Most honoured Mr Darwin!</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>Some time ago I communicated to you a few observations on the variability of <hi rend="underline">Primula elatior</hi>.<ref target="#foot.f2"/> I continued these observations and I want to give you them in complete form here.</p>
+<p>Total number of blossoms examined <hi rend="underline">2077</hi>. Of these were long-styled: <hi rend="underline">1192</hi>, short-styled <hi rend="underline">852</hi>, homostyled <hi rend="underline">33</hi>. In every instance the following combinations were found on the umbel:</p> 
+
+    <p>
+    <table rend="left">
+        <row>
+            <cell rend="left borderBottom borderRight">Long-styled</cell>
+            <cell rend="centre borderBottom borderRight">2</cell>
+            <cell rend="centre borderBottom borderRight">3</cell>
+            <cell rend="centre borderBottom borderRight">4</cell>
+            <cell rend="centre borderBottom borderRight">4</cell>
+            <cell rend="centre borderBottom borderRight">4</cell>
+            <cell rend="centre borderBottom borderRight">3</cell>
+            <cell rend="centre borderBottom borderRight">2</cell>
+            <cell rend="centre borderBottom borderRight">8</cell>
+            <cell rend="centre borderBottom borderRight">4</cell>
+            <cell rend="centre borderBottom">10</cell>
+        </row>
+        <row>
+            <cell rend="left borderRight">Short-styled </cell>
+            <cell rend="centre borderRight">2</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">2</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre">2</cell>
+        </row>
+    </table>
+    </p>
+    <p>
+    <table rend="left">
+        <row>
+            <cell rend="left borderBottom borderRight">〈Long〉styled</cell>
+            <cell rend="centre borderBottom borderRight">2</cell>
+            <cell rend="centre borderBottom borderRight">10</cell>
+            <cell rend="centre borderBottom borderRight">5</cell>
+            <cell rend="centre borderBottom borderRight">2</cell>
+            <cell rend="left borderBottom">Total: 63</cell>
+        </row>
+        <row>
+            <cell rend="left borderBottom borderRight">〈Short-〉styled: </cell>
+            <cell rend="centre borderBottom borderRight">1</cell>
+            <cell rend="centre borderBottom borderRight">1</cell>
+            <cell rend="centre borderBottom borderRight">2</cell>
+            <cell rend="centre borderBottom borderRight">2</cell>
+            <cell rend="left borderBottom">Total: 19.</cell>
+        </row>
+    </table>
+    </p>
+    <p>
+    <table rend="left">
+        <row>
+            <cell rend="left borderBottom borderRight">Long-styled:</cell>
+            <cell rend="centre borderBottom borderRight">5</cell>
+            <cell rend="centre borderBottom borderRight">3</cell>
+            <cell rend="centre borderBottom borderRight">3</cell>
+            <cell rend="centre borderBottom borderRight">4</cell>
+            <cell rend="centre borderBottom borderRight">3</cell>
+            <cell rend="centre borderBottom borderRight">3</cell>
+            <cell rend="centre borderBottom borderRight">6</cell>
+            <cell rend="centre borderBottom borderRight">7</cell>
+            <cell rend="centre borderBottom borderRight">3</cell>
+            <cell rend="centre borderBottom borderRight">2</cell>
+            <cell rend="centre borderBottom borderRight">1</cell>
+            <cell rend="centre borderBottom">1</cell>
+        </row>
+        <row>
+            <cell rend="left borderRight">Homo-styled:</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">2</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">2</cell>
+            <cell rend="centre">1</cell>
+        </row>
+    </table>
+    </p>
+    <p>
+    <table rend="left">
+        <row>
+            <cell rend="left borderBottom borderRight">Long-styled:</cell>
+            <cell rend="centre borderBottom borderRight">4</cell>
+            <cell rend="centre borderBottom borderRight">7</cell>
+            <cell rend="centre borderBottom borderRight">5</cell>
+            <cell rend="centre borderBottom borderRight">8</cell>
+            <cell rend="centre borderBottom borderRight">5</cell>
+            <cell rend="centre borderBottom borderRight">6</cell>
+            <cell rend="centre borderBottom borderRight">4</cell>
+            <cell rend="centre borderBottom borderRight">127</cell>
+            <cell rend="left borderBottom">Total: 99</cell>
+        </row>
+        <row>
+            <cell rend="left borderRight">Homo-styled</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">2</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">12</cell>
+            <cell rend="left">Total: 25</cell>
+        </row>
+    </table>
+    </p>
+    <p>    
+    <table rend="left">
+        <row>
+            <cell rend="left borderBottom borderRight">Short-styled</cell>
+            <cell rend="centre borderBottom borderRight">1</cell>
+            <cell rend="centre borderBottom borderRight">2</cell>
+            <cell rend="centre borderBottom borderRight">2</cell>
+            <cell rend="centre borderBottom borderRight">2</cell>
+            <cell rend="centre borderBottom borderRight">5</cell>
+            <cell rend="left borderBottom">Total: 12</cell>
+        </row>
+        <row>
+            <cell rend="left borderRight">Homo-styled</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="left">Total: 5.</cell>
+        </row>
+    </table>
+    </p>
+    <p>
+    <table rend="left">
+        <row>
+            <cell rend="left borderBottom borderRight">Long-styled.</cell>
+            <cell rend="centre borderBottom borderRight">1</cell>
+            <cell rend="centre borderBottom borderRight">3</cell>
+            <cell rend="left borderBottom">Total: 4</cell>
+        </row>
+        <row>
+            <cell rend="left borderBottom borderRight">Short-styled.</cell>
+            <cell rend="centre borderBottom borderRight">1</cell>
+            <cell rend="centre borderBottom borderRight">2</cell>
+            <cell rend="left borderBottom">Total: 3.</cell>
+        </row>
+        <row>
+            <cell rend="left borderRight">Homo-styled.</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="centre borderRight">1</cell>
+            <cell rend="left">Total: 2</cell>
+        </row>
+    </table>
+    </p>
+
+                    <p>In one case the only open blossom on the umbel was homostyled.</p>
+                    <p>The long-styled floral forms are more common than the short-styled ones, both in their totality, as well as when they are combined with short-styled ones on the umbel. Likewise, when an umbel carries long-styled and homostyled blossoms, the former are more numerous. Most frequently I found combinations of long-styled and homostyled blossoms on the umbel, that is, in 21 cases, while long-styled and short-styled were seen in only 14 cases. I have so far not discovered any more cases of all three forms being combined on a single umbel, except for the two that I told you about earlier. When different forms of flowers occur on the same umbel, the number of the short-styled and homostyled ones is almost identical, but both are exceeded by the long-styled.</p>
+                    <p>At the moment, a work of mine on the butterfly proboscis is in press, which, as soon as it is ready, I will take the liberty of sending to you; also to your son Francis.<ref target="#foot.f3"/></p>
+<p>With the greatest | respect | Wilhelm Breitenbach</p>
+<p><hi rend="underline">Unna. 19. Sept. 1877.</hi></p> 
+                </div>
+            </div>
+
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">For a translation of this letter, see Appendix I.</note>
+            <note xml:id="foot_trans.f1">For a transcription of this letter in its original German, see p. QQQQ</note>
+            <note xml:id="foot.f2">Breitenbach reported his observations on <hi rend="italic">Primula elatior</hi> (true oxlip) in a <ref target="./DCP-LETT-10566.xml" resp="#automat" cert="low">letter to CD of 26 July 1876</ref> (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 24). CD added Breitenbach’s information to <ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref>, pp. 34, 224, and 272 n.  Breitenbach later published a paper on variability in <hi rend="italic">P. elatior</hi> (<ref target="../bibliographies/bibl_9365.xml" resp="#mjhawkins">Breitenbach 1880</ref>).</note>
+            <note xml:id="foot.f3">CD’s copy of Breitenbach’s paper ‘Untersuchungen an Schmetterlingsrüsseln’ (Researches on butterfly probosces; <ref target="../bibliographies/bibl_10387.xml" resp="#mjhawkins">Breitenbach 1878</ref>) is in the Darwin Pamphlet Collection–CUL. <ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin</ref> had written a paper titled ‘On the structure of the proboscis of <hi rend="italic">Ophideres fullonica</hi>, an orange-sucking moth’ (F. Darwin 1875b). <hi rend="italic">Ophideres fullonica</hi> is a synonym of <hi rend="italic">Eudocima phalonia</hi> (Pacific fruit-piercing moth).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

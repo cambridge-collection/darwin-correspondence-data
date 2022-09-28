@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1040">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Robert Hutton   [1847 – 12 November 1848]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">67</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1040 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1040.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1040.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.67)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <idno>Mss.B.D25.67</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1847-01-01" notAfter="1848-11-12">[1847 – 12 Nov 1848] </date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2472.xml">Hutton, Robert</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Tells RH that he has secured an introduction to Lady Elizabeth Finch through a friend of his father’s. Thanks RH for his efforts.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#">Darwin, R. W.’s friend</term>
+                <term type="people" ref="#subject_1629">Finch-Hatton, E. G.</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">introduction</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough | Kent</placeName>
+                    <date>Sunday</date>
+                    <salute>My dear M<hi rend="superscript">r</hi>. Hutton</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>The next morning after seeing you at the Geolog. Soc.<ref target="#foot.f2"/> I heard from my Father, that he had written to an old friend, who, as he thought probable, was intimate with Lady E. Finch,<ref target="#foot.f3"/> &amp; thus I have got a good introduction. I write this to save you or your friend any further trouble, &amp; I thank you heartily for your very kind readiness to help me.</p>
+<p>Believe me | Very truly yours | C. Darwin</p>
+<p>Pray give my kind compliments to M<hi rend="superscript">rs</hi> &amp; the Miss Huttons</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The letter has an 1847 watermark. The closing date is the Sunday before the death of CD’s father <ref target="../nameregs/nameregs_1234.xml">Robert Waring Darwin</ref> on 13 November 1848.</note>
+            <note xml:id="foot.f2">Hutton, like CD, was on the council of the Geological Society of London.</note>
+            <note xml:id="foot.f3">Probably <ref target="../nameregs/nameregs_9604.xml">Elizabeth Finch</ref>, who had a collection of British shells (<ref target="../bibliographies/bibl_11688.xml">Jeffreys 1831</ref>, pp. 505–6).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

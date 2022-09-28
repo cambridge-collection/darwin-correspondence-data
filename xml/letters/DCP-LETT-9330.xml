@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9330">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To H. B. Tristram   3 March [1874]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3945</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9330 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9330.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9330.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <note type="postmark">MR 3 74</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">New York Academy of Medicine (MS 14)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_301.xml">NYAM</repository>
+                    <idno>MS10</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1874-03-03">3 Mar [1874]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4808.xml">Tristram, H. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks HBT for all the trouble he has taken for Robert Swinhoe and himself. Will try to get six signatures on a new certificate and deliver it to the Royal Society in time.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_4642">Swinhoe, Robert</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">Royal Society of London</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>March 3<hi rend="superscript">d</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I thank you <hi rend="underline">sincerely</hi> for all the great trouble which you have taken for M<hi rend="superscript">r</hi>. Swinhoe &amp; self. I have got another certificate &amp; will send my servant up to London tomorrow &amp; do my best to get the six signatures. It must be delivered on Thursday at the Royal Soc<hi rend="superscript">y</hi>.—<ref target="#foot.f1"/></p>
+<p>Again apologising for all the trouble which I have caused, &amp; thanking you, I remain, | Yours very faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The signed certificate proposing that <ref target="../nameregs/nameregs_4642.xml" resp="#mjhawkins">Robert Swinhoe</ref> be elected a fellow of the <ref target="../nameregs/nameregs_4110.xml" resp="#mjhawkins">Royal Society of London</ref> had been lost in the post (see letter to secretary, <ref target="../nameregs/nameregs_4110.xml" resp="#mjhawkins">Royal Society of London</ref>, 2 March [1874]); evidently CD obtained six signatures on the new certificate as Swinhoe’s candidacy was announced at the meeting of 5 March 1874 (<hi rend="italic">Proceedings of the Royal Society of London</hi> 22 (1873–4): 228). Swinhoe was not elected a fellow in 1874, but was successful when proposed again in 1876 (see <ref target="../bibliographies/bibl_6563.xml" resp="#mjhawkins"><hi rend="italic">Record of the Royal Society of London</hi></ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

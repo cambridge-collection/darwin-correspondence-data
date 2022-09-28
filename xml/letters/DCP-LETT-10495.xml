@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10495">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Michels   3 May 1870</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10028</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10495 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10495.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10495.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 175</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 175</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3317.xml">Michels, John</persName>
+                <placeName>Barnes</placeName>
+                <date when="1870-05-03">3 May 1870</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends drawings of atypical <hi rend="italic">Geranium</hi> and honeysuckle pollen-grains. Would they produce variation in seedlings?</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Geranium</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">pollen</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">variation</term>
+                <term type="scientific_terms" ref="#">young, offspring</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>10 Castlenau Villas | Barnes. S.W</placeName>
+                    <date>May 3<hi rend="superscript">rd</hi>. 1870</date>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have taken the liberty of sending for your inspection some drawings, I have lately made of the Pollen of the Geranium and Honeysuckle—<ref target="#foot.f1"/></p>
+<p>I noticed that all the pollen bore a marked likeness to oneanother, but that with both specimens, there were one or two exceptions of so remarkable a character, that they might be taken for the Pollen of another plant—</p>
+<p>The number of pollen grains in each specimen, were about 30 to 40. The exceptions shown were the only ones of that type.—</p>
+<p>Is it possible that the varieties in the character of seedlings, owe their origen to the particular seeds being impregnated with these exceptional pollen.—</p>
+<p>It appears probable that as the pollen is the sexual part of the part,<ref target="#foot.f2"/> and any marked peculiarity would be transmitted to the seed impregnated—</p>
+<p>For my drawing, I used one of Smith &amp; Becks instrmts and <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>5</mn></mfrac></math></formula> Object glass.<ref target="#foot.f3"/> They are however enlarged about <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>3</mn></mfrac></math></formula>.</p>
+<p>I remain dear Sir | Your ob<hi rend="superscript">t</hi> St | John Michels <lb resp="#mjhawkins"/></p>
+<p rend="left">C. Darwin Esq | F.RS. <lb resp="#mjhawkins"/></p>
+<p>P.S.— I can show the pollen at any time. JM.</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The drawings referred to have not been found.</note>
+            <note xml:id="foot.f2">Michels meant to write, ‘part of the plant’.</note>
+            <note xml:id="foot.f3">Michels refers to <ref target="../nameregs/nameregs_4398.xml" resp="#mjhawkins">Smith, Beck &amp; Beck</ref>, scientific instrument makers. ‘<formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>5</mn></mfrac></math></formula> object glass’ refers to the nominal focal length of the lens used as object glass in the microscope.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

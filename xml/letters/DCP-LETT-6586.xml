@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6586">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Charles Phipps Haussoullier   31 January 1869</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9532</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6586 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6586.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6586.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p damaged</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 362</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 362</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2167.xml">Haussoullier, C. P.</persName>
+                <placeName>Paris</placeName>
+                <date when="1869-01-31">31 Jan 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Requests authorisation to translate <hi rend="italic">Journal of researches</hi> into French.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Journal of researches</term>
+                <term type="languages" ref="#">French</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>52 Grand rue de Batignolles, Paris.</placeName>
+                    <date>31<hi rend="superscript">st</hi>. January 1869.</date>
+                    <salute>Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I come to beg of you the authorization of translating into french your Naturalist’s Voyage round the World.<ref target="#foot.f1"/></p>
+<p>Without overrating my abilities, I am led to believe that my knowledge of the English language, &amp; my general 〈sc〉ientific education, will allow me to do justice to your work, the more so that I have alrea〈dy〉 made many translations.</p>
+<p>Yours most respectfully | Ch. Phipps Haussoullier. <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Ch. Darwin Esq<hi rend="superscript">re</hi>.</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note><hi rend="italic">Top of letter</hi>: ‘(Thierry Editor)’ <hi rend="italic">pencil</hi></note>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The reference is to <ref target="../bibliographies/bibl_4250.xml" resp="#mjhawkins"><hi rend="italic">Journal of researches</hi></ref>, part of which had been translated into French with the title <hi rend="italic">Voyages d’un naturaliste</hi> (Montgolfier and Belloc trans. 1860). A translation of the full text was not published until 1875 (Barbier trans. 1875).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

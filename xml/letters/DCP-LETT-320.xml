@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-320">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Charles Wilkes<ref target="#foot.f1"/>   [7 November 1836]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6</idno>
+            
+            
+            
+            
+            <date when="1985">1985</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-320 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-320.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-320.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="01">1</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.6)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>6</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Gt Marlborough St, 43</placeName>
+                <date when="1836-11-07">[7 Nov 1836]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_5132.xml">Wilkes, Charles</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Arranges to meet CW for conversation.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">meeting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <date>43. Gr<hi rend="superscript">t</hi>. Marlborough St</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am going into the country for a few weeks on Thursday.— As I am anxious to have the pleasure of conversing a short time with you, concerning your long &amp; most interesting voyage, I have thought the best plan of meeting would be to fix some hour.— Shall you be disengaged on Wednesday between 12 and 1 o’clock? If this hour is inconvenient, will you send me one line, &amp; fixing some other.— In case I do not hear, I will call at Long’s<ref target="#foot.f2"/> on Wednesday.</p>
+<p>Yours very faithfully | Charles Darwin *S 2</p>
+<p rend="left">Monday</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1"><hi rend="italic">point omitted after</hi>: 1.6 ‘case’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Lieutenant (later Admiral) <ref target="../nameregs/nameregs_5132.xml" resp="#mjhawkins">Charles Wilkes</ref>, American naval officer and explorer, was in London to obtain instruments for an exploring expedition to the Antarctic, the islands of the Pacific, and the Pacific Northwest, 1838–42 (see <ref target="../bibliographies/bibl_798.xml" resp="#mjhawkins">Borthwick 1965</ref>).</note>
+            <note xml:id="foot.f2">Long’s Hotel, 13 Clifford St, Bond St, London (<hi rend="italic">Boyle’s court and country guide</hi>, London 1836).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

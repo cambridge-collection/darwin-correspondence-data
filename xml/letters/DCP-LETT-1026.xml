@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1026">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Murray   17 November [1856–7]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1077</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1026 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1026.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1026.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">National Library of Scotland (John Murray Archive) (Ms.42153 ff.62–63)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_278.xml">Murray Archive</repository>
+                    <idno>Ms.42153 ff.62-63</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+            <date xml:id="date1" when="1856-11-17" exclude="#date2">17 Nov 1856</date>
+            <date xml:id="date2" when="1857-11-17" exclude="#date1">17 Nov 1857</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Asks JM for four copies of his <hi rend="italic">Journal of researches</hi> [2d ed.] at wholesale price. Also asks for total number of copies sold.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="it" ref="#">Journal of researches</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Nov. 17<hi rend="superscript">th</hi>.—</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I find that I have for little civilities in Natural History often occasion to give away copies of my Journal.<ref target="#foot.f2"/> I hope that you will not think it an unreasonable favour to beg to be supplied with 4 copies in cloth at the price charged to wholesale Booksellers.— If you can so far oblige me, would you be so kind as to have the parcel sent, anytime before Thursday morning.<ref target="#foot.f3"/> (with account enclosed) addressed thus</p>
+    <figure>
+        <p>C. Darwin Esq<hi rend="superscript">e</hi></p>
+<p>care of M<hi rend="superscript">r</hi> G. Snow</p>
+<p>Nag’s Head</p>
+                    <p>Borough.—</p></figure>
+<p>I do not know whether you keep any account of <hi rend="underline">total</hi> sales of Books, but if so I sh<hi rend="superscript">d</hi>. very much like to hear how many copies of my Journal have been sold altogether, if you would be so kind as to direct one of your clerks to put the number on a slip of paper, &amp; enclose it with Books, if you are willing to let me have them; apologising for this trouble | I remain Dear Sir | Your’s very faithfully | Charles Darwin <lb resp="#mjhawkins"/> John Murray Esq<hi rend="superscript">e</hi></p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.8 of] <hi rend="italic">over</hi> ‘D’</note>
+                    <note xml:id="tnote.n2">2.3 altogether] ‘al’ <hi rend="italic">added</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-1028.xml" resp="#mjhawkins">letter to John Murray, 20 November [1856–7]</ref>, n. 1, for the basis of this date.</note>
+            <note xml:id="foot.f2">The second edition of <ref target="../bibliographies/bibl_4250.xml" resp="#mjhawkins"><hi rend="italic">Journal of researches</hi></ref> was published by John Murray (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 3).</note>
+            <note xml:id="foot.f3">Thursday was the day that the carrier left London for Down village.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

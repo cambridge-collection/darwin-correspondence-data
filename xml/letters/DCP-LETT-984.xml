@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-984">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Richard Owen   21 [June 1846]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1123</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-984 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-984.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-984.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 147: 222</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl>De Beer (1958): 102</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 3: 323</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Natural History Museum, Library and Archives (General Special Collections Owen correspondence 9/204)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_288.xml">NHM</repository>
+                    <collection>General Special Collections</collection>
+                    <idno>Owen correspondence 9/204</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1846-06-21">21 [June 1846]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3629.xml">Owen, Richard</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>B. J. Sulivan has just arrived with fossil bones from Patagonia. Wants to arrange meeting.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_4614">Sulivan, B. J.</term>
+                <term type="places" ref="#">Patagonia</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">fossils</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="social" ref="#">Other people</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Sunday 21</date>
+                    <salute>My dear Owen</salute>
+                </opener>
+                <div type="transcription">
+<p>I have just heard from Capt. Sulivan R.N. that he is arrived in London with six casks of fossil bones from the <hi rend="underline">southern</hi> part of Patagonia, as I before mentioned to you.—<ref target="#foot.f1"/></p>
+<p>He is anxious to have them inspected by you &amp; I sh<hi rend="superscript">d</hi>. be extremely glad to be present. I send this note open through him to make any alterations. I have suggested to him to send the casks direct to the College of Surgeons, &amp; perhaps you could direct some one to get them unpacked, &amp; ready for inspection. He proposes to call with me on you on Monday next The 29<hi rend="superscript">th</hi>— at Two oclock if, as I hope, that may suit you.—<ref target="#foot.f2"/></p>
+<p>He has not made up his mind to what Public Body he will present these fossils, but I apprehend you will not object to receiving them at the College temporarily, &amp; no doubt there will be some duplicates: in case he sh<hi rend="superscript">d</hi>. think the British Museum better than the College<ref target="#foot.f3"/></p>
+<p>Yours very truly | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">3.2 them] <hi rend="italic">altered from</hi> ‘the’, <hi rend="italic">before del</hi> ‘fossils’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_4614.xml" resp="#mjhawkins">Bartholomew James Sulivan</ref> had arrived from Montevideo on 19 June. The fossils are those collected at Rio Gallegos, Patagonia during the survey voyage of H.M.S. <hi rend="italic">Philomel</hi> and described in Sulivan’s letters of 13 January – 12 February and 4 July 1845.</note>
+            <note xml:id="foot.f2">CD left spaces in this sentence and, in accordance with CD’s instructions at the beginning of the paragraph, presumably B. J. Sulivan filled in ‘Monday next The 29<hi rend="superscript">th</hi>—’ and ‘Two’.</note>
+            <note xml:id="foot.f3">The fossils were presented to the Royal College of Surgeons and described by Owen at the 1846 British Association meeting in Southampton, see <ref target="./DCP-LETT-730.xml" resp="#automat">letter from B. J. Sulivan, 13 January – 12 February 1845</ref>, n. 5.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-902">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Christian Karl Josias Bunsen<ref target="#foot.f1"/>   16 August [1853]<ref target="#foot.f2"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3159</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-902 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-902.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-902.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+            <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+                <relatedItem type="publication">
+                    <bibl><hi rend="italic">Correspondence</hi> 5: 152</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">The Morgan Library and Museum, New York (Heineman Collection MA 6511)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_324.xml">Morgan</repository>
+                    <collection>Heineman</collection>
+                    <idno>MA 6511</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1853-08-16">16 Aug [1853]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_725.xml">Bunsen, C. K. J.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks correspondent for forwarding microscopical specimens, a present from C. G. Ehrenberg.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1480">Ehrenberg, C. G.</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Aug<hi rend="superscript">t</hi> 16<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I have this day received the microscopical specimens which you have been so kind as to forward to me.— I beg that you will be so good as to present my sincere thanks to the illustrious Ehrenberg,<ref target="#foot.f3"/> on your return to Berlin,<ref target="#foot.f4"/> for his present &amp; I beg to remain | Dear Sir | Yours truly obliged | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The conjectured recipient is identified on the basis that CD had formerly sent samples of microscopic material to <ref target="../nameregs/nameregs_1480.xml" resp="#mjhawkins">Christian Gottfried Ehrenberg</ref> via Bunsen, who was Prussian ambassador in London, 1841–54. See <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 3, letters to C. G. Ehrenberg, <ref target="./DCP-LETT-870.xml" resp="#mjhawkins">21 May [1845]</ref>, <ref target="./DCP-LETT-923.xml" resp="#mjhawkins">29 October [1845]</ref>, and <ref target="./DCP-LETT-963.xml" resp="#mjhawkins">letter to J. D. Hooker, [29 March or 5 April 1846]</ref>.</note>
+            <note xml:id="foot.f2">The year is based on the watermark ‘Towgood 1853’ and the Down Bromley Kent address, which was used for only a brief period (July–December) in 1853. CD began to use it regularly in 1856, but the stationery of that year consistently has a Towgood 1855 watermark. See also n. 4, below.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_1480.xml" resp="#mjhawkins">Christian Gottfried Ehrenberg</ref> had corresponded with CD during the years 1844–6 when CD was writing <ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref> (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 3). His microscopical analysis of Pampas mud and other specimens collected by CD helped to identify the nature of the geological deposits. In March 1853 Ehrenberg read two papers at the <ref target="../nameregs/nameregs_56.xml" resp="#mjhawkins">Akademie der Wissenschaften</ref> zu Berlin on the microscopical organisms he had found in CD’s Galápagos volcanic rock and mud specimens (Ehrenberg 1853a, pp. 178–9, and 1853b, pp. 180–94).</note>
+            <note xml:id="foot.f4">Bunsen was officially recalled to Berlin in April 1854 and left England in July of that year in order to spend the summer months at his home in Charlottenberg, near Bonn (Bunsen ed. 1868, 1: 330, 355).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11014F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Francis Darwin to P. P. C. Hoek   [<hi rend="italic">c.</hi> 24 June 1877]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20972</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11014F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11014F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11014F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+            <notesStmt>
+                <relatedItem type="publication">
+                    <bibl> <hi rend="italic">Pieters and Winthagen 1990</hi> 244</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+                <bibl type="provenance">Artis Library (P. P. C. Hoek Archive: Darwin correspondence)</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="../repo/repo_11.xml">Artis</repository>
+                        <collection>P.P.C. Hoek Archive: </collection>
+                        <idno>Darwin correspondence</idno>
+                        </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1222.xml">Darwin, Francis</persName>
+                <placeName>Basset</placeName>
+                <date when="1877-06-24">[<hi rend="italic">c.</hi> 24 June 1877]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2319.xml">Hoek, P. P. C.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>CD has written to [Charles] Wyville Thomson in favour of PPCH’s request [for duplicates of Pycnogonida collected by the Challenger expedition], and hopes it will be successful.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Pycnogonida</term>
+                <term type="people" ref="#subject_1">Darwin, C. R.</term>
+                <term type="people" ref="#subject_4730">Thomson, C. W.</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="ships" ref="#">Challenger</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Basset | Southampton</placeName>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>My father directs me to tell you that he has written to Sir Wyville Thompson in favour of yr request, &amp; he hopes that you may be successful<ref target="#foot.f2"/></p>
+<p>Dear Sir | Yours faithfully | Francis Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter and the <ref target="./DCP-LETT-11016.xml" resp="#mjhawkins">letter from P. P. C. Hoek to C. W. Thomson, 25 June 1877</ref>.</note>
+            <note xml:id="foot.f2">CD’s letter to <ref target="../nameregs/nameregs_4730.xml" resp="#mjhawkins">Charles Wyville Thomson</ref> has not been found. Hoek had written to Thomson requesting duplicates of the Pycnogonida (sea-spider) specimens collected on the <hi rend="italic">Challenger</hi> expedition (see <ref target="./DCP-LETT-11016.xml" resp="#mjhawkins">letter from P. P. C. Hoek to C. W. Thomson, 25 June 1877</ref>). CD had received copies of Hoek’s recent work on sessile cirripedes and <hi rend="italic">Balanus</hi> (<ref target="../bibliographies/bibl_8690.xml" resp="#mjhawkins">Hoek 1875</ref> and 1876; see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 23, <ref target="./DCP-LETT-9883.xml" resp="#mjhawkins">letter to P. P. C. Hoek, 11 March 1875</ref>, and <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 24, <ref target="./DCP-LETT-10334.xml" resp="#mjhawkins">letter to P. P. C. Hoek, [after May 1876]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

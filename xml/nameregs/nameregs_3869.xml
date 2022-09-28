@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-3869" status="released">
+    <persName>
+        <forename>Richard</forename>
+        <forename>Chandler</forename>
+        <choice>
+            <seg><surname notBefore="1809" notAfter="1859">Alexander</surname></seg>
+            <seg><surname notBefore="1859" notAfter="1902">Prior</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1809–1902</date></note>
+    <sex value="M"/>
+    <note type="biography">
+        <p>Physician and botanist. Collected plants from around the world. Took the additional surname Prior in 1859.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_1985.xml" resp="#mjhawkins">R. Desmond 1994</ref>.</p>
+    </note>
+    <note type="volume">3,5,WSL</note>
+    <note type="keywords">
+        <term type="flora">plants</term>
+        <term type="h">Physician</term>
+        <term type="a">botanist</term>
+    </note>
+</person>

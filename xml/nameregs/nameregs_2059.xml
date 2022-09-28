@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-2059" status="released">
+    <persName>
+        <forename>Sarah</forename>
+        <forename>Harriet</forename>
+        <choice>
+            <seg><surname notBefore="1804" notAfter="1831">Mostyn Owen</surname></seg>
+            <seg><surname notBefore="1832" notAfter="1856">Williams</surname></seg>
+                <seg><surname notBefore="1857" notAfter="1882">Haliburton</surname></seg>
+        </choice>
+    </persName>
+    <note type="dates"><date>1804–86</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Eldest daughter of William Mostyn Owen Sr of Woodhouse. Married Edward Hosier Williams (d. 1844) in 1831 and Thomas Chandler Haliburton (1796–1865; <hi rend="italic">ODNB</hi>) in 1856. A close friend and neighbour of CD before the <hi rend="italic">Beagle </hi>voyage.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_9153.xml" resp="#mjhawkins"><hi rend="italic">BMD</hi></ref> (<hi rend="italic">Marriage index</hi>)</p>
+        <p><ref target="../bibliographies/bibl_1095.xml" resp="#mjhawkins"><hi rend="italic">Burke’s landed gentry</hi></ref> 1952 s.v. Mostyn-Owen</p>
+        <p>Census returns of England and Wales 1881 (The National Archives: Public Record Office RG11/0843/38/13)</p>
+        <p><ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 1 s.v. Owen, Sarah Harriet</p>
+        <p><hi rend="italic">London Gazette</hi>, 25 May 1888, p. 2983</p>
+    </note>
+    <note type="volume">1,20,21,WSL,28,29</note>
+    <note type="keywords">
+        <term type="name">Darwin, C. R.</term>
+        <term type="name">Biddulph, Fanny</term>
+        <term type="name">Williams, E. H.</term>
+        <term type="name">Haliburton, T. C.</term>
+        <term type="ship">Beagle</term>
+        <term type="occupation">Family friend</term>
+    </note>
+    
+</person>

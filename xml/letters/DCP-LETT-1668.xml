@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1668">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To T. H. Huxley   18 April [1855]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3214</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1668 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1668.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1668.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 145: 158</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Imperial College of Science, Technology, and Medicine Archives (Huxley 5: 31)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_192.xml">Imperial College</repository>
+                    <idno>Huxley 5: 31</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1855-04-18">18 Apr [1855]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2486.xml">Huxley, T. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thomas Bell thinks John Lindley superior for Royal Society Medal. CD agrees, but demurs at Medal going to same branch of science two years in succession.</p>
+            <p>Perplexed about Albany Hancock’s qualifications compared with J. O. Westwood’s.</p>
+            <p>Death of H. De la Beche.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Other people</term>
+                <term type="people" ref="#subject_379">Bell, Thomas</term>
+                <term type="people" ref="#subject_1273">De la Beche, H. T.</term>
+                <term type="people" ref="#subject_2091">Hancock, Albany</term>
+                <term type="people" ref="#subject_2932">Lindley, John</term>
+                <term type="people" ref="#subject_5077">Westwood, J. O.</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">Royal Society Medal</term>
+                <term type="societal" ref="#">Royal Society of London</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Ap. 18<hi rend="superscript">th</hi></date>
+                    <salute>My dear Huxley</salute>
+                </opener>
+                <div type="transcription">
+<p>I have received the enclosed from Bell,<ref target="#foot.f1"/> which please read &amp; burn.— I think Lindley has a higher claim than Westwood; but I had fancied that it was not thought advisable to give the medal on two following years for same branch of nat. science:<ref target="#foot.f2"/> if this impression is quite erroneous, I shall say nothing about Westwood except (as you remarked in regard to Hancock) as a reminder for a future year.— I sh<hi rend="superscript">d</hi>. moreover be considerably perplexed if I had <hi rend="underline">myself</hi> to settle only between Hancock &amp; Westwood.—<ref target="#foot.f3"/></p>
+<p>When we meet at Council<ref target="#foot.f4"/> I shall hear what you think about Zoologist versus Botanist for this year.— I have written to Bell to above effect viz that I agree to Lindley’s superior claims, excepting on score of Zoologist having his turn.— I was delighted at your note about Lyell<ref target="#foot.f5"/></p>
+<p>Most truly yours | C. Darwin</p>
+<p>I quoted to Bell what you say about Hancock.—</p>
+<p>So poor De la Beche is at last gone.<ref target="#foot.f6"/></p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.3 of nat. science 1.4] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">2.2 for] <hi rend="italic">over</hi> ‘as’</note>
+                    <note xml:id="tnote.n3">5.1 at] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_379.xml" resp="#mjhawkins">Thomas Bell</ref>. See <ref target="./DCP-LETT-1659.xml" resp="#mjhawkins">letter to T. H. Huxley, 31 March [1855]</ref>.</note>
+            <note xml:id="foot.f2">Originally the two Royal Medals were awarded to the authors of the two best papers published in the <hi rend="italic">Philosophical Transactions</hi> with a triennial cycle of subjects: either astronomy and physiology; physics and geology or mineralogy; or mathematics and chemistry. In 1850, however, the stipulation was altered, and the medals were awarded ‘for the two most important contributions to the advancement of Natural Knowledge’ (<ref target="../nameregs/nameregs_4110.xml" resp="#mjhawkins">Royal Society of London</ref> 1940, pp. 116–17). It was, however, understood to be ‘desirable’ to give one award to each of the “two great divisions of Natural Knowledge”, i.e., the physical and the biological sciences (<ref target="../bibliographies/bibl_3310.xml" resp="#mjhawkins">Hall 1984</ref>, p. 141). Within these two divisions, medallists alternated according to their subject area: since <ref target="../nameregs/nameregs_2357.xml" resp="#mjhawkins">Joseph Dalton Hooker</ref> had received the medal in 1854, <ref target="../nameregs/nameregs_2932.xml" resp="#mjhawkins">John Lindley</ref>, also a botanist, would not be eligible in 1855. <ref target="../nameregs/nameregs_5077.xml" resp="#mjhawkins">John Obadiah Westwood</ref> was an entomologist.</note>
+            <note xml:id="foot.f3">Westwood was awarded the Royal Medal in 1855. <ref target="../nameregs/nameregs_2932.xml" resp="#mjhawkins">John Lindley</ref> received it in 1857 and <ref target="../nameregs/nameregs_2091.xml" resp="#mjhawkins">Albany Hancock</ref> in 1858.</note>
+            <note xml:id="foot.f4">CD was present at the council meetings of the Royal Society held on 21 and 23 April 1855 (Royal Society council minutes).</note>
+            <note xml:id="foot.f5">See <ref target="./DCP-LETT-1659.xml" resp="#mjhawkins">letter to T. H. Huxley, 31 March [1855]</ref>, in which CD suggested that <ref target="../nameregs/nameregs_3051.xml" resp="#mjhawkins">Charles Lyell</ref> was a good candidate for the Royal Society’s Copley Medal.</note>
+            <note xml:id="foot.f6"><ref target="../nameregs/nameregs_1273.xml" resp="#mjhawkins">Henry Thomas De la Beche</ref> died on 13 April 1855.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

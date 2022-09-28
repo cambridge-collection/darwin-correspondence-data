@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1326">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Higgins   9 May [1850]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1966</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1326 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1326.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1326.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Lincolnshire Archives (HIG/4/2/1/32)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_237.xml">Lincolnshire RO</repository>
+                    <collection>Correspondence with John Higgins</collection>
+                    <idno>HIG/4/2/1/32</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1850-05-09">9 May [1850]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2279.xml">Higgins, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Agrees to reduce rent on farm because of bad times.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="places" ref="#">farm</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>May 9<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>From what you say I must accord my consent to your proposition of a reduction of Rent of 15 per cent for the past half-year &amp; can only hope the present depressed times will not last.<ref target="#foot.f1"/></p>
+<p>Prices I understand, have been as low before under Protection,<ref target="#foot.f2"/> &amp; in France at present they are very low, so that I see no cause whatever to despair. I suppose M<hi rend="superscript">r</hi> Hardy<ref target="#foot.f3"/> is an active man &amp; does not content himself with merely complaining about the altered laws.—</p>
+<p>I hope that he has nothing of any kind to complain of.</p>
+<p>We must hope for better times<ref target="#foot.f4"/></p>
+<p>I remain | dear Sir | Yours very faithfully | C. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">British farmers and landowners were finding it difficult to adjust their operations to the reduced prices of corn and other crops; their dissatisfaction was loudly expressed in Parliament and at public meetings during the first few months of 1850 (<hi rend="italic">Annual Register</hi> 1850, History, p. 2). Some wished a return to protectionism, others a remission of taxes on the landowner.</note>
+            <note xml:id="foot.f2">The repeal of the Corn Laws in 1846 had led to a decline in prices. Early in 1849 the duty on foreign cereal imports was also abolished.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_2117.xml" resp="#mjhawkins">Francis Hardy</ref>, CD’s tenant.</note>
+            <note xml:id="foot.f4">CD’s income from the farm remained at the reduced rate during 1850, 1851, and 1852 (see <ref target="./DCP-LETT-1375.xml" resp="#mjhawkins">letter to John Higgins, 13 December [1850]</ref>, and <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 5, letters to John Higgins, <ref target="./DCP-LETT-1432.xml" resp="#mjhawkins">7 June 1851</ref> and <ref target="./DCP-LETT-1483.xml" resp="#mjhawkins">19 June [1852]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

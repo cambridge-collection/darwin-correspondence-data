@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11461">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Price   2 April [1878]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13610</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11461 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11461.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11461.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Copy</note>
+            <note type="physdesc" n="C">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 147: 281</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>147: 281</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1878-04-02">2 Apr [1878]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3861.xml">Price, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>On his discovery of ova of <hi rend="italic">Flustra</hi>.</p> 
+            <p>"Pray do not call me Dr Darwin."</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Flustra</term>
+                <term type="scientific_terms" ref="#">eggs</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down. | Beckenham Kent &amp;<hi rend="superscript">c</hi>.</placeName>
+                    <date>April 2<hi rend="superscript">nd</hi>.</date>
+                    <salute>My dear Price.</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>Your own excellent Memory makes you think others have an equally good one. I can only remember seeing the gemmules (or whatever they ought to be called) of Sponges, swimming about &amp; afterwards affixing themselves; &amp; I suppose the Locomotion was effected by Ciliæ, This, as you well know, was exclusively Grant’s discovery; but I saw first the gemmules of Flustra swimming about also no doubt by aid of ciliæ— I wish I could have aided you but I have never attended to cilia— Wonderful as the Phenomenon truly is.<ref target="#foot.f2"/></p>
+<p>Yours sincerely | Ch. Darwin.</p>
+                    <p>Pray do not call me D<hi rend="superscript">r</hi> Darwin, the title seems to me quite ridiculous.—<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+           
+        </div> 
+         
+         
+        <div type="footnotes">
+                <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-11350.xml" resp="#mjhawkins">letter to John Price, 10 February [1878]</ref>.</note>
+            <note xml:id="foot.f2">No letter from Price mentioning gemmules has been found. CD had observed ‘that the so-called ova of Flustra had the power of independent movement by means of cilia, &amp; were in fact larvae’ at a meeting of the Plinian Society in 1827, when he was a student at <ref target="../nameregs/nameregs_1454.xml" resp="#mjhawkins">Edinburgh University</ref> (<ref target="../bibliographies/bibl_6562.xml" resp="#mjhawkins">‘Recollections’</ref>, p. 372). The cilia, or hair-like projections on cells, propel the cell forward by regular beating. <ref target="../nameregs/nameregs_1951.xml" resp="#mjhawkins">Robert Edmond Grant</ref>, who studied corals and sponges, had been secretary of the Plinian Society; in 1825, he had discovered that the ova of sponges could move through the use of cilia (<ref target="../bibliographies/bibl_10404.xml" resp="#mjhawkins">Grant 1825</ref>). CD and Price had become friends when they were pupils at the Royal Free Grammar School in Shrewsbury. Price was probably preparing the paper on ‘Ciliary movement’ that he presented to the Chester Society of Natural Science on 3 April 1879 (<hi rend="italic">Annual Report of the Chester Society of Natural Science</hi> (1879): 11). </note>
+                <note xml:id="foot.f3">CD had been awarded an honorary doctorate (LLD) by <ref target="../nameregs/nameregs_795.xml" resp="#mjhawkins">Cambridge University</ref> in November 1877; Price had written to congratulate him on this honour (see <ref target="./DCP-LETT-11350.xml" resp="#mjhawkins">letter to John Price, 10 February [1878]</ref>).</note>
+            </div>
+    
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3587">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Daniel Oliver   1 June [1867]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1531</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3587 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3587.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3587.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Cleveland Health Sciences Library (Robert M. Stecher collection), FF10</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_93.xml">Cleveland</repository>
+                    <collection>Robert M. Stecher</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1867-06-01">1 June [1867]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3589.xml">Oliver, Daniel</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks DO to identify a plant grown from earth adhering to the foot of a woodcock.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">woodcock</term>
+                <term type="scientific_terms" ref="#">dispersion</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">identification</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">soil and other substrates</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>June 1<hi rend="superscript">st</hi></date>
+                    <salute>Dear Oliver</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Would you have the great kindness to name for me the enclosed plant— if you cannot make out the species, the genus w<hi rend="superscript">d</hi>. suffice.</p>
+<p>A friend sent a Woodcocks foot with 9 gr. of earth adhering to it, &amp; this plant came up.— It has been grown in pot in greenhouse &amp; the flowers have never opened &amp; stamens appear rudimentary— whether this is natural, or due to the plant being properly a marsh plant, or to some other cause, I know not.—<ref target="#foot.f2"/></p>
+<p>Excuse me bothering you &amp; believe me | Yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">2.4 to some] ‘to’ <hi rend="italic">interl</hi> </note>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-5287.xml" resp="#automat">letter from H. G. H. Norman, 30 November 1866</ref> (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 14).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_3555.xml" resp="#mjhawkins">Herbert George Henry Norman</ref>, the nephew of CD’s neighbour <ref target="../nameregs/nameregs_3553.xml" resp="#mjhawkins">George Warde Norman</ref>, sent CD a woodcock’s leg with earth attached to it in November 1866 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 14, <ref target="./DCP-LETT-5287.xml" resp="#automat">letter from H. G. H. Norman, 30 November 1866</ref>, and <ref target="./DCP-LETT-5287A.xml" resp="#mjhawkins">letter to H. G. H. Norman, [after 30 November 1866]</ref>). There is a note in CD’s Experimental notebook, DAR 157a, p. 83, that reads: <quote type="quote"> Dec. 2<hi rend="superscript">d</hi>. 1866   M<hi rend="superscript">r</hi> Herbert Norman of Oakley near Bromley sent me leg of Woodcock with tarsus coated with mud, which <hi rend="italic">when dry</hi> weighed 8–9 grains. Planted on burnt sand, Dec<hi rend="superscript">r</hi> 3<hi rend="superscript">d</hi>. Dec. 8<hi rend="superscript">th</hi> a monocot: plant, apparently a rush, has [<hi rend="italic">after del</hi> ‘or Luzula’] has germinated!!! The plant turns out <hi rend="italic">Juncus bufonius</hi> or toad rush— — grows “commonly in marshy ground, especially on watery sandy Heaths.” Sir J. E. Smith.— </quote> In his <hi rend="italic">English flora</hi> (<ref target="../bibliographies/bibl_7288.xml" resp="#mjhawkins">J. E. Smith 1824–36</ref>, 2: 168), <ref target="../nameregs/nameregs_4415.xml" resp="#mjhawkins">James Edward Smith</ref> had written of <hi rend="italic">Juncus bufonius</hi>: ‘In marshy ground, especially on watery sandy heaths, common.’ Since no record of any other plants having germinated from the mud attached to the woodcock’s leg has been found, the <hi rend="italic">J. bufonius</hi> was probably the plant CD asked Oliver to identify. Oliver’s reply has not been found in the Darwin Archive–CUL. CD mentioned the woodcock’s foot and the <hi rend="italic">Juncus bufonius</hi> in <ref target="../bibliographies/bibl_6018.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 5th ed.</ref>, p. 440. CD had earlier grown plants from seeds found in a ball of earth attached to a partridge’s foot; see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vols. 11 and 12, and <ref target="../bibliographies/bibl_6017.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 4th ed.</ref>, p. 432. He was interested in such cases as examples of possible seed distribution by birds.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4350">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Daniel Oliver   28 [November 1863]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">2854</idno>
+            
+            
+            
+            
+            <date when="1999">1999</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4350 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4350.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4350.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="11">11</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 261.10: 54 (EH 88206037)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>261.10: 54 (EH 88206037)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1863-11-28">28 [Nov 1863]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3589.xml">Oliver, Daniel</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Fertile flowers of violets, except <hi rend="italic">Viola tricolor</hi>, require insect visits.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">insect</term>
+                <term type="plants" ref="#">Viola tricolor</term>
+                <term type="plants" ref="#">violets</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">fertilisation and generation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">relation of organism to organism</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down</placeName>
+                    <date>28<hi rend="superscript">th</hi></date>
+                    <salute>Dear Oliver</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Your note has interested me much.—<ref target="#foot.f2"/> But I cannot look to notes on Fumitories, have not near strength enough.<ref target="#foot.f3"/> These plants are fertile in large degree without insect but are all (or nearly all) manifestly adapted to visits of insects,<ref target="#foot.f4"/> which favour &amp; increase their fertility— But I must write no more.—</p>
+<p>I shall be very curious to read sometime Hugo von Mohl on the little flowers.<ref target="#foot.f5"/> I did some work on them &amp; on violets this summer.<ref target="#foot.f6"/></p>
+<p>You may rely that perfect flowers of violets except V. tricolor are fertile <hi rend="doubleUnderline">only</hi> when visited by insects: I marked flowers visited by Bees &amp; prevented Bees visiting others &amp;c—<ref target="#foot.f7"/> The imperfect flowers are of course fertile without insect-visits—</p>
+<p>Yours very sincerely | C. Darwin</p>
+<p>How curious about the pods.—<ref target="#foot.f8"/></p>
+<p>The hydrostatic movement must be sometime like that of the pollinia in orchids.—<ref target="#foot.f9"/></p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">3.1 except V. tricolor] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">3.3 The imperfect … insect-visits—] <hi rend="italic">added</hi></note>
+                </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter and the <ref target="./DCP-LETT-4349.xml" resp="#mjhawkins">letter from Daniel Oliver, 27 November 1863</ref>.</note>
+            <note xml:id="foot.f2"><ref target="./DCP-LETT-4349.xml" resp="#mjhawkins">letter from Daniel Oliver, 27 November 1863</ref>.</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-4349.xml" resp="#mjhawkins">letter from Daniel Oliver, 27 November 1863</ref> and nn. 8–10. CD’s botanical notes on Fumariaceae, dated from 1857 to 1863, are in DAR 76: B13–21.</note>
+            <note xml:id="foot.f4">Oliver quoted this sentence in his review of works on dimorphic flowers ([Oliver] 1864b, p. 246). For CD’s observations on Fumariaceae, see the <ref target="./DCP-LETT-4349.xml" resp="#mjhawkins">letter from Daniel Oliver, 27 November 1863</ref> and n. 8.</note>
+            <note xml:id="foot.f5">CD began observing the small, unopening flowers (later called cleistogamic) of <hi rend="italic">Oxalis</hi> and <hi rend="italic">Viola</hi> during the spring of 1862 (see, for example, <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 10, <ref target="./DCP-LETT-3595.xml" resp="#mjhawkins">letter to Asa Gray, 10–20 June [1862]</ref> and n. 24). He made additional observations in 1863 (see n. 6, below). CD commented on <ref target="../bibliographies/bibl_5528.xml" resp="#mjhawkins">Mohl 1863</ref> in his manuscript of <ref target="../bibliographies/bibl_7749.xml" resp="#mjhawkins">‘Three forms of <hi rend="italic">Lythrum salicaria</hi>’</ref> (DAR 27.2: 44a–b), with a shorter reference to his observations only appearing in the published version, p. 196 (<ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 2: 128). In <ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref> he also referred to Mohl’s observations on cleistogamy (pp. 314, 320–1, 330), only disagreeing with Mohl’s insistence that the open flowers on cleistogamous plants were sterile. There is an annotated copy of <ref target="../bibliographies/bibl_5528.xml" resp="#mjhawkins">Mohl 1863</ref> in the Darwin Pamphlet Collection–CUL.</note>
+            <note xml:id="foot.f6">For CD’s 1863 notes on <hi rend="italic">Oxalis acetosella</hi>, see DAR 109: B6–7 and DAR 111: A46. For his 1863 notes on <hi rend="italic">Viola</hi>, see DAR 111: A5–12. See also <ref target="./DCP-LETT-4196.xml" resp="#mjhawkins">letter to Asa Gray, 31 May [1863]</ref> and n. 19.</note>
+            <note xml:id="foot.f7">Some of CD’s observations on <hi rend="italic">Viola tricolor</hi> are preserved in DAR 111: A27. See also <ref target="../bibliographies/bibl_8595.xml" resp="#mjhawkins"><hi rend="italic">Cross and self fertilisation</hi></ref>, pp. 123–8.</note>
+            <note xml:id="foot.f8">See <ref target="./DCP-LETT-4349.xml" resp="#mjhawkins">letter from Daniel Oliver, 27 November 1863</ref>.</note>
+            <note xml:id="foot.f9">In <ref target="../bibliographies/bibl_6010.xml" resp="#mjhawkins"><hi rend="italic">Orchids</hi></ref>, pp. 335–9, CD described the movement of some orchid pollinia, and the disc to which they are attached, when exposed alternately to air and water.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

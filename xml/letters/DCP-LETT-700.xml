@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-700">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Syms Covington   7 October 1843</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">5385</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-700 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-700.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-700.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <relatedItem type="publication">
+                <bibl>Ferguson (1971): 10</bibl>
+            </relatedItem>
+            <relatedItem type="publication"><bibl>De Beer 1959b, pp. 16–17</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 2: 395</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance"><hi rend="italic">Sydney Mail</hi>, 9 August 1884, p. 254</bibl>
+            <bibl type="printedSource"><hi rend="italic">Sydney Mail</hi>, 9 August 1884, p. 254</bibl>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1843-10-07">7 Oct 1843</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1096.xml">Covington, Syms</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>A new ear trumpet has been sent to SC as a present.</p>
+            <p>Sends news of his publications, health, and other developments since SC left for Australia.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin himself, bad or deteriorating</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down near Bromley, Kent,</placeName>
+                    <date>October 7, 1843</date>
+                    <seg type="supplemental">N.B.—This will be my direction for the rest of my life.</seg>
+                    <salute>Dear Covington—</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Your new ear-trumpet has gone by the ship Sultana; it is enclosed in a box from Messrs. Smith and Elder to their correspondent, Mr. Evans (I suppose, bookseller). I was not able to get it sent sooner. You must accept it as a present from me. I presume you will have to pay a trifle for carriage. I recommend you to take your old one to some skilful tinman, and by the aid of an internal plaister cast I have no doubt he could make them. All that is required is an exact resemblance in form. I should think it would answer for him to make one, &amp; hang it up in his shop with an advertisement. I was glad to get your last letter with so good an account of yourself, and that you had made a will. My health is better since I have lived in the country. I have now three children. I am yet at work with the materials collected during the voyage. My coral-reef little book has been published for a year—the subject on which you copied so much M.S. The Zoology of the voyage of the Beagle is also completed. I have lately heard that the Beagle has arrived safe and sound in the Thames,<ref target="#foot.f1"/> but I have heard no news of any of the officers. Your friends at Shrewsbury often enquire after you. I forget whether I ever you that Mrs. Evans<ref target="#foot.f2"/> is married and that my father has built them a nice little house to live in. Captain Fitz Roy, you will have heard, is gone to New Zealand as Governor. I believe he intended to call at Sydney.</p>
+<p>With best wishes for your prosperity, which is sure to follow you if you continue in your old upright prudent course, believe me, yours very faithfully | C. D<hi rend="smallCaps">arwin</hi>.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">From 1837 to 1843 the <hi rend="italic">Beagle</hi> was employed in surveying coastal areas of Australia under the successive commands of <ref target="../nameregs/nameregs_5114.xml" resp="#mjhawkins">John Clements Wickham</ref> and <ref target="../nameregs/nameregs_4574.xml" resp="#mjhawkins">John Lort Stokes</ref>. For an account of the voyage see <ref target="../bibliographies/bibl_7495.xml" resp="#mjhawkins">Stokes 1846</ref>.</note>
+            <note xml:id="foot.f2">Wife of Robert Waring Darwin’s butler at The Mount, Shrewsbury.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

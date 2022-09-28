@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9499">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. D. Fox   18 June 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7154</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9499 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9499.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9499.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 144: 293</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Christ’s College Library, Cambridge (MS 53 Fox 154)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_83.xml">CCLC</repository>
+                    <collection>MS 53</collection>
+                    <idno>Fox 154</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1874-06-18">18 June 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1730.xml">Fox, W. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Asks for living plant of <hi rend="italic">Utricularia</hi> and information on <hi rend="italic">Pinguicula lusitanica</hi>. Gives notes on habitats.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Pinguicula lusitanica</term>
+                <term type="plants" ref="#">Utricularia</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">stations, niches</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>June 18. 1874</date>
+                    <salute>My dear Fox</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I know that you observe all natural objects. I am in great want of a living plant of Utricularia. Have you ever seen it in clear ditches in the I. of Wight? If so, could you send me a plant (with a root if it has one) packed in damp moss in a tin box. I enclose habitats from Broomfield;<ref target="#foot.f1"/> but know not whether they are within a drive from you— I do not care about the flowers. I once saw the plant near Eastbourne.</p>
+<p>Have you ever met with Pinguicola Lusitanica in the I. of Wight? If you could find it, I w<hi rend="superscript">d</hi> ask you to observe a point about it whilst in a state of nature; &amp; indeed I sh<hi rend="superscript">d</hi> like to see a specimen.<ref target="#foot.f2"/> I have been working at some very interesting points in P. vulgaris—<ref target="#foot.f3"/></p>
+<p>yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD enclosed the last page of the <ref target="./DCP-LETT-9201.xml" resp="#mjhawkins">letter from W. E. Darwin, [before 18 June 1874]</ref>, containing a list, copied from <ref target="../bibliographies/bibl_935.xml" resp="#mjhawkins">Bromfield 1856</ref>, of the places in the Isle of Wight where <hi rend="italic">Pinguicula</hi> (butterwort) and <hi rend="italic">Utricularia</hi> (bladderwort) were found.</note>
+            <note xml:id="foot.f2">CD may also have enclosed a version of the <ref target="./DCP-LETT-9230.xml" resp="#mjhawkins">letter to ?, 8 June 1874</ref>, which he had been circulating and which contained queries about <hi rend="italic">Pinguicula</hi>. <hi rend="italic">Pinguicula lusitanica</hi> is pale butterwort.</note>
+            <note xml:id="foot.f3">CD had been making a series of experiments on an unnamed species of <hi rend="italic">Pinguicula</hi> since 31 May 1874, placing a variety of substances on the leaves and observing the extent to which they stimulated secretions; his notes on experiments from June and July 1874 are in DAR 59.1: 34–53.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-545">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Alexander von Humboldt   1 November 1839</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1024A</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-545 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-545.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-545.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp †</note>
+            <relatedItem type="publication">
+                <bibl>Barrett &amp; Corcos (1972): 171</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 2: 239</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Staatsbibliothek zu Berlin – Preußischer Kulturbesitz (Nachl. Alexander von Humboldt, gr. Kasten 4, Nr. 22, Bl. 1–2)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_379.xml">SB zu Berlin - Preußischer KB</repository>
+                    <collection>Nachl. Alexander von Humboldt</collection>
+                    <idno>gr. Kasten 4, Nr. 22, Bl. 1-2</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Upper Gower St, 12</placeName>
+                <date when="1839-11-01">1 Nov 1839</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2443.xml">Humboldt, F. W. H. A. von</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Gratified by AvH’s letter.</p>
+            <p>Sends data on temperature of the sea in the Galapagos, South Pacific, and the Abrolhos Islands.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="places" ref="#">Galapagos</term>
+                <term type="scientific_terms" ref="#">geography</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">sea, sea-currents</term>
+                <term type="scientific_terms" ref="#">wind and weather</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>12 Upper Gower St<hi rend="superscript">t</hi>.—</placeName>
+                    <date>November 1<hi rend="superscript">st</hi>. 1839</date>
+                    <salute>Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I beg to return you my sincere thanks for your very kind letter: it was an honour I scarcely ventured to hope for, and I assure you I fully appreciate it.— As you say you feel much interest about the temperature of the sea on the west coast of S. America, perhaps, you might like to see the few following remarks on the coldness of the sea near the Galapagos Islands, which I drew up, thinking at one time, that they would help to explain the absence of coral-reefs on their shores. If they are of the smallest interest to you, I shall be highly pleased: but I must remark, that I paid little attention to such important subjects. When I left England I was a mere amateur naturalist, &amp; from want of knowledge, not seeing the purport of such researches, I neglected them.—</p>
+<p>The observations at the Galapagos were made by a very careful person employed by Capt. FitzRoy (at his own expence) to take charge of the chronometers.<ref target="#foot.f1"/> Water was drawn up in a small bucket from near the surface, at the hours of 8 <hi rend="superscript">A.M.</hi>, 12, &amp; 8 <hi rend="superscript">PM</hi>, &amp; its temperature observed with a good thermometer (Fahn: scale). Ninety-six observations were made in the period between the 16<hi rend="superscript">th</hi> of September and the 20<hi rend="superscript">th</hi> of October, during which time the Beagle was either at anchor in different open harbours, or sailing from one island to another; the mean of these observations is 68<hi rend="superscript">o</hi>. The lowest temperature observed, was 58<hi rend="superscript">o</hi>. <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> at the SW. extremity of Albemarle Isl<hi rend="superscript">d</hi>:<ref target="#foot.f2"/> on the west side of this island the temperature was several times 62<hi rend="superscript">o</hi> and 63<hi rend="superscript">o</hi>.— The mean temperature of the sea, from forty four observations, made as before, during the time we crossed the Low Archipelago,<ref target="#foot.f3"/> anchored at two places at Otaheite<ref target="#foot.f4"/> —and sailed from it for two days, was 77<hi rend="superscript">o</hi> <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula>,—the lowest any day being 76<hi rend="superscript">o</hi> <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula>. The difference therefore between the mean temperature of the sea near the Galapagos, and in that of the Low Archipelago and Otaheite, was 8<hi rend="superscript">o</hi> <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula>: the difference between the extreme lowest 18<hi rend="superscript">o</hi>, and frequently 14<hi rend="superscript">o</hi>.— I was informed by some Whalers, that the clouds, which hang so low, along the coast of Peru &amp; northern Chile extend during winter many hundred miles over the Pacific, (I believe nearly half way from the coast of S. America towards the Low Archipelago). Is it possible, that this region of clouds can mark the breadth of the cold southern ocean-stream?—</p>
+<p>I do not know, whether you are at all interested in the changes of temperature in the sea, whilst approaching land; I will, however, take the liberty of copying from my note book, some observations I made as the Beagle crossed the outlying shoals of the Abrolhos &amp; approached the islands.— They show that small banks sometimes do not affect the temperature or colour of the water, although islets in the neighbourhood diminished it in a small degree. diag Date Depth in March 26<hi rend="superscript">t</hi> h. Hour Fathoms<ref target="#foot.f5"/> Temperature — — Lat. 18<hi rend="superscript">o</hi>.6’S. 10. A.M — <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>230</mn><mn>.</mn></mfrac></math></formula> — 82<hi rend="superscript">o</hi> Long 36<hi rend="superscript">o</hi>.6’W. 4 P.M — 30 — 82. at noon. 10 P.M. — <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>250</mn><mn>.</mn></mfrac></math></formula> — 81<hi rend="superscript">o</hi> N.B. There was no change in the colour of the sea, in the distance of less than a mile, when the depth varied from <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>230</mn><mn>.</mn></mfrac></math></formula> to 30 fathoms. The colour was according to Werners nomenclature, (seen through a narrow orifice) “indigo with a little azure blue”.— 27<hi rend="superscript">th</hi> 8 <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> AM. <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>180</mn><mn>.</mn></mfrac></math></formula> 81<hi rend="superscript">o</hi> <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>2</mn><mn>3</mn></mfrac></math></formula> — 9. AM. <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>150</mn><mn>.</mn></mfrac></math></formula> 81 <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>2</mn><mn>3</mn></mfrac></math></formula> Lat 12<hi rend="superscript">o</hi>.43’ 10. AM. <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>200</mn><mn>.</mn></mfrac></math></formula> 81 <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>2</mn><mn>3</mn></mfrac></math></formula> Long. 36<hi rend="superscript">o</hi>.6’W. 1 <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>4</mn></mfrac></math></formula>. P.M. <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>250</mn><mn>.</mn></mfrac></math></formula> 81 <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>4</mn></mfrac></math></formula> at noon. 2 <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>4</mn></mfrac></math></formula> P.M <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>30</mn><mn>.</mn></mfrac></math></formula> 81 <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>2</mn><mn>3</mn></mfrac></math></formula> 3 P.M 20 81 <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>2</mn><mn>3</mn></mfrac></math></formula> 4. PM. 22 81 <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>2</mn><mn>3</mn></mfrac></math></formula> 5, 6, 7, 8, PM 25 81 <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> 10. P.M. 27 81 <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>4</mn></mfrac></math></formula> 11. P.M. 27 81 <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula></p>
+<p>28th 8. A.M. 28 79 <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>2</mn><mn>3</mn></mfrac></math></formula> — 10. A.M 10 to 30 79 <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>4</mn></mfrac></math></formula> We were rapidly 4. P.M. ditto 79 <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> approaching the 9 P.M 20 79 <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> Abrolhos islands. at anchor at anchor N.B. During this day the colour of the sea varied from dark Indigo blue to a bright green.—ramme</p>
+<p>I must a〈polo〉gise for sending you such trivial observations: I should not have written, but I could not forbear thanking you for the great pleasure, you have given me by your letter. That the author of those passages in the Personal Narrative, which I have read over and over again, &amp; have copied out, that they might ever be present in my mind, should have so honoured me, is a gratification of a kind, which can but seldom happen to anyone. I have the honour to remain | Sir | Your obliged and respectful servant | Charles Darwin</p>
+<p>Staatsbibliothek Preussischer Kulturbesitz, Berlin, Federal Republic of Germany</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.6 on their] ‘on’ <hi rend="italic">above del</hi> ‘from’</note>
+                    <note xml:id="tnote.n2">1.8 important] <hi rend="italic">after del</hi> ‘gre’</note>
+                    <note xml:id="tnote.n3">1.8 When] ‘W’ <hi rend="italic">over</hi> ‘w’</note>
+                    <note xml:id="tnote.n4">2.9 <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula>] <hi rend="italic">after del</hi> ‘5′’</note>
+                    <note xml:id="tnote.n5">2.10 The mean] <hi rend="italic">after del</hi> ‘As From the 19’</note>
+                    <note xml:id="tnote.n6">2.14 between] <hi rend="italic">over</hi> ‘in’</note>
+                    <note xml:id="tnote.n7">3.2 I will] <hi rend="italic">after del</hi> ‘but’</note>
+                    <note xml:id="tnote.n8">3.3 crossed] <hi rend="italic">after del</hi> ‘approached’ ’</note>
+                    <note xml:id="tnote.n9">3.5 islets] <hi rend="italic">after del</hi> ‘large’</note>
+                    <note xml:id="tnote.n10">3.6 diminished] <hi rend="italic">below partially del</hi> ‘lower’ <hi rend="italic">altered from</hi> ‘lowered’</note>
+                    <note xml:id="tnote.n11">3.7 Hour] <hi rend="italic">above del</hi> ‘Depth in Fathoms’</note>
+                    <note xml:id="tnote.n12">3.7 Depth] <hi rend="italic">above del</hi> ‘Temp’</note>
+                    <note xml:id="tnote.n13">3.14 orifice)] ‘)’ <hi rend="italic">over full stop</hi></note>
+                    <note xml:id="tnote.n14"><hi rend="italic">point omitted after</hi> : 2.1 ‘very’; 2.15 ‘8<hi rend="superscript">o</hi><formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula>’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_4537.xml" resp="#mjhawkins">George James Stebbing</ref>; he appears on the <hi rend="italic">Beagle</hi> roster as ‘Instrument Maker’ (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 1, Appendix III, and <ref target="./DCP-LETT-147.xml" resp="#mjhawkins">letter to J. S. Henslow, 15 [November 1831]</ref>, n. 3).</note>
+            <note xml:id="foot.f2">Renamed Isla Isabela by Ecuador.</note>
+            <note xml:id="foot.f3">Now called Tuamotu Archipelago.</note>
+            <note xml:id="foot.f4">Two exclamation marks have been placed after ‘Otaheite’ in another hand—presumably Humboldt’s.</note>
+            <note xml:id="foot.f5"><formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>230</mn><mn>.</mn></mfrac></math></formula> is a hydrographic expression meaning no bottom found at 230 fathoms.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

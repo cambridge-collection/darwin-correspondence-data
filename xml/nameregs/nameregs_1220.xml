@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-1220" status="released">
+    <persName>
+        <forename>Frances</forename>
+        <forename>Sarah</forename>
+        <choice>
+            <seg><surname notBefore="1822" notAfter="1845">Darwin</surname></seg>
+            <seg><surname notBefore="1845" notAfter="1849">Barton</surname></seg>
+            <seg><surname notBefore="1849" notAfter="1881">Huish</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1822–81</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of Francis Sacheverel Darwin. Married Gustavus Barton (d. 1846) of Congleton, Cheshire, in 1845; married Marcus Huish (1815–68) of Castle Donnington, Leicestershire, in 1849.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_1822.xml" resp="#mjhawkins"><hi rend="italic">Darwin pedigree</hi></ref></p>
+    </note>
+    <note type="volume">11,27,30</note>
+    <note type="keywords">
+        <term type="name">Darwin, F. S.</term>
+        <term type="name">Barton, Gustavus</term>
+        <term type="name">Huish, Marcus</term>
+        <term type="place">Congleton</term>
+        <term type="place">Cheshire</term>
+        <term type="place">Castle Donnington</term>
+        <term type="place">Leicestershire</term>
+    </note>
+    
+    
+</person>

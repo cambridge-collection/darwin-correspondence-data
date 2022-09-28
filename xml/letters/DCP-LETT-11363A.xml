@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11363A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To M. N. Galkin-Vraskoi<choice><seg type="original"><ref target="#foot.f1"/></seg><seg type="translation"><ref target="#foot_trans.f1"/></seg></choice>   16 February 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20784</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11363A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11363A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11363A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp (French)</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Russian State Archive of Literature and Arts (RGALI) (fund 1347, dossier 3, file 138)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_105.xml">RGALI, Moscow</repository>
+                    <idno>(fund 1347, dossier 3, file 138)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1878-02-16">16 Feb 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_8167.xml">Galkin-Vraskoi, M. N.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>CD has been informed by G. M. [Asher] that G-W has undertaken the shipment of "Froment des Steppes" for examination. He is most grateful. [See <hi rend="doubleUnderline">11361</hi>.]</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">"Froment des Steppes"</term>
+                <term type="people" ref="#subject_164">Asher, G. M.</term>
+                <term type="people" ref="#">Galkine-Wrasky, –</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Feb 16 1878</date>
+                    <salute>Monsieur</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>J’ai appris de M. le Docteur G. M. Astre que vous avez eu la grande obligeance de lui transmettre pour moi une caisse du “Froment des Steppes” afin que je puisse examiner le produit de cette cultivation.<ref target="#foot.f2"/></p>
+<p>Permettez moi d’offrir à votre Excellence mes remercimens compressés pour cet acte d’extrème bonté.</p>
+                    <p>Agréez Monsieur | mes hommages respectueux | et devoués | Charles Darwin</p> 
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        
+        <div type="translation">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Feb 16 1878</date>
+                    <salute>Sir,</salute>
+                </opener>
+                <div type="transcription">
+                    
+                    <p>I have learned from Doctor G. M. Astre that you were so kind as to send to him, for me, a box of “Steppes wheat” in order that I might examine the product of this cultivation.<ref target="#foot.f2"/></p>
+                    <p>Allow me to offer my thanks to your Excellency for this exceptional act of kindness.</p>
+                    <p>Your obedient servant | Charles Darwin</p> 
+                </div>
+            </div>
+            
+            
+             
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">For a translation of this letter, see Appendix I.</note>
+            <note xml:id="foot_trans.f1">For a transcription of this letter in its original French, see p. QQQQ.</note>
+            <note xml:id="foot.f2">In his letter of 14 February 1878, <ref target="../nameregs/nameregs_164.xml" resp="#mjhawkins">Georg Michael Asher</ref> had asked CD to write a letter of thanks to Galkin-Vraskoi for a box of wheat from the Russian steppe that Galkin-Vraskoi had sent. Asher apologised for this request in his letter of 16 February 1878.</note>
+        </div>         
+             
+    </body>
+    </text>
+</TEI>

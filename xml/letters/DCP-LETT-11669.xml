@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11669">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Francis Darwin   [19 August 1878]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19874</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11669 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11669.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11669.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p &amp; C</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 153: 11</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 271.2: 4v</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>271.2: 4v</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Barlaston</placeName>
+                <date when="1878-08-19">[19 Aug 1878]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1222.xml">Darwin, Francis</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Asks FD to reply to a letter [<hi rend="doubleUnderline">11653a</hi>] requesting a list of CD’s books.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="b" ref="#">11653a</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>                   
+                    <salute>My dear F.—</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>Will you answer this for me at once, saying that I was away from home &amp; c<hi rend="superscript">d</hi>. not do so myself.—<ref target="#foot.f2"/> In table-drawer in middle of study, there is old copy of Nature with list of my books, which can be sent, but you must add (as far as I can remember) “Cross-Fertilization”— “Insectivorous Plants” &amp; “Different Forms of Flowers” with dates.—<ref target="#foot.f3"/> Thank Heaven we shall be at home on Thursday by a little after 3: but you will have received card about carriages.—<ref target="#foot.f4"/></p>
+<p>Yours affect<hi rend="superscript">y</hi> | C. Darwin <lb resp="#mjhawkins"/></p>
+<p rend="left">Monday | Barlaston.</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.3 but … add] <hi rend="italic">interl above del</hi> ‘adding’ </note>
+            </div>
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the address. The Darwins visited Barlaston, Staffordshire, the home of <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> brother <ref target="../nameregs/nameregs_5015.xml" resp="#mjhawkins">Frank Wedgwood</ref> and his family, from 15 to 22 August 1878 (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242)); the only Monday during this period was 19 August.</note>
+            <note xml:id="foot.f2">CD’s letter was written on the verso of the <ref target="./DCP-LETT-11653A.xml">letter from Hermenegildo Giner de los Ríos, 12 August 1878</ref>; CD had been asked to provide a complete bibliography of his published works.</note>
+            <note xml:id="foot.f3">CD’s publisher, John Murray, frequently advertised new works by CD in <hi rend="italic">Nature</hi>, often including a list of earlier works. <ref target="../bibliographies/bibl_8595.xml" resp="#mjhawkins"><hi rend="italic">Cross and self fertilisation</hi></ref> was published in 1876, <ref target="../bibliographies/bibl_4097.xml" resp="#mjhawkins"><hi rend="italic">Insectivorous plants</hi></ref> in 1875, and <ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref> in 1877. </note>
+            <note xml:id="foot.f4">The card (postcard) has not been found; 22 August 1878 fell on Thursday. </note>
+        </div>   
+       
+    </body>
+    </text>
+</TEI>

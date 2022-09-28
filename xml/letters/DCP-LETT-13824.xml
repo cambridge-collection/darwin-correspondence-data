@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-13824">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To E. F. Lubbock   18 July [1878]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8317</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-13824 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-13824.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-13824.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Dr N. Hammond (private collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_163.xml">Hammond, R. N.</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1878-07-18">18 July [1878]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3021.xml">Lubbock, E. F.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>EFL’s account of what CD has done in natural history is full and accurate and could not have been done better. He has added the titles of his later books and the name of his maternal grandfather [Josiah Wedgwood] of whom he is proud.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#">Darwin, C. R.’s maternal grandfather</term>
+                <term type="people" ref="#subject_5025">Wedgwood, Josiah, I</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">reception of Darwinism</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>July 18<hi rend="superscript">th</hi></date>
+                    <salute>My dear Lady Lubbock</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>Your account of what I have done in natural history is full &amp; accurate, really to a quite wonderful degree.<ref target="#foot.f2"/> It could not have been better done, &amp; I do not think that I could myself have remembered all the points to which you refer, or have selected better ones.— I sh<hi rend="superscript">d</hi>. be the most greedy man alive for praise, if I were not very much more than contented with what you have so kindly said of me.—</p>
+<p>Pray believe me | Yours very truly obliged | Charles Darwin</p>
+                    <p>P.S | Instead of giving at end references to my papers, I have added the titles of my later books.—<ref target="#foot.f3"/></p>
+                    <p>I have also added name of my maternal grandfather, of whom I am proud.—<ref target="#foot.f4"/></p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+           
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the date of Lubbock’s account of CD (see n. 2, below).</note>
+            <note xml:id="foot.f2">Lubbock’s article about CD was published in the <hi rend="italic">University Magazine</hi> in August 1878 ([E. F. Lubbock] 1878). She evidently sent a draft to CD for his approval.</note>
+            <note xml:id="foot.f3">The bibliography contains a selection of CD’s articles and books (<ref target="../bibliographies/bibl_10435.xml" resp="#mjhawkins">[E. F. Lubbock] 1878</ref>, pp. 162–3).</note>
+            <note xml:id="foot.f4">The article mentions that CD’s paternal grandfather was the ‘celebrated’ Erasmus Darwin; CD presumably added the phrase ‘and his maternal grandfather was Josiah Wedgwood, the well-known potter’ (<ref target="../bibliographies/bibl_10435.xml" resp="#mjhawkins">[E. F. Lubbock] 1878</ref>, p. 154).</note>
+        </div>
+    
+    </body>
+    </text>
+</TEI>

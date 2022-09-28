@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-1796" status="released">
+    <persName>
+        <forename>Frances</forename>
+        <forename>Anne</forename>
+        <forename type="preferred" resp="#mjhawkins">Violetta</forename>
+        <choice>
+            <seg><surname notBefore="1783" notAfter="1807">Darwin</surname></seg>
+            <seg><surname notBefore="1807" notAfter="1874">Galton</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1783–1874</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of Erasmus Darwin (1731–1802) and his second wife, Elizabeth; CD’s father’s half-sister. Married Samuel Tertius Galton in 1807; mother of Francis Galton.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_1822.xml" resp="#mjhawkins"><hi rend="italic">Darwin pedigree</hi></ref>.</p>
+    </note>
+    <note type="volume">1,2,18,19,26,27,28,30</note>
+    <note type="keywords">
+        <term type="name">Darwin, Erasmus</term>
+        <term type="name">Darwin, Elizabeth</term>
+        <term type="name">Galton, S. T.</term>
+    </note>
+</person>

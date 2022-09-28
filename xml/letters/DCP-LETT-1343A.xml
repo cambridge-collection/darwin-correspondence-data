@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1343A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Robert Downie<ref target="#foot.f1"/>    14 July [1850]<ref target="#foot.f2"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20630</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1343A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1343A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1343A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 7: 485–6</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Autos &amp; Autos (dealers)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_21.xml">Autos and Autos</repository>
+                    <idno>Cat. 839</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1850-07-14">14 July [1850]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1374.xml">Downie, Robert</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>An enquiry about the availability, size, and cost of cork-lined boxes for entomological collections.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down | Farnborough | Kent</placeName>
+                    <date>July 14<hi rend="superscript">th</hi></date>
+                    <salute>Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I wrote a note to you about a week since, asking whether you supplied Entomological Store Boxes, (of shape of back-gammon Board) lined on both sides with <hi rend="underline">good</hi> cork &amp; papered.</p>
+<p>I wish for one (or probably more) of large size, but I must know prices &amp; dimensions.— Please to answer this note. My former one was addressed to M<hi rend="superscript">r</hi> Burch; but I see on Labels of articles purchased at your place, two names, so I may have addressed my former note wrongly.</p>
+<p>Sir | Your obed | Charles Darwin</p>
+<p>I have one Box 16 x 12<formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>4</mn></mfrac></math></formula> &amp; 4 inches deep; but I think rather larger would be better. The outside to be plain deal.— No lock &amp; key.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The recipient is identified on the basis of an entry in CD’s Address book (Down House MS) recording the address of a <ref target="../nameregs/nameregs_1374.xml" resp="#mjhawkins">Mr Downie</ref>, ‘Entom. Box Maker’.</note>
+            <note xml:id="foot.f2">The year is inferred from an entry in CD’s Account book (Down House MS), dated 20 August 1850, that reads: ‘Entomological Box for Willy. Downie’. <ref target="../nameregs/nameregs_1245.xml" resp="#mjhawkins">William Erasmus Darwin</ref>, CD’s eldest son, exhibited a ‘passion for collecting Lepidoptera’ in 1850. See <hi rend="italic">Correspondence</hi> vol. 4, <ref target="./DCP-LETT-1352.xml" resp="#mjhawkins">letter to W. D. Fox, 4 September [1850]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

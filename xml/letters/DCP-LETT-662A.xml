@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-662A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To the Royal Geographical Society    February 1843</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20440</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-662A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-662A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-662A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 7: 475</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Royal Geographical Society</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_338.xml">R. Geographical Soc.</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <date notBefore="1843-02-01" notAfter="1843-02-28">Feb 1843</date>
+                <placeName>Down</placeName>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4103.xml">Royal Geographical Society</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>George Suttor’s paper not worthy of publication in the <hi rend="italic">Journal</hi> of the society. It contains no new facts worth insertion.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Journal</term>
+                <term type="people" ref="#subject_4631">Suttor, George</term>
+                <term type="scientific_terms" ref="#">negative attitude/assessment</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Down]</placeName>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am of opinion that M<hi rend="superscript">r</hi> Suttor’s paper “on the Character of the Australian interior Rivers” is not worthy of publication in the Journal of the Society;<ref target="#foot.f1"/> it does not appear to me to contain any new facts, &amp; the descriptions of the scenery are not anyways superior to those given in the Journals of every Australian traveller.— The separate notice on the Birds of the Macquarie has no pretensions to a scientific character; the only curious facts contained in it relate to the increasing rarity &amp; extinction of several species of parrots in the colonized districts, but I do not consider this notice worth insertion in the Journal.<ref target="#foot.f2"/></p>
+<p>Charles Darwin <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Feb. 1843</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_4631.xml" resp="#mjhawkins">George Suttor</ref> had emigrated to Australia in 1799 with the intention of cultivating orchard trees andvines. In 1839 he visited England and was elected a fellow of the <ref target="../nameregs/nameregs_2944.xml" resp="#mjhawkins">Linnean Society</ref>.</note>
+            <note xml:id="foot.f2">None of Suttor’s work was published in the <hi rend="italic">Journal of the</hi> <hi rend="italic">Royal Geographical Society</hi>. In 1843, however, he issued a book on the cultivation of the vine in Australia and New Zealand.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

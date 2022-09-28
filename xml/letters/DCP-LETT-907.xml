@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-907">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. J. Hooker   25 August 1845</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6090</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-907 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-907.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-907.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 152: 745</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">ML</hi> 2: 247</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 3: 240</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Royal Botanic Gardens, Kew (J. D. Hooker testimonials JDH/4/5)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_213.xml">Kew</repository>
+                    <idno>J. D. Hooker testimonials JDH/4/5</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1845-08-25">25 Aug 1845</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2367.xml">Hooker, W. J.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>A letter in support of J. D. Hooker as a candidate for Edinburgh Chair in Botany. No one better qualified. Wishes him success.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_2357">Hooker, J. D.</term>
+                <term type="places" ref="#">Edinburgh</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">Chair in Botany</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <date>August 25<hi rend="superscript">th</hi>. 1845</date>
+                    <salute>Dear Sir William</salute>
+                </opener>
+                <div type="transcription">
+<p>I have heard with much interest that your son, D<hi rend="superscript">r</hi>. Hooker, is a candidate for the Botanical Chair at Edinburgh. From my former attendance at that University, I am aware how important a post it is for the advancement of Science, and I am therefore the more anxious for your son’s success, from my firm belief that no one will fulfill its duties with greater zeal or ability.— Since his return from the famous Antarctic Expedition, I have had, as you are aware, much communication with him with respect to the Collections brought home by myself, and on other scientific subjects, and I cannot express too strongly my admiration at the accuracy of his varied knowledge &amp; at his powers of generalization.— From D<hi rend="superscript">r</hi>. Hooker’s disposition, no one, in my opinion, is more fitted to communicate to beginners, a strong taste for those pursuits, to which he is himself so ardently devoted.— For the sake of the advancement of Botany in all its branches, your son has my most earnest wishes for his success.<ref target="#foot.f1"/></p>
+<p>Believe me, dear Sir William | Yours very faithfully | Charles Darwin <lb resp="#mjhawkins"/> Down House | Farnborough.</p>
+<p>To | Sir William Hooker | Royal Botanic Gardens, Kew</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.5 fulfill] ‘fill’ <hi rend="italic">over illeg</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD’s letter was printed in J. D. Hooker 1845c, a volume of 153 testimonials printed in series.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

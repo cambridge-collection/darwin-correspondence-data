@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2839">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To H. T. Stainton   20 June [1860]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1189</idno>
+            
+            
+            
+            
+            <date when="1993">1993</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2839 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2839.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2839.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="08">8</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">The Natural History Museum (General Library, MSS DAR)</note>
+            <note type="endorsement" subtype="letter">1860</note>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="publication">
+                <bibl>De Beer (1958): 107</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 8: 263</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Natural History Museum, Library and Archives (General Special Collections MSS DAR 18)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_288.xml">NHM</repository>
+                    <collection>General Special Collections</collection>
+                    <idno>MSS DAR 18</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1860-06-20">20 June [1860]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4514.xml">Stainton, H. T.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Has had a very satisfactory answer from Mr Parfitt. Asks HTS to insert query in <hi rend="italic">Entomologist’s Weekly Intelligencer</hi> and also to answer it himself. ["Do the Tineina and other small moths suck flowers?", <hi rend="italic">Collected papers</hi> 2: 35–6.]</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_3668">Parfitt, Edward</term>
+                <term type="scientific_terms" ref="#">behaviour</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">relation of organism to organism</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>June 20<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very much obliged for your second note. I have had a very satisfactory answer from M<hi rend="superscript">r</hi>. Parfitt, who is evidently a careful &amp; conscientious observer.—<ref target="#foot.f1"/></p>
+<p>Would you <hi rend="underline">kindly</hi> insert enclosed question in the Intelligencer, &amp; answer it yourself, if it lies in your power.—<ref target="#foot.f2"/></p>
+<p>Dear Sir | Yours truly obliged | C. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The letter from <ref target="../nameregs/nameregs_3668.xml" resp="#mjhawkins">Edward Parfitt</ref> has not been found. See <ref target="./DCP-LETT-2829.xml" resp="#automat">letter to H. T. Stainton, 11 June [1860]</ref>.</note>
+            <note xml:id="foot.f2">See letter to <hi rend="italic">Entomologist’s Weekly Intelligencer</hi>, [20 June 1860]. The letter was published in the issue of 30 June 1860, p. 103. See also <hi rend="italic">Collected</hi> <hi rend="italic">papers</hi> 2: 35–6.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

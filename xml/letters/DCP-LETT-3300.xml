@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3300">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Lionel Smith Beale<ref target="#foot.f1"/>   26 October [1861]<ref target="#foot.f2"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3176</idno>
+            
+            
+            
+            
+            <date when="1994">1994</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3300 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3300.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3300.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="09">9</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Scripps College, Denison Library (Perkins Autograph Letter Collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_382.xml">Scripps Denison</repository>
+                    <collection>Perkins Autograph Letter Collection</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1861-10-26">26 Oct [1861]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_342.xml">Beale, L. S.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Subscribes to present for Mrs J. T. Quekett only on condition that no public testimonial is planned for JTQ.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="people" ref="#subject_3893">Quekett, I. M. A.</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Oct. 26<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Should the Subscribers determine to make a present to M<hi rend="superscript">rs</hi> Queckett,<ref target="#foot.f3"/> I should have great pleasure in putting my name down for five Guineas:<ref target="#foot.f4"/> but I am sorry to say that I have, I suppose peculiar opinions in regard to Testimonials, &amp; if the Subscribers determine on one, I must decline subscribing, as although I have a sincere respect for Prof. Queckett, in my judgment his scientific claims are not of that <hi rend="underline">eminent</hi> merit deserving a public Testimonial. I am heartily sorry to differ from so many better judges than myself, but each man must act on his own judgment.— Under these circumstances it will not of course do to put my name down on the committee.<ref target="#foot.f5"/></p>
+<p>Dear Sir | Yours faithfully | Charles Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The recipient is identified from an entry in CD’s Account book (see n. 4, below).</note>
+            <note xml:id="foot.f2">The year is provided by reference to the death of <ref target="../nameregs/nameregs_3894.xml" resp="#mjhawkins">John Thomas Quekett</ref> (see n. 3, below).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_3893.xml" resp="#mjhawkins">Isabella Mary Anne Quekett</ref> was the widow of <ref target="../nameregs/nameregs_3894.xml" resp="#mjhawkins">John Thomas Quekett</ref>, professor of histology and conservator of the Hunterian Museum of the Royal College of Surgeons. Quekett had died, aged forty-six, on 20 August 1861 (<ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref>).</note>
+            <note xml:id="foot.f4">There is an entry in CD’s Account book (Down House MS) on 13 January 1862 that reads: ‘D<hi rend="superscript">r</hi> Beale Queckett Testimonial 5/5’. Beale, professor of physiology and general and morbid anatomy at King’s College, London, was, like Quekett, a noted microscopist.</note>
+            <note xml:id="foot.f5">Beale was the honorary secretary of a working committee of the Royal College of Surgeons formed to enlist subscriptions to provide an educational endowment for Quekett’s four sons (see <hi rend="italic">Quarterly Journal of Microscopical Science</hi> n.s. 2 (1862): 63).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

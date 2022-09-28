@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5957">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Leonard Jenyns   29 February [1868]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1239</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5957 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5957.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5957.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS(A)</note>
+            <note type="physdesc" n="LS(A)">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 145: 352b</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Bath Royal Literary and Scientific Institution</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_32.xml">Bath RLSI</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1868-02-29">29 Feb [1868]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2560.xml">Jenyns, Leonard</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks LJ for his useful facts. Will "look to" the reference about the nightingale.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">nightingale</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Feb. 29.—</date>
+                    <salute>My dear Jenyns</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Very many thanks for y<hi rend="superscript">r</hi> long letter.<ref target="#foot.f2"/> I was heartily glad to hear a little news of you &amp; your doings.</p>
+<p>I am much obliged for the various facts which you have given me, &amp; which will all be of use. I will look to the reference about the nightingale which I had forgotten, but I had a dim sort of feeling (&amp; this has proved right) that you had attended to the subjects mentioned in my note.<ref target="#foot.f3"/></p>
+<p>I shall never forget, as long as I may live, the happy hours which I spent with you at Bottisham.<ref target="#foot.f4"/></p>
+<p>Believe me my dear Jenyns | with many thanks | yours very sincerely, | Ch. Darwin</p>
+<p>I believe I have the reference somewhere safe to the case of the magpies.<ref target="#foot.f5"/> <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">The Rev<hi rend="superscript">d</hi>. | Leonard Jenyns | 1 Darlington Place | Bathwick | Bath</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">4.1 me] <hi rend="italic">interl in CD’s hand</hi> </note>
+                <note xml:id="tnote.n2">5.1 I … Bath 6.1] <hi rend="italic">added in CD’s hand</hi> </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-5944.xml" resp="#mjhawkins">letter from Leonard Jenyns, 27 February 1868</ref>.</note>
+            <note xml:id="foot.f2"><ref target="./DCP-LETT-5944.xml" resp="#mjhawkins">Letter from Leonard Jenyns, 27 February 1868</ref>.</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-5944.xml" resp="#mjhawkins">letter from Leonard Jenyns, 27 February 1868</ref> and n. 10.</note>
+            <note xml:id="foot.f4">See <ref target="./DCP-LETT-5944.xml" resp="#mjhawkins">letter from Leonard Jenyns, 27 February 1868</ref> and nn. 2 and 5.</note>
+            <note xml:id="foot.f5">See <ref target="./DCP-LETT-5944.xml" resp="#mjhawkins">letter from Leonard Jenyns, 27 February 1868</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

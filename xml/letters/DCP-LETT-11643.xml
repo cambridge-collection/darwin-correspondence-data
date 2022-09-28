@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11643">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Hugo de Vries   [10 or 11 August 1878]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13259</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11643 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11643.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11643.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">4pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 143: 439</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Artis Library (De Vries 4a)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_11.xml">Amsterdam Artis</repository>
+                    <idno>(De Vries 4)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Leith Hill Place</placeName>
+                <date notBefore="1878-08-10" notAfter="1878-08-11">[10 or 11 Aug 1878]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4908.xml">Vries, Hugo de</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Arranges for HdeV to call.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">inviting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Leith Hill Place | Dorking</placeName>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I am much pleased that you should think it worth while to see me.<ref target="#foot.f2"/> We leave this place early on Monday morning, but go to the house of another relation which is near a station &amp; therefore more convenient to you. From being out of health, my drive will tire me on Monday; but Tuesday, Wednesday or Thursday, or even Friday will suit me, &amp; I shall be extremely glad to make your personal acquaintance.<ref target="#foot.f3"/> Your best plan will be to leave Charing Cross at 11 am &amp; you will reach Gomshall Station (the next one beyond Dorking) at 12.<hi rend="superscript">pm</hi>41, &amp; a walk (or you can take a cab) will bring you to Abinger Hall in 20 minutes. You can return by the train that leaves Gomshall at 4.35. Will you kindly send me line at</p> 
+<figure type="diagram"> 
+<p>T. H. Farrer Esq  Abinger Hall  Dorking</p> </figure> 
+<p rend="left">telling me the day, so that I may be at home on your arrival.</p>
+<p>My dear Sir | Yours sincerely | Charles Darwin</p> 
+                </div>
+            </div>
+            
+            
+                        
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date range is established by the relationship between this letter and the <ref target="./DCP-LETT-11645F.xml">letter to Hugo de Vries, 8 August [1878]</ref>, and by the date of CD’s departure from Leith Hill Place, 12 August 1878 (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242)).</note>
+            <note xml:id="foot.f2">De Vries evidently replied to CD’s letter of 8 August [1878] in a now missing letter.</note>
+            <note xml:id="foot.f3">The Darwins left Down on 7 August 1878 and visited Leith Hill Place, Surrey, the home of CD’s sister, Caroline Sarah Wedgwood, and her family. From 12 to 15 August, they stayed at Abinger Hall, Abinger, Surrey, the home of Thomas Henry and Katherine Euphemia Farrer, who was <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> niece. De Vries visited CD on Wednesday 14 August 1878 (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242)). </note>
+        </div>     
+         
+    </body>
+    </text>
+</TEI>

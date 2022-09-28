@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4408">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From J. D. Hooker   16 February 1864</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">4344</idno>
+            
+            
+            
+            
+            <date when="2001">2001</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4408 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4408.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4408.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="12">12</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">6pp †</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 152: 168–170</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl>Huxley (1918) 2: 58</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 12: 49</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 101: 183–5</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>101: 183–5</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2357.xml">Hooker, J. D.</persName>
+                <placeName>Kew</placeName>
+                <date when="1864-02-16">16 Feb 1864</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>CD’s climbing plant experiments make it impossible to deny nerve force in plants.</p>
+            <p>Has discussed Frankland’s new glacial theory with Lyell.</p>
+            <p>Bishop Colenso’s trial.</p>
+            <p>Possibility of Scott’s coming to Kew as a curator.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">climbing plants</term>
+                <term type="geology" ref="#">glacial</term>
+                <term type="people" ref="#subject_1012">Colenso, J. W.</term>
+                <term type="people" ref="#subject_1739">Frankland, Edward</term>
+                <term type="people" ref="#subject_3051">Lyell, Charles</term>
+                <term type="people" ref="#subject_4258">Scott, John</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">geological time, epochs</term>
+                <term type="scientific_terms" ref="#">ice, ice-action, icebergs, glaciers</term>
+                <term type="scientific_terms" ref="#">movements and habits of plants</term>
+                <term type="scientific_terms" ref="#">plant physiology</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+                <term type="social" ref="#">Other people</term>
+                <term type="societal" ref="#">curatorship at Kew</term>
+                <term type="societal" ref="#">trial</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00365_files/8/0_0.jpg" width="3078px" height="5406px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00365_files/11/1_1.jpg" width="3078px" height="5406px"/>
+        <surface xml:id="i1" n="183r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00365.jpg" rend="portrait" width="3078px" height="5406px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00365_files/8/0_0.jpg" width="3078px" height="5406px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00365.dzi" width="3078px" height="5406px"/>
+        </surface>
+        <surface xml:id="i2" n="183v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00366.jpg" rend="portrait" width="3078px" height="5406px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00366_files/8/0_0.jpg" width="3078px" height="5406px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00366.dzi" width="3078px" height="5406px"/>
+        </surface>
+        <surface xml:id="i3" n="184r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00367.jpg" rend="portrait" width="3078px" height="5406px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00367_files/8/0_0.jpg" width="3078px" height="5406px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00367.dzi" width="3078px" height="5406px"/>
+        </surface>
+        <surface xml:id="i4" n="184v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00368.jpg" rend="portrait" width="3078px" height="5406px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00368_files/8/0_0.jpg" width="3078px" height="5406px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00368.dzi" width="3078px" height="5406px"/>
+        </surface>
+        <surface xml:id="i5" n="185r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00369.jpg" rend="portrait" width="3078px" height="5406px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00369_files/8/0_0.jpg" width="3078px" height="5406px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00369.dzi" width="3078px" height="5406px"/>
+        </surface>
+        <surface xml:id="i6" n="185v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00370.jpg" rend="portrait" width="3078px" height="5406px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00370_files/8/0_0.jpg" width="3078px" height="5406px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00370.dzi" width="3078px" height="5406px"/>
+        </surface>
+    </facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Kew</placeName>
+                    <date>Feby 16/64.</date>
+                    <salute>My dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Our only large Flagellaria is 40 years old,! &amp; we fear to remove it.<ref target="#foot.f1"/> Yours of Feby 6 is most intensely interesting &amp; suggestive—<ref target="#foot.f2"/> What gigantic strides you are making in Veg. Phys.— Bentham is most anxious to have something this of yours to allude to in his anniversary address at which he is working<ref target="#foot.f3"/></p>
+<p>We have not Naravelia alive, but I am writing to Anderson at Calcutta about it.—<ref target="#foot.f4"/> I do not see how we can any longer deny nerve-force to plants;—<ref target="#foot.f5"/> I think we used once to argue about it— When &amp; where do you propose to publish?<ref target="#foot.f6"/></p>
+<p>I suppose axis may pass into tendrils somehow as any organ may become axial &amp; bear buds.<ref target="#foot.f7"/></p>
+<p>Poor Horner has been at deaths-door with congestion of Lungs, last Friday or Saturday but is much better.<ref target="#foot.f8"/> he is in his 80<hi rend="superscript">th</hi>. year I think. All the family are up. Lyell<ref target="#foot.f9"/> came &amp; spent Sunday afternoon &amp; evening with us, very pleasantly, full of chat; we discussed Franklands new glacial theory which I think the most monstrous absurdity ever broached in Science &amp; the most ill digested attempt.<ref target="#foot.f10"/> Have you seen Falconers attempt to explain absence of Lakes in Himal Valleys?— I fear it is not very successful.<ref target="#foot.f11"/></p>
+<p>Have you seen the pamphlet on the production of sexes in animals &amp;c, if not I can send it you.<ref target="#foot.f12"/></p>
+<p>In “Ansted Ionian Islands” is a very suggestive account of the way vegetation breaks up rocks, &amp; buildings producing Earthquaque appearances.<ref target="#foot.f13"/></p>
+<p>I saw Lindley<ref target="#foot.f14"/> on Sunday looking very ill, complaining of constant headaches with the loss of memory.— So poor old Portlock is gathered to his fathers.<ref target="#foot.f15"/></p>
+<p>I am very glad of the settlement of the Williams case by the Privy Council<ref target="#foot.f16"/>—&amp; shall subscribe to the Colenso defence fund on principle;<ref target="#foot.f17"/> but am not quite sure about Colenso himself— he ought to go further. My hope is that after the trial he will go out just to assert his position &amp; then retire. his holding his Bishopric in Natal can only breed intolerable confusion &amp; do his cause mischief; &amp; as to his going out to convert Zulus, why, he has Xtians here to convert, &amp; the Zulus are not worth a thought:— He might come back with great glory &amp; set up in England as a Tutor abandoning his title &amp; mitre.<ref target="#foot.f18"/> I have seen a good deal of him &amp; consider him sanguine &amp; unsafe.<ref target="#foot.f19"/></p>
+<p>We are making private enquiries about a Curator to succeed Mr Smith,<ref target="#foot.f20"/> &amp; I have written to Balfour, I wonder if he will recommend Scott;<ref target="#foot.f21"/> if he wants to get rid of him he is sure to do so. Do you know any-thing of Scotts capacity as manager of a large establishment, with 5 foremen, &amp; no end of accounts, gardeners &amp; labourers under him. I have my eye on the D. of Northumberlands Gardener at Syon,<ref target="#foot.f22"/> a man I like much, who had the wit to impregnate the Cocoa-nut which is now ripening &amp; is very fond of scientific gardening, keeps an enormous establishment in splendid order, &amp; is not too old.— oddly enough his name is John Smith.! he has been to volunteer for the appointment but we have taken no steps whatever yet.</p>
+<p>Ever yr affec | J D Hooker</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note>4.5 Have … successful 4.7] <hi rend="italic">scored ink</hi></note>
+                <note>5.1 Have … you. 5.2] <hi rend="italic">scored ink</hi></note>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Hooker had sent a <hi rend="italic">Flagellaria</hi> to CD earlier, but it was too young to have developed tendrils (see <ref target="./DCP-LETT-4403.xml" resp="#mjhawkins">letter to J. D. Hooker, [8 February 1864]</ref> and n. 7). CD also received a specimen of dried <hi rend="italic">Flagellaria</hi> leaves; these are in DAR 157.1: 109 and are labelled ‘Flagellaria leaves | Mauritius’ in Hooker’s hand. A note dated 25 February 1864 in DAR 157.1: 110 records the characteristics of <hi rend="italic">F. indica</hi> that are described in <ref target="../bibliographies/bibl_1456.xml" resp="#mjhawkins">‘Climbing plants’</ref>, p. 46.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-4403.xml" resp="#mjhawkins">letter to J. D. Hooker, [8 February 1864]</ref>; Hooker evidently thought the letter was written two days earlier.</note>
+            <note xml:id="foot.f3">In his annual presidential address on the anniversary of the <ref target="../nameregs/nameregs_2944.xml" resp="#mjhawkins">Linnean Society</ref>, 24 May 1864 (Bentham 1864a), <ref target="../nameregs/nameregs_398.xml" resp="#mjhawkins">George Bentham</ref> discussed hybridity, comparing CD’s views as presented in <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>, pp. 245–78, with those of <ref target="../nameregs/nameregs_1901.xml" resp="#mjhawkins">Dominique Alexandre Godron</ref> and <ref target="../nameregs/nameregs_3492.xml" resp="#mjhawkins">Charles Victor Naudin</ref> (Bentham 1864a, pp. x–xvii). For discussions of Bentham’s address, see letters to J. D. Hooker, <ref target="./DCP-LETT-4506.xml" resp="#mjhawkins">22 [May 1864]</ref> and nn. 5–9, and 13 September [1864], and <ref target="./DCP-LETT-4614.xml" resp="#mjhawkins">letter from J. D. Hooker, 16 September 1864</ref>. The September 1864 issue of the <hi rend="italic">Journal of the Proceedings of the Linnean Society</hi>, which includes Bentham’s address, is in the Darwin Library–CUL; CD annotated the address.</note>
+            <note xml:id="foot.f4">See <ref target="./DCP-LETT-4403.xml" resp="#mjhawkins">letter to J. D. Hooker, [8 February 1864]</ref> and nn. 2 and 6. Thomas Anderson was the superintendent of the Calcutta botanic garden.</note>
+            <note xml:id="foot.f5">Hooker refers to CD’s comparisons of sensitivity in what he called the ‘<hi rend="italic">nervous-system</hi>’ of the leaf-climbing plants, <hi rend="italic">Clematis</hi> and <hi rend="italic">Tropaeolum</hi> (see <ref target="./DCP-LETT-4403.xml" resp="#mjhawkins">letter to J. D. Hooker, [8 February 1864]</ref> and n. 6).</note>
+            <note xml:id="foot.f6">CD’s paper <ref target="../bibliographies/bibl_1456.xml" resp="#mjhawkins">‘On the movements and habits of climbing plants’</ref> was read at the <ref target="../nameregs/nameregs_2944.xml" resp="#mjhawkins">Linnean Society</ref> on 2 February 1865 (<ref target="../bibliographies/bibl_1456.xml" resp="#mjhawkins">‘Climbing plants’</ref>). It was published separately in 1865 (<ref target="../bibliographies/bibl_1457.xml" resp="#mjhawkins"><hi rend="italic">Climbing plants</hi></ref>; <ref target="../bibliographies/bibl_2661.xml" resp="#mjhawkins">Freeman 1977</ref>, pp. 116–17).</note>
+            <note xml:id="foot.f7">Hooker refers to CD’s speculation about how a leaf of a leaf-climbing plant could develop into a tendril (see <ref target="./DCP-LETT-4403.xml" resp="#mjhawkins">letter to J. D. Hooker, [8 February 1864]</ref> and n. 10).</note>
+            <note xml:id="foot.f8"><ref target="../nameregs/nameregs_2392.xml" resp="#mjhawkins">Leonard Horner</ref> died on 5 March 1864 (see <ref target="./DCP-LETT-4399.xml" resp="#mjhawkins">letter from J. D. Hooker, [before 9 February 1864]</ref> and n. 5).</note>
+            <note xml:id="foot.f9"><ref target="../nameregs/nameregs_3051.xml" resp="#mjhawkins">Charles Lyell</ref> was Horner’s son-in-law.</note>
+            <note xml:id="foot.f10">Hooker refers to a paper by <ref target="../nameregs/nameregs_1739.xml" resp="#mjhawkins">Edward Frankland</ref> that was read on 29 January 1864 at the Royal Institution (Frankland 1864a). A report of Frankland’s lecture appeared in the <hi rend="italic">Reader</hi>, 6 February 1864, pp. 171–2, and a longer version appeared in the May 1864 issue of the <hi rend="italic">Philosophical Magazine</hi> (Frankland 1864b); a copy of the latter is in the Darwin Pamphlet Collection–CUL and is inscribed by the author. Frankland proposed that the glacial epoch was caused by an increase in precipitation (snowfall) due to evaporation from the oceans, which had cooled more slowly than the earth. He wrote: ‘<hi rend="italic">The sole cause of the phenomena of the glacial epoch was a higher temperature of the ocean than that which obtains at present</hi>’ (Frankland 1864a, p. 169), arguing that the lowered elevation of the snowline was essentially dependent on the amount of precipitation in the cold season rather than on the mean atmospheric temperature. See also <ref target="../bibliographies/bibl_6803.xml" resp="#mjhawkins">Russell 1996</ref>, pp. 428–9.</note>
+            <note xml:id="foot.f11"><ref target="../nameregs/nameregs_1585.xml" resp="#mjhawkins">Hugh Falconer</ref> delivered an extemporaneous speech at a meeting of the <ref target="../nameregs/nameregs_4103.xml" resp="#mjhawkins">Royal Geographical Society</ref> on 27 January 1864; the speech was printed in the <hi rend="italic">Proceedings of the Royal Geographical Society</hi> 8: 38–42, and was later published in <ref target="../bibliographies/bibl_2434.xml" resp="#mjhawkins">Falconer 1868</ref>, 2: 648–53, as a chapter entitled ‘On the glacial-erosion theory of lake-basins’. Hooker may have read the report of the speech in the <hi rend="italic">Reader</hi>, 30 January 1864, pp. 142–3. Falconer argued that great fissures existed before the glacial period and accumulated silt from river deposition; he thought glaciers in the Alps and in parts of the Himalayas then scoured out the accumulated silt, creating lakes. In the valleys of the Himalayas with no lakes, Falconer argued that there had been no glaciers and therefore no way for the silt to be scoured out to create lakes. See <ref target="../bibliographies/bibl_2434.xml" resp="#mjhawkins">Falconer 1868</ref>, 2: 650–2. In the following issue of the <hi rend="italic">Reader</hi> (6 February 1864), pp. 173–4, <ref target="../nameregs/nameregs_2620.xml" resp="#mjhawkins">Joseph Beete Jukes</ref> disputed Falconer’s argument; see also Falconer’s postscript to his letter to <hi rend="italic">The Reader</hi>, 13 February 1864, p. 208. For a discussion of controversies in the 1860s regarding glacial erosion, see Davies 1969, pp. 303–8.</note>
+            <note xml:id="foot.f12">Hooker refers to <ref target="../bibliographies/bibl_7757.xml" resp="#mjhawkins">Thury 1863</ref>, which may be the pamphlet CD thanked Candolle for in the <ref target="./DCP-LETT-4358.xml" resp="#mjhawkins">letter from Emma Darwin to Alphonse de Candolle, 17 December [1863]</ref> (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 11); see <ref target="./DCP-LETT-4412.xml" resp="#mjhawkins">letter to J. D. Hooker, [20–]22 February [1864]</ref> and n. 15. There is a lightly annotated copy of <ref target="../bibliographies/bibl_7757.xml" resp="#mjhawkins">Thury 1863</ref> in the Darwin Pamphlet Collection–CUL.</note>
+            <note xml:id="foot.f13">Hooker refers either to <ref target="../nameregs/nameregs_131.xml" resp="#mjhawkins">David Thomas Ansted’s</ref> <hi rend="italic">The Ionian islands in the year 1863</hi> (Ansted 1863a, pp. 196–7, 334–7), or to an article Ansted published in the last issue for 1863 of the quarterly <hi rend="italic">Popular Science Review</hi> (Ansted 1863b, pp. 464–5).</note>
+            <note xml:id="foot.f14"><ref target="../nameregs/nameregs_2932.xml" resp="#mjhawkins">John Lindley</ref>.</note>
+            <note xml:id="foot.f15"><ref target="../nameregs/nameregs_3827.xml" resp="#mjhawkins">Joseph Ellison Portlock</ref> died on 14 February 1864 (<ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref>).</note>
+            <note xml:id="foot.f16">In February 1864, the Judicial Committee of the Privy Council reversed the sentences of the Court of Arches on <ref target="../nameregs/nameregs_5161.xml" resp="#mjhawkins">Rowland Williams</ref> and <ref target="../nameregs/nameregs_5183.xml" resp="#mjhawkins">Henry Bristow Wilson</ref>, who had been found guilty of heresy for the liberal theological opinions expressed in their contributions to the controversial volume <ref target="../bibliographies/bibl_2379.xml" resp="#mjhawkins"><hi rend="italic">Essays and reviews</hi></ref> (see <ref target="../bibliographies/bibl_175.xml" resp="#mjhawkins"><hi rend="italic">Annual register</hi></ref> 1864, 1: 155–8, 2: 241–6). See also <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 9, second letter to J. D. Hooker, 23 [April 1861] and n. 21, <ref target="./DCP-LETT-3156.xml" resp="#automat">letter to B. J. Sulivan, 24 May [1861]</ref>, <ref target="./DCP-LETT-3224.xml" resp="#mjhawkins">letter to John Lubbock, 1 [and 2] August [1861]</ref> and n. 5, and Appendix VI; Brock and MacLeod 1976; <ref target="../bibliographies/bibl_2322.xml" resp="#mjhawkins">Ellis 1980</ref>; and Barton 1998, pp. 434–7.</note>
+            <note xml:id="foot.f17">On <ref target="../nameregs/nameregs_1012.xml" resp="#mjhawkins">John William Colenso’s</ref> trial and his defence fund, see <ref target="./DCP-LETT-4400.xml" resp="#mjhawkins">letter from E. A. Darwin, 1 February [1864]</ref> and nn. 3 and 5, and <ref target="./DCP-LETT-4401.xml" resp="#mjhawkins">letter from J. D. Hooker, 5 February 1864</ref> and n. 10.</note>
+            <note xml:id="foot.f18">On 20 March 1865, the Judicial Committee of the Privy Council pronounced the deposition of Colenso by the bishop of Cape Town, <ref target="../nameregs/nameregs_1961.xml" resp="#mjhawkins">Robert Gray</ref>, null and void. Colenso returned to his diocese in the same year, continuing his preaching and clerical work. Most of his mission work was complete, although he continued his translations into the Zulu language; in colonial conflicts during the 1870s he became an advocate for the native Africans. He also continued work on publications, including his examination of the Pentateuch (<ref target="../bibliographies/bibl_1499.xml" resp="#mjhawkins">Colenso 1862–79</ref>). See <ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref>, <ref target="../bibliographies/bibl_3223.xml" resp="#mjhawkins">Guy 1983</ref>, and Moore ed. 1988.</note>
+            <note xml:id="foot.f19">While in London from 1862 to 1865, Colenso associated frequently with members of the scientific community (see <ref target="../bibliographies/bibl_3223.xml" resp="#mjhawkins">Guy 1983</ref>, pp. 100, 147, 150, and Barton 1998, pp. 434–7; see also <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 11, <ref target="./DCP-LETT-3977.xml" resp="#automat">letter from H. G. Powell, 11 February 1863</ref>, <ref target="./DCP-LETT-4036.xml" resp="#mjhawkins">letter from J. D. Hooker, [6 March 1863]</ref>, and <ref target="./DCP-LETT-4204.xml" resp="#mjhawkins">letter from S. P. Woodward, 5 June 1863</ref>; this volume, <ref target="./DCP-LETT-4616.xml" resp="#mjhawkins">letter from J. D. Hooker, [19 September 1864]</ref>; and <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 13, <ref target="./DCP-LETT-4807.xml" resp="#mjhawkins">letter from J. D. Hooker, [7–8 April 1865]</ref>). For Hooker’s earlier impression of Colenso, see L. Huxley ed. 1918, 2: 58.</note>
+            <note xml:id="foot.f20">John Smith (1798–1888) was the curator at the Royal Botanic Gardens, Kew. See <ref target="./DCP-LETT-4401.xml" resp="#mjhawkins">letter from J. D. Hooker, 5 February 1864</ref> and n. 7.</note>
+            <note xml:id="foot.f21"><ref target="../nameregs/nameregs_259.xml" resp="#mjhawkins">John Hutton Balfour</ref> was regius keeper of the Royal Botanic Garden, Edinburgh, where John Scott was the foreman of the propagating department (<ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref>).</note>
+            <note xml:id="foot.f22">John Smith (1821–88) was the gardener of <ref target="../nameregs/nameregs_3745.xml" resp="#mjhawkins">Algernon Percy</ref>, the fourth duke of Northumberland; Smith was hired in 1864 as the curator at the Royal Botanic Gardens, Kew (<ref target="../bibliographies/bibl_1985.xml" resp="#mjhawkins">R. Desmond 1994</ref>). Syon House was the property of the duke of Northumberland, near Isleworth, Middlesex, across the river Thames from Kew (<ref target="../bibliographies/bibl_7880.xml" resp="#mjhawkins">Turrill 1959</ref>, p. 223).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

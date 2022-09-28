@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-3020" status="released">
+    <persName>
+        <forename>Diana</forename>
+        <forename>Hotham</forename>
+        <choice>
+            <seg><surname notBefore="1836" notAfter="1856">Lubbock</surname></seg>
+            <seg><surname notBefore="1856" notAfter="1917">Rodney</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1836–1917</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of John William Lubbock; John Lubbock’s sister. Married William Powell Rodney in 1856.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_1096.xml" resp="#mjhawkins"><hi rend="italic">Burke’s peerage</hi></ref> 1980.</p>
+    </note>
+    <note type="volume">6,16</note>
+    <note type="keywords">
+        <term type="name">Lubbock, John</term>
+        <term type="name">Rodney, W. P.</term>
+    </note>
+</person>

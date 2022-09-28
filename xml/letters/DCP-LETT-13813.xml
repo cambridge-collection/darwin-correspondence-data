@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-13813">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Asa Gray   29 January [1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19651</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-13813 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-13813.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-13813.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Copy</note>
+            <note type="physdesc">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 153: 165</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>153: 165</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1875-01-29">29 Jan [1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1957.xml">Gray, Asa</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks AG to forward [unspecified] enclosure to Chauncey Wright.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_5254">Wright, Chauncey</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                
+                <term type="tag" ref="#asa_gray_set">Asa Gray Letters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down</placeName>
+                    <date>Jan. 29<hi rend="superscript">th</hi>.</date>
+                    <salute>My dear Gray</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I cannot remember whether any address besides Cambridge, is necessary for M<hi rend="superscript">r</hi>. Chauncy Wright, will you kindly let him have the enclosed.<ref target="#foot.f2"/></p>
+<p>Your’s very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-9650.xml" resp="#mjhawkins">letter to Chauncey Wright, 21 September 1874 and 29 January 1875</ref> (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 22).</note>
+            <note xml:id="foot.f2">In a postscript dated 29 January 1875 to his <ref target="" resp="#automat">letter to Wright of 21 September 1874</ref> (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 22), CD explained that the letter had been returned to him because of a mistake in the address, and that since he could not remember whether ‘Cambridge’ was sufficient address, he was forwarding the letter via <ref target="../nameregs/nameregs_1957.xml" resp="#mjhawkins">Asa Gray</ref>. Wright lived in Cambridge, Massachusetts.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

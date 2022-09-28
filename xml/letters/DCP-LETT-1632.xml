@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1632">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From George Gulliver   20 January [1856]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14872</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1632 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1632.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1632.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR (CD library – Gulliver, George 1846)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>(CD library - Gulliver, George 1846)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2019.xml">Gulliver, George</persName>
+                <placeName>Templeogue, Dublin</placeName>
+                <date when="1856-01-20">20 Jan [1856]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Discusses the similarity in size, shape, and structure of the blood corpuscles of the Aves. Notes differences between the corpuscles of the domestic dog and some wild species.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Aves</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Mount Alton, Templeogue. [Dublin]</placeName>
+                    <date>Jan. 20, 1855.</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+<p>It is not singular that the Blood-Discs of different genera of birds should be similar, for widely distinct Families have those corpuscles not distinguishable in size, shape, or structure. <anchor xml:id="ann.a1" type="annotationStart"/>When a marked difference of shape occurs it seems to be merely aberrant, as in the Snowy Owl, Passenger Pigeon,<anchor xml:id="ann.a2" type="annotationEnd"/> Snow-Bunting, Great Butcher Bird, Java Sparrow, &amp;c. And so of certain saurian Reptiles. In my Appendix to Gerber’s Anatomy, 8<hi rend="superscript">o</hi>. Lond. 1842,<ref target="#foot.f2"/> where the details are fuller than in the Notes to Hewson.<ref target="#foot.f3"/> Indeed, the difference of the corpuscles in the entire class of Birds is not more than may be found in a single Family of Mammals.</p>
+<p>All I recollect of the cows and goats that I examined is, that they were those most easily got at in London, &amp; therefore probably the most common ones.<ref target="#foot.f4"/></p>
+<p>The measurements of the Dog’s corpuscles 13542<hi rend="superscript">th</hi>, of the Dingo 13395<hi rend="superscript">th</hi>, &amp; of the Wolf 13600<hi rend="superscript">th</hi> of an inch,<ref target="#foot.f5"/> seem much more different in figures than in fact, and no greater than might be obtained by reducing the averages of different sets of measurements of the corpuscles of the very same individual, provided the measurements were not confined to a single dried &amp; invariable specimen of blood.</p>
+<p>The measurement in the Dog in Hewson was from a little mongrel. <anchor xml:id="ann.a3" type="annotationStart"/>I have examined those of a fox-hound and of other good breeds without noting any marked difference.<anchor xml:id="ann.a4" type="annotationEnd"/> But the corpuscles of the Fox, after many comparative trials, have always proved <hi rend="underline">very slightly smaller</hi> than the corpuscles of the Dog.</p>
+<p>I am, | Yours very truly, | George Gulliver.</p>
+<p>If you want to see a marked difference of size in the corpuscles of a single family of mammals, compare the comparatively minute corpuscles of the smallest Ruminants or Rodents with the larger corpuscles of the largest species of the same order.</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note target="#ann.a1" targetEnd="#ann.a2"><hi rend="italic">scored pencil</hi></note>
+                <note target="#ann.a3" targetEnd="#ann.a4"><hi rend="italic">double scored pencil</hi></note>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Although the letter is dated 20 January 1855, it seems that this was a mistake. The letter answers queries arising from CD’s reading of Gulliver ed. 1846, a book that he received from Gulliver only after 18 December 1855 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 5, <ref target="./DCP-LETT-1796.xml" resp="#mjhawkins">letter to George Gulliver, 18 December [1855]</ref>). CD’s copy of Gulliver ed. 1846 is in the Darwin Library–CUL and contains annotations by CD.</note>
+            <note xml:id="foot.f2">Gulliver’s appendix to <ref target="../nameregs/nameregs_1848.xml" resp="#mjhawkins">Friedrich Gerber’s</ref> anatomy (<ref target="../bibliographies/bibl_2816.xml" resp="#mjhawkins">Gerber 1842</ref>) included tables of measurements of the blood corpuscles of mammals and birds.</note>
+            <note xml:id="foot.f3">Gulliver ed. 1846 comprises a collection of the writings of the physiologist <ref target="../nameregs/nameregs_2271.xml" resp="#mjhawkins">William Hewson</ref>, to which Gulliver added extensive notes relating to his own microscopical observations.</note>
+            <note xml:id="foot.f4">CD had marked the measurements of the blood corpuscles of several species and varieties of goats, sheep, and cattle in his copy of Gulliver ed. 1846, p. 238, and wrote in the margin: “What var.”</note>
+            <note xml:id="foot.f5">CD had also marked these measurements (Gulliver ed. 1846, p. 238).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6667">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Louis Rérolle   17 March 1869</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10505A</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6667 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6667.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6667.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 176: 129</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>176: 129</idno>
+                    
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3901.xml">Rérolle, Louis</persName>
+                <placeName>Lyons</placeName>
+                <date when="1869-03-17">17 Mar 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>LR undertakes translation of <hi rend="italic">Orchids</hi> [1870]. Awaits CD’s new footnotes and intends to look at every flower CD mentions.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Orchids</term>
+                <term type="languages" ref="#">French</term>
+                <term type="people" ref="#subject_1584">Rerolle, Louis</term>
+                <term type="scientific_terms" ref="#">flora</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Allow me to offer you many thanks, concerning the letter you wrote to Mr Faivre, in which you authorise the translation of your Orchis book.<ref target="#foot.f1"/> I will be happy to present to the French naturalists your remarkable and interesting experiments.</p>
+<p>The importance of this undertaking required on my part, a few day’s reflection, before coming to a decision. I pray you to excuse the delay of the present letter. I have made up my mind to publish the translation of your work, making all the rectifications you think fit. I have not yet taken any engagement with a publisher; but I will soon apply to one, at Paris.</p>
+<p>As soon as the business is settled with him, I will receive with pleasure and gratitude your precious foot-notes; they will certainly add much value to the publication.<ref target="#foot.f2"/> I will then inquire of your publisher the terms on which the stereotypes of the woodcuts can be supplied.</p>
+<p>I have now translated the whole book, save only the twenty last pages; I shall have to review and copy it, but previously I will persue the practical study of the Orchid-flowers mentioned in your volume. Mr Faivre is so kind as to leave at my disposal the very rich collection of the botanical garden of Lyons;<ref target="#foot.f3"/> I will carefully examen under his direction every flower you have described, in order to exclude any chance of error. Though I cannot exactly know at what time the translation will be published, yet I hope it will appear at the end of the present year, or at least, in the course of the two first months of the following.</p>
+<p>I thank you much, Sir, for your kindness in offering to send me your work on climbing plants; I have heard of it, and will read it with the greatest interest.</p>
+<p>Allow me, Sir, to assure you of the deep respect with which I have the honour to be | Your very obedient servant | L. Rérolle <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">17 march 69.</p>
+<p rend="left">4, place d’Ainay. Lyon.</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-6663.xml" resp="#mjhawkins">letter from Ernest Faivre, 15 March 1869</ref> and n. 2. Rérolle refers to <hi rend="italic">Orchids.</hi></note>
+            <note xml:id="foot.f2">For more on CD’s notes to the French edition of <ref target="../bibliographies/bibl_6010.xml" resp="#mjhawkins"><hi rend="italic">Orchids</hi></ref>, see the <ref target="./DCP-LETT-6647.xml" resp="#mjhawkins">letter to J. D. Hooker, 8 March [1869]</ref> and n. 5.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_1584.xml" resp="#mjhawkins">Ernest Faivre</ref> was the director of the botanic gardens at Lyons (<ref target="../bibliographies/bibl_1892.xml" resp="#mjhawkins"><hi rend="italic">DBF</hi></ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

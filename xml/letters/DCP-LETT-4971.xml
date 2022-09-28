@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4971">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From William Bernhard Tegetmeier   8 January [1868?]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">2620</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4971 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4971.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4971.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 178: 69</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>178: 69</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4682.xml">Tegetmeier, W. B.</persName>
+                <placeName>The Field , London, Strand, 346</placeName>
+                <date when="1868-01-08">8 Jan [1868?]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Has seen CD’s "carte" offered for sale.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">The Field. | 346, Strand, | London, W.C.</hi></placeName>
+                    <date>Jany. 8 <hi rend="print">186</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have long been desirous of obtaining your photograph; but have never seen any for sale.— On walking down Chancery Lane to day I saw a “Carte” of yours by Maull 62 Cheapside and 187<hi rend="superscript">a</hi> Piccadilly<ref target="#foot.f2"/></p>
+<p>The vendor told me that he had not put the name as he was not sure about it.— That he had long been wanting to get the Cartes and that he should order some more at once before the sale was stopped</p>
+<p>Thinking it very probable that they may have been sold without your consent I write a hurried line to apprise you   do not trouble to write an acknowledgement</p>
+<p>Yours truly in haste | W B Tegetmeier <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">C Darwin Esq</p>
+<p>Pray excuse me if I have troubled you without cause</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is conjectured from the relationship between this letter and the <ref target="./DCP-LETT-6000.xml" resp="#mjhawkins">letter from W. B. Tegetmeier, 9 March 1868</ref>.</note>
+            <note xml:id="foot.f2">Henry Maull and Co. first occupied premises at 62 Cheapside in 1866 (<ref target="../bibliographies/bibl_6380.xml" resp="#mjhawkins"><hi rend="italic">Post Office London directory</hi></ref> 1866 and 1867). Maull had formerly been in partnership with George Henry Polyblank. The photograph referred to may be that taken by Maull and Polyblank <hi rend="italic">circa</hi> 1857 (see frontispiece to <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 8). <ref target="../nameregs/nameregs_1211.xml" resp="#mjhawkins">Erasmus Alvey Darwin</ref> had suggested that CD give general permission for Polyblank to sell this photograph (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 10, <ref target="./DCP-LETT-3745.xml" resp="#automat" cert="medium">letter from E. A. Darwin, [April–May? 1862]</ref>). The photographic ‘carte’ or ‘carte de visite’, smaller than a conventional portrait, became popular in the 1860s and several were made of CD between then and the end of his life. See <ref target="../bibliographies/bibl_995.xml" resp="#mjhawkins">Browne 1998</ref>, pp. 253–80.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11118">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">From R. I. Lynch   [before 28 July 1877]<ref target="#foot.f1"/></title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Darwin Correspondence Project</authority>
+                <publisher>Cambridge University Press</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <idno type="lognum">9320B</idno>
+                
+                
+                
+                
+                
+            <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11118 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11118.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11118.xml</ref>.</licence></availability>
+</publicationStmt>
+            <seriesStmt>
+                <title level="s">The Correspondence of Charles Darwin</title>
+                <biblScope unit="vol" n="25">25</biblScope>
+            </seriesStmt>
+        <notesStmt>
+            <note type="description">AmemS</note>
+            <note type="physdesc">AmemS 1p</note>
+        </notesStmt>
+        <sourceDesc>
+                <bibl type="provenance">DAR 209.14: 185</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="../repo/repo_106.xml">CUL</repository>
+                        <collection>DAR</collection>
+                        <idno>209.14: 185</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_3058.xml">Lynch, R. I.</persName>
+                    <placeName>unstated</placeName>
+                    <date notBefore="1877-07-21" notAfter="1877-07-27">[before 28 July 1877]</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                </correspAction>
+            </correspDesc>
+            <abstract> 
+                <p>Sleep movements of <hi rend="italic">Averrhoa bilimbi</hi>.</p> 
+            </abstract>
+            <textClass>
+                <keywords>
+                    <term type="plants" ref="#">Averrhoa bilimbi</term>
+                    <term type="scientific_terms" ref="#">flora</term>
+                    <term type="scientific_terms" ref="#">movements and habits of plants</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00209-00014-000-00413_files/8/0_0.jpg" width="3391px" height="6268px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00209-00014-000-00413_files/11/1_1.jpg" width="3391px" height="6268px"/>
+        <surface xml:id="i1" n="185r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00209-00014-000-00413.jpg" rend="portrait" width="3391px" height="6268px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00209-00014-000-00413_files/8/0_0.jpg" width="3391px" height="6268px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00209-00014-000-00413.dzi" width="3391px" height="6268px"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            
+            <div type="letter">
+                <div type="text">
+                    <div type="transcription">
+                        
+                        <p><hi rend="underline">Mem</hi></p>
+                        <p><hi rend="underline">Averrhoa Bilimbi</hi></p>
+                        <p>I once found the leaflets in V position above the rachis. after which they placed themselves horizontally and remained at rest.<ref target="#foot.f2"/></p>
+                        <p>I have looked repeatedly for the same appearance but since without success.</p>
+                        <p>If I remember rightly the sun shone intensely at the time and directly on the plant—in the morning</p>
+                    </div>
+                </div>
+                
+                
+                
+                
+                
+            
+            <div type="annotations">
+                <note>2.1 interest.] <hi rend="italic">before</hi> ‘Movt of Leaves’ <hi rend="italic">red crayon</hi></note>
+                <note>3.1 are depressed … so slowly 3.2] ‘&amp; Desmodium’ <hi rend="italic">in margin, red crayon</hi></note>
+            </div>
+             </div>
+            
+            
+            <div type="footnotes">
+                
+                <note xml:id="foot.f1">The date is established by the relationship between this letter and the <ref target="./DCP-LETT-11117.xml" resp="#mjhawkins">first letter from R. I. Lynch, [before 28 July 1877]</ref>. The first letter contains more information on the phenomenon described here, so this letter is most likely the second to have been sent.</note>
+                <note xml:id="foot.f2">Lynch made more detailed observations on sensitiveness of leaves of <hi rend="italic">Averrhoa bilimbi</hi> (the bilimbi or cucumber tree) in his <ref target="./DCP-LETT-11117.xml" resp="#mjhawkins">first letter of [before 28 July 1877]</ref>. The rachis is the axis of a pinnate leaf.</note>
+            </div>        
+                
+        </body>
+    </text>
+</TEI>

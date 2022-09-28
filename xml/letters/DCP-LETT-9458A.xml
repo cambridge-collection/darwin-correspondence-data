@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9458A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. N. Lockyer   13 May [1874]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20568</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9458A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9458A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9458A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">University of Exeter Library Special Collections (EUL MS 110)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_131.xml">Exeter</repository>
+                    <idno>Lockyer letters</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1874-05-13">13 May [1874]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2971.xml">Lockyer, J. N.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Encloses notes concerning his life and list of publications.</p>
+            <p>Returns the letters about primroses: they contain little that is new. Dr Bree’s is the best.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">primroses</term>
+                <term type="people" ref="#subject_601">Bree, C. R.</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">flora</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>May 13<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I enclose the notes about my life &amp; list of my publications. I do not know in the least whether they will be of any use. They <hi rend="underline">certainly</hi> are not fit to print. I thought that you were <hi rend="underline">going</hi> to get some one to write a sketch, &amp; then these dates &amp; list might have been of use.<ref target="#foot.f2"/></p>
+<p>I return with thanks the letters about Primroses: they contain very little new. D<hi rend="superscript">r</hi>. Bree’s is the best.— I fear that you will regret having admitted my first letter, which has generated such a shoal of letters.<ref target="#foot.f3"/></p>
+<p>Pray believe me | Yours faithfully &amp; obliged | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the letter to <hi rend="italic">Nature</hi>, 18 April [1874] (see n. 3, below).</note>
+            <note xml:id="foot.f2">The enclosure has not been found, but was used for the factual account of CD’s life included at the beginning of <ref target="../nameregs/nameregs_1957.xml" resp="#mjhawkins">Asa Gray’s</ref> profile of him in the ‘Scientific worthies’ series in <hi rend="italic">Nature</hi>, 4 June 1874 (A. Gray 1874c). See also <ref target="./DCP-LETT-9480.xml" resp="#mjhawkins">letter to Asa Gray, 3 June [1874]</ref>.</note>
+            <note xml:id="foot.f3">See letter to <hi rend="italic">Nature</hi>, 18 April [1874]. CD asked correspondents whether they had observed birds pulling off the flowers of primroses. The replies were printed in <hi rend="italic">Nature</hi>, 30 April 1874, p. 509, and 7 May 1874, pp. 6–7. <ref target="../nameregs/nameregs_601.xml" resp="#mjhawkins">Charles Robert Bree’s</ref> letter was not printed. Lockyer was the editor of <hi rend="italic">Nature.</hi></note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

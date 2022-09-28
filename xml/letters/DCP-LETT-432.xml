@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-432">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Charles Lyell   [12 November 1838]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">12</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-432 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-432.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-432.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 146: 141</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Emma Darwin</hi> 2: 1</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 2: 114</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.12)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>12</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Shrewsbury</placeName>
+                <date when="1838-11-12">[12 Nov 1838]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3051.xml">Lyell, Charles</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Announces his engagement to Emma Wedgwood.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#">Wedgwood, Emma</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">engagement</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Shrewsbury</placeName>
+                    <date>Monday 13<hi rend="superscript">th</hi>.—<ref target="#foot.f1"/></date>
+                    <salute>My dear Lyell</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I suppose, you will be in Hart St, tomorrow the 14<hi rend="superscript">th</hi>.— I write because, I cannot avoid wishing to be the first person to tell M<hi rend="superscript">rs</hi> Lyell and yourself, that I have the very good, &amp; shortly since, very unexpected fortune, of going to be married.— The lady is my cousin Miss Emma Wedgwood, the sister of Hensleigh Wedgwood, &amp; of the elder brother, who married my sister, so we are connected by manifold ties, besides on my part, by the most sincere love &amp; hearty gratitude to her, for accepting such a one, as myself.— I determined, when last at Maer, to try my chance, but I hardly expected such good fortune would turn up for me.<ref target="#foot.f2"/></p>
+<p>I shall be in town in the middle or latter end of the ensuing week.— I fear you will say, I might very well have left my story untold, till we met. But I deeply feel your kindness and friendship towards me, which in truth I may say, has been one chief source of happiness to me, ever since my return to England: so you must excuse me..— I am well sure, that M<hi rend="superscript">rs</hi> Lyell, who has sympathy for every one near her, will give me her hearty congratulations</p>
+<p>Believe me my dear Lyell | Your’s most truly obliged | Chas. Darwin.</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.8 but] <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Monday was the 12th of November, 1838.</note>
+            <note xml:id="foot.f2">For Emma’s account of the proposal and her reactions see her letter to her aunt Jessie Sismondi (<ref target="../bibliographies/bibl_2338.xml"><hi rend="italic">Emma Darwin</hi> (1915)</ref> 2: 5–7).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

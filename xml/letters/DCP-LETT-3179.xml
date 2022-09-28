@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3179">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Lubbock   [8 June 1861]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6814</idno>
+            
+            
+            
+            
+            <date when="1994">1994</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3179 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3179.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3179.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="09">9</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 146: 95</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 261.7: 2 (EH 88205927)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>261.7: 2 (EH 88205927)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1861-06-08">[8 June 1861]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3026.xml">Lubbock, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks to meet JL for a final talk about the banking partnership for William Darwin.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1245">Darwin, W. E.</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="social" ref="#">meeting</term>
+                <term type="societal" ref="#">banking partnership</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Saturday Night</date>
+                    <salute>My dear Lubbock</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I fear that you will think me utterly unreasonable if I was to ask you to call here either before or after church &amp; stay lunch if so inclined. I know that you cannot do more, or say more than you have done; but you cannot imagine what a relief it would be to me to have one more <hi rend="doubleUnderline">final</hi> talk with you over this business; for I know no one else in whose judgment on such matters I have confidence.—</p>
+<p>I know I am utterly unreasonable to ask you to call; but I fear I shall be a good deal knocked up tomorrow.—</p>
+<p>Good Heavens what a whirlwind of business your office appeared.<ref target="#foot.f2"/> Pray forgive me &amp; have charity, &amp; a real charity it will be.—</p>
+<p>Sir John Lubbock put the whole case with admirable clearness &amp; helped me beyond measure.<ref target="#foot.f3"/> If it were not for looking to future, I would close at once; but I cannot feel easy at future.—</p>
+<p>Your most sincerely | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 &amp; stay … inclined.] <hi rend="italic">interl</hi></note>
+                </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated on the assumption that the letter was written in the evening following the meeting on Saturday, 8 June 1861, at <ref target="../nameregs/nameregs_4024.xml" resp="#mjhawkins">Robarts, Lubbock &amp; Co</ref>. (see the <ref target="./DCP-LETT-3178.xml" resp="#mjhawkins">letter to W. E. Darwin, 6 [June 1861]</ref> and the <ref target="./DCP-LETT-3177.xml" resp="#mjhawkins">letter to John Lubbock, 6 June [1861]</ref>). The eighth of June fell on a Saturday in 1861.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-3177.xml" resp="#mjhawkins">letter to John Lubbock, 6 June [1861]</ref> and n. 2.</note>
+            <note xml:id="foot.f3">Lubbock’s father, John William Lubbock, was a partner in <ref target="../nameregs/nameregs_4024.xml" resp="#mjhawkins">Robarts, Lubbock &amp; Co</ref>. (<ref target="../bibliographies/bibl_346.xml" resp="#mjhawkins"><hi rend="italic">Banking almanac</hi></ref> 1861).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

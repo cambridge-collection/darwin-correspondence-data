@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9953A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From J. S. Burdon Sanderson   28 April [1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20547</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9953A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9953A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9953A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">University of British Columbia Library, Rare Books and Special Collections (Darwin - Burdon Sanderson letters RBSC-ARC-1731-1-31)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_64.xml">British Columbia</repository>
+                    <collection>CD-Burdon Sanderson</collection>
+                    <idno>RBSC-ARC-1731-1-31</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4177.xml">Burdon Sanderson, J. S.</persName>
+                <placeName>London, Queen Anne St, 49</placeName>
+                <date when="1875-04-28">28 Apr [1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Informs CD that he has taken no further action about the petition concerning animal experimentation on the understanding that it would be presented only if the government introduced an objectionable bill. [See <hi rend="doubleUnderline">9948</hi>.]</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">government</term>
+                <term type="societal" ref="#">vivisection bill</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>49 Queen Anne St</placeName>
+                    <date>Wednesday Ap 28</date>
+                    <salute>Dear M<hi rend="superscript">r</hi> Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have put myself into communication with L. Playfair but have not yet received his answer.<ref target="#foot.f2"/></p>
+<p>I have taken no further steps about the petition. All who have signed it at my instance have done so on the understanding that it would not be presented unless an objectionable bill were actually introduced.<ref target="#foot.f3"/> In the meantime I will take no further steps without communication with you.</p>
+<p>I will write again as soon as I have seen L. Playfair</p>
+<p>Yours very truly | J B Sanderson</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-9948.xml" resp="#mjhawkins">letter to J. S. Burdon Sanderson, 24 [April 1875]</ref>.</note>
+            <note xml:id="foot.f2">Burdon Sanderson intended to ask <ref target="../nameregs/nameregs_3802.xml" resp="#mjhawkins">Lyon Playfair</ref> to present a vivisection petition prepared by CD and his friends to Parliament (see <ref target="./DCP-LETT-9948.xml" resp="#mjhawkins">letter to J. S. Burdon Sanderson, 24 [April 1875]</ref>). Burdon Sanderson was also in contact with Playfair about the vivisection bill (see <ref target="./DCP-LETT-9958A.xml" resp="#mjhawkins">letter from J. S. Burdon Sanderson, 30 April [1875]</ref>).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_3026.xml" resp="#mjhawkins">John Lubbock</ref> had advised CD that Playfair was the best person to present vivisection petition to Parliament, but he saw the vivisection bill as much more important step (see <ref target="./DCP-LETT-9946.xml" resp="#mjhawkins">letter to R. B. Litchfield, 24 April [1875]</ref>). ‘Objectionable bill’: probably the rival bill that was being prepared by <ref target="../nameregs/nameregs_984.xml" resp="#mjhawkins">Frances Power Cobbe</ref> (see Appendix VI).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

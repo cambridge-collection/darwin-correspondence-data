@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1400">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Emma Darwin   [18 April 1851]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7684</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1400 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1400.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1400.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Emma Darwin</hi> 2: 133</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 5: 14</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 210.13: 9</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>210.13: 9</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Malvern</placeName>
+                <date when="1851-04-18">[18 Apr 1851]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1218.xml">Darwin, Emma</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Reports on Anne’s illness.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin family</term>
+                <term type="people" ref="#subject_1203">Darwin, A. E.</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00037_files/8/0_0.jpg" width="3182px" height="5549px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00037_files/11/1_1.jpg" width="3182px" height="5549px"/>
+        <surface n="9:1r" xml:id="i37">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00037.jpg" width="3182px" height="5549px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00037_files/8/0_0.jpg" width="3182px" height="5549px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00037.dzi" width="3182px" height="5549px"/>
+        </surface>
+        <surface n="9:1v" xml:id="i38">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00038.jpg" width="3182px" height="5549px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00038_files/8/0_0.jpg" width="3182px" height="5549px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00038.dzi" width="3182px" height="5549px"/>
+        </surface>
+        <surface n="9:2r" xml:id="i39">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00039.jpg" width="3182px" height="5549px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00039_files/8/0_0.jpg" width="3182px" height="5549px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00039.dzi" width="3182px" height="5549px"/>
+        </surface>
+        <surface n="9:2v" xml:id="i40">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00040.jpg" width="3182px" height="5549px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00040_files/8/0_0.jpg" width="3182px" height="5549px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00013-000-00040.dzi" width="3182px" height="5549px"/>
+        </surface>
+    </facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Malvern]</placeName>
+                    <date>Friday.</date>
+                </opener>
+                <div type="transcription">
+<p>4 oclock. There is no material change, but she appears much prostrated.— I will send another line before Post closes, if I see D<hi rend="superscript">r</hi>. Gully—</p>
+<p>12. oclock. I have left a space above for last account.—<ref target="#foot.f1"/> D<hi rend="superscript">r</hi>. Gully slept here last night &amp; is most kind.— After I wrote her pulse ceased to intermit &amp; that encouraged D<hi rend="superscript">r</hi>. Gully a little: before that, when I wrote he did not think she w<hi rend="superscript">d</hi>. last out the night.— To day, he says she is no worse, &amp; at present (12) this is the best which can be said. She does not suffer thank God.— It is much bitterer &amp; harder to bear than I expected— Your note made me cry much—but I must not give way &amp; can avoid doing so, by not thinking about her. It is now from hour to hour a struggle between life &amp; death. God only knows the issue. She has been very quiet all morning, but vomited badly at 6 <hi rend="superscript">A.M.</hi> which, however bad, shows she has more vital force than during two previous days. Sometimes D<hi rend="superscript">r</hi>. G. exclaims she will get through the struggle; then, I see, he doubts.— Oh my own it is very bitter indeed.— God preserve &amp; cherish you.— Her one good point is her pulse, now regular &amp; not very weak, excepting for this there would be no hope. We give her spoonfuls of gruel with brandy every half hour.—</p>
+<p>1 oclock. The D<hi rend="superscript">r</hi>. repeats what he said, “she is not worse”:—3 oclock,— she keeps the same, quite easy, but I grieve to say she has vomited a large quantity of bright green fluid.— Her case seems to me an exaggerated one of my Maer illness.—<ref target="#foot.f2"/> We must hope against hope.</p>
+<p>My own poor dear unhappy wife | C. D.</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">[First letter]</note>
+                    <note xml:id="tnote.n2">2.1 above] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n3">2.8 been] ‘b’ <hi rend="italic">over illeg</hi></note>
+                    <note xml:id="tnote.n4">3.3 fluid] ‘f’ <hi rend="italic">over</hi> ‘m’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The last account consists of the two sentences at the head of the letter, ‘4 oclock … D<hi rend="superscript">r</hi>. Gully—’.</note>
+            <note xml:id="foot.f2">CD had fallen seriously ill at Maer on 4 August 1840 and had not returned home until 14 November (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 2, Appendix II).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10503">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From James Murphy   10 May 1876</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10124</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10503 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10503.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10503.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="24">24</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 323</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 323</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3458.xml">Murphy, James</persName>
+                <placeName>The Infirmary, Sunderland</placeName>
+                <date when="1876-05-10">10 May 1876</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>A reader of <hi rend="italic">Descent</hi> offers two items: 1. Masters observed a pericardial fold in humans and other mammals which is a vestigial left superior vena cava;</p>  
+<p>2. JM suggests the frenum of the human penis became necessary for <hi rend="italic">vis-à-vis</hi> copulation when man became bipedal.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">mammals</term>
+                <term type="it" ref="#">Descent</term>
+                <term type="people" ref="#">Masters</term>
+                <term type="scientific_terms" ref="#">breeding behaviour</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>The Infirmary | Sunderland</placeName>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Having just read y<hi rend="superscript">r</hi>. “Descent of Man” with so much pleasure I trust you will excuse the liberty I take in mentioning two points which may have escaped y<hi rend="superscript">r</hi>. notice.</p>
+<p>The first is under the head of “Rudiments”.<ref target="#foot.f1"/></p>
+<p>Marshall has described (“On the development of Man &amp; Mammalia” Philosoph. Trans. 1850) “a vestgial fold of the pericardium which is a vestige of a <hi rend="underline">left</hi> superior vena cava that exists in early embryonic life” and also in the Elephant the Edentata &amp; the Rodents.<ref target="#foot.f2"/></p>
+<p>The second point may seem far-fetched but it is this.</p>
+<p>The Uterus in woman points downwards &amp; <hi rend="underline">backwards</hi>. Now when man went on all fours and the penis was without a frænum—as most of the Mammalia) copulation took place vis-a-dos but when man became erect and copulation took place vis-a-vis it was necessary to have a fraenum to direct the meatus of the penis <hi rend="underline">backwards</hi>, towards the mouth of the womb.<ref target="#foot.f3"/></p>
+<p>Respectfully submitting those points to y<hi rend="superscript">r</hi>. notice &amp; trusting you will excuse the liberty I have taken in doing so | I am | Faithfully yours | James Murphy <lb resp="#mjhawkins"/></p>
+<p rend="left">10.5.76.</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../bibliographies/bibl_1967.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi> 2d ed.</ref>, pp. 11–25.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_3171.xml" resp="#mjhawkins">John Marshall’s</ref> description occurs in <ref target="../bibliographies/bibl_9268.xml" resp="#mjhawkins">Marshall 1849</ref>; however, Marshall refers to ‘Marsupials and some other Mammalia’ (<ref target="../bibliographies/bibl_9268.xml" resp="#mjhawkins">J. Marshall 1849</ref>, p. 160), not Edentata (a former order comprised of armadillos, anteaters, and sloths).</note>
+            <note xml:id="foot.f3">The fraenum or frenulum is a membrane that connects the foreskin to the shaft of the penis; the meatus is the opening of the glans at the head of the penis.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-3838" status="released">
+    <persName>
+        <forename>Henrietta</forename>
+        <forename>Grace</forename>
+        <choice>
+            <seg><surname notBefore="1824" notAfter="1846">Smyth</surname></seg>
+            <seg><surname notBefore="1846" notAfter="1914">Powell</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1824–1914</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of William Henry Smyth RN (<hi rend="italic">ODNB</hi>) and his wife Annarella. Married Baden Powell as his third wife in 1846.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref> s.v. Powell, Baden.</p>
+    </note>
+    <note type="volume">11</note>
+    <note type="keywords">
+        <term type="name">Smyth, W. H.</term>
+        <term type="name">Powell, Baden</term>
+    </note>
+    
+</person>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9361">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From A. P. Fletcher   14 March 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19038</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9361 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9361.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9361.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Printed form</note>
+            <note type="physdesc" n="D">LS 1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 97: C54v</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>97: C54v</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_5662.xml">Fletcher, Alexander Pearson</persName>
+                <placeName>London, Moorgate St, 1</placeName>
+                <date when="1874-03-14">14 Mar 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks for a reference for Charles Pearson, who has applied to be appointed an agent for the Company.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#">Pearson, Charles</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">Northern Assurance Company</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00097-000-00199_files/8/0_0.jpg" width="5257px" height="7120px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00097-000-00199_files/11/1_1.jpg" width="5257px" height="7120px"/>
+        <surface n="C:54v" xml:id="i199">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00097-000-00199.jpg" width="5257px" height="7120px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00097-000-00199_files/8/0_0.jpg" width="5257px" height="7120px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00097-000-00199.dzi" width="5257px" height="7120px"/>
+        </surface>
+    </facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">The Northern Assurance Company, | No. 1, Moorgate Street, London, | E.C.</hi></placeName>
+                    <date>14<hi rend="superscript">th</hi>. March <hi rend="print">18</hi>74</date>
+                    <seg type="supplemental">C. R. Darwin Esq. | Down, Kent.</seg>
+                    <salute>Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p><hi rend="print">Mr.</hi> Charles Pearson, <hi rend="print">having applied to be appointed an Agent of this Company at</hi> Down <hi rend="underline">and having referred us to you for any information we might require respecting his qualifications for such an Agency, I should feel much obliged by your stating how far you consider him eligible for such an appointment, and whether, from your knowledge of his character and circumstances, you think that the Directors would be justified in according him their full confidence.</hi><ref target="#foot.f1"/></p>
+<p><hi rend="print">I need hardly add that your reply will be treated as strictly confidential.</hi></p>
+<p><hi rend="print">I am,</hi> | Sir, | <hi rend="print">Your obedient Servant,</hi> | A P Fletcher | General Manager</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_6504.xml" resp="#mjhawkins">Charles Pearson</ref> was schoolmaster of the Down national school. The <ref target="../nameregs/nameregs_3559.xml" resp="#mjhawkins">Northern Assurance Co</ref>mpany, renamed from the North of Scotland Fire and Life Assurance Company in 1848, had been established in Aberdeen in 1836; it had offices at 1 Moorgate Street in London by 1846 (www.aviva.com/about-us/heritage/companies/northern-assurance-company/ (accessed 9 May 2013)).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

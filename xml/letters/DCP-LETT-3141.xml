@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3141">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To ?   7 May [1861–8?]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1202</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3141 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3141.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3141.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">photocopy</note>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 249: 122</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>249 photocopy</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                
+            <date xml:id="date1" when="1861-05-07" exclude="#date2 #date3 #date4 #date5 #date6 #date7 #date8">7 May 1861</date>
+            <date xml:id="date2" when="1862-05-07" exclude="#date1 #date3 #date4 #date5 #date6 #date7 #date8">7 May 1862</date>
+            <date xml:id="date3" when="1863-05-07" exclude="#date1 #date2 #date4 #date5 #date6 #date7 #date8">7 May 1863</date>
+            <date xml:id="date4" when="1864-05-07" exclude="#date1 #date2 #date3 #date5 #date6 #date7 #date8">7 May 1864</date>
+            <date xml:id="date5" when="1865-05-07" exclude="#date1 #date2 #date3 #date4 #date6 #date7 #date8">7 May 1865</date>
+            <date xml:id="date6" when="1866-05-07" exclude="#date1 #date2 #date3 #date4 #date5 #date7 #date8">7 May 1866</date>
+            <date xml:id="date7" when="1867-05-07" exclude="#date1 #date2 #date3 #date4 #date5 #date6 #date8">7 May 1867</date>
+            <date xml:id="date8" when="1868-05-07" exclude="#date1 #date2 #date3 #date4 #date5 #date6 #date7">7 May 1868</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_9999.xml">Unidentified</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>CD is obliged for the offer, but he is "too much occupied to contribute to any periodicals".</p>
+        </abstract>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>May 7<hi rend="superscript">th</hi></date>
+                    <salute>Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am much obliged for your note &amp; offer, but I am sorry to say that I am too much occupied to contribute to any Periodicals.—</p>
+<p>Sir | Your obliged &amp; obet servant | Charles Darwin</p>
+<p>I need not say that your Review<ref target="#foot.f2"/> has my <hi rend="underline">cordial</hi> good wishes.—</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date range is conjectured from the style of the address, which CD used regularly from May 1861 until April 1869.</note>
+            <note xml:id="foot.f2">The review has not been identified.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

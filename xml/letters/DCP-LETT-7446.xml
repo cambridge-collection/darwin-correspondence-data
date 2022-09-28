@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7446">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To A. R. Wallace   18 January [1871]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8346</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7446 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7446.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7446.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 148: 256</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Manchester Libraries, Information and Archives (Autograph Letters: Stanley Withers Collection: 925.7 18 Jan 1872)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_258.xml">Manchester Libraries</repository>
+                    <collection>Autograph Letters: Stanley Withers Collection</collection>
+                    <idno>925.7 18 Jan 1872</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1871-01-18">18 Jan [1871]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4935.xml">Wallace, A. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends ARW advance copy of vol. 1 [of <hi rend="italic">Descent</hi>] for his review in <hi rend="italic">Academy</hi>. Vol. 2 is delayed by index. "Do not swear at me more than you can help."</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Academy</term>
+                <term type="it" ref="#">Descent</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">reception of Darwinism</term>
+                <term type="scientific_terms" ref="#">sexual selection</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down.</hi> | Beckenham | <hi rend="print">Kent. S.E.</hi></placeName>
+                    <date>Jan 18<hi rend="superscript">th</hi></date>
+                    <salute>My dear Wallace</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I hear you are to review my book in Academy; so I have thought it w<hi rend="superscript">d</hi>. save you trouble to have a copy as soon as possible.—<ref target="#foot.f2"/> I have asked M<hi rend="superscript">r</hi>. Murray to get Vol. I bound &amp; sent to you.<ref target="#foot.f3"/> Vol. II. will be delayed 10 or 14 days by Index: otherwise thank all the powers it is completed.<ref target="#foot.f4"/> Do not swear at me more than you can help.—</p>
+<p>Ever yours | C. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 Beckenham] <hi rend="italic">before del</hi> ‘<hi rend="italic">Bromley.</hi>’ </note>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to Wallace’s review of <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> (see n. 2, below).</note>
+            <note xml:id="foot.f2">Wallace reviewed <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> in the <hi rend="italic">Academy</hi>, 15 March 1871, pp. 177–83.</note>
+            <note xml:id="foot.f3">CD refers to John Murray. See <ref target="./DCP-LETT-7444.xml" resp="#mjhawkins">letter to R. F. Cooke, 17 January [1871]</ref>.</note>
+            <note xml:id="foot.f4">See <ref target="./DCP-LETT-7438.xml" resp="#mjhawkins">letter to R. F. Cooke, 12 January [1871]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

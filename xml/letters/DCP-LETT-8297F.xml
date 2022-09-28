@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8297F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Chauncey Wright   [11 or 21] April [1872]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20885</idno>
+            
+            
+            
+            
+            <date when="2013">2013</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8297F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8297F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8297F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="20">20</biblScope>
+        </seriesStmt>
+        
+        <sourceDesc>
+            <bibl type="provenance">Joseph M. Maddalena Catalog 16: Spring 1992</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_332.xml">Profiles in History</repository>
+                    <collection>(Catalog 16: Spring 1992)</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            <date xml:id="date1" when="1872-04-11" exclude="#date2">11 Apr 1872</date>
+            <date xml:id="date2" when="1872-04-21" exclude="#date1">21 Apr 1872</date>
+                <placeName>Down</placeName>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_5254.xml">Wright, Chauncey</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends details of Alexander Dickson’s paper ‘On some abnormal cones of <hi rend="italic">Pinus Pinaster</hi>’ (Dickson 1871).</p> 
+        </abstract>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down, Beckenham, Kent</placeName>
+                    <date>April 21st</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>In Transactions Royal Soc[iety]. Edinburgh, Vol XXVI Part II In Session 1870–71. p. 467, then in a paper on [Phyllotaxy] (ie on abnormal cones of Firs) by Prof. Alex. Dickson The University Glasgow.<ref target="#foot.f2"/></p>
+<p>My dear Sir Yours vy sincerely Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-8351.xml" resp="#mjhawkins">letter from Chauncey Wright, 24 May 1872</ref>. The day is given as ‘21’ in the Joseph M. Maddalena catalogue, but as ‘11’ in a David Schulson Autographs catalogue from July 2003. The transcription given is that of the Joseph M. Maddalena catalogue, in which the letter was transcribed in full.</note>
+            <note xml:id="foot.f2">CD refers to <ref target="../nameregs/nameregs_1319.xml" resp="#mjhawkins">Alexander Dickson’s</ref> paper ‘On some abnormal cones of <hi rend="italic">Pinus Pinaster</hi>’ (<ref target="../bibliographies/bibl_2008.xml" resp="#mjhawkins">Dickson 1871</ref>). The page reference given is incorrect; it refers to the article immediately preceding Dickson’s in volume 26 of the <hi rend="italic">Transactions of the Royal Society of Edinburgh</hi>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

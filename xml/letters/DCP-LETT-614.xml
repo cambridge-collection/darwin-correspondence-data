@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-614">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Leonard Jenyns   [13? January 1842]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">709</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-614 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-614.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-614.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 145: 337b</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno/>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Upper Gower St, 12</placeName>
+                <date when="1842-01-13">[13? Jan 1842]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2560.xml">Jenyns, Leonard</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>CD is pleased with LJ’s introduction [to <hi rend="italic">Fish</hi>]. He rejoices that he persuaded LJ to undertake this work.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Fish</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">positive criticism of correspondent</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>12 Up. Gower St</placeName>
+                    <date>Thursday</date>
+                    <salute>My dear Jenyns</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have read over your introduction &amp; like it <hi rend="underline">very much</hi> — it is full &amp; quite satisfactory &amp; will tell every one what to expect.— I sincerely rejoice I persuaded you to undertake this department—although it has cost you a deal of trouble— it has produced some good stirling work, and I am very glad I took the much smaller trouble of collecting the specimens—which is almost more than I can say for some parts of my collection.—</p>
+<p>The printer shall send proofs with the M.S. of single sheets direct to you, &amp; you shall return them direct to him &amp; I will see your corrections inserted in the revise &amp; should I have anything to remark can send the revise to you.— The Printer’s address is</p>
+<p>“M<hi rend="superscript">rss</hi>: Stewart &amp; Murray</p>
+<p>Green Arbour Court</p>
+<p>Old Bayley”</p>
+<p>I will write to M<hi rend="superscript">r</hi> Hawkins<ref target="#foot.f2"/> tomorrow &amp; find out how he is going on, &amp; will in course of few days have the outlines sent to you.—</p>
+<p>How unfortunate it has been your unwellness this week— I sincerely hope you are better to day—though it is a wretched day &amp; I do not expect to hear, that you have been able to reach M<hi rend="superscript">r</hi>. Hawkins house.</p>
+<p>Believe me | Your’s Most truly | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.5 the specimens] ‘the’ <hi rend="italic">over</hi> ‘them’; ‘specimens’ <hi rend="italic">interl</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Jenyns’ introduction to <ref target="../bibliographies/bibl_2520.xml" resp="#mjhawkins"><hi rend="italic">Fish</hi></ref> is dated 8 January 1842.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_2171.xml" resp="#mjhawkins">Benjamin Waterhouse Hawkins</ref>, who executed the plates for <hi rend="italic">Fish.</hi></note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

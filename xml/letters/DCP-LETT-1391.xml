@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1391">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. de C. Sowerby   19 February [1851]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3191</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1391 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1391.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1391.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Archives of the New York Botanical Garden (Charles Finney Cox Collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_302.xml">NYBG</repository>
+                    <collection>Charles Finney Cox</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1851-02-19">19 Feb [1851]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4481.xml">Sowerby, J. C.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Comments on JdeCS’s plates [for <hi rend="italic">Fossil Cirripedia</hi> (Lepadidae)]. Asks if JdeCS can lend him specimens of fossil Balanidae.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Fossil Cirripedia</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">fossils</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Feb. 19<hi rend="superscript">th</hi>.—</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>The Plate will now do very well;<ref target="#foot.f1"/> &amp; I am much obliged for all the trouble you have taken, &amp; congratulate you that I can cause no more.</p>
+<p>The specimens all arrived quite safe: I thank you for having registered them which I did not think of, &amp; I return you in stamps the Cost.—</p>
+<p>With respect to what you say about the payment of the drawings is exceedingly liberal; but on the other hand, the drawings, though no doubt they facilitated the engraving, must have put you to some extra trouble; did you include this trouble in your estimate to the Pal. Soc.? because if not, <hi rend="underline">I must beg</hi> you, to make some charge to me, for I should be sorry to take an unfair advantage of your liberality. On the latter view, whenever convenient, please to let me know what I am indebted to you.</p>
+<p>Accept my thanks &amp; believe me | Yours very faithfully | C. Darwin</p>
+<p>P.S. | M<hi rend="superscript">r</hi>. Salter<ref target="#foot.f2"/> tells me you have several <hi rend="underline">named</hi> fossil Balani; if you could at any time get to these &amp; lend them me, they might &amp; probably would be of <hi rend="doubleUnderline">great</hi> service.<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.1 them] <hi rend="italic">added</hi></note>
+                    <note xml:id="tnote.n2">5.1 <hi rend="italic">named</hi>] <hi rend="italic">before del</hi> ‘sessile fossils’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See letters to J. de C. Sowerby, <ref target="./DCP-LETT-1388.xml" resp="#mjhawkins">10 February [1851]</ref> and <ref target="./DCP-LETT-1389.xml" resp="#mjhawkins">13 February [1851]</ref>.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_4158.xml" resp="#mjhawkins">John William Salter</ref>, who had been apprenticed to Sowerby in 1835 and was at this time assistant palaeontologist to the Geological Survey (Secord 1985).</note>
+            <note xml:id="foot.f3">Seven specimens from Sowerby’s collection are listed in <ref target="../bibliographies/bibl_2622.xml" resp="#mjhawkins"><hi rend="italic">Fossil Cirripedia</hi> (1854)</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

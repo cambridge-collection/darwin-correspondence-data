@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6883">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Edward Burnett Tylor   8 September 1869</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14650</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6883 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6883.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6883.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 178: 201</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>178: 201</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4838.xml">Tylor, E. B.</persName>
+                <placeName>Wellington, Somerset</placeName>
+                <date when="1869-09-08">8 Sept 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Wishes to borrow a paper by R. G. Haliburton on superstitions connected with sneezing [see <hi rend="doubleUnderline">5635</hi>].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_2058">Haliburton, R. G.</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">mind, cognitive behaviour</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Linden | Wellington Som.</placeName>
+                    <date>Sep. 8. 69</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I understand from Sir John Lubbock that you have a copy of M<hi rend="superscript">r</hi> Haliburton’s curious paper, published in some Nova Scotia transactions, on Superstitions connected with Sneezing.<ref target="#foot.f1"/> If you can find this paper without difficulty, I should be much obliged if you would lend it to me. I would not trouble you with this request, but I do not know how otherwise to get at this paper, which would complete a collection of accounts I have on the subject.<ref target="#foot.f2"/> With many apologies</p>
+<p>Believe me Dear Sir | Yours very faithfully | Edward B. Tylor <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Chas. Darwin Esq</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Tylor refers to <ref target="../nameregs/nameregs_2058.xml" resp="#mjhawkins">Robert Grant Haliburton</ref> and <ref target="../bibliographies/bibl_3301.xml" resp="#mjhawkins">Haliburton 1863</ref>. A copy inscribed by the author is in the Darwin Pamphlet Collection–CUL. CD had lent his copy to <ref target="../nameregs/nameregs_3026.xml" resp="#mjhawkins">John Lubbock</ref>, in 1867 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 15, <ref target="./DCP-LETT-5635.xml" resp="#mjhawkins">letter from John Lubbock, 28 September [1867]</ref> and n. 2).</note>
+            <note xml:id="foot.f2">Beliefs associated with sneezing are discussed in <ref target="../bibliographies/bibl_7901.xml" resp="#mjhawkins">Tylor 1871</ref>; <ref target="../bibliographies/bibl_3301.xml" resp="#mjhawkins">Haliburton 1863</ref> is cited on 1: 90 and 93.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

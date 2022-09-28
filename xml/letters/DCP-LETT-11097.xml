@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11097">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To James Croll   9 August 1877</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13235</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11097 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11097.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11097.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Copy</note>
+            <note type="physdesc" n="C">1p</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">ML</hi> 2: 212</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 143: 356</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>143: 356</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1877-08-09">9 Aug 1877</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1127.xml">Croll, James</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Comments on JC’s paper ["On the tidal retardation argument for the age of the earth", <hi rend="italic">Rep. BAAS</hi> (1876): 88–9].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="geology" ref="#">tidal retardation</term>
+                <term type="it" ref="#">Rep. BAAS</term>
+                <term type="rx" ref="#">Croll, James 1876</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+                <term type="scientific_terms" ref="#">time, ‘inorganic’ (geological, historical)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down, Beckenham, | Kent</placeName>
+                    <date>Aug. 9, 1877.</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am much obliged for your essay which I have read with the greatest interest.<ref target="#foot.f1"/> With respect to the geological part, I have long wished to see the evidence collected on the time required for denudation, and you have done it admirably.<ref target="#foot.f2"/> I wish some one would in a like spirit compare the thickness of sedimentary rocks with the quickest estimated rate of deposition by a large river, and other such evidence. Your main argument with respect to the sun seems to me very striking.<ref target="#foot.f3"/></p>
+<p>My son George desires me to thank you for his copy and to say how much he has been interested by it.<ref target="#foot.f4"/></p>
+<p>I remain, my dear Sir, | Yours very faithfully, | Charles Darwin.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD’s annotated offprint of Croll’s article ‘On the probable origin and age of the sun’ (<ref target="../bibliographies/bibl_10364.xml" resp="#mjhawkins">Croll 1877</ref>) is in the Darwin Pamphlet Collection–CUL.</note>
+            <note xml:id="foot.f2">CD scored several passages where Croll calculated the time required for aerial denudation (see <ref target="../bibliographies/bibl_10364.xml" resp="#mjhawkins">Croll 1877</ref>, pp. 313–14).</note>
+            <note xml:id="foot.f3">Croll had theorised that the source of the sun’s heat could have been motion in space, noting that the collision of two bodies, each half the mass of the sun, moving towards each other at 476 miles per second would generate heat for fifty million years (<ref target="../bibliographies/bibl_10364.xml" resp="#mjhawkins">Croll 1877</ref>, p. 319).</note>
+            <note xml:id="foot.f4">In his paper, Croll had referred to calculations by <ref target="../nameregs/nameregs_1224.xml" resp="#mjhawkins">George Howard Darwin</ref> regarding the effect of geological changes on the earth’s axis of rotation (<ref target="../bibliographies/bibl_10364.xml" resp="#mjhawkins">Croll 1877</ref>, p. 324; see also G. H. Darwin 1876b).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

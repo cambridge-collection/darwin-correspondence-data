@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11800">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From W. M. Hacon   20 December 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17526</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11800 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11800.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11800.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 166: 18</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>166: 18</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2042.xml">Hacon, W. M.</persName>
+                <placeName>London, Fenchurch St, 18</placeName>
+                <date when="1878-12-20">20 Dec 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Revision of CD’s will to reflect Anthony Rich’s gift and to increase daughters’ inheritance.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin family</term>
+                <term type="business" ref="#">Other people</term>
+                <term type="people" ref="#">Darwin, C. R.’s daughters</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">Rich, Anthony’s bequest</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">18, Fenchurch Street, | London. | E.C.</hi></placeName>
+                    <date>20<hi rend="superscript">th</hi> Dec<hi rend="superscript">r</hi>. 1878</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I have received your letter of yesterday with the unexecuted duplicate of the 2<hi rend="superscript">nd</hi>. codicil to your will &amp; the two letters from M<hi rend="superscript">r</hi> Anthony Rich of the 7<hi rend="superscript">th</hi>. &amp; 10<hi rend="superscript">th</hi>. Instant.<ref target="#foot.f1"/> And I hope to write to you, within the next few days, as to the carrying out of your testamentary wishes, as communicated by your letter. My present opinion is that it will be better to increase the gifts to your daughters <hi rend="underline">un</hi>conditionally.<ref target="#foot.f2"/> It would be unsatisfactory to make the operation of the intended increased gift to your daughters depend upon your estate deriving <hi rend="underline">some</hi> benefit from M<hi rend="superscript">r</hi> Rich’s will or codicil</p>
+<p>I am | My dear Sir | Yours very truly | W<hi rend="superscript">m</hi>. M Hacon <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles R. Darwin Esq<hi rend="superscript">re</hi> | Down | Beckenham | Kent</p> 
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD’s letter has not been found; he sent Rich’s letters of <ref target="./DCP-LETT-11778.xml">7 December 1878</ref> and <ref target="./DCP-LETT-11783.xml">10 December 1878</ref>. CD had made a second codicil to his will in March (see <ref target="./DCP-LETT-11433.xml">letter from W. M. Hacon, 19 March 1878</ref>). </note>
+            <note xml:id="foot.f2">In his letter to Rich of <ref target="./DCP-LETT-11788.xml">12 December 1878</ref>, CD mentioned that he expected to leave his will unaltered, that is, with property equally divided among his sons after a share had been paid to his two daughters. CD evidently contemplated how he might increase the share for his daughters, <ref target="../nameregs/nameregs_1225.xml" resp="#mjhawkins">Henrietta Emma Litchfield</ref> and Elizabeth Darwin. CD’s sons were William Erasmus, George Howard, Francis, Leonard, and <ref target="../nameregs/nameregs_1226.xml" resp="#mjhawkins">Horace Darwin</ref>.</note>
+        </div>  
+      
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3204">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. D. Fox   8 July [1861]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7131</idno>
+            
+            
+            
+            
+            <date when="1994">1994</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3204 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3204.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3204.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="09">9</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <note type="postmark">JY 8 61</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 144: 272</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Christ’s College Library, Cambridge (MS 53 Fox 131)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_83.xml">CCLC</repository>
+                    <collection>MS 53</collection>
+                    <idno>Fox 131</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Torquay</placeName>
+                <date when="1861-07-08">8 July [1861]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1730.xml">Fox, W. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Family news.</p>
+            <p>Henslow’s death a sad loss. Leonard Jenyns will write a biography.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Other people</term>
+                <term type="people" ref="#subject_1202">Darwin family</term>
+                <term type="people" ref="#subject_2235">Henslow, J. S.</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="social" ref="#">news</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>2. Hesketh Crescent | Torquay</placeName>
+                    <date>July 8<hi rend="superscript">th</hi></date>
+                    <salute>My dear Fox</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Your note has followed us here, where we arrived 4 or 5 days ago.—<ref target="#foot.f1"/> As we wished to try 6 or 8 weeks of sea-side for my eldest girl we thought we would make this awfully long (to us) stretch &amp; come here. We are charmed with the view from this crescent &amp; with the walks all around &amp; we have got a very good House. But is no joke bringing 16 souls &amp; <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>3</mn><mn>4</mn></mfrac></math></formula> tun of luggage so far.— My eldest girl is still a sad invalid; but certainly improves: she gets up twice every day now &amp; can walk one or two hundred yards.<ref target="#foot.f2"/></p>
+<p>I am glad for myself to have this outing &amp; change for I have been a poor wretch for many months. You say not one word about yourself. Are you not a pretty sort of man? It seems indeed strange to hear of your having two daughters married.—<ref target="#foot.f3"/></p>
+<p>Poor dear Henslow’s death has been a sad loss to many. He wrote me by dictation a most kind note from his death-bed.—<ref target="#foot.f4"/> L. Jenyns is going to write a biographical notice of him.—<ref target="#foot.f5"/></p>
+<p>I shall not go to Manchester;<ref target="#foot.f6"/> but it would be a great temptation to get a sight of you.— How long it is since we met! Farewell my dear old friend | Yours affect<hi rend="superscript">y</hi> | C. Darwin</p>
+<p>My eldest son is going to join as Partner in a Bank at Southampton: I had so good an offer it seemed a pity to reject it.—<ref target="#foot.f7"/></p>
+<p>We hear that the Darwins of—(Elston) are coming here.—<ref target="#foot.f8"/></p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Fox’s letter has not been found. The Darwins left for Torquay on 1 July 1861, spending the night en route in Reading. See ‘Journal’ (Appendix II).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_1225.xml" resp="#mjhawkins">Henrietta Emma Darwin</ref> was recuperating slowly from what was thought to be typhus fever suffered in the spring of 1860.</note>
+            <note xml:id="foot.f3">Two of Fox’s daughters by his first marriage had recently married. <ref target="../nameregs/nameregs_1708.xml" resp="#mjhawkins">Eliza Ann Fox</ref> married <ref target="../nameregs/nameregs_4174.xml" resp="#mjhawkins">Henry Martyn Sanders</ref>, vicar of Skidby, Hull, and <ref target="../nameregs/nameregs_3610.xml">Harriet Emma Fox</ref> married <ref target="../nameregs/nameregs_3611.xml" resp="#mjhawkins">Samuel Charlesworth Overton</ref> (<ref target="../bibliographies/bibl_1822.xml" resp="#mjhawkins"><hi rend="italic">Darwin pedigree</hi></ref>).</note>
+            <note xml:id="foot.f4">The letter from <ref target="../nameregs/nameregs_2235.xml" resp="#mjhawkins">John Stevens Henslow</ref>, apparently written shortly before his death on 16 May 1861, has not been found.</note>
+            <note xml:id="foot.f5">Jenyns ed. 1862 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 9, Appendix X).</note>
+            <note xml:id="foot.f6">The British Association for the Advancement of Science was to hold its 1861 meeting in Manchester.</note>
+            <note xml:id="foot.f7">CD was arranging for his son <ref target="../nameregs/nameregs_1245.xml" resp="#mjhawkins">William Erasmus Darwin</ref> to become a partner with the Southampton and Hampshire Bank. See letters to <ref target="../nameregs/nameregs_3026.xml" resp="#mjhawkins">John Lubbock</ref>, <ref target="./DCP-LETT-3205.xml" resp="#mjhawkins">10 July [1861]</ref>, 1 August [1861], and [2 August 1861].</note>
+            <note xml:id="foot.f8">Elston Hall, near Newark, Nottinghamshire, was the seat of the senior branch of the Darwin family. CD’s grandfather Erasmus Darwin was born at Elston Hall. The head of the family was <ref target="../nameregs/nameregs_1223.xml" resp="#mjhawkins">Francis Rhodes Darwin</ref>, husband of <ref target="../nameregs/nameregs_1207.xml" resp="#mjhawkins">Charlotte Maria Cooper Darwin</ref>, the granddaughter of Erasmus Darwin’s older brother, <ref target="../nameregs/nameregs_1243.xml" resp="#mjhawkins">William Alvey Darwin</ref>. Francis Rhodes took the Darwin family name in 1850 under the provisions of the will of his brother-in-law <ref target="../nameregs/nameregs_1233.xml" resp="#mjhawkins">Robert Alvey Darwin</ref>. See <ref target="../bibliographies/bibl_1822.xml" resp="#mjhawkins"><hi rend="italic">Darwin pedigree</hi></ref> and <ref target="../bibliographies/bibl_2662.xml" resp="#mjhawkins">Freeman 1978</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

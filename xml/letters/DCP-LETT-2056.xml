@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2056">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Syms Covington   22 February 1857</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">5392</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2056 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2056.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2056.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <relatedItem type="publication">
+                <bibl>Ferguson (1971): 13</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 6: 345</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance"><hi rend="italic">Sydney Mail</hi>, 9 August 1884, p. 255</bibl>
+            <bibl type="printedSource">De Beer, Gavin 1959b: 25</bibl>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1857-02-22">22 Feb 1857</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1096.xml">Covington, Syms</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends news of his family, Sulivan, and FitzRoy.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1202">Darwin family</term>
+                <term type="people" ref="#subject_1650">FitzRoy, Robert</term>
+                <term type="people" ref="#subject_4614">Sulivan, B. J.</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="social" ref="#">news</term>
+                <term type="social" ref="#">Other people</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley, Kent,</placeName>
+                    <date>February 22, 1857.</date>
+                    <salute>Dear Covington,—<ref target="#foot.f1"/></salute>
+                </opener>
+                <div type="transcription">
+<p>I received a short time since your letter of September 14, and was glad to hear how you were getting on, though the account of your affairs was not quite so prosperous as in some former letters, owing, as I understand, chiefly to the expense of your new house. But with your good sense and steadiness I have great hopes that you will tide over the time of difficulty. You must console yourself with thinking what a position you would be in here with six boys and two girls (which is now exactly my number). I never meet any one who is not perplexed what to do with their children. My eldest boy is almost a young man, and has just got into the head form at the great school of Rugby, and is very steady and good. We think of making him a Barrister, though it is a bad trade.</p>
+<p>Captain Sulivan has been very lucky and has got a high place, of £1000 a year, I believe, and has beaten two Admirals and Captain Fitz Roy, who tried for the same place.<ref target="#foot.f2"/> By the way, Captain F. with Mrs. F. are coming to-morrow to lunch with me on their road home from the Marquis of Camden.<ref target="#foot.f3"/> Poor Captain F. has lately lost his only daughter, a beautiful and charming girl of about 16 or 17 years old.<ref target="#foot.f4"/></p>
+<p>I lately dined with one of your great Australian potentates, Sir W. Macarthur, and heard a good deal of news of Australia, and drank some admirable Australian wine.<ref target="#foot.f5"/> Yours is a fine country, and your children will see it a very great one. With every good wish for your health and prosperity, I am, dear Covington, yours sincerely, | CH. DARWIN.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Misprinted as ‘Corington’ in the <hi rend="italic">Sydney Mail</hi>.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_4614.xml" resp="#mjhawkins">Bartholomew James Sulivan</ref> had been appointed the naval officer of the marine department of the Board of Trade in December 1856 (<ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref>).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_3848.xml" resp="#mjhawkins">George Charles Pratt</ref>, whose country residence was the ‘Wildernesse’, near Sevenoaks, Kent.</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_1650.xml" resp="#mjhawkins">Robert FitzRoy</ref>, at that time chief of the meteorological department of the Board of Trade, had several children by his first wife, Mary Henrietta. He had married Maria Smith in 1854.</note>
+            <note xml:id="foot.f5"><ref target="../nameregs/nameregs_3090.xml" resp="#mjhawkins">William Macarthur</ref> had been knighted and made an officer in the Légion d’honneur at the close of the Paris Exhibition of 1855, which he attended as commissioner for New South Wales. A son of <ref target="../nameregs/nameregs_3089.xml" resp="#mjhawkins">John Macarthur</ref>, who introduced the vine to Australia, <ref target="../nameregs/nameregs_3090.xml" resp="#mjhawkins">William Macarthur</ref> encouraged winemaking, bringing out German vignerons to New South Wales (<ref target="../bibliographies/bibl_256.xml" resp="#mjhawkins"><hi rend="italic">Aust. dict. biog.</hi></ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

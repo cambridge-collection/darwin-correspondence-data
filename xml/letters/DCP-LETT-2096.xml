@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2096">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From James Hunt   [before 29 December 1857]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17668</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2096 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2096.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2096.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p inc †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 166: 281</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>166: 281</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2451.xml">Hunt, James (a)</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1809-01-01" notAfter="1857-12-28">[before 29 Dec 1857]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Birds that have been hybridised.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">birds</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">hybrids</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+<p rend="left">The Com<hi rend="superscript">n</hi> Song Thrush, &amp; American Robin or thrush, have bred together, but the young did not live</p>
+<p>The Black, or Globose Currassow, &amp; Red Curassow have bred here, several years ago,<ref target="#foot.f2"/> but are they not at present consided the same Species.</p>
+<p><anchor xml:id="ann.a1" type="annotationStart"/>The different kind of Guinea Fowl, have never been cross<hi rend="superscript">d</hi>. here or the Peafowl.</p>
+<p>I am very Sorry that I have not been able at present to find the Notes on the Crossbred Pintail Ducks. You wished in your Letter, and as I cannot speak possitively from memory, I have not stated any thing about them, but I will continue serching for them, and should they be found iwill send them to you instantly.<ref target="#foot.f3"/></p>
+<p>And I shall be most happy to give you any information, on this or any other subject that lays in my Power.</p>
+<p>I am Sir | Your most | Obedent Servant | James Hunt <lb resp="#mjhawkins"/> Cha<hi rend="superscript">s</hi> Darwin Esq.<anchor xml:id="ann.a2" type="annotationEnd"/></p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note target="#ann.a1" targetEnd="#ann.a2"><hi rend="italic">crossed pencil</hi></note>
+                <note> <hi rend="italic">Verso of letter</hi>: ‘Are not all rules false for Cultivated Plants’ <hi rend="italic">pencil</hi> </note>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD used the information in this letter in his chapter on hybridism, which he recorded having completed on 29 December 1857 (‘Journal’; see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 6, Appendix II).</note>
+            <note xml:id="foot.f2">Hunt was the head keeper at the zoological gardens of the <ref target="../nameregs/nameregs_5302.xml" resp="#mjhawkins">Zoological Society of London</ref> until 1859 (<ref target="../bibliographies/bibl_6922.xml" resp="#mjhawkins">Scherren 1905</ref>, p. 104). CD had consulted him previously (see Notebook M, p. 138 (<ref target="../bibliographies/bibl_5912.xml" resp="#mjhawkins"><hi rend="italic">Notebooks</hi></ref>)).</note>
+            <note xml:id="foot.f3">Hunt apparently did not find the notes. In the manuscript of his species book, CD stated that Hunt showed him ‘several years ago a lot of young birds, which he knew to be the offspring of a pair of these hybrids inter se’ (<ref target="../bibliographies/bibl_5799.xml" resp="#mjhawkins"><hi rend="italic">Natural selection</hi></ref>, p. 439; see also p. 433 n. 1).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

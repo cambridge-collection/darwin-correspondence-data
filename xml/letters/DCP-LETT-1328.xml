@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1328">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. G. Forchhammer   20 May [1850]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1121</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1328 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1328.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1328.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="publication">
+                <bibl>Clement (1926): 5</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 4: 338</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">University of Copenhagen, Mineralogical Museum Archives</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_100.xml">Copenhagen MM</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1850-05-20">20 May [1850]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1682.xml">Forchhammer, J. G.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks JGF for geological information.</p> 
+<p>Steenstrup’s <hi rend="italic">cirripede</hi> specimens have been of great use and interest. CD has now described 33 fossil pedunculated cirripedes.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">cirripedes</term>
+                <term type="people" ref="#subject_4541">Steenstrup, J. J. S.</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">fossils</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>May 20<hi rend="superscript">th</hi></date>
+                    <salute>My dear Forchhammer</salute>
+                </opener>
+                <div type="transcription">
+<p>I ought to have written sooner to have thanked you very sincerely for your letter of the 27<hi rend="superscript">th</hi> of April: it told me quite fully &amp; most clearly, all that I wanted to know of your Geology.<ref target="#foot.f1"/></p>
+<p>Prof. Steenstrup’s specimen which I owe first to your kindness have been of <hi rend="underline">great</hi> use &amp; interest to me: I have now described 33 fossil Pedunculated Cirripides, &amp; they are in M<hi rend="superscript">r</hi> Sowerby’s hands to make drawings of.—</p>
+<p>With my very sincere thanks | Believe me | Yours very truly | Charles Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The letter has not been found. The geological information may have been in answer to <ref target="./DCP-LETT-1317.xml" resp="#mjhawkins">letter to J. J. S. Steenstrup, 3 April [1850]</ref>, asking about the relationship of the chalk formations of Scania, Faxoe, and Westphalia. In <ref target="../bibliographies/bibl_2621.xml" resp="#mjhawkins"><hi rend="italic">Fossil Cirripedia</hi> (1851): </ref>7, CD cited Forchhammer and Steenstrup as his authorities for considering them equivalent formations, more recent than the common Upper or White Chalk and equivalent to the formation of Maastricht.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

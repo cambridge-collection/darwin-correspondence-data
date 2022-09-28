@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5521">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Charles-Ferdinand Reinwald   [May 1867]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19456</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5521 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5521.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5521.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">incomplete</note>
+            <note type="physdesc" n="ALS">2pp inc</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 210.11: 35</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>210.11: 35</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3970.xml">Reinwald, C.-F.</persName>
+                <placeName>Paris</placeName>
+                <date notBefore="1867-05-01" notAfter="1867-05-31">[May 1867]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Writes about the Carl Vogt and J. J. Moulinié translation [of <hi rend="italic">Variation</hi>].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Variation</term>
+                <term type="languages" ref="#">French</term>
+                <term type="people" ref="#">Moulinie, J. J.</term>
+                <term type="people" ref="#subject_4902">Vogt, Carl</term>
+                <term type="scientific_terms" ref="#">variation</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+                     
+<p rend="left">〈<hi rend="underline">half page missing</hi>〉 of the wood-cuts from Mrs. Murray for the price of £10.—and to let you have six copies of our translation.<ref target="#foot.f2"/></p>
+<p>I am highly gratified by this kind proposal which I accept with pleasure for my part, and hope that Prof. Carl Vogt will not only give his advice to our french translator Col. Moulinié, but allow me to put his name on the title piece as being done under his direction.<ref target="#foot.f3"/></p>
+<p>〈<hi rend="underline">half page missing</hi>〉 honoured to be in 〈<hi rend="underline">3 or 4 words</hi>〉 of your highly deserved reputation and celebrity and beg to believe me</p>
+<p>Dear Sir | Your most obedient Servant | C Reinwald <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">C. Reinwald, libraire editeur</p>
+<p rend="left">15. Rue Des Saints-Pères. Paris</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter, the <ref target="./DCP-LETT-5512.xml" resp="#mjhawkins">letter from Carl Vogt, 23 April 1867</ref>, and the <ref target="./DCP-LETT-5560.xml" resp="#mjhawkins">letter from J. J. Moulinié, 2 June 1867</ref>.</note>
+            <note xml:id="foot.f2">John Murray was the publisher of <hi rend="italic">Variation.</hi> This letter evidently concerned arrangements for the publication of a French translation of <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> by Reinwald’s firm. See <ref target="./DCP-LETT-5512.xml" resp="#mjhawkins">letter from Carl Vogt, 23 April 1867</ref>.</note>
+            <note xml:id="foot.f3">Reinwald refers to <ref target="../nameregs/nameregs_4902.xml" resp="#mjhawkins">Carl Vogt</ref> and Jean Jacques Moulinié. The words ‘Préface de <ref target="../nameregs/nameregs_4902.xml" resp="#mjhawkins">Carl Vogt</ref>’ appear on the title page of Moulinié trans. 1868.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

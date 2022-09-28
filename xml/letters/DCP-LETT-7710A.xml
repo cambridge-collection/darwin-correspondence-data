@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7710A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Elliott &amp; Fry   23 April [1871]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20373</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7710A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7710A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7710A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Rensselaer Libraries, Rensselaer Polytechnic Institute (Gerald and Sue Friedman manuscript collection MC 72 Box 1)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_143.xml">Rensselaer Polytechnic Institute</repository>
+                    <collection>Gerald and Sue Friedman MS</collection>
+                    <idno>MC 72 Box 1</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1871-04-23">23 Apr [1871]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1496.xml">Elliott &amp; Fry</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Gives permission for the photographer to come to Down, but states that O. J. Rejlander has recently taken several photographs of him which would be available to purchasers.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="places" ref="#">Down</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">inviting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down.</hi> | Beckenham | <hi rend="print">Kent. S.E.</hi></placeName>
+                    <date>Ap 23</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>If you really think it worth while to come down, I shall be happy to give you a sitting &amp; aid in any way.—<ref target="#foot.f2"/></p>
+<p>Orpington Station is nearest.</p>
+<p>But I am bound to tell you that I lately was several times with M<hi rend="superscript">r</hi> Rejlander, who was assisting me on a scientific subject, &amp;, who took so much trouble for my sake that I gladly complied with his request to take several photos: of me, and these I imagine he intends to sell to any purchasers; &amp; this fact may make it not worth your while to come down here.—<ref target="#foot.f3"/></p>
+<p>If you do come, be so kind as to let me know a day or two before.—</p>
+<p>Dear Sir | yours faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 Beckenham] <hi rend="italic">before del</hi> ‘<hi rend="italic">Bromley.</hi>’ </note>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-7605.xml" resp="#mjhawkins">letter to H. E. Darwin, 20 March 1871</ref>, and the form of the address, with ‘<hi rend="italic">Bromley</hi>’ deleted and ‘Beckenham’ added by hand, which was used by CD between April 1869 and May 1871.</note>
+            <note xml:id="foot.f2">There is no further mention of any visit by a representative of <ref target="../nameregs/nameregs_1496.xml" resp="#mjhawkins">Elliott &amp; Fry</ref> in 1871.</note>
+            <note xml:id="foot.f3">CD had met <ref target="../nameregs/nameregs_3973.xml" resp="#mjhawkins">Oscar Gustaf Rejlander</ref> when he was in London from 1 to 5 April 1871; see <ref target="./DCP-LETT-7605.xml" resp="#mjhawkins">letter to H. E. Darwin, 20 March 1871</ref> and n. 4. He supplied CD with several photographs for <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref> (see <ref target="./DCP-LETT-7666.xml" resp="#mjhawkins">letter to James Crichton-Browne, 7 April [1871]</ref>). Rejlander’s photographs of CD are in DAR 225: 114–15 and DAR 257: 14 (see frontispiece). No <ref target="../nameregs/nameregs_1496.xml" resp="#mjhawkins">Elliott &amp; Fry</ref> photographs of CD taken in 1871 have been found.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1425">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. D. Fox   29 April [1851]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7079</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1425 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1425.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1425.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 144: 218</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">LL</hi> 1: 380</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 5: 32</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Christ’s College Library, Cambridge (MS 53 Fox 79)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_83.xml">CCLC</repository>
+                    <collection>MS 53</collection>
+                    <idno>Fox 79</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1851-04-29">29 Apr [1851]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1730.xml">Fox, W. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>His favourite child, Anne, has unexpectedly died.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin family</term>
+                <term type="people" ref="#subject_1203">Darwin, A. E.</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Apr 29<hi rend="superscript">th</hi>.</date>
+                    <salute>My dear Fox</salute>
+                </opener>
+                <div type="transcription">
+<p>I do not suppose you will have heard of our bitter &amp; cruel loss. Poor dear little Annie, when going on very well at Malvern, was taken with a vomiting attack, which was at first thought of the smallest importance, but it rapidly assumed the form of a low &amp; dreadful fever, which carried her off in 10 days.— Thank God she suffered hardly at all, &amp; expired as tranquilly as a little angel.— Our only consolation is, that she passed a short, though joyous life.— She was my favourite child; her cordiality, openness, buoyant joyousness &amp; strong affection made her most loveable.<ref target="#foot.f1"/> Poor dear little soul. Well it is all over. My dear Emma supports herself admirably &amp; is calm &amp; courageous.— It was a severe aggravation that Emma could not possibly join me in nursing our darling: she almost daily expects her confinement.</p>
+<p>I have not yet thanked you for your most kind &amp; interesting letter of the 10<hi rend="superscript">th</hi>. I most truly hope that your health is better.</p>
+<p>Yours affectionately | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.6 my favourite] <hi rend="italic">after del</hi> ‘al’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">On 30 April, a week after Anne’s death, CD wrote a memorial (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 5, Appendix II) in order that ‘in after-years, if we live, the impressions now put down will recall more vividly her chief characteristics.’ Later, when writing about Anne’s death, Henrietta Litchfield stated that ‘it may almost be said that my mother never really recovered from this grief. She very rarely spoke of Annie, but when she did the sense of loss was always there unhealed. My father could not bear to reopen his sorrow, and he never, to my knowledge, spoke of her.’ (<ref target="../bibliographies/bibl_2338.xml"><hi rend="italic">Emma Darwin</hi> (1915)</ref> 2: 137). For an analysis of the effect of Anne’s death on CD, see <ref target="../bibliographies/bibl_1523.xml" resp="#mjhawkins">Colp 1987</ref> and <ref target="../bibliographies/bibl_5567.xml" resp="#mjhawkins">Moore 1989</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

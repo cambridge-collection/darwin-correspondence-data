@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4911">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Samuel Butler   6 October [1865]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7490</idno>
+            
+            
+            
+            
+            <date when="2002">2002</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4911 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4911.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4911.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="13">13</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 143: 191</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl>H. F. Jones (1919) 11: 125</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 13</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">The British Library (Add MS 34486 D ff. 56–7)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_43.xml">The British Library</repository>
+                    <collection>Add MS 34486 D</collection>
+                    <idno>56–7</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1865-10-06">6 Oct [1865]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_774.xml">Butler, Samuel (b)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks SB for letter of 1 October.</p>
+            <p>Returns the printed letter in which SB replied to the Bishop [of Wellington, N. Z.]; it amused him.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="date" ref="#">1865.10.01</term>
+                <term type="people" ref="#">Wellington, Bishop of</term>
+                <term type="places" ref="#">New Zealand</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Oct 6</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I thank you sincerely for your kind &amp; frank letter which has interested me greatly.<ref target="#foot.f2"/></p>
+<p>What a singular &amp; varied career you have already run. Did you keep any journal or notes in N. Zealand for it strikes me that with your rare powers of writing you might make a very interesting work descriptive of a colonist’s life in N. Zealand.<ref target="#foot.f3"/></p>
+<p>I return your printed letter which you might like to keep.<ref target="#foot.f4"/> It has amused me, especially the part in which you criticize yourself.<ref target="#foot.f5"/> To appreciate the latter part fully I ought to have read the Bishop’s letter which seems to have been very rich.<ref target="#foot.f6"/> You tell me not to answer your note but I c<hi rend="superscript">d</hi> not resist the wish to thank you for your letter.</p>
+<p>With every good wish | believe me my dear Sir | yours sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-4904.xml" resp="#mjhawkins">letter from Samuel Butler, 1 October 1865</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-4904.xml" resp="#mjhawkins">letter from Samuel Butler, 1 October 1865</ref>.</note>
+            <note xml:id="foot.f3">In 1863, Butler’s father, <ref target="../nameregs/nameregs_775.xml" resp="#mjhawkins">Thomas Butler</ref>, published <hi rend="italic">A first year in Canterbury settlement</hi> (reprinted in <ref target="../bibliographies/bibl_1143.xml" resp="#mjhawkins">Butler 1923</ref>), a book compiled from Samuel Butler’s journal and letters to his father (see <ref target="../bibliographies/bibl_1143.xml" resp="#mjhawkins">Butler 1923</ref>, p. xxi).</note>
+            <note xml:id="foot.f4">Butler had sent CD a copy of his letter to the <hi rend="italic">Press</hi>, Christchurch, New Zealand (see enclosure to <ref target="./DCP-LETT-4904.xml" resp="#mjhawkins">letter from Samuel Butler, 1 October 1865</ref>).</note>
+            <note xml:id="foot.f5">Butler had written a previous letter to the <hi rend="italic">Press</hi>, which had received a critical reply; Butler then wrote again as though he were a third party, commenting on both letters (see enclosure to <ref target="./DCP-LETT-4904.xml" resp="#mjhawkins">letter from Samuel Butler, 1 October 1865</ref> and n. 7).</note>
+            <note xml:id="foot.f6">CD refers to <ref target="../nameregs/nameregs_5326.xml" resp="#mjhawkins">Charles John Abraham</ref>, the bishop of Wellington, and to the letter signed ‘Barrel-organs’, written as a response to Butler’s original article of 20 December 1862 (see <ref target="./DCP-LETT-4904.xml" resp="#mjhawkins">letter from Samuel Butler, 1 October 1865</ref> and n. 5).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

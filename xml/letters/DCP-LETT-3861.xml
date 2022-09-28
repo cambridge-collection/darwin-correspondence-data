@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3861">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To H. W. Bates   15 December [1862]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1555</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3861 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3861.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3861.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 143: 60</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl>Stecher (1969): 39</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 10: 604</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Cleveland Health Sciences Library (Robert M. Stecher collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_93.xml">Cleveland</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1862-12-15">15 Dec [1862]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_317.xml">Bates, H. W.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks for paper and references on variations [missing].</p>
+            <p>Regrets HWB’s trouble about artists, etc., saying such trouble is a law of nature.</p>
+            <p>Asks whether HWB has heard of starving Indians who are forced to cook in different ways, and eat new things.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="human_group" ref="#">Indians</term>
+                <term type="scientific_terms" ref="#">behaviour</term>
+                <term type="scientific_terms" ref="#">change</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">variation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Dec. 15<hi rend="superscript">th</hi></date>
+                    <salute>Dear Bates</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Many thanks for the paper &amp; references on pairing of vars,—a subject which interests me much.— If I do not hear to contrary I will keep the paper sent, though I do not see in it much on pairing of varieties.<ref target="#foot.f2"/></p>
+<p>I would not on any account give you trouble to copy the passages out of Zoologist;<ref target="#foot.f3"/> when I come to subject I can consult the volume in London.—</p>
+<p>I am sorry for all your trouble &amp; delay about artists &amp;c; but it is a law of nature that they will give trouble &amp; it is of no use fighting against a law of nature.<ref target="#foot.f4"/></p>
+<p>Good luck to you. | Yours very sincerely | C. Darwin</p>
+<p>By any chance did you ever come across Indians, hardly pressed by famine,— who were thus compelled to cook in <hi rend="underline">new</hi> ways &amp; try <hi rend="underline">new</hi> vegetable productions?—<ref target="#foot.f5"/> If by any odd chance, you have, I sh<hi rend="superscript">d</hi> be glad to hear; otherwise do <hi rend="underline">not</hi> write to say that you do not know.—</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.1 pairing of vars] <hi rend="italic">above del</hi> ‘crossing’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship to the <ref target="./DCP-LETT-3827.xml" resp="#mjhawkins">letter to H. W. Bates, 25 November [1862]</ref> (see n. 2, below).</note>
+            <note xml:id="foot.f2">In his <ref target="./DCP-LETT-3827.xml" resp="#automat" cert="medium">letter to Bates of 25 November [1862]</ref>, CD asked for information on the Lepidoptera, including ‘facts about similar varieties pairing’, and an estimate of how many he had caught and how many were in his collection. The paper and references sent by Bates are now missing. In the catalogue of his collection of offprints, CD listed a paper of Bates’s with the title ‘On Non-Crossing of Varieties’, recording that it was in the <hi rend="italic">Transactions of the Entomological Society of London</hi> for 1858 (<ref target="../bibliographies/bibl_8005.xml" resp="#mjhawkins">Vorzimmer 1964</ref>); the offprint corresponding to this description is absent from the Darwin Pamphlet Collection–CUL, but it is likely that it was <ref target="../bibliographies/bibl_442.xml" resp="#mjhawkins">Bates 1857</ref>, which comprised notes on a wide range of South American Lepidoptera.</note>
+            <note xml:id="foot.f3">CD refers to the <hi rend="italic">Zoologist: a popular miscellany of natural history</hi>; the reference may be to some of Bates’s own communications. In addition to several more formal papers, the <hi rend="italic">Zoologist</hi> carried numerous letters from Bates between 1850 (volume 8) and 1857 (volume 15), describing his travels and collecting activities in the Amazonian region.</note>
+            <note xml:id="foot.f4">Bates was in the final stages of preparing for publication an account of his travels as a naturalist in South America (<ref target="../bibliographies/bibl_447.xml" resp="#mjhawkins">Bates 1863</ref>). In his preface (p. vi), Bates acknowledged the assistance of three artists in preparing the illustrations: <ref target="../nameregs/nameregs_4038.xml" resp="#mjhawkins">Edward W. Robinson</ref>, <ref target="../nameregs/nameregs_5212.xml" resp="#mjhawkins">Joseph Wolf</ref>, and <ref target="../nameregs/nameregs_5304.xml" resp="#mjhawkins">Johann Baptist Zwecker</ref>.</note>
+            <note xml:id="foot.f5">See <ref target="./DCP-LETT-3795.xml" resp="#mjhawkins">letter to J. D. Hooker, 4 November [1862]</ref> and n. 12.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5674">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Francis Elliott Kitchener   9 November 1867</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17754</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5674 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5674.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5674.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 169: 39</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>169: 39</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2713.xml">Kitchener, F. E.</persName>
+                <placeName>Rugby School</placeName>
+                <date when="1867-11-09">9 Nov 1867</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends Swiss <hi rend="italic">Aquilegia</hi> flowers in which insects have eaten away the spurs.</p>  
+<p>Suggests fetid smell of <hi rend="italic">Stapelia</hi> attracts carrion flies.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">flies, carrion</term>
+                <term type="animals" ref="#">insects</term>
+                <term type="plants" ref="#">Aquilegia, Swiss</term>
+                <term type="plants" ref="#">Stapelia</term>
+                <term type="scientific_terms" ref="#">behaviour</term>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">flowers and buds</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="scientific_terms" ref="#">meat (and other meal esp for insectivorous plant experiments)</term>
+                <term type="scientific_terms" ref="#">predators</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Rugby School, | Rugby.</placeName>
+                    <date>Nov. 9<hi rend="superscript">th</hi>. 1867.</date>
+                    <salute>Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I hope I may, without impertinence, send you a flower of Aquilegia alpina, from Switzerland from a height of, about 7000, or 8000 ft—</p>
+<p>You will notice that each spur is eaten away as if the insects prefered a short cut to the nectary. I found the same had happened in all the full-blown flowers which I gathered— As I gathered the specimens in clouds, I saw no insects about—so that I am unable to say who were the robbers.</p>
+<p>The probability, I am afraid, is that they were not Lepidoptera, or the case might have affected the subject treated in p. 51 of your “Orchids”:<ref target="#foot.f1"/> I merely send the fact as possibly of use of you. Please do not trouble yourself to answer this in any way.</p>
+<p>Y<hi rend="superscript">r</hi> obedient Servant | F. E. Kitchener.</p>
+<p>Has any one yet investigated the fertilization of the Stapelia, to see, whether the putrid smell may be regarded as a mimetic resemblance to carrion, which benefits the plant by attracting flies, under false pretences of its being a suitable place to lay their eggs?<ref target="#foot.f2"/></p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">In <ref target="../bibliographies/bibl_6010.xml" resp="#mjhawkins"><hi rend="italic">Orchids</hi></ref>, pp. 49–52, CD conjectured that moths (Lepidoptera) sucked fluid from between the inner and outer membranes of the nectaries of <hi rend="italic">Orchis pyramidalis</hi> (now <hi rend="italic">Anacamptis pyramidalis</hi>), though he admitted that no case was recorded of moths penetrating a membrane with their probosces.</note>
+            <note xml:id="foot.f2">The pollination of <hi rend="italic">Stapelia</hi> by flies attracted by the odour of the flowers was considered by <ref target="../nameregs/nameregs_2854.xml" resp="#mjhawkins">Henri Lecoq</ref> (Lecoq 1862, pp. 270–1). There is an annotated copy of Lecoq 1862 in the Darwin Library–CUL.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

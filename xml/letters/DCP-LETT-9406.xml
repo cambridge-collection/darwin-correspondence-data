@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9406">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Williams &amp; Norgate   13 April [1874]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">440</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9406 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9406.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9406.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="endorsement" subtype="letter">1874 | Ch. Darwin Esq | Down | April 16</note>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.440)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>440</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1874-04-13">13 Apr [1874]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_5147.xml">Williams &amp; Norgate</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Asks correspondent to obtain odd numbers of <hi rend="italic">Flora</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Flora</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>Ap. 13<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I enclose a cheque.—<ref target="#foot.f1"/></p>
+<p>I am aware that I often give you an unreasonable amount of trouble, but if it is possible to get odd numbers of the “Flora” (German), I very much want no<hi rend="superscript">rs</hi>. 28 &amp; 29 of the year 1873.<ref target="#foot.f2"/> Or if necessary half a volume for the year.— Pray help me as far as you can</p>
+<p>Yours sincerely | Ch. Darwin</p>
+<p>If the book is not very expensive I w<hi rend="superscript">d</hi> have if necessary the whole vol. for the year 1873.</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD’s Classed account books (Down House MS) record a payment of £3 7<hi rend="italic">s.</hi> on 10 April 1874 to <ref target="../nameregs/nameregs_5147.xml" resp="#mjhawkins">Williams &amp; Norgate</ref>, a London bookseller specialising in science and foreign language publications.</note>
+            <note xml:id="foot.f2">Issues 28 and 29 of the German journal <hi rend="italic">Flora</hi> (1873) contained a two-part article by the Russian botanist Alexander Feodorowicz Batalin on nyctitropism in leaves (<ref target="../bibliographies/bibl_426.xml" resp="#mjhawkins">Batalin 1873</ref>). CD’s annotated copy with a separate sheet of notes is in the Darwin Pamphlet Collection–CUL. The article is cited in <ref target="../bibliographies/bibl_5637.xml" resp="#mjhawkins"><hi rend="italic">Movement in plants</hi></ref>, pp. 283, 321–2, 387.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

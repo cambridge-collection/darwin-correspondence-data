@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1145">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Susan Elizabeth Darwin   [1848?]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19610</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1145 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1145.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1145.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p inc †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 205.10: 96</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>205.10: 96</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1239.xml">Darwin, S. E.</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1848-01-01" notAfter="1848-12-31">[1848?]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>[Valediction only.] CD note on verso: Athenaeum/48/p. 839 "E. Forbes on genera being continuous in time––good––fact".</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Athenaum</term>
+                <term type="people" ref="#subject_1680">Forbes, Edward</term>
+                <term type="scientific_terms" ref="#">geological time, epochs</term>
+                <term type="scientific_terms" ref="#">higher groupings (‘family’, ‘class’, ‘order’ etc)</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00010-000-00210_files/8/0_0.jpg" width="3272px" height="2841px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00010-000-00210_files/11/1_1.jpg" width="3272px" height="2841px"/>
+        <surface xml:id="i1" n="96r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00010-000-00210.jpg" rend="landscape" width="3272px" height="2841px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00010-000-00210_files/8/0_0.jpg" width="3272px" height="2841px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00205-00010-000-00210.dzi" width="3272px" height="2841px"/>
+        </surface>
+</facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+<p rend="left">her a little 〈    〉 —</p>
+<p>Goodbye my dear Charley I hope we shall hear again soon our best love to dear Emma &amp; Eliz<hi rend="superscript">th</hi>.</p>
+<p>ever y<hi rend="superscript">r</hi> affecte. | S E D.<ref target="#foot.f2"/></p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated on the basis of CD’s notes on the verso (see n. 2, below).</note>
+            <note xml:id="foot.f2">CD used the back of this fragment to make the following note: ‘Athenæum /48/ p. 839. Brit. Assoc E. Forbes on genera being continuous in time—<hi rend="doubleUnderline">good</hi>—fact.’ He then pinned this to another note: ‘Athenæum. /48/ p. 247. Lecture by Forbes at Royal Institution on genera being continuous in space &amp; time, ie normally so.— Good for me—&amp; true.— Look at this again—’. The references are to <hi rend="italic">Athenæum</hi>, no. 1086, 19 August 1848, p. 839; and no. 1062, 4 March 1848, p. 247.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

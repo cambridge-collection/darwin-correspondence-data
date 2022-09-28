@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1715">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From H. C. Watson   11 July [1855]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6169</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1715 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1715.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1715.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+            <notesStmt>
+            <note type="physdesc" n="ALS">2pp †, list 2pp †, CD list 10pp †† (by HCW)</note>
+                <relatedItem type="publication">
+                    <bibl><hi rend="italic">Correspondence</hi> 5: 374</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 181: 27</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>181: 27,</idno>
+                </msIdentifier>
+            </msDesc>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>205.4: 102,</idno>
+                </msIdentifier>
+            </msDesc>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>73: 68–71a</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4975.xml">Watson, H. C.</persName>
+                <placeName>Thames Ditton</placeName>
+                <date when="1855-07-11">11 July [1855]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Returns CD’s list of Azores plants with information on the distribution of the species added. Encloses a list, extracted from CD’s list, of those plants common to Europe and the Azores that were probably not introduced by man.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="places" ref="#">Azores</term>
+                <term type="places" ref="#">Europe</term>
+                <term type="scientific_terms" ref="#">common forms</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">human intervention</term>
+                <term type="scientific_terms" ref="#">introduced forms</term>
+                <term type="scientific_terms" ref="#">isolation, islands</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Thames Ditton</placeName>
+                    <date>11 July</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>Your list of Azore plants is re-enclosed.<ref target="#foot.f1"/> You will see by the Explanations on page 9 how far I have departed from your express direction.<anchor xml:id="ann.a2" type="annotationEnd"/> <ref target="#foot.f2"/></p>
+<p>Probably all the species which are indicated in Britain or Europe do occur in the Spanish peninsula; altho’ the want of full lists for it may leave several uncertain at present. I should guess that far the greater number of these had been carried to the Azore Isles by human agency. They are either annual weeds of the gardens &amp; cultivated fields,—roadside plants,—or those used for some economic purpose. It seemed easier to write a list of the European species <hi rend="underline">least</hi> likely to have been so introduced.<ref target="#foot.f3"/></p>
+<p>Besides the Spanish peninsula or other part of Europe, the proximity of Madeira may render transit thence to Azore sufficiently probable.—</p>
+<p>Sincerely <anchor xml:id="ann.a1" type="annotationStart"/>Yours | Hewett C<hi rend="superscript">l</hi>. Watson <lb resp="#mjhawkins"/> To | C. Darwin | Esq</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note target="#ann.a1" targetEnd="#ann.a2"><hi rend="italic">crossed pencil</hi></note>
+                <note> 2.7 introduced.] ‘(This list is with papers for salting.—’<ref target="#foot.f4"/> <hi rend="italic">added pencil</hi> </note>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The list referred to is in DAR 73: 68–71a. It was begun by CD and completed by an amanuensis and comprises a list of Azores plants, omitting all aliens and species known to be introduced by man, drawn from <ref target="../bibliographies/bibl_8200.xml" resp="#mjhawkins">H. C. Watson 1843</ref>–4 and 1847. To this list Watson added brief remarks on the geographical distribution outside the Azores and underlined and added symbols of his own devising that are explained in the letter (see n. 2, below).</note>
+            <note xml:id="foot.f2">On p. 9 of CD’s list (DAR 73: 71a), there is a paragraph in Watson’s hand explaining how he has marked the list. It reads: <quote> Explanations | List of Azore plants | <hi rend="italic">Red line</hi> underneath the name indicates a species peculiar to the Isles, so far as known to H. C. Watson | Dots instead of lines indicate a species that is more or less probably=with a species found elsewhere, | ‘Madeira’, on faith of a mss list by Dr. C. Lemann | ‘Algiers’ on faith of Munby’s Flore d’Algerie | ‘Europe’ or ‘Britain’ on recollection by H.C.W. The former substituted if plants not reaching Britain.</quote> Watson’s note refers to <ref target="../nameregs/nameregs_2884.xml" resp="#mjhawkins">Charles Morgan Lemann</ref> and <ref target="../bibliographies/bibl_5714.xml" resp="#mjhawkins">Munby 1847</ref>.</note>
+            <note xml:id="foot.f3">This second list, in Watson’s hand, is headed ‘European Species in the List of Azore Plants, which may be deemed least likely to have been introduced with seed for fields or gardens, or more designedly.’ The list was enclosed with the letter and is preserved in DAR 205.4 (Letters). It contains 78 species.</note>
+            <note xml:id="foot.f4">The list is no longer with the notes on salting but is in DAR 205.4 (Letters).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

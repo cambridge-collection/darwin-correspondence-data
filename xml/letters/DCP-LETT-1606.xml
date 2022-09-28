@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1606">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To A. C. Ramsay   22 November [1854]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3077</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1606 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1606.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1606.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Imperial College of Science, Technology, and Medicine Archives</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_192.xml">Imperial College</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1854-11-22">22 Nov [1854]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3922.xml">Ramsay, A. C.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Grief at the death of Edward Forbes.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Other people</term>
+                <term type="people" ref="#subject_1680">Forbes, Edward</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough | Kent</placeName>
+                    <date>Nov. 22<hi rend="superscript">d</hi></date>
+                    <salute>Dear Ramsay</salute>
+                </opener>
+                <div type="transcription">
+<p>I am extremely much obliged to you for writing, but I had heard the news from Lyell, in a letter full of grief, the day before.<ref target="#foot.f1"/> It is really under every point of view dreadful. What a loss to his singularly numerous friends &amp; to Natural Science! The gaps left by the dead are generally soon, too soon, filled up; but this assuredly will not be the case with poor Forbes. His loss will be felt for long years. What attainments he united; &amp; what a career cut short; I had forgotten till today how young he was.<ref target="#foot.f2"/> As for his poor wife I pity her from my soul; I have lost a child, &amp; I can, therefore, in some degree realise what death in its worst form is.</p>
+<p>Once again I thank you much for writing.— I heard, also, from Hooker in a letter full of deep grief.<ref target="#foot.f3"/></p>
+<p>Yours very truly | C. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_1680.xml" resp="#mjhawkins">Edward Forbes</ref> had died on 18 November. <ref target="../nameregs/nameregs_3051.xml" resp="#mjhawkins">Charles Lyell’s</ref> letter has not been found.</note>
+            <note xml:id="foot.f2">Forbes was 39 years old. He had been appointed professor of natural history at Edinburgh in May 1854 (see <ref target="./DCP-LETT-1529.xml" resp="#mjhawkins">letter to J. D. Hooker, [9 October 1853]</ref>, n. 9).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_2357.xml" resp="#mjhawkins">Joseph Dalton Hooker’s</ref> letter has not been found.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

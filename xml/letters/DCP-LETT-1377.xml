@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1377">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Higgins   21 December [1850]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1969</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1377 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1377.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1377.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Lincolnshire Archives (HIG/4/2/1/41)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_237.xml">Lincolnshire RO</repository>
+                    <collection>Correspondence with John Higgins</collection>
+                    <idno>HIG/4/2/1/41</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1850-12-21">21 Dec [1850]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2279.xml">Higgins, John</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks his opinion concerning possible investment. Asks about possible land sale to Mr Mason.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="people" ref="#subject_3204">Mason, H. P.</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Dec. 21<hi rend="superscript">st</hi>—</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>In all probability I shall have very nearly 5000£ to invest soon<ref target="#foot.f1"/> &amp; as I do not see any particularly good investment, it has occurred to me to consult you how Land is now selling.— Is there any likelihood of you meeting in the course of the next <hi rend="underline">few</hi> months a small piece of land of above value which would pay a moderate rate of interest. I certainly would not invest any more money at the same rate of purchase at which Beesby was purchased owing to the depreciation of Agricultural produce. I sh<hi rend="superscript">d</hi>. be much obliged if you would let me have your opinion. I feel sure for my Father’s sake you will advise me to the best in your power. With my <hi rend="underline">large</hi> &amp; growing family it behoves me to do my best in making safe &amp; wise investments.</p>
+<p>Pray believe me. My dear Sir | Yours sincerely | C. Darwin</p>
+<p>You will understand that I have not positively made up my mind to invest the <hi rend="superscript">£</hi>5000 in Land, but sh<hi rend="superscript">d</hi>. like to do so could I meet with anything paying a moderately fair return.</p>
+<p>PS<hi rend="superscript">nd</hi>. It is very dull of me, but I cannot remember what was the end of M<hi rend="superscript">r</hi> Mason,<ref target="#foot.f2"/> the Clergyman’s, wish to buy a little bit of land off me.—</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.6 depreciation] <hi rend="superscript">2</hi>‘e’ <hi rend="italic">over</hi> ‘i’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Presumably this was the sum CD expected to receive from Emma’s trust by the transfer of Leeds and Bradford Railway shares. See <ref target="./DCP-LETT-1372.xml" resp="#mjhawkins">letter to Salt &amp; Son, 26 November [1850]</ref>, n. 2.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_3204.xml" resp="#mjhawkins">Henry Payne Mason</ref>, rector of Beesby.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

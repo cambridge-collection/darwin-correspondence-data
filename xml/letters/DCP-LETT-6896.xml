@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6896">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. D. Hooker   18 [September 1869]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">4650</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6896 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6896.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6896.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp †, † (by D. Oliver)</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 150: 432</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 94: 153–4</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>94: 153–4</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1869-09-18">18 [Sept 1869]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2357.xml">Hooker, J. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks JDH to consult colleagues learned in physiology for answer to query: when a large piece of bark is removed from a tree, does the bark ever regrow in isolated points [separate] from the growing margin of the surrounding bark? Query bears on Pangenesis and on power of repair in plants.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">trees</term>
+                <term type="people" ref="#">colleagues learned in physiology</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">pangenesis</term>
+                <term type="scientific_terms" ref="#">pathology, disease</term>
+                <term type="scientific_terms" ref="#">plant physiology</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down.</hi> | Beckenham | <hi rend="print">Kent. S.E.</hi></placeName>
+                    <date>18<hi rend="superscript">th</hi></date>
+                    <salute>My dear Hooker</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>We shall all be right glad to see you this day week; let us know Trains to Orpington &amp; in all probability we can send to meet you.—</p>
+<p>I much want a query answered.— Consult any of your colleagues learned in physiology.— When a large piece of bark is removed from a tree, does the bark ever regrow in isolated points, <hi rend="underline">separate</hi> from the growing margins of the surrounding bark. I fancy I have heard that this is sometimes the case.— It bears on Pangenesis &amp; on little powers of repair by plants.<ref target="#foot.f2"/></p>
+<p>If you can answer in affirmative pray send me a line,—if I do <hi rend="underline">not</hi> hear, I shall understand your answer is a negative—.</p>
+<p>Yours affect, | C. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 Beckenham] <hi rend="italic">before del</hi> ‘<hi rend="italic">Bromley.</hi>’ </note>
+                <note xml:id="tnote.n2">2.3 the surrounding] ‘the’ <hi rend="italic">interl</hi> </note>
+                <note xml:id="tnote.n3">2.4 this] <hi rend="italic">interl</hi> </note>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The month and year are established by the relationship between this letter and the <ref target="./DCP-LETT-6908.xml" resp="#mjhawkins">letter from J. D. Hooker, 24 September 1869</ref>.</note>
+            <note xml:id="foot.f2">CD discussed the regrowth of bark in his letter to <hi rend="italic">Scientific Opinion</hi>, [before 20 October 1869], drawing an analogy with the regrowth of amputated limbs in some animals. CD added a section on the regrowth of amputated parts to his discussion of pangenesis in the second edition of <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> (<ref target="../bibliographies/bibl_7952.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi> 2d ed.</ref>, 2: 357–9), but did not discuss plants.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

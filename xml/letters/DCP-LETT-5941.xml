@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5941">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Alfred Newton   27 February [1868]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8401</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5941 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5941.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5941.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">3pp</note>
+            <relatedItem type="publication">
+                <bibl>De Beer (1959): 45</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Cambridge University Library (MS Add. 9839/1D/57)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>MS Add. 9839/</collection>
+                    <idno>1D/57</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1868-02-27">27 Feb [1868]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3517.xml">Newton, Alfred</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks for corrections of errors [in <hi rend="italic">Variation</hi>].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Variation</term>
+                <term type="scientific_terms" ref="#">variation</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Feb 27</date>
+                    <salute>My dear Professor Newton,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very much obliged to you for your corrections of my errors which are serious enough.<ref target="#foot.f2"/> That about the Chinese goose was a scandalous piece of idleness on my part, for I had a notion that it was described in the Amur expedition; but I was at that time so sick of my book that I had not the heart to enquire.<ref target="#foot.f3"/> These valuable corrections, I am sorry to say, are too late for the 2<hi rend="superscript">nd</hi> Ed. which is now printed off.<ref target="#foot.f4"/></p>
+<p>I return the printed paper with thanks; I once bred a pigeon like that described, but the case of the buzzard, if not a hybrid, w<hi rend="superscript">d</hi> be very interesting.</p>
+<p>With many thanks for your kindness believe me | yours very sincerely | Ch Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to the second printing of <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> (see n. 4, below).</note>
+            <note xml:id="foot.f2">Newton’s letter to CD has not been found.</note>
+            <note xml:id="foot.f3">In <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 237, CD mentioned the Chinese goose (or swan goose), <hi rend="italic">Anser cygnoides</hi>, as the only domesticated bird whose wild parent form was said to be still unknown, or extinct. In the second edition of <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> this passage was removed. A scientific expedition to the Amur, a river of eastern Asia forming part of the border between Russia and China, was undertaken from 1854 to 1856; the birds of the region, including <hi rend="italic">A. cygnoides</hi>, are described in <ref target="../bibliographies/bibl_6981.xml" resp="#mjhawkins">Schrenk 1858</ref>, 1: 561 and pl. XV.</note>
+            <note xml:id="foot.f4">A second printing of <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> was ordered after all copies of the first edition had been sold (see <ref target="./DCP-LETT-5844.xml" resp="#mjhawkins">letter from John Murray, 6 February [1868]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

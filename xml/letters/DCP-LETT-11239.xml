@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11239">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Henry Jackson to Francis Darwin   18 November 1877</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9316</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11239 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11239.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11239.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp † (by CD)</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 209.11: 260</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>209.11: 260</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_5982.xml">Jackson, Henry</persName>
+                <placeName>Cambridge</placeName>
+                <date when="1877-11-18">18 Nov 1877</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1222.xml">Darwin, Francis</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Nomenclature for kinds of heliotropism.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">definitions (will revert to tyd)</term>
+                <term type="scientific_terms" ref="#">movements and habits of plants</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Croft Cottage. Barton Road.</placeName>
+                    <date>Nov. 18. 1877.</date>
+                    <salute>Dear Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>On second thoughts <hi rend="underline">an</hi>-heliotropic will not do at all. It would mean <hi rend="underline">non</hi>-heliotropic. I should have thought that the best nomenclature would be</p>
+
+    <table>
+        <row>
+            <cell rend="left" rows="2">prosheliotropic</cell>
+            <cell rend="centre" rows="2">=</cell>
+            <cell rend="left">solipetal</cell>
+        </row>
+        <row>
+            <cell rend="left">(to coin another word)</cell>
+        </row>
+        <row>
+            <cell rend="left" rows="2">anheliotropic</cell>
+            <cell rend="centre" rows="2">=</cell>
+            <cell rend="left">neither solipetal</cell>
+        </row>
+        <row>
+           <cell rend="left">nor solifugal</cell>
+        </row>
+        <row>
+            <cell rend="left">aphheliotropic</cell>
+            <cell rend="centre">=</cell>
+            <cell rend="left">solifugal</cell>
+        </row>
+    </table>
+
+<p>But I think that it would be quite possible to speak of heliotropic and aphheliotropic. I presume that the latter word would in general lose its second <hi rend="underline">h</hi>, and be written apheliotropic.<ref target="#foot.f1"/> I do not know whether from a philological point of view these words are correctly formed.</p>
+<p>I should have thought that negative heliotropic was an unhappy phrase.</p>
+<p>Yours ever, | Henry Jackson. <lb resp="#mjhawkins"/></p>
+<p rend="left">F. Darwin Esq.</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note><hi rend="italic">End of letter</hi>: ‘heliotropic Apheliotropic | geotropic apogeotropic’<ref target="#foot.f2"/>  <hi rend="italic">pencil</hi></note>
+            </div>
+            
+        </div>
+    
+        
+    
+        
+    
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD and <ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin</ref> had evidently consulted Jackson, a classical scholar at <ref target="../nameregs/nameregs_795.xml" resp="#mjhawkins">Cambridge University</ref>, about terminology for plants’ bending or turning under the influence of light. For CD’s usage of various terms, see <ref target="../bibliographies/bibl_5637.xml" resp="#mjhawkins"><hi rend="italic">Movement in plants</hi></ref>, p. 5. Solipetal and solifugal are coinages of Jackson’s own (sun-seeking and sun-avoiding), as are prosheliotropic and anheliotropic.</note>
+            <note xml:id="foot.f2">CD and Francis used the terms ‘geotropic’ and ‘apogeotropic’ in <ref target="../bibliographies/bibl_5637.xml" resp="#mjhawkins"><hi rend="italic">Movement in plants</hi></ref>. They are terms for the directional growth of a plant in response to gravity.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

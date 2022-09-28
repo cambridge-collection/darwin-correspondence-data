@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6806F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Edward Lacy Garbett to the <hi rend="italic">Athenæum</hi>   29 June 1869</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20988</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6806F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6806F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6806F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        
+        <sourceDesc>
+            <bibl type="provenance"> <hi rend="italic">Athenæum</hi>, 3 July 1869, pp. 18–19 </bibl>
+            <bibl type="printedSource">Athenæum 1869.07.03: 18–19</bibl>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1805.xml">Garbett, E. L.</persName>
+                <placeName>London, Mornington Road</placeName>
+                <date when="1869-06-29">29 June 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_173.xml">Athenæum</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Calculations relating to the problem of the increase of elephants (see <hi rend="doubleUnderline">6787</hi>).</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">elephants</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">generations</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+                <term type="scientific_terms" ref="#">years</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Mornington Road,</placeName>
+                    <date>June 29, 1869.</date>
+                </opener>
+                <div type="transcription">
+                     
+<p>Without pretending to an exact solution of Mr. Darwin’s elephant problem, I would submit that his first calculation must have been the truest, if, indeed, it made the rate of increase sufficiently high; for the period of doubling seems to me some where about 23 years, whereas his present estimate in the <hi rend="underline">Athenæum</hi>, letting 18,803,080 become no more than 34,584,256 in 30 years, requires as much as 34 years for doubling.<ref target="#foot.f1"/></p>
+<p>Remembering that if the births of the first generation extend through 60 years, those of the second will be spread over twice that period, those of the third over thrice, and so on, we shall find the births in the first three centuries as follows:—</p> 
+<table>
+        <row>
+            <cell rend="centre">Total of</cell>
+            <cell rend="centre">Dates between</cell>
+            <cell rend="centre">No. born</cell>
+            <cell rend="centre">No. born</cell>
+            <cell rend="centre">No. born</cell>
+        </row>
+        <row>
+            <cell rend="centre">each</cell>
+            <cell rend="centre">which they</cell>
+            <cell rend="centre">in 1st</cell>
+            <cell rend="centre">in 2nd</cell>
+            <cell rend="centre">in 3rd</cell>
+        </row>
+        <row>
+            <cell rend="centre">generation.</cell>
+            <cell rend="centre">are born.</cell>
+            <cell rend="centre">century.</cell>
+            <cell rend="centre">century.</cell>
+            <cell rend="centre">century.</cell>
+        </row>
+        <row>
+            <cell rend="right">6</cell>
+            <cell rend="right">30 – 90</cell>
+            <cell rend="right">6</cell>
+            <cell rend="right">—</cell>
+            <cell rend="right">—</cell>
+        </row>
+        <row>
+            <cell rend="right">18</cell>
+            <cell rend="right">60 - 180</cell>
+            <cell rend="right">6</cell>
+            <cell rend="right">12</cell>
+            <cell rend="right">—</cell>
+        </row>
+        <row>
+            <cell rend="right">54</cell>
+            <cell rend="right">90 - 270</cell>
+            <cell rend="right">3</cell>
+            <cell rend="right">30</cell>
+            <cell rend="right">21</cell>
+        </row>
+        <row>
+            <cell rend="right">162</cell>
+            <cell rend="right">120 - 360</cell>
+            <cell rend="right">—</cell>
+            <cell rend="right">54</cell>
+            <cell rend="right">67</cell>
+        </row>
+        <row>
+            <cell rend="right">486</cell>
+            <cell rend="right">150 – 450</cell>
+            <cell rend="right">—</cell>
+            <cell rend="right">81</cell>
+            <cell rend="right">162</cell>
+        </row>
+        <row>
+            <cell rend="right">1,458</cell>
+            <cell rend="right">180 – 540</cell>
+            <cell rend="right">—</cell>
+            <cell rend="right">81</cell>
+            <cell rend="right">405</cell>
+        </row>
+        <row>
+            <cell rend="right">4,374</cell>
+            <cell rend="right">210 – 630</cell>
+            <cell rend="right">—</cell>
+            <cell rend="right">—</cell>
+            <cell rend="right">937</cell>
+        </row>
+        <row>
+            <cell rend="right">13,122</cell>
+            <cell rend="right">240 – 720</cell>
+            <cell rend="right">—</cell>
+            <cell rend="right">—</cell>
+            <cell rend="right">1,640</cell>
+        </row>
+        <row>
+            <cell rend="right">39,366</cell>
+            <cell rend="right">270 – 810</cell>
+            <cell rend="right">—</cell>
+            <cell rend="right">—</cell>
+            <cell rend="right">2,187</cell>
+        </row>
+        <row>
+            <cell rend="left" cols="2">No. surviving each century</cell>
+            <cell rend="right">15</cell>
+            <cell rend="right">258</cell>
+            <cell rend="right">5,419</cell>
+        </row>
+    </table>
+ 
+<p>Now, as the first parents are not here counted, not surviving the first century, nor even their youngest calf living through the second, in the third at least the regular birth and death rates must be established. The number alive after two centuries, we see, is but 17 times that at the end of the first; while the number alive after three centuries is 21 times those surviving the second. But a 21-fold increase per century is doubling in every 22.7 years; for as Log. 31 is to 100, so is Log. 2 to 22.7. This rate will give in 5 centuries about 2,400,000 elephants, and in one more century 50,000,000. Even the second century’s 17-fold increase would approach Mr. Darwin’s first results. His present correction, therefore, allowing not even an 8-fold centurial increase, must, I think, involve some great error.</p>
+<p>E<hi rend="smallCaps">dward</hi> L. G<hi rend="smallCaps">arbett</hi></p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See letter from Ponderer to the <hi rend="italic">Athenæum</hi>, [before 5 June 1869] and n. 2, and letter to the <hi rend="italic">Athenæum</hi>, 19 June 1869.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

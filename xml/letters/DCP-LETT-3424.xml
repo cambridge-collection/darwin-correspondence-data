@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3424">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To H. W. Bates   31 January [1862]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1521</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3424 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3424.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3424.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl>Stecher (1969): 25</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 10: 60</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Cleveland Health Sciences Library (Robert M. Stecher collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_93.xml">Cleveland</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1862-01-31">31 Jan [1862]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_317.xml">Bates, H. W.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Encloses note from Murray, hoping it will be satisfactory. Murray is ready to see as much of MS as possible. Murray is considered honest but may be cautious, since HWB’s name is unknown to the public.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_3463">Murray, John (b)</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Jan. 31.</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I hope the enclosed note will be satisfactory to you, as far as it goes.<ref target="#foot.f2"/> You see that he wishes to see as much M.S. as you can let him have.— When it comes to negotiation, remember my advice about disposing only of 1<hi rend="superscript">st</hi>. Edit.<ref target="#foot.f3"/> He will probably offer to take risk &amp; give you a certain share of profit of sales. I believe it is universally thought that M<hi rend="superscript">r</hi> Murray can be quite trusted. You must remember that as yet your name is not known to the general public, which necessarily always makes a Publisher cautious.—</p>
+<p>I heartily wish you all the success, which I am sure you deserve. If I can do anything whatever for you, it will give me real pleasure.—</p>
+<p>In Haste | Yours very sincerely | C. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship to the <ref target="./DCP-LETT-3420.xml" resp="#mjhawkins">letter from John Murray, 30 January [1862]</ref> and to the <ref target="./DCP-LETT-3412.xml" resp="#mjhawkins">letter from H. W. Bates, 25 January 1862</ref>.</note>
+            <note xml:id="foot.f2">CD evidently enclosed the <ref target="./DCP-LETT-3420.xml" resp="#mjhawkins">letter from John Murray, 30 January [1862]</ref> (see <ref target="./DCP-LETT-3415.xml" resp="#mjhawkins">letter to John Murray, 28 January [1862]</ref>).</note>
+            <note xml:id="foot.f3">See <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 9, <ref target="./DCP-LETT-3266.xml" resp="#mjhawkins">letter to H. W. Bates, 25 September [1861]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

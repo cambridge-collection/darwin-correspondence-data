@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6338">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Ellen Frances Lubbock   [before 31 August 1868]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6853</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6338 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6338.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6338.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 170: 12</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>170: 12</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3021.xml">Lubbock, E. F.</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1809-01-01" notAfter="1868-08-30">[before 31 Aug 1868]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sven Nilsson may visit John Lubbock.</p>
+            <p>Norwich [BAAS] meeting was most successful.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_3532">Nilsson, Sven</term>
+                <term type="places" ref="#">Norwich</term>
+                <term type="social" ref="#">meeting</term>
+                <term type="social" ref="#">Other people</term>
+                <term type="societal" ref="#">BAAS</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>Dear M<hi rend="superscript">r</hi>. Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>John invited several of the foreign gentlemen here, but they can none of them come, I am sorry to say—except Prof Nilsson, who has left it doubtful.<ref target="#foot.f2"/> If any of them <hi rend="underline">should</hi> be able to come after all, John will bring them to see you.</p>
+<p>We had a most successful meeting at Norwich, &amp; the “Prehistoric” was the most crowded section of all.<ref target="#foot.f3"/></p>
+<p>Believe me, dear M<hi rend="superscript">r</hi>. Darwin, always yours most sincerely | Ellen F Lubbock</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established from the fact that the letter must have been written between the end of the meetings in Norwich (see n. 3, below), and the Lubbocks’ visit to the Darwins on 31 August 1868 (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242)).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_3026.xml" resp="#mjhawkins">John Lubbock</ref> probably invited to his home, High Elms, some of the people attending the Norwich meetings of the British Association for the Advancement of Science and the International Congress for Prehistoric Archaeology. <ref target="../nameregs/nameregs_2357.xml" resp="#mjhawkins">Joseph Dalton Hooker</ref> had passed on a query of CD’s to <ref target="../nameregs/nameregs_3532.xml" resp="#mjhawkins">Sven Nilsson</ref> in Norwich (see <ref target="./DCP-LETT-6333.xml" resp="#mjhawkins">letter from J. D. Hooker, 30 August 1868</ref>).</note>
+            <note xml:id="foot.f3">The British Association met at Norwich from 19 to 26 August 1868; at the same time, the International Congress for Prehistoric Archaelogy was meeting in Norwich under the presidency of <ref target="../nameregs/nameregs_3026.xml" resp="#mjhawkins">John Lubbock</ref> (<ref target="../bibliographies/bibl_3799.xml" resp="#mjhawkins">J. D. Hooker 1868</ref>, p. lix).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7585">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Patrick Matthew   15 March [1871]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1951</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7585 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7585.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7585.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 146: 350</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl>De Beer (1959): 42</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">National Library of Scotland (Acc. 10963)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_292.xml">NL Scotland</repository>
+                    <collection>Acc. 10963</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1871-03-15">15 Mar [1871]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3225.xml">Matthew, Patrick</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>PM’s letter and newspaper article [see <hi rend="doubleUnderline">7576</hi>] show him to be still vigorous. CD doubts that he himself will be good for much more.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin himself, bad or deteriorating</term>
+                <term type="health" ref="#">Other people</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down.</hi> | Beckenham | <hi rend="print">Kent. S.E.</hi></placeName>
+                    <date>March 15<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I thank you for your kind letter. You show no signs of your four score years in your letter or in the newspaper article, which seems written with all your pristine vigour.—<ref target="#foot.f2"/> My health keeps very indifferent &amp; every exertion fatigues me, so that I doubt whether I shall be good for much more. Your parable of the Damascus woman is quite new to me &amp; very striking.<ref target="#foot.f3"/></p>
+<p>I sincerely wish you a happy meeting with your son.—<ref target="#foot.f4"/> I have many letters to write, so pray excuse my brevity, &amp; believe me | with respect | yours faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 Beckenham] <hi rend="italic">before del</hi> ‘<hi rend="italic">Bromley.</hi>’ </note>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-7576.xml" resp="#mjhawkins">letter from Patrick Matthew, 12 March 1871</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-7576.xml" resp="#mjhawkins">letter from Patrick Matthew, 12 March 1871</ref> and n. 3.</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-7576.xml" resp="#mjhawkins">letter from Patrick Matthew, 12 March 1871</ref> and n. 7.</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_3222.xml" resp="#mjhawkins">Alexander Matthew</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

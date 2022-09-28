@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4164">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Edward Cresy   13 May [1863]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13226</idno>
+            
+            
+            
+            
+            <date when="1999">1999</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4164 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4164.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4164.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="11">11</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Copy</note>
+            <note type="physdesc" n="C">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 143: 323</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>143: 323</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1863-05-13">13 May [1863]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1113.xml">Cresy, Edward, Jr</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks for maps.</p>
+            <p>George [Darwin] failed at St John’s [College, Cambridge] and will stay another year at school.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1224">Darwin, G. H.</term>
+                <term type="scientific_terms" ref="#">geography</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="social" ref="#">school</term>
+                <term type="social" ref="#">St John’s College, Cambridge</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down, Bromley, Kent</placeName>
+                    <date>May 13<hi rend="superscript">th</hi>.</date>
+                    <salute>Dear Cresy</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have been visiting for a fortnight for health sake and your pleasant note was forwarded to me;<ref target="#foot.f2"/> but I delayed writing till my return home this afternoon when I found the maps.<ref target="#foot.f3"/> We have all been studying them with much interest; and it was uncommonly kind in you to think of sending them.</p>
+<p>My son George failed at St. John’s; but the tutor gave a very good report of his examination.<ref target="#foot.f4"/> He was unfortunate in not having questions in some of the higher branches of mathematics in which he is best up, as in the Differential Calculus.— But we have now resolved that he shall stay another year at school, as he is yet under 18.<ref target="#foot.f5"/></p>
+<p>Our trip has not done my youngest boy or myself much good in health, I am sorry to say.—<ref target="#foot.f6"/> In haste.</p>
+<p>Yours very sincerely | C. Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-4130.xml" resp="#mjhawkins">letter from Edward Cresy, 27 April 1863</ref>.</note>
+            <note xml:id="foot.f2"><ref target="./DCP-LETT-4130.xml" resp="#mjhawkins">Letter from Edward Cresy, 27 April 1863</ref>. The Darwin family had been visiting relatives from 27 April to 13 May 1863 (see ‘Journal’ (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 11, Appendix II)).</note>
+            <note xml:id="foot.f3">Cresy had sent CD maps of new railway lines in London and Kent (see <ref target="./DCP-LETT-4130.xml" resp="#mjhawkins">letter from Edward Cresy, 27 April 1863</ref>). For a discussion of the development of the railway network in these regions see <ref target="../bibliographies/bibl_8345.xml" resp="#mjhawkins">H. P. White 1982</ref> and 1987.</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_1224.xml" resp="#mjhawkins">George Howard Darwin</ref> had entered a scholarship examination at St John’s College, Cambridge (<ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref>). See <ref target="./DCP-LETT-4130.xml" resp="#mjhawkins">letter from Edward Cresy, 27 April 1863</ref> and n. 7.</note>
+            <note xml:id="foot.f5">George was a pupil at Clapham Grammar School, Surrey (<ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref>).</note>
+            <note xml:id="foot.f6"><ref target="../nameregs/nameregs_1226.xml" resp="#mjhawkins">Horace Darwin</ref> accompanied his parents to Hartfield Grove, Hartfield, Sussex, and Leith Hill Place, near Dorking, Surrey, between 27 April and 13 May 1863; the ill health of Horace and CD had prompted the trip (see <ref target="./DCP-LETT-4122.xml" resp="#mjhawkins">letter to J. D. Hooker, 23 April [1863]</ref>, and <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242)).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

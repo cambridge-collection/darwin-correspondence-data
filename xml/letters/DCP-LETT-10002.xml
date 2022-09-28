@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10002">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Asa Gray   30 May [1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3633</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10002 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10002.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10002.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 153: 254</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl>HRS, no. 112</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Archives of the Gray Herbarium, Harvard University (121)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_156.xml">Harvard Gray Herbarium</repository>
+                    <idno>121</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1875-05-30">30 May [1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1957.xml">Gray, Asa</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Wants seeds of <hi rend="italic">Nesaea verticillata</hi> for crossing experiments to see whether seedlings from "illegitimate unions" are sterile like true hybrids.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Nesaea verticillata</term>
+                <term type="scientific_terms" ref="#">crossing</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fertility and/or sterility</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">hybrids</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">seeds</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">young, offspring</term>
+                
+                <term type="tag" ref="#asa_gray_set">Asa Gray Letters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi> | <hi rend="print">Railway Station | Orpington.</hi> <hi rend="print">S.E.R.</hi></placeName>
+                    <date>May 30<hi rend="superscript">th</hi></date>
+                    <salute>My dear Gray</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Would you be so kind as to get &amp; send me this summer a packet of seeds of Nessæa verticillata. I want to raise seedlings from illegitimate unions to see if the seedlings are sterile like true Hybrids &amp; like the illeg. offspring of Lythrum; for the fact seems to me all important.—<ref target="#foot.f2"/></p>
+<p>Ever yours | C. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the printed stationery, which is of a sort used by CD from 18 November 1874, and by CD’s statement in February 1875 that he intended to carry out more research on dimorphic and trimorphic plants (see n. 2, below).</note>
+            <note xml:id="foot.f2">Gray had sent CD <hi rend="italic">Nesaea</hi> seeds in 1862 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 10, <ref target="./DCP-LETT-3785.xml" resp="#mjhawkins">letter from Asa Gray, 27 October 1862</ref>). <hi rend="italic">Nesaea verticillata</hi> (a synonym of <hi rend="italic">Decodon verticillatus</hi>) is swamp loosestrife, native to eastern North America. CD had first experimented on <hi rend="italic">Lythrum salicaria</hi> (purple loosestrife) in 1862 when investigating the connection between dimorphism and sterility, and had published the results in <ref target="../bibliographies/bibl_7749.xml" resp="#mjhawkins">‘Three forms of <hi rend="italic">Lythrum salicaria</hi>’</ref> and <ref target="../bibliographies/bibl_4083.xml" resp="#mjhawkins">‘Illegitimate offspring of dimorphic and trimorphic plants’</ref> (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 10). He was considering carrying out further research and revising these papers for inclusion in <ref target="../bibliographies/bibl_8595.xml" resp="#mjhawkins"><hi rend="italic">Cross and self fertilisation</hi></ref> (see <ref target="./DCP-LETT-9844.xml" resp="#mjhawkins">letter to J. V. Carus, 7 February 1875</ref>). The reworked papers eventually appeared as part of <ref target="../bibliographies/bibl_2613.xml" resp="#mjhawkins"><hi rend="italic">Forms of flowers</hi></ref>, but there is no discussion of <hi rend="italic">Nesaea verticillata</hi> beyond what was originally included in <ref target="../bibliographies/bibl_7749.xml" resp="#mjhawkins">‘Three forms of <hi rend="italic">Lythrum salicaria</hi>’</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-583">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To M. J. Berkeley   [26 November 1840]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19576</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-583 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-583.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-583.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">incomplete</note>
+            <note type="physdesc" n="ALS">1p inc †</note>
+            <note type="postmark">NO—26 1840</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Shropshire Archives (SA 6001/134/39)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_385.xml">Shropshire Archives</repository>
+                    <collection>(SA 6001/134/39)</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Upper Gower St, 12</placeName>
+                <date when="1840-11-26">[26 Nov 1840]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_408.xml">Berkeley, M. J.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Remarks that each of two species of <hi rend="italic">Fagus</hi> separated by 1000 miles has a fungus that grows on it; the fungus species are probably closely allied.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Fagus</term>
+                <term type="plants" ref="#">fungus</term>
+                <term type="scientific_terms" ref="#">close species</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">geography</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+                <term type="scientific_terms" ref="#">parasites</term>
+                <term type="scientific_terms" ref="#">species, speciation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+                     
+<p rend="left">is the Fagus oblique.— So that we have <hi rend="underline">probably</hi> two species, &amp; closely allied species of Fungus, growing on two species of Fagus, at the distance of 1000(?) miles.—<ref target="#foot.f1"/> The Fungus of Tierra del Fuego grow on the Fagus Antarcticus.—<ref target="#foot.f2"/> Bertero says the natives of Chile call the Fungus “dignénes”.— Bertero’s [paper] or rather posthumous <hi rend="underline">list </hi> of plants is in Silliman’s N. Am. Journal Vol. 23 p. 78.— I should be much obliged if at some future time, you would have the kindness to return me the rough papers.—<ref target="#foot.f3"/></p>
+<p>I have the pleasure of remaining | Your’s truly obliged | Charles Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.1 &amp;] <hi rend="italic">over</hi> ‘a’</note>
+                    <note xml:id="tnote.n2">1.4 Bertero’s] <hi rend="italic">before del</hi> ‘Paper’</note>
+                    <note xml:id="tnote.n3">1.5 is] ‘s’ <hi rend="italic">over</hi> ‘n’</note>
+                    <note xml:id="tnote.n4"><hi rend="italic">point omitted after</hi> : 1.2 ‘1000(?)’; 1.7 ‘rough’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The letter refers to two species of fungus, one discovered in Tierra del Fuego by CD (<hi rend="italic">Journal of researches,</hi> pp. 298–9) and the other in Chile by Carlo Bertero (<ref target="../bibliographies/bibl_615.xml" resp="#mjhawkins">Bertero 1831–3</ref>). Berkeley (1845) describes CD’s specimens of both species.</note>
+            <note xml:id="foot.f2">CD corrects this statement in his <ref target="./DCP-LETT-591.xml" resp="#mjhawkins">letter to M. J. Berkeley, [March 1841]</ref>.</note>
+            <note xml:id="foot.f3">CD refers to the field notes he made during the voyage. Berkeley quoted extensively from them. On the cover of the letter, in Berkeley’s hand, is ‘984. Two large ones smooth half-grown | 821. Orifices burst | 529 little ones | 528. Possibly another species’. The note may refer to CD’s catalogue of plant specimens (see <ref target="../bibliographies/bibl_6348.xml" resp="#mjhawkins">D. M. Porter 1981</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

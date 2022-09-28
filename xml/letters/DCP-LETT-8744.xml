@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8744">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Hubert Airy   [before 21 January 1873]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3813</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8744 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8744.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8744.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">Copy<ref target="#foot.f3"/></note>
+            <note type="physdesc" n="C">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Cambridge University Library (MS. Add. 7656: RS899)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <idno>Add 7656 RS: 899</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1809-01-01" notAfter="1873-01-20">[before 21 Jan 1873]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_51.xml">Airy, Hubert</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends HA’s paper ["On leaf arrangement"] with a supporting note [from CD] to Royal Society.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="scientific_terms" ref="#">plant physiology</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="societal" ref="#">Royal Society of London</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <seg type="supplemental">Copy</seg>
+                    <salute>My dear Mr Airy</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>If Sir Geo Airy thinks it was right to communicate your paper I shall be happy to do so, &amp; I sincerely hope it may be printed.<ref target="#foot.f2"/></p>
+<p>Signed Ch Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter and the <ref target="./DCP-LETT-8745.xml" resp="#mjhawkins">letter from Hubert Airy, 21 January 1873</ref>.</note>
+            <note xml:id="foot.f2">CD communicated Airy’s paper on phyllotaxy (<ref target="../bibliographies/bibl_94.xml" resp="#mjhawkins">Airy 1873</ref>) to the <ref target="../nameregs/nameregs_4110.xml" resp="#mjhawkins">Royal Society of London</ref>. CD also refers to Airy’s father, <ref target="../nameregs/nameregs_50.xml" resp="#mjhawkins">George Biddell Airy</ref>. See <ref target="./DCP-LETT-8720.xml" resp="#mjhawkins">letter from Hubert Airy, 3 January 1873</ref>.</note>
+            <note xml:id="foot.f3">The copy is written on the back of a letter from Airy to <ref target="../nameregs/nameregs_4573.xml" resp="#mjhawkins">George Gabriel Stokes</ref>, the secretary of the Royal Society.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

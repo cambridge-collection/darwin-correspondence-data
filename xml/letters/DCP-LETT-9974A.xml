@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9974A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From J. S. Burdon Sanderson   [8 May 1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20550</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9974A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9974A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9974A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">University of British Columbia Library, Rare Books and Special Collections (Darwin - Burdon Sanderson letters RBSC-ARC-1731-1-37)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_64.xml">British Columbia</repository>
+                    <collection>CD-Burdon Sanderson</collection>
+                    <idno>RBSC-ARC-1731-1-37</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4177.xml">Sanderson, J. S. B.</persName>
+                <placeName>London, Queen Anne St, 49</placeName>
+                <date when="1875-05-08">[8 May 1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Further discussion of the introduction of a bill by Lyon Playfair on animal experimentation.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_3802">Playfair, Lyon</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">vivisection bill</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>49 Queen Anne St</placeName>
+                    <date>Saturday</date>
+                    <salute>Dear M<hi rend="superscript">r</hi> Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have again seen L. Playfair. He is going to ask leave to bring in his Bill on Monday.<ref target="#foot.f2"/></p>
+<p>He has had a meeting with L<hi rend="superscript">d</hi> Hartismere, but without immediate result i.e. Lord H. has not promised to withdraw his Bill.<ref target="#foot.f3"/> He showed me his Bill this morning with the necessary procedure clauses added and the Definition clauses relating to the words “Animal” &amp; “Experiment”</p>
+<p>I hope it may be successful, but am glad to feel sure that even if it is not, it will effectually bar out the other, most objectionable measure.</p>
+<p>By next year it is to anticipated that everybody will be wiser: | very truly yours | JB Sanderson</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter and the <ref target="./DCP-LETT-9972A.xml" resp="#mjhawkins">letter from J. S. Burdon Sanderson, 6 May [1875]</ref>, and by <ref target="../nameregs/nameregs_3802.xml" resp="#mjhawkins">Lyon Playfair’s</ref> request to present the vivisection bill to Parliament on 10 May 1875 (see n. 2, below). In 1875, 8 May was a Saturday.,</note>
+            <note xml:id="foot.f2">On Monday 10 May 1875, <ref target="../nameregs/nameregs_3802.xml" resp="#mjhawkins">Lyon Playfair</ref> requested leave to present a bill to the <ref target="../nameregs/nameregs_7863.xml" resp="#mjhawkins">House of Commons</ref> for the regulation of vivisection (<hi rend="italic">The Times</hi>, 11 May 1875, p. 6); he introduced the bill on Wednesday 12 May 1875 (<ref target="../bibliographies/bibl_3347.xml" resp="#mjhawkins"><hi rend="italic">Hansard parliamentary debates</hi></ref> 3d ser. vol. 224 (1875), col. 542).</note>
+            <note xml:id="foot.f3">John Henniker-Major, Baron Hartismere, had introduced another bill on vivisection in the House of Lords on 4 May 1875. The bill had been prepared at the initiative of <ref target="../nameregs/nameregs_984.xml" resp="#mjhawkins">Frances Power Cobbe</ref> (see <ref target="../bibliographies/bibl_1478.xml" resp="#mjhawkins">Cobbe 1904</ref>, p. 640). On the differences between the bills introduced by Hartismere and Playfair, see Appendix VI.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-725">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Ernst Dieffenbach   16 December 1843</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1819</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-725 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-725.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-725.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">J. A. Stargardt (dealers) Cat. 574 1965.11.11–13</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_399.xml">Stargardt</repository>
+                    <idno>Cat. 574 1965.11.11–13</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1843-12-16">16 Dec 1843</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1322.xml">Dieffenbach, Ernst</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>"You will have been sorry to have seen in the newspapers, the disturbances &amp; fightings with the New Zealanders. – I have lately been much interested in reading your chapters on the slow decrease in numbers … of these poor people. The case appears to me very curious, especially as the decrease has commenced or continued since the introduction of the potato – the relation between the amount of population &amp; of food is hence inverted. It would have been a case for the great Malthus to have reflected on".</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="human_group" ref="#">New Zealanders</term>
+                <term type="scientific_terms" ref="#">extinction</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="scientific_terms" ref="#">historical time</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">introduced forms</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Down]</placeName>  </opener>
+                <div type="transcription">
+<p>– “… You will have been sorry to have seen in the newspapers, the disturbances &amp; fightings with the Newzealanders.—<ref target="#foot.f1"/> I have lately been much interested in reading your Chapters<ref target="#foot.f2"/> on the slow decrease in numbers … of these poor people. The case appears to me very curious, especially as the decrease has commenced or continued since the introduction of the potato— the relation between the amount of population &amp; of food is hence inverted.— it would have been a case for the great Malthus to have reflected on …”</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="../bibliographies/bibl_5367.xml" resp="#mjhawkins">Mellersh 1968</ref>, p. 206. The violent Maori outbreak occurred while FitzRoy was still on his way to the colony.</note>
+            <note xml:id="foot.f2">According to Dieffenbach an increase in diseases had occurred since the arrival of Europeans and the changes they brought about in the native way of life. ‘In one word, instead of an active, warlike race, they have become eaters of potatoes, neglecting their industrious pursuits in consequence of the facility of procuring food and blankets, and they pass their lives in eating, smoking, and sleeping. No medical man will deny that in this mode of living alone a sufficient cause is found to account for many of the diseases which prevail.’ (<ref target="../bibliographies/bibl_2036.xml" resp="#mjhawkins">Dieffenbach 1843</ref>, 2: 19–20).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

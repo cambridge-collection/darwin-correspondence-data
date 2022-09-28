@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7399">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From W. W. Reade   20 December 1870</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14486</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7399 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7399.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7399.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 176: 42</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>176: 42</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3950.xml">Reade, W. W.</persName>
+                <placeName>Kensington</placeName>
+                <date when="1870-12-20">20 Dec 1870</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>CD is correct; his notes are on the Jollof, not the Tollof, tribe.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="human_group" ref="#">Jollop tribe</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>11 S<hi rend="superscript">t</hi>. Mary Abbot’s Terrace | Kensington</placeName>
+                    <date>Dec. 20.–70</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>It is for me to apologise for my carelessness in not perceiving you had mistaken the spelling, and in the first place for not writing it more clearly—or let us unite in blaming the want of demarcation between T &amp; J. in written character.</p>
+<p>Your friend is quite right. Jollof is the word—sometimes spelt Djollof by the French: I believe Wollof is the most correct: but Jollof is the most common &amp; is classical.<ref target="#foot.f1"/> It is in the Lusiad Canto V. x. <quote type="verse"> A Provincia <hi rend="underline">Jalofo</hi> que reparte Por diversas nações a negra gente—<ref target="#foot.f2"/> </quote></p>
+<p>I am looking anxiously for announcements of your date of publication<ref target="#foot.f3"/> and remain | My dear sir | Yours very truly | Winwood Reade</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD’s letter to Reade enquiring about the spelling of ‘Jollofs’ has not been found. See letters from W. W. Reade, [<hi rend="italic">c.</hi> 8 or 9 April 1870] and n. 6, 6 November 1870, and 9 November 1870. See also <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> 2: 357, where CD discussed whether the beauty of the Jollofs was brought about by selective breeding.</note>
+            <note xml:id="foot.f2">The Lusíad or Lusíads is an epic poem by the Portuguese writer <ref target="../nameregs/nameregs_7199.xml" resp="#mjhawkins">Luiz Vaz de Camões</ref> describing <ref target="../nameregs/nameregs_5724.xml" resp="#mjhawkins">Vasco da Gama’s</ref> voyage to India. Reade’s quotation may be translated: ‘Leaving in our wake the Jalof province / With its various nations of black people’ (see <ref target="../bibliographies/bibl_1173.xml" resp="#mjhawkins">Camões 2001</ref>, a modern translation).</note>
+            <note xml:id="foot.f3">Reade refers to <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref>, published in February 1871.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4586">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Ernst Haeckel<choice><seg type="original"><ref target="#foot.f1"/></seg><seg type="translation"><ref target="#foot_trans.f1"/></seg></choice>   10 August 1864</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">5274</idno>
+            
+            
+            
+            
+            <date when="2001">2001</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4586 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4586.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4586.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="12">12</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp (German) damaged</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 166: 38</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>166: 38</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2048.xml">Haeckel, E. P. A.</persName>
+                <placeName>Jena</placeName>
+                <date when="1864-08-10">10 Aug 1864</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends photographs of himself and his late wife [Anna Sethe]. Describes death of his wife.</p>
+            <p>Plans trip to the Alps.</p>
+            <p>Thanks CD for biographical information about himself.</p>
+            <p>Mentions Goethe as early evolutionist.</p>
+            <p>Cites Kant as early supporter of epigenesis.</p> 
+<p>Mentions criticism of CD’s theory by R. A. von Kölliker ["Über die Darwin’sche Schöpfungstheorie", <hi rend="italic">Z. Wiss. Zool.</hi> 14 (1864): 174–86].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Other people</term>
+                <term type="it" ref="#">Z. Wiss. Zool.</term>
+                <term type="people" ref="#subject_1904">Goethe, J. W. von</term>
+                <term type="people" ref="#">Haeckel, A. S.</term>
+                <term type="people" ref="#subject_2641">Kant, Immanuel</term>
+                <term type="places" ref="#">Alps</term>
+                <term type="rx" ref="#">Kolliker, R. A. von 1864b</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">embryology</term>
+                <term type="scientific_terms" ref="#">historical time</term>
+                <term type="scientific_terms" ref="#">negative attitude/assessment</term>
+                <term type="scientific_terms" ref="#">origin</term>
+                <term type="scientific_terms" ref="#">reception of Darwinism</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+                <term type="scientific_terms" ref="#">selection</term>
+                <term type="scientific_terms" ref="#">species, speciation</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+                <term type="scientific_terms" ref="#">transmutation</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">Other people</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Jena</placeName>
+                    <date>10 August 64.</date>
+                    <salute>Theurer hochverehrter Herr und Freund!</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>In diesem Briefe übersende ich Ihnen auf Ihren Wunsch meine Photographie, als eine geringe Gegengabe gegen das höchst erwünschte und werthvolle Geschenk, das Sie mir mit Ihrem eigenen Portrait gemacht haben.<ref target="#foot.f2"/> Ich kann Ihnen aber mein Bild nicht allein senden, sondern muss es begleiten lassen von dem Bilde der Frau, welche das Glück meines Lebens war, und welche für den Namen “<hi rend="underline">Darwin</hi>” eine eben so hohe Verehrung und Bewunderung hegte, als ich selbst.<ref target="#foot.f3"/> Nur 1<formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> Jahre war es mir vergönnt, mit dieser in jeder Hinsicht hochbegabten Frau in der glückseligsten Ehe zu leben.<ref target="#foot.f4"/> Am 16<hi rend="superscript">ten</hi> Februar dieses Jahres entriss sie mir ein typhöses Fieber in wenigen Stunden, an demselben Tage, an welchem ich mein 30stes Jahr vollendete. Mit der Klarheit des Verstandes und der Wärme der Empfindung welche nur den Frauen des germanischen Stammes eigen ist, theilte sie mit mir Alles, und ganz besonders meine Liebe zur Natur und zur Wahrheit. Für Ihre Descendenz-Theorie war sie so enthusiastisch eingenommen, dass sie mich stets zu deren Weiterbau anspornte und am liebsten und haüfigsten mich selbst ihren deutschen “Darwin-Mann” nannte.</p>
+<p>Gewiss haben wenige Frauen mit so tiefem Verständniss sich für die grosse Frage des “struggle for life” und der “natural selection” interessirt, wie meine herrliche Anna, und dieser Umstand, theurer Freund, wird mich bei Ihnen entschuldigen, wenn ich Ihnen diese vertrauensvolle Mittheilung mache und Ihnen das Bild der viel zu früh verstorbenen mit meinem eigenen sende. Sie können hiernach ermessen, wie schwer mich ihr Verlust niedergedrückt hat, und wie sehr düstere Melancholie an die Stelle meiner früheren heiteren Lebensfreude getreten ist. Diese tief melancholische Stimmung war in den letzten Wochen so schwer, dass ich Ihnen nicht sofort auf Ihren mir höchst werthvollen und freundschaftlichen Brief zu antworten vermochte.<ref target="#foot.f5"/> Auch an der Ausarbeitung des Werkes über die Descendenz-Theorie, von dem ich Ihnen neulich schrieb, bin ich dadurch sehr gehindert worden und werde erst im nächsten Winter dasselbe wieder frisch in Angriff nehmen können.<ref target="#foot.f6"/> Jetzt gehe ich zunächst auf 6–8 Wochen in die Schweiz, um in dem Genusse der grossen Alpen-Natur meine physischen und moralischen Kräfte wieder zu sammeln und zu stärken. Die Alpen und das Meer waren von jeher die beiden Factoren, die am mächtigsten auf mich einwirkten.</p>
+<p>Die persönlichen Mittheilungen, we〈lche〉 Sie mir in Ihrem letzten Briefe gemac〈ht〉 haben, mussten mich natürlich im höchsten Grade interessiren und ich sage Ihnen den herzlichsten Dank für das mir dadurch bewiesene Vertrauen.<ref target="#foot.f7"/> Einiges davon habe ich auch meinen Freunden Gegenbaur und Schleicher mitgetheilt,<ref target="#foot.f8"/> welche mit mir den lebhaften Wunsch hegen, dass bald genauere biographische Mittheilungen über den Gang Ihres Lebens und Ihrer Studien bekannt werden möchten. Wie jedes Ding, so wird ja auch der Mensch erst richtig und vollständig durch seine Entwickelungsgeschichte begriffen.</p>
+<p>Auch die Geschichte der Descendenz-Theorie ist in hohem Grade interessant und ich sehe mit grosser Freude, wie die grössten deutschen Phi〈loso〉phen und Denker schon vor langer Zeit diesel〈be〉 <hi rend="underline">a priori</hi> als die <hi rend="underline">einzig mögliche Art</hi>, die Entstehung der Arten zu begreifen, erklärt haben. Aber <hi rend="doubleUnderline">Sie</hi> haben erst durch die epochemachende Entdeckung der “<hi rend="underline">Natural Selection</hi>” und des “<hi rend="underline">Struggle for life</hi>” den <hi rend="underline">concreten</hi> <hi rend="doubleUnderline">Beweis</hi> für jene abstracte Behauptung geliefert. Am schönsten hat sich unser grösster Dichter, <hi rend="underline">Göthe</hi>, über letzere ausgesprochen in seinen Aufsätzen zur Morphologie, und ganz besonders in dem kurz vor seinem Tode geschriebener Kritik der “Principes de Philosophie zoologique” von <hi rend="underline">Geoffroy</hi>.<ref target="#foot.f9"/> In der trefflichen Biographie Göthes von Ihrem Landsmanne <hi rend="underline">Lewes</hi> finde ich diese Verdienste Göthes (in dem 10. Abschnitt des V Buches “Göthe als Naturforscher”) sehr schön beurtheilt.<ref target="#foot.f10"/> Ebenso bestimmt hat auch unser grösster Philosoph, <hi rend="underline">Kant</hi>, sich für die “Theorie der <hi rend="underline">Epigenesis</hi>”, wie er sie nennt ausgesprochen.<ref target="#foot.f11"/> Auch werden in der That alle möglichen organischen Natur-Erscheinungen, ebenso im thierischen, wie im pflanzlichen Leben, so einfach und harmonisch dadurch erklärt, dass ich nicht begreife, wie so viele und kenntnissreiche Naturforscher noch Ihre Gegner sein können. Wie sehr aber selbst berühmte Gelehrte in dieser Beziehung irren können und wie sehr die exclusive Bewegung in Detail-Arbeiten den Blick für die grosse Harmonie des Natur-Ganzen abstumpft, können Sie aus dem ausserordent〈li〉ch schwachen, verkehrten und unlogischen Aufsatze ersehen, den kürzlich Professor Kölliker in Würzburg, als Histiolog weit bekannt, in seiner Zeitschrift für wiss. Zoolog. veröffentlicht hat.<ref target="#foot.f12"/> Selten habe ich etwas Schwächeres und Verkehrteres über Ihre Theorie gelesen. Sie sollen sogar “<hi rend="underline">Teleolog</hi>” sein!! Sie werden sich darüber trösten. Aber zur Ehre der Deutschen muss ich doch sagen, dass solche Verkehrtheiten bei den Meisten doch nur der wohlverdienten Missachtung begegnen.—</p>
+<p>Indem ich Ihnen, theure Herr, nochmals den lebhaftesten Dank für Ihren mir sehr werthen Brief ausspreche, und hoffe, dass Ihre Gesundheit sich bald bessert, bleibe ich mit vorzüglicher Verehrung | Ihr treu ergebener | Ernst Haeckel</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+        
+        
+        <div type="translation">
+            <div type="text">
+                <opener>
+                    <placeName>Jena</placeName>
+                    <date>10 August 1864</date>
+                    <salute>Highly honoured Sir and Friend,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>With this letter I send you at your request my photograph, as a small return for the highly desirable and valuable present which you made me of your own portrait.<ref target="#foot.f2"/> I cannot, however, send you only a photograph of myself, but it must be accompanied by the portrait of my wife, who was the happiness of my life and cherished for the name “<hi rend="underline">Darwin</hi>” just as high an admiration and reverence as I do.<ref target="#foot.f3"/> I was only granted to live one and a half years in most happy union with this woman who was highly gifted in every respect.<ref target="#foot.f4"/> On the 16<hi rend="superscript">th</hi> of February this year a typhoid fever tore her away from me in a few hours, on the very day I completed my thirtieth year. With the clarity of understanding and warmth of feeling that only women of Germanic stock possess, she shared everything with me, especially in my love of nature and truth. She was so enthusiastic about your theory of descent, that she constantly encouraged me to work on it further and in the most loving manner often called me her German “Darwin–Mann”.</p>
+<p>Certainly few women have shown such an interest with such a deep understanding for the great questions of the “struggle for life” and “natural selection” as my wonderful Anna, and this circumstance, dear friend, will excuse me if I share this confidence with you and send you, along with my own, the picture of my wife who died much too early. From this you will be able to estimate how hard this loss has struck me and how gloomy melancholy has replaced my former cheerful joy in life. This deeply melancholic feeling was so hard to bear during the last weeks, that I was unable to reply to your extremely valuable and friendly letter immediately.<ref target="#foot.f5"/> I have also been much hindered by it in the elaboration of my work on the theory of descent, about which I have recently written to you, and will only just be able to take it up afresh next winter.<ref target="#foot.f6"/> Now I am about to go to Switzerland for 6–8 weeks, in order to recover and strengthen my physical and moral forces in the enjoyment of the great nature of the Alps. The Alps and the sea have always been the two things which have had the greatest influence on me.</p>
+<p>The personal details that you gave me in your last letter have of course interested me to the highest degree and I thank you whole-heartedly for the confidence you have thus shown in me.<ref target="#foot.f7"/> I have shared some of them with my friends Gegenbaur and Schleicher,<ref target="#foot.f8"/> who share with me a strong desire that more detailed biographical information concerning the course of your life and studies might soon be known. Like any other object, man too is understood correctly and completely only through the history of his development.</p>
+<p>The history of the theory of descent is also extremely interesting and I witness with great joy, how even a long time ago, the greatest German philosophers and thinkers have <hi rend="underline">a priori</hi> proclaimed this theory to be the <hi rend="underline">only possible way</hi> of understanding the origin of species. But <hi rend="doubleUnderline">you</hi>, through the epoch-making discovery of “<hi rend="underline">Natural Selection</hi>” and “<hi rend="underline">Struggle for life</hi>”, have for the first time provided the <hi rend="underline">concrete</hi> <hi rend="doubleUnderline">proof</hi> for that abstract statement. The most beautiful expression of this was given by our greatest poet, <hi rend="underline">Goethe</hi>, in his Essays on Morphology, and, most especially, in the review of <hi rend="underline">Geoffroy</hi>’s “Principes de Philosophie zoologique”, written shortly before his death.<ref target="#foot.f9"/> I find that in the excellent biography of Goethe by your compatriot <hi rend="underline">Lewes</hi>, this great merit of Goethe’s is perfectly appreciated (in the tenth Chapter of book V entitled “The poet as a man of science”).<ref target="#foot.f10"/> Our greatest philosopher, <hi rend="underline">Kant</hi>, has also expressed himself in equally decided terms as being for the “Theory of <hi rend="underline">Epigenesis</hi>”, as he calls it.<ref target="#foot.f11"/> Indeed, all possible organic manifestations of nature, both in animal and vegetable life are thus so simply and harmoniously explained, that I do not understand how so many and such learned naturalists can still be opposed to your view. You can see how much even famous scholars can err in this respect and how much the preoccupation with details obscures the perception of the great harmony of Nature as a whole, from the exceptionally weak, erroneous and illogical essay published recently by Professor Kölliker of Würzburg, who is well known as a histologist, in his Zeitschrift für wiss. Zoolog.<ref target="#foot.f12"/> Seldom have I read anything weaker and more erroneous about your theory. You are even supposed to be a “<hi rend="underline">Teleologist</hi>”!! You should console yourself over this matter. However, to the honour of the Germans, I must say that such gross errors are deservedly disregarded by the majority.</p>
+<p>While, dear Sir, I once more express to you my whole-hearted thanks for your most valued letter, and hope that your health soon improves, I remain with the greatest respect | yours very truly | Ernst Haeckel</p> 
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">For a translation of this letter, see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 12, Appendix I.</note>
+            <note xml:id="foot_trans.f1">For a transcription of this letter in its original German, see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 12, pp. 298–300.</note>
+            <note xml:id="foot.f2">In his <ref target="./DCP-LETT-4569.xml" resp="#automat" cert="medium">letter to Haeckel of 19 July [1864]</ref>, CD enclosed a recent photograph and asked for a photograph of Haeckel in return.</note>
+            <note xml:id="foot.f3">Haeckel and his cousin <ref target="../nameregs/nameregs_4299.xml" resp="#mjhawkins">Anna Sethe</ref> were married on 18 August 1862 (<ref target="../bibliographies/bibl_4494.xml" resp="#mjhawkins">Krauße 1987</ref>, pp. 43–4). The photographs of Haeckel and his wife have not been found; see, however, plate facing page 280.</note>
+            <note xml:id="foot.f4">Haeckel referred to his wife’s death in his <ref target="./DCP-LETT-4555.xml" resp="#mjhawkins" cert="high">letter of 9 [July 1864]</ref>. CD had evidently learned of it earlier (see <ref target="./DCP-LETT-4419.xml" resp="#mjhawkins">letter to Ernst Haeckel, 3 March [1864]</ref> and n. 4).</note>
+            <note xml:id="foot.f5"><ref target="./DCP-LETT-4569.xml" resp="#mjhawkins">Letter to Ernst Haeckel, 19 July [1864]</ref>.</note>
+            <note xml:id="foot.f6">See <ref target="./DCP-LETT-4555.xml" resp="#mjhawkins">letter from Ernst Haeckel, 9 [July 1864]</ref>. Haeckel’s <hi rend="italic">Generelle Morphologie</hi> was not published until 1866.</note>
+            <note xml:id="foot.f7">See <ref target="./DCP-LETT-4569.xml" resp="#mjhawkins">letter to Ernst Haeckel, 19 July [1864]</ref>.</note>
+            <note xml:id="foot.f8">Haeckel refers to Carl Gegenbaur and <ref target="../nameregs/nameregs_4216.xml" resp="#mjhawkins">August Schleicher</ref>. See <ref target="./DCP-LETT-4555.xml" resp="#mjhawkins">letter from Ernst Haeckel, 9 [July 1864]</ref> and n. 20.</note>
+            <note xml:id="foot.f9">Haeckel regarded <ref target="../nameregs/nameregs_1904.xml" resp="#mjhawkins">Johann Wolfgang von Goethe</ref> as one of the principal founders of the theory of common descent (see, for example, <ref target="../bibliographies/bibl_3261.xml" resp="#mjhawkins">Haeckel 1866</ref>, 2: dedication). Haeckel refers to Goethe’s essays on morphology (<ref target="../bibliographies/bibl_2897.xml" resp="#mjhawkins">Goethe 1817–24</ref>), and to Goethe’s review of E. Geoffroy Saint–Hilaire 1830 (<ref target="../bibliographies/bibl_2898.xml" resp="#mjhawkins">Goethe 1830–2</ref>). In the ‘Historical Sketch’ included in <ref target="../bibliographies/bibl_6016.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 3d ed.</ref>, p. xiv n., CD ranked Goethe’s views on the modification of species together with those of <ref target="../nameregs/nameregs_2786.xml" resp="#mjhawkins">Jean Baptiste de Lamarck</ref>, Erasmus Darwin, and Etienne Geoffroy Saint–Hilaire; see also <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>, p. 147, and <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 10, Appendix VIII, ‘Additions and corrections to the second German edition of <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>’. A lightly annotated translation of <ref target="../bibliographies/bibl_2896.xml" resp="#mjhawkins">Goethe 1790</ref> with notes by <ref target="../nameregs/nameregs_3217.xml" resp="#mjhawkins">Maxwell Tylden Masters</ref> (<ref target="../bibliographies/bibl_1607.xml" resp="#mjhawkins">E. M. Cox trans. 1863</ref>) is in the Darwin Pamphlet Collection–CUL; see also <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 4, Appendix IV, for other works of Goethe’s that Darwin read. CD’s assessment may also have been based on an account of Goethe by <ref target="../nameregs/nameregs_1840.xml" resp="#mjhawkins">Isidore Geoffroy Saint-Hilaire</ref>; CD cited <ref target="../bibliographies/bibl_2801.xml" resp="#mjhawkins">I. Geoffroy Saint-Hilaire 1854–62</ref>, 2: 406, in <ref target="../bibliographies/bibl_6016.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 3d ed.</ref>, p. xiv n. In the fourth edition of <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>, CD also cited <ref target="../bibliographies/bibl_5347.xml" resp="#mjhawkins">Meding 1861</ref> on Goethe. Annotated copies of these works are in the Darwin Library–CUL and in the Darwin Pamphlet Collection–CUL (see <ref target="../bibliographies/bibl_5214.xml" resp="#mjhawkins"><hi rend="italic">Marginalia</hi></ref> 1: 317). For discussions of Goethe’s morphology, see <ref target="../bibliographies/bibl_4159.xml" resp="#mjhawkins">Jardine 1991</ref>, pp. 37–43, and <ref target="../bibliographies/bibl_6629.xml" resp="#mjhawkins">R. J. Richards 1992</ref>, pp. 29–37.</note>
+            <note xml:id="foot.f10">See <ref target="../bibliographies/bibl_4725.xml" resp="#mjhawkins">Lewes 1855</ref>, 2: 113–60: ‘The poet as a man of science’. <ref target="../nameregs/nameregs_2911.xml" resp="#mjhawkins">George Henry Lewes</ref> praised Goethe’s morphology as a precursor to the developmental theories of <ref target="../nameregs/nameregs_225.xml" resp="#mjhawkins">Karl Ernst von Baer</ref>, Lamarck, and Etienne Geoffroy Saint-Hilaire (<ref target="../bibliographies/bibl_4725.xml" resp="#mjhawkins">Lewes 1855</ref>, 2: 139–40, 150–4). Haeckel refers to the German translation (<ref target="../bibliographies/bibl_4726.xml" resp="#mjhawkins">Lewes 1857</ref>), in which the chapter heading is ‘Goethe als Naturforscher’.</note>
+            <note xml:id="foot.f11">In <hi rend="italic">Kritik der Urteilskraft</hi> (The critique of judgment), <ref target="../nameregs/nameregs_2641.xml" resp="#mjhawkins">Immanuel Kant</ref> defined epigenesis as a theory of generation according to which individuals develop by successive accretions, rather than by an unfolding of preformed material. He endorsed the epigenetic theory of <ref target="../nameregs/nameregs_495.xml" resp="#mjhawkins">Johann Friedrich Blumenbach</ref> (<ref target="../bibliographies/bibl_4289.xml" resp="#mjhawkins">Kant 1790</ref>, section 81). For discussions of Kant’s views on epigenesis, see <ref target="../bibliographies/bibl_4685.xml" resp="#mjhawkins">Lenoir 1982</ref>, pp. 17–53, and <ref target="../bibliographies/bibl_4159.xml" resp="#mjhawkins">Jardine 1991</ref>, pp. 28–33. For a survey of eighteenth-century epigenetic theories, see <ref target="../bibliographies/bibl_6693.xml" resp="#mjhawkins">Roe 1981</ref>.</note>
+            <note xml:id="foot.f12">Haeckel refers to the article by <ref target="../nameregs/nameregs_2626.xml" resp="#mjhawkins">Rudolf Albert von Kölliker</ref>, ‘Über die Darwin’sche Schöpfungstheorie’ (On the Darwinian theory of creation), recently published in <hi rend="italic">Zeitschrift für wissenschaftliche Zoologie</hi> (Kölliker 1864a). The article was issued separately as a pamphlet (Kölliker 1864b), and a translation appeared in the issues of the <hi rend="italic">Reader</hi> for 13 and 20 August 1864, pp. 199–200 and 234–5 (Kölliker 1864c). Annotated copies of Kölliker 1864b and 1864c are in the Darwin Pamphlet Collection–CUL. Kölliker claimed that CD was ‘a <hi rend="italic">Teleologist</hi> in the fullest sense of the word’ because of his view that structural peculiarities had evolved for the benefit of the organism (Kölliker 1864b, pp. 4, 7; Kölliker 1864c, p. 200). CD considered replying to Kölliker’s article in the <hi rend="italic">Reader</hi> (see letters to J. D. Hooker, <ref target="./DCP-LETT-4601.xml" resp="#mjhawkins">28 August [1864]</ref> and <ref target="./DCP-LETT-4605.xml" resp="#mjhawkins">[1 September 1864]</ref>, and letters from J. D. Hooker, <ref target="./DCP-LETT-4602.xml" resp="#mjhawkins">30 August 1864</ref> and <ref target="./DCP-LETT-4608.xml" resp="#mjhawkins">5 September 1864</ref>). Haeckel later criticised Kölliker’s account in <ref target="../bibliographies/bibl_3261.xml" resp="#mjhawkins">Haeckel 1866</ref>, 1: 100–1 n. For a discussion of Kölliker’s article, see <ref target="../bibliographies/bibl_5926.xml" resp="#mjhawkins">Nyhart 1995</ref>, pp. 122–9.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

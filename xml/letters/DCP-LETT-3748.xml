@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3748">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To A. G. More   1 October [1862]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13533</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3748 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3748.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3748.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+            </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 146: 407</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 10: 442</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Royal Irish Academy (A. G. More papers RIA MS 4 B 46)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_526.xml">RIA Dublin</repository>
+                    <collection>A. G. More papers</collection>
+                    <idno>RIA MS 4 B 46</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1862-10-01">1 Oct [1862]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3392.xml">More, A. G.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks for information. Asks for more information about labellum of orchids.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">orchids</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">plant physiology</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Oct. 1<hi rend="superscript">st</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I am very much obliged for your satisfactory answers to my questions.—<ref target="#foot.f2"/></p>
+                    <p>I am ashamed to say so, but if you are in the Isle of Wight, I sh<hi rend="superscript">d</hi>. certainly be very glad to see the result of some more trials.<ref target="#foot.f3"/> The result would probably throw light on the use of the labellum in many exotic orchids.—</p>
+                <p>My dear Sir | Yours sincerely &amp; obliged | Ch. Darwin.</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">This letter was first published in <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 9, transcribed from a copy on which the year is recorded (DAR 146: 407).</note>
+            <note xml:id="foot.f2">More’s letter has not been found. In his <ref target="./DCP-LETT-3739.xml">letter to More of 26 September [1862]</ref>, CD asked for further details of the experiments carried out by More on the labellum of the orchid <hi rend="italic">Epipactis palustris.</hi></note>
+            <note xml:id="foot.f3">More lived at Bembridge on the Isle of Wight. According to his biographer, ‘unforeseen circumstances’ prevented the fulfilment of CD’s wish (<ref target="../bibliographies/bibl_5515.xml">Moffat ed. 1898</ref>, p. 158).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

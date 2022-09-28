@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1466">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Adam White   26 December 1851</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14858</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1466 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1466.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1466.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+            <notesStmt>
+                <relatedItem type="publication">
+                    <bibl>White, Adam 1865: 10</bibl>
+                </relatedItem>
+                <relatedItem type="publication">
+                    <bibl><hi rend="italic">Correspondence</hi> 5: 76–7</bibl>
+                </relatedItem>
+            </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance"><hi rend="italic">Testimonials of Adam White, F.L.S., Assistant in the Zoological Department, British Museum</hi> [1854], p. 15 (National Library of Scotland, 3.2043(6))</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_292.xml">NL Scotland</repository>
+                    <collection/>
+                    <idno>3.2043(6)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1851-12-26">26 Dec 1851</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_5095.xml">White, Adam</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Testimonial letter expressing CD’s high opinion of AW’s zoological attainments.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down, Kent,</placeName>
+                    <date>December 26, 1851.</date>
+                    <salute>My Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+<p>I have much pleasure in expressing my high opinion of your Zoological attainments;<ref target="#foot.f1"/> and your great zeal for every branch of Natural History must strike all who are acquainted with you.</p>
+<p>Your papers in the scientific journals show how successfully you have worked out original materials. I have often had occasion to visit the working department in the British Museum, and I have invariably found you, permit me to add, most zealous and obliging in your endeavours to aid me in every possible way, and in giving me all the information in your power.<ref target="#foot.f2"/></p>
+<p>You are at full liberty to show this letter to any one;<ref target="#foot.f3"/> and I beg to remain, my dear Sir, Yours sincerely, | Charles Darwin. <lb resp="#mjhawkins"/> Adam White, Esq.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">A prominent naturalist who specialised in entomology and Crustacea, White had previously described some of the <hi rend="italic">Beagle</hi> arachnids (<ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 2: 298).</note>
+            <note xml:id="foot.f2">White was employed in the zoological department of the <ref target="../nameregs/nameregs_8646.xml" resp="#mjhawkins">British Museum</ref>.</note>
+            <note xml:id="foot.f3">The letter was printed with a number of other testimonials in support of an application for the chair of natural history at <ref target="../nameregs/nameregs_1454.xml" resp="#mjhawkins">Edinburgh University</ref> in 1854, but <ref target="../nameregs/nameregs_1680.xml" resp="#mjhawkins">Edward Forbes</ref> was appointed before White could distribute the pamphlet. In 1865 the testimonials were printed again (<ref target="../bibliographies/bibl_8336.xml" resp="#mjhawkins">White 1865</ref>) when White, having retired from the <ref target="../nameregs/nameregs_8646.xml" resp="#mjhawkins">British Museum</ref> because of ill health, was seeking employment in Edinburgh. (The editors are indebted to the late Richard B. Freeman for this information.)</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

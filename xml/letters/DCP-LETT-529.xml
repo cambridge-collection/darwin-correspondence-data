@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-529">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Jean Baptiste Armand Louis Léonce Élie de Beaumont<choice><seg type="original"><ref target="#foot.f1"/></seg><seg type="translation"><ref target="#foot_trans.f1"/></seg></choice>   31 July 1839</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">5150</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-529 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-529.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-529.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp (French)</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 2: 212</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 204: 177</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>204: 177</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1486.xml" resp="high">Elie de Beaumont, J. B. A. L. L.</persName>
+                <placeName>Paris</placeName>
+                <date when="1839-07-31">31 July 1839</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml" resp="high">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Acknowledges receipt of CD’s gift of the <hi rend="italic">Journal of researches</hi>. Praises CD’s "ingenious" views.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Journal of researches</term>
+                <term type="people" ref="#subject_3051">Elie de Beaumont, J. B. A. L. L.</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">positive self-criticism</term>
+                <term type="scientific_terms" ref="#">reception of Darwinism</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Paris,</placeName>
+                    <date>le 31 juillet 1839</date>
+                    <salute>Monsieur,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>je viens de recevoir avec la lettre que vous avez bien voulu me faire l’honneur de m’adresser le 11 juin l’interessant volume qui contient le journal de votre voyage sur le <hi rend="underline">Beagle</hi>. je m’emprèsse de vous en adresser tous mes remercimens. le voyage du <hi rend="underline">Beagle </hi> est déjà cité avec juste raison comme celle des—expeditions maritimes qui depuis longues années a recueilli le plus de documens géologiques. je les étudirai dans vos savans ouvrages avec tout l’interêt qu’ils meritent et que vous savez si bien augmenter par les vues ingénieuses dont vous accompagnez leur exposition.</p>
+<p>j’ai l’honneur d’être avec le plus haute consideration, | Monsieur, | votre très humble et | très obéissant serviteur | L. Elie de Beaumont</p> 
+                </div>
+            </div>
+
+        </div>
+        
+        
+        <div type="translation">
+            <div type="text">
+                <opener>
+                    <placeName>Paris</placeName>
+                    <date>31 July 1839</date>
+                    <salute>Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have just received, with the letter of 11 June which you have kindly done me the honour of sending to me, the interesting volume which contains the journal of your voyage on the <hi rend="underline">Beagle</hi>. I hasten to send you all my thanks. The voyage of the <hi rend="underline">Beagle</hi> is already justly cited as the maritime expedition that has collected the most geological facts for many years. I shall study them in your learned works with all the interest that they deserve and that you know so well how to enhance with the ingenious views with which you accompany them.</p>
+<p>I have the honour to be with the highest regard, | Sir | your very humble and | very obedient servant | L. Elie de Beaumont</p> 
+                </div>
+            </div>
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 2, Appendix I for a translation of this letter.</note>
+            <note xml:id="foot_trans.f1"> </note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

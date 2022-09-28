@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6405">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From George Bentham   [after 29 September 1868]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">4615</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6405 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6405.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6405.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">incomplete</note>
+            <note type="physdesc" n="ALS">1p, encl AL 2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 102: 237</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>102: 237</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_398.xml">Bentham, George</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1868-09-30" notAfter="1882-12-31">[after 29 Sept 1868]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Asks CD to sign enclosed certificate first, as he does not know T. H. Farrer personally. [On top part of first two pages of a letter to Hooker from H. C. Rothery about Farrer’s nomination for Linnean Society]</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1599">Farrer, T. H.</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>My dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Would you kindly put your name first to the enclosed as I do not know M<hi rend="superscript">r</hi> Farrer<ref target="#foot.f2"/> personally.</p>
+<p>y<hi rend="superscript">rs</hi> | G B</p> 
+                </div>
+            </div>
+            <div type="enclosure" subtype="letter">
+                <ab><ref target="#foot.f3"/></ab>
+                <ab type="opener">
+                    <placeName><hi rend="print">Oak Leigh | Sunninghill | Staines.</hi></placeName>
+                    <date>Sept. 29<hi rend="superscript">th</hi> 1868</date>
+                    <seg type="salute">My Dear Hooker</seg>
+                </ab>
+                <div type="transcription">
+                    
+                    <p>I send you herewith the form of Certificate of Recommendation required to be signed by three fellows on proposing any one to be a Member of the Linnean. Will you kindly sign it, and perhaps also M<hi rend="superscript">r</hi>. Bentham, if he is with you, would sign it— Then send it to Darwin, who knows Farrer very well, and ask him tp be good enough to forward it to the Secretary or to M<hi rend="superscript">r</hi>. Kippist—<ref target="#foot.f4"/></p>
+                    <p>Farrer, I think will prove a very useful Member. The papers which he has lately written, sent by Darwin, who thinks so well of them that he has sent them for publication in the Magazine of Natural History—<ref target="#foot.f5"/> I enclose one of the proofs that you may see</p>
+                </div>
+            </div>
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the date of the enclosure.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_1599.xml" resp="#mjhawkins">Thomas Henry Farrer</ref>.</note>
+            <note xml:id="foot.f3">The enclosed letter was sent to <ref target="../nameregs/nameregs_2357.xml" resp="#mjhawkins">Joseph Dalton Hooker</ref> by <ref target="../nameregs/nameregs_4088.xml" resp="#mjhawkins">Henry Cadogan Rothery</ref>, who resided at Oak Leigh, Sunninghill, Berkshire (<hi rend="italic">Post Office directory of Northamptonshire, etc.</hi> 1864). Rothery was a friend of Farrer’s (see <ref target="./DCP-LETT-6373.xml" resp="#mjhawkins">letter from T. H. Farrer, 17 September 1868</ref>), and a fellow of the <ref target="../nameregs/nameregs_2944.xml" resp="#mjhawkins">Linnean Society</ref> (<ref target="../bibliographies/bibl_4820.xml" resp="#mjhawkins"><hi rend="italic">List of the Linnean Society of London</hi></ref>, 1867).</note>
+            <note xml:id="foot.f4">Farrer was elected to the <ref target="../nameregs/nameregs_2944.xml" resp="#mjhawkins">Linnean Society</ref> at the meeting of 21 January 1869; he was nominated by CD, Hooker, Rothery, Bentham, and <ref target="../nameregs/nameregs_2486.xml" resp="#mjhawkins">Thomas Henry Huxley</ref> (Library of the <ref target="../nameregs/nameregs_2944.xml" resp="#mjhawkins">Linnean Society</ref>). <ref target="../nameregs/nameregs_1164.xml" resp="#mjhawkins">Frederick Currey</ref> was the botanical secretary of the <ref target="../nameregs/nameregs_2944.xml" resp="#mjhawkins">Linnean Society</ref>, and <ref target="../nameregs/nameregs_2705.xml" resp="#mjhawkins">Richard Kippist</ref> was the librarian (Gage and Stearn 1988).</note>
+            <note xml:id="foot.f5">Rothery refers to <ref target="../bibliographies/bibl_2462.xml" resp="#mjhawkins">Farrer 1868</ref> (‘On the manner of fertilization of the scarlet runner and blue lobelia’), which was published in the <hi rend="italic">Annals and Magazine of Natural History</hi>; the paper had two sections (see <ref target="./DCP-LETT-6373.xml" resp="#mjhawkins">letter from T. H. Farrer, 17 September 1868</ref> and n. 4). There is an annotated copy of <ref target="../bibliographies/bibl_2462.xml" resp="#mjhawkins">Farrer 1868</ref> in CD’s collection of unbound journals in the Darwin Library–CUL.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

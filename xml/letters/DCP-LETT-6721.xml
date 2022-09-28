@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6721">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From M. T. Masters   30 April 1869</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10084</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6721 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6721.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6721.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 80</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 80</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3217.xml">Masters, M. T.</persName>
+                <placeName>Gardeners’ Chronicle</placeName>
+                <date when="1869-04-30">30 Apr 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends paper on the "Origin of genera".</p> 
+<p>J. Decaisne, in last week’s <hi rend="italic">Gardeners’ Chronicle</hi>, on the apple, cannot mean there are no intermediates between <hi rend="italic">Malus</hi> and <hi rend="italic">Pyrus</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">apple</term>
+                <term type="plants" ref="#">Malus</term>
+                <term type="plants" ref="#">Pyrus</term>
+                <term type="it" ref="#">Gardeners’ Chronicle</term>
+                <term type="people" ref="#subject_1278">Decaisne, Joseph</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">higher groupings (‘family’, ‘class’, ‘order’ etc)</term>
+                <term type="scientific_terms" ref="#">intermediate forms, gradation</term>
+                <term type="scientific_terms" ref="#">origin</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Gardeners’ Chronicle | &amp; Agricultural Gazette Office, | 41, Wellington Street, Strand, W.C.</hi></placeName>
+                    <date>April 30 <hi rend="print">186</hi>9</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>On the chance that you may not have seen it I forward to you by book post a paper on the “Origin of Genera”—<ref target="#foot.f1"/> If it is of the slightest interest to you, please retain it, but if you have it already return it to me at any time— No doubt you saw Decaisne’s letter on the apple last week. He surely cannot mean that there are no intermediates between Malus &amp; Pirus<ref target="#foot.f2"/></p>
+<p>The other day at Chiswick D<hi rend="superscript">r</hi> Hogg, Mr Moore Mr Barron the Superintendent<ref target="#foot.f3"/> &amp; myself were looking at a tree in full blossom &amp; none of us could tell for certain whether it was an apple or a pear— To be sure we had not the fruit before us—</p>
+<p>faithfully y<hi rend="superscript">rs</hi>. | Maxwell. T. Masters <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">C. Darwin Esq</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Masters refers to <ref target="../bibliographies/bibl_1563.xml" resp="#mjhawkins">Cope 1868</ref>. There is an annotated offprint of this paper in the Darwin Pamphlet Collection–CUL.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_1278.xml" resp="#mjhawkins">Joseph Decaisne</ref> wrote a reply to an enquiry that the editors of the <hi rend="italic">Gardeners’ Chronicle</hi> had sent to him about the ‘Paradise apple’; it was published in <hi rend="italic">Gardeners’ Chronicle</hi>, 24 April 1869, p. 443. <hi rend="italic">Malus</hi> is the genus of apples; <hi rend="italic">Pyrus</hi> that of pears. Decaisne had written: ‘I have accumulated materials which do not permit me to adopt the theory of the transformation of one species into another, though I admit that species are very variable. The “Malus” remain Apples, as the “Pirus” remain Pears, in spite of the diversity of their forms and the infinite number of their varieties.’ The paradise apple was <hi rend="italic">Malus pumila</hi> var. <hi rend="italic">paradisiaca</hi> or <hi rend="italic">Pyrus dasyphylla</hi>; both names are synonyms of <hi rend="italic">Malus ×dasyphylla</hi>.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_2328.xml" resp="#mjhawkins">Robert Hogg</ref>, Thomas Moore, and Archibald F. Barron, superintendent of the <ref target="../nameregs/nameregs_4104.xml" resp="#mjhawkins">Royal Horticultural Society’s</ref> gardens at South Kensington and Chiswick.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

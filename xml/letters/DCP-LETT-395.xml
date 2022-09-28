@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-395">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Richard Owen   28 [December 1837]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1008</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-395 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-395.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-395.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 147: 220</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Natural History Museum, Library and Archives (General Special Collections Owen correspondence 9/209)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_288.xml">NHM</repository>
+                    <collection>General Special Collections</collection>
+                    <idno>Owen corres 9/209</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Gt Marlborough St, 36</placeName>
+                <date when="1837-12-28">28 [Dec 1837]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3629.xml">Owen, Richard</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends perfect revise of "<hi rend="italic">Toxodon</hi>" [<hi rend="italic">Fossil Mammalia</hi>] which he has read and marked.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Fossil Mammalia</term>
+                <term type="it" ref="#">Toxodon</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>Dear Owen</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>As my servant is passing your way, I send a perfect revise of Toxodon. I have read it over, &amp; marked the very few errata which caught my eye, which may help you in your final revision.—</p>
+<p>I hope with all my heart you will return quite comfortable, and you must not work so hard, as usual, for some time.—</p>
+<p>Yours most truly | Chas. Darwin.</p>
+<p>Thursday 28<hi rend="superscript">th</hi></p>
+<p>36 Gr<hi rend="superscript">t</hi>. Marlbro’ St.—</p>
+<p>NB. I altered the 12,000. toises into 12,00 toises<ref target="#foot.f2"/> which I suspect is right, though it did not occur to me, when I first read it over.— Perhaps you had better just refer to Cuvier—<ref target="#foot.f3"/></p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.1 my] ‘m’ <hi rend="italic">over</hi> ‘I’</note>
+                    <note xml:id="tnote.n2">5.1 toises into] ‘toises’ <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n3">5.1 toises which] ‘toises’ <hi rend="italic">added</hi></note>
+                    <note xml:id="tnote.n4"><hi rend="italic">point omitted after</hi> : 1.1 ‘have’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The only Thursday 28th in 1837 on which CD was in London was in December. The <hi rend="italic">Toxodon</hi> description was published in February 1838.</note>
+            <note xml:id="foot.f2">A French linear measure of 6.925 lineal feet. The reference occurs in Owen’s general introduction to <hi rend="italic">Fossil Mammalia,</hi> p. 13. It is printed as 1200 toises, the height at which Humboldt found the bones of a species of <hi rend="italic">Mastodon</hi> described by Cuvier.</note>
+            <note xml:id="foot.f3"><ref target="../bibliographies/bibl_1712.xml" resp="#mjhawkins">Cuvier 1812</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

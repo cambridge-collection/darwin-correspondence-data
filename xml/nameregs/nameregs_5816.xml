@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-5816" status="released">
+    <persName>
+        <forename type="preferred">Anna</forename>
+        <forename>Auguste</forename>
+        <forename>Friederike</forename>
+        <choice>
+            <seg><surname notBefore="1835" notAfter="1862">Sethe</surname></seg>
+            <seg><surname notBefore="1862" notAfter="1864">Haeckel</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1835–64</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of Christian Carl Theodor Ludwig Sethe. Cousin of Ernst Haeckel, whom she married in Berlin in 1862.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_2160.xml" resp="#mjhawkins"><hi rend="italic">DSB</hi></ref> s.v. Haeckel, Ernst</p>
+        <p><hi rend="italic">Germany, Lutheran baptisms, marriages, and burials, 1500–1971</hi> (Ancestry.com, accessed 9 September 2022)</p>
+        <p><ref target="../bibliographies/bibl_7939.xml" resp="#mjhawkins">Uschmann 1984</ref>, p. 317</p>
+    </note>
+    <note type="volume">12,13,14,15,24</note>
+</person>

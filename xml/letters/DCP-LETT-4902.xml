@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4902">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Samuel Butler   30 September [1865]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7491</idno>
+            
+            
+            
+            
+            <date when="2002">2002</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4902 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4902.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4902.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="13">13</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 143: 190</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl>H. F. Jones (1919) 1: 123</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 13</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">The British Library (Add MS 34486 D ff. 58–9)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_43.xml">The British Library</repository>
+                    <collection>Add MS 34486 D</collection>
+                    <idno>58–9</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1865-09-30">30 Sept [1865]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_774.xml">Butler, Samuel (b)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks SB for his <hi rend="italic">Evidence</hi> [<hi rend="italic">for the resurrection of Jesus Christ</hi> (1865)], the main argument of which is new to CD. He particularly agrees with the preface.</p> 
+            <p>Has been confined to his bedroom for the last five months.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin himself, bad or deteriorating</term>
+                <term type="it" ref="#">Evidence for the resurrection of Jesus Christ</term>
+                <term type="rx" ref="#">Butler, Samuel (b) 1865</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Sep 30</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am much obliged to you for so kindly sending me your “Evidence &amp;c—”<ref target="#foot.f2"/> We have read it with much interest. It seems to me written with much force, vigour, &amp; clearness; &amp; the main argument is to me quite new. I particularly agree with all you say in your preface.<ref target="#foot.f3"/></p>
+<p>I do not know whether you intend to return to New Zealand &amp; if you are inclined to write I should much like to know what your future plans are.<ref target="#foot.f4"/></p>
+<p>My health has been so bad during the last five months that I have been confined to my bedroom. Had it been otherwise I would have asked you, if you c<hi rend="superscript">d</hi> have spared the time to have paid us a visit; but this at present is impossible &amp; I fear will be so for some time.</p>
+<p>With my best thanks for your present I remain</p>
+<p>my dear Sir | yours very faithfully | Charles Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-4904.xml" resp="#mjhawkins">letter from Samuel Butler, 1 October 1865</ref>.</note>
+            <note xml:id="foot.f2">CD refers to Butler’s anonymously published pamphlet <hi rend="italic">The evidence for the resurrection of Jesus Christ as given by the four Evangelists, critically examined</hi> (<ref target="../bibliographies/bibl_1138.xml" resp="#mjhawkins">[Butler] 1865</ref>). Butler’s main argument, based on conflicting accounts of the resurrection in the four Gospels, was that Christ did not die on the cross and rise from the dead, but rather survived the crucifixion. The publication has not been found in the Darwin Pamphlet Collection–CUL. Much of the essay was later incorporated into <hi rend="italic">The fair haven</hi> (<ref target="../bibliographies/bibl_1141.xml" resp="#mjhawkins">[Butler] 1873</ref>).</note>
+            <note xml:id="foot.f3">In his preface, Butler accuses English commentators of ‘intellectual cowardice’ for refusing to discuss discrepancies in accounts of the resurrection in the four Gospels, in contrast to German critics. Butler had been unable to find a commercial publisher for the pamphlet and had had it privately printed.</note>
+            <note xml:id="foot.f4">Butler had gone to New Zealand in 1859 and, after some success in sheep ranching, returned to England in late 1864 (<ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref>). CD had first learned about Butler through his anonymously published article ‘Darwin on the origin of species: a dialogue’, which appeared in the <hi rend="italic">Press</hi> of Christchurch, New Zealand, on 20 December 1862 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 11, <ref target="./DCP-LETT-4058.xml" resp="#mjhawkins" cert="high">letter to an editor, 24 March [1863]</ref> and n. 3). Butler’s grandfather, also Samuel Butler (1774–1839), had been headmaster at Shrewsbury School when CD was there between 1818 and 1825 (<ref target="../bibliographies/bibl_2662.xml" resp="#mjhawkins">Freeman 1978</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

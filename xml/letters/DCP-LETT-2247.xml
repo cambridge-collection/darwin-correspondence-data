@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2247">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To George Busk, Linnean Society<ref target="#foot.f1"/>   30 March [1858]<ref target="#foot.f2"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1159</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2247 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2247.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2247.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Linnean Society of London (SP.585c)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_238.xml">Linnean Society</repository>
+                    <collection>SP.</collection>
+                    <idno>585c</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml" resp="high">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1858-03-30">30 Mar [1858]</date>
+            </correspAction>
+            <correspAction type="received" subtype="personGrp">
+                <persName key="../nameregs/nameregs_760.xml" resp="high">Busk, George</persName>
+                <persName key="../nameregs/nameregs_2944.xml" resp="high">Linnean Society of London</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Expresses his strong opinion that Huxley’s paper ["Agamic reproduction and morphology of <hi rend="italic">Aphis</hi>", <hi rend="italic">Trans. Linn. Soc. Lond.</hi> 22 (1858): 193–220, 221–36] should be published.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Aphis</term>
+                <term type="it" ref="#">Trans. Linn. Soc. Lond.</term>
+                <term type="rx" ref="#">Huxley, T. H. 1858a</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>March 30<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I can have no hesitation in expressing my strong opinion that the whole of M<hi rend="superscript">r</hi>. Huxley’s admirable paper on the Agamic Reproduction &amp; Embryology of Aphis, together with all the illustrations, ought to be published in the Transactions of the Linnean Society.<ref target="#foot.f3"/></p>
+<p>Dear Sir | Yours faithfully | Ch. Darwin <lb resp="#mjhawkins"/> To | G. Busk E<hi rend="superscript">re</hi> | Secretary Linnean Soc<hi rend="superscript">y</hi>.—</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_760.xml" resp="#mjhawkins">George Busk</ref> was the under-secretary of the <ref target="../nameregs/nameregs_2944.xml" resp="#mjhawkins">Linnean Society</ref> in 1858.</note>
+            <note xml:id="foot.f2">Dated by the reference to T. H. Huxley 1858 (see n. 3, below).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_2486.xml" resp="#mjhawkins">Thomas Henry Huxley</ref> had read the first part of a paper on parthenogenesis in aphids at a meeting of the <ref target="../nameregs/nameregs_2944.xml" resp="#mjhawkins">Linnean Society</ref> on 5 November 1857 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 6, <ref target="./DCP-LETT-2166.xml" resp="#mjhawkins">letter to T. H. Huxley, [before 12 November 1857]</ref>). The second part, a detailed anatomical study of embryogenesis in aphids, had been read at a meeting on 21 January 1858. The paper was published in the society’s <hi rend="italic">Transactions</hi> (T. H. Huxley 1858).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

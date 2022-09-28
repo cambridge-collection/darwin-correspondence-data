@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4456">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Alfred Newton   7 April 1864</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10232</idno>
+            
+            
+            
+            
+            <date when="2001">2001</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4456 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4456.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4456.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="12">12</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 172: 42</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>172: 42</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3517.xml">Newton, Alfred</persName>
+                <placeName>Magdalene College, Cambridge</placeName>
+                <date when="1864-04-07">7 Apr 1864</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>CD need not worry about having discarded the partridge’s foot.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">partridge</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Magdalene College, | Cambridge.</placeName>
+                    <date>7 April 1864.</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>It seems to me it mattered very little as far as the great question is concerned how the Partridge received the injury. Therefore pray spare your regrets at having thrown away the leg—<ref target="#foot.f1"/> I dare say M<hi rend="superscript">r</hi>. Buckland has “other fish to fry”—or rather hatch—and is sufficiently well occupied.<ref target="#foot.f2"/></p>
+<p>I was very glad to hear from M<hi rend="superscript">r</hi>. Wallace<ref target="#foot.f3"/> a few days ago that your medical attendants were sanguine as to your speedy and complete recovery— That such may be the case is the sincere wish of | Yours very truly | Alfred Newton <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin Esq. F.R.S.</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-4453.xml" resp="#mjhawkins">letter to Alfred Newton, 6 April [1864]</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-4446.xml" resp="#mjhawkins">letter from Alfred Newton, 2 April 1864</ref>. Francis Trevelyan Buckland was studying British salmon fisheries, and had recently published a book titled <hi rend="italic">Fish hatching</hi> (Buckland 1863, <ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref>); see also <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 11, <ref target="./DCP-LETT-3960.xml" resp="#mjhawkins">letter from F. T. Buckland, [before 1 February 1863]</ref> and n. 2.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_4935.xml" resp="#mjhawkins">Alfred Russel Wallace</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

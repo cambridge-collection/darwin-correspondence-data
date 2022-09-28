@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8001">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Osbert Salvin   10 October 1871</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10596</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8001 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8001.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8001.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 177: 21</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>177: 21</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4163.xml">Salvin, Osbert</persName>
+                <placeName>Brompton</placeName>
+                <date when="1871-10-10">10 Oct 1871</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Encloses notes [missing] that he has made for CD on looking through his dried skins of American Anatidae.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Anatidae</term>
+                <term type="places" ref="#">America</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geographical distribution</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">physical ‘external’ characters</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>32 The Grove Boltons | Brompton S.W.</placeName>
+                    <date>10 Oct. 1871</date>
+                    <salute>My dear M<hi rend="superscript">r</hi> Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have looked through my American <hi rend="underline">Anatidæ</hi> as far as dried skins would permit and in the notes I now forward have endeavoured to give you the result.<ref target="#foot.f1"/> I fear these notes will require a <hi rend="underline">Malacorhynchus</hi> at least to sift out the points you wish to investigate but if you think that I can help you further in the matter I shall be only too glad to do my best.<ref target="#foot.f2"/></p>
+<p>An examination of fresh specimens or specimens in spirit would be more satisfactory but such could not be easily obtained. I hardly know how far serviceable characters for classification could be obtained from the lamellæ but so far as I have seen I hardly think they would furnish more than generic characters &amp; in some cases not even them.</p>
+<p>Very truly yours | Osbert Salvin.</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had asked Salvin about the lamellae in the beaks of ducks (see <ref target="./DCP-LETT-7932A.xml" resp="#mjhawkins">letter to Osbert Salvin, 10 September [1871]</ref>, and <ref target="./DCP-LETT-7960.xml" resp="#mjhawkins">letter from Osbert Salvin, 21 September 1871</ref>). In <ref target="../bibliographies/bibl_6019.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 6th ed.</ref>, p. 184, CD mentioned information and specimens sent to him by Salvin. The notes have not been found in the Darwin Archive–CUL.</note>
+            <note xml:id="foot.f2"><hi rend="italic">Malacorhynchus</hi>: a reference to the duck genus mentioned in CD’s <ref target="./DCP-LETT-7932A.xml" resp="#automat" cert="medium">letter to Salvin of 10 September [1871]</ref>, meaning literally ‘soft beak’. The beak strains minute organisms out of water.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

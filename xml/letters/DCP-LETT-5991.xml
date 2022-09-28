@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5991">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. B. Tegetmeier   [5–9 March 1868]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1384</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5991 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5991.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5991.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 148: 50</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Archives of the New York Botanical Garden (Charles Finney Cox Collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_302.xml">NYBG</repository>
+                    <collection>Charles Finney Cox</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Queen Anne St, 6</placeName>
+                <date notBefore="1868-03-05" notAfter="1868-03-09">[5–9 Mar 1868]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4682.xml">Tegetmeier, W. B.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Would like to meet with WBT while in London.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="places" ref="#">London</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">meeting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>6. Queen Anne St | W</placeName>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>It is so long since we met that I am anxious some day soon to have the pleasure of seeing you. On Wednesday we move to “4 Chester Place, Regents’ Park” where we stay for about three weeks.<ref target="#foot.f2"/> Now would not this be nearly in your line of march from Fortis Green to the City &amp; could you call on me &amp; let me hear when that I may be at home.<ref target="#foot.f3"/> If you go in the middle of the day would you come &amp; lunch with us at one o clock.— I am so tired in the evenings that I am afraid of asking anyone to my house.—</p>
+<p>My dear Sir | Yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date range is established by the relationship between this letter and the <ref target="./DCP-LETT-6000.xml" resp="#mjhawkins">letter from W. B. Tegetmeier, 9 March 1868</ref>, and by the reference to moving on Wednesday (see below, n. 2).</note>
+            <note xml:id="foot.f2">CD arrived in London on Tuesday, 3 March 1868, and stayed with his brother, <ref target="../nameregs/nameregs_1211.xml" resp="#mjhawkins">Erasmus Alvey Darwin</ref>; then moved to the house of Sarah Elizabeth Wedgwood on Wednesday 11 March, returning home on 1 April 1868 (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242)).</note>
+            <note xml:id="foot.f3">Tegetmeier’s home address was Fortis Green, Finchley (see <ref target="./DCP-LETT-6000.xml" resp="#mjhawkins">letter from W. B. Tegetmeier, 9 March 1868</ref>). The offices of the <hi rend="italic">Field</hi> were at 346 Strand, London (<ref target="../bibliographies/bibl_6380.xml" resp="#mjhawkins"><hi rend="italic">Post Office London directory</hi></ref> 1868).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

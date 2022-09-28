@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-4467" status="released">
+    <persName>
+        <forename>Mary</forename>
+        <choice>
+            <seg><surname notBefore="1780" notAfter="1804">Fairfax</surname></seg>
+            <seg><surname notBefore="1804" notAfter="1812">Greig</surname></seg>
+            <seg><surname notBefore="1812" notAfter="1872">Somerville</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1780–1872</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Writer on science and mathematics. Author of a condensed English version of Laplace’s <hi rend="italic">Mécanique céleste</hi> (1831), and of <hi rend="italic">On the connexion of the physical sciences</hi> (1834). Advocate of higher education for women and women’s suffrage.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_467.xml" resp="#mjhawkins"><hi rend="italic">BDWS</hi></ref></p>
+        <p><ref target="../bibliographies/bibl_2160.xml" resp="#mjhawkins"><hi rend="italic">DSB</hi></ref></p>
+        <p><ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref>.</p>
+    </note>
+    <note type="volume">1,4,14,17,18,22,WSL,27</note>
+    <note type="keywords">
+        <term type="l">Scientific and mathematical expositor </term>
+    </note>
+</person>

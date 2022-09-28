@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-399A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Richard Owen    [January 1838]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20737</idno>
+            
+            
+            
+            
+            <date when="1992">1992</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-399A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-399A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-399A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="07">7-Supplement</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 7: 467</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Kenneth W. Rendell (dealer) (1990)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_351.xml">Rendell, Kenneth W. (dealer)</repository>
+                    <collection>1990</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Gt Marlborough St, 36</placeName>
+                <date notBefore="1838-01-01" notAfter="1838-01-31">[Jan 1838]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3629.xml">Owen, Richard</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Would like to call upon RO to discuss the last engravings sent by George Scharf. CD assumes that the revise of <hi rend="italic">Toxodon</hi> [see <hi rend="doubleUnderline">395</hi>] was received.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>36 Grt. Marlbro’ St</placeName>
+                    <date>Wednesday</date>
+                    <salute>My dear Owen</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I called yesterday in hopes of being able to see you, and of finding you quite well again.—<ref target="#foot.f2"/></p>
+<p>I want to speak to you about the last engravings which Scharf has sent.—<ref target="#foot.f3"/> I suppose you received the revise of Toxodon.— What an unlucky affair the failure of the big head was.—<ref target="#foot.f4"/> It will be well if the first number is out by the 1<hi rend="superscript">st</hi> of Feb. but I hope it will be.—</p>
+<p>I want to know whether you will be at home between two and half after this day if I call.— Will you send me word by the Bearer.</p>
+<p>I name this hour for at 3<hi rend="superscript">o</hi>. I am engaged at Geolog. Soc. and before I have M<hi rend="superscript">r</hi> Sowerby, who is beginning to go through my fossil shells—<ref target="#foot.f5"/></p>
+<p>Ever Yours | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.1 you, and] ‘, and’ <hi rend="italic">over</hi> ‘—’</note>
+                    <note xml:id="tnote.n2">3.2 by] <hi rend="italic">over</hi> ‘—’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the relationship to the letters to <ref target="../nameregs/nameregs_3629.xml" resp="#mjhawkins">Richard Owen</ref>, [28 December 1837] and 28 [December 1837] (<hi rend="italic">Correspondence</hi> vol. 2).</note>
+            <note xml:id="foot.f2">Owen was describing the fossil mammals CD brought back from the <hi rend="italic">Beagle</hi> voyage. <hi rend="italic">Fossil Mammalia</hi>, part 1 of <hi rend="italic">Zoology</hi>, was published early in February 1838.</note>
+            <note xml:id="foot.f3">The lithographer <ref target="../nameregs/nameregs_4203.xml" resp="#mjhawkins">George Scharf</ref> prepared the engravings for <hi rend="italic">Fossil Mammalia</hi>.</note>
+            <note xml:id="foot.f4">See <hi rend="italic">Correspondence</hi> vol. 2, <ref target="./DCP-LETT-396.xml" resp="#mjhawkins">letter to Richard Owen, [28 December 1837]</ref>.</note>
+            <note xml:id="foot.f5">George Brettingham Sowerby described the fossil shells from the <hi rend="italic">Beagle</hi> voyage.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

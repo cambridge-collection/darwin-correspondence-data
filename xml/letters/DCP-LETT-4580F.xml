@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4580F">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To ?   1 August [1864 or 1865]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">21271</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4580F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4580F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4580F.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18-Supplement</biblScope>
+        </seriesStmt>
+        
+        <sourceDesc>
+            <bibl type="provenance">Muséum national d’histoire naturelle, Bibliothèque de Botanique, Paris (Ms CRY 493, fol. 637)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_273.xml">MNHN Botanique</repository>
+                    <idno>Ms CRY 493, fol. 637</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+            <date xml:id="date1" when="1864-08-01" exclude="#date2">1 Aug 1864</date>
+            <date xml:id="date2" when="1865-08-01" exclude="#date1">1 Aug 1865</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_9999.xml">Unidentified</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sends a photograph of himself.</p>
+        </abstract>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Augt 1<hi rend="superscript">st</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I enclose with much pleasure my photograph made by my son, for I have no other.<ref target="#foot.f2"/> I shall be very glad to receive yours, if you will be so good as to send me one</p>
+<p>My dear sir | Yours sincerely | Charles Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to the photograph (see n. 2, below).</note>
+            <note xml:id="foot.f2">CD refers to a photograph taken by his eldest son, <ref target="../nameregs/nameregs_1245.xml" resp="#mjhawkins">William Erasmus Darwin</ref> in the spring of 1864 (see <hi rend="italic">Correspondence</hi> vol. 12, <ref target="./DCP-LETT-4502.xml" resp="#mjhawkins">letter from W. E. Darwin, [19 May 1864]</ref> and n. 8). It is reproduced as the frontispiece to <hi rend="italic">Correspondence</hi> vol. 12. CD’s next photograph was probably taken in November 1865 (see <hi rend="italic">Correspondence</hi> vol. 13, <ref target="" resp="#automat">letter from E. A. Darwin to Emma Darwin 25 [November 1865]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

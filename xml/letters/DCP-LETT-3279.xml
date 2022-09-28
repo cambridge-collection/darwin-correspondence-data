@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3279">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Daniel Oliver   8 October [1861]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">2831</idno>
+            
+            
+            
+            
+            <date when="1994">1994</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3279 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3279.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3279.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="09">9</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 261.10: 31 (EH 88206014)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>261.10: 31 (EH 88206014)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1861-10-08">8 Oct [1861]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3589.xml">Oliver, Daniel</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Asks DO to look for nectar in <hi rend="italic">Stanhopea saccata</hi> labellum. CD’s theory predicts nectar should be present, but afraid there is none.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Stanhopea saccata</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">nectar</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Oct 8<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am perfectly ashamed to trouble Hooker again.— Would you have kindness to look at well-opened flower of Stanhopea saccata &amp; see whether any nectar is in hollowed out base or cup of Labellum; or in other species of Stanhopea, if they have hollowed out base or cup to Labellum.—</p>
+<p>I have particular reason to enquire; but I daresay the plant will have none, though it <hi rend="underline">ought</hi> to have some.—<ref target="#foot.f2"/> But Nature, as Agassiz says, does not lie,<ref target="#foot.f3"/> &amp; therefore it must have nectar,—else a theory of mine is wrong which is clearly impossible!—</p>
+<p>In Haste | Ever yours | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 well-opened flower of] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">1.2 nectar is] ‘is’ <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n3">1.3 or cup] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n4">1.4 base] <hi rend="italic">after del</hi> ‘ba’</note>
+                    <note xml:id="tnote.n5">1.4 cup] <hi rend="italic">above del</hi> ‘cup’</note>
+                    <note xml:id="tnote.n6">2.3 a theory] ‘a’ <hi rend="italic">above del</hi> ‘my’</note>
+                    <note xml:id="tnote.n7">2.3 of mine] <hi rend="italic">interl</hi></note>
+                </div>
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is given by the relationship to the <ref target="./DCP-LETT-3277.xml" resp="#mjhawkins">letter to J. D. Hooker, 6–7 October [1861]</ref> and to the <ref target="./DCP-LETT-3285.xml" resp="#mjhawkins">letter to J. D. Hooker, 13 October [1861]</ref>.</note>
+            <note xml:id="foot.f2">The idea that <hi rend="italic">Stanhopea</hi> flowers ‘<hi rend="italic">ought</hi>’ to have nectar in the base of the labellum is explained in <ref target="../bibliographies/bibl_6010.xml" resp="#mjhawkins"><hi rend="italic">Orchids</hi></ref>, pp. 282–3: ‘As in Epipactis the cup at the base of the labellum serves as a nectar-receptacle, I expected to find that the analogous cup in Stanhopea, Acropera, &amp;c., would serve for the same purpose; but I never could find a drop of nectar in it.’</note>
+            <note xml:id="foot.f3">CD was fond of quoting this aphorism attributed to <ref target="../nameregs/nameregs_43.xml" resp="#mjhawkins">Louis Agassiz</ref>. See, for example, <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 6, <ref target="./DCP-LETT-2034.xml" resp="#mjhawkins">letter to Asa Gray, 1 January [1857]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

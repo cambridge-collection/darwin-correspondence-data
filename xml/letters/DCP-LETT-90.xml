@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-90">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From George Simpson   [26] January [1831]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">5099</idno>
+            
+            
+            
+            
+            <date when="1985">1985</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-90 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-90.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-90.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="01">1</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <note type="postmark">A 26 JA 26 1831</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 204: 41</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>204: 41</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4363.xml">Simpson, George</persName>
+                <placeName>Feversham</placeName>
+                <date when="1831-01-26">[26] Jan [1831]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Congratulates CD on his "very very good degree". Asks about friends; wishes him well.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="societal" ref="#">degree</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Feversham</placeName>
+                    <date>Jan<hi rend="superscript">y</hi>.</date>
+                    <salute>Dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I write to thank you for the Paper, &amp; at the same time to congratulate you on your <hi rend="underline">very very good degree</hi>, tho I must say I should have been disapointed had you not been a leading man, knowing your predilection for Mathematicks.<ref target="#foot.f1"/> I have just this moment returned from a Fox chase, we found in a nice place for a Tally, &amp; ran very well til after the first check when Scent would not alow of more sport. I have witnessed a few very pretty things in the hunting way this year, but I begin to think of studying divinity which is more profitable to the soul than field sports. I am almost afraid to inquire whether Lumsley Hodgson<ref target="#foot.f2"/> has passed as I can not find his name. I hope you will not get so very drunk but that you can find time to tell me a little of your future prospects, I suppose you will shortly look out for a partner for your future Vicarage, as well as a pretty patern for <hi rend="underline">nightcaps</hi>. You have to keep another term I think, and as you will be to &amp; fro to London do let me have the pleasure of seeing you before you return for good to Shrewsbury, which is an awful distance from Feversham.<ref target="#foot.f3"/> The disturbances in our neighbouhood<ref target="#foot.f4"/> are quite gone, however my Brother has thought fit to enlist in the Yeoman troops, in order to put some of them to the rout in case of necessity. I hope you did not forget to give my general invitation to Fox. I always was particularly partial to him, and hope at some time to view him again. What sort of a Master does Graham make<ref target="#foot.f5"/></p>
+<p>I have no news to tell you, but I shall expect to hear from you at <hi rend="underline">some</hi> time and with my best wishes for your future welfare, &amp; good choice of a Wife believe me to | Remain sincerely Your’s | Geo. Simpson</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD was notoriously weak in mathematics, except geometry. See <ref target="./DCP-LETT-45.xml" resp="#mjhawkins">letter to W. D. Fox, [29 July 1828]</ref>, n. 1.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_2318.xml" resp="#mjhawkins">Nathaniel Thomas Lumley Hodgson</ref>.</note>
+            <note xml:id="foot.f3">Now called Faversham, in Kent.</note>
+            <note xml:id="foot.f4">During the winter of 1830 field labourers in the counties south of the Thames demonstrated and rioted for higher wages. See <ref target="../bibliographies/bibl_7813.xml" resp="#mjhawkins">Trevelyan 1942</ref>, p. 471.</note>
+            <note xml:id="foot.f5"><ref target="../nameregs/nameregs_1943.xml">John Graham</ref> was elected Master of Christ’s College in 1830.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

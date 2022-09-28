@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11520">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To <hi rend="italic">Nature</hi>   [21? May 1878]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8061A</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11520 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11520.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11520.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Collected papers</hi> 2: 214</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance"><hi rend="italic">Nature</hi>, 30 May 1878, pp. 120–1</bibl>
+            <bibl type="printedSource">Nature 18 1878: 120</bibl>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1878-05-21">[21? May 1878]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3491.xml">Nature</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>CD’s letter on wide distribution of freshwater plants and animals introduces a letter to him from Arthur H. Gray [see <hi rend="doubleUnderline">11497</hi>].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="b" ref="#">11497</term>
+                <term type="animals" ref="#">freshwater animals</term>
+                <term type="plants" ref="#">freshwater plants</term>
+                <term type="people" ref="#subject_1956">Gray, A. H.</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">wide-ranging or mundane forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Down.]</placeName>
+                </opener>
+                <div type="transcription">
+                     <ab rend="centre" type="head">Transplantation of shells</ab>
+                    <p>It is well known that animals and plants inhabiting freshwater have, as a general rule, a very wide distribution; yet each river system, with all the pools and lakes in connection with it, seems completely cut off from every other system of the same country. Still more complete is the separation between the freshwaters of distinct continents or of islands; nevertheless they often possess freshwater species in common. In my “Origin of Species” I have suggested various means of transportal;<ref target="#foot.f2"/> but as few facts on this head are positively known, the case given in the adjoined letter of a living Unio, which had caught one of the toes of a duck’s foot between its valves, and was secured in the act of being transported, seems to me well worth recording.<ref target="#foot.f3"/></p>
+                    <p><hi rend="smallCaps">charles darwin</hi></p>
+ 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is conjectured from the relationship between this letter and the <ref target="./DCP-LETT-11522A.xml">letter to J. N. Lockyer, 21 May [1878]</ref>. This letter may have been enclosed in the <ref target="./DCP-LETT-11522A.xml">letter to J. N. Lockyer, 21 May [1878]</ref>; alternatively, Lockyer may have asked CD later to write an introduction to the <ref target="./DCP-LETT-11497.xml">letter from A. F. Gray, 8 May [1878]</ref>, but no other correspondence on the subject has been found.</note>
+            <note xml:id="foot.f2">See <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>, pp. 383–88.</note>
+            <note xml:id="foot.f3">CD enclosed the <ref target="./DCP-LETT-11497.xml">letter from A. F. Gray, 8 May [1878]</ref>. Gray had sent a sketch of a freshwater mussel, <hi rend="italic">Unio complanatus</hi> (a synonym of <hi rend="italic">Elliptio complanata</hi>, eastern elliptio), attached to the foot of a duck.</note>
+        </div> 
+     
+    </body>
+    </text>
+</TEI>

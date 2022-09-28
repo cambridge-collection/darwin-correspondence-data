@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6978">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Murray   8 November [1869]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9543</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6978 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6978.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6978.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">AL</note>
+            <note type="physdesc">AL 2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 373</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 373</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3463.xml">Murray, John (b)</persName>
+                <placeName>London, Albemarle St, 50</placeName>
+                <date when="1869-11-08">8 Nov [1869]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>JM advises CD regarding his relations with Masson, the French publisher of the <hi rend="italic">Origin</hi> [1866], and the possibility of Reinwald’s publishing a translation of the 5th edition.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Origin</term>
+                <term type="people" ref="#subject_3215">Masson, Victor</term>
+                <term type="people" ref="#subject_3970">Reinwald, C.-F.</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">50, Albemarle S<hi rend="superscript">t</hi>. | W.</hi></placeName>
+                    <date>Nov<hi rend="superscript">r</hi> 8<hi rend="superscript">th</hi></date>
+                    <salute>My Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have no recollection of my having taken any part in the arrangement with Masson for the French Translation of the Origin, beyond that of securing for you the copyright in France &amp; depositing a copy. Nor is any trace beyond this, to be found in my books—<ref target="#foot.f2"/></p>
+<p>Unless you received money from Masson, &amp; signed some Document it seems to me there is nothing to bind you.</p>
+<p>As regards any transfer of your rights to Reinwald—in the Fifth Edition, I fear they have fallen through—because the three months prescribed for registry after publication of this Ed<hi rend="superscript">n</hi> have lapsed, now some time<ref target="#foot.f3"/></p>
+<p>Still this need not prevent Reinwald publishing, if you have not arranged with Masson as aforesaid: The lapse of time w<hi rend="superscript">d</hi> now allow Masson to translate even the additions to the 5<hi rend="superscript">th</hi>. Ed<hi rend="superscript">n</hi>. I suspect—<ref target="#foot.f4"/> <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Chas Darwin Esq<hi rend="superscript">re</hi></p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-6977.xml" resp="#mjhawkins">letter to John Murray, 8 November [1869]</ref>.</note>
+            <note xml:id="foot.f2">The only extant correspondence between Murray and CD regarding the French translation of <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref> is CD’s request to have a copy of the third edition sent to <ref target="../nameregs/nameregs_4113.xml" resp="#mjhawkins">Clémence Auguste Royer</ref> in September 1861 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 9, <ref target="./DCP-LETT-3250.xml" resp="#mjhawkins">letter to John Murray, 10 September [1861]</ref>). <ref target="../nameregs/nameregs_3215.xml" resp="#mjhawkins">Victor Masson</ref> was one of the publishers of Royer trans. 1862 and 1866, and the sole publisher of Royer trans. 1870.</note>
+            <note xml:id="foot.f3">Murray evidently refers to practices resulting from the International Copyright Act of 1852; see <ref target="../bibliographies/bibl_5920.xml" resp="#mjhawkins">Nowell-Smith 1968</ref>, pp. 32–3. The fifth edition of <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref> was published in June 1869 (<ref target="./DCP-LETT-6794.xml" resp="#mjhawkins">letter from R. F. Cooke, 22 June 1869</ref>). Murray refers to <ref target="../nameregs/nameregs_3970.xml" resp="#mjhawkins">Charles-Ferdinand Reinwald</ref>.</note>
+            <note xml:id="foot.f4">Reinwald eventually published Jean Jacques Moulinié’s translation of the fifth edition (Moulinié trans. 1873).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

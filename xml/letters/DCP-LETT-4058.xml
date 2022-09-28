@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4058">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To an editor<ref target="#foot.f1"/>   24 March [1863?]<ref target="#foot.f2"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">2755</idno>
+            
+            
+            
+            
+            <date when="1999">1999</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4058 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4058.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4058.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="11">11</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp (photocopy)</note>
+            <relatedItem type="publication">
+                <bibl>H. F. Jones (1919) 1: 100</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 11: 256</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Canterbury Museum, Christchurch, New Zealand</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_80.xml">Canterbury</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1863-03-24">24 Mar [1863?]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_9999.xml">Unknown</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Encloses a dialogue on species from a New Zealand newspaper [S. Butler’s First dialogue on evolution, from the <hi rend="italic">Christchurch Press</hi>].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Christchurch Press</term>
+                <term type="it" ref="#">First dialogue on evolution</term>
+                <term type="people" ref="#subject_774">Butler, Samuel (b)</term>
+                <term type="places" ref="#">New Zealand</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">species, speciation</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+                <term type="scientific_terms" ref="#">transmutation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>March 24<hi rend="superscript">th</hi></date>
+                    <salute><hi rend="print">Private</hi></salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>M<hi rend="superscript">r</hi>. Darwin takes the liberty to send by this post to the Editor a New Zealand newspaper for the very improbable chance of the Editor having some time spare space to reprint a Dialogue on Species. This Dialogue, written by some quite unknown to M<hi rend="superscript">r</hi>. Darwin, is remarkable from its spirit &amp; from giving so clear &amp; accurate a view of Mr. D<hi rend="superscript">s</hi>. theory.—<ref target="#foot.f3"/> It is, also, remarkable from being published in a Colony exactly 12 years old, in which, it might have thought, only material interests would have been regarded.—<ref target="#foot.f4"/></p>
+<p>Yours Obediently | Ch. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.4 &amp; accurate 1.5] <hi rend="italic">interl</hi></note>
+                </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The editor and journal to which CD sent this letter have not been identified; however, in 1911, this letter was discovered among the papers of <ref target="../nameregs/nameregs_3034.xml" resp="#mjhawkins">John Malcolm Forbes Ludlow</ref>, a Christian socialist with an extensive acquaintance (<ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref>; see ‘Samuel Butler’s lost dialogue’, <hi rend="italic">Press</hi>, 1 June 1912). See also n. 3, below.</note>
+            <note xml:id="foot.f2">The year is conjectured from the reference to Samuel Butler’s article (see n. 3, below).</note>
+            <note xml:id="foot.f3">CD refers to Butler’s anonymous article entitled ‘Darwin on the origin of species: a dialogue’, which was published in the <hi rend="italic">Press</hi> of Christchurch, New Zealand, on 20 December 1862. The article, which was Butler’s first published statement on evolution, presented a sympathetic exposition of CD’s theory in dialogue form. It caused some controversy, and Butler wrote several letters to the newspaper in defence of his earlier piece, which are reproduced together with the original article in <ref target="../bibliographies/bibl_1143.xml" resp="#mjhawkins">S. Butler 1923</ref>, pp. 188–207. CD had been sent a copy of the article anonymously, and thought that it might have been written by <ref target="../nameregs/nameregs_2039.xml" resp="#mjhawkins">Julius von Haast</ref> (see <ref target="./DCP-LETT-4245.xml" resp="#mjhawkins">letter to Julius von Haast, 18 July [1863]</ref>); Haast apparently informed CD of the true identity of the author (see <ref target="./DCP-LETT-4351.xml" resp="#mjhawkins">letter from Emma Darwin to J. D. Hooker, [7 December 1863]</ref>). There is an annotated copy of the article in CD’s Scrapbook of reviews (DAR 226.1: 131–2), identifying Butler as the author. The article was apparently not reprinted in any contemporary journal (see <ref target="../bibliographies/bibl_3362.xml" resp="#mjhawkins">Harkness 1955</ref>).</note>
+            <note xml:id="foot.f4">New Zealand became a British colony in May 1841, and was governed as a Crown Colony until 1852, when the New Zealand Constitution Act established a General Assembly. CD may refer to the formation in 1850 of the Canterbury Settlement (of which Christchurch was the main town) by the New Zealand Company. See <ref target="../bibliographies/bibl_2724.xml" resp="#mjhawkins">Gardner 1992</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

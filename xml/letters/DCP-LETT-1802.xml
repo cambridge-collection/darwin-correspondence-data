@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1802">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To <hi rend="italic">Gardeners’ Chronicle</hi>   [before 29 December 1855]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">15615</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1802 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1802.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1802.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Collected papers</hi> 1: 263</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 5: 532</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance"><hi rend="italic">Gardeners’ Chronicle and Agricultural Gazette</hi>, no. 52, 29 December 1855, p. 854</bibl>
+            <bibl type="printedSource">Gard. Chron. 1855: 854</bibl>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>unstated</placeName>
+                <date notBefore="1809-01-01" notAfter="1855-12-28">[before 29 Dec 1855]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1808.xml">Gardeners’ Chronicle</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Cites [from Gärtner’s <hi rend="italic">Bastarderzeugung</hi> (1849), p. 157] a report that seeds from graves of ancient Gauls germinated.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="human_group" ref="#">Gauls</term>
+                <term type="it" ref="#">Bastarderzeugung</term>
+                <term type="rx" ref="#">Gärtner, K. F. von 1849</term>
+                <term type="scientific_terms" ref="#">fertilisation and generation</term>
+                <term type="scientific_terms" ref="#">historical time</term>
+                <term type="scientific_terms" ref="#">seeds</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+<p>As you have lately published such full and interesting details on the case of the long entombed Raspberry seeds,<ref target="#foot.f1"/> you may like to hear that a somewhat similar instance has been observed on the Continent. Gærtner (Versuche über die Bastarderzeugung, s. 157)<ref target="#foot.f2"/> states on the authority of Jouannot that seeds from the graves of ancient Gauls, of the date of the introduction of Christianity (probably at the time of Clodowig in the third or fourth century A.D.) germinated and produced Heliotropium vulgare, Centaurea cyanus, and Trifolium minimum. Gærtner gives, as reference, Froriep Notizen, B. XLIII., No. 946, p. 348. It seems that no known botanist looked to the correctness of these names. <hi rend="italic">C. Darwin</hi>.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1"><hi rend="italic">Gardeners’ Chronicle and Agricultural Gazette</hi>, no. 45, 10 November 1855, pp. 739–40.</note>
+            <note xml:id="foot.f2"><ref target="../bibliographies/bibl_2736.xml" resp="#mjhawkins">Gärtner 1849</ref>, pp. 157–8. The notice in <hi rend="italic">Notizen aus dem Gebiete der Natur- und Heilkunde</hi>, no. 946, March 1835, p. 346, cites <ref target="../nameregs/nameregs_4861.xml" resp="#mjhawkins">François René Bénit Vatar de Jouannet</ref> as the source.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

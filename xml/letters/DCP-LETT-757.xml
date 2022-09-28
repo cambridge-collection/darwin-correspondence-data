@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-757">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Ernst Dieffenbach   11 June [1844]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1822</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-757 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-757.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-757.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">J. A. Stargardt (dealers) Cat. 574 1965.11.11–13</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_399.xml">Stargardt</repository>
+                    <idno>Cat. 574 1965.11.11–13</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1844-06-11">11 June [1844]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1322.xml">Dieffenbach, Ernst</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>About the researches of Ehrenberg. "I have … sent him several packets of objects from my voyage &amp; that of Dr. Hooker".</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1480">Ehrenberg, C. G.</term>
+                <term type="people" ref="#subject_2357">Hooker, J. D.</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+<p>[Concerning the researches of C. G. Ehrenberg.] ‘… I have … sent him several packets of objects from my voyage &amp; that of Dr. Hooker …’<ref target="#foot.f2"/></p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Date taken from the Stargardt catalogue.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-747.xml" resp="#automat">letter to C. G. Ehrenberg, 20 April [1844]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

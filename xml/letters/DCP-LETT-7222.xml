@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7222">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Robert Cecil   7 June 1870</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10607</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7222 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7222.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7222.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 177: 8</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>177: 8</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName>Salisbury, 3d Marquis of</persName>
+                <placeName>Hatfield House</placeName>
+                <date when="1870-06-07">7 June 1870</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Informs CD that Oxford proposes to confer an honorary degree upon him.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">honorary D.C.L.</term>
+                <term type="societal" ref="#">University of Oxford</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Hatfield House, | Hatfield, | Herts.</hi></placeName>
+                    <date>June. 7. 1870.</date>
+                    <salute>Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>It is my pleasing duty to inform you that the University of Oxford proposes to express its deep admiration for your great achievements in the field of Natural Science, by conferring upon you an Honorary Degree at the approaching Commemoration.</p>
+<p>I trust that it will not be disagreeable to you to accept this token of their esteem: &amp; that you will be able to be present in the theatre for that purpose.<ref target="#foot.f1"/></p>
+<p>The degree will be conferred on the morning of Tuesday June the 21<hi rend="superscript">st</hi>. The ceremony will be over before one.</p>
+<p>I am | Your obedient Servant | Salisbury.<ref target="#foot.f2"/></p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Cecil refers to the Sheldonian Theatre in Oxford; it was built to provide a secular venue for meetings and ceremonies of the University of Oxford. CD declined on the grounds of ill health; see <ref target="../bibliographies/bibl_4842.xml" resp="#mjhawkins"><hi rend="italic">LL</hi></ref> 3: 126 n. <ref target="../nameregs/nameregs_6170.xml" resp="#mjhawkins">Henry Parry Liddon</ref> later proposed that the degree be awarded <hi rend="italic">in absentia</hi>, but the vote to do so was tied and not passed. See <ref target="../bibliographies/bibl_996.xml" resp="#mjhawkins">Browne 2002</ref>, pp. 337–9.</note>
+            <note xml:id="foot.f2">Cecil was the marquess of Salisbury, and chancellor of Oxford University.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

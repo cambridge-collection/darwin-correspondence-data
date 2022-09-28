@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-2022" status="released">
+    <persName>
+        <forename>Harriet</forename>
+        <choice>
+            <seg><surname notBefore="1806" notAfter="1830">Turner</surname></seg>
+            <seg><surname notBefore="1830" notAfter="1869">Gunn</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1806–69</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of Dawson Turner, banker, of Yarmouth, Norfolk. Married John Gunn in 1830. Sister of Maria Hooker, and aunt of Joseph Dalton Hooker.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_117.xml" resp="#mjhawkins">Allan 1967</ref> s.v. "Hooker pedigree"</p>
+        <p><ref target="../bibliographies/bibl_3990.xml">L. Huxley ed. 1918</ref>, 1: 18–19.</p>
+    </note>
+    <note type="volume">11</note>
+    <note type="keywords">
+        <term type="name">Turner, Dawson</term>
+        <term type="name">banker</term>
+        <term type="name">Gunn, John</term>
+        <term type="name">Hooker, J. D.</term>
+        <term type="place">Yarmouth</term>
+        <term type="place">Norfolk</term>
+    </note>
+</person>

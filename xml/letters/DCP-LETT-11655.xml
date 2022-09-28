@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-11655">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To ?   13 August 1878</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8071</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-11655 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11655.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-11655.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="26">26</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Houghton Library, Harvard University (Autograph File, D)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_180.xml">Harvard Houghton</repository>
+                    <collection>Autograph File, D</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Abinger Hall Down letterhead</placeName>
+                <date when="1878-08-13">13 Aug 1878</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_9999.xml">Unidentified</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Cannot help with correspondent’s study. CD has a poor ear for music. Recommends Helmholtz’s work.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_2207">Helmholtz, Hermann von</term>
+                <term type="scientific_terms" ref="#">communication</term>
+                <term type="scientific_terms" ref="#">expression, emotion</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">perception and sensation</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi> | (<hi rend="print">Railway Station | Orpington. S.E.R.</hi>) [Abinger Hall, Surrey.]</placeName>
+                    <date>Aug. 13<hi rend="superscript">th</hi> 1878</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>The subject which you have taken up seems to me an extremely interesting, but I fear difficult one.— I am sorry to say that I can give you no aid whatever, for my ear is singularly deficient in any power of distinguishing musical sounds; so much so that it is a mystery to me how I can take any pleasure in Music.— I presume that you have of course studied Helmholtz’s works.—<ref target="#foot.f1"/> I remember that the musical notation of the song of a Hesperomys or mouse was given in the American Naturalist, a few years ago.—<ref target="#foot.f2"/></p>
+<p>Dear Sir | Yours faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.2 my] <hi rend="italic">after del</hi> ‘I’ </note>
+            </div>
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The letter to which this is a reply has not been found. <ref target="../nameregs/nameregs_2207.xml" resp="#mjhawkins">Hermann von Helmholtz</ref> had written on musical perception in <hi rend="italic">Die Lehre von den Tonempfindungen als physiologische Grundlage für die Theorie der Musik</hi> (The science of sound perception as the physiological basis for a theory of music; <ref target="../bibliographies/bibl_3503.xml" resp="#mjhawkins">Helmholtz 1863</ref>). CD had cited the French translation of this work (Helmholtz 1868) in <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref>, <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref>, and <ref target="../bibliographies/bibl_1967.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi> 2d ed.</ref></note>
+            <note xml:id="foot.f2"><hi rend="italic">Hesperomys</hi> is a former genus of American mice roughly equivalent to the genus <hi rend="italic">Calomys</hi> (vesper mice). An article, ‘A singing <hi rend="italic">Hesperomys</hi>’, published in <hi rend="italic">American Naturalist</hi> in December 1871, described the musical ability of <hi rend="italic">Hesperomys cognatus</hi> (a synonym of <hi rend="italic">Peromyscus gossypinus</hi>, cotton mouse) and included the musical notation for two of its common songs (<ref target="../bibliographies/bibl_10492.xml" resp="#mjhawkins">Lockwood 1871</ref>, p. 764).</note>
+        </div>    
+        
+    </body>
+    </text>
+</TEI>

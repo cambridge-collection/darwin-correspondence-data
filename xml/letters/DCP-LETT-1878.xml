@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1878">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To T. H. Huxley   27 May [1856]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3329</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1878 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1878.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1878.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 145: 165</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Imperial College of Science, Technology, and Medicine Archives (Huxley 5: 174)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_192.xml">Imperial College</repository>
+                    <idno>Huxley 5: 174</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1856-05-27">27 May [1856]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2486.xml">Huxley, T. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Has written very strong notes to Lord Overstone and Sir J. W. Lubbock and hopes they will be of service to THH.</p>
+            <p>Acknowledges receipt of THH’s lecture [unidentified].</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_3025">Lubbock, J. W. (b)</term>
+                <term type="people" ref="#">Overstone, Lord</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>May 27<hi rend="superscript">th</hi></date>
+                    <salute>My dear Huxley</salute>
+                </opener>
+                <div type="transcription">
+<p>I have just written &amp; will post tomorrow two very strong notes to L<hi rend="superscript">d</hi> Overstone &amp; Sir J. Lubbock, &amp; I shall be heartily glad if they are of the least service to you.—<ref target="#foot.f2"/></p>
+<p>I have this morning received your Lecture,<ref target="#foot.f3"/> but have not had time yet to look at it.</p>
+<p>Your’s most truly | C. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the relationship to the <ref target="./DCP-LETT-1877.xml" resp="#mjhawkins">letter to J. W. Lubbock, 27 May [1856]</ref>. Both letters relate to Huxley’s application for the position of examiner in physiology and comparative anatomy at London University, which fell vacant in 1856.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_3017.xml" resp="#mjhawkins">Samuel Jones Loyd</ref>, Baron Overstone, was a member of the senate of London University (<ref target="../bibliographies/bibl_3385.xml" resp="#mjhawkins">Harte 1986</ref>, p. 125). John William Lubbock, who had been the university’s first vice-chancellor, 1836–42, was also a member of the senate (<ref target="../bibliographies/bibl_3385.xml" resp="#mjhawkins">Harte 1986</ref>, p. 83).</note>
+            <note xml:id="foot.f3">Probably the third of Huxley’s lectures on general natural history (<ref target="../bibliographies/bibl_4003.xml" resp="#mjhawkins">T. H. Huxley 1856–7</ref>), published on 24 May 1856. CD had already received the first two lectures (see <ref target="./DCP-LETT-1876.xml" resp="#mjhawkins">letter to J. D. Hooker, 21 [May 1856]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9449">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To William Crookes   9 May [1874]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1570</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9449 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9449.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9449.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Cleveland Health Sciences Library (Robert M. Stecher collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_93.xml">Cleveland</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1874-05-09">9 May [1874]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1132.xml">Crookes, William</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Regrets he cannot comply with request because of his work and poor health.</p>
+            <p>Delighted to have seen correspondent’s "wonderful experiment" at Royal Society.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin himself, bad or deteriorating</term>
+                <term type="people" ref="#subject_1820">Crookes, William</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="societal" ref="#">Royal Society of London</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>May 9<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>It would give me much pleasure to comply with your request, but I have so much to do &amp; my health is so weak that I really cannot.— I make it a rule, which I rarely break, to stick to whatever I have in hand, &amp; always repent whenever I break this rule.—<ref target="#foot.f2"/></p>
+<p>I was delighted at the chance of seeing your wonderful experiment at the Royal Soc. the other night—<ref target="#foot.f3"/></p>
+<p>Pray believe me | Yours very faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the stationery, which is of a sort that CD used between 1872 and 1874, and by the fact that only in 1874 had CD made a recent visit to London.</note>
+            <note xml:id="foot.f2">Crookes’s request has not been identified.</note>
+            <note xml:id="foot.f3">At a soirée of the <ref target="../nameregs/nameregs_4110.xml" resp="#mjhawkins">Royal Society of London</ref> on 22 April 1874, experiments showing attraction and repulsion accompanying radiation were staged in illustration of a paper by Crookes (<ref target="../bibliographies/bibl_1665.xml" resp="#mjhawkins">Crookes 1873</ref>; soirée programme; see also <ref target="./DCP-LETT-9425.xml" resp="#mjhawkins">letter to Michael Foster, 23 April [1874]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

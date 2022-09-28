@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8740">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To James Paget   18 January [1873]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3749</idno>
+            
+            
+            
+            
+            <date when="2014">2014</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8740 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8740.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8740.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="21">21</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 147: 236</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl>Paget (1901): 287</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Smithsonian Libraries and Archives (Dibner Library of the History of Science and Technology MSS 405 A. Gift of the Burndy Library)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_393.xml">Smithsonian</repository>
+                    <collection>Dibner</collection>
+                    <idno>MSS 405 A Burndy</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1873-01-18">18 Jan [1873]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3643.xml">Paget, James</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>JP’s note [<hi rend="doubleUnderline">8739</hi>] suggests reversion, but that is an easy trap. Will look to the ears of "our brethren at the Zool. Gardens".</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="b" ref="#">8739</term>
+                <term type="places" ref="#">Zool. Gardens</term>
+                <term type="scientific_terms" ref="#">confinement, captivity</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">physical ‘external’ characters</term>
+                <term type="scientific_terms" ref="#">reversion</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>Jan. 18<hi rend="superscript">th</hi></date>
+                    <salute>My dear Paget</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Very many thanks for your note.<ref target="#foot.f2"/> One is led at once to suspect reversion, though that is an easy &amp; tempting to trap to fall into. Your sketch has called up a fairly vivid recollection in my mind of a gentleman (M.P. for Shropshire) with whom I used as a boy often to shoot, &amp; who had ears such as you describe.—<ref target="#foot.f3"/> I must look to the ears of our brethren in the Zool. Gardens.—</p>
+<p>Yours very sincerely | Ch Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.3 in my mind] <hi rend="italic">interl</hi> </note>
+                <note xml:id="tnote.n2">1.3 as a boy 1.4] <hi rend="italic">interl</hi> </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-8739.xml" resp="#mjhawkins">letter from James Paget, 17 January 1873</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-8739.xml" resp="#mjhawkins">letter from James Paget, 17 January 1873</ref>.</note>
+            <note xml:id="foot.f3">CD refers to <ref target="../nameregs/nameregs_4383.xml" resp="#mjhawkins">Robert Aglionby Slaney</ref> (see CD’s annotation to the <ref target="./DCP-LETT-8739.xml" resp="#mjhawkins">letter from James Paget, 17 January 1873</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

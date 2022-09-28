@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1122">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Mary Elizabeth Lyell   [4 October 1847]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">63</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1122 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1122.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1122.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 146: 331</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">ML</hi> 2: 187</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 4: 81</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.63)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>63</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1847-10-04">[4 Oct 1847]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3056.xml">Lyell, M. E.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks Mrs Lyell for barnacle specimens.</p>
+            <p>Mentions Agassiz’s classification of saurians.</p>
+            <p>Discusses letter from Chambers on "roads" in Scottish glens; views of Agassiz and Buckland on the glens.</p> 
+<p>Is reading Hugh Miller [<hi rend="italic">First impressions of England and its people</hi> (1847)].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">barnacle</term>
+                <term type="animals" ref="#">saurians</term>
+                <term type="geology" ref="#">roads</term>
+                <term type="it" ref="#">First impressions of England and its people</term>
+                <term type="people" ref="#subject_43">Agassiz, J. L. R.</term>
+                <term type="people" ref="#subject_707">Buckland, William</term>
+                <term type="people" ref="#subject_875">Chambers, Robert</term>
+                <term type="places" ref="#">Scotland</term>
+                <term type="places" ref="#">Scottish glens</term>
+                <term type="rx" ref="#">Miller, Hugh 1847</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">systematics</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Down]</placeName>
+                    <date>Monday Morning</date>
+                    <salute>My dear M<hi rend="superscript">rs</hi>. Lyell<ref target="#foot.f1"/></salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am much obliged for the Barnacles;<ref target="#foot.f2"/> the one marked Bergen is the right one; but it seems I must give it “locality unknown”: I do not think anyone could have called it a Conia. You shall have your specimens back, but having now passed your new shell, I sh<hi rend="superscript">d</hi> like to leave it, till I go over all the genera again, which will be sometime hence, but I will pledge myself that your shells are returned.</p>
+<p>Thank Lyell for his note,—what an awful joke it would have been if we had all subscribed for a horrid calf’s head! It will be grievous if the Coal Saurian turns out a fish;<ref target="#foot.f3"/> I will hope still that Agassiz’s positive assertions<ref target="#foot.f4"/> may be disproved by bones, as well as footsteps.—<ref target="#foot.f5"/></p>
+<p>I enclose a letter from Chambers which has pleased me very much,<ref target="#foot.f6"/> (which please return) but I cannot feel quite so sure as he does: if the Lochaber &amp; Tweed roads really turn out exactly on a level, the sea-theory is proved;<ref target="#foot.f7"/> (what a magnificent proof of equability of elevation, which does not surprise me much.) but I fear I see cause of doubt, for as far as I remember, there are <hi rend="underline">numerous</hi> terraces near Galashiels, <hi rend="underline">with small intervals of height</hi>, so that the coincidence of height might be cooked.<ref target="#foot.f8"/> Chambers does not seem aware of one very striking coincidence, viz that I made by careful measurement my Kilfinnin terrace 1202 above sea<ref target="#foot.f9"/> &amp; now Glengluoy is 1203 according to the recent more careful measurements: even Agassiz would be puzzled to block up Glengluy &amp; Kilfinnin by the same glacier<ref target="#foot.f10"/> &amp; then moreover the lake would have two outlets. With respect to the middle terrace of Glen Roy, seen by Chambers in the Spean (figured by Agassiz,<ref target="#foot.f11"/> &amp; seen by myself, but not noticed, as I thought it might have been a sheep-track) it might yet have been formed on the ice-lake theory, by two independent glaciers going across the Spean, but it is very improbable that two such immense ones should not have been united into one.— Chambers unfortunately does not seem to have visited the head of the Spey, &amp; I have written to propose joining funds &amp; sending some young surveyor there.<ref target="#foot.f12"/> If my letter is published in the Scotsman, how Buckland, as I have foreseen, will crow over me he will tell me, he always knew that I was wrong, but now I shall have rather ridiculously to say but “I am all right again”.—<ref target="#foot.f13"/></p>
+<p>I have been a good deal interested in Miller,<ref target="#foot.f14"/> but I find it not quick reading &amp; Emma has hardly begun it yet; I rather wish the scenic descriptions were shorter, &amp; that there was a little less geologic eloquence.</p>
+<p>With thanks, believe me, dear M<hi rend="superscript">rs</hi> Lyell | Yours very sincerely | C. Darwin</p>
+<p>Lyell’s picture now hangs over my chimney piece &amp; uncommonly glad I am to have it. &amp; thank you for it.—<ref target="#foot.f15"/></p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.3 but] <hi rend="italic">above del</hi> ‘for’</note>
+                    <note xml:id="tnote.n2">3.1 (which please return) 3.2] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n3">3.3 (what a … much.) 3.4] <hi rend="italic">interl</hi>; <hi rend="italic">square brackets in MS</hi></note>
+                    <note xml:id="tnote.n4">3.9 Glengluoy] <hi rend="italic">after del</hi> <hi rend="italic">interl</hi> ‘that’</note>
+                    <note xml:id="tnote.n5">3.10 to block up] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n6">3.10 the same] <hi rend="italic">above del</hi> ‘a’</note>
+                    <note xml:id="tnote.n7">3.11 moreover] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n8">3.15 it] <hi rend="italic">above del</hi> ‘this’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The cover is addressed to ‘C. Lyell Esq<hi rend="superscript">r</hi> e.’</note>
+            <note xml:id="foot.f2">Mary Lyell was an accomplished conchologist who did much of her collecting on travels with her husband. <ref target="../nameregs/nameregs_3051.xml" resp="#mjhawkins">Charles Lyell</ref>, and probably Mary also, had been visiting CD at Down (see <ref target="./DCP-LETT-1123.xml" resp="#mjhawkins">letter to J. D. Hooker, [5 October 1847]</ref>).</note>
+            <note xml:id="foot.f3">A fossil reptile had recently been discovered in the Saarbrücken coalfields, where previously only fossil fish had been found (see <ref target="../bibliographies/bibl_3865.xml" resp="#mjhawkins">Horner 1848</ref>). The crucial issue was whether or not reptiles were present in formations older than the Red Sandstone. <ref target="../nameregs/nameregs_1905.xml" resp="#mjhawkins">Georg August Goldfuss</ref>, to whom the remains were given for study, verified that the bones were indeed those of a crocodile in strata from the Carboniferous period (<ref target="../bibliographies/bibl_2905.xml" resp="#mjhawkins">Goldfuss 1847</ref>).</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_43.xml" resp="#mjhawkins">Louis Agassiz</ref> believed in a progressive, non-evolutionary, appearance of organic beings on earth over time. In his view only invertebrates and fish had appeared before the Secondary period (see Agassiz 1842a, 1844, and 1846). For the opposing views of Agassiz and Lyell on progression, see <ref target="../bibliographies/bibl_830.xml" resp="#mjhawkins">Bowler 1976</ref>, pp. 47–53, 67–88.</note>
+            <note xml:id="foot.f5">Lyell had discovered fossil footprints, which <ref target="../nameregs/nameregs_3629.xml" resp="#mjhawkins">Richard Owen</ref> later identified as reptilian, in the Nova Scotia coal formation (see C. Lyell 1843, p. 185). This was the first evidence of the presence of reptiles in the Carboniferous formations. On his second trip to North America, Lyell verified an earlier discovery of footprints of a reptilian quadruped in the coalfields of Pennsylvania (C. Lyell 1846).</note>
+            <note xml:id="foot.f6">This letter has not been found.</note>
+            <note xml:id="foot.f7">See <ref target="./DCP-LETT-1124.xml" resp="#mjhawkins">letter from Robert Chambers, 5 October 1847</ref>.</note>
+            <note xml:id="foot.f8">See <ref target="./DCP-LETT-1126.xml" resp="#mjhawkins">letter to Charles Lyell, [11 October 1847]</ref>.</note>
+            <note xml:id="foot.f9">See <ref target="../bibliographies/bibl_6177.xml" resp="#mjhawkins">‘Observations on the parallel roads of Glen Roy’</ref>, <ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 1: 95.</note>
+            <note xml:id="foot.f10">See <ref target="./DCP-LETT-1116.xml" resp="#mjhawkins">letter to Charles Lyell, 8 [September 1847]</ref>, n. 20. Kilfinnin is located in an apparently independent valley system approximately seven miles north-west of Glen Roy.</note>
+            <note xml:id="foot.f11">Agassiz 1842b, Plate 4, opposite p. 237.</note>
+            <note xml:id="foot.f12">CD considered the apparent existence of a shelf at the head of the Spey important. If this was a true shelf, according to CD, ‘there must have been a blockage at both ends of Glen Roy, which on any lake theory, seems improbable’ (letter to the <hi rend="italic">Scotsman</hi>, [after 20 September 1847]).</note>
+            <note xml:id="foot.f13"><ref target="../nameregs/nameregs_707.xml" resp="#mjhawkins">William Buckland</ref> was a proponent of the glacier-lake theory. CD, apparently reassured by what Chambers had to say in the missing letter, seems to have regretted giving as much credence to that theory as he had in his letter to the <hi rend="italic">Scotsman</hi>. See <ref target="./DCP-LETT-1126.xml" resp="#mjhawkins">letter to Charles Lyell, [11 October 1847]</ref>, in which CD informs Lyell that he has asked that the letter be destroyed, though he gives no specific reason.</note>
+            <note xml:id="foot.f14"><ref target="../nameregs/nameregs_3330.xml" resp="#mjhawkins">Hugh Miller</ref>. CD recorded that he finished <ref target="../bibliographies/bibl_5441.xml" resp="#mjhawkins">Miller 1847</ref> on 6 October 1847 (DAR 119; <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 4, Appendix IV).</note>
+            <note xml:id="foot.f15">Almost certainly the same picture of Lyell that is now hanging in CD’s study in Down House.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

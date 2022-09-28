@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1930">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To the Secretary, Royal Society   18 July 1856</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1245</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1930 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1930.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1930.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">The Royal Society (RR3: 40)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_364.xml">Royal Society</repository>
+                    <idno>RR3: 40</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1856-07-18">18 July 1856</date>
+            </correspAction>
+            <correspAction type="received">
+                <orgName key="../nameregs/nameregs_4110.xml">Royal Society of London</orgName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Recommends W. B. Carpenter’s paper on Foraminifera, pt 2, be published in <hi rend="italic">Philosophical Transactions</hi> [<hi rend="italic">R. Soc. Lond.</hi> 146 (1856): 547–69].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Foraminifera</term>
+                <term type="it" ref="#">Philosophical Transactions R. Soc. Lond.</term>
+                <term type="rx" ref="#">Carpenter, W. B. 1856</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down.</placeName>
+                    <date>July 18<hi rend="superscript">th</hi>./56</date>
+                    <salute>Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I recommend D<hi rend="superscript">r</hi>. Carpenter’s paper, Part II. on the Foraminifera, to be published in the Transactions.<ref target="#foot.f1"/></p>
+<p>Sir | Your obed. servt | Ch Darwin <lb resp="#mjhawkins"/> To the Sec<hi rend="superscript">y</hi> | Royal Soc<hi rend="superscript">y</hi>.—</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The second part of <ref target="../nameregs/nameregs_839.xml" resp="#mjhawkins">William Benjamin Carpenter’s</ref> paper on the Foraminifera, on <hi rend="italic">Aveolina</hi> and other genera (<ref target="../bibliographies/bibl_1261.xml" resp="#mjhawkins">Carpenter 1856</ref>, pt 2), had been read to the Royal Society on 19 June 1856. CD had previously refereed the first part of Carpenter’s paper (on <hi rend="italic">Orbitolites</hi>) when it was submitted in 1855 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 5, <ref target="./DCP-LETT-1744.xml" resp="#mjhawkins">letter to the Council of the Royal Society, 18 August 1855</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

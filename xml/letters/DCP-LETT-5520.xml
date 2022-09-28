@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5520">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Charles Kingsley   30 April [1867]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20313</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5520 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5520.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5520.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">B. C. Guild (private collection)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_158.xml">Guild, B. C.</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1867-04-30">30 Apr [1867]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2703.xml">Kingsley, Charles</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Regrets that he is too busy getting his book [<hi rend="italic">Variation</hi>] ready for publication to contribute an article to <hi rend="italic">Fraser’s Magazine</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Variation</term>
+                <term type="scientific_terms" ref="#">variation</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Ap. 30</date>
+                    <salute>My dear Mr Kingsley</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I fully agree with you on the importance of giving to a certain extent a scientific character to Fraser’s Mag.; &amp; I do assure you that it would have given me sincere pleasure to have assisted you in any way.<ref target="#foot.f2"/> But at present I really cannot: I am daily knocked up by correcting proof sheets &amp; the printers are a dozen sheets a head of me, so that I greatly doubt whether I can finish the book by November when Murray wants it.<ref target="#foot.f3"/> Hence it would be ruin to me to stop work for a week or fortnight, &amp; I could not write an article in less time than this. I have so much unpublished matter half completed that I have often vowed I w<hi rend="superscript">d</hi> never write miscellaneous articles, but I sh<hi rend="superscript">d</hi> have been much tempted under other circumstances to have broken my vow at your request.</p>
+<p>So I hope that you will forgive me &amp; believe me | my dear Mr Kingsley | yours very sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to the proof-sheets of <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> (see n. 3, below).</note>
+            <note xml:id="foot.f2">No letter in which Kingsley invited CD to contribute to <hi rend="italic">Fraser’s Magazine</hi> has been found. Kingsley himself was a contributor to <hi rend="italic">Fraser’s</hi>; the main emphasis of the magazine was politics, religion, and social conditions, and it was an ‘organ of progressive thought’. From May to August 1867 Kingsley ran <hi rend="italic">Fraser’s Magazine</hi> during the absence of the editor, <ref target="../nameregs/nameregs_1764.xml" resp="#mjhawkins">James Anthony Froude</ref>. (<ref target="../bibliographies/bibl_8277.xml" resp="#mjhawkins"><hi rend="italic">Wellesley index</hi></ref> 2: 303–14.)</note>
+            <note xml:id="foot.f3">CD was working on the page proofs of <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> (see ‘Journal’ (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 15, Appendix II)). No letter from John Murray, CD’s publisher, asking that the book be finished by November has been found, but see the <ref target="./DCP-LETT-5347.xml" resp="#automat">letter to W. B. Tegetmeier, 6 January [1867]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

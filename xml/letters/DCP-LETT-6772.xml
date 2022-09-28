@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6772">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Adolf Reuter   2 June 1869</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7302</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6772 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6772.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6772.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 147: 296</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Staatsbibliothek zu Berlin – Preußischer Kulturbesitz (Slg. Darmstaedter Lc 1859: Darwin, Charles, Bl. 222–223)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_379.xml">SB zu Berlin - Preußischer KB</repository>
+                    <collection>Slg. Darmstaedter</collection>
+                    <idno>Lc 1859: Darwin, Charles, Bl. 222–3</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1869-06-02">2 June 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3987.xml">Reuter, Adolf</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks AR for his offer to send his observation notes, but since CD will not pursue the subject of variation under domestication, and his German is poor, he urges him to publish them in some periodical.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="languages" ref="#">German</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">variation</term>
+                <term type="scientific_terms" ref="#">wild vs domestic forms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down.</hi> | Beckenham | <hi rend="print">Kent. S.E.</hi></placeName>
+                    <date>June 2. 1869</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am much obliged for your very kind letter.<ref target="#foot.f1"/> I am sure that an observer who shews such zeal &amp; love for science as you do, &amp; who has had such wide experience, must have collected very valuable facts &amp; conclusions.</p>
+<p>The observations which you are so good as to offer me would no doubt be of much value; but I am bound to tell you that from having so many other subjects to attend to, &amp; from my health being weak, I have unwillingly resolved no longer to pursue the subject of variation under domestication, except to correct any errors which I may have published.<ref target="#foot.f2"/></p>
+<p>Secondly, I am a very poor German scholar, &amp; if your notes were written in German I sh<hi rend="superscript">d</hi> have great difficulty in understanding them; &amp; although you write so well in English, it w<hi rend="superscript">d</hi> probably cause you some trouble to write in this language.</p>
+<p>Under these circumstances I w<hi rend="superscript">d</hi> suggest that you sh<hi rend="superscript">d</hi> publish your observations in some German periodical &amp; inform me or kindly send me a copy. Your observations w<hi rend="superscript">d</hi> thus be of use to every one, &amp; I might not be able to use them for years.</p>
+<p>With my sincere thanks for your sympathy &amp; interest in my works I remain | Dear Sir | yours faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-6761.xml" resp="#mjhawkins">letter from Adolf Reuter, 30 May 1869</ref>.</note>
+            <note xml:id="foot.f2">CD refers to his work on <hi rend="italic">Variation.</hi> Reuter had offered to send information about German horticulture (see <ref target="./DCP-LETT-6761.xml" resp="#mjhawkins">letter from Adolf Reuter, 30 May 1869</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

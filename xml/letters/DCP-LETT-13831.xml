@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-13831">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Roderick Impey Murchison   3 June [1855]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1549</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-13831 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-13831.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-13831.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 5: 342</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">Cleveland Health Sciences Library</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_93.xml">Cleveland</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1855-06-03">3 June [1855]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3453.xml">Murchison, R. I.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Accepts invitation for the 20th.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">inviting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>June 3<hi rend="superscript">d</hi></date>
+                    <salute>Dear Sir Roderick Murchison</salute>
+                </opener>
+                <div type="transcription">
+<p>I am very much obliged to you for having thought of me in this out of the way place, &amp; for your kind invitation for the 20<hi rend="superscript">th</hi> at the Trafalgar Hotel: I should so much enjoy coming, that I will accept it, though I am bound to say that my health is so uncertain, that I may fail, but certainly I will come if I possibly can.<ref target="#foot.f2"/></p>
+<p>With many thanks (&amp; for your Card for the 9<hi rend="superscript">th</hi> &amp; 23<hi rend="superscript">d</hi>)<ref target="#foot.f3"/> | Pray believe me | Yours sincerely &amp; obliged | Charles Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is conjectured from CD’s reference to an invitation for the ‘20th’. Murchison had invited a number of geologists and naturalists to ‘eat whitebait with me at Greenwich on Wednesday the 20th’ to celebrate his appointment as director of the Geological Survey (Geikie ed. 1875, 2: 192). The first such day after Murchison’s appointment in May 1855 was Wednesday, 20 June. The <ref target="../bibliographies/bibl_6375.xml" resp="#mjhawkins"><hi rend="italic">Post Office directory of the six home counties</hi></ref> 1855, lists no Trafalgar Hotel in Greenwich but has a Trafalgar Tavern in Park Row. The Trafalgar Tavern was the traditional location for ‘whitebait dinners’ and much used by naval officers.</note>
+            <note xml:id="foot.f2">CD probably attended the dinner (see <ref target="./DCP-LETT-1702.xml" resp="#mjhawkins">letter to J. D. Hooker, 23 [June 1855]</ref>).</note>
+            <note xml:id="foot.f3">According to Geikie ed. 1875, 2: 192, Murchison held several soirées during May and June, described as ‘bow, tea, negus, ice, and turnouts’.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

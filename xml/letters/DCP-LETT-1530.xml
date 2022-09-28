@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1530">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John William Lubbock   6 September [1853]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1267</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1530 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1530.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1530.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">The Royal Society (LUB: D18)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_364.xml">Royal Society</repository>
+                    <idno>LUB: D18</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1853-09-06">6 Sept [1853]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3025.xml">Lubbock, J. W. (b)</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Will give his support to a school for the poor to be a memorial to the late Sir John Lubbock.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_3026">Lubbock, John</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">school for the poor</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down.</placeName>
+                    <date>Sept. 6<hi rend="superscript">th</hi>.</date>
+                    <salute>Dear Sir John</salute>
+                </opener>
+                <div type="transcription">
+<p>I am much obliged to you for informing me about the school, of which I had heard nothing for a long time.— I shall be extremely glad to attend the Vestry, &amp; give the scheme my cordial support in that, and in any other way.— I have always heard that the late Sir John Lubbock was much interested in schools; &amp; I do not think a more noble memorial could possibly be made to anyone, than by a school for the poor.<ref target="#foot.f1"/></p>
+<p>Pray believe me | Yours sincerely | Charles Darwin <lb resp="#mjhawkins"/> Sir J. W. Lubbock Bart.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">John William Lubbock, 2d Baronet, had died in 1840. John William Lubbock, 3d Baronet, had been a member of the committee of the Society for the Diffusion of Useful Knowledge from 1829 and was active in promoting the education of the poor. See also <ref target="./DCP-LETT-1536.xml" resp="#mjhawkins">letter to J. W. Lubbock, 11 October [1853]</ref>, concerning the establishment of a school in Down.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

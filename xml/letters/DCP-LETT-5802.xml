@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5802">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Maurice Herbert   26 January 1868</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14336</idno>
+            
+            
+            
+            
+            <date when="2008">2008</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5802 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5802.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5802.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="16">16</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 166: 185</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>166: 185</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2246.xml">Herbert, J. M.</persName>
+                <placeName>Rocklands</placeName>
+                <date when="1868-01-26">26 Jan 1868</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Congratulates CD on George’s success.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1224">Darwin, G. H.</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="societal" ref="#">tripos success</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Rocklands, | Ross.</hi></placeName>
+                    <date>26 Jany | 1868</date>
+                    <salute>My dear Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>This morning’s Post brought me the Times &amp; the Tripos list;<ref target="#foot.f1"/> and I must send you and M<hi rend="superscript">rs</hi>. Darwin a few lines of hearty congratulation on your son’s brilliant success. It warms my old blood to know of my old friend’s son achieving so great a triumph—and I sincerely hope that it is only the earnest of still greater distinction in his future career.—</p>
+<p>M<hi rend="superscript">rs</hi>. Herbert<ref target="#foot.f2"/> joins me in kindest regards to M<hi rend="superscript">rs</hi>. Darwin &amp; yourself and in wishing you both and all yours, many years of happiness—</p>
+<p>Always, my dear old friend, | most faith<hi rend="superscript">y</hi>. y<hi rend="superscript">rs</hi>. | J. M. Herbert <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin Esq</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note><hi rend="italic">End of letter</hi>: ‘7<hi rend="superscript">th</hi> Wranglers’ <hi rend="italic">pencil</hi></note>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">A notice showing that <ref target="../nameregs/nameregs_1224.xml" resp="#mjhawkins">George Howard Darwin</ref> had gained second place in the final examination for the mathematical tripos at <ref target="../nameregs/nameregs_795.xml" resp="#mjhawkins">Cambridge University</ref> appeared in <hi rend="italic">The Times</hi>, 25 January 1868, p. 6.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_2248.xml" resp="#mjhawkins">Mary Anne Herbert</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

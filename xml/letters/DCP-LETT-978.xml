@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-978">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From William Hopkins   5 May 1846</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19270</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-978 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-978.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-978.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+            <relatedItem type="publication">
+                <bibl>Schwartz (1980): 637</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 3: 317</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 39: 57–8</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>39: 57–8</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2380.xml">Hopkins, William</persName>
+                <placeName>Cambridge</placeName>
+                <date when="1846-05-05">5 May 1846</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Discussion of CD’s geological problem, relating to elevation of laminated beds around a rising granitic ridge.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="geology" ref="#">granitic ridge</term>
+                <term type="geology" ref="#">laminated beds</term>
+                <term type="scientific_terms" ref="#">geology</term>
+                <term type="scientific_terms" ref="#">subsidence and elevation</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Cambridge</placeName>
+                    <date>May 5— 46</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>The additional datum you sent to me yesterday is of no material service in your problem.<ref target="#foot.f1"/> If your observations were sufficient to establish a general regularity in the lamination over a sufficiently wide area, (and such I think appears to be your conviction) we can scarcely resist the conclusion that the local irregularities in the laminated beds in the immediate neighbourhood of the granitic ridge (where <hi rend="underline">alone</hi> I presume you found them) are due to the upheaval of that ridge. Allowing the validity of the conclusion, I should be disposed to attribute at least a considerable portion of the discordance between observed &amp; calculated results to irregularities in the elevation of the ridge such as might arise for instance from violent <hi rend="underline">lateral</hi> thrusts, the effects of which might be resisted by the flanks of the mass in an uncertain and irregular manner, and which might thus produce effects which it would be impossible to bring under the dominion of calculation. A good deal may safely be allowed to irregular action of this kind.</p>
+<p>Let me again assure you that your problem has been <hi rend="underline">no trouble</hi> to me. In a subject like Geology where it is impossible for any one to be equally acquainted with every branch of it, I hold it to be a <hi rend="underline">duty</hi> to assist each other, and on that principle you will always find me ready to act.</p>
+<p>Your’s very truly | W Hopkins</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD evidently responded promptly to the <ref target="./DCP-LETT-975.xml" resp="#mjhawkins">letter from William Hopkins, 27 April 1846</ref>. As <ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref>, p. 159, makes clear, CD still hoped his alternative hypothesis had some basis.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

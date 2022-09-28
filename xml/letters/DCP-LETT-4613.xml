@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4613">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To John Hutton Balfour   15 September [1864]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3653</idno>
+            
+            
+            
+            
+            <date when="2001">2001</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4613 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4613.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4613.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="12">12</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Royal Botanic Garden, Edinburgh (Balfour papers)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_347.xml">RBG Edinburgh</repository>
+                    <collection>Balfour Correspondence</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1864-09-15">15 Sept [1864]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_259.xml">Balfour, J. H.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Inquires which nurserymen near Edinburgh cultivate coloured primroses and cowslips. Wants to repeat John Scott’s remarkable experiments.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">cowslips</term>
+                <term type="plants" ref="#">primroses</term>
+                <term type="people" ref="#subject_4258">Scott, John</term>
+                <term type="places" ref="#">Edinburgh</term>
+                <term type="scientific_terms" ref="#">cultivation</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">physical ‘external’ characters</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Sept 15<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Will you have the kindness to grant me a little favour, namely to tell me what nurseryman near Edinburgh, I had better apply to for coloured Primroses &amp; Cowslips. I have heard that they are a good deal cultivated there &amp; I cannot hear of them near London.— I wish to try again some of John Scotts remarkable experiments, which he tried on the coloured Primroses in your Bot. Garden.—<ref target="#foot.f2"/></p>
+<p>John Scott has sailed for India; he came here to see me, &amp; expressed himself warmly on your kindness to him.—<ref target="#foot.f3"/></p>
+<p>My dear Sir | Yours sincerely | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to John Scott’s sailing for India and his visit to Down (see n. 3, below).</note>
+            <note xml:id="foot.f2">CD refers to Scott’s experiments on the Primulaceae at the Royal Botanic Garden, Edinburgh, where he worked as foreman of the propagating department; Scott published the results of these experiments in Scott 1864a. On CD’s interest in the experiments on coloured primroses and cowslips, see the <ref target="./DCP-LETT-4611.xml" resp="#mjhawkins">letter to Asa Gray, 13 September [1864]</ref> and nn. 11, 13, and 14, and <ref target="./DCP-LETT-4612.xml" resp="#mjhawkins">letter to J. D. Hooker, 13 September [1864]</ref>.</note>
+            <note xml:id="foot.f3">Scott probably visited CD at Down on 18 August before sailing for India on 26 August 1864 (see <ref target="./DCP-LETT-4590.xml" resp="#mjhawkins">letter from J. D. Hooker, [15 August 1864]</ref>, and letters to J. D. Hooker, <ref target="./DCP-LETT-4592.xml" resp="#mjhawkins">[16 August 1864]</ref> and n. 2, and <ref target="./DCP-LETT-4597.xml" resp="#mjhawkins">[23 August 1864]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

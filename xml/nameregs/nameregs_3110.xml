@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-3110" status="released">
+    <persName>
+        <forename>Mary</forename>
+        <choice>
+            <seg><surname notBefore="1813" notAfter="1839">Appleton</surname></seg>
+            <seg><surname notBefore="1839" notAfter="1889">Mackintosh</surname></seg>
+        </choice>
+    </persName>
+    <persName type="additional" subtype="nickname">Molly</persName>
+    
+    <note type="dates"><date>1813–89</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>American-born sister of Thomas Gold Appleton. Married Emma Darwin’s cousin, Robert James Mackintosh, in Boston, Massachusetts, in 1839.</p></note>
+    <note type="sources">
+        <p><hi rend="italic">England &amp; Wales, national probate calendar</hi> (<hi rend="italic">index of wills and administrations</hi>), <hi rend="italic">1858–1966, 1973–95</hi> (Ancestry.com, accessed 5 April 2017)</p>
+        <p><hi rend="italic">Massachusetts, town and vital records, 1620–1988</hi> (Ancestry.com, accessed 5 April 2017)</p>
+        <p>B. Wedgwood and <ref target="../bibliographies/bibl_8245.xml" resp="#mjhawkins">Wedgwood 1980</ref></p>
+    </note>
+    <note type="volume">5,7,8,9,10,13,18</note>
+    <note type="keywords">
+        <term type="name">Darwin, Emma</term>
+        <term type="name">Mackintosh, R. J.</term>
+        <term type="name">Appleton, T. G.</term>
+        <term type="nationality">American-born</term>
+    </note>
+    
+</person>

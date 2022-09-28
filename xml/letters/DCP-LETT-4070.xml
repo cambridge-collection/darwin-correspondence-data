@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4070">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Richard Trevor Clarke   [April? 1863]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16433</idno>
+            
+            
+            
+            
+            <date when="1999">1999</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4070 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4070.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4070.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="11">11</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp damaged</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 161: 164</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>161: 164</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_949.xml">Clarke, R. T.</persName>
+                <placeName>London, Eaton Square</placeName>
+                <date notBefore="1863-04-01" notAfter="1863-04-30">[Apr? 1863]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Encloses strawberry blossoms used in his crossing experiments.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">strawberry</term>
+                <term type="scientific_terms" ref="#">crossing</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">flowers and buds</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>Dear Mr Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Enclosed are blossoms of the individual hautbois which I have used as female parent in my experiments.<ref target="#foot.f2"/> The anthers are certainly only rudimentary. I may mention it is very possible that the microscope may shew some grains 〈of〉 pollen, other blossoms on the same spike and perhaps th〈ese〉 having been fertilized by myself.—</p>
+<p>I am glad you received the plants safe.<ref target="#foot.f3"/> I propose in future when any little curious fact turns up to send you a short memorandum, knowing that <hi rend="underline">working</hi> men dont like too much correspondence</p>
+<p>Very truly yours | R Trevor Clarke <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/> 〈〈6〉3 Eaton Square | for 10 days<ref target="#foot.f4"/></p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The conjectured date is the earliest possible for the flowering of strawberries subsequent to the letters from R. T. Clarke, <ref target="./DCP-LETT-3829.xml" resp="#automat">[after 25 November 1862]</ref> and <ref target="./DCP-LETT-3837.xml" resp="#automat">[after 27 November 1862]</ref> (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 10). See n. 2, below.</note>
+            <note xml:id="foot.f2">Clarke described his experiments with strawberry crosses in his <ref target="" resp="#automat" cert="low">letter to CD of [after 25 November 1862]</ref> (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 10). See also <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 1: 352.</note>
+            <note xml:id="foot.f3">Clarke had sent strawberry plants to CD in November 1862 (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 10, <ref target="./DCP-LETT-3837.xml" resp="#mjhawkins">letter from R. T. Clarke, [after 27 November 1862]</ref>). CD’s reply has not been found.</note>
+            <note xml:id="foot.f4">A fellow army officer of Clarke’s, Major-general <ref target="../nameregs/nameregs_4819.xml" resp="#mjhawkins">Alexander Murray Tulloch</ref>, lived at 63 Eaton Square, London (<ref target="../bibliographies/bibl_6380.xml" resp="#mjhawkins"><hi rend="italic">Post Office London directory</hi></ref> 1863).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

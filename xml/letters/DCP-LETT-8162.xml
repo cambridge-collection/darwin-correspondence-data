@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8162">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Henry Huxley   17 and 20 January 1872</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3425</idno>
+            
+            
+            
+            
+            <date when="2013">2013</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8162 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8162.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8162.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="20">20</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 166: 286</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>166: 286</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2479.xml">Huxley, Henry</persName>
+                <placeName>St John’s Wood</placeName>
+                
+            <date when="1872-01-17">17 Jan 1872</date>
+            <date when="1872-01-20">20 Jan 1872</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>His father has gone to Egypt.</p>
+            <p>Tells of visit to circus.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_2486">Huxley, T. H.</term>
+                <term type="places" ref="#">Egypt</term>
+                <term type="social" ref="#">Other people</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>26 Abbey Place | S<hi rend="superscript">t</hi> John’s Wood</placeName>
+                    <date>Jan<hi rend="superscript">ry</hi>. 17<hi rend="superscript">th</hi> 1872</date>
+                    <salute>Dear M<hi rend="superscript">r</hi> Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have nothing to do, so I am going to write to you. Mamma gave me a beautiful box of bricks and pater has gone to Egypt by sea.<ref target="#foot.f1"/> we have had very bad weather, and on the nineteenth we are going to a circus</p>
+<p>20<hi rend="superscript">th</hi>. Jan. We have just come home from the circus   M<hi rend="superscript">r</hi> Hughes and Lady Lyell took us there   we saw Cinderella acted and there was a nice horse whose name was <hi rend="italic">[</hi>Dueroco<hi rend="italic">]</hi> and he went round the middle of the room and at the last there were some monkeys riding on ponies.<ref target="#foot.f2"/></p>
+<p>With love to you and M<hi rend="superscript">rs</hi>. Darwin | I remain | Yours affectionately | Henry Huxley.</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Henry’s parents were Henrietta Anne and <ref target="../nameregs/nameregs_2486.xml" resp="#mjhawkins">Thomas Henry Huxley</ref>; Henrietta had secured Thomas two months’ leave from the School of Mines and sent him to Egypt to recuperate after his health broke down (<ref target="../bibliographies/bibl_1979.xml" resp="#mjhawkins">A. Desmond 1994–7</ref>, 2: 28). Henry, a particular favourite of CD’s (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 16, <ref target="./DCP-LETT-6239.xml" resp="#mjhawkins">letter to T. H. Huxley, 10 June 1868</ref>) had celebrated his seventh birthday on 14 January 1872 (<ref target="../bibliographies/bibl_1979.xml" resp="#mjhawkins">A. Desmond 1994–7</ref>, 1: 332).</note>
+            <note xml:id="foot.f2">Henry refers to <ref target="../nameregs/nameregs_2438.xml" resp="#mjhawkins">Thomas Hughes</ref> and <ref target="../nameregs/nameregs_3056.xml" resp="#mjhawkins">Mary Elizabeth Lyell</ref>. Hengler’s Circus, in Argyll Street, London, was putting on the pantomime Cinderella (<hi rend="italic">Penny Illustrated Paper</hi>, 20 January 1872, p. 47).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

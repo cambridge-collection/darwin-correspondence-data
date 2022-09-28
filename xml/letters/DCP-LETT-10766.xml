@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10766">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Alfred Newton   2 January 1877</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">8405</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10766 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10766.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10766.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">2pp</note>
+            <relatedItem type="publication">
+                <bibl>De Beer (1958): 99</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Cambridge University Library (MS Add. 9839/1D/63)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>MS Add. 9839/</collection>
+                    <idno>1D/63</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1877-01-02">2 Jan 1877</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_3517.xml">Newton, Alfred</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks AN for telling him of the complex cross among wagtails. CD is surprised that so much close interbreeding does not check their propagation.</p>
+            <p>CD does not suppose he will ever have strength to work up his data on hybridism, so he will not write to Mr Monk.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">wagtails</term>
+                <term type="health" ref="#">Darwin himself, bad or deteriorating</term>
+                <term type="scientific_terms" ref="#">crossing</term>
+                <term type="scientific_terms" ref="#">exclamations</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">fertilisation and generation</term>
+                <term type="scientific_terms" ref="#">hybrids</term>
+                <term type="scientific_terms" ref="#">in-breeding</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Jan 2. 1877</date>
+                    <salute>Dear Newton,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Many thanks for telling me of the complex cross among the wag-tails.<ref target="#foot.f1"/> I am surprised at so much close interbreeding not checking their propagation. I do not suppose that I shall ever have strength to work up my data on Hybridism, so I think I will not write to M<hi rend="superscript">r</hi> Monk<ref target="#foot.f2"/></p>
+<p>Pray believe me yours | very sincerely | Charles Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Newton’s letter has not been found. Wagtails are birds of the genus <hi rend="italic">Motacilla</hi>.</note>
+            <note xml:id="foot.f2">In 1873, <ref target="../nameregs/nameregs_5048.xml" resp="#mjhawkins">John Jenner Weir</ref> had informed CD about fertile hybrids of two species of wagtails in the aviary of <ref target="../nameregs/nameregs_6363.xml" resp="#mjhawkins">Thomas James Monk</ref> (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 21, <ref target="./DCP-LETT-9139.xml" resp="#mjhawkins">letter from J. J. Weir, 13 November 1873</ref>). <ref target="../nameregs/nameregs_2486.xml" resp="#mjhawkins">Thomas Henry Huxley’s</ref> critique of natural selection as a mechanism for creating new species had served as an important impetus to CD’s investigations into cross and hybrid sterility. Huxley’s position was based on the widely accepted view that sterility of hybrids was an essential criterion of species. For a summary of CD and Huxley’s earlier discussions on the topic, and some of CD’s unpublished notes on hybridity, see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 10, Appendix VI. CD added new material on hybrid sterility to <ref target="../bibliographies/bibl_6017.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi> 4th ed.</ref>, and concluded, ‘the physiological test of lessened fertility, both in first crosses and in hybrids, is no safe criterion of specific distinction’ (<hi rend="italic">ibid.</hi>, p. 323).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

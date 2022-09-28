@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5672">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Edward Wilson   8 November 1867</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">11094</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5672 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5672.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5672.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp damaged</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 181: 120</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>181: 120</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_5181.xml">Wilson, Edward</persName>
+                <placeName>Hayes, Kent</placeName>
+                <date when="1867-11-08">8 Nov 1867</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Has sent CD’s queries on expression to some friends; encloses one set of replies [missing].</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#">Wilson, Edward’s friends</term>
+                <term type="scientific_terms" ref="#">expression, emotion</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">social behaviour</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Hayes | Bromley, Kent.</hi></placeName>
+                    <date>8 Nov 1867</date>
+                    <salute>My dear Mr Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I got your note while in Paris.<ref target="#foot.f1"/> Before I went, however, I had put your emotional questions in train, sending one list to a friend in Melbourne, one to Queensland, &amp; one to South Australia<ref target="#foot.f2"/></p>
+<p>My South Australian friend writes me to the effect enclosed, by which you will see that your queries are likely to receive every attention from one of your ardent disciples,<ref target="#foot.f3"/> &amp; 〈I〉 think my Melbourne &amp; Queensland friends will be equally interested in these enquiries<ref target="#foot.f4"/></p>
+<p>Yours very truly | Ed Wilson <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">C Darwin Esq</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Wilson may have visited the <hi rend="italic">Exposition universelle</hi> in Paris; the <hi rend="italic">Exposition</hi> opened on 1 April and closed on 31 October 1867 (see <ref target="../bibliographies/bibl_5163.xml" resp="#mjhawkins">Mainardi 1987</ref>).</note>
+            <note xml:id="foot.f2">Wilson had recently become a neighbour of CD’s, having retired to Hayes Place, Bromley, in 1867 (<ref target="../bibliographies/bibl_256.xml" resp="#mjhawkins"><hi rend="italic">Aust. dict. biog.</hi></ref>). Wilson had evidently received CD’s queries about expression (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol.15, Appendix IV) and sent them to friends in Australia, where he had lived from 1842. In <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref>, p. 19, CD acknowledged Wilson’s help in securing thirteen sets of answers from Australia.</note>
+            <note xml:id="foot.f3">The enclosure has not been found. Wilson’s friend has not been identified.</note>
+            <note xml:id="foot.f4">Wilson’s other two friends were probably <ref target="../nameregs/nameregs_4441.xml" resp="#mjhawkins">Robert Brough Smyth</ref> of Melbourne and <ref target="../nameregs/nameregs_2779.xml" resp="#mjhawkins">Dyson Lacy</ref> of Queensland, both of whom were acknowledged by CD for having provided information for <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref> (<ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref>, p. 20).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

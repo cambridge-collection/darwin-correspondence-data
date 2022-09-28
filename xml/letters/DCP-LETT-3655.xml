@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3655">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From M. T. Masters   12 July 1862</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10072</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3655 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3655.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3655.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171.1: 68</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 68</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3217.xml">Masters, M. T.</persName>
+                <placeName>Peckham</placeName>
+                <date when="1862-07-12">12 July 1862</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Will be sending information on peloric plants from his father [William Masters] soon.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">peloric plants</term>
+                <term type="people" ref="#">Masters, M. T.’s father</term>
+                <term type="people" ref="#subject_3218">Masters, William</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">flowers and buds</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Rye Lane | Peckham</placeName>
+                    <date>July 12. 1862</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I shall be happy to give you a few memoranda I have made with reference to peloria in a day or two—<ref target="#foot.f1"/>and thinking my Father might be able to communicate some information respecting comparative fertility of Peloria Gloxinias &amp; other cultivated pelorias—I have written to him and will let you know the result—<ref target="#foot.f2"/> at present I have no peloria in my little garden— I write this now lest you should think I had overlooked your letter but for the reason I have mentioned and also because I hope in a day or two to have more leisure than I have at this moment I know you will excuse the delay—</p>
+<p>Believe me Dear Sir | Yours faithfully | Maxwell T. Masters</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note><hi rend="italic">Verso of last page</hi>: 36 1—16 37c 16 <hi rend="italic">ink</hi> <ref target="#foot.f3"/></note>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD was carrying out crossing experiments on the normally sterile flowers of pelargoniums, in order to explore the relationship between changes in plant structure and the incidence of sterility; he had written to Masters to ask him for assistance with experiments and for information on other peloric flowers (see <ref target="./DCP-LETT-3645.xml" resp="#mjhawkins">letter to M. T. Masters, 8 July [1862]</ref>). No memoranda from Masters on this subject have been found, but see the <ref target="./DCP-LETT-3663.xml" resp="#mjhawkins">letter to M. T. Masters, 24 July [1862]</ref>.</note>
+            <note xml:id="foot.f2">At the end of the <ref target="./DCP-LETT-3645.xml" resp="#mjhawkins">letter to M. T. Masters, 8 July [1862]</ref>, Masters had written ‘fertility of Gloxinias <hi rend="italic">peloriated</hi> with others’. His father, <ref target="../nameregs/nameregs_3218.xml" resp="#mjhawkins">William Masters</ref>, was an expert hybridiser and owned a nursery in Canterbury, Kent (<ref target="../bibliographies/bibl_1985.xml" resp="#mjhawkins">R. Desmond 1994</ref>). See also <ref target="./DCP-LETT-3663.xml" resp="#mjhawkins">letter to M. T. Masters, 24 July [1862]</ref> and n. 6.</note>
+            <note xml:id="foot.f3">The annotation apparently records the payment, on 14 July 1862, of £37 16<hi rend="italic">s.</hi> to a local farmer, George Edwards, for the purchase of a horse (CD’s Account book–cash account (Down House MS)); see also <ref target="./DCP-LETT-3641.xml" resp="#mjhawkins">letter to W. E. Darwin, 4 [July 1862]</ref> and n. 10.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

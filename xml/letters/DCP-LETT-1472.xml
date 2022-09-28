@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1472">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Edward Forbes   23 January [1852?]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3905</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1472 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1472.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1472.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 221.4: 162</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl><hi rend="italic">Correspondence</hi> 5: 78–9</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Florida State University Libraries, Strozier Library Special Collections Vault (tipped into a copy of <hi rend="italic">Origin</hi>, QH365 .O2 1859)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_136.xml">Florida State University Libraries, Strozier</repository>
+                    <collection>Special Collections Vault</collection>
+                    <idno>in QH365.O2</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1852-01-23">23 Jan [1852?]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1680.xml">Forbes, Edward</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Discusses <hi rend="italic">Balanus unguiformis</hi>. Promises to return specimen.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">Balanus unguiformis</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>Jan<hi rend="superscript">y</hi> 23<hi rend="superscript">d</hi></date>
+                    <salute>My dear Forbes</salute>
+                </opener>
+                <div type="transcription">
+<p>The Balanus from Bembridge, Barton &amp; Headon beds is the same species <hi rend="underline">B</hi>. unguiformis of Sowerby.<ref target="#foot.f1"/> The Headon specimens, about which I doubted are the best characterised &amp; are so perfect, as to be worth preserving. The specimens shall be taken care of, &amp; returned to you hereafter with others that I have of yours.—<ref target="#foot.f2"/></p>
+<p>Most truly your’s | C. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD described these fossil specimens from Eocene formations of the southern British coast and the Isle of Wight in <ref target="../bibliographies/bibl_4838.xml" resp="#mjhawkins"><hi rend="italic">Living Cirripedia</hi> (1854): </ref>296–8. He included short descriptions of the fossil forms of Balanidae and Verrrucidae in <ref target="../bibliographies/bibl_4838.xml" resp="#mjhawkins"><hi rend="italic">Living Cirripedia</hi> (1854)</ref> because at this stage he was unsure that the <ref target="../nameregs/nameregs_3646.xml" resp="#mjhawkins">Palaeontographical Society</ref> would publish a work on the fossil species of these groups.</note>
+            <note xml:id="foot.f2">Forbes was among those thanked in the preface of <ref target="../bibliographies/bibl_2622.xml" resp="#mjhawkins"><hi rend="italic">Fossil Cirripedia</hi> (1854)</ref> for having provided specimens.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

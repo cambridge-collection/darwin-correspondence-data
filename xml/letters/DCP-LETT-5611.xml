@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5611">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Edouard Bornet   20 August [1867]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19223</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5611 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5611.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5611.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Muséum national d’histoire naturelle, Bibliothèque de Botanique, Paris (Ms CRY 501, fol. 388)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_273.xml">MNHN Botanique</repository>
+                    <idno>Ms CRY 501, fol 388</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1867-08-20">20 Aug [1867]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_547.xml">Bornet, J. B. E.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks JBEB for seeds of <hi rend="italic">Draba</hi> which he will sow next year.</p>  
+<p>Describes the results of some crossing experiments with <hi rend="italic">Papaver</hi>.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Draba</term>
+                <term type="plants" ref="#">Papaver</term>
+                <term type="scientific_terms" ref="#">crossing</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">seeds</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>Aug 20</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I thank you sincerely for your great &amp; renewed kindness in sending me the seeds of the Draba.<ref target="#foot.f2"/> I am so much engaged this autumn that I do not think I shall sow them &amp; no doubt they will keep alive until next year, when they will be of great interest to me.<ref target="#foot.f3"/></p>
+<p>Owing to the same cause I sowed only four lots of the seeds of the Papaver this spring &amp; have made only a few experiments. Papaver vagum, depressum, Lecoqii came up quite true, but the seedlings of P. pinnatifidum varied a good deal.<ref target="#foot.f4"/></p>
+<p>With sincere thank &amp; my best respect I remain dear Sir | yours very faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-5592.xml" resp="#mjhawkins">letter from Edouard Bornet, [before 20 August 1867]</ref>.</note>
+            <note xml:id="foot.f2">Bornet sent CD seeds of ten varieties of <hi rend="italic">Draba verna</hi> (see <ref target="./DCP-LETT-5592.xml" resp="#mjhawkins">letter from Edouard Bornet, [before 20 August 1867]</ref> and n. 3).</note>
+            <note xml:id="foot.f3">No record of CD’s performing experiments with <hi rend="italic">Draba verna</hi> has been found.</note>
+            <note xml:id="foot.f4"><hi rend="italic">Papaver vagum</hi> was described in <ref target="../bibliographies/bibl_4245.xml" resp="#mjhawkins">Jordan 1860</ref>, pp. 458–9; it is now generally subsumed within <hi rend="italic">P. dubium</hi>, as are <hi rend="italic">P. depressum</hi> and <hi rend="italic">P. lecoqii.</hi> CD recorded the results of his experiments with <hi rend="italic">P. vagum</hi> seeds sent by Bornet in <ref target="../bibliographies/bibl_8595.xml" resp="#mjhawkins"><hi rend="italic">Cross and self fertilisation</hi></ref>, pp. 108–9. In 1876, CD suggested experiments for John Scott to perform with varieties of <hi rend="italic">P. somniferum</hi> (<ref target="./DCP-LETT-10555.xml" resp="#mjhawkins">letter to John Scott, 1 July 1876</ref>, <ref target="../bibliographies/bibl_1163.xml" resp="#mjhawkins"><hi rend="italic">Calendar</hi></ref> no. 10555).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

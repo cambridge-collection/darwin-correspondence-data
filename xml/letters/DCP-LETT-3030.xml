@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3030">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Sarah Elizabeth Wedgwood   25 December [1860?]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">14698</idno>
+            
+            
+            
+            
+            <date when="1993">1993</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3030 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3030.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3030.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="08">8</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">incomplete</note>
+            <note type="physdesc" n="inc">&amp; damaged</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 181</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>181: 68</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_5039.xml">Wedgwood, S. E. (b)</persName>
+                <placeName>unstated</placeName>
+                <date when="1860-12-25">25 Dec [1860?]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Charlotte [Wedgwood Langton?] reports from Mr Wallis on time of day that sundew opens.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">sundew</term>
+                <term type="people" ref="#subject_2810">Langton, Charlotte</term>
+                <term type="people" ref="#subject_4941">Wallis, William</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">movements and habits of plants</term>
+                <term type="scientific_terms" ref="#">time and age (‘organic’ time)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <date>Christmas day</date>
+                </opener>
+                <div type="transcription">
+                     
+<p>Dear Charles</p>
+<p>Charlotte<ref target="#foot.f2"/> reports from Mr Wallis<ref target="#foot.f3"/> that he only once saw sundew open— he mentioned the time &amp; place, but was sorry he could not recollect the time of day— he took so〈me〉 home &amp; kept 〈<hi rend="underline">two</hi> <hi rend="underline">words missing</hi>〉 he never s〈aw it〉 open again.— It was a long time ago— he said he understood they did open some time in the day, but did not know at what hour. Smith<ref target="#foot.f4"/> says nothing about 〈it. He s〉eems to know 〈very lit〉tle, for he says</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is inferred from the reference to <ref target="../nameregs/nameregs_4941.xml" resp="#mjhawkins">William Wallis</ref>, whom CD first met in 1860 while visiting Sarah Elizabeth Wedgwood, <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> sister, in Sussex. See ‘Journal’ (Appendix II).</note>
+            <note xml:id="foot.f2">Charlotte Langton, Emma’s other sister, also lived in Hartfield, Sussex.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_4941.xml" resp="#mjhawkins">William Wallis</ref> was the surgeon of Hartfield and an orchid collector. He had assisted CD in his study of orchids and of the sundew (<hi rend="italic">Drosera rotundifolia</hi>) when the Darwins visited Hartfield in July 1860. See letters to J. D. Hooker, <ref target="./DCP-LETT-2880.xml" resp="#mjhawkins">29 July [1860]</ref>, and to W. E. Darwin, [30 July 1860].</note>
+            <note xml:id="foot.f4">Probably Frederick Smith, a farmer residing at Thornhill farm, Hartfield, Sussex (<ref target="../bibliographies/bibl_6375.xml" resp="#mjhawkins"><hi rend="italic">Post Office directory of the six home counties</hi></ref> 1859).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-2478" status="released">
+    <persName>
+        <forename>Henrietta</forename>
+        <forename>Anne</forename>
+        <choice>
+            <seg><surname notBefore="1825" notAfter="1855">Heathorn</surname></seg>
+            <seg><surname notBefore="1855" notAfter="1914">Huxley</surname></seg>
+        </choice>
+    </persName>
+    
+    <note type="dates"><date>1825–1914</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Born Henrietta Anne Heathorn in the West Indies. Emigrated to Australia in 1843. Met Thomas Henry Huxley in Sydney, Australia, in 1847, and married him in London in 1855.</p></note>
+    <note type="further">
+            <p>For more information see:</p> 
+        <p>https://www.darwinproject.ac.uk/tags/family-and-friends/henrietta-huxley</p>
+    </note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_1979.xml" resp="#mjhawkins">A. Desmond 1994–7</ref></p>
+        <p><ref target="../bibliographies/bibl_2662.xml" resp="#mjhawkins">Freeman 1978</ref></p>
+    </note>
+    <note type="volume">5,6,7,8,9,10,11,12,13,14,16,17,18,19,20,21,22,23,24,WSL,25,26,28,29,30</note>
+    <note type="keywords">
+        <term type="name">Heathorn, H. A.</term>
+        <term type="name">Huxley, T. H.</term>
+        <term type="place">Australia</term>
+        <term type="place">Sydney</term>
+    </note>
+</person>

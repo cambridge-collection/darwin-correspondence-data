@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-801" status="released">
+    <persName>
+        <forename>Elizabeth</forename>
+        <forename>Georgiana</forename>
+        <choice>
+            <seg><surname notBefore="1823" notAfter="1844">Leveson-Gower</surname></seg>
+            <seg><surname notBefore="1844" notAfter="1878">Campbell</surname></seg>
+        </choice>
+    </persName>
+    <persName type="additional" subtype="title">duchess of Argyll</persName>
+    <note type="dates"><date>1823/4–78</date></note>
+    <sex value="F"/>
+    <note type="biography">
+        <p>Daughter of George Granville Leveson-Gower, second duke of Sutherland. Married George Douglas Campbell in 1844.</p></note>
+    <note type="sources">
+        <p><ref target="../bibliographies/bibl_9153.xml" resp="#mjhawkins"><hi rend="italic">BMD</hi></ref> (<hi rend="italic">Death index</hi>)</p>
+        <p><ref target="../bibliographies/bibl_1096.xml" resp="#mjhawkins"><hi rend="italic">Burke’s peerage</hi></ref> 1980</p>
+        <p><ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref> s.v. Campbell, George Douglas</p>
+    </note>
+    <note type="volume">10,18</note>
+    <note type="keywords">
+        <term type="name">Leveson-Gower, G. G.</term>
+        <term type="name">Duke of Sutherland</term>
+        <term type="name">Campbell, G. D.</term>
+        <term type="place">Sutherland</term>
+        <term type="reference">Burke’s peerage 1980</term>
+        <term type="occupation">.</term>
+    </note>
+    
+</person>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10199">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Lawson Tait   14 October [1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">13979</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10199 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10199.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10199.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Department of Special Collections, Kenneth Spencer Research Library, University of Kansas (MS 331 box 1 folder 11)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_206.xml">Kenneth Spencer Research Library, University of Kansas</repository>
+                    <collection>MS 331 box 1 folder 11</collection>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>unstated</placeName>
+                <date when="1875-10-14">14 Oct [1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4653.xml">Tait, R. L.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Will be happy to present RLT’s paper on <hi rend="italic">Nepenthes</hi> to Royal Society.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Nepenthes</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">Royal Society of London</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>Oct. 14<hi rend="superscript">th</hi></date>
+                    <salute>My dear Sir</salute>
+                </opener>  
+                <div type="transcription">
+                    
+                    <p>I shall be happy to do what you ask &amp; present your paper on Nepenthes to the Royal Society—<ref target="#foot.f2"/></p> 
+                    <p>Yours very faithfully | Ch Darwin</p>
+                </div> 
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 <hi rend="print">Kent.</hi> <hi rend="italic">before del</hi> ‘<hi rend="print">Railway Station | Orpington. S.E.R.</hi>’</note>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-10190.xml" resp="#mjhawkins">letter from Lawson Tait, 11 October 1875</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-10190.xml" resp="#mjhawkins">letter from Lawson Tait, 11 October 1875</ref> and n. 1. <hi rend="italic">Nepenthes</hi> is the genus of tropical pitcher-plants.</note>
+            </div>        
+            
+    </body>
+    </text>
+</TEI>

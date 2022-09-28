@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-4505">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From C. C. Babington   21 May 1864</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6378</idno>
+            
+            
+            
+            
+            <date when="2001">2001</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-4505 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4505.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-4505.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="12">12</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 142: 93</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 160: 7</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>160: 7</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_214.xml">Babington, C. C.</persName>
+                <placeName>Cambridge</placeName>
+                <date when="1864-05-21">21 May 1864</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>CCB thought CD wanted live specimens, but now will send some dried ones from his herbarium.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="places" ref="#">herbarium</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00019_files/8/0_0.jpg" width="3329px" height="5221px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00019_files/11/1_1.jpg" width="3329px" height="5221px"/>
+        <surface n="7:1r" xml:id="i19">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00019.jpg" width="3329px" height="5221px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00019_files/8/0_0.jpg" width="3329px" height="5221px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00019.dzi" width="3329px" height="5221px"/>
+        </surface>
+        <surface n="7:1v" xml:id="i20">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00020.jpg" width="3245px" height="5221px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00020_files/8/0_0.jpg" width="3245px" height="5221px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00020.dzi" width="3245px" height="5221px"/>
+        </surface>
+    </facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Cambridge</placeName>
+                    <date>21 May 1864</date>
+                    <salute>Dear Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I supposed that you wanted living specimens.<ref target="#foot.f1"/></p>
+<p>I send, such as they are—very poor, some flowers(?) from specimens in my Herbarium.<ref target="#foot.f2"/></p>
+<p>Let me know if you want living specimens and they shall be looked for in the proper season</p>
+<p>Yours truly | Charles C. Babington—</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had requested <hi rend="italic">Lythrum</hi> specimens (see <ref target="./DCP-LETT-4499.xml" resp="#automat">letter from C. C. Babington, 18 May 1864</ref> and n. 2).</note>
+            <note xml:id="foot.f2">Babington sent specimens of <hi rend="italic">Lythrum hyssopifolium</hi> from seven different localities; the identifying wrappers and two of the specimens are preserved with the envelope to this letter in DAR 142: 93. CD thanked Babington for sending specimens of what he called <hi rend="italic">L. hyssopifolia</hi> in <ref target="../bibliographies/bibl_7749.xml" resp="#mjhawkins">‘Three forms of <hi rend="italic">Lythrum salicaria</hi>’</ref>, p. 190 (<ref target="../bibliographies/bibl_1506.xml" resp="#mjhawkins"><hi rend="italic">Collected papers</hi></ref> 2: 124). See also <ref target="./DCP-LETT-4512.xml" resp="#automat">letter to H. C. Watson, 28 May [1864]</ref> and n. 2.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

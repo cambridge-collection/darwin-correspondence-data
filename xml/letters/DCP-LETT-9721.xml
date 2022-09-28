@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9721">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From R. F. Cooke   17 November 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">9613</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9721 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9721.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9721.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 443</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 443</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent" subtype="personGrp">
+                <persName key="../nameregs/nameregs_1053.xml">Cooke, R. F.</persName>
+                <persName key="../nameregs/nameregs_2575.xml">John Murray, Publishers</persName>
+                <placeName>London, Albemarle St, 50a</placeName>
+                <date when="1874-11-17">17 Nov 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Booksellers approve of [9s] price for 2d edition of <hi rend="italic">Descent</hi>. 1350 copies were sold at annual sale.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, publications</term>
+                <term type="it" ref="#">Descent</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">humanity</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+                <term type="scientific_terms" ref="#">sexual selection</term>
+                <term type="social" ref="#">Other people</term>
+                <term type="societal" ref="#">Murray’s annual sale</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">50<hi rend="smallCaps">a</hi>, Albemarle Street, London, W.</hi></placeName>
+                    <date>Nov 17 <hi rend="print">187</hi>4</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>The price of your new edition was highly approved of by the booksellers &amp; at 12/- very few would have been sold.<ref target="#foot.f1"/></p> 
+
+    <table>
+        <row>
+            <cell rend="right">1350</cell>
+            <cell rend="left">Descent 1 Vol 9/-</cell>
+        </row>
+        <row>
+            <cell rend="right">600</cell>
+            <cell rend="left">Origin 1 Vol 7/6</cell>
+        </row>
+        <row>
+            <cell rend="right">136</cell>
+            <cell rend="left">Naturalist 1 Vol 9/-</cell>
+        </row>
+        <row>
+            <cell rend="right">7</cell>
+            <cell rend="left">Expression 1 Vol 12/-<ref target="#foot.f2"/></cell>
+        </row>
+    </table>
+ 
+<p>Yours faithfully | Rob<hi rend="superscript">t</hi>. Cooke <lb resp="#mjhawkins"/></p>
+<p rend="left">C. Darwin Esq</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note>2.4 7] ‘2093’ <hi rend="italic">added below, ink</hi></note>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD’s publisher, John Murray, had originally intended to charge twelve shillings for <ref target="../bibliographies/bibl_1967.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi> 2d ed.</ref> but just before his sale dinner for leading booksellers he decided to reduce the price to nine shillings (see <ref target="./DCP-LETT-9717.xml" resp="#mjhawkins">letter from R. F. Cooke, 12 November 1874</ref>).</note>
+            <note xml:id="foot.f2">This is a list of the numbers of CD’s books sold to the leading booksellers at Murray’s sale dinner (see <ref target="./DCP-LETT-9717.xml" resp="#mjhawkins">letter from R. F. Cooke, 12 November 1874</ref> and n. 4). Naturalist: <ref target="../bibliographies/bibl_4252.xml" resp="#mjhawkins"><hi rend="italic">Journal of researches</hi> 2d ed.</ref></note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

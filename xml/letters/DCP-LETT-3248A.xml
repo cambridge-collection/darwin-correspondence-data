@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3248A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To <hi rend="italic">Journal of Horticulture</hi>   [before 10 September 1861]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20875</idno>
+            
+            
+            
+            
+            <date when="1994">1994</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3248A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3248A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3248A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="09">9</biblScope>
+        </seriesStmt>
+        
+        <sourceDesc>
+            <bibl type="provenance"> <hi rend="italic">Journal of Horticulture, Cottage Gardener, and Country Gentleman</hi> n.s. 1 (1861): 453 </bibl>
+            <bibl type="printedSource">J. Hortic. n.s. 1 1861: 453</bibl>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1809-01-01" notAfter="1861-09-09">[before 10 Sept 1861]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2615.xml">Journal of Horticulture</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Requests the names of the parents of <hi rend="italic">Gladiolus gandavensis</hi> and six varieties for the purpose of determining their probable origin.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Gladiolus gandavensis</term>
+                <term type="scientific_terms" ref="#">descent</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+                <term type="scientific_terms" ref="#">parents</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">varieties</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Down]</placeName>
+                </opener>
+                <div type="transcription">
+                     
+<p>Really obliged should I be if you could tell me the names of the parents of Gladiolus gandavensis. Also, whether the six following varieties—Eldorado, Canasi, Ophir, Linné, Brenchleyensis, and Vulcain, are the progeny of G. gandavensis by itself, or of G. gandavensis crossed by some other species? If the history of these six varieties be not known, their appearance may, perhaps, to instructed eyes tell their probable origin.—<ref target="#foot.f2"/></p>
+<p>Charles Darwin.</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the publication of the letter in the 10 September 1861 issue of the <hi rend="italic">Journal of Horticulture</hi>.</note>
+            <note xml:id="foot.f2">The answer to CD’s query, an account of the parentage of <hi rend="italic">Gladiolus gandavensis</hi>, was printed immediately following the letter; both query and answer appeared under the heading ‘Parents of some gladioli’. The response was signed ‘D.B.’, possibly <ref target="../nameregs/nameregs_345.xml" resp="#mjhawkins">Donald Beaton</ref>, who wrote a regular column for the journal. However, the author did make the following statement: ‘Mr. Beaton once or twice mis-stated the nativity of Gladiolus gandavensis, saying it was an Australian seedling, while it merely flowered there, with Mr. Bidwell, for the first time.’</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

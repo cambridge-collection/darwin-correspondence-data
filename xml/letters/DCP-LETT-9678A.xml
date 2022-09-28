@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9678A">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. H. M. Christie   13 October [1874]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">20715</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9678A by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9678A.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9678A.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="description">LS</note>
+            <note type="physdesc" n="LS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">CUL-RGO 6/273 (section 3-4: 381)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <idno>–RGO 6/273 (Section 3–4: 381)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1874-10-13">13 Oct [1874]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_920.xml">Christie, W. H. M.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks WHMC and the Astronomer Royal for informing him of the safe arrival of the <hi rend="italic">Merope</hi> [Leonard Darwin’s ship] at New Zealand. [See <hi rend="doubleUnderline">9677</hi>.]</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#">Astronomer Royal</term>
+                <term type="people" ref="#subject_1230">Darwin, Leonard</term>
+                <term type="places" ref="#">New Zealand</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+                <term type="ships" ref="#">Merope</term>
+                <term type="ships" ref="#">ship</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington S.E.R.</hi></placeName>
+                    <date>Oct 13</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am extremely obliged to you &amp; to the Astronomer Royal for so kindly informing me of the safe arrival of the Merope at New Zealand.<ref target="#foot.f2"/></p>
+<p>Dear Sir | yours faithfully | Charles Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-9677.xml" resp="#mjhawkins">letter from W. H. M. Christie, 12 October 1874</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-9677.xml" resp="#mjhawkins">letter from W. H. M. Christie, 12 October 1874</ref> and n. 1. The astronomer royal was <ref target="../nameregs/nameregs_50.xml" resp="#mjhawkins">George Biddell Airy</ref>. <ref target="../nameregs/nameregs_1230.xml" resp="#mjhawkins">Leonard Darwin</ref> was on the <hi rend="italic">Merope</hi> as part of the transit of Venus expedition.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

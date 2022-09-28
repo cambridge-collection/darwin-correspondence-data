@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-766">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Josiah Wedgwood III and E. A. Darwin<ref target="#foot.f1"/>   25 July 1844</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">2713</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-766 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-766.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-766.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc">ADS 1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">V&amp;A / Wedgwood Collection (MS W/M 1012)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_521.xml">V&amp;A / Wedgwood Collection</repository>
+                    <idno>(MS W/M 1012 OR 977)</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1844-07-25">25 July 1844</date>
+            </correspAction>
+            <correspAction type="received" subtype="personGrp">
+                <persName key="../nameregs/nameregs_5027.xml">Wedgwood, Josiah, III</persName>
+                <persName key="../nameregs/nameregs_1211.xml">Darwin, E. A.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Requests to JW III and EAD as trustees of the marriage-settlement, to make some funds available.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Darwin himself, miscellaneous</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="societal" ref="#">marriage settlement</term>
+                <term type="societal" ref="#">trustee</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Down]</placeName>
+                </opener>
+                <div type="transcription">
+                     
+<p>We hereby request you to pay the sum of five thousand pounds now in your hands, being trust-money under our marriage-settlement, to Tho<hi rend="superscript">s</hi>: Salt Esq:<ref target="#foot.f2"/> for the disposal of D<hi rend="superscript">r</hi> Darwin.<ref target="#foot.f3"/></p>
+<p>Charles Robert Darwin</p>
+<p>Emma Darwin <lb resp="#mjhawkins"/> July 25<hi rend="superscript">th</hi> 1844</p>
+<p>I hereby notify my assent to the above Arrangement</p>
+<p>E. A. Darwin.</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The trustees of the marriage settlement of CD and Emma.</note>
+            <note xml:id="foot.f2">Of the Shrewsbury law firm of Dukes and Salt.</note>
+            <note xml:id="foot.f3">The money was part of a £20,000 sum, made over to Robert Waring Darwin by CD and Emma, which formed the basis of a mortgage loan to Edward Herbert, 2d Earl of Powis, negotiated on 14 November 1844 (R. W. Darwin’s Investment Book (Down House MS), pp. 57, 70).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

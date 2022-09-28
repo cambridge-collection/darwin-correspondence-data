@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6553">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From George Maw   14 January 1869</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10044</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6553 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6553.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6553.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 103</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 103</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3232.xml">Maw, George</persName>
+                <placeName>Benthall Hall</placeName>
+                <date when="1869-01-14">14 Jan 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>In Gibraltar he will make notes on merino lambs and <hi rend="italic">Drosophyllum</hi> as CD requests.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">lambs, merino</term>
+                <term type="places" ref="#">Gibraltar</term>
+                <term type="scientific_terms" ref="#">experiment, scientific observation</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+                <term type="scientific_terms" ref="#">scientific fieldwork/fieldtrips</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Benthall Hall, | n<hi rend="superscript">r</hi>. Broseley.</hi></placeName>
+                    <date>Jany 14. 69</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am very pleased to find I can be of any use to you. I will make a note as to the age of horning of Merino Lambs &amp; try &amp; get some information<ref target="#foot.f1"/></p>
+<p>With reference to the drosphyllum could you send me a dried specimen to look at which I will return you.<ref target="#foot.f2"/> I am not acquainted with the plant nor is it mentioned by Kelaart in his Flora Calpensis or by Munby in the little work he published on the Flora of the N African coast but if I can see a dried specimen I will do my best to find it &amp; send it by post as I shall be some weeks in the neighbourhood of Gibraltar &amp; am generally lucky in finding plants I want to get.<ref target="#foot.f3"/></p>
+<p>I am D<hi rend="superscript">r</hi> Sir | Very truly | Geo Maw <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">C Darwin Esq</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-6552.xml" resp="#mjhawkins">letter to George Maw, 13 January 1869</ref>.</note>
+            <note xml:id="foot.f2">Maw refers to the insectivorous plant <hi rend="italic">Drosophyllum</hi> (see <ref target="./DCP-LETT-6552.xml" resp="#mjhawkins">letter to George Maw, 13 January 1869</ref> and n. 3).</note>
+            <note xml:id="foot.f3">Maw refers to <ref target="../nameregs/nameregs_2652.xml" resp="#mjhawkins">Edward Frederick Kelaart’s</ref> <hi rend="italic">Flora Calpensis</hi> (<ref target="../bibliographies/bibl_4311.xml" resp="#mjhawkins">Kelaart 1846</ref>) and <ref target="../nameregs/nameregs_3447.xml" resp="#mjhawkins">Giles Munby’s</ref> <hi rend="italic">Flore d’Algèrie</hi> (<ref target="../bibliographies/bibl_5714.xml" resp="#mjhawkins">Munby 1847</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

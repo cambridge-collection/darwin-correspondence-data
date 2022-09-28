@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10078">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Lawson Tait   19 July [1875]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10897</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10078 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10078.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10078.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="23">23</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 178: 15</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>178: 15</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4653.xml">Tait, R. L.</persName>
+                <placeName>Birmingham</placeName>
+                <date when="1875-07-19">19 July [1875]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Sends a note on the ferment of the <hi rend="italic">Nepenthes</hi> secretion, which he asks CD to forward to <hi rend="italic">Nature</hi> if he thinks it worth while [see "Insectivorous plants", <hi rend="italic">Nature</hi> 12 (1875): 251–2].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">Nepenthes</term>
+                <term type="it" ref="#">Nature</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">chemistry, chemicals</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">food</term>
+                <term type="scientific_terms" ref="#">predators</term>
+                <term type="scientific_terms" ref="#">queries / requests</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">7, Great Charles St. | Birmingham.</hi></placeName>
+                    <date>July 19</date>
+                    <salute>My Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have succeeded in separating the ferment of the Nepenthe secretion.<ref target="#foot.f2"/></p>
+<p>I think the enclosed note may interest you; and if you think it worth publishing will you kindly forward it to “Nature” as M<hi rend="superscript">r</hi>. Lockyer has asked me for something on the subject.<ref target="#foot.f3"/></p>
+<p>Please don’t trouble to acknowledge it if it is satisfactory.</p>
+<p>Yours faithfully, | Lawson Tait</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to Tate’s note in <hi rend="italic">Nature</hi> (see n. 3, below).</note>
+            <note xml:id="foot.f2">On Tait’s work on the tropical pitcher-plant, <hi rend="italic">Nepenthes</hi>, see the <ref target="./DCP-LETT-10066.xml" resp="#mjhawkins">letter from Lawson Tait, 15 July [1875]</ref> and n. 5.</note>
+            <note xml:id="foot.f3">Tait’s note on insectivorous plants was published in <hi rend="italic">Nature</hi>, 29 July 1875, pp. 251–2. Joseph <ref target="../nameregs/nameregs_2971.xml" resp="#mjhawkins">Norman Lockyer</ref> was the editor of <hi rend="italic">Nature.</hi></note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

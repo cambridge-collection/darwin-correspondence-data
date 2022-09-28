@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7908">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From James Croll   17 August 1871</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">16562</idno>
+            
+            
+            
+            
+            <date when="2012">2012</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7908 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7908.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7908.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="19">19</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 161: 266</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>161: 266</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1127.xml">Croll, James</persName>
+                <placeName>Edinburgh</placeName>
+                <date when="1871-08-17">17 Aug 1871</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Refused to write a treatise on geological time.</p>
+            <p>His paper on W. B. Carpenter’s theory of ocean currents is appearing soon.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_839">Carpenter, W. B.</term>
+                <term type="scientific_terms" ref="#">assessments</term>
+                <term type="scientific_terms" ref="#">geological time, epochs</term>
+                <term type="scientific_terms" ref="#">sea, sea-currents</term>
+                <term type="scientific_terms" ref="#">theory (including philosophy)</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Edinburgh</placeName>
+                    <date>August 17<hi rend="superscript">th</hi> 1871</date>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am much obliged to you for your letter of 19<hi rend="superscript">th</hi> ult. which I received through M<hi rend="superscript">r</hi>. Youmans.<ref target="#foot.f1"/></p>
+<p>This gentleman wished me to write a small treatise on Geol. Time. But I explained to him, that in the present state of the question nothing satisfactory could be written on it, which would be of any service to general readers<ref target="#foot.f2"/>   I believe he left satisfied that the better plan was to let this subject lie over, for some time to come.</p>
+<p>I have been doing little for some time back, owing to pain in the head;<ref target="#foot.f3"/> but I expect to have a long paper in the Oct number of the Phil. Mag. on D<hi rend="superscript">r</hi> Carpenter theory of Ocean Currents.<ref target="#foot.f4"/></p>
+<p>I am | yours most sincerely | James Croll <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin Esq<hi rend="superscript">re</hi> Ma. FRS.—</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD’s <ref target="./DCP-LETT-7874.xml" resp="#automat" cert="medium">letter to Croll of 19 July [1871]</ref> was a letter of introduction for <ref target="../nameregs/nameregs_5285.xml" resp="#mjhawkins">Edward Livingston Youmans</ref>, who was commissioning books for the International Scientific Series published by the Appleton publishing company of New York. CD’s son George had suggested Croll to Youmans as a possible author for a small monograph (see <ref target="./DCP-LETT-7841.xml" resp="#mjhawkins">letter from G. H. Darwin, [17 July 1871]</ref>).</note>
+            <note xml:id="foot.f2">The question of the age of the earth had since the late 1860s been one of the most hotly debated topics in British science, involving not only Croll but such senior figures as William Thomson (later Lord Kelvin) and <ref target="../nameregs/nameregs_3051.xml" resp="#mjhawkins">Charles Lyell</ref>. For an overview of Croll’s contributions to the debate, see <ref target="../bibliographies/bibl_1079.xml" resp="#mjhawkins">Burchfield 1990</ref>, especially chapter 3. See <ref target="./DCP-LETT-7841.xml" resp="#mjhawkins">letter from G. H. Darwin, [17 July 1871]</ref>, n. 2.</note>
+            <note xml:id="foot.f3">Croll had suffered head pains since childhood. Their intensity increased sharply in 1871, requiring him to take intermittent leave from his work at the Geological Survey of Scotland (<ref target="../bibliographies/bibl_4102.xml" resp="#mjhawkins">Irons 1896</ref>).</note>
+            <note xml:id="foot.f4">Croll refers to the second part of his paper on the physical causes of ocean currents (<ref target="../bibliographies/bibl_1657.xml" resp="#mjhawkins">Croll 1870–4</ref>, pp. 241–80); it was published in the <hi rend="italic">Philosophical Magazine</hi> in October 1871 as a response to <ref target="../nameregs/nameregs_839.xml" resp="#mjhawkins">William Benjamin Carpenter’s</ref> paper, ‘On the Gibraltar current, the Gulf Stream, and general oceanic circulation’ (<ref target="../bibliographies/bibl_1271.xml" resp="#mjhawkins">Carpenter 1871</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-10950">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From W. H. Flower   3 May 1877</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">511</idno>
+            
+            
+            
+            
+
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10950 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10950.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10950.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="25">25</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.511)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno>511</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1670.xml">Flower, W. H.</persName>
+                <placeName>Royal College of Surgeons</placeName>
+                <date when="1877-05-03">3 May 1877</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Discusses abnormal pig’s foot sent to him by CD.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">pig</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">monstrosity</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">structural characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Royal College of Surgeons of England, | Lincoln’s Inn Fields, | (W.C.)</hi></placeName>
+                    <date>3<hi rend="superscript">rd</hi>. <hi rend="print">day of</hi> May <hi rend="print">187</hi>7</date>
+                    <salute>My dear M<hi rend="superscript">r</hi>. Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Thank you for sending the pig’s foot (a left fore foot)<ref target="#foot.f1"/>   It will make a valuable addition to our series of similar specimens, as it differs somewhat from any we possess. The four usual digits are quite normal, and on the inner side is situated another, quite complete, and with a complete and distinct carpal bone (trapezium) not usually present. Unfortunately the foot was cut off between the first and the second rows of carpal bones, so that we can not tell what the condition of the former was.</p>
+<p>The additional digit differs however from the one which it seems to represent in ordinary 5 toed mammals in being <hi rend="underline">larger</hi>, instead of smaller than the one next to it (or the second of the normal series) and of course it would be quite open to anyone to say that it really represented the normal inner or second toe of the pig, and that a supernumerary had been interposed between it and the third. It <hi rend="underline">looks</hi> however, as if the former supposition was the correct one, though on the reversionary hypothesis it would have been more satisfactory, if it had been a rudimentary rather than an over well developed digit.<ref target="#foot.f2"/> The interest of the case will be much increased if it can be ascertained whether—</p>
+<p>(1). the other fore-foot was similarly malformed—</p>
+<p>(2) whether the hind feet were affected— &amp; (3) whether it was a family or only an individual peculiarity.</p>
+<p>At all events I am very glad of the specimen, for we can not have too large a series</p>
+<p>Believe me | Yours very truly | W. H. Flower</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">See postcard to W. H. Flower, 2 May [1877].</note>
+            <note xml:id="foot.f2">CD had previously corresponded with Flower about a rudimentary sixth toe in frogs (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 11, <ref target="./DCP-LETT-4559.xml" resp="#mjhawkins">letter to W. H. Flower, 11 July [1863]</ref>). CD discussed polydactylism and inheritance in <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 2: 12–17, including rudimentary extra digits in dogs, horses, goats, sheep, and pigs. The other forefoot had not been sent to CD, but was to be photographed (see <ref target="./DCP-LETT-10936.xml" resp="#mjhawkins">letter from Otto Zacharias, 21 April 1877</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

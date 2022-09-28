@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1861">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Miss Holland<ref target="#foot.f1"/>   [May 1856]<ref target="#foot.f2"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">865</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1861 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1861.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1861.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno/>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date notBefore="1856-05-01" notAfter="1856-05-31">[May 1856]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2339.xml">Holland, Miss</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>An entomologist who has been staying with CD [T. V. Wollaston] says the pupa she sent would turn into a lackey moth.</p>
+            <p>Adds that the great destruction of birds in the winter preceding the last is probable cause of survival of caterpillars and resulting numerous cocoons.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">birds</term>
+                <term type="animals" ref="#">caterpillars</term>
+                <term type="people" ref="#subject_5216">Wollaston, T. V.</term>
+                <term type="scientific_terms" ref="#">death</term>
+                <term type="scientific_terms" ref="#">embryology</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+                <term type="scientific_terms" ref="#">pupae</term>
+                <term type="scientific_terms" ref="#">relation of organism to organism</term>
+                <term type="scientific_terms" ref="#">seasons</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">visiting</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener><placeName>[Down]</placeName>
+                    <salute>My dear Miss Holland</salute>
+                </opener>
+                <div type="transcription">
+<p>Fortunately for my entomological credit, a first-rate Entomologist has been staying with me, to whom I showed the pupa which you sent me, &amp; he says it would turn into one of the Lackey moths, probably the Eriogaster lanestris.—<ref target="#foot.f3"/> Last summer moths &amp; butterflies abounded in an unprecedented degree, &amp; entomologists attribute this abundance, I believe rightly, to the great destruction of birds during the winter previous to that just passed;<ref target="#foot.f4"/> &amp; the scarcity of birds saved many caterpillars which otherwise would have been devoured, &amp; hence the numerous cocoons on your Hawthorn Hedges.—</p>
+<p>Emma demands the rest of this note,<ref target="#foot.f5"/> so pray believe me, dear Miss Holland, yours very sincerely | Charles Darwin</p> 
+                </div>
+            </div>
+            
+        </div>
+
+        
+        
+
+        
+        
+
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_2338.xml">Mary Holland</ref> or her younger sister <ref target="../nameregs/nameregs_5932.xml">Lucy</ref>. The Darwins and Wedgwoods were related to the Holland family.</note>
+            <note xml:id="foot.f2">Dated by the reference to <ref target="../nameregs/nameregs_5216.xml" resp="#mjhawkins">Thomas Vernon Wollaston</ref>, who visited the Darwins from 25 to 28 April 1856 (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary).</note>
+            <note xml:id="foot.f3">See n. 2, above. In the manuscript, ‘Mr Wollaston’ was interlined in a different hand, possibly <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref>, after ‘first-rate Entomologist’ and, in the same hand, ‘Eriogaster lanestris’ was written above CD’s text.</note>
+            <note xml:id="foot.f4">The weather in January and February 1855 had been particularly severe (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 5, <ref target="./DCP-LETT-1651.xml" resp="#mjhawkins">letter to W. D. Fox, 19 March [1855]</ref> and n. 7). CD refers to the large-scale destruction of birds in his garden during that winter in <ref target="../bibliographies/bibl_6014.xml" resp="#mjhawkins"><hi rend="italic">Origin</hi></ref>, p. 68.</note>
+            <note xml:id="foot.f5"><ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> note has been excised.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2702">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Smith, Elder, and Company?<ref target="#foot.f1"/>   17 February [1860]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3054</idno>
+            
+            
+            
+            
+            <date when="1993">1993</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2702 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2702.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2702.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="08">8</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="endorsement" subtype="letter">1860 | March 2</note>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">The Morgan Library and Museum, New York (Gordon N. Ray Collection MA 13959)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_324.xml">Morgan</repository>
+                    <collection>Gordon N. Ray</collection>
+                    <idno>MA 13959</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1860-02-17">17 Feb [1860]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4407.xml">Smith, Elder &amp; Co.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Arranges to send ear-trumpet to Syms Covington.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Other people</term>
+                <term type="people" ref="#subject_1096">Covington, Syms</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Feb. 17<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am infinitely obliged to you for so kindly offering to ship the Box with ear-trumpet &amp; pay the charges for me thereon.— I will give as little trouble as possible.—   I <hi rend="underline">have</hi> paid the maker (W. Harrowin)<ref target="#foot.f2"/> &amp; told him to put Trumpet in a Box &amp; address it to</p> 
+<figure type="diagram"> 
+<p>M<hi rend="superscript">r</hi> Syms Covington<ref target="#foot.f3"/> Post-Office Pambala Twofold Bay Australia</p> </figure> 
+<p>To be left at your house.—</p>
+<p>I thank you sincerely for aiding me in this little act of charity for the poor man writes to me that he cannot get Ear-trumpet which will suit him in Australia.—<ref target="#foot.f4"/></p>
+<p>I will write to him &amp; say that the Box will be sent by the next P. &amp; O. Steamer after Feb. 20<hi rend="superscript">th</hi>, for the Box will not be in time for 20<hi rend="superscript">th</hi>—</p>
+<p>Dear Sir | Yours faithfully &amp; much obliged | Charles Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.2 the charges] ‘the’ <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n2">1.2 for me] <hi rend="italic">interl</hi></note>
+                </div>
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The identity of the recipient is suggested by a previous occasion on which CD sent an ear-trumpet to <ref target="../nameregs/nameregs_1096.xml" resp="#mjhawkins">Syms Covington</ref>. The publishing firm of Smith, Elder, and Co. sent CD’s present in one of their regular shipments to their agent in New South Wales (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 2, <ref target="./DCP-LETT-700.xml" resp="#mjhawkins">letter to Syms Covington, 7 October 1843</ref>).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_2144.xml">William Henry Harrowin</ref>. There is an entry dated 3 February 1860 in CD’s Account book (Down House MS) that reads: ‘Ear-trumpet. 13<hi rend="superscript">s</hi> . 6<hi rend="superscript">d</hi>’.</note>
+            <note xml:id="foot.f3">Covington was CD’s servant and assistant during the <hi rend="italic">Beagle</hi> voyage and for some years afterwards. In 1842 he had emigrated to Australia (see <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 2).</note>
+            <note xml:id="foot.f4">Covington’s letter has not been found. In a previous letter, he asked CD to send him a book on curing deafness. See <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 7, <ref target="./DCP-LETT-2400.xml" resp="#mjhawkins" cert="high">letter to Syms Covington, 16 January [1859]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

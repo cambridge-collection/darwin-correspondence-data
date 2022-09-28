@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6622">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Eliza Meteyard   19 February 1869</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10098</idno>
+            
+            
+            
+            
+            <date when="2009">2009</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6622 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6622.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6622.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="17">17</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171: 162</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 162</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3304.xml">Meteyard, Eliza</persName>
+                <placeName>Hampstead</placeName>
+                <date when="1869-02-19">19 Feb 1869</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Her memorial [for civil list pension] with the signatures of CD, John Lubbock, and Charles Lyell has arrived. It is now going to W. E. Gladstone.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="business" ref="#">Other people</term>
+                <term type="people" ref="#subject_1883">Gladstone, W. E.</term>
+                <term type="people" ref="#subject_3026">Lubbock, John</term>
+                <term type="people" ref="#subject_3051">Lyell, Charles</term>
+                <term type="social" ref="#">Darwin himself, personal life</term>
+                <term type="societal" ref="#">civil list</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>wildwood. | Hampstead. N.W</placeName>
+                    <date>Feb. 19. 1869.</date>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I received the memorial from Sir John Lubbock—quite safely—the evening before last.<ref target="#foot.f1"/> It contains his valuable signature as also your own—and that of Sir Charles Lyell. When you see or write to these gentlemen, will you offer to them my very earnest thanks for their true goodness. And will you please receive the same yourself—with the addition of my deep respect. Such names are of the highest value to me—not only for the intrinsic weight they bear—in relation to the matter in question—but to myself as a silent guarantee of opinion. Believe me truly and respectfully grateful to you.</p>
+<p>The memorial is now with Mr Winter Jones<ref target="#foot.f2"/> at the British Museum—for his and others’ signatures. But I am somewhat in a commotion—Mr Smiles having written urgently last night—for the memorial to be sent in to Mr Gladstone.<ref target="#foot.f3"/> There will therefore be only time to add the names of my kind friends—Mr Duffus Hardy and Mr Bennett Woodcroft.<ref target="#foot.f4"/> There are many names of great value—awaiting the memorial—as those of Mr Warren De La Rue—Mr Millais<ref target="#foot.f5"/>—and others—but there is now no time for application.</p>
+<p>Believe me—with great respect, | your’s obliged &amp; faithfully | Eliza Meteyard <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin Esq.</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Meteyard refers to a petition to put her name on the Civil Pension list (see <ref target="./DCP-LETT-6612.xml" resp="#mjhawkins">letter to John Lubbock, [before 13 February 1869]</ref> and n. 2).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_6021.xml" resp="#mjhawkins">John Winter Jones</ref>.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_4390.xml" resp="#mjhawkins">Samuel Smiles</ref> and <ref target="../nameregs/nameregs_1883.xml" resp="#mjhawkins">William Ewart Gladstone</ref>. For more on the pension scheme, see <ref target="../bibliographies/bibl_5392.xml" resp="#mjhawkins">Meteyard 1970</ref>, 1: introduction [25].</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_5839.xml" resp="#mjhawkins">Thomas Duffus Hardy</ref> and <ref target="../nameregs/nameregs_7048.xml" resp="#mjhawkins">Bennet Woodcroft</ref>.</note>
+            <note xml:id="foot.f5"><ref target="../nameregs/nameregs_6340.xml" resp="#mjhawkins">John Everett Millais</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

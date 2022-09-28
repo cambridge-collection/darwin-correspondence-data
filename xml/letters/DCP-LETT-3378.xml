@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3378">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Lubbock   7 [February] 1862<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">6818</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3378 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3378.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3378.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 170.1: 25</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>170: 25</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3026.xml">Lubbock, John</persName>
+                <placeName>London, Mansion House St, 11</placeName>
+                <date when="1862-02-07">7 [Feb] 1862</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Sir George Clerk to be new President of the Zoological Society.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_961">Clerk, George</term>
+                <term type="people" ref="#">president of Zoological Society</term>
+                <term type="social" ref="#">Other people</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">11, Mansion House Street, | London, | E.C.</hi></placeName>
+                    <date>7 Jan <hi rend="print">186</hi>2</date>
+                    <salute>My dear M<hi rend="superscript">r</hi>. Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Sir G. Clerk is to be the new Zool. Pres. My feeling in the matter was quite the same as yours.<ref target="#foot.f2"/></p>
+<p>The Busks<ref target="#foot.f3"/> are coming to us on Friday 14<hi rend="superscript">th</hi>. &amp; if you can come over on the Saturday I will stay at home to meet you. Indeed I will do so unless you write to the Contrary.</p>
+<p>Hoping you will be able to come I remain | Very sincerely yours | John Lubbock <lb resp="#mjhawkins"/> <lb resp="#mjhawkins"/></p>
+<p rend="left">C. Darwin. Esq | F.R.S.</p> 
+                </div>
+            </div>
+
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">It appears from Lubbock’s mention of ‘Friday 14<hi rend="superscript">th</hi>’ that he mistakenly dated his letter January instead of February: 14 January 1862 did not fall on a Friday, whereas 14 February did. See also <ref target="./DCP-LETT-3444.xml" resp="#mjhawkins">letter from John Lubbock, 13 February 1862</ref>.</note>
+            <note xml:id="foot.f2">In February 1862, <ref target="../nameregs/nameregs_961.xml" resp="#mjhawkins">George Clerk</ref> was elected to succeed Prince Albert as president of the <ref target="../nameregs/nameregs_5302.xml" resp="#mjhawkins">Zoological Society of London</ref> (<ref target="../bibliographies/bibl_6922.xml" resp="#mjhawkins">Scherren 1905</ref>, p. 126). There was some opposition to the selection of Clerk who was 75 years old and did not have a scientific background (see <ref target="./DCP-LETT-3433.xml" resp="#mjhawkins">letter from J. E. Gray, 1 February 1862</ref>).</note>
+            <note xml:id="foot.f3">George and <ref target="../nameregs/nameregs_759.xml" resp="#mjhawkins">Ellen Busk</ref> were close friends of the Lubbocks (<ref target="../bibliographies/bibl_3968.xml" resp="#mjhawkins">Hutchinson 1914</ref>, 1: 39).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

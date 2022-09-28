@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5513">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From V. O. Kovalevsky   24 April [1867]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">17769</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5513 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5513.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5513.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 169: 73</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>169: 73</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2751.xml">Kovalevsky, V. O.</persName>
+                <placeName>St Petersburg</placeName>
+                <date when="1867-04-24">24 Apr [1867]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Agrees to use Murray’s stereotypes.</p>
+            <p>Offers to send rug made from a black Russian bear he shot.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">bear</term>
+                <term type="it" ref="#">Variation</term>
+                <term type="people" ref="#subject_3463">Murray, John (b)</term>
+                <term type="places" ref="#">Russia</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>S Petersburg</placeName>
+                    <date>12/24 April.<ref target="#foot.f2"/></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I received to day Your letter of 20 Apr. in answer to my writing of Ap. 2, and am happy to inform You, that I find the price at £10 a very reasonable one and beg M<hi rend="superscript">r</hi>. Murray to make a set of stereotypes for me and to deliver them, on payement, to <hi rend="underline">Mr. Trüebner</hi> 60. Paternoster Row, who is my commissione for English Books, and will forward the stereotypes to me.<ref target="#foot.f3"/> Demanding You, dear Sir, a free pardon for my importunity I shall entreat You, in case M<hi rend="superscript">r</hi>. Murray intends to set the whole I volume in type, before going to print, to send me duplicates of the last corrected proofs (Abdrücke der letzten correcturen).— The extreme kindness You showed me, make me bold even to ask You such a condesention, because as I shall receive stereotypes ready made, the last proof sheets will do as well as clean printed ones.</p>
+<p>Dear Sir | Yours faithfully | W. Kowalevsky</p>
+<p>P.S. Beeing a sportsman, I killed last week a very fine big black Russian bear; will You allow me to send the skin, made in form of a carpet with the heaad whole and paws, as a present and a natural specimen to You. You shall make me very happy in accepting the offer.</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <ab><ref target="#foot.f4"/></ab>
+                <note><hi rend="italic">Top of letter</hi>: ‘viâ France or Belgium’ <hi rend="italic">ink</hi></note>
+            </div>
+
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-5452.xml" resp="#mjhawkins">letter from V. O. Kovalevsky, 2 April 1867</ref>.</note>
+            <note xml:id="foot.f2">Kovalevsky gives both the Julian (12 April) and Gregorian (24 April) calendar dates.</note>
+            <note xml:id="foot.f3">In his letter of 2 April 1867, Kovalevsky had asked permission to approach CD’s publisher, John Murray, to ask for stereotypes of the illustrations to <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref>, which Kovalevsky was planning to translate into Russian. CD’s letter of 20 April has not been found. Kovalevsky also refers to <ref target="../nameregs/nameregs_4787.xml" resp="#mjhawkins">Nicholas Trübner</ref>, a bookseller in Paternoster Row, London.</note>
+            <note xml:id="foot.f4">CD’s annotation is a note for his <ref target="./DCP-LETT-5523.xml" resp="#automat" cert="medium">letter to Kovalevsky of 2 May [1867]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

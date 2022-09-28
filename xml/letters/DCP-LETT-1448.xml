@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1448">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Edwin Lankester, Ray Society   [7 August 1851]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">856</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1448 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1448.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1448.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="05">5</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno/>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Park St, 7</placeName>
+                <date when="1851-08-07">[7 Aug 1851]</date>
+            </correspAction>
+            <correspAction type="received" subtype="personGrp">
+                <persName key="../nameregs/nameregs_2815.xml">Lankester, Edwin</persName>
+                <persName key="../nameregs/nameregs_3945.xml">Ray Society</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>CD returns home Saturday and would like his servant to take his MS [of <hi rend="italic">Living Cirripedia</hi>] to Adlard that morning; he does not have a copy and would on no account re-undergo the labour he has spent on it.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="places" ref="#">Down</term>
+                <term type="scientific_terms" ref="#">instructions</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+                <term type="social" ref="#">returning</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>7. Park St<hi rend="superscript">t</hi>.— | Grosvenor Sq<hi rend="superscript">e</hi>.—</placeName>
+                    <date>Thursday</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>We return home on Saturday next;<ref target="#foot.f1"/> it would therefore be a very great convenience to me, <hi rend="underline">if in your power</hi>, to permit my servant to take my M.S. to Adlard on Saturday morning, between 9 &amp; 10 oclock.— My reason for wishing my own servant to take the M.S. is that I have not a copy of a page, &amp; I would on no account reundergo the labour I have spent on it, &amp; therefore am very unwilling to trust it to the tender mercies of a public conveyance. If I do <hi rend="doubleUnderline">not</hi> hear from you, I shall understand that my servant may call for it.—</p>
+<p>I hope you have much enjoyed the brilliant festivities at Paris.<ref target="#foot.f2"/></p>
+<p>Yours very sincerely | C. Darwin</p>
+<p>P.S | I may mention as a proof to you, that I send my M.S. fit for the Printers, that M<hi rend="superscript">r</hi> Bowerbank retained that for the Pal: Soc<hi rend="superscript">y</hi>: for less than an hour, &amp; the corrections were not heavy.—</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.5 reundergo] <hi rend="italic">over illeg</hi></note>
+                    <note xml:id="tnote.n2">4.2 that for the Pal: Soc<hi rend="superscript">y</hi>:] <hi rend="italic">above del</hi> ‘it’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">According to CD’s ‘Journal’ (<ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 5, Appendix I) and <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary, CD did not return to Down until Sunday, 10 August 1851.</note>
+            <note xml:id="foot.f2">The president of the French Republic, Louis Napoleon, invited the jurors of the Great Exhibition to Paris during the first week in August. For an account of some of the festivities, see <ref target="../bibliographies/bibl_6119.xml" resp="#mjhawkins">R. S. Owen 1894</ref>, 1: 367–9. Lankester was a juror and the reporter of the section on ‘Manufactures from animal and vegetable substances, not being woven, felted, or included in other sections’ (<hi rend="italic">Exhibition of the works of industry of all nations, 1851. Reports by the</hi> <hi rend="italic">juries</hi> (London, 1852), pp. 590–602).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

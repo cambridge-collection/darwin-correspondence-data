@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-2019">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To W. E. Darwin   10 [December 1856]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">7785</idno>
+            
+            
+            
+            
+            <date when="1990">1990</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-2019 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2019.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-2019.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="06">6</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">4pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance" resp="#mjhawkins" cert="high">DAR 210.6: 12</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>210.6: 12</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1856-12-10">10 [Dec 1856]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1245.xml">Darwin, W. E.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Writes of arrangements for the end of the school-term.</p>
+            <p>Condition of Emma and the new baby [C. W. Darwin].</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="health" ref="#">Darwin family</term>
+                <term type="people" ref="#subject_1209">Darwin, C. W.</term>
+                <term type="people" ref="#subject_1218">Darwin, Emma</term>
+                <term type="social" ref="#">Darwin family</term>
+                <term type="societal" ref="#">school</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00053_files/8/0_0.jpg" width="3465px" height="5837px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00053_files/11/1_1.jpg" width="3465px" height="5837px"/>
+        <surface n="12:1r" xml:id="i53">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00053.jpg" width="3465px" height="5837px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00053_files/8/0_0.jpg" width="3465px" height="5837px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00053.dzi" width="3465px" height="5837px"/>
+        </surface>
+        <surface n="12:1v" xml:id="i54">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00054.jpg" width="3465px" height="5837px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00054_files/8/0_0.jpg" width="3465px" height="5837px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00054.dzi" width="3465px" height="5837px"/>
+        </surface>
+        <surface n="12:2r" xml:id="i55">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00055.jpg" width="3465px" height="5837px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00055_files/8/0_0.jpg" width="3465px" height="5837px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00055.dzi" width="3465px" height="5837px"/>
+        </surface>
+        <surface n="12:2v" xml:id="i56">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00056.jpg" width="3465px" height="5837px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00056_files/8/0_0.jpg" width="3465px" height="5837px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00056.dzi" width="3465px" height="5837px"/>
+        </surface>
+        <surface n="12:1v-2r" xml:id="i57">
+            <graphic decls="#downloadImageRights #download" rend="landscape" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00057.jpg" width="6409px" height="5837px"/>
+            <graphic decls="#thumbnail" rend="landscape" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00057_files/8/0_0.jpg" width="6409px" height="5837px"/>
+            <graphic decls="#display" rend="landscape" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00057.dzi" width="6409px" height="5837px"/>
+        </surface>
+        <surface n="12:3r" xml:id="i58">
+            <graphic decls="#downloadImageRights #download" rend="landscape" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00058.jpg" width="3333px" height="2723px"/>
+            <graphic decls="#thumbnail" rend="landscape" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00058_files/8/0_0.jpg" width="3333px" height="2723px"/>
+            <graphic decls="#display" rend="landscape" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00058.dzi" width="3333px" height="2723px"/>
+        </surface>
+        <surface n="12:3v" xml:id="i59">
+            <graphic decls="#downloadImageRights #download" rend="landscape" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00059.jpg" width="3333px" height="2723px"/>
+            <graphic decls="#thumbnail" rend="landscape" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00059_files/8/0_0.jpg" width="3333px" height="2723px"/>
+            <graphic decls="#display" rend="landscape" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00059.dzi" width="3333px" height="2723px"/>
+        </surface>
+        <surface n="13:1r" xml:id="i60">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00060.jpg" width="3004px" height="5274px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00060_files/8/0_0.jpg" width="3004px" height="5274px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00060.dzi" width="3004px" height="5274px"/>
+        </surface>
+        <surface n="13:1v" xml:id="i61">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00061.jpg" width="3004px" height="5274px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00061_files/8/0_0.jpg" width="3004px" height="5274px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00061.dzi" width="3004px" height="5274px"/>
+        </surface>
+        <surface n="13:2r" xml:id="i62">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00062.jpg" width="3004px" height="5274px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00062_files/8/0_0.jpg" width="3004px" height="5274px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00062.dzi" width="3004px" height="5274px"/>
+        </surface>
+        <surface n="13:2v" xml:id="i63">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00063.jpg" width="3004px" height="5274px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00063_files/8/0_0.jpg" width="3004px" height="5274px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00063.dzi" width="3004px" height="5274px"/>
+        </surface>
+        <surface n="13:1v-2r" xml:id="i64">
+            <graphic decls="#downloadImageRights #download" rend="landscape" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00064.jpg" width="5591px" height="5335px"/>
+            <graphic decls="#thumbnail" rend="landscape" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00064_files/8/0_0.jpg" width="5591px" height="5335px"/>
+            <graphic decls="#display" rend="landscape" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00064.dzi" width="5591px" height="5335px"/>
+        </surface>
+    </facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down.</placeName>
+                    <date>10<hi rend="superscript">th</hi></date>
+                    <salute>My dear old Willy</salute>
+                </opener>
+                <div type="transcription">
+<p>Mamma is going on perfectly well (as is your beautiful little Brother) &amp; I hope she will make a quicker recovery than usual.— Georgy’s holidays are on 22<hi rend="superscript">d</hi>. &amp; he will go up to Cumberland Terrace &amp; come back with you;<ref target="#foot.f2"/> as Erny &amp; H. Hemming<ref target="#foot.f3"/> will be in London, we think you had both better stay till Friday 26<hi rend="superscript">th</hi> or Saturday if Aunt Fanny will ask you.<ref target="#foot.f4"/> And we have written to ask her.— How do you like this plan? This House will be rather dull, as Mamman cannot be perfectly recovered by that time.—<ref target="#foot.f5"/></p>
+<p>I thought your skates would not prove of any use, but the dear old Mammy would send them off.—</p>
+<p>Parslow rode the grey mare the other day &amp; found her <hi rend="doubleUnderline">very</hi> pleasant &amp; quiet. Today &amp; yesterday were the auction days at At. Sarahs.— The things have sold very well. The Brougham 10<formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></formula> guineas. The 3 Vases sold for <hi rend="superscript">£</hi>7 <hi rend="superscript">s</hi>.— An American clock which cost when new 86 sold for 15<hi rend="superscript">s</hi>.— The arm chair fetched <hi rend="superscript">£</hi>6 <hi rend="superscript">s</hi> 12 <hi rend="superscript">d</hi> 6.—<ref target="#foot.f6"/></p>
+<p>Good Bye my old man. I heartily hope that you will get on well in your examination</p>
+<p>Your affect. | C. Darwin</p>
+<p>What a nice letter that was of Georgys.—</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Dated by the reference to the birth of <ref target="../nameregs/nameregs_1209.xml" resp="#mjhawkins">Charles Waring Darwin</ref>.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin</ref> noted in her diary that after his school-term ended, <ref target="../nameregs/nameregs_1224.xml" resp="#mjhawkins">George Howard Darwin</ref> went directly to the home of Hensleigh and Frances Mackintosh Wedgwood in Cumberland Terrace, London.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_5008.xml" resp="#mjhawkins">Ernest Hensleigh Wedgwood</ref> was the son of Fanny and <ref target="../nameregs/nameregs_5019.xml" resp="#mjhawkins">Hensleigh Wedgwood</ref> and a fellow student of <ref target="../nameregs/nameregs_1245.xml" resp="#mjhawkins">William Erasmus Darwin’s</ref> at Rugby. <ref target="../nameregs/nameregs_2210.xml" resp="#mjhawkins">Henry Hemmings</ref>, a servant of the recently deceased Sarah Elizabeth (Sarah) Wedgwood, was probably on his way to Barlaston (see letter to G. H. Darwin and W. E. Darwin, 13 [November 1856]).</note>
+            <note xml:id="foot.f4">According to <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary, the Darwin boys stayed with <ref target="../nameregs/nameregs_5010.xml" resp="#mjhawkins">Fanny Mackintosh</ref> Wedgwood until Saturday, 27 December, which was William Darwin’s birthday.</note>
+            <note xml:id="foot.f5"><ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin</ref> recorded in her diary on 26 December, ‘came down to breakfast’.</note>
+            <note xml:id="foot.f6">CD recorded spending £5 at the sale of Sarah Wedgwood’s goods. An entry in his Account book (Down House MS) on 11 December 1856 lists ‘Furniture At Sarahs Sale. Crockery’.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

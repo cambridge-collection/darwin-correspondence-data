@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9366">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From Henryk Stecki<choice><seg type="original"><ref target="#foot.f1"/></seg><seg type="translation"><ref target="#foot_trans.f1"/></seg></choice>   18 March 1874</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">19509</idno>
+            
+            
+            
+            
+            <date when="2015">2015</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9366 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9366.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9366.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="22">22</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp (French) †</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 53.1: A6–7</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>53.1: A6–7</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_4540.xml">Stecki, Henryk</persName>
+                <placeName>St Petersburg</placeName>
+                <date when="1874-03-18">18 Mar 1874</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Relates the case of a woman from the Caucasus whose hair would frequently stand on end and who later went insane.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#">woman from Caucasus</term>
+                <term type="scientific_terms" ref="#">information, data, scientific description</term>
+                <term type="scientific_terms" ref="#">mind, cognitive behaviour</term>
+                <term type="scientific_terms" ref="#">pathology, disease</term>
+                <term type="scientific_terms" ref="#">physiology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00053-00001-000-00015_files/8/0_0.jpg" width="3460px" height="6081px"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00053-00001-000-00015_files/11/1_1.jpg" width="3460px" height="6081px"/>
+        <surface xml:id="i1" n="A6r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00053-00001-000-00015.jpg" rend="portrait" width="3460px" height="6081px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00053-00001-000-00015_files/8/0_0.jpg" width="3460px" height="6081px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00053-00001-000-00015.dzi" width="3460px" height="6081px"/>
+        </surface>
+        
+        <surface xml:id="i2" n="A6v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00053-00001-000-00016.jpg" rend="portrait" width="3460px" height="6081px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00053-00001-000-00016_files/8/0_0.jpg" width="3460px" height="6081px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00053-00001-000-00016.dzi" width="3460px" height="6081px"/>
+        </surface>
+        
+        <surface xml:id="i3" n="A7r">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00053-00001-000-00017.jpg" rend="portrait" width="3460px" height="6081px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00053-00001-000-00017_files/8/0_0.jpg" width="3460px" height="6081px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00053-00001-000-00017.dzi" width="3460px" height="6081px"/>
+        </surface>
+        
+        <surface xml:id="i4" n="A7v">
+            <graphic decls="#downloadImageRights #download" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00053-00001-000-00018.jpg" rend="portrait" width="3460px" height="6081px"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00053-00001-000-00018_files/8/0_0.jpg" width="3460px" height="6081px"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00053-00001-000-00018.dzi" width="3460px" height="6081px"/>
+        </surface>
+</facsimile>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>Monsieur,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Veuillez m’exuser si, inconnu de vous, je prends la liberté de vous adresser cette lettre. Je le fais en qualité de lecteur très-consciencieux de vos savants ouvrages dont, il est inutil de l’ajouter, je suis grand admirateur.</p>
+<p>Je viens de finir le dernier, en traduction française: <hi rend="underline">L’expression des émotions chez l’homme et chez les animaux</hi>.<ref target="#foot.f2"/> Cette lecture me donne le desir de vous communiquer un fait curieux dont j’ai été témoin et qui se rapporte a un de vos chapitres</p>
+<p>Dans le chapitre XII. de votre livre, il est question d’une folle, dont les cheveux se hérissaient;<ref target="#foot.f3"/> les autres cas pareils que vous y citez, proviennent toujours des emotions plus ou moins violentes. Or j’ai été témoin oculaire d’un phenomène de ce genre qui se produisait dans un état d’esprit à peu près tranquille, du moins en apparence, chez une personne qui, bien qu’elle avait quelques excentricités dans ses manières, n’était nullement folle. Elle l’est devenue quelques années plus tard, m’a-t-on dit, mais je ne puis garantir l’athenticité de cette assertion.</p>
+<p>Etant à Petersbourg, il y a de cela quelques années, le hasard a mis un de mes amis et moi en rapport avec une dame Palmine, mariée à un Russe, mais orriginaire du Caucase.<ref target="#foot.f4"/> C’etait une jeune femme ellevée à l’Institut de S<hi rend="superscript">te</hi>. Catherine à S<hi rend="superscript">t</hi> Petersbourg,<ref target="#foot.f5"/> très-belle, grande de taille, elle avait les cheveux d’un noir de jais, et un beau teint brun chaud, comme sont d’ordinaire les femmes de l’orient. Ayant passé par de grands malheurs d’un genre tout exceptionnel, elle se trouvait dans une position difficile, dont elle ne savait comment sortir. Nous primes a tâche de lui être utiles, et à cet effet, nous venions souvent la voir. Dans sa position elle était plutôt triste que gaie, cependant elle causait volontier, et sans s’écarter du bon sens, bien que sa manière d’être ainsi que ses idées étaient quelque peu originales, ce qui tenait peut-être à sa nature orientale et surtout au milieu dans lequel elle a vecu après son mariage. En causant ses beaux yeux noirs et son teint s’animaient, mais sans exagération. Elle portait les cheveux arrangés par derrière comme c’était la mode, mais par devant, au dessus du front ils étaient bouffants, formant comme un bourlet très-haut et un peu en désordre.</p>
+<p>Un jour que nous étions tous les deux chez elle, je lui donnais une lettre de recommandation et l’engageais à aller chez une grande dame, qui lui était venue en aide, et s’était occupée à lui procurer un asile honnorable, en attendant mieux. Comme elle témoignâ le desir de changer de toilette pour cette visite, nous lui fimes remarquer que sa coiffure était, par devant, un peu singulière et l’engageâmes à s’arranger les cheveux comme tout le monde les porte. Elle sourit et nous déclara, qu’avec la meilleure volonté elle ne pouvait pas se coiffer autrement, car ses cheveux ne tiennent pas en place et remuent d’eux-mêmes. Nous nous sommes mis à rire, en disant que c’était un caprice de sa part. Elle nous proposa alors, de se coiffer devant nous, pour nous donner une preuve de ce qu’elle avanceait. Elle tint parole, nous la complimentâmes sur sa coiffure, qui en effait lui allait à merveille, elle s’assit et la conversation changeâ de sujèt. Elle dura environ une demie heure; pendant ce temps, je voyais distinctement un travail se produire dans ses cheveux de devant, une mèche se dégager, puis une autre tomber de côté, le tout se soulevant, et au bout de quelque temps, tout le devant de la tête était en parfait desordre. Nous avions mis la conversation sur un sujet gai, pour lui faire oublir des chagrins et sa personne; cela nous reussit si bien qu’elle ne s’apperçut pas elle-même de ce desordre survenu dans sa coiffure; lorsqu’une mèche tombée sur les yeux est venue l’en avertir. “Vous voyez, Messieurs, que je ne vous en ai point imposée,”—nous dit elle en allant vers la glace,—“ grâce à vous je suis gaie et tranquille, mais quand j’ai une forte émotion, c’est alors que vous seriez étonnés, car alors tous mes cheveux se dressent et remuent constamment comme s’ils étaient animés; j’en suis effrayée moi-même quelque fois.”</p>
+<p>Cette personne, grâce à la grande dame que j’ai mentionné plus haut, a été placée. Au bout de quelques mois, elle fut engagée dans une famille en province pour être auprès des enfants. Plus tard on m’a assuré qu’elle avait perdu cette place, parce qu’elle était folle. Je ne sais, a quel point cette nouvelle est vraie, mais j’ai tout lieu de croire, que c’est l’excentricité de son caractère et de ses idées qui ont fait croire a la folie.</p>
+<p>Voilà, Monsieur, un fait dont j’ai été témoin, et qui est d’autant plus curieux que M<hi rend="superscript">me</hi>. Palmine n’était ni folle, ni mechante lorsque je l’ai connue, au contraire, elle avait une expression de douceur, qui disposait en sa faveur.<ref target="#foot.f6"/> J’ai cru bien faire en vous le rapportant, car le fait le plus insignifiant en apparence, entre les mains d’un profond penseur et d’un savant observateur comme vous, peut devenir utile à la science.</p>
+<p>J’ai l’honneur d’être, Monsieur, avec la plus haute consideration | Votre très-humble serviteur | Henri Stecki <lb resp="#mjhawkins"/></p>
+<p rend="left"><formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>18</mn><mn>6</mn></mfrac></math></formula> Mars 1874.<ref target="#foot.f7"/> | <hi rend="underline">Henri Stecki</hi>, (Polonais), demeurant à S<hi rend="superscript">t</hi> Petersbourg, Grande Morskaïa | N<hi rend="superscript">o</hi>. 32 logem: N<hi rend="superscript">o</hi> 10.</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note>5.18 “Vous … fois.” 5.22] <hi rend="italic">scored blue crayon</hi></note>
+            </div>
+            <div type="cdnotes">
+            <note> 
+<p>Case of Lady from the Caucasus whose hair w<hi rend="superscript">d</hi> always stand up—an eccentric person, &amp; said to have afterwards gone insane. It required no particular assistance to cause the erection of the hair</p>
+<p>The novelty of the case consists of the erection without any great mental disturbance, though woman eccentric— The permanence of the condition is what C. Browne says of the insane.—<ref target="#foot.f8"/></p></note>
+              </div>
+
+            
+            
+            
+            
+            
+            
+            
+        </div>
+        
+        
+        <div type="translation">
+            <div type="text">
+                <opener>
+                    <salute>Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Please excuse me if, though unknown to you, I take the liberty of addressing this letter to you. I do so in the capacity of a very conscientious reader of your learned works, of which, it is superfluous to add, I am a great admirer.</p>
+<p>I have just finished the latest, in French translation: <hi rend="underline">The expression of the emotions in man and the animals</hi>.<ref target="#foot.f2"/> Reading it has given me the desire to communicate a curious fact to you of which I was a witness and which relates to one of your chapters</p>
+<p>In chapter XII. of your book, you discuss a madwoman whose hair stood on end;<ref target="#foot.f3"/> the other parallel cases that you cite there all arose from emotions that were fairly intense. Now I was an eyewitness of a phenomenon of this type that occurred in a virtually tranquil frame of mind, at least in appearance, in a person who, while she had some eccentricities of manner, was by no means mad. She became so some years later, I was told, but I cannot guarantee the authenticity of that assertion.</p>
+<p>While at Petersburg, some years ago, chance put one of my friends and me in the way of meeting a lady named Palmine, married to a Russian, but originally from the Caucasus.<ref target="#foot.f4"/> She was a young woman raised at S<hi rend="superscript">t</hi> Catherine’s Institute in S<hi rend="superscript">t</hi> Petersburg,<ref target="#foot.f5"/> very beautiful and tall, she had jet-black hair and a fine warm brown complexion, as oriental women often have. Having gone through great unhappiness of a very exceptional kind, she found herself in a difficult position, from which she did not know how to escape. We took it upon ourselves to be useful to her, and to that end we often went to visit her. In her position she was sad rather than gay, but she conversed freely, and without departing from common sense, even though her behaviour as well as her ideas were somewhat original, perhaps in consequence of her oriental nature and especially the environment in which she lived after her marriage. While conversing, her fine black eyes and her complexion became animated, but not in an exaggerated way. She wore her hair arranged behind according to the fashion, but at the front, above the forehead, it was bouffant, forming something like a very tall and rather disordered cushion.</p>
+<p>One day when we were both with her, I gave her a letter of recommendation and engaged her to visit a great lady, who had come to her aid and had busied herself with obtaining an honorable asylum for her while she waited for something better. Since she showed a desire to change her toilet for the visit, we remarked that her coiffure was rather odd at the front and engaged her to arrange her hair as everybody wears it. She smiled and declared that with the best will she was not able to style her hair otherwise, for it would not remain in place and moved of its own accord. We began to laugh, saying that it was a whim of hers. So she offered to style her hair in front of us to give us a proof of what she was claiming. She kept her word, we complimented her on her coiffure, which indeed suited her wonderfully well, she sat down and the subject of the conversation changed. It lasted about half an hour; during which time, I distinctly saw an upheaval happening in her front hair, a lock disengaging itself, then another falling at the side, the whole rising up, and after a period of time, the whole front of the head was in perfect disorder. We had put the conversation onto a cheerful topic, to make her forget her sorrows and her person; it succeeded so well that she herself did not notice the disorder that had taken place in her coiffure; when a lock fallen into her eyes warned her. “You see, Sirs, I have not been deceiving you,”—she told us, going to the mirror,—“thanks to you I am cheerful and tranquil, but when I have a strong emotion, you will be amazed, for then all my hair stands on end and moves constantly as if it were animated; I am frightened of it myself sometimes.”</p>
+<p>This person, thanks to the great lady I mentioned above, found a situation. Some months later she was engaged by a provincial family to be with the children. Later I was assured that she had lost that situation because she was mad. I do not know to what extent this news is true, but I have every reason to believe that it is the eccentricity of her character and ideas that have caused the belief in madness.</p>
+<p>There, Sir, you have a fact of which I was the witness, and which is the more curious in that M<hi rend="superscript">me</hi> Palmine was neither mad nor wicked when I knew her, on the contrary, she had an expression of gentleness, which disposed in her favour.<ref target="#foot.f6"/> I thought it good to report this to you, for the most apparently insignificant fact may become useful to science in the hands of a profound thinker and learned observer like you.</p>
+<p>I am, Sir, | Your very humble and obedient servant | Henri Stecki <lb resp="#mjhawkins"/></p>
+<p rend="left"><formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>18</mn><mn>6</mn></mfrac></math></formula> March 1874<ref target="#foot.f7"/> | Henri Stecki, (Pole), living at S<hi rend="superscript">t</hi> Petersburg, Great Morskaïa | N<hi rend="superscript">o</hi> 32 apart: N<hi rend="superscript">o</hi> 10.</p> 
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">For a translation of this letter, see Appendix I.</note>
+            <note xml:id="foot_trans.f1">For a transcription of this letter in its original French, see p. QQQQ.</note>
+            <note xml:id="foot.f2">Pozzi and Benoît trans. 1874.</note>
+            <note xml:id="foot.f3">CD described this case in <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref>, pp. 295–6; see also Pozzi and Benoît trans. 1874, pp. 320–1.</note>
+            <note xml:id="foot.f4">Madame Palmine has not been further identified. The Caucasus region lies on the border of Europe and Asia between the Black and the Caspian Seas.</note>
+            <note xml:id="foot.f5">Stecki probably refers to Catherine’s Institution, founded in 1764 by the Society for the Education of Noble Girls at the Voskresensky or Smolny Monastery in St Petersburg, under the aegis of Catherine the Great; the institution continued to flourish throughout the nineteenth century (see <ref target="../bibliographies/bibl_664.xml" resp="#mjhawkins">Black 1979</ref>, p. 156–68).</note>
+            <note xml:id="foot.f6">A summary of this case was given in <ref target="../bibliographies/bibl_2401.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi> 2d ed.</ref>, p. 313 n. 31.</note>
+            <note xml:id="foot.f7">Stecki gives both the Gregorian (18 March) and the Julian (6 March) calendar dates. The Julian calendar remained in use in Russia until 1918 (<ref target="../bibliographies/bibl_3178.xml" resp="#mjhawkins"><hi rend="italic">GSE</hi></ref> 18: 111).</note>
+            <note xml:id="foot.f8">James Crichton Browne had informed CD that the bristling of the hair was common among the insane (see <ref target="../bibliographies/bibl_2400.xml" resp="#mjhawkins"><hi rend="italic">Expression</hi></ref>, pp. 295–7).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

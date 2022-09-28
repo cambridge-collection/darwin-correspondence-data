@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-1312">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To J. S. Bowerbank   17 March [1850]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3139</idno>
+            
+            
+            
+            
+            <date when="1989">1989</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-1312 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1312.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-1312.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="04">4</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 143: 133</bibl></relatedItem>
+                <relatedItem type="publication">
+                    <bibl> <hi rend="italic">Correspondence</hi> 4: 321</bibl>
+                </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">University of Michigan, Bentley Historical Library</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_265.xml">Michigan Bentley</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1850-03-17">17 Mar [1850]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_568.xml">Bowerbank, J. S.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks JSB for information regarding Sylvanus Hanley’s residence.</p>
+            <p>Sends stamps for specimen.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_2096">Hanley, S. C. T.</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Farnborough Kent</placeName>
+                    <date>March 17<hi rend="superscript">th</hi>—</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+<p>I write a line merely to thank you for your <hi rend="underline">very complete</hi> information regarding M<hi rend="superscript">r</hi> Hanley’s residence. I will certainly visit him when next I stay in London; but London unfortunately always disagrees with my health. I enclose with many thanks <hi rend="underline">stamps</hi> (which I hope will not be inconvenient) for Eling’s specimen.—<ref target="#foot.f2"/></p>
+<p>Yours very sincerely | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.4 (which] <hi rend="italic">after del</hi> ‘for’</note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is confirmed by a copy of the letter in DAR 143, in which the copyist recorded a postmark: ‘March 18<hi rend="superscript">th</hi>., <hi rend="italic">1850</hi>.’</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-1310.xml" resp="#mjhawkins">letter to J. S. Bowerbank, [8 March 1850]</ref>.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

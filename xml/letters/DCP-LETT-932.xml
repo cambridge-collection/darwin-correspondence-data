@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-932">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To G. B. Sowerby   [1 December 1845]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">812</idno>
+            
+            
+            
+            
+            <date when="1988">1988</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-932 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-932.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-932.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="03">3</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">American Philosophical Society (Mss.B.D25.)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_13.xml">APS</repository>
+                    <collection>Mss.B.D25.</collection>
+                    <idno/>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1845-12-01">[1 Dec 1845]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_4480.xml">Sowerby, G. B., elder</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Cannot find two specimens of S. American fossil shells.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">shells</term>
+                <term type="places" ref="#">America, S.</term>
+                <term type="scientific_terms" ref="#">fossils</term>
+                <term type="scientific_terms" ref="#">number, increase and decrease</term>
+                <term type="scientific_terms" ref="#">shells</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down Bromley Kent</placeName>
+                    <date>Monday</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have found the two pectens,—but I cannot find the two Turritellas.—<ref target="#foot.f1"/> According to my memory I put out all my specimens of this genus from Navedad to aid you in your determinations. Are you sure that the Turritellas, which you want are from Navedad?<ref target="#foot.f2"/></p>
+<p>Will you look through once again <hi rend="doubleUnderline">carefully</hi> all the specimens which I left with you &amp; send me a line <hi rend="underline">tomorrow</hi> by return of Post &amp; then I will look through my <hi rend="doubleUnderline">whole</hi> collection &amp; see if they have got in the wrong packet: which will cost me some trouble— I think I left them with you.—</p>
+<p>Yours faithfully | in Haste | C. Darwin</p> 
+                </div>
+            </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">2.3 which will cost me some trouble— 2.4] <hi rend="italic">added</hi></note>
+                </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Species of shells described by Sowerby in the appendix to <ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref>, pp. 249–64.</note>
+            <note xml:id="foot.f2">Four <hi rend="italic">Turritellae</hi> are described, one of which is from Navidad, Chile. CD placed great emphasis on the identification of the <hi rend="italic">Turritellae</hi> as extinct species closely resembling those of today. In <ref target="../bibliographies/bibl_7343.xml" resp="#mjhawkins"><hi rend="italic">South America</hi></ref>, pp. 132–7, he used this information to support his argument that the fossiliferous deposits of coastal Chile and Peru were laid down at the beginning of the Tertiary period, at a time roughly comparable to the Eocene formations of Europe (p. 133) and when the climate of South America was considerably warmer.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

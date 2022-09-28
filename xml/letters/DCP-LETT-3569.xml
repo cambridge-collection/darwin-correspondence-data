@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3569">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Leonard Jenyns   24 May [1862]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1217</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3569 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3569.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3569.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 145: 351b</bibl></relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">LL</hi> 1: 188</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 10: 218</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Bath Royal Literary and Scientific Institution</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_32.xml">Bath RLSI</repository>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1862-05-24">24 May [1862]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_2560.xml">Jenyns, Leonard</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Thanks LJ for <hi rend="italic">Memoir</hi> of Henslow; thinks it will be invaluable as an example to other clergymen.</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="it" ref="#">Memoir</term>
+                <term type="people" ref="#">clergymen</term>
+                <term type="rx" ref="#">Jenyns, Leonard 1862</term>
+                <term type="scientific_terms" ref="#">positive attitude/assessment</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi></placeName>
+                    <date>May 24<hi rend="superscript">th</hi></date>
+                    <salute>Dear Jenyns</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I thank you most sincerely for your kind present of your memoir of Henslow.<ref target="#foot.f2"/> I have read about half &amp; it has interested me much. I did not think that I could have venerated him more than I did; but your Book has even exalted his character in my eyes. From turning over the pages of the latter half I sh<hi rend="superscript">d</hi>. think your account would be invaluable to any Clergyman who wished to follow poor dear Henslow’s noble example. What an admirable man he was.</p>
+<p>I hope that you are yourself pretty well. I cannot say much for my own health.</p>
+<p>With sincere thanks, believe me dear Jenyns | Yours very truly | Ch. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to Jenyns’s memoir of his brother-in-law, <ref target="../nameregs/nameregs_2235.xml" resp="#mjhawkins">John Stevens Henslow</ref> (see n. 2, below).</note>
+            <note xml:id="foot.f2">Henslow died on 16 May 1861. CD had contributed his own recollections of Henslow to Jenyns’s memoir (<ref target="../bibliographies/bibl_4193.xml" resp="#mjhawkins">Jenyns 1862</ref>, pp. 51–5; see also <ref target="../bibliographies/bibl_1581.xml" resp="#mjhawkins"><hi rend="italic">Correspondence</hi></ref> vol. 9 and Appendix X).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-6650">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To Thomas Woolner   10 March [1870]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">3723</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6650 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6650.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6650.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+            <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 148: 380</bibl></relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Bodleian Libraries, Oxford (MS. Eng. lett. d. 292, fol. 77)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_48.xml">Bodleian</repository>
+                    <collection>Thomas Woolner</collection>
+                    <idno>MS. Eng. lett. d. 292, fol. 77</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>Down</placeName>
+                <date when="1870-03-10">10 Mar [1870]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_5242.xml">Woolner, Thomas</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Thanks for drawing. ‘The "Woolnerian tip" is worth anything to me.’</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="social" ref="#">Darwin himself, domestic life</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down. | Bromley. | Kent. S.E.</hi> [6 Queen Anne Street]</placeName>
+                    <date>March 10<hi rend="superscript">th</hi></date>
+                    <salute>My dear M<hi rend="superscript">r</hi> Woolner</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Very many thanks for the drawing: it does excellently.—<ref target="#foot.f2"/> The “Woolnerian tip” is worth anything to me.—<ref target="#foot.f3"/></p>
+<p>Yours very sincerely | Ch Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.1 The] <hi rend="italic">added</hi> </note>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and a note in DAR 80: B113 dated ‘March 7 (70)’: ‘W. has seen the tips in women &amp; men. When he was making his figure of Puck he went to Z garden and made drawings of ears of monkeys &amp; shortly afterwards he saw a man with tip &amp; instantly recognized their signification’.</note>
+            <note xml:id="foot.f2">Woolner’s drawing of a human ear showing the unusual feature of a pointed tip (‘Woolner’s tip’) on the outer ear projecting from the inwardly folded margin is in DAR 80: B120.</note>
+            <note xml:id="foot.f3">CD reproduced the drawing and discussed the feature in <ref target="../bibliographies/bibl_1966.xml" resp="#mjhawkins"><hi rend="italic">Descent</hi></ref> 1: 22–3.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

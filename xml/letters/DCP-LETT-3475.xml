@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-3475">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From M. T. Masters   17 March 1862</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10071</idno>
+            
+            
+            
+            
+            <date when="1997">1997</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-3475 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3475.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-3475.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="10">10</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">2pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 171.1: 67</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>171: 67</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_3217.xml">Masters, M. T.</persName>
+                <placeName>Peckham</placeName>
+                <date when="1862-03-17">17 Mar 1862</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>He has only an uncertain memory of the placement of stamens in the [monstrous?] primrose CD asked about.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="plants" ref="#">primrose</term>
+                <term type="scientific_terms" ref="#">flora</term>
+                <term type="scientific_terms" ref="#">monstrosity</term>
+                <term type="scientific_terms" ref="#">physical ‘external’ characters</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Rye Lane | Peckham</placeName>
+                    <date>March 17. 1862.</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I can only speak from memory as to the Primrose with ten stamens as I have not the specimen<ref target="#foot.f1"/>   My impression is that the upper stamens alternated with the lobes of the corolla. the lower on the contrary were opposite to them but you must take this impression for what it is worth—not much— Should I ever come across another such I will assuredly bear you in mind— I think too I told you that I had a sketch of the late Prof Henslow’s<ref target="#foot.f2"/> showing a double row of stamens   this I find on examination is an error— My sketch is merely a diagram showing the different position of the stamens thus—</p> 
+<figure type="diagram"> 
+<p>[DIAG HERE] evidently referring to two different flowers not to the same.</p> </figure> 
+<p>Believe me | dear Sir | Yours faithfully | Maxwell. T. Masters.</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Neither Masters’s letter mentioning the specimen nor CD’s letter seeking further information about it has been found.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_2235.xml" resp="#mjhawkins">John Stevens Henslow</ref>, professor of botany at the University of Cambridge, died on 16 May 1861.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-5205">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From John Brodie Innes   1 September [1867]<ref target="#foot.f1"/></title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1660</idno>
+            
+            
+            
+            
+            <date when="2006">2006</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-5205 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5205.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-5205.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="15">15</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+            <relatedItem type="publication">
+                <bibl>Stecher (1961): 216</bibl>
+            </relatedItem>
+            <relatedItem type="publication">
+                <bibl> <hi rend="italic">Correspondence</hi> 15</bibl>
+            </relatedItem>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 167: 5</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>167: 5</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_2502.xml">Innes, J. B.</persName>
+                <placeName>Keston</placeName>
+                <date when="1867-09-01">1 Sept [1867]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Recommends a tutor for CD’s son.</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="people" ref="#subject_1739">Darwin, C. R.’s son</term>
+                <term type="people" ref="#">tutor</term>
+                <term type="social" ref="#">Darwin family</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Keston</placeName>
+                    <date>1<hi rend="superscript">st</hi>. Sept<hi rend="superscript">r</hi></date>
+                    <salute>Dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I found out the name of the tutor I mentioned to you about whom you may think it worth while to enquire. I only knew him by reputation, not personally.</p> 
+<figure type="diagram"> 
+<p>Rev<hi rend="superscript">d</hi>. C. Bradley<ref target="#foot.f2"/></p>
+<p>? Hatfield</p> </figure> 
+<p>I am not sure of his parish but it joins on to Colney Hatch—Eastward and is a short walk from the C Hatch station—<ref target="#foot.f3"/> You will find it on a map at once—</p>
+<p>I am off to the north tomorrow night and hope to be home to lunch on Tuesday<ref target="#foot.f4"/></p>
+<p>I hope Horsman<ref target="#foot.f5"/> will stay quietly, at least for the year he has promised: and that you will continue to like him—</p>
+<p>Faithfully Yours | J Brodie Innes</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the reference to <ref target="../nameregs/nameregs_2399.xml" resp="#mjhawkins">Samuel James O’Hara Horsman</ref> (see n. 5, below).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_7094.xml" resp="#mjhawkins">Charles Bradley</ref>.</note>
+            <note xml:id="foot.f3">Colney Hatch station was in the north London suburban area (<ref target="../bibliographies/bibl_6381.xml" resp="#mjhawkins"><hi rend="italic">Post Office London suburban directory</hi></ref>). The station is now called New Southgate.</note>
+            <note xml:id="foot.f4">Innes’s home was at Milton Brodie, near Forres, Scotland (<ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref>).</note>
+            <note xml:id="foot.f5">Horsman was curate at Down for part of 1867 and 1868; he had recently arrived to take up the post (J. H. <ref target="../bibliographies/bibl_5565.xml" resp="#mjhawkins">Moore 1985</ref>, pp. 470, 477). According to <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242), Horsman visited on 2 September 1867.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

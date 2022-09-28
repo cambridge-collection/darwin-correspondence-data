@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-7307">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">From William J. Raybould to Abraham Dee Bartlett   22 August 1870</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">10445</idno>
+            
+            
+            
+            
+            <date when="2010">2010</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7307 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7307.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7307.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="18">18</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">1p</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">DAR 176: 25</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_106.xml">CUL</repository>
+                    <collection>DAR</collection>
+                    <idno>176: 25</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_6587.xml">Raybould, W. J.</persName>
+                <placeName>Smithwick, Birmingham</placeName>
+                <date when="1870-08-22">22 Aug 1870</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_300.xml">Bartlett, A. D.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract>
+            <p>Offers a polydactylous cat to the Zoological Gardens. [Offer declined and letter forwarded to CD.]</p>
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">cat, polydactylous</term>
+                <term type="people" ref="#subject_1">Darwin, C. R.</term>
+                <term type="places" ref="#">Zoological Gardens</term>
+                <term type="scientific_terms" ref="#">fauna</term>
+                <term type="scientific_terms" ref="#">monstrosity</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="scientific_terms" ref="#">type and morphology</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>6 Gladstone Place | High Park Road | Smethwick | N<hi rend="superscript">r</hi> Birmingham</placeName>
+                    <date>Augt 22 1870,</date>
+                    <seg type="supplemental">To the Manager of the | Royal Zoological Gardens | London<ref target="#foot.f1"/></seg>
+                    <salute>Sir/</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have a Tortoise shell Coloured Cat with <hi rend="underline">6 claws perfect on each Foot</hi> also 2 young ones with the same Number of Toes or claws, one <hi rend="underline">Cream &amp; white</hi>, &amp; the other <hi rend="underline">Blk &amp; white</hi>, a month old   Are they worth your notice (<hi rend="underline">If so make me an offer for them</hi>)<ref target="#foot.f2"/></p>
+<p>Kindly say &amp; oblige | Yours very truly | W J Raybould</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Bartlett was superintendent of the <ref target="../nameregs/nameregs_5302.xml" resp="#mjhawkins">Zoological Society of London’s</ref> gardens in Regent’s Park and had supplied CD with information used in <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref>; presumably Bartlett forwarded this letter believing that it might be of interest to CD (see n. 2, below).</note>
+            <note xml:id="foot.f2">CD had discussed supernumerary digits in animals and humans in <ref target="../bibliographies/bibl_7951.xml" resp="#mjhawkins"><hi rend="italic">Variation</hi></ref> 2: 12–17.</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>

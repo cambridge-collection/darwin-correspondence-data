@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-422">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title xml:id="main_title">To William John Broderip   [August–December 1838]</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority>Darwin Correspondence Project</authority>
+            <publisher>Cambridge University Press</publisher>
+            <pubPlace>Cambridge</pubPlace>
+            <idno type="lognum">1859</idno>
+            
+            
+            
+            
+            <date when="1987">1987</date>
+        <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-422 by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-422.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-422.xml</ref>.</licence></availability>
+</publicationStmt>
+        <seriesStmt>
+            <title level="s">The Correspondence of Charles Darwin</title>
+            <biblScope unit="vol" n="02">2</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="physdesc" n="ALS">3pp</note>
+        </notesStmt>
+        <sourceDesc>
+            <bibl type="provenance">Fitzwilliam Museum, Cambridge (GEN/D/DARWIN (C)/3)</bibl>
+            <msDesc>
+                <msIdentifier>
+                    <repository key="../repo/repo_135.xml">Fitzwilliam</repository>
+                    <idno>GEN/D/DARWIN (C)/3</idno>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                <placeName>London, Gt Marlborough St, 36</placeName>
+                <date notBefore="1838-08-01" notAfter="1838-12-31">[Aug–Dec 1838]</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName key="../nameregs/nameregs_646.xml">Broderip, W. J.</persName>
+            </correspAction>
+        </correspDesc>
+        <abstract> 
+<p>Would like to arrange a meeting about CD’s collection of shells [from the <hi rend="italic">Beagle</hi> voyage].</p> 
+        </abstract>
+        <textClass>
+            <keywords>
+                <term type="animals" ref="#">shells</term>
+                <term type="scientific_terms" ref="#">shells</term>
+                <term type="scientific_terms" ref="#">specimens / samples</term>
+                <term type="ships" ref="#">Beagle</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+    
+    </teiHeader>
+    <text>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>Dear Broderip</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am anxious to have two minute’s conversation with you about shells. M<hi rend="superscript">r</hi> Sowerby is now in town, &amp; I hope, if you can screw a little time out of your innumerable avocations, that you will be able to begin, &amp; then end will soon be made with my small collection.<ref target="#foot.f1"/></p>
+<p>Shall you dine at the Athenæum<ref target="#foot.f2"/> any day soon? If you would send me a note &amp; tell me, the first day, you thought you should be there, I would meet you &amp; have my short say, as I dine there almost every day.—</p>
+<p>Believe me | Yours truly obliged | Chas. Darwin <lb resp="#mjhawkins"/> 36 Grt. Marlbro’ St</p>
+<p>Friday</p> 
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">Broderip had an ‘unrivaled conchological cabinet’, ultimately purchased by the <ref target="../nameregs/nameregs_8646.xml" resp="#mjhawkins">British Museum</ref> (<ref target="../bibliographies/bibl_2063.xml" resp="#mjhawkins"><hi rend="italic">DNB</hi></ref>). He is cited by CD in <hi rend="italic">South America,</hi> p. 30, as having identified South American shells similar to some CD had collected; his advice was being sought on the fossil shells described by George Brettingham Sowerby in the Appendixes of <ref target="../bibliographies/bibl_8001.xml" resp="#mjhawkins"><hi rend="italic">Volcanic islands </hi></ref> and <hi rend="italic">South America.</hi></note>
+            <note xml:id="foot.f2">CD had been elected to the Athenæum on 21 June 1838, under a special ruling by which forty new members were added to the Club. The elections were left to a committee ‘with the instructions that the persons chosen should … [be] men distinguished in literature, art or science, or well known as patrons of one or other of them. The election was to be exercised with due formalities, and must be unanimous.’ <ref target="../nameregs/nameregs_1313.xml" resp="#mjhawkins">Charles Dickens</ref> was among those elected with CD (<ref target="../bibliographies/bibl_8176.xml" resp="#mjhawkins">T. H. Ward 1926</ref>, p. 53). CD first dined at the Club early in August (see <ref target="./DCP-LETT-424.xml" resp="#mjhawkins">letter to Charles Lyell, 9 August [1838]</ref>).</note>
+        </div>        
+            
+    </body>
+    </text>
+</TEI>
