@@ -2,16 +2,21 @@
 <?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-6124" status="released">
     <persName>
-        <forename>Alice</forename>
-        <surname>Bates</surname>
+        <forename type="preferred">Alice</forename>
+        <forename>Mason</forename>
+        <choice>
+            <seg><surname notBefore="1862" notAfter="1886">Bates</surname></seg>
+            <seg><surname notBefore="1886" notAfter="1891">Haward</surname></seg>
+        </choice>
     </persName>
     
     <note type="dates"><date>1862–91</date></note>
     <sex value="F"/>
     <note type="biography">
-        <p>Daughter of Henry Walter Bates and Sarah Ann Mason. Married soon before her death.</p></note>
+        <p>Daughter of Henry Walter Bates and Sarah Ann Mason. Married Harry Edwin Haward (1863–1953) in 1886.</p></note>
     <note type="sources">
         <p><ref target="../bibliographies/bibl_456.xml" resp="#mjhawkins">Bates 1892</ref>, p. lxxxix</p> 
+        <p><ref target="../bibliographies/bibl_9153.xml" resp="#mjhawkins"><hi rend="italic">BMD</hi></ref> (<hi rend="italic">Birth index, Marriage index, Death index</hi>)</p>
             <p><ref target="../bibliographies/bibl_8480.xml" resp="#mjhawkins">Woodcock 1969</ref>.</p>
     </note>
     <note type="volume">16</note>

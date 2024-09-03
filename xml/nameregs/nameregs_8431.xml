@@ -2,23 +2,27 @@
 <?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-8431" status="released">
     <persName>
-        <forename>Fanny</forename>
-        <forename>Ricarda</forename>
-        <surname>Rich</surname>
+        <forename>Frances</forename>
+        <forename>Richarda</forename>
+        <choice>
+            <seg><surname notBefore="1813" notAfter="1842">Wetherell</surname></seg>
+            <seg><surname notBefore="1842" notAfter="1896">Rich</surname></seg>
+        </choice>
     </persName>
-    
+    <persName type="additional" subtype="preferred">Fanny</persName>
     <note type="dates"><date>1813–96</date></note>
     <sex value="F"/>
     <note type="biography">
-        <p>Wife of Francis Henry Rich. Anthony Rich’s sister-in-law.</p></note>
+        <p>Daughter of Richard and Caroline Wetherell of Westbury on Severn, Gloucestershire. Married Francis Henry Rich in Ticehurst, Sussex, in 1842. Anthony Rich’s sister-in-law.</p></note>
     <note type="sources">
         <p><hi rend="italic">England &amp; Wales, national probate calendar</hi> (<hi rend="italic">index of wills and administrations</hi>), <hi rend="italic">1858–1966, 1973–95</hi> (Ancestry.com, accessed 18 July 2017)</p>
-        <p><hi rend="italic">England, select marriages, 1538–1973</hi> (Ancestry.com, accessed 18 July 2017)</p>
+        <p><hi rend="italic">East Sussex Record Office, Brighton, England</hi> marriage register PAR 492/1/3/2 (Ancestry.com, accessed 30 November 2022)</p>
         <p><hi rend="italic">Gloucestershire, England, Church of England baptisms, 1813–1913</hi> (Ancestry.com, accessed 18 July 2017)</p>
         </note>
     <note type="volume">26,27,29</note>
     <note type="keywords">
         <term type="name"/>
     </note>
+    
     
 </person>

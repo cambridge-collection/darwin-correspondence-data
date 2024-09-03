@@ -27,7 +27,7 @@
             <note type="physdesc">AL 2pp</note>
         </notesStmt>
         <sourceDesc>
-            <bibl type="provenance">Bromley Historic Collections, Bromley Central Library (Baxter Collection)</bibl>
+            <bibl type="provenance">Bromley Historic Collections, Bromley Central Library (Baxter Collection, 1136/1)</bibl>
             <msDesc>
                 <msIdentifier>
                     <repository key="../repo/repo_66.xml">Bromley</repository>
@@ -58,9 +58,52 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2021-04-12" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2021-05-10" status="reviewed">Reviewed by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2021-05-11" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2121-12-07" status="finalProofreadCompleted">Final proof read by <name xml:id="raclarkson">Rosy Clarkson</name></change>
+        <change when="2022-02-01" status="copyedited">by Samantha Evans and entered by Shelley Innes</change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down</placeName>
+                    <date>March 18<hi rend="superscript">th</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Please to give Bearer who is waiting <hi rend="doubleUnderline">2</hi> bottles of “The Simple Antispasmodic.”.—</p>
+<p>Also the Glycerin Pepsin mixture if you keep this ready.—<ref target="#foot.f2"/> As I am to take it thrice daily please make up a large Bottle, enough to last for <hi rend="underline">at least</hi> a week.— With respect to the aperient pills, you can send them at your leisure.— I am sorry to trouble you on a Sunday, but D<hi rend="superscript">r</hi> Clark wishes me to commence his physic at once.—<ref target="#foot.f3"/> Dear Sir | Yours faithfully.</p>
+<p>Please return prescriptions, or if you make copy let me know, as I c<hi rend="superscript">d</hi> then send for more without the prescriptions.—</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">2.3 aperient] <hi rend="italic">interl</hi> </note>
+                <note xml:id="tnote.n2">3.1 or] <hi rend="italic">above del</hi> ‘&amp;’ </note>
+            </div>
+            
+                        
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-13727.xml">letter from Andrew Clark, 17 March 1882</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-13727.xml">letter from Andrew Clark, 17 March 1882</ref> and n. 2.</note>
+            <note xml:id="foot.f3">CD presumably wrote this letter on 18 March, which was a Saturday in 1882, but had it delivered by a messenger the next day. <ref target="../nameregs/nameregs_934.xml">Andrew Clark</ref> was CD’s physician. See <ref target="./DCP-LETT-13727.xml">letter from Andrew Clark, 17 March 1882</ref>.</note>   
+        </div> 
+     
+    </body>
     </text>
 </TEI>

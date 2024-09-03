@@ -69,7 +69,22 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="footnoted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="reviewed">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="editorResponseCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="finalProofreadCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="copyedited">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2016-07-12" type="footnotes" status="released">Footnotes cleared for online release</change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2020-09-22" status="exportToCUDL">Exported to CUDL by <name sameAs="#mjhawkins">Michael Hawkins</name></change>
+        <change when="2022-03-13">Links to letter transcriptions added by <name xml:id="automat">Michael Hawkins</name>.</change>
+        <change when="2022-08-16">Automatic links added to bibliographical references in footnotes by <name sameAs="#automat">Michael Hawkins</name>.</change>
+    </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00101-000-00041_files/8/0_0.jpg" width="3105px" height="5551px"/>
@@ -131,7 +146,7 @@
 <p>I am curious to hear of your trimorphous Primula— I suspect it will prove a very complicated case.<ref target="#foot.f15"/></p> 
                 </div>
             </div>
-        <div type="enclosure" subtype="other">
+        <div type="enclosure" subtype="other" xml:id="encl.1">
       
           <div type="transcription">
                      
@@ -145,11 +160,56 @@
 <p>Some part of this general similarity is owing to Nat. Sel. adapting one sp. to another in external dress; but I think there are some cases where this explanation is inapplicable. It is curious in the case of negro that the colour produced by direct action should be also the one selected as most suitable by nature. Of course the whole argument depends on this question which you put &amp; which I thank you for having placed so vividly before me. Are the peculiarities induced in the lifetime of an organism transmitted to its offspring? We may allow several generations for the operation. I cannot think of any facts giving affirmation to this question except the poor ones given in this letter. Even if they prove it they would not show that a race &amp; new species could be produced by direct action; Nat. Sel. is always acting &amp; would act of course on the offspring of these species</p>
 <p>I am much obliged to you for recalling me to order in the matter of forgetting the thousands of generations &amp; millions of individuals extinguished without offspring in the case of insect species. I really was not giving the full force to that.</p>
 <p>I have not fully answered your letter but will finish another time. Would you oblige me by getting from M<hi rend="superscript">r</hi> Bentham the names of the following trees— I think M<hi rend="superscript">r</hi> Spruce may have sent them under these same native names<ref target="#foot.f20"/></p> 
-<figure type="diagram"> 
-<p>Tapiribá   a stone-fruit tree (very acid— com<hi rend="superscript">n</hi>) Acutitiribá— round yellow mealy fruit Jabuti-puhé— anonaceæ? delicious wild fruit Massarandúba— cow tree Umarí or Marí   two similar fruits</p>
-<p>and Uixí Upper Amazon Pamá   wild stone fruit flavour of cherry Sucu-úba of Santarem<ref target="#foot.f21"/></p> </figure> 
-<figure type="diagram"> 
-<p>[DIAG]</p> </figure> 
+              <table rend="centre">
+                  <row>
+                      <cell rend="left">Tapiribá</cell>
+                      <cell rend="width05"/>
+                      <cell rend="centre width05"/>
+                      <cell rend="left">a stone-fruit tree (very acid— com<hi rend="superscript">n</hi>)</cell>
+                  </row>
+                  <row>
+                      <cell rend="left">Acutitiribá</cell>
+                      <cell rend="width05"/>
+                      <cell rend="centre width05">—</cell>
+                      <cell rend="left">round yellow mealy fruit</cell>
+                  </row>
+                  <row>
+                      <cell rend="left">Jabuti-puhé</cell>
+                      <cell rend="width05"/>
+                      <cell rend="centre width05">—</cell>
+                      <cell rend="left">anonaceæ? delicious wild fruit</cell>
+                  </row>
+                  <row>
+                      <cell rend="left">Massarandúba</cell>
+                      <cell rend="width05"/>
+                      <cell rend="centre width05">—</cell>
+                      <cell rend="left">cow tree</cell>
+                  </row>
+                  <row>
+                      <cell rend="left">Umarí or Marí</cell>
+                      <cell rows="2" rend="width05"><hi rend="stretchyVertical">}</hi></cell>
+                      <cell rend="centre width05"/>
+                      <cell rend="left">two similar fruits</cell>
+                  </row>
+                  <row>
+                      <cell rend="centre">and Uixí</cell>
+                      <cell rend="centre width05"/>
+                      <cell rend="left">Upper Amazon</cell>
+                  </row>
+                  <row>
+                      <cell rend="left">Pamá</cell>
+                      <cell rend="width05"/>
+                      <cell rend="centre width05"/>
+                      <cell rend="left">wild stone fruit flavour of cherry</cell>
+                  </row>
+                  <row>
+                      <cell rend="left">Sucu-úba</cell>
+                      <cell rend="width05"/>
+                      <cell rend="centre width05"/>
+                      <cell rend="left">of Santarem<ref target="#foot.f21"/></cell>
+                  </row>                 
+              </table>
+
 <p>Please give my kind regards to your family  </p>
 <p>Yours sincerely | H W Bates</p>
 <p>I shall send tomorrow a small box per post with a specimen of leaves that have a fine woolly substance on their under surface to get information from you on its nature.— a certain ant (Polyrhachis bispinosa) collects this material &amp; makes large nests of it   after being elaborated by them it is collected &amp; used as tinder &amp; sold in all shops on the Amazons. Latreille gave an interesting account of the ant &amp; its work but no one up to present time has explained the matter.<ref target="#foot.f22"/> | Yrs | H W B</p>
@@ -167,6 +227,7 @@
                 <note><hi rend="italic">Above last paragraph</hi>: ‘Remember Lythrum’<ref target="#foot.f25"/> <hi rend="italic">ink</hi></note>
             </div>
 
+            
             
             
             

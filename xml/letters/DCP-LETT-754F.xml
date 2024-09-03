@@ -26,7 +26,7 @@
             <note type="physdesc" n="ALS">3pp</note>
         </notesStmt>
         <sourceDesc>
-            <bibl type="provenance">19th Century Shop (dealer) (April 2016)</bibl>
+            <bibl type="provenance">19th Century Shop (dealers) (April 2016)</bibl>
             <msDesc>
                 <msIdentifier>
                     <repository key="../repo/repo_289.xml">19th Century Shop</repository>
@@ -56,9 +56,56 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2019-04-26" status="footnoted">Footnoted by <name xml:id="sevans">Sam Evans.</name></change>
+            <change when="2020-05-05" status="sup-footnoted">Footnoted by <name sameAs="#sevans">Sam Evans</name></change>
+        <change when="2021-07-29" status="sup-reviewed">Reviewed for vol. 30 Supplement by <name xml:id="ampearn">Alison Pearn</name></change>
+        <change when="2022-03-13">Links to letter transcriptions added by <name xml:id="automat">Michael Hawkins</name>.</change>
+        <change when="2022-04-21" status="sup-finalProofreadCompleted">Proofread by <name sameAs="#ampearn">Alison Pearn</name></change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>        
+    </revisionDesc>
     </teiHeader>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down near Bromley | Kent</placeName>
+                    <date>June 1<hi rend="superscript">st</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">         
+<p>You may remember a statement, which I communicated to you about the Sandwich Isl<hi rend="superscript">d</hi> lice not living on Europæans.<ref target="#foot.f2"/> The other day, I met a passage in a foolish Book. “Whites Regular Gradation of Man”, which I thought you might like to know of.— At p. 79 He states that he has heard that the lice on the Negroes, born in N. America &amp; who have never been in a hot country, are blacker &amp; larger than the lice on Europæans &amp; further that the Europæan Lice seem to refuse to live on the Negroes.<ref target="#foot.f3"/></p>
+<p>It is singular if both this &amp; my independent statement, are without any foundation.</p>
+<p>Believe me | Dear Sir | Your’s very faithfully | C. Darwin</p>
+<p>This letter returned by Dead office</p>
+<p>I hope you received the specimens safely, which I sent by Post the other day<ref target="#foot.f4"/></p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.2 I met] <hi rend="italic">after del</hi> ‘in’</note>
+                <note xml:id="tnote.n2">1.5 N.] <hi rend="italic">interl</hi></note>
+            </div>
+
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the letters to Henry Denny, <ref target="./DCP-LETT-731.xml">20 January [1844]</ref> and <ref target="./DCP-LETT-763F.xml">[27 July – 10 August 1844]</ref> (<hi rend="italic">Correspondence</hi> vol. 3 and vol. 13 supplement, respectively).</note>
+            <note xml:id="foot.f2">See <hi rend="italic">Correspondence</hi> vol. 18, supplement, <ref target="./DCP-LETT-734F.xml">letter to Henry Denny, 5 February [1844]</ref> and n. 8.</note>
+            <note xml:id="foot.f3">CD read <ref target="../nameregs/nameregs_5096.xml">Charles White</ref>’s <hi rend="italic">An account of the regular gradation in man, and in different animals and vegetables; and from the former to the latter</hi> (<ref target="../bibliographies/bibl_8338.xml">C. White 1799</ref>) in May or June 1844 (see CD’s reading notebooks, <hi rend="italic">Correspondence</hi> vol. 4, Appendix IV, 119: 14a).</note>
+            <note xml:id="foot.f4">‘This letter … other day’ is written on the back of the folded letter. Denny had asked CD for specimens to help with his report on exotic species of <hi rend="italic">Anoplura</hi> (sucking lice; see <hi rend="italic">Correspondence</hi> vol. 3, <ref target="./DCP-LETT-731.xml">letter to Henry Denny, 20 January [1844]</ref> and n. 1, and <ref target="../bibliographies/bibl_1958.xml">Denny 1844</ref>). The specimens CD sent have not been identified, but since the letter evidently had to be re-sent after being returned to CD from the dead-letter office, they may have been the ones sent with his <ref target="./DCP-LETT-763F.xml" resp="#automat" cert="medium">letter to Denny of [27 July – 10 August 1844]</ref> (<hi rend="italic">Correspondence</hi> vol. 13, supplement).</note>
+        </div>
+    
+    </body>
     </text>
 </TEI>

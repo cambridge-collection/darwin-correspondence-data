@@ -26,7 +26,7 @@
             <note type="physdesc" n="ALS">1p</note>
         </notesStmt>
         <sourceDesc>
-            <bibl type="provenance">National Library of Scotland (Ms.10521)</bibl>
+            <bibl type="provenance">National Library of Scotland (MS.10521)</bibl>
             <msDesc>
                 <msIdentifier>
                     <repository key="../repo/repo_292.xml">NL Scotland</repository>
@@ -65,9 +65,50 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2020-09-21" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2020-12-15" status="reviewed">Reviewed by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2021-01-05" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2021-05-17" status="finalProofreadCompleted"/>
+        <change when="2021-05-17" status="copyedited">by Samantha Evans and entered by Shelley Innes</change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi> | (<hi rend="print">Railway Station | Orpington. S.E.R.</hi>)</placeName>
+                    <date>Decr 9 1881</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>You were so kind as to send me a few days ago your article in the Encyclop. Brit.— I have now looked through it, &amp; it seems to me wonderfully well done, &amp; you have managed to give in the space a surprising amount of information.<ref target="#foot.f1"/></p>
+                    <p>Permit me to add that I read with admiration your researches on the presence of chlorophyll in the animal kingdom.—<ref target="#foot.f2"/></p>
+                    <p>I remain | Dear Sir, Yours faithfully | Charles Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 (<hi rend="italic">Railway … S.E.R.</hi>)] <hi rend="italic">parentheses added</hi> </note>
+            </div>
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">Geddes’s article ‘Insectivorous plants’ was published in <hi rend="italic">Encyclopaedia Britannica</hi> (<ref target="../bibliographies/bibl_2250.xml"><hi rend="italic">EB</hi> 9th ed.</ref> 13: 134–40).</note>
+            <note xml:id="foot.f2">Geddes’s paper ‘Observations on the physiology and histology of <hi rend="italic">Convoluta Schultzii</hi>’ (<ref target="../bibliographies/bibl_11717.xml">Geddes 1879</ref>) was read on 27 March 1879 and published in the <hi rend="italic">Proceedings of the Royal Society of London</hi>. <hi rend="italic">Convoluta schultzii</hi> (a synonym of <hi rend="italic">Symsagittifera schultzei</hi>) is a green planarian (turbellarian) worm; Geddes had compared it to insectivorous plants like <hi rend="italic">Drosera</hi>, calling it a ‘vegetating animal’ and the ‘precise reciprocal’ of insectivorous plants, because he had discovered chlorophyll in its body (<hi rend="italic">ibid.</hi>, p. 453).</note>  
+        </div>
+    
+    </body>
     </text>
 </TEI>

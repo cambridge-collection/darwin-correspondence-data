@@ -63,9 +63,56 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2019-03-29" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2019-04-17" status="reviewed">Reviewed by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2019-04-25" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2019-07-08" status="finalProofreadCompleted"/>
+        <change when="2019-07-08" status="copyedited"/>
+        <change when="2022-01-11" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-01-11" type="footnotes" status="released">Footnotes cleared for online release</change>
+        <change when="2022-08-16">Automatic links added to bibliographical references in footnotes by <name xml:id="automat">Michael Hawkins</name>.</change>
+        <change when="2024-01-11">CUL document images added by <name xml:id="did">Digital Innovation and Development, CUL</name>.</change>
+    </revisionDesc>
     </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00146-000-00898_files/8/0_0.jpg" width="7678px" height="10223px" resp="#did"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00146-000-00898_files/11/1_1.jpg" width="7678px" height="10223px" resp="#did"/>
+        <surface n="898" xml:id="i898">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00146-000-00898.jpg" width="7678px" height="10223px" resp="#did"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00146-000-00898_files/8/0_0.jpg" width="7678px" height="10223px" resp="#did"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00146-000-00898.dzi" width="7678px" height="10223px" resp="#did"/>
+        </surface>
+    </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down, Beckenham, Kent</placeName>
+                    <date>July 18. 1880.</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>… I likewise enjoyed your well-merited castigation of M. Bonnier.<ref target="#foot.f1"/> The book appeared to me a most unsatisfactory one; but I was interested by his evidence of at least the occasional reabsorption of nectar.—<ref target="#foot.f2"/> … </p>
+<p>Yours very faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">In the July 1880 issue of <hi rend="italic">Kosmos</hi>, Müller had written an essay review of <ref target="../nameregs/nameregs_532.xml">Gaston Bonnier</ref>’s <hi rend="italic">Les nectaires: étude critique, anatomique et physiologique</hi> (Nectaries: a critical anatomical and physiological study; <ref target="../bibliographies/bibl_10531.xml">Bonnier 1879a</ref>) titled ‘<ref target="../nameregs/nameregs_532.xml" resp="#mjhawkins">Gaston Bonnier</ref>s angebliche Widerlegung der modernen Blumentheorie’ (<ref target="../nameregs/nameregs_532.xml" resp="#mjhawkins">Gaston Bonnier’s</ref> supposed refutation of modern floral theory; <ref target="../bibliographies/bibl_11075.xml">H. Müller 1880b</ref>). In the highly critical article, Müller dismissed Bonnier’s study as mere teleological speculation and a chain of logical errors.</note>
+            <note xml:id="foot.f2">Bonnier had observed that in <hi rend="italic">Reseda odorata</hi> (mignonette), nectar produced on the underside of the disc, which was abundant when the flower opened, was reabsorbed after fertilisation (Bonnier 1879a, pp. 108–9).</note>   
+        </div>
+    
+    </body>
     </text>
 </TEI>

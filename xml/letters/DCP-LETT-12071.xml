@@ -26,7 +26,7 @@
             <note type="physdesc" n="ALS">3pp</note>
         </notesStmt>
         <sourceDesc>
-            <bibl type="provenance">Bromley Historic Collections, Bromley Central Library (P123/3/4)</bibl>
+            <bibl type="provenance">Bromley Historic Collections, Bromley Central Library (P/123/3/4)</bibl>
             <msDesc>
                 <msIdentifier>
                     <repository key="../repo/repo_66.xml">Bromley</repository>
@@ -59,9 +59,55 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2018-05-23" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2018-06-25" status="reviewed">Reviewed by <name xml:id="fjn26">Francis Neary</name></change>
+        <change when="2018-06-27" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2018-08-31" status="finalProofreadCompleted">Proofread by Alison Pearn. Corrections entered by Anne Secord.</change>
+        <change when="2018-08-31" status="copyedited">Copyedited by Samantha Evans. Corrections entered by Anne Secord.</change>
+        <change when="2021-10-17" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2021-10-17" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>May 31<hi rend="superscript">st</hi> 1879</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I have completely forgotten all the details about the purchase of the land from my sister-in-law, Miss Wedgwood; but I have no doubt that you are correct in saying that she agreed to sell it at 80£ per acre.<ref target="#foot.f1"/> The letter from the solicitor, of which you have sent a copy, does not appear to show that any second measurement of the land was made, proving that the first measurement was erroneous.<ref target="#foot.f2"/> It seems probable that the omission of the 19 perches was merely a clerical error.<ref target="#foot.f3"/> Nevertheless Miss Wedgwood authorises me to say that she is quite willing to refund the 10£, if the Ecclesiastical Commissioners will write to her saying that in their opinion she ought to do so, either to them or to you as they may direct.<ref target="#foot.f4"/></p>
+<p>Or again she will refund the money to the Commissioners, if it be proved by a qualified Surveyor that the first measurement was erroneous to the extent of 19 perches.— If you desire any further communication with me or Miss Wedgwood on the subject, will you be so good as to write to me, for I have observed that when persons differ on any point in conversation, they are liable unintentionally to differ in their belief as to what passed between them.—</p>
+<p>I remain, my dear Sir | Yours faithfully | Charles R. Darwin <lb resp="#mjhawkins"/></p>
+<p rend="left">To the Rev G. S. Ffinden.</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">2.3 or Miss Wedgwood] <hi rend="italic">interl</hi> </note>
+            </div>
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">No earlier correspondence with Ffinden on the subject of the land sale has been found, but see <hi rend="italic">Correspondence</hi> vol. 17, <ref target="./DCP-LETT-6948.xml">letter from J. B. Innes, 20 October 1869</ref> and n. 5. CD’s sister-in-law, <ref target="../nameregs/nameregs_5039.xml">Elizabeth Wedgwood</ref>, resided at Tromer Lodge, Down (<ref target="../bibliographies/bibl_6375.xml"><hi rend="italic">Post Office directory of the six home counties</hi></ref> 1878). </note>
+            <note xml:id="foot.f2">The copy of the letter has not been found.</note>
+            <note xml:id="foot.f3">A perch is an old measurement of area roughly equal to 30.25
+                    square yards. There are 160 perches to an acre. (<hi rend="italic">OED</hi>.)</note>
+            <note xml:id="foot.f4">The Ecclesiastical Commissioners determined the distribution of revenues of the Church of England.</note>     
+        </div>   
+       
+    </body>
     </text>
 </TEI>

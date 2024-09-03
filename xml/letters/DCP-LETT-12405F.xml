@@ -52,7 +52,20 @@
             <p>Thanks for the information about Dr Erasmus Darwin and his parents.</p>
         </abstract>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2016-11-11">Facsimile information added by <name sameAs="#mjhawkins">Michael Hawkins</name></change>
+        <change when="2018-10-02" status="footnoted">Footnoted by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2018-11-29" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2019-01-03" status="editorResponseCompleted">Editor response by <name sameAs="#pswhite">Paul White</name></change>
+        <change when="2019-05-01" status="finalProofreadCompleted">Proofread by <name xml:id="elsmith">Liz Smith</name>. Corrections entered by Paul White.</change>
+        <change when="2019-05-10" status="copyedited">Copy-edited by <name xml:id="sevans">Sam Evans</name>. Corrections entered by Paul White.</change>
+        <change when="2022-01-11" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-01-11" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00185-000-00643_files/8/0_0.jpg" width="3531px" height="6629px"/>
@@ -76,6 +89,37 @@
         </surface>
 </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Jan 5. 1880</date>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>Your kindness has been extreme in having taken so much trouble in searching through the letters and copying the extracts.<ref target="#foot.f1"/> I value them much, and they interest me strangely by bringing before my eyes old passed scenes. I never knew how my father (D<hi rend="superscript">r</hi> R. Darwin of Shrewsbury)<ref target="#foot.f2"/> became so intimate with all the Clives. I dimly remember staying when a child at Stych &amp; seeing a very old M<hi rend="superscript">rs</hi> Clive, no doubt the widow of the Archdeacon.<ref target="#foot.f3"/> The extract about the eagerness of the two learned divines to see a pig’s body opened is very amusing; &amp; that about my grandfather’s character is of much value to me.<ref target="#foot.f4"/> I now hope that there may be a second edition of the Life, that I may use a few extracts from the materials which you have so kindly given me.<ref target="#foot.f5"/> The information about M<hi rend="superscript">r</hi> Gifford &amp; the Archdeacon is now quite sufficient. I was glad to read the P.S. about my father &amp; about the outline made by my mother.<ref target="#foot.f6"/></p>
+<p>With the most cordial thanks, I remain, | dear Sir, | Yours faithfully | Charles Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">Tindal had sent extracts from the correspondence between <ref target="../nameregs/nameregs_8634.xml">Richard Gifford</ref> and <ref target="../nameregs/nameregs_8635.xml">Robert Clive</ref> (1722/3–92), friends of CD’s grandfather <ref target="../nameregs/nameregs_1219.xml">Erasmus Darwin</ref> (see <ref target="./DCP-LETT-12392F.xml">letter from C. H. Tindal, 1 January 1880).</ref></note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_1234.xml">Robert Waring Darwin</ref>.</note>
+            <note xml:id="foot.f3">Styche Hall in Shropshire was the seat of the Clive family; <ref target="../nameregs/nameregs_8807.xml">Rebecca Clive</ref> was the wife of <ref target="../nameregs/nameregs_8635.xml">Robert Clive</ref>, archdeacon of Shropshire.</note>
+            <note xml:id="foot.f4">See <ref target="./DCP-LETT-12392F.xml">letter from C. H. Tindal, 1 January 1880, enclosures 2 and 3 (about the dissection of a pig), and enclosure 4 (about Erasmus Darwin’s character).</ref></note>
+            <note xml:id="foot.f5"><ref target="../bibliographies/bibl_10542.xml"><hi rend="italic">Erasmus Darwin</hi> 2d ed.</ref> was published after CD’s death, but no new material was added.</note>
+            <note xml:id="foot.f6">The postscripts must have been in one of the letters that CD returned to Tindal; they have not been found. In his <ref target="./DCP-LETT-12392F.xml">letter of 1 January 1880</ref>, Tindal mentioned a picture cut out in black paper by CD’s mother, <ref target="../nameregs/nameregs_1241.xml">Susannah Darwin</ref>.</note>
+            
+        </div>
+    
+    </body>
     </text>
 </TEI>

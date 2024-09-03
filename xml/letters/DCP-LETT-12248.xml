@@ -72,7 +72,21 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2017-10-24" status="footnoted">Footnoted by <name xml:id="sevans">Sam Evans </name></change>
+        <change when="2018-02-28" status="reviewed">Reviewed by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2018-03-13" status="editorResponseCompleted">Editor response by <name sameAs="#sevans">Sam Evans</name></change>
+        <change when="2018-09-14" status="finalProofreadCompleted"/>
+        <change when="2018-09-14" status="copyedited"/>
+        <change when="2018-09-14" status="editorResponseCompleted">Editor response by <name sameAs="#sevans">Sam Evans</name></change>
+    <change when="2020-02-06" type="footnotes" status="released">Footnotes released by <name sameAs="#mjhawkins">Michael Hawkins</name></change>
+  <change when="2022-08-16">Automatic links added to bibliographical references in footnotes by <name xml:id="automat">Michael Hawkins</name>.</change>
+    </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00165-000-00028_files/8/0_0.jpg" width="3445px" height="6035px"/>
@@ -104,6 +118,39 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">The Nation,<ref target="#foot.f1"/> 5 Beekman Street (P.O. Box 25), | New York,</hi></placeName>
+                    <date>Oct. 4. <hi rend="print">18</hi>79</date>
+                    <salute>Dear Sir:</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>By this mail I send you a little book compiled (originally for the benefit of my children) from your “Journal of a Voyage”, and which I hope you will regard less as an unauthorized appropriation of your labors, than as an humble tribute to your surpassing services to mankind.<ref target="#foot.f2"/> Though the publishers have been very liberal in carrying out my wishes in regard to the manufacture of the book, it still falls short of my ideal in the illustrations. I was particularly disappointed in not being able to give the portraits of your former colleagues, Captains King and Fitzroy, but I sought in vain to obtain them and others on both sides of the Atlantic.<ref target="#foot.f3"/></p>
+<p>Craving, as I do, your indulgence for the liberty thus taken with your writings, I feel a delicacy in expressing the full extent of my admiration for your genius, and for your extraordinary success in redeeming the human mind from error. It may gratify you more to learn that during the last illness of my father, the late William Lloyd Garrison, I had the pleasure of calling his attention to your remarks on the subject of slavery, which I have carefully preserved in my abridgment, and which shed, for him, a new and welcome light on your character as a philanthropist. In combating the enemies of freedom in this country, he emancipated himself from that theology the destruction of which is perhaps your highest title to the honors of your own time and the blessings of posterity.<ref target="#foot.f4"/></p>
+<p>Believe me, with sentiments of profound esteem and gratitude, | Yours faithfully, | Wendell P. Garrison <lb resp="#mjhawkins"/></p>
+<p rend="left">D<hi rend="superscript">r</hi>. Charles Darwin.</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_1818.xml">Garrison</ref> was literary editor for the <hi rend="italic">Nation</hi>, a US periodical.</note>
+            <note xml:id="foot.f2">Garrison’s edited abridgement and rearrangement of <hi rend="italic">Journal of researches</hi> was published under the title <hi rend="italic">What Mr. Darwin saw in his voyage round the world in the ship ‘Beagle’</hi> (C. R. Darwin 1880). It included two prefaces (one for parents and one for children) and 100 illustrations, and was divided into four sections: animals, humans, geography, and nature. Garrison also enclosed memorials of his father, <ref target="../nameregs/nameregs_8299.xml" resp="#mjhawkins">William Lloyd Garrison</ref> (see <ref target="./DCP-LETT-12260A.xml" resp="#mjhawkins">letter to W. P. Garrison, 16 October 1879</ref>).</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_2696.xml" resp="#mjhawkins">Philip Gidley King</ref> was a midshipman and <ref target="../nameregs/nameregs_1650.xml" resp="#mjhawkins">Robert FitzRoy</ref> was commander of HMS <hi rend="italic">Beagle</hi> during CD’s five-year voyage.</note>
+            <note xml:id="foot.f4">For CD’s strictures on slavery, based on his experiences in Brazil, see <hi rend="italic">Journal of researches</hi> 2d ed., pp. 20–1, 24–5, and 499–500, and <ref target="../bibliographies/bibl_9721.xml">C. R. Darwin 1880</ref>, pp. 113–16; see also A. Desmond and Moore 2009. <ref target="../nameregs/nameregs_8299.xml">W. L. Garrison</ref> was a prominent US abolitionist and religious reformer; he died in May 1879 (<hi rend="italic">ANB</hi>).</note>
+        </div>
+        
+    
+        
+    </body>
     </text>
 </TEI>

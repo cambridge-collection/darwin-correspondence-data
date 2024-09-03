@@ -26,7 +26,7 @@
             <note type="physdesc" n="ALS">1p</note>
         </notesStmt>
         <sourceDesc>
-            <bibl type="provenance">John Wilson (dealer) (catalogue 63, 1988)</bibl>
+            <bibl type="provenance">John Wilson (dealer) (Catalogue 63, 1988)</bibl>
             <msDesc>
                 <msIdentifier>
                     <repository key="../repo/repo_441.xml">Wilson, John</repository>
@@ -59,9 +59,56 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2020-06-01" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2020-10-10" status="reviewed"><name xml:id="pswhite">Paul White</name></change>
+        <change when="2020-08-20" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2021-04-20" status="finalProofreadCompleted"/>
+        <change when="2021-04-20" status="copyedited">by Samantha Evans and entered by Shelley Innes</change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi> | (<hi rend="print">Railway Station | Orpington. S.E.R.</hi>)</placeName>
+                    <date>October 8<hi rend="superscript">th</hi> 1881</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I have the pleasure to send a cheque for £11.5s.0d, for the subscriptions, as below, of the several members of my family<ref target="#foot.f1"/></p>
+<p>Yours very faithfully | Ch— Darwin</p>
+<p>C. Darwin 5.5.0<ref target="#foot.f2"/></p>
+<p>F. D. 3</p>
+<p>G D. 1</p>
+<p>L. D. 1</p>
+<p>Miss D. 1<ref target="#foot.f3"/></p>
+<p>£11 " 5.0</p> 
+                </div>
+            </div>
+            
+            
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">On 8 October 1881, CD recorded a payment of £11 5<hi rend="italic">s.</hi> to ‘Ffinden’ in his Account books–banking account (Down House MS). The payment was for the Coal and Clothing Club (see n. 2, below).</note>
+            <note xml:id="foot.f2">The Down Coal and Clothing Club was a local charity that supplied parishioners with cheap coal and clothes in exchange for regular savings; Ffinden, the vicar of Down, ran the club. On 8 October 1881, CD recorded a payment of £5 5<hi rend="italic">s.</hi> to the ‘Coal Club’ in his Account books–classed accounts (Down House MS).</note>   
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_1222.xml">Francis Darwin</ref>, <ref target="../nameregs/nameregs_1224.xml">George Howard Darwin</ref>, <ref target="../nameregs/nameregs_1230.xml">Leonard Darwin</ref>, and <ref target="../nameregs/nameregs_1217.xml">Elizabeth Darwin</ref>.</note>   
+        </div> 
+     
+    </body>
     </text>
 </TEI>

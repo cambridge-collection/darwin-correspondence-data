@@ -16,10 +16,6 @@
                 <date when="2016">2016</date>
             <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-6547F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6547F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-6547F.xml</ref>.</licence></availability>
 </publicationStmt>
-            <seriesStmt> 
-                <title level="s">The Correspondence of Charles Darwin</title>
-                
-            </seriesStmt>
             
             <sourceDesc>
                 <bibl type="provenance"><ref target="../bibliographies/bibl_4102.xml">J. C. Irons 1896</ref>, p. 215</bibl>
@@ -41,9 +37,40 @@
                 <p>Apologises for having kept JC’s book so long; would like to keep it about ten days more.</p>
             </abstract>
         </profileDesc>
-        
+        <revisionDesc>
+            <change when="2022-05-12" status="transcribed">Transcribed by <name xml:id="raclarkson">Rosy Clarkson</name></change>
+            <change when="2022-05-12" status="OnlineEditionOnly"/>
+            <change when="2022-10-20" status="initialProofCompleted">Proofread by <name xml:id="ampearn">Alison Pearn</name></change>
+            <change when="2022-10-26" status="footnoted">Footnoted <name xml:id="sevans">Sam Evans</name></change>
+        </revisionDesc>
     </teiHeader>
     <text>
-        <body><div><!--Transcription has not been cleared for release--></div></body>
+        <body>
+            
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName><hi rend="smallCaps">Down, Bromley, Kent, S.C.</hi></placeName>
+                        <date>10<hi rend="italic">th January</hi> 1869.</date>
+                        <salute><hi rend="smallCaps">My dear Sir,—</hi></salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>I write one line to say that I am ashamed of myself for having kept your book so long, partly for my son’s sake, and partly for my own sake, as I have not yet come to the place where I want to quote it. If I hear from you, I will send it at once; if I do <hi rend="italic">not</hi> hear, I will keep it for about ten days more, and will then send it registered, so you shall get it safe.—<ref target="#foot.f1"/></p>
+                        <p>With sincere thanks, yours very faithfully, <hi rend="smallCaps">Charles Darwin</hi>.</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+           
+            
+           
+            
+           
+            <div type="footnotes">
+                <note xml:id="foot.f1">CD evidently returned the book, a collection of Croll’s papers, in February 1869; see <hi rend="italic">Correspondence</hi> vol. 16, <ref target="./DCP-LETT-6489.xml">letter from James Croll, 2 December 1868</ref> and n. 2, and <hi rend="italic">Correspondence</hi> vol. 17, <ref target="./DCP-LETT-6585.xml">letter to James Croll, 31 January [1869]</ref>. The son was <ref target="../nameregs/nameregs_1224.xml">George Howard Darwin</ref> (see <hi rend="italic">Correspondence</hi> vol. 16, <ref target="./DCP-LETT-6496.xml">letter to G. H. Darwin, [9 December 1868]</ref>). CD cited Croll’s work on glaciation in <hi rend="italic">Origin</hi> 5th ed., pp. 451–2.</note>
+               </div>
+        
+        </body>
     </text>
 </TEI>

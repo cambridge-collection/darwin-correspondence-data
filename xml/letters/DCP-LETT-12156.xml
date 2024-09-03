@@ -29,7 +29,7 @@
             </relatedItem>
         </notesStmt>
         <sourceDesc>
-            <bibl type="provenance">Indiana University, Lilly Library (Miscellaneous MSS.)</bibl>
+            <bibl type="provenance">Indiana University, The Lilly Library (Miscellaneous MSS)</bibl>
             <msDesc>
                 <msIdentifier>
                     <repository key="../repo/repo_194.xml">Indiana</repository>
@@ -64,9 +64,45 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2018-03-20" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2018-05-22" status="reviewed">Reviewed by <name xml:id="fjn26">Francis Neary</name></change>
+        <change when="2018-05-25" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2018-08-29" status="finalProofreadCompleted"/>
+        <change when="2018-08-29" status="copyedited"/>
+        <change when="2021-10-17" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2021-10-17" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>July 14<hi rend="superscript">th</hi>. 79</date>
+                    <salute>My dear Paget.</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>It was very kind of you to take the trouble to hunt up the enclosed old Book.— I have been glad to see it, as at least showing that D<hi rend="superscript">r</hi>. D’s views were attended to; &amp; I have read it, as these old views on fever seem curious rubbish.—<ref target="#foot.f1"/> I fear that my little life of D<hi rend="superscript">r</hi>. D. will be a very poor affair, &amp; never again will I be tempted out of my proper work.<ref target="#foot.f2"/></p>
+<p>Believe me yours very sincerely | Charles Darwin</p> 
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had visited Paget on 27 June 1879 and may have borrowed the book at that time (see <ref target="./DCP-LETT-12127.xml">letter to James Paget, 28 June [1879]</ref>). The book was probably <hi rend="italic">Comparative view of the theories and practice of Drs Cullen, Brown and Darwin</hi> (<ref target="../bibliographies/bibl_10847.xml">Baeta 1800</ref>), which CD made reference to in <ref target="../bibliographies/bibl_2365.xml"><hi rend="italic">Erasmus Darwin</hi></ref>, p. 107 n. </note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_1225.xml">Henrietta Emma Litchfield</ref> had found CD’s essay for <hi rend="italic">Erasmus Darwin</hi> dull, but other family members were more positive in their assessment (see, for example, <ref target="./DCP-LETT-12152.xml">letter to Francis Darwin, 12 July [1879]</ref> and n. 9).</note>   
+        </div>   
+       
+    </body>
     </text>
 </TEI>

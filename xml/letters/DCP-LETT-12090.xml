@@ -31,7 +31,7 @@
             </relatedItem>
         </notesStmt>
         <sourceDesc>
-            <bibl type="provenance">Imperial College of Science, Medicine and Technology Archives (Essex Naturalists Field Club, Meldola papers)</bibl>
+            <bibl type="provenance">Imperial College of Science, Technology and Medicine Archives (Essex Naturalists Field Club, Meldola papers)</bibl>
             <msDesc>
                 <msIdentifier>
                     <repository key="../repo/repo_192.xml">Imperial College</repository>
@@ -66,9 +66,57 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2017-11-17" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2018-03-20" status="reviewed">Reviewed by <name xml:id="ampearn">Alison Pearn</name></change>
+        <change when="2018-04-10" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2018-08-14" status="finalProofreadCompleted"/>
+        <change when="2018-08-14" status="copyedited"/>
+        <change when="2018-10-04">Proofread against original by <name xml:id="raclarkson">Rosy Clarkson</name></change>
+        <change when="2018-10-11">Proofread against original by <name xml:id="elsmith">Liz Smith</name></change>
+        <change when="2021-10-17" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2021-10-17" type="footnotes" status="released">Footnotes cleared for online release</change>
+        <change when="2022-08-16">Automatic links added to bibliographical references in footnotes by <name xml:id="automat">Michael Hawkins</name>.</change>
+    </revisionDesc>
     </teiHeader>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>June 6<hi rend="superscript">th</hi></date>
+                    <salute>My dear M<hi rend="superscript">r</hi>. Meldola</salute>
+                </opener>
+                <div type="transcription">
+                     
+
+                    <p>Your best plan will be to write to “D<hi rend="superscript">r</hi>. Ernst Krause Friedenstrasse. 10. II. Berlin.”</p> 
+                        <p>He is one of Editors, with whom I have corresponded.—<ref target="#foot.f2"/></p> 
+                            <p>You can say that I sent you the Journal &amp; called your attention to the paper; but I cannot take the liberty of advising the supply of cliches.—<ref target="#foot.f3"/> He is a very obliging man. Had you not better ask for permission to translate, saying that source will be fully acknowledged.—</p>
+                    <p>F. Müllers view of the mutual protection was quite new to me<ref target="#foot.f4"/></p>
+
+<p>Yours sincerely | Ch Darwin</p> 
+                </div>
+            </div>
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-12082.xml">letter from Raphael Meldola, 4 June 1879</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-12082.xml">letter from Raphael Meldola, 4 June 1879</ref> and n. 1. <ref target="../nameregs/nameregs_2758.xml">Ernst Krause</ref> became sole editor of <hi rend="italic">Kosmos</hi> in April 1879. The other editors of the first four volumes were <ref target="../nameregs/nameregs_851.xml">Otto Caspari</ref> and <ref target="../nameregs/nameregs_2514.xml">Gustav Jäger</ref>.</note>
+            <note xml:id="foot.f3">Meldola was planning to publish a translation of <ref target="../nameregs/nameregs_3070.xml">Fritz Müller’s</ref> article on mimicry in butterflies (<ref target="../bibliographies/bibl_10805.xml">F. Müller 1879c</ref>) in the <hi rend="italic">Proceedings of the Entomological Society of London</hi> (<ref target="../bibliographies/bibl_10806.xml">F. Müller 1879d</ref>), and hoped that woodcuts for illustrations to the article could be supplied by the publishers of the original article in <hi rend="italic">Kosmos</hi> (see <ref target="./DCP-LETT-12082.xml">letter from Raphael Meldola, 4 June 1879</ref> and n. 2).</note>
+            <note xml:id="foot.f4">In F. Müller 1879c, Müller proposed a new theory of mimicry (later known as Müllerian mimicry), in which he attempted to demonstrate how two species of distasteful butterflies could both benefit by having a similar colour pattern.</note>
+        </div> 
+     
+    </body>
     </text>
 </TEI>

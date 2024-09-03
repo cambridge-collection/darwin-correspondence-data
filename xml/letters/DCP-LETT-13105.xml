@@ -60,7 +60,19 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2020-11-06" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>        
+        <change when="2020-11-26" status="reviewed"> Reviewed by <name xml:id="pas">Anne Secord</name></change>
+        <change when="2020-12-07" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2021-03-26" status="finalProofreadCompleted"/>
+        <change when="2021-03-26" status="copyedited">by Samantha Evans and entered by Shelley Innes</change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00201-000-00084_files/8/0_0.jpg" width="2911px" height="4972px"/>
@@ -87,6 +99,33 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Clydehaugh House, | Glasgow.</placeName>
+                    <date>1<hi rend="superscript">st</hi>. April, 1881.</date>
+                    <salute>Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>From my limited observations of animals I concluded that, <hi rend="underline">the lower</hi> <hi rend="underline">animals have no blue eyes</hi>. Since then, in reading your able work.—The Origin of Species.—I noticed that in speaking of cats, you said, that, “white cats with blue eyes are always deaf”.<ref target="#foot.f1"/></p>
+<p>Is it an anomaly in nature to find blue eyes in cats? Are blue eyes peculiar to the human species?<ref target="#foot.f2"/></p>
+<p>Sir, I have the honour to be, | Respectfully yours, | Marie M<hi rend="superscript">c</hi>.Elroy.</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD stated in the early editions of <hi rend="italic">Origin</hi> that cats with blue eyes were invariably deaf (<ref target="../bibliographies/bibl_6014.xml"><hi rend="italic">Origin</hi></ref>, p. 12); but in <ref target="../bibliographies/bibl_6017.xml"><hi rend="italic">Origin</hi> 4th ed.</ref>, p. 12, and later editions, he changed the text to: ‘cats which are entirely white and have blue eyes are generally deaf.’</note>
+            <note xml:id="foot.f2">In <ref target="../bibliographies/bibl_7951.xml"><hi rend="italic">Variation</hi></ref> 1: 27, CD had mentioned a description of Cuban feral dogs with light-blue eyes. </note>
+        </div>
+    
+    </body>
     </text>
 </TEI>

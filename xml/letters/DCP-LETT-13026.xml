@@ -31,7 +31,7 @@
             </relatedItem>
         </notesStmt>
         <sourceDesc>
-            <bibl type="provenance">Archives de la famille Candolle (private collection)</bibl>
+            <bibl type="provenance">Archives de la famille de Candolle (private collection)</bibl>
             <msDesc>
                 <msIdentifier>
                     <repository key="../repo/repo_15.xml">Archives de la famille de Candolle</repository>
@@ -69,9 +69,53 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2019-08-13" status="footnoted">Footnoted by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2019-11-14" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2019-12-12" status="editorResponseCompleted">Editor response by <name sameAs="#pswhite">Paul White</name></change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>Jan 24/81</date>
+                    <salute>My dear Monsieur de Candolle,</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>It was extremely kind of you to write me so long and valuable a letter, the whole of which deserves careful consideration. I have been particularly pleased at what you say about the new terms used, because I have often been annoyed at the multitude of new terms lately invented in all branches of Biology in Germany; and I doubted much whether I was not quite as great a sinner as those whom I have blamed.<ref target="#foot.f1"/> When I read your remarks on the word ‘<hi rend="underline">purpose</hi>’ in your ‘Phytographie’, I vowed that I would not use it again; but it is not easy to cure oneself of a vicious habit.<ref target="#foot.f2"/> It is also difficut for any one who tries to make out the use of a structure to avoid the word purpose. I see that I have probably gone beyond my depth in discussing plurifoliate &amp; unifoliate leaves; but in such a case as that of <hi rend="underline">Mimosa albida</hi>, where rudiments of additional leaflets are present we must believe that they were well developed in the progenitor of the plant. So again when the first true leaf differs widely in shape from the older leaves, &amp; resembles the older leaves in allied species, is it not the most simple explanation that such leaves have retained their ancient character, as in the case of the embryos of so many animals?<ref target="#foot.f3"/></p>
+                    <p>Your suggestion of examining the movements of vertical leaves with an equal number of stomata on both sides, with reference to the light, seems to me an excellent one and I hope that my son Francis may follow it up.<ref target="#foot.f4"/> But I will not trouble you with any more remarks about our book.</p>
+                    <p>My son will write to you about the diagram.<ref target="#foot.f5"/></p>
+                    <p>Let me add that I shall ever remember with pleasure your visit here last autumn,<ref target="#foot.f6"/> &amp; I remain dear Monsieur De Candolle</p>
+<p>Yours very sincerely | Charles Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">Candolle had sent comments about <ref target="../bibliographies/bibl_5637.xml"><hi rend="italic">Movement in plants</hi></ref> and had praised CD’s terminology in the book (see <ref target="./DCP-LETT-13017.xml">letter from Alphonse de Candolle, 18 January [1881] </ref>and n. 3).</note>
+            <note xml:id="foot.f2">Candolle had referred CD to the discussion of ‘purpose’ in <hi rend="italic">La phytographie</hi> (<ref target="../bibliographies/bibl_11109.xml">A. de Candolle 1880</ref>, pp. 212–15).</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-13017.xml">letter from Alphonse de Candolle, 18 January [1881]</ref> and nn. 5 and 7. On rudimentary leaflets of <hi rend="italic">Mimosa albida</hi>, see <ref target="../bibliographies/bibl_5637.xml"><hi rend="italic">Movement in plants</hi></ref>, pp. 364–5, 416. </note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_1222.xml">Francis Darwin</ref>.</note>
+            <note xml:id="foot.f5">Candolle had enclosed a table showing how hereditary characteristics could be represented over several generations with his <ref target="./DCP-LETT-13017.xml">letter of 18 January [1881]</ref>; the table has not been found.</note>
+            <note xml:id="foot.f6">Candolle had visited Down on 27 September 1880 (see <hi rend="italic">Correspondence</hi> vol. 28, <ref target="./DCP-LETT-6400.xml">letter from Asa Gray, 30 September 18[80]</ref>).</note>
+            
+        </div>
+    
+    </body>
     </text>
 </TEI>

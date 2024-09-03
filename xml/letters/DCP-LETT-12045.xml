@@ -64,7 +64,19 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2018-04-27" status="footnoted">Footnoted by <name xml:id="pas">Anne Secord</name></change>
+        <change when="2018-06-16" status="reviewed">Reviewed by <name xml:id="fjn26">Francis Neary</name></change>
+        <change when="2018-06-19" status="editorResponseCompleted">Editor response by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2018-08-29" status="finalProofreadCompleted">Proofread by Alison Pearn. Corrections entered by Anne Secord.</change>
+        <change when="2018-08-29" status="copyedited">Copyedited by Samantha Evans. Corrections entered by Anne Secord.</change>
+        <change when="2021-10-17" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2021-10-17" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00099-000-00230_files/8/0_0.jpg" width="2932px" height="5435px"/>
@@ -81,6 +93,34 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Geological Society, | Burlington House, W.</hi></placeName>
+                    <date>9 May 1879</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>Have you seen a small work just published by Hardwicke &amp; Bogue, entitled “Evolution, old &amp; new” by Samuel Butler? I have read but a little way in it, but the author seems to be writing the panegyric of D<hi rend="superscript">r</hi>. Erasmus Darwin &amp; his Philosophy—<ref target="#foot.f1"/> There are over 20 pages of the life of D<hi rend="superscript">r</hi>. Darwin &amp; 40 of exposition of his views &amp; quotations from the “Zoonomia”.—<ref target="#foot.f2"/> Does not this rather take the wind out of our sails?</p>
+<p>Believe me | yours very truly | W. S. Dallas <lb resp="#mjhawkins"/></p>
+<p rend="left">C. Darwin Esq G</p> 
+                </div>
+            </div>
+
+            
+            
+          
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_774.xml">Samuel Butler</ref> discussed <ref target="../nameregs/nameregs_1219.xml">Erasmus Darwin</ref>, CD’s grandfather, in <ref target="../bibliographies/bibl_10523.xml">S. Butler 1879</ref>, pp. 173–234. Dallas was translating <ref target="../nameregs/nameregs_2758.xml" resp="#mjhawkins">Ernst Krause’s</ref> revised essay on Erasmus Darwin (<ref target="../bibliographies/bibl_10668.xml">Krause 1879a</ref>) for publication as part of <ref target="../bibliographies/bibl_2365.xml"><hi rend="italic">Erasmus Darwin</hi></ref>.</note>
+            <note xml:id="foot.f2">Erasmus Darwin had published his evolutionary views in <hi rend="italic">Zoonomia</hi> (<ref target="../bibliographies/bibl_1791.xml">E. Darwin 1794–6</ref>).</note> 
+        </div>
+    
+    </body>
     </text>
 </TEI>

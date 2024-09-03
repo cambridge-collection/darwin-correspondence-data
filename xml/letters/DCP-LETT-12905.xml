@@ -60,9 +60,62 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2019-06-04" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2019-07-16" status="reviewed">Reviewed by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2019-07-29" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2019-10-24" status="finalProofreadCompleted"/>
+        <change when="2019-10-24" status="copyedited"/>
+        <change when="2022-01-11" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-01-11" type="footnotes" status="released">Footnotes cleared for online release</change>
+        <change when="2024-01-11">CUL document images added by <name xml:id="did">Digital Innovation and Development, CUL</name>.</change>
+    </revisionDesc>
     </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00178-000-00781_files/8/0_0.jpg" width="3968px" height="6603px" resp="#did"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00178-000-00781_files/11/1_1.jpg" width="3968px" height="6603px" resp="#did"/>
+        <surface n="169:1r" xml:id="i781">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00178-000-00781.jpg" width="3968px" height="6603px" resp="#did"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00178-000-00781_files/8/0_0.jpg" width="3968px" height="6603px" resp="#did"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00178-000-00781.dzi" width="3968px" height="6603px" resp="#did"/>
+        </surface>
+        <surface n="169:1v" xml:id="i782">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00178-000-00782.jpg" width="3968px" height="6603px" resp="#did"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00178-000-00782_files/8/0_0.jpg" width="3968px" height="6603px" resp="#did"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00178-000-00782.dzi" width="3968px" height="6603px" resp="#did"/>
+        </surface>
+    </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">J. Torbitt, | Wine Merchant. | 58, North Street, | Belfast.</hi></placeName>
+                    <date>11 Decr <hi rend="print">18</hi>80.</date>
+                    <seg type="supplemental">Charles Darwin Esqr. | Down.</seg>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>In the two private notes I failed to convey my ideas.<ref target="#foot.f1"/></p>
+                    <p>What I wanted was, that you should look at the product, and express an opinion as to its value, if you found it proper to do so.<ref target="#foot.f2"/></p>
+<p>Best thanks for all your kindness | most respectfully yours | James Torbitt</p> 
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The private notes have not been found (see <ref target="./DCP-LETT-12780.xml">letter to James Torbitt, 29 October 1880</ref>).</note>   
+            <note xml:id="foot.f2">Torbitt had tried to interest CD in a secret process that related to waste food use (see <ref target="./DCP-LETT-12780.xml">letter to James Torbitt, 29 October 1880</ref>, and <ref target="../bibliographies/bibl_9811.xml">A. Evans <hi rend="italic">et al.</hi> 1996</ref>, p. 8).</note>   
+        </div>
+    
+    </body>
     </text>
 </TEI>

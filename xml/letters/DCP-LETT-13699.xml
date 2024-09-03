@@ -62,9 +62,59 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2021-02-04" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2021-03-09" status="reviewed">Reviewed by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2021-03-17" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2022-01-05" status="finalProofreadCompleted">Proofread by <name xml:id="elsmith">Liz Smith</name></change>
+        <change when="2022-01-26" status="copyedited">by Samantha Evans and entered by Shelley Innes</change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        <change when="2024-01-11">CUL document images added by <name xml:id="did">Digital Innovation and Development, CUL</name>.</change>
+    </revisionDesc>
     </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00146-000-00008_files/8/0_0.jpg" width="4790px" height="7658px" resp="#did"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00146-000-00008_files/11/1_1.jpg" width="4790px" height="7658px" resp="#did"/>
+        <surface n="8" xml:id="i8">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00146-000-00008.jpg" width="4790px" height="7658px" resp="#did"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00146-000-00008_files/8/0_0.jpg" width="4790px" height="7658px" resp="#did"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00146-000-00008.dzi" width="4790px" height="7658px" resp="#did"/>
+        </surface>
+    </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down | Beckenham, Kent.</placeName>
+                    <date>Feby 22<hi rend="superscript">nd</hi>. 1882.</date>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>As very few luggage trains call at our small station the great box arrived there only 2 days ago &amp; I was not able to send for it until yesterday as there was a run on my horses.<ref target="#foot.f1"/> The specimen arrived quite safe owing to the great care with which it had been packed up.</p>
+<p>The impressions are wonderfully distinct &amp; the specimen seems to me a very interesting &amp; curious one. I shall be anxious to show it to any geologists who may visit me and who may happen to have attended more carefully to impressions than I have ever done.</p>
+<p>How I wish that my dear old friend Sir Charles Lyell had been alive!<ref target="#foot.f2"/></p>
+<p>Prey accept my cordial thanks for the great kindness which you have shown in sending me this specimen.</p>
+<p>Believe me my dear Sir | Yours sincerely | Charles Darwin</p> 
+                </div>
+            </div>
+
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">Johnson had sent CD a slab of sandstone with fossil annelid worm tracks (see <ref target="./DCP-LETT-13677.xml">letter from Henry Johnson, 11 February 1882</ref>). </note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_3051.xml">Charles Lyell</ref>, who died in 1875, had been an early supporter of CD’s work and a close friend. Some of the information for CD’s early paper <ref target="../bibliographies/bibl_2612.xml">‘Formation of mould’</ref> had been transmitted to CD through Lyell (see <ref target="../bibliographies/bibl_1581.xml"><hi rend="italic">Correspondence</hi></ref> vol. 2, <ref target="./DCP-LETT-402.xml">letter from W. F. Lindsay-Carnegie to Charles Lyell, [14 February 1838]</ref>).</note>
+        </div>
+    
+    </body>
     </text>
 </TEI>

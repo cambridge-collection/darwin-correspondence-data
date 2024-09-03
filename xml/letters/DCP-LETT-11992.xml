@@ -27,7 +27,7 @@
             <note type="physdesc" n="ALS">1p</note>
         </notesStmt>
         <sourceDesc>
-            <bibl type="provenance">Charles Hamilton Galleries Inc. (dealer) (28 May 1981); Sotheby’s, New York (dealers) (28 April 2021, lot 49)</bibl>
+            <bibl type="provenance">Charles Hamilton (dealer) (28 May 1981); Sotheby’s, New York (dealers) (28 April 2021, lot 49)</bibl>
             <msDesc>
                 <msIdentifier>
                     <repository key="../repo/repo_162.xml">Charles Hamilton</repository>
@@ -70,9 +70,63 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2018-03-01" status="footnoted">Footnoted by <name xml:id="pas">Anne Secord</name></change>
+        <change when="2018-04-18" status="reviewed">Reviewed by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2018-05-07" status="editorResponseCompleted">Editor response by <name sameAs="#pas">Anne Secord</name></change>
+        <change when="2018-08-03" status="finalProofreadCompleted">Proofread by Liz Smith. Corrections entered by Anne Secord.</change>
+        <change when="2018-08-03" status="copyedited">Copyedited by Samantha Evans. Corrections entered by Anne Secord.</change>
+        <change when="2021-05-05" status="offlineForRe-edit">Transcribed from full image of original by <name xml:id="raclarkson">Rosy Clarkson</name></change>
+        <change when="2021-05-24" status="alteredPostPublication" type="footnotes">nn. 1 and 3 altered</change>
+        <change when="2021-05-24" status="alteredPostPublication" type="letter">New transcription</change>
+        <change when="2021-05-24" status="sup-footnoted">Footnoted by RAC and <name xml:id="sevans">Sam Evans</name></change>
+        <change when="2021-07-09" status="sup-reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2021-10-17" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2021-10-17" type="footnotes" status="released">Footnotes cleared for online release</change>
+        <change when="2022-03-08" status="sup-finalProofreadCompleted">AMP</change>
+        <change when="2022-07-06" status="re-released"/>
+    </revisionDesc>
     </teiHeader>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi> | (<hi rend="print">Railway Station | Orpington S.E.R.</hi>)</placeName>
+                    <date>April 13<hi rend="superscript">th</hi> 1879</date>
+                    <salute>Dear Madam</salute>
+                </opener>
+                <div type="transcription">
+                    <p>I am obliged to you for so kindly communicating the curious case of an habitual gesture, like that which I have described as inherited. I may add that since I wrote, the action has been transmitted to another generation. Your case shall be sent to M<hi rend="superscript">r</hi> Galton, who gave me the information.<ref target="#foot.f2"/></p>
+<p>Dear Madam | Yours faithfully | &amp; obliged | Charles Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 (<hi rend="italic">Railway … S.E.R.</hi>)] <hi rend="italic">parentheses added</hi> </note>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+        </div>
+
+        
+
+        
+
+        <div type="footnotes">
+            <note xml:id="foot.f1">This letter was previously published in <hi rend="italic">Correspondence</hi> vol. 27, when less of the text was available. The addressee is taken from the sale catalogues; when the letter was sold in 1981 it was accompanied by an original holograph envelope, with the flap missing.</note>
+            <note xml:id="foot.f2">In <ref target="../bibliographies/bibl_2400.xml"><hi rend="italic">Expression</hi></ref>, pp. 33–4 n. 8, CD had quoted <ref target="../nameregs/nameregs_1797.xml">Francis Galton</ref> on the inheritance of a characteristic arm gesture: the habit, when sleeping, of placing the forearm across the top of the head, whence it would fall onto the bridge of the nose, was exhibited in three generations of a family. In his correspondence, Galton had revealed that the individuals were his father-in-law, <ref target="../nameregs/nameregs_765.xml">George Butler</ref>; George Butler’s son, <ref target="../nameregs/nameregs_766.xml">Henry Montagu Butler</ref>; and George Butler’s granddaughter, <ref target="../nameregs/nameregs_7181.xml">Agnes Isabel Butler</ref> (see <hi rend="italic">Correspondence</hi> vol. 19, <ref target="./DCP-LETT-8118.xml">letter from Francis Galton, 22 December 1871</ref>).</note>
+        </div>        
+            
+    </body>
     </text>
 </TEI>

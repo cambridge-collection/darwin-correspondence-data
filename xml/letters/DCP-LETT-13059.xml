@@ -29,7 +29,7 @@
             </relatedItem>
         </notesStmt>
         <sourceDesc>
-            <bibl type="provenance">Special Collections, Library, University of Otago (Hocken Collection: Flotsam &amp; Jetsam 5: 119)</bibl>
+            <bibl type="provenance">University of Otago Library, Special Collections (Hocken Collection: Flotsam &amp; Jetsam 5: 119)</bibl>
             <msDesc>
                 <msIdentifier>
                     <repository key="../repo/repo_310.xml">Otago</repository>
@@ -61,9 +61,50 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2019-09-20" status="footnoted">Footnoted by <name xml:id="pas">Anne Secord</name></change>
+        <change when="2019-12-04" status="reviewed">Reviewed by <name xml:id="ampearn">Alison Pearn</name></change>
+        <change when="2019-12-19" status="editorResponseCompleted">Editor response by <name sameAs="#pas">Anne Secord</name></change>
+        <change when="2021-01-28" status="finalProofreadCompleted">Proofread by Alison Pearn. Corrections entered by Anne Secord.</change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi> | (<hi rend="print">Railway Station | Orpington S.E.R.</hi>)</placeName>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I received this morning your letter of Dec<hi rend="superscript">r</hi> 30<hi rend="superscript">th</hi> &amp; the Address, which has deeply gratified me.<ref target="#foot.f1"/> I hope that you will express to the Council of the Otago Institution my gratitude for the very great &amp; unusual honour thus conferred on me.— This honour is peculiarly gratifying to me, as coming from New Zealand, the wonderful progress of which has interested me greatly.— I have read every one of the volumes of the New Zealand Institute from the first, as each appeared successively, &amp; always with admiration at the success &amp; zeal with which Science is followed in a Country, destined, as I believe, Great Britain of the Southern hemisphere.—<ref target="#foot.f2"/></p>
+<p>I beg leave to return to you personally my sincere thanks for your very kind &amp; courteous letter, &amp; I remain, Dear Sir</p>
+<p>Yours faithfully &amp; obliged | Charles Darwin <lb resp="#mjhawkins"/></p>
+<p rend="left">To | T. M. Hocken, Esq | President of the Otago Institute</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 (<hi rend="italic">Railway … S.E.R.</hi>)] <hi rend="italic">parentheses added</hi> </note>
+            </div>
+
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">No letter from <ref target="../nameregs/nameregs_2313.xml">Hocken</ref> dated 30 December 1880 has been found. The address was probably the testimonial from the Council of the Otago Institute for the Arts and Sciences, dated 1 October 1880 (<hi rend="italic">Correspondence</hi> vol. 28, Appendix III). This testimonial, signed by Hocken and other members of the Otago Institute, congratulating CD on the twenty-first anniversary of the publication of <ref target="../bibliographies/bibl_6014.xml"><hi rend="italic">Origin</hi></ref>, was published in <hi rend="italic">Nature</hi>, 24 February 1881, pp. 393–4, under the title ‘Honour to Mr. Darwin’.</note>
+            <note xml:id="foot.f2">The New Zealand Institute, established in 1867, was an umbrella organisation that brought together various scientific societies in New Zealand, including the Otago Institute from its founding in 1869. See ‘History of the Otago Institute for the Arts and Sciences’, pp. 4–5 (Royal Society Te Apārangi, https://royalsociety.org.nz/assets/documents/Otago-History-Full.pdf (accessed 20 September 2019)). The <hi rend="italic">Transactions and Proceedings of the New Zealand Institute</hi> were published annually from 1869.</note>
+        </div>    
+        
+    </body>
     </text>
 </TEI>

@@ -61,7 +61,19 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2018-10-10" status="footnoted">Footnoted by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2018-11-29" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2019-01-07" status="editorResponseCompleted">Editor response by <name sameAs="#pswhite">Paul White</name></change>
+        <change when="2019-05-01" status="finalProofreadCompleted">Proofread by <name xml:id="ampearn">Alison Pearn</name>. Corrections entered by Paul White.</change>
+        <change when="2019-05-10" status="copyedited">Copy-edited by <name xml:id="sevans">Sam Evans</name>. Corrections entered by Paul White.</change>
+        <change when="2022-01-11" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00165-000-00840_files/8/0_0.jpg" width="3293px" height="5817px"/>
@@ -88,6 +100,35 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Herbarium of Harvard University, | Botanic Garden, Cambridge, Mass.</hi></placeName>
+                    <date>Jany 12 <hi rend="print">1880.</hi></date>
+                    <salute>My Dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>So you want some cotton-seeds!<ref target="#foot.f1"/> I sent south for them, &amp; here will be all you need, but you can have more. Two-kinds; those in the copious white wool probably best. That is ‘Green-seed’ from Alabama. The other is sea-island.<ref target="#foot.f2"/></p>
+                    <p>The Man who sent the seed has heard of “<hi rend="underline">Vine Cotton</hi>”, of which he once had a few seeds “sent from England” and he wants more—to grow.<ref target="#foot.f3"/> Now you ask Hooker<ref target="#foot.f4"/> if he knows of such a thing, and can get hold of some for this southern planter,—&amp; will send by post hither.</p>
+<p>Ever Yours | Asa Gray</p> 
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had requested seeds of ‘common cotton’ in his <ref target="./DCP-LETT-12357.xml">letter to Asa Gray, 16 December 1879</ref> (<hi rend="italic">Correspondence</hi> vol. 27). </note>
+            <note xml:id="foot.f2">Alabama cotton is <hi rend="italic">Gossypium hirsutum</hi> (upland or short-staple cotton); sea-island cotton is <hi rend="italic">G. barbadense</hi> (pima or extra-long-staple cotton).</note>
+            <note xml:id="foot.f3">The man who sent the seed has not been identified. A variety known as vine cotton was grown in British Guiana and Jamaica; it was believed to have originated from sea-island cotton (<hi rend="italic">Gossypium barbadense</hi>; see <ref target="../bibliographies/bibl_11096.xml">Duff 1866</ref>, p. 182). </note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_2357.xml" resp="#mjhawkins">Joseph Dalton Hooker</ref>.</note>
+            
+        </div>
+    
+    </body>
     </text>
 </TEI>

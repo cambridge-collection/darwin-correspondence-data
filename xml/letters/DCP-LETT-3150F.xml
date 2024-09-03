@@ -25,7 +25,7 @@
             <note type="physdesc" n="ALS">1p inc</note>
         </notesStmt>
         <sourceDesc>
-            <bibl type="provenance">North East Wales Archives (Ruthin) (DD/PH/115)</bibl>
+            <bibl type="provenance">North East Wales Archives, Ruthin (DD/PH/115)</bibl>
                 <msDesc>
                     <msIdentifier>
                         <repository key="../repo/repo_602.xml">North East Wales Archives (Ruthin)</repository>
@@ -48,9 +48,39 @@
                 <p>Valediction only.</p>
             </abstract>
         </profileDesc>
-        
+        <revisionDesc>
+            <change when="2018-05-15" status="transcribed">Transcribed by <name xml:id="raclarkson">Rosy Clarkson</name></change>
+            <change when="2018-05-17" status="initialProofCompleted">Proofread by <name xml:id="elsmith">Liz Smith</name></change>
+            <change when="2018-10-03" status="secondProofCompleted">Proofread by <name xml:id="ampearn">Alison Pearn</name></change>
+            <change when="2020-03-27" status="footnoted">Footnoted by <name xml:id="sevans">Sam Evans</name>.</change>
+            <change when="2020-05-05" status="sup-footnoted">Footnoted by <name sameAs="#sevans">Sam Evans</name></change>
+            <change when="2021-05-13" status="sup-reviewed">Reviewed by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2021-08-10" status="sup-finalProofreadCompleted">Proofread for vol. 30 supplement by <name sameAs="#ampearn">Alison Pearn</name></change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <text>
-        <body><div><!--Transcription has not been cleared for release--></div></body>
+        <body>
+            
+            <div type="letter">
+                <div type="text">
+                    <opener/>
+                    <div type="transcription">
+                        <p>My dear Henslow | Yours most truly | C. Darwin</p>
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+            
+            
+            <div type="footnotes">
+                <note xml:id="foot.f1">The date range is established from CD’s first use of the form of address ‘My dear Henslow’ and from the fact that Henslow died on 16 May 1861 (<ref target="../bibliographies/bibl_5933.xml"><hi rend="italic">ODNB</hi></ref>).</note>
+                
+            </div>
+        
+        </body>
     </text>
 </TEI>

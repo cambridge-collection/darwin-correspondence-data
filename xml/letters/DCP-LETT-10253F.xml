@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:id="main_title">To Arthur Nicols   [before 10 November 1875]</title>
+                <title xml:id="main_title">To Arthur Nicols   [before 10 November 1875]<ref target="#foot.f1"/></title>
             </titleStmt>
             <publicationStmt>
                 <authority>Darwin Correspondence Project</authority>
@@ -16,9 +16,6 @@
                 <date when="2016">2016</date>
             <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-10253F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10253F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-10253F.xml</ref>.</licence></availability>
 </publicationStmt>
-            <seriesStmt> 
-                <title level="s">The Correspondence of Charles Darwin</title>
-            </seriesStmt>
             <notesStmt>
                 <note type="description">Incomplete</note>
                 <note type="physdesc" n="inc">inc</note>
@@ -41,9 +38,32 @@
                 <p>Does not doubt animals reason in a practical fashion. Do not the rats hear the water trickling?</p>
             </abstract>
         </profileDesc>
-        
+        <revisionDesc>
+            <change when="2022-08-05" status="transcribed">Transcribed by <name xml:id="raclarkson">Rosy Clarkson</name></change>
+            <change when="2022-10-13" status="OnlineEditionOnly"/>
+            <change when="2022-10-20" status="initialProofCompleted">Proofread by <name xml:id="ampearn">Alison Pearn</name></change>
+            <change when="2022-11-07" status="footnoted">Footnoted <name xml:id="sevans">Sam Evans</name></change>
+        </revisionDesc>
     </teiHeader>
     <text>
-        <body><div><!--Transcription has not been cleared for release--></div></body>
+        <body>
+            
+            <div type="letter">
+                <div type="text">
+                    <div type="transcription">
+                        <p>I cannot doubt about animals reasoning in a practical fashion. The case of rats is very curious. Do not they hear the water trickling?<ref target="#foot.f2"/></p>
+                    </div>
+                </div>
+                
+                
+            </div>
+            
+            
+            <div type="footnotes">
+                <note xml:id="foot.f1">The date is established by the relationship between this fragment and the <ref target="./DCP-LETT-10255.xml">letter from Arthur Nicols, 10 November 1875</ref> (<hi rend="italic">Correspondence</hi> vol. 23).</note>
+                <note xml:id="foot.f2">This quotation from CD’s letter was published in <hi rend="italic">Nature</hi> in a letter from Nicols headed ‘Intellect in brutes’, describing how rats gnawed small holes in lead pipes in a house in order to access clean water; Nicols had wondered how the rats knew there was water in the pipes (see also <hi rend="italic">Correspondence</hi> vol. 23, <ref target="./DCP-LETT-10253.xml">letter from Arthur Nicols, [before 10 November 1875]</ref>).</note>
+            </div>
+        
+        </body>
     </text>
 </TEI>

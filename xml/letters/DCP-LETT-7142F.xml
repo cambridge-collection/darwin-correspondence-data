@@ -16,9 +16,6 @@
                 <date when="2016">2016</date>
             <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-7142F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7142F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7142F.xml</ref>.</licence></availability>
 </publicationStmt>
-            <seriesStmt> 
-                <title level="s">The Correspondence of Charles Darwin</title>
-            </seriesStmt>
             <notesStmt>
                <note type="description">LS</note> 
                 <note type="physdesc" n="LS">LS 2pp</note>
@@ -49,9 +46,44 @@
                 <p>Fears the development of bird wings will prove a very difficult subject.</p>
             </abstract>
         </profileDesc>
-        
+        <revisionDesc>
+            <change when="2022-07-29" status="transcribed">Transcribed by <name xml:id="raclarkson">Rosy Clarkson</name></change>
+            <change when="2022-07-29" status="OnlineEditionOnly"/>
+            <change when="2022-10-20" status="initialProofCompleted">Proofread by <name xml:id="ampearn">Alison Pearn</name></change>
+            <change when="2022-10-26" status="footnoted">Footnoted <name xml:id="sevans">Sam Evans</name></change>
+        </revisionDesc>
     </teiHeader>
     <text>
-        <body><div><!--Transcription has not been cleared for release--></div></body>
+        <body>
+            
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName><hi rend="print">Down.</hi> Beckenham <hi rend="print">Kent. S.E.</hi></placeName>
+                        <date>Mar 18. 1870</date>
+                        <salute>Dear Sir</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>You are perfectly welcome to give quotations from my works; for I cannot suppose that the German publishers could object, unless you extracted a whole chapter. The subject of the development of the wings of birds is a very interesting one, but I fear you will find it extremely difficult.<ref target="#foot.f1"/></p>
+                        <p>I am much obliged for you kind offer of sending me yr pamphlets when published.—</p>
+                        <p>I beg to remain | Dear Sir | Yours faithfully | Ch. Darwin</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            <div type="footnotes">
+                <note xml:id="foot.f1">Albrecht has not been identified. This letter is a reply to Albrecht’s <ref target="./DCP-LETT-7136.xml">letter of 16 March 1870</ref> (<hi rend="italic">Correspondence</hi> vol. 18). CD’s German publisher was <ref target="../nameregs/nameregs_4246.xml">E. Schweizerbart'sche Verlagsbuchhandlung</ref>.</note>
+                </div>
+        
+        </body>
     </text>
 </TEI>

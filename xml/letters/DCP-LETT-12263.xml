@@ -57,7 +57,20 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2017-10-11" status="footnoted">Footnoted by <name xml:id="sevans">Sam Evans</name></change>
+        <change when="2018-02-28" status="reviewed">Reviewed by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2018-03-13" status="editorResponseCompleted">Editor response by <name sameAs="#sevans">Sam Evans</name></change>
+        <change when="2018-09-14" status="finalProofreadCompleted"/>
+        <change when="2018-09-14" status="copyedited"/>
+        <change when="2018-09-14" status="editorResponseCompleted">Editor response by <name sameAs="#sevans">Sam Evans</name></change>
+        <change when="2021-10-17" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2021-10-17" type="footnotes" status="released">Footnotes cleared for online release</change>
+    </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00099-000-00277_files/8/0_0.jpg" width="2974px" height="5426px"/>
@@ -84,6 +97,33 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Geological Society, | Burlington House, W.</hi></placeName>
+                    <date>18 Oct. 1879</date>
+                    <salute>My dear M<hi rend="superscript">r</hi>. Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I was so much occupied all day yesterday that I could not answer your kind note at once, as I ought to have done— I also am very glad that the work is at last finished, for it has been hanging about for a long time.—<ref target="#foot.f1"/></p>
+<p>As regards the money matters I hardly know what to say.— I think I estimated the translation of the article originally printed in “Kosmos’ at £15, &amp; I suppose I did a good deal more than that, although you have hardly made use of so much.—<ref target="#foot.f2"/> £20 would probably be a fair payment all things considered,—but if this is more than you choose to afford we can revert to the original sum.— I hope to be allowed to have a copy of the whole book when published to take its place with other writings of yours on my shelf.—<ref target="#foot.f3"/></p>
+<p>With kind regards | Believe me | Yours very truly | W. S. Dallas</p> 
+                </div>
+            </div>
+
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD’s letter has not been found; Dallas had translated an essay by <ref target="../nameregs/nameregs_2758.xml" resp="#mjhawkins">Ernst Krause</ref> that formed the second part of the book <hi rend="italic">Erasmus Darwin</hi>.</note>
+            <note xml:id="foot.f2">Krause had originally published his essay on Erasmus Darwin in the German journal <hi rend="italic">Kosmos</hi>, but had added to it for publication in <hi rend="italic">Erasmus Darwin</hi>. Dallas had estimated £10 for the translation of the original article (<ref target="./DCP-LETT-11935.xml">letter from W. S. Dallas, 14 March 1879</ref>). He started work in May 1879 (see <ref target="./DCP-LETT-12032.xml">letter from Ernst Krause, 5 May 1879</ref>), but CD later decided not to use some of the revised essay (<ref target="./DCP-LETT-12216.xml">letter to Ernst Krause, 3 September [1879]</ref>).</note>
+            <note xml:id="foot.f3">CD paid Dallas £21 on 19 November 1879 (CD’s Account books–banking account (Down House MS)). Dallas received a copy of <hi rend="italic">Erasmus Darwin</hi> in mid-November (<ref target="./DCP-LETT-12319.xml">letter from W. S. Dallas, 14 November 1879</ref>).</note>
+        </div>
+    
+    </body>
     </text>
 </TEI>

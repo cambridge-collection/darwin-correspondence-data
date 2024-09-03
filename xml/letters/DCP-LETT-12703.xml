@@ -62,9 +62,58 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2019-03-07" status="footnoted">Footnoted by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2019-04-24" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2019-04-25" status="editorResponseCompleted">Editor response by <name sameAs="#pswhite">Paul White</name></change>
+        <change when="2022-01-11" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-01-11" type="footnotes" status="released">Footnotes cleared for online release</change>
+        <change when="2024-01-11">CUL document images added by <name xml:id="did">Digital Innovation and Development, CUL</name>.</change>
+    </revisionDesc>
     </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00168-000-00195_files/8/0_0.jpg" width="5875px" height="9449px" resp="#did"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00168-000-00195_files/11/1_1.jpg" width="5875px" height="9449px" resp="#did"/>
+        <surface n="87:1r" xml:id="i195">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00168-000-00195.jpg" width="5875px" height="9449px" resp="#did"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00168-000-00195_files/8/0_0.jpg" width="5875px" height="9449px" resp="#did"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00168-000-00195.dzi" width="5875px" height="9449px" resp="#did"/>
+        </surface>
+        <surface n="87:1v" xml:id="i196">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00168-000-00196.jpg" width="5830px" height="9449px" resp="#did"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00168-000-00196_files/8/0_0.jpg" width="5830px" height="9449px" resp="#did"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00168-000-00196.dzi" width="5830px" height="9449px" resp="#did"/>
+        </surface>
+    </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>14 Auriol Road, | West Kensington | W.</placeName>
+                    <date>28<hi rend="superscript">th</hi>. August 1880</date>
+                    <salute>Dear M<hi rend="superscript">r</hi>. Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I send you by book-post a copy of Whitaker’s paper on sea-cliffs &amp; Escarpments.<ref target="#foot.f1"/> As I have a duplicate copy, please not to trouble to return it. I hope the fatigue of conversation yesterday has not left any ill-effects.<ref target="#foot.f2"/> To me it is such a pleasure to listen to the words of suggestion and sympathy from a father in Science, that I fear I may have forgotten the danger in my eagerness at the time.</p>
+<p>Yours very faithfully, | John W. Judd</p> 
+                </div>
+            </div>
+
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD’s copy of <ref target="../nameregs/nameregs_5092.xml">William Whitaker</ref>’s paper ‘On subaërial denudation, and on cliffs and escarpments of the chalk and lower Tertiary beds’ (<ref target="../bibliographies/bibl_11078.xml">Whitaker 1867</ref>) is in the Darwin Pamphlet Collection–CUL.</note>
+            <note xml:id="foot.f2">Judd had visited CD on 27 August; CD had warned him that he could only talk for a limited time (see <ref target="./DCP-LETT-12700.xml">letter to J. W. Judd, 25 August [1880]</ref>).</note>
+        </div>
+    
+    </body>
     </text>
 </TEI>

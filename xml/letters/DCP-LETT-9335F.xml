@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9335F">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">To Walter White   [3? March 1874]<ref target="#foot.f1"/></title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Darwin Correspondence Project</authority>
+                <publisher>Cambridge University Press</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <idno type="lognum">22132</idno>
+                
+                
+                <date when="2016">2016</date>
+            <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9335F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9335F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9335F.xml</ref>.</licence></availability>
+</publicationStmt>
+            <notesStmt>
+               <note type="description">LS incomplete<ref target="#foot.f3"/></note>
+                <note type="physdesc" n="LS">LS inc</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="provenance">J. A. Stargardt (dealers) (5 April 2022, lot 147)</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="../repo/repo_399.xml">J. A. Stargardt</repository>
+                        <collection>5 Apr 2022</collection>
+                        <idno># 147</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                    <date when="1874-03-03">[3? Mar 1874]</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_5102.xml">White, Walter</persName>
+                </correspAction>
+            </correspDesc><abstract>
+                <p>Sending the membership certificate for Robert Swinhoe.</p>
+            </abstract>
+        </profileDesc>
+        <revisionDesc> 
+            <change when="2022-11-03" status="OnlineEditionOnly"/>
+            <change when="2022-11-03" status="transcribed">Transcribed by <name xml:id="raclarkson">Rosy Clarkson</name></change>
+            <change when="2022-11-16" status="footnoted">Footnoted <name xml:id="sevans">Sam Evans</name></change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <div type="letter">
+                <div type="text">
+                    <div type="transcription">
+                        <p>[Letter with signature addressed to member of the Royal Society concerning a membership application for the British zoologist Robert Swinhoe (no date).<ref target="#foot.f2"/>]</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+            
+            
+            
+            
+            
+            <div type="footnotes">
+                <note xml:id="foot.f1">The date is conjectured on the assumption that this was the covering letter sent with <ref target="../nameregs/nameregs_4642.xml">Robert Swinhoe</ref>’s certificate of candidature for fellowship of the Royal Society (see <hi rend="italic">Correspondence</hi> vol. 22, <ref target="./DCP-LETT-9330.xml">letter to H. B. Tristram, 3 March [1874]</ref>). The certificate is dated 3 March 1874 (Royal Society Archives, EC/1876/18).</note>
+                <note xml:id="foot.f2">CD had undertaken to get six signatures for the certificate, but in fact there are twelve.</note>
+                <note xml:id="foot.f3">The letter as sold was presumably complete, but the sale catalogue does not give details of the number of pages.</note>
+                </div>
+        
+        </body>
+    </text>
+</TEI>

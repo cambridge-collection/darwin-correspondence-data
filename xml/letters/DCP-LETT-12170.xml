@@ -59,7 +59,20 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2018-04-18" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2018-05-22" status="reviewed">Reviewed by <name xml:id="fjn26">Francis Neary</name></change>
+        <change when="2018-06-04" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2018-08-30" status="finalProofreadCompleted"/>
+        <change when="2018-08-30" status="copyedited"/>
+        <change when="2021-10-17" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2021-10-17" type="footnotes" status="released">Footnotes cleared for online release</change>
+        <change when="2022-08-16">Automatic links added to bibliographical references in footnotes by <name xml:id="automat">Michael Hawkins</name>.</change>
+    </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00165-000-00249_files/8/0_0.jpg" width="3021px" height="5375px"/>
@@ -86,6 +99,31 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>Dear M<hi rend="superscript">r</hi> Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>As my collection of the facts of colour from the Homeric Poems fell within the wide circle of your observation, I am desirous to place in your hands another like collection, made at any rate without prepossession of any kind, on the Homeric epithets of motion—<ref target="#foot.f1"/></p>
+                    <p>The conclusion to which I am led in this case is the precise opposite of the former one— The epithets indicate ideas of motion more precisely and if I may so speak scientifically adjusted than so far as I know they can be shown to be in the works of any other author—<ref target="#foot.f2"/></p>
+<p>Pray do not take the trouble to acknowledge this note and believe me | with much respect | Faithfully yours | W E Gladstone <lb resp="#mjhawkins"/></p>
+<p rend="left">73 Harley St | July 24. 79</p> 
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had written to Gladstone after reading Gladstone’s article on colour vocabulary and its usage in Homeric texts, a supplement to Gladstone’s earlier book on the topic (<ref target="../bibliographies/bibl_10014.xml">Gladstone 1877</ref> and <ref target="../bibliographies/bibl_9544.xml">Gladstone 1858</ref>; see <hi rend="italic">Correspondence</hi> vol. 25, <ref target="./DCP-LETT-11163.xml">letter to W. E. Gladstone, 2 October 1877</ref>). Gladstone sent a copy of his recent article  ‘On epithets of movement in Homer’ (<ref target="../bibliographies/bibl_10852.xml">Gladstone 1879</ref>); the offprint has not been found in the Darwin Archive–CUL.</note>
+            <note xml:id="foot.f2">In <ref target="../bibliographies/bibl_10014.xml" resp="#automat" cert="low">Gladstone 1877</ref>, Gladstone had concluded that the sense of colour was not very well developed in the ancient world, based on the paucity of colour vocabulary and its imprecise usage in the texts he analysed. He had further argued that many words associated with colour referred, in fact, to lightness or darkness.</note>      
+        </div>
+    
+    </body>
     </text>
 </TEI>

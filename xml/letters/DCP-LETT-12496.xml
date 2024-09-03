@@ -60,7 +60,19 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2018-10-12" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2018-12-11" status="reviewed">Reviewed by <name xml:id="fjn26">Francis Neary</name></change>
+        <change when="2019-01-08" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2019-05-28" status="finalProofreadCompleted"/>
+        <change when="2019-05-28" status="copyedited"/>
+        <change when="2022-01-11" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-01-11" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="landscape" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00001-000-00281_files/8/0_0.jpg" width="3097px" height="2579px"/>
@@ -77,6 +89,30 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">From Mr. C. Darwin, Down, Beckenham</hi></placeName>
+                </opener>
+                <div type="transcription">
+                     
+<p>See ‘Nature’ p. 382 about the microphone &amp; earthquakes &amp; tremblings in Japan.—<ref target="#foot.f1"/></p>
+<p>C. D. <lb resp="#mjhawkins"/></p>
+<p rend="left">21<hi rend="superscript">st</hi>—</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 <hi rend="print">Mr</hi>.] <hi rend="italic">altered from </hi>‘<hi rend="print">Mrs</hi>.’ </note>
+            </div>
+        </div>
+        
+        
+        <div type="footnotes">          
+            <note xml:id="foot.f1"><hi rend="italic">Nature</hi>, 19 February 1880, pp. 382–3, reported on a method for detecting seismic trembling in Japan through the use of microphones buried in pits; the method was described by its inventor, <ref target="../nameregs/nameregs_8723.xml">John Milne</ref>, a professor of mining and geology at the Imperial College of Engineering, Tokyo.</note>
+        </div>
+    
+    </body>
     </text>
 </TEI>

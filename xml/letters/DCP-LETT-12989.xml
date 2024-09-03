@@ -61,7 +61,17 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2019-08-13" status="footnoted">Footnoted by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2019-11-06" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2019-12-12" status="editorResponseCompleted">Editor response by <name sameAs="#pswhite">Paul White</name></change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00202-000-00065_files/8/0_0.jpg" width="2902px" height="4923px"/>
@@ -78,6 +88,39 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Down.]</placeName>
+                    <salute>Dear D. of Argyll</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>You must allow me to have the pleasure of informing your Grace that I have just received a note from M<hi rend="superscript">r</hi> Gladstone, in which he says “I shall recommend M<hi rend="superscript">r</hi> W. for a pension of 200£ a year”.<ref target="#foot.f2"/> He says that he “had already in some degree considered the subject, of your note &amp; the memorial before they arrived”; &amp; it is thus evident that M<hi rend="superscript">r</hi> Wallace is deeply indebted to your Grace for having written to M<hi rend="superscript">r</hi> Gladstone.<ref target="#foot.f3"/> It has been an extraordinary act of kindness in M<hi rend="superscript">r</hi> Gladstone to write to me so soon &amp; at such a time</p>
+<p>I beg leave to remain | Your Grace | Very faithfully | Ch Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 Argyll] ‘rgyll’ <hi rend="italic">added blue ink</hi> </note>
+                <note xml:id="tnote.n2">1.1 Grace] <hi rend="italic">interl</hi> </note>
+                <note xml:id="tnote.n3">1.4 already] <hi rend="italic">del and stet</hi> </note>
+                <note xml:id="tnote.n4">1.4 of your] <hi rend="italic">after del</hi> ‘before they arr’ </note>
+                <note xml:id="tnote.n5">1.4 it is] <hi rend="italic">after del</hi> ‘this is’ </note>
+            </div>
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter and the <ref target="./DCP-LETT-12981.xml">letter from W. E. Gladstone, 6 January 1881</ref>.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_1883.xml">William Ewart Gladstone</ref> had recommended <ref target="../nameregs/nameregs_4935.xml">Alfred Russel Wallace</ref> for a civil list pension (see <ref target="./DCP-LETT-12981.xml">letter from W. E. Gladstone, 6 January 1881</ref>).</note>
+            <note xml:id="foot.f3">CD had asked Campbell to write a separate letter to Gladstone; as a member of the government (lord privy seal), Campbell could not sign the memorial (see <hi rend="italic">Correspondence</hi> vol. 28, <ref target="./DCP-LETT-12946.xml">letter to G. D. Campbell, [before 27 December 1880]</ref> and n. 4). Campbell’s letter to Gladstone has not been found.</note>
+    
+        </div>
+    
+    </body>
     </text>
 </TEI>

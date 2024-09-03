@@ -51,7 +51,17 @@
             <p>Some essays have arrived for GHD.</p>
         </abstract>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2019-03-11" status="footnoted">Footnoted by <name xml:id="fjn26">Francis Neary</name></change>
+        <change when="2019-04-02" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2019-04-05" status="editorResponseCompleted">Editor response by <name sameAs="#fjn26">Francis Neary</name></change>
+        <change when="2022-01-11" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-01-11" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="landscape" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00001-000-00293_files/8/0_0.jpg" width="4551px" height="3495px"/>
@@ -68,6 +78,30 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <div type="transcription">
+                     
+                    <p>A bundle of Essays in German &amp; Dutch &amp; French on Astronomical &amp; Physical subjects by Oudemans has arrived here—for you marked from Author, too large for Post<ref target="#foot.f2"/></p>
+<p>C. D. <lb resp="#mjhawkins"/></p>
+<p rend="left">June 11<hi rend="superscript">th</hi>.</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.2 for you] <hi rend="italic">added</hi> </note>
+                <note xml:id="tnote.n2">1.2 marked from Author,] <hi rend="italic">interl</hi> </note>
+            </div>
+             
+        </div>
+        
+        
+        <div type="footnotes">
+        <note xml:id="foot.f1">The year is suggested by ‘’80’added in purple ink.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_8491.xml">Jean Abraham Chrétien Oudemans</ref> was a Dutch astronomer; the essays he sent have not been identified.</note>
+        </div>
+    
+    </body>
     </text>
 </TEI>

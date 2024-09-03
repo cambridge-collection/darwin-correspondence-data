@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-9795G">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">From Octavius March   [1875]<ref target="#foot.f1"/></title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Darwin Correspondence Project</authority>
+                <publisher>Cambridge University Press</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <idno type="lognum">22134</idno>
+                
+                
+                <date when="2016">2016</date>
+            <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-9795G by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9795G.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-9795G.xml</ref>.</licence></availability>
+</publicationStmt>
+            <notesStmt>
+               <note type="description">Incomplete</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="provenance"><ref target="../bibliographies/bibl_11751.xml">H. C. March 1883</ref>, p. 23</bibl>
+                <bibl type="printedSource">H. C. March 1883, p. 23</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_9615.xml">March, Octavius</persName>
+                    <date notBefore="1875-01-01" notAfter="1875-12-31">[1875]</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                </correspAction>
+            </correspDesc>
+            <abstract>
+                <p>Wonders if it is possible that the couvade had its origin in an early habit of the male sex to take part in the nourishment of the offspring.</p>
+            </abstract>
+        </profileDesc>
+        <revisionDesc> 
+            <change when="2022-11-02" status="OnlineEditionOnly"/>
+            <change when="2022-11-02" status="transcribed">Transcribed by <name xml:id="raclarkson">Rosy Clarkson</name></change>
+            <change when="2022-11-08" status="footnoted">Footnoted <name xml:id="sevans">Sam Evans</name></change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <div type="letter">
+                <div type="text">
+                    <div type="transcription">
+                        <p>[Mr. Octavius March wrote to Mr. Darwin in 1875, asking him whether, in connection with the fact that male mammals possess mammæ, he thought it possible that the couvade<ref target="#foot.f2"/> had its origin in an early habit of the male sex to take part in the nourishment of the offspring.] </p>
+                    </div>
+                </div>
+                
+            </div>
+           
+           
+           <div type="footnotes">
+                <note xml:id="foot.f1">The year is established by the text of the description. The relationship between Octavius March, the author of the letter described, and Henry Colley March, the author of the book in which the letter appears, is not known.</note>
+                <note xml:id="foot.f2">Couvade: ‘a custom among certain peoples in many parts of the world for the father to take to his bed at the birth of a child, and submit to certain restrictions of food, etc’ (<ref target="../bibliographies/bibl_1347.xml"><hi rend="italic">Chambers</hi></ref>).</note>
+            </div>
+        
+        </body>
+    </text>
+</TEI>

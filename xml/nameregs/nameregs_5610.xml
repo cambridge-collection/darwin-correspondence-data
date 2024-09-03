@@ -3,16 +3,21 @@
 <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-5610" status="released">
     <persName>
         <forename>Ottilia</forename>
-        <nameLink>von</nameLink>
-        <surname>Enzenberg</surname>
+        <choice>
+            <seg><nameLink>von</nameLink><surname notBefore="1801" notAfter="1831">Tannenberh</surname></seg>
+            <seg><nameLink>von</nameLink><surname notBefore="1831" notAfter="1874">Enzenberg</surname></seg>
+        </choice>
     </persName>
     
-    <note type="dates"><date>b. 1801</date></note>
-    
+    <note type="dates"><date>1801–74</date></note>
+    <sex value="F"/>
     <note type="biography">
         <p>Daughter of Ignaz von Tannenberg. Married Franz von Enzenberg in 1831.</p></note>
     <note type="sources">
-        <p><ref target="../bibliographies/bibl_713.xml" resp="#mjhawkins"><hi rend="italic">BLKO</hi></ref> s.v. Tannenberg, Ignaz von.</p>
+        <p><ref target="../bibliographies/bibl_713.xml" resp="#mjhawkins"><hi rend="italic">BLKO</hi></ref> s.v. Tannenberg, Ignaz von</p>
+        <p>gw.geneanet.org, accessed 8 October 2022</p>
     </note>
     <note type="volume">17</note>
+    
+    
 </person>

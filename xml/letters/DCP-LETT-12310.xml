@@ -58,7 +58,19 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2018-03-19" status="footnoted">Footnoted by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2018-06-27" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2018-07-05" status="editorResponseCompleted"><name sameAs="#pswhite">Paul White</name></change>
+        <change when="2018-08-13" status="finalProofreadCompleted"/>
+        <change when="2018-09-11" status="copyedited"/>
+        <change when="2021-10-17" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2021-10-17" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00099-000-00349_files/8/0_0.jpg" width="2945px" height="5167px"/>
@@ -85,6 +97,33 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Fern | Buxton</hi></placeName>
+                    <date>Nov 12 | 1879—</date>
+                    <salute>My dear Cousin</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I have received your Book from Murray, &amp; beg of you to accept my warmest thanks for your consideration—<ref target="#foot.f1"/> I need hardly say that I have read it with the deepest interest, &amp; from it, have learned much Family history previously unknown to me— Your refutation of Miss Seward’s reckless &amp; unjust assertions, is admirable &amp; conclusive, &amp; every descendant of Erasmus Darwin ought, &amp; no doubt will, hold you in higher esteem, if possible, than ever—<ref target="#foot.f2"/></p>
+<p>With best regards to you &amp; to your family,</p>
+<p>I am ever | affect<hi rend="superscript">ly</hi> Yours | Reginald Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_1236.xml" resp="#mjhawkins">Reginald Darwin’s</ref> name appears on the presentation list for <hi rend="italic">Erasmus Darwin</hi> (see Appendix IV); <hi rend="italic">Erasmus Darwin</hi> was published by John Murray.</note> 
+            <note xml:id="foot.f2">CD was highly critical of <ref target="../nameregs/nameregs_4303.xml">Anna Seward</ref>’s biography of Erasmus Darwin (<ref target="../bibliographies/bibl_7126.xml">Seward 1804</ref>). See <ref target="./DCP-LETT-11932.xml">letter to Ernst Krause, 14 March 1879</ref> and n. 4, <ref target="./DCP-LETT-11947.xml">letter to Francis Galton, 22 March 1879</ref> and n. 2, and <hi rend="italic">Erasmus Darwin</hi>, pp. 70–9.</note> 
+        </div>  
+      
+    </body>
     </text>
 </TEI>

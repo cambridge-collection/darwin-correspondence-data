@@ -65,7 +65,19 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2017-10-17" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2017-12-20" status="reviewed"> Reviewed by <name xml:id="pas">Anne Secord</name></change>
+        <change when="2018-01-10" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2018-07-24" status="finalProofreadCompleted"/>
+        <change when="2018-07-24" status="copyedited"/>
+        <change when="2021-10-17" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2021-10-17" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01671_files/8/0_0.jpg" width="2720px" height="4650px"/>
@@ -92,6 +104,37 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>10 Avington Grove, Penge</placeName>
+                    <date>31<hi rend="superscript">st</hi>. March 1879</date>
+                    <salute>Dear D<hi rend="superscript">r</hi>. Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>You will be glad to hear that I have been successful in obtaining the Post of Assistant-Keeper in the Zool. Dept. of the British Museum, for which you were so kind as to give me a testimonial.<ref target="#foot.f1"/></p>
+                    <p>I have lately (i.e. for the last year or two) had an opportunity of studying the Heterocerous Lepidoptera much more closely than formerly, and I find the scent-fans spoken of by Fritz Müller extremely common, particularly upon the legs of moths: strigillating organs occur in all parts in the form of drums, bladders, rasps, and in all sorts of forms: most of the <hi rend="underline">Zygænidæ</hi> have a drum-like apparatus at the base of the abdomen, somewhat as in <hi rend="underline">Cicada</hi>; this is probably an organ of sound.<ref target="#foot.f2"/></p>
+                    <p>The Genus <hi rend="underline">Sphingomorpha</hi>, among the Noctuites, has a bladder-like organ upon its legs which are also provided with enormous radiating fans of hair.<ref target="#foot.f3"/></p>
+<p>For anybody who had the time to devote to the study of these structures and their modifications in allied species, there would be an almost endless field for interesting research: perhaps after all no new facts would be brought to light however.</p>
+<p>With many thanks for favours past, and the hope that I may yet live to be in some measure useful to you or at anyrate to the Science which you have done so much to advance | Believe me to be | Very sincerely yours | Arthur G Butler</p> 
+                </div>
+            </div>
+            
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD’s testimonial has not been found, but see the <ref target="./DCP-LETT-11889.xml">letter to A. G. Butler, 20 February [1879]</ref>.</note>
+            <note xml:id="foot.f2">Heterocera was a former higher taxonomic classification that included all moths. Butler probably meant to refer to stridulating organs; some insects, like crickets and grasshoppers, stridulate by the use of specialised organs on their wings, legs, or other body parts, which they rub against each other to produce sound. <ref target="../nameregs/nameregs_3070.xml">Fritz Müller</ref>’s ‘Notes on Brazilian entomology. Odours emitted by butterflies and moths’ (<ref target="../bibliographies/bibl_5684.xml">F. Müller 1878a</ref>) had been read at the meeting of the Entomological Society of London on 5 June 1878. In the discussion following the reading, some scepticism had been voiced as to whether the organs described were really scent organs (see <hi rend="italic">Correspondence</hi> vol. 26, <ref target="./DCP-LETT-11553.xml">letter from Raphael Meldola, 13 June 1878</ref>). Zygaenidae is the family of burnet and forester moths. Male cicadas (family Cicadidae) make sounds by vibrating the tymbal, a drum-like structure in the abdomen; some moths also possess tymbals in the sternal region of the abdomen. For genera and species included by Butler in the Zygaenidae, see <ref target="../bibliographies/bibl_10692.xml">A. G. Butler 1875</ref>. </note>
+            <note xml:id="foot.f3"><hi rend="italic">Sphingomorpha</hi> is the genus of fruit-piercing moths in the family Erebidae.</note>
+        </div>  
+      
+    </body>
     </text>
 </TEI>

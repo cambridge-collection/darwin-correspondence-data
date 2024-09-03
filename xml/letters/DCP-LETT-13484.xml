@@ -65,7 +65,18 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2020-05-29" status="footnoted">Footnoted by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2020-12-15" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2020-01-04" status="editorResponseCompleted">Editor response by <name sameAs="#pswhite">Paul White</name></change>
+        <change when="2021-03-26" status="finalProofreadCompleted">Final proofread by <name xml:id="raclarkson">Rosy Clarkson</name></change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00165-000-00126_files/8/0_0.jpg" width="2969px" height="5402px"/>
@@ -132,6 +143,40 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="italic">Geological Survey of Scotland</hi> | Edinburgh</placeName>
+                    <date>14<hi rend="superscript">th</hi> Nov<hi rend="superscript">r</hi>. 1881</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>Your letter of 11<hi rend="superscript">th</hi>. has just reached me and I hasten to thank you for your most generous offer of assistance in the exploration of the Eskdale beds.<ref target="#foot.f1"/></p>
+                    <p>We have opened up the strata and thoroughly ransacked them as far as they can be reached without more extensive quarrying operations. But I propose to apply to the Duke of Buccleugh’s Agent for leave to open up more of the ground as soon as my Collectors are ready to return to the place.<ref target="#foot.f2"/> The work I think is quite within our duties in the Geological Survey and I shall not hesitate to employ my men. But if the operations should eventually seem getting beyond our power I shall very gladly avail myself of your liberality. I daresay the Royal Society would give us a small sum in aid if that were desirable. But I hope no such application will be needed.</p>
+                    <p>I may tell you that though from a wish not to forestall young Peach’s announcement, I did not allude to the discovery of other air breathers   we have found two specimens of amphibians, one of them about 2 inches and the other about 5 or 6 inches long.<ref target="#foot.f3"/> These are remarkably curious forms. They present lines of scutes along the back but none on the ventral surface. They shew interspinous processes like those of a fish. Their vertebrae are provided with a singular arrangement of wedge and slot— They had paddles which strikingly remind one of that of the Ichthyosaurus.<ref target="#foot.f4"/> They have not yet been worked out; so that probably other interesting details remain to be discovered.</p>
+                    <p>Besides the chitinous tests of scorpions there are not improbably remains of insects in the mass of compressed organic matter.<ref target="#foot.f5"/> But we have as yet been unable to recognize them.</p>
+<p>Since the perfect specimens of Scorpion were detected we have gone over our older collections and have recognized quite a number of true scorpion fragments among them. Knowing what to look for the collectors have gone to the ground &amp; have obtained abundant scorpion remains from a number of different localities. I propose to institute a special search in some of the more promising lands. I shall let you know if we have any success. Meanwhile again thanking you for your liberal offer and the interest you have shewn in the investigation.</p>
+<p>Believe me to remain. Yours very truly | Arch Geikie <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin Esq | FRS.</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-13451.xml">letter to Archibald Geikie, 11 November 1881</ref> and n. 1. Scorpion fossils had been found in shale deposits on the banks of the River Esk in Dumfriesshire, Scotland.</note>
+            <note xml:id="foot.f2">The duke of Buccleuch (Buccleugh is an older variant spelling) was <ref target="../nameregs/nameregs_6715.xml">Walter Francis Montagu-Douglas-Scott</ref>. The excavations had been undertaken by members of the Geological Survey of Scotland, of which Geikie was director.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_6502.xml">Benjamin Neeve Peach </ref>worked on the Geological Survey of Scotland and reported on some of the fossil fish found at Eskdale (see <hi rend="italic">Nature</hi>, 3 November 1881, p. 2, and <ref target="../bibliographies/bibl_11518.xml">Peach 1881</ref>).</note>
+            <note xml:id="foot.f4">Scutes are bony external plates or scales, as on the shell of a turtle. Ichthyosaurus is large extinct marine reptile from the early Jurassic period. The publication on the amphibians has not been found.</note>
+            <note xml:id="foot.f5">Chitin is the primary structural material of insect and crustacean exoskeletons.</note>
+        </div>
+    
+    </body>
     </text>
 </TEI>

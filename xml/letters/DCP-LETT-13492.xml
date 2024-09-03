@@ -58,7 +58,19 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2020-09-22" status="exportToCUDL">Exported to CUDL by <name sameAs="#mjhawkins">Michael Hawkins</name></change>
+        <change when="2020-09-28" status="footnoted">Footnoted by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2020-12-16" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2020-01-04" status="editorResponseCompleted">Editor response by <name sameAs="#pswhite">Paul White</name></change>
+        <change when="2021-03-29" status="finalProofreadCompleted">Final proofread by <name xml:id="raclarkson">Rosy Clarkson</name></change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="landscape" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00095-000-00521_files/8/0_0.jpg" width="5269px" height="4322px"/>
@@ -75,6 +87,37 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down,</placeName>
+                    <date>Nov 4<hi rend="superscript">th</hi></date>
+                    <salute>My dear Hooker,</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I received a few days ago a letter addressed in your hand-writing from Lima.— I cannot read the writers signature—<ref target="#foot.f1"/> Do you know it— If so just write it on the enclosed card.—</p>
+<p>C. Darwin</p>
+<p>He gives no address, besides Lima.</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.2 so] <hi rend="italic">interl</hi></note>
+            </div>
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The correspondent from Lima was <ref target="../nameregs/nameregs_3488.xml">William Nation</ref> (see <ref target="./DCP-LETT-13350.xml">letter from William Nation, 22 September 1881</ref>; CD sent the letter to <hi rend="italic">Nature</hi>, where it was published on 17 November 1881, p. 51 (see <ref target="./DCP-LETT-13471.xml">letter to <hi rend="italic">Nature</hi>, 7 November [1881]</ref>).</note>
+           
+            
+            
+        </div>
+    
+    </body>
     </text>
 </TEI>

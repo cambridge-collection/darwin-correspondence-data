@@ -60,7 +60,17 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2019-08-13" status="footnoted">Footnoted by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2019-11-07" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2019-12-12" status="editorResponseCompleted">Editor response by <name sameAs="#pswhite">Paul White</name></change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00104_files/8/0_0.jpg" width="3158px" height="5210px"/>
@@ -87,6 +97,33 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Trinity College | Cambridge.</hi></placeName>
+                    <date>Jan 13. 1880</date>
+                    <salute>My dear Mr Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I shall have the greatest pleasure in translating Krause’s letter for Nature. I only wish that I could have the pleasure of writing such a review of Butler’s book as it merits. His attack on you is in my opinion one of the most dastardly things I have ever seen in print.<ref target="#foot.f2"/> The impudence of the man is to me something astounding; I order to prove you guilty of unfairness towards him, he distorts &amp; twists your meaning in a manner, w<hi rend="superscript">h</hi>. even a political opponent would hardly have ventured to do upon the Eastern Question.<ref target="#foot.f3"/></p>
+                    <p>I enjoyed my visit to Down immensely;<ref target="#foot.f4"/> &amp; have to thank you for inviting me there so often.</p>
+<p>Your’s very truly | F. M. Balfour</p> 
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-13007.xml">letter to F. M. Balfour, 12 January 1881</ref>.</note>
+            <note xml:id="foot.f2">CD had asked Balfour to translate <ref target="../nameregs/nameregs_2758.xml">Ernst Krause</ref>’s response to <ref target="../nameregs/nameregs_774.xml">Samuel Butler</ref> for <hi rend="italic">Nature</hi> (see <ref target="./DCP-LETT-13007.xml">letter to F. M. Balfour, 12 January 1881</ref> and n. 2). For Butler’s attack on CD, see <ref target="../bibliographies/bibl_11180.xml">Butler 1880</ref>, pp. 58–62, and the <ref target="./DCP-LETT-13005.xml">letter to Leslie Stephen, 11 January 1881</ref> and n. 3.</note>
+            <note xml:id="foot.f3">The ‘eastern question’ refers to the instability of the Ottoman Empire in the Balkans, and to recent debates over British involvement to oppose Russian influence in the region; on the eastern question in British politics, see <ref target="../bibliographies/bibl_11267.xml">Ković 2010</ref>.</note>
+            <note xml:id="foot.f4">Balfour had visited Down House from 8 January 1881 (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242)). </note>
+        </div>     
+         
+    </body>
     </text>
 </TEI>

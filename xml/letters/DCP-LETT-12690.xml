@@ -58,7 +58,20 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2019-03-07" status="footnoted">Footnoted by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2019-04-17" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2019-04-25" status="editorResponseCompleted">Editor response by <name sameAs="#pswhite">Paul White</name></change>
+        <change when="2018-06-24" status="secondProofCompleted">2d proofread <name xml:id="ampearn">Alison Pearn</name></change>
+        <change when="2019-07-11" status="copyedited">Copyedited by Samantha Evans. Corrections entered by Paul White.</change>
+        <change when="2022-01-11" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-01-11" type="footnotes" status="released">Footnotes cleared for online release</change>
+        <change when="2022-10-20" status="alteredPostPublication" type="footnotes">n.1</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00202-000-00027_files/8/0_0.jpg" width="2980px" height="5144px"/>
@@ -95,6 +108,43 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Fern Bank, Higher Broughton, Manchester,</hi></placeName>
+                    <date>17 Aug <hi rend="print">18</hi>80</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>The enclosed cutting appears in the current no. of the “Herald of Health”, a popular American magazine edited by D<hi rend="superscript">r</hi> M. L. Holbrook. From my interest in the subject I am led to ask whether the letter correctly represents your views on the question.<ref target="#foot.f1"/></p>
+                    <p>As I am now writing a memoir on the “Food of the Poor”<ref target="#foot.f2"/> I am anxious to obtain the widest and most correct information. Such facts as those relating to the Chilian miners are in the highest degree of interest for such an investigation.<ref target="#foot.f3"/> Personally I am a Vegetarian chiefly on humanitarian grounds. From a passage at p. 80 of Life of Erasmus Darwin I should suppose you were not in favour of that diet.<ref target="#foot.f4"/> As a matter of fact I do not find Vegetarians such large eaters, though they have as a rule a keen enjoyment of food.</p>
+                    <p>Apologizing for thus troubling you | I am | Yours truly | William E. A. Axon</p> 
+                </div>
+            </div>
+            <div type="enclosure" subtype="other" xml:id="encl.1">
+                <div type="transcription">
+                    <p><hi rend="smallCaps">darwin’s reply to a vegetarian.</hi> —The following letter was received from Charles Darwin in answer to one written to him by a person who saw in the theory of evolution, as set forth by this great naturalist, evidence in favor of vegetarianism. We find it in a German vegetarian journal, and translate: <hi rend="smallCaps">dear sir</hi>.—I have so many letters to answer that mine to you must be brief. Nevertheless, this has not the significance it would have if I had given the subject of vegetarian diet special attention. The only evidence in my opinion which would be of any value, would be the statistics in regard of the amount of labor performed in countries where the population lived on a different diet. I have always been astonished at the fact that the most extraordinary workers I ever saw, viz., the laborers in the mines of Chili, live exclusively on vegetable food, which includes many seeds of the leguminous plants. On the other hand, the Gauchos are a very active people, and live almost entirely on flesh. Further, it appears to me to be good evidence that in tropical Africa an extraordinary craving exists, which increases to a necessity at times, to eat flesh, though I presume that the seeds of leguminous plants abound there, for the earth nut is extensively cultivated.</p>
+                </div>
+                
+            </div>
+            
+            
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The enclosure was clipped from the <hi rend="italic">Herald of Health</hi>, August 1880, p. 180. For the original letter from CD, see <hi rend="italic">Correspondence</hi> vol. 27, <ref target="./DCP-LETT-11902.xml">letter to Karl Höchberg, 25 February 1879</ref>. <hi rend="italic">Herald of Health</hi> was edited by <ref target="../nameregs/nameregs_8814.xml">Martin Luther Holbrook</ref>.</note>
+            <note xml:id="foot.f2">The publication has not been identified; Axon published a number of works on diet, especially vegetarianism (for example, <ref target="../bibliographies/bibl_11082.xml">Axon 1891</ref>).</note>
+            <note xml:id="foot.f3">CD had described the diet of Chilean miners as almost exclusively vegetarian in <ref target="../bibliographies/bibl_4250.xml"><hi rend="italic">Journal of researches</hi></ref>, p. 317.</note>
+            <note xml:id="foot.f4">In <ref target="../bibliographies/bibl_2365.xml"><hi rend="italic">Erasmus Darwin</hi>,</ref> p. 80, CD remarked: ‘as Dr. Darwin was a tall, bulky man, who lived much on milk, fruit, and vegetables, it is probable that he ate largely, as every man must do who works hard and lives on such a diet.’</note>
+        </div>
+    
+    </body>
     </text>
 </TEI>

@@ -59,7 +59,20 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2019-06-24" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2019-07-29" status="reviewed">Reviewed by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2019-07-30" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2019-10-30" status="finalProofreadCompleted"/>
+        <change when="2019-10-30" status="copyedited"/>
+        <change when="2020-09-22" status="exportToCUDL">Exported to CUDL by <name sameAs="#mjhawkins">Michael Hawkins</name></change>
+        <change when="2022-01-11" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-01-11" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00095-000-00447_files/8/0_0.jpg" width="3276px" height="6078px"/>
@@ -86,6 +99,32 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | </hi><hi rend="print">Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>Dec. 20<hi rend="superscript">th</hi></date>
+                    <salute>My dear Hooker</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I send the certificate for your signature, &amp; I hope &amp; believe that your adopted child will not disgrace you.—<ref target="#foot.f1"/> Please ask Dyer, whether he will be so kind as to back up Frank.—<ref target="#foot.f2"/> The memorial for Wallace has just started on its rounds for signature, &amp; has met with the most cordial reception in the two first cases.<ref target="#foot.f3"/> I have thought of keeping your name rather low down, so as to end the short list with a flourish.</p>
+<p>Ever my dear Hooker | Yours affect | Ch. Darwin</p>
+<p>Your old envelope will serve to return the Certificate</p> 
+                </div>
+            </div>
+
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-12890.xml">letter to J. D. Hooker, 5 December 1880</ref>. <ref target="../nameregs/nameregs_1222.xml">Francis Darwin</ref> was being proposed for fellowship of the <ref target="../nameregs/nameregs_4110.xml" resp="#mjhawkins">Royal Society of London</ref>; Hooker had agreed to propose him, but, in the event, Francis was proposed by <ref target="../nameregs/nameregs_1699.xml">Michael Foster</ref> in January 1881 and elected in June 1882 (Royal Society archives, GB 117 EC/1882/09).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_4712.xml">William Turner Thiselton-Dyer</ref> also signed the certificate for Francis.</note>
+            <note xml:id="foot.f3">CD had prepared a memorial to obtain a government pension for <ref target="../nameregs/nameregs_4935.xml">Alfred Russel Wallace</ref> (see <ref target="./DCP-LETT-12923.xml">letter to W. H. Flower, 17 December 1880</ref> and n. 1).</note>   
+        </div>
+    
+    </body>
     </text>
 </TEI>

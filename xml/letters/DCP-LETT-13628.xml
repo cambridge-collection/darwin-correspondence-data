@@ -61,7 +61,19 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2020-09-22" status="exportToCUDL">Exported to CUDL by <name sameAs="#mjhawkins">Michael Hawkins</name></change>
+        <change when="2021-01-18" status="footnoted">Footnoted by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2021-03-09" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2021-03-18" status="editorResponseCompleted">Editor response by <name sameAs="#pswhite">Paul White</name></change>
+        <change when="2021-10-28" status="finalProofreadCompleted">Final proofreading by <name xml:id="raclarkson">Rosy Clarkson</name></change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00095-000-00523_files/8/0_0.jpg" width="3352px" height="6002px"/>
@@ -78,6 +90,35 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi> | (<hi rend="print">Railway Station | Orpington. S.E.R.</hi>)</placeName>
+                    <date>Jan. 20<hi rend="superscript">th</hi> 1882</date>
+                    <salute>My dear Hooker.</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>It is a funny affair, but I fear this Catalogue will give you a deal of bother.—<ref target="#foot.f1"/> You are the man to bring high officials down on their marrow-bones.<ref target="#foot.f2"/> I suppose such men think that we are fools to spend time &amp; money about weeds.</p>
+<p>Ever yours affectionately | Ch. Darwin</p>
+                    <p>P.S. | I sent <hi rend="superscript">£</hi>250 because you forgot to specify any sum, &amp; I thought that a largish one might save you trouble.—</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 (<hi rend="italic">Railway … S.E.R.</hi>)] <hi rend="italic">parentheses added</hi> </note>
+            </div>
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had agreed to pay £250 a year for a new catalogue of all known plants (see <ref target="./DCP-LETT-13613.xml">letter from J. D. Hooker, 12 January 1882</ref> and n. 1).</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-13625.xml">letter from J. D. Hooker, 19 January 1882</ref>. </note>
+      
+        </div>
+    
+    </body>
     </text>
 </TEI>

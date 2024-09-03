@@ -60,7 +60,17 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2019-11-21" status="footnoted">Footnoted <name xml:id="sevans">Sam Evans</name></change>
+        <change when="2020-03-05" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2020-03-20" status="editorResponseCompleted">Responded <name sameAs="#sevans">Sam Evans</name></change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+    </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00112_files/8/0_0.jpg" width="3041px" height="5205px"/>
@@ -87,6 +97,33 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Chamonix</placeName>
+                    <date>July 10. 1881</date>
+                    <salute>My dear Mr. Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>It is extremely kind of you to suggest sending your spare copy of my book to Fritz Müller &amp; I enclose a slip of paper with ‘From the author’ written on it; though I feel that under the circumstances the book ought to be rather regarded as your gift than as mine.</p>
+<p>In any case there is nobody to whom it would please me more to have the copy sent than to Fritz Müller.<ref target="#foot.f1"/></p>
+<p>I thank you most heartily for your kind congratulations on the completion of the work, &amp; I only trust that it may prove worthy of the praise you have bestowed on it.</p>
+<p>Yours very sincerely | F. M. Balfour</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had suggested giving his spare copy of Balfour’s <hi rend="italic">A treatise on comparative embryology</hi> (<ref target="../bibliographies/bibl_337.xml">Balfour 1880–1</ref>) to <ref target="../nameregs/nameregs_3070.xml">Müller</ref> (see <ref target="./DCP-LETT-13235.xml">letter to F. M. Balfour, 6 July 1881</ref>).</note>
+        </div>
+    
+    </body>
     </text>
 </TEI>

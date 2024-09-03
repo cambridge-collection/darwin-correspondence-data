@@ -2,17 +2,21 @@
 <?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-5328" status="released">
     <persName>
-        <forename>Annie</forename>
-        <surname>Cardwell</surname>
+        <forename>Ann</forename>
+        <choice>
+            <seg><surname notBefore="1814" notAfter="1838">Parker</surname></seg>
+            <seg><surname notBefore="1838" notAfter="1887">Cardwell</surname></seg>
+        </choice>
     </persName>
-    
+    <persName type="additional" subtype="preferred">Annie</persName>
     <note type="dates"><date>1814–87</date></note>
     <sex value="F"/>
     <note type="biography">
         <p>Daughter of Charles Stuart Parker and Margaret née Rainy of Fairlie, Ayrshire; baptised Ann. Married Edward Cardwell in 1838.</p></note>
     <note type="sources">
         <p><ref target="../bibliographies/bibl_5933.xml" resp="#mjhawkins"><hi rend="italic">ODNB</hi></ref> s.v. Cardwell, Edward (1813–86)</p>
-        <p>Scotland O.P.R. Births 622/00 0050 0295 Barony (Scotlandspeople.gov.uk, accessed 8 April 2015)</p>
+        <p>Scotland old parish registers births 622/00 0050 0295 Barony (Scotlandspeople.gov.uk, accessed 8 April 2015)</p>
     </note>
     <note type="volume">21,22</note>
+    
 </person>

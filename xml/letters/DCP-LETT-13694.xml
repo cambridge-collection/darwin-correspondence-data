@@ -26,7 +26,7 @@
             <note type="physdesc" n="ALS">1p</note>
         </notesStmt>
         <sourceDesc>
-            <bibl type="provenance">National Library of Scotland (Acc. 6289/23)</bibl>
+            <bibl type="provenance">National Library of Scotland (Acc.6289/23)</bibl>
             <msDesc>
                 <msIdentifier>
                     <repository key="../repo/repo_292.xml">NL Scotland</repository>
@@ -55,9 +55,48 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2021-02-16" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2021-03-09" status="reviewed">Reviewed by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2021-03-17" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2022-01-05" status="finalProofreadCompleted">Proofread by <name xml:id="elsmith">Liz Smith</name></change>
+        <change when="2022-01-26" status="copyedited">by Samantha Evans and entered by Shelley Innes</change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi> | (<hi rend="print">Railway Station | Orpington. S.E.R.</hi>)</placeName>
+                    <date>Feb. 20<hi rend="superscript">th</hi> 1882</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>As I have been informed that you have generously offered to collect subscriptions for M<hi rend="superscript">rs</hi>. Cupples, in order to set her up in a small shop, I have taken the liberty of enclosing 40 £ for this purpose.—<ref target="#foot.f1"/></p>
+<p>With much respect I beg leave to remain | Dear Sir | Yours faithfully | Charles Darwin</p>
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 (<hi rend="italic">Railway … S.E.R.</hi>)] <hi rend="italic">parentheses added</hi></note>
+            </div>
+
+                        
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">On 19 February 1882, CD recorded a payment of £40 under the heading ‘D<hi rend="superscript">r</hi> Brown for M<hi rend="superscript">rs</hi> Cupples—Charity’. In 1872, <ref target="../nameregs/nameregs_1162.xml">Anne Jane Cupples</ref> had provided CD with information on the expressions of dogs that howled to music (see <ref target="../bibliographies/bibl_1581.xml"><hi rend="italic">Correspondence</hi></ref> vol. 20, <ref target="./DCP-LETT-8611.xml">letter from A. J. Cupples to Emma Darwin, 8 November [1872]</ref>). In 1877, CD had written to the the Royal Literary Fund in support of Cupples’s work and to confirm her need (see <ref target="../bibliographies/bibl_1581.xml"><hi rend="italic">Correspondence</hi></ref> vol. 25, <ref target="./DCP-LETT-10764F.xml">letter to Octavian Blewitt, 1 January 1877</ref>).</note>  
+        </div>
+    
+    </body>
     </text>
 </TEI>

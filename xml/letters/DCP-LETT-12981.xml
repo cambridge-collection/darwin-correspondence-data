@@ -60,7 +60,17 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2019-08-13" status="footnoted">Footnoted by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2019-11-05" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2019-12-12" status="editorResponseCompleted">Editor response by <name sameAs="#pswhite">Paul White</name></change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00165-000-00253_files/8/0_0.jpg" width="3206px" height="5570px"/>
@@ -107,6 +117,30 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">10. Downing Street. | Whitehall.</hi></placeName>
+                    <date>Jan 6. 81.</date>
+                    <salute>Dear Mr Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I had in some degree considered the subject of your note and the memorial before it arrived and I lose no time in apprising you that although the Fund is moderate, and is as present poor, I shall recommend M<hi rend="superscript">r</hi> Wallace for a pension of £200 a year.<ref target="#foot.f1"/></p>
+<p>I remain | Faithfully yours | W E Gladstone</p> 
+                </div>
+            </div>
+
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had sent Gladstone a memorial for a civil list pension for <ref target="../nameregs/nameregs_4935.xml">Alfred Russel Wallace</ref> (see <ref target="./DCP-LETT-12975.xml">letter to W. E. Gladstone, [4 January 1881]</ref> and n. 1). Gladstone had received a separate letter of support from <ref target="../nameregs/nameregs_802.xml">George Douglas Campbell, eighth duke of Argyll</ref> (see <hi rend="italic">Correspondence</hi> vol. 28, <ref target="./DCP-LETT-12946.xml">letter to G. D. Campbell, [before 27 December 1880]</ref> and n. 4). As prime minister and first lord of the Treasury, Gladstone could recommend persons to the Crown for civil list pensions (see <ref target="../bibliographies/bibl_5131.xml">MacLeod 1970</ref>).</note>
+        </div>
+    
+    </body>
     </text>
 </TEI>

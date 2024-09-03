@@ -27,7 +27,7 @@
             <note type="physdesc" n="ALS"/>
         </notesStmt>
         <sourceDesc>
-            <bibl type="provenance">David Schulson (dealer) (catalogue 43)</bibl>
+            <bibl type="provenance">David Schulson (dealer) (Catalogue 43)</bibl>
             <msDesc>
                 <msIdentifier>
                     <repository key="../repo/repo_380.xml">David Schulson</repository>
@@ -60,9 +60,47 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2020-05-29" status="footnoted">Footnoted by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2020-12-09" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2020-01-04" status="editorResponseCompleted">Editor response by <name sameAs="#pswhite">Paul White</name></change>
+        <change when="2021-03-21" status="finalProofreadCompleted">Final proofread by <name xml:id="raclarkson">Rosy Clarkson</name></change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, Beckenham, Kent</hi></placeName>
+                    <date>November 2, 1881</date>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>[“Three bad errata have been discovered in my book on Earth-worms …” Each change has been written out. “L. 134, 3 lines from bottom, for 1.9 read .19 …”<ref target="#foot.f1"/> In conclusion he discusses the book’s success. “The book is selling largely in England, but I fear that this is no indication for France …”]<ref target="#foot.f2"/></p>
+<p>Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">For a list of the errata in <ref target="../bibliographies/bibl_2241.xml"><hi rend="italic">Earthworms</hi></ref>, see the <ref target="./DCP-LETT-13454.xml">letter to J. V. Carus, 2 November 1881</ref> and n. 1. The corrections were made in the fourth thousand of the English edition.</note>
+            <note xml:id="foot.f2">Reinwald was publishing the French translation of <hi rend="italic">Earthworms</hi> (<ref target="../bibliographies/bibl_11472.xml">Lévêque trans. 1882</ref>). On the sale of the English edition, see the <ref target="./DCP-LETT-13460.xml">letter from R. F. Cooke, 5 November 1881</ref>.</note>
+            <note xml:id="foot.f3">The original letter is complete, but the number of pages is not indicated in the sale catalogue.</note>
+            
+        </div>
+    
+    </body>
     </text>
 </TEI>

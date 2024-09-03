@@ -2,16 +2,21 @@
 <?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-6166" status="released">
     <persName>
-        <forename>Agnes</forename>
-        <surname>Lewes</surname>
+        <forename type="preferred">Agnes</forename>
+        <forename>Frances</forename>
+        <choice>
+            <seg><surname notBefore="1822" notAfter="1841">Jervis</surname></seg>
+            <seg><surname notBefore="1841" notAfter="1902">Lewes</surname></seg>
+        </choice>
     </persName>
     
     <note type="dates"><date>1822–1902</date></note>
-    
+    <sex value="F"/>
     <note type="biography">
         <p>Eldest daughter of Swynfen Jervis. Married George Henry Lewes in 1841.</p></note>
     <note type="sources">
-        <p><ref target="../bibliographies/bibl_231.xml" resp="#mjhawkins">Ashton 1991</ref>.</p>
+        <p><ref target="../bibliographies/bibl_231.xml" resp="#mjhawkins">Ashton 1991</ref></p>
+        <p>Westminster Church of England parish registers STG/PR/2/7 (Ancesatry.com, accessed 28 September 2022)</p>
     </note>
     <note type="volume">13</note>
 </person>

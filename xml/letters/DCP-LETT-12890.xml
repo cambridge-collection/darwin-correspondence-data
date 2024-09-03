@@ -64,7 +64,20 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2019-05-06" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2019-07-16" status="reviewed">Reviewed by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2019-07-29" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2019-10-23" status="finalProofreadCompleted"/>
+        <change when="2019-10-23" status="copyedited"/>
+        <change when="2020-09-22" status="exportToCUDL">Exported to CUDL by <name sameAs="#mjhawkins">Michael Hawkins</name></change>
+        <change when="2022-01-11" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-01-11" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00095-000-00443_files/8/0_0.jpg" width="3276px" height="6078px"/>
@@ -91,6 +104,39 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | </hi>(<hi rend="print">Railway Station | Orpington. S.E.R.</hi>)</placeName>
+                    <date>Dec. 5 1880</date>
+                    <salute>My dear Hooker</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I thank you much for being willing to propose Frank; I had begun to doubt whether I had not been too impudent in asking such a veteran to propose him, &amp; was a little vexed with myself.— I do not see how your proposing him can interfere in the least with the higher claims of anyone else.— If you have not thrown away the list of Frank’s papers please return them; &amp; then I will fill up a certificate &amp; send it you for signature &amp; afterwards get other signatures.<ref target="#foot.f1"/> But probably I shall not be able to do this for about 10 days, as on Tuesday morning we go to “6 Queen Anne St” until Saturday, whence for a few days to Leith Hill Place.<ref target="#foot.f2"/> I fear that there is no chance of our seeing you in London.</p>
+                    <p> Again thanking you warmly | My dear Hooker | Ever Yours | Ch. Darwin</p>
+                    <p>I did not attend to or care about the Haughton controversy; it seemed chiefly about the range of a single or at most two species.—<ref target="#foot.f3"/></p>
+                    <p>I should have hugely enjoyed talking over with you Wallace’s book.—<ref target="#foot.f4"/></p>
+                    <p>Can you give me seeds of <hi rend="underline">Commelyna cœlestis</hi>? I have applied to Thompson of Ipswich, &amp; he has not any.—<ref target="#foot.f5"/></p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 (<hi rend="print">Railway … S.E.R.</hi>)] <hi rend="italic">parentheses added</hi></note>
+                <note xml:id="tnote.n2">1.6 probably] <hi rend="italic">interl</hi> </note>
+            </div>
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-12887.xml">letter from J. D. Hooker, 4 December 1880</ref> and n. 1. <ref target="../nameregs/nameregs_1222.xml">Francis Darwin</ref> was to be proposed for fellowship of the <ref target="../nameregs/nameregs_4110.xml" resp="#mjhawkins">Royal Society of London</ref>. Proposal certificates listed the candidate’s publications. In the event, Francis was proposed by <ref target="../nameregs/nameregs_1699.xml">Michael Foster</ref> in January 1881 and elected in June 1882 (Royal Society archives, GB 117 EC/1882/09).</note>
+            <note xml:id="foot.f2">The Darwins were in London at the home of CD’s brother, <ref target="../nameregs/nameregs_1211.xml">Erasmus Alvey Darwin</ref>, from 7 December 1880, then travelled to Leith Hill Place, Surrey, on 11 December, and returned home on 15 December (CD’s ‘Journal’ (Appendix II)).</note>
+            <note xml:id="foot.f3">See <ref target="./DCP-LETT-12887.xml">letter from J. D. Hooker, 4 December 1880</ref> and n. 3. <ref target="../nameregs/nameregs_2165.xml">Samuel Haughton</ref> had argued against a uniformitarian view of geological change in a series of letters published in <hi rend="italic">Nature</hi>.</note>
+            <note xml:id="foot.f4">See <ref target="./DCP-LETT-12838.xml">letter from J. D. Hooker, 22 November 1880</ref>, and <ref target="./DCP-LETT-12841.xml">letter to J. D. Hooker, 23 November 1880</ref>. <ref target="../nameregs/nameregs_4935.xml">Alfred Russel Wallace</ref>’s recently published work, <hi rend="italic">Island life</hi> (<ref target="../bibliographies/bibl_8124.xml">Wallace 1880a</ref>), had been dedicated to Hooker. </note>
+            <note xml:id="foot.f5"><hi rend="italic">Commelina coelestis</hi> is dayflower; CD’s notes, dated 24 December 1880 to 11 January 1881, on geotropism in young cotyledons of this species, are in DAR 67: 60–4. <ref target="../nameregs/nameregs_4728.xml">William Thompson</ref> (1823–1903) owned a nursery in Ipswich.</note> 
+        </div>
+    
+    </body>
     </text>
 </TEI>

@@ -2,16 +2,20 @@
 <?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-5609" status="released">
     <persName>
-        <forename>Franz</forename>
+        <forename type="preferred">Franz</forename>
+        <forename>Joseph</forename>
         <nameLink>von</nameLink>
         <surname>Enzenberg</surname>
     </persName>
-    
-    
+    <note type="dates"><date>1802–79</date></note>
+    <sex value="M"/>
     <note type="biography">
-        <p>Son-in-law of Ignaz von Tannenberg.</p></note>
+        <p>Son-in-law of Ignaz von Tannenberg. Graf von Enzenberg zum Freyen- und Jöchelsthurn.</p></note>
     <note type="sources">
-        <p><ref target="../bibliographies/bibl_713.xml" resp="#mjhawkins"><hi rend="italic">BLKO</hi></ref> s.v. Tannenberg, Ignaz von.</p>
+        <p><ref target="../bibliographies/bibl_713.xml" resp="#mjhawkins"><hi rend="italic">BLKO</hi></ref> s.v. Tannenberg, Ignaz von</p>
+        <p>gw.geneanet.org, accessed 8 October 2022</p>
     </note>
     <note type="volume">17</note>
+    
+    
 </person>

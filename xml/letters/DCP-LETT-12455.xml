@@ -62,7 +62,21 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2016-11-11">Facsimile information added by <name sameAs="#mjhawkins">Michael Hawkins</name></change>
+        <change when="2018-07-26" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2018-12-06" status="reviewed">Reviewed by <name xml:id="fjn26">Francis Neary</name></change>
+        <change when="2019-01-07" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2019-05-23" status="finalProofreadCompleted"/>
+        <change when="2019-05-23" status="copyedited"/>
+        <change when="2022-01-11" type="footnotes" status="released">Footnotes cleared for online release</change>
+        <change when="2022-08-16">Automatic links added to bibliographical references in footnotes by <name xml:id="automat">Michael Hawkins</name>.</change>
+    </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00209-00006-000-00440_files/8/0_0.jpg" width="3616px" height="6333px"/>
@@ -80,6 +94,43 @@
         </surface>
 </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Herbarium of Harvard University,| Botanic Garden, Cambridge, Mass.</hi></placeName>
+                    <date>Feb. 3 <hi rend="print">1880</hi>.</date>
+                    <salute>My Dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>Your letter of the 19<hi rend="superscript">th</hi> ult, made me open my eyes.<ref target="#foot.f1"/> I am just off on a little journey, and have only a moment to say that Mr. Watson, Prof. Goodale, my artist who drew the figures &amp; others can make affidavit to the <hi rend="underline">facts</hi>.<ref target="#foot.f2"/> Two or three plants—on one, I think fully 2 inches of the seeming radicle was out of ground<ref target="#foot.f3"/></p>
+                    <p>There are 3 or 4 species. The second lot I sent you was probably different from the first, or of 2 species.<ref target="#foot.f4"/></p>
+                    <p>If your plants were weak, even of the same species, it might account for their not lifting the weight of the seed.</p>
+                    <p>About nomenclature, following the current nomenclature I called the hypocotyledonous internode <hi rend="underline">radicle</hi>—properly caulicle.<ref target="#foot.f5"/></p>
+                    <p>Please call all below it <hi rend="underline">root</hi>, so as to avoid confusion, “<hi rend="underline">Perennial</hi>” I should think so! The root is said to be sometimes of the size of a <hi rend="underline">barrel</hi>. Those I have seen in California were from the size of a carrot to that of the biggest ruta-baga.: the tip near the surface of the ground,—but under it, where there was no wash.<ref target="#foot.f6"/></p>
+                    <p>In haste | Ever Yours | Asa Gray</p> 
+                </div>
+            </div>
+            <div type="annotations">
+                <note>2.1 If your … the seed. 2.2] <hi rend="italic">scored red crayon</hi></note>
+                <note><hi rend="italic">Top of letter</hi>: ‘In my case petioles geotropic— In Asa Gray apogeotropic!!’<ref target="#foot.f7"/> <hi rend="italic">ink</hi></note>
+            </div>
+
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-12433.xml">letter to Asa Gray, 19 January 1880</ref>; see also <ref target="./DCP-LETT-12436.xml">letter to Asa Gray, 20 January 1880</ref>.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_8715.xml">Sereno Watson</ref> was the curator of the herbarium at Harvard (<hi rend="italic">ANB</hi>); <ref target="../nameregs/nameregs_8716.xml">George Lincoln Goodale</ref> was professor of botany at Harvard. The figure in <hi rend="italic">Gray’s botanical textbook</hi> (<ref target="../bibliographies/bibl_3058.xml">A. Gray 1879</ref>, p. 21) illustrating the development of a seedling of <hi rend="italic">Megarrhiza californica</hi> (a synonym of <hi rend="italic">Marah fabacea</hi>, California man-root) did not show which part of the seedling was below ground; no artist is credited for the illustrations in the textbook. In his article on the germination of the genus <hi rend="italic">Megarrhiza</hi> (<ref target="../bibliographies/bibl_11001.xml">A. Gray 1877</ref>, p. 23), Gray had reported that the body of the seed was raised well outside the soil on what seemed to be a well-developed radicle.</note>
+            <note xml:id="foot.f3">In <ref target="../bibliographies/bibl_5637.xml"><hi rend="italic">Movement in plants</hi></ref>, p. 82, in his copy of Gray’s figure of the <hi rend="italic">Megarrhiza</hi> seedling, CD added a dotted line to indicate that most of the illustrated seedling was below the ground.</note>
+            <note xml:id="foot.f4">CD had first requested seeds of <hi rend="italic">Megarrhiza</hi> from Gray in October 1879 (see <hi rend="italic">Correspondence</hi> vol. 27, <ref target="./DCP-LETT-12269.xml">letter to Asa Gray, 24 October 1879</ref>); he received some in December (<hi rend="italic">ibid.</hi>, <ref target="./DCP-LETT-12363.xml">letter to J. D. Hooker, 19 December [1879]</ref>), but later reported that some of a second batch of seeds failed to germinate (<ref target="./DCP-LETT-12489.xml">letter to Asa Gray, 17 February 1880</ref>). For the species of <hi rend="italic">Megarrhiza</hi> recognised at this time, see <ref target="../bibliographies/bibl_11001.xml">A. Gray 1877</ref>; see also <ref target="../bibliographies/bibl_11028.xml">Stocking 1955</ref>).</note>
+            <note xml:id="foot.f5">In the glossary of his textbook, Gray defined the caulicle as the initial stem in an embryo; the radicle of the embryo was defined as the hypocotyledonary and primary internode (<ref target="../bibliographies/bibl_3058.xml" resp="#automat" cert="low">A. Gray 1879</ref>, pp. 401, 429–30). In <hi rend="italic">Movement in plants</hi>, p. 5, CD defined the stem supporting the cotyledons as the hypocotyl; it was distinguished from the radicle only by the presence of root-hairs in the latter.</note>
+            <note xml:id="foot.f6">CD had asked whether <hi rend="italic">Megarrhiza californica</hi> was an annual or perennial (<ref target="./DCP-LETT-12433.xml">letter to  Asa Gray, 19 January 1880</ref>). The rutabaga or swede (<hi rend="italic">Brassica napus</hi> var. <hi rend="italic">napobrassica</hi>) is a cross between a turnip (<hi rend="italic">B. rapa</hi>) and a cabbage (<hi rend="italic">B. oleracea</hi>). </note>
+            <note xml:id="foot.f7">CD described the petioles of <hi rend="italic">Megarrhiza californica</hi> as completely confluent, forming a tube; he noted that as soon as they protruded from the seed, they were strongly geotropic and penetrated the ground unless they met with an obstacle; in that case, the cotyledons were lifted above the ground (<hi rend="italic">Movement in plants</hi>, p. 81).</note>     
+        </div>
+    
+    </body>
     </text>
 </TEI>

@@ -59,7 +59,19 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2017-10-09" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2017-12-19" status="reviewed"> Reviewed by <name xml:id="pas">Anne Secord</name></change>
+        <change when="2018-01-09" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2018-07-20" status="finalProofreadCompleted"/>
+        <change when="2018-07-20" status="copyedited"/>
+        <change when="2021-10-17" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2021-10-17" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00099-000-00291_files/8/0_0.jpg" width="2985px" height="5204px"/>
@@ -91,6 +103,34 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Creskeld, | Otley.</hi></placeName>
+                    <date>March 27<hi rend="superscript">th</hi>. 1879.</date>
+                    <salute>Dear M<hi rend="superscript">r</hi>. Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I so much wish in answer to your letter that I could send you any of D<hi rend="superscript">r</hi>. Darwin’s but I do not think we have ever possessed any. they will all be with the other branch of the Family.<ref target="#foot.f1"/> I have great pleasure in lending the two enclosed Photographs, if you can make any use of them in ornamenting the book you name, and I have ordered another view of the North front of the house at Elston of which we beg your acceptance.<ref target="#foot.f2"/> I was there last summer, and it was looking very nice indeed—</p>
+                    <p>My eldest son had last year given him by an old gentleman a portrait of D<hi rend="superscript">r</hi>. E. Darwin from the European Magazine engraved 1795—and it appears to be copied from Wright’s picture.<ref target="#foot.f3"/> Would you like to see it? I have placed it opposite his Life in Miss Meteyard’s “Group of Englishmen” which we have—published 1871.<ref target="#foot.f4"/>   I dare say you know it—</p>
+                    <p>With kind regards from M<hi rend="superscript">r</hi>. Darwin<ref target="#foot.f5"/> and myself. | Believe me | Y<hi rend="superscript">rs</hi>. sincerely | C. M. C. Darwin</p> 
+                </div>
+            </div>
+
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-11950F.xml">letter to C. M. C. Darwin, 24 March 1879</ref>. CD had wondered whether Charlotte had any documents of <ref target="../nameregs/nameregs_1219.xml">Erasmus Darwin (1731–1802)</ref>. Charlotte was the granddaughter of Erasmus’s brother <ref target="../nameregs/nameregs_1243.xml">William Alvey Darwin</ref>.</note>
+            <note xml:id="foot.f2">The photographs of Elston Hall have not been found; a drawing of Elston Hall as it was before 1754, made by <ref target="../nameregs/nameregs_1242.xml">Violetta Harriot Darwin</ref>, was reproduced in <ref target="../bibliographies/bibl_2365.xml"><hi rend="italic">Erasmus Darwin</hi></ref>, p. 3.</note>
+            <note xml:id="foot.f3">Charlotte’s eldest son was <ref target="../nameregs/nameregs_8553.xml">Francis Alvey Rhodes Darwin</ref>. A portrait of Erasmus Darwin engraved by <ref target="../nameregs/nameregs_8554.xml">William Bromley</ref> appeared in the <hi rend="italic">European Magazine</hi> for February 1795, facing p. 75. The caption to the engraving indicated it was made from an ‘original drawing’, but it resembles the painting of Erasmus at the age of 38 made by <ref target="../nameregs/nameregs_5257.xml" resp="#mjhawkins">Joseph Wright</ref> (see <ref target="../bibliographies/bibl_4366.xml">King-Hele 1999</ref>, plate 4a).</note>
+            <note xml:id="foot.f4"><ref target="../nameregs/nameregs_3304.xml">Eliza Meteyard</ref> and <ref target="../bibliographies/bibl_5388.xml">Meteyard 1871</ref>.</note>
+            <note xml:id="foot.f5">Charlotte’s husband was <ref target="../nameregs/nameregs_1223.xml">Francis Rhodes Darwin</ref>; he had inherited Elston Hall, Nottinghamshire, from her brother, <ref target="../nameregs/nameregs_1233.xml">Robert Alvey Darwin</ref>.</note>     
+        </div>
+    
+    </body>
     </text>
 </TEI>

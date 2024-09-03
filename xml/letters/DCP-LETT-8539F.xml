@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-8539F">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">To H. B. Wheatley   [after 30 September 1872]<ref target="#foot.f1"/></title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Darwin Correspondence Project</authority>
+                <publisher>Cambridge University Press</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <idno type="lognum">22133</idno>
+                
+                
+                <date when="2016">2016</date>
+            <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-8539F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8539F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-8539F.xml</ref>.</licence></availability>
+</publicationStmt>
+            <notesStmt>
+               <note type="description">ApcS incomplete<ref target="#foot.f3"/></note>
+                <note type="physdesc" n="ApcS">*ApcS inc</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="provenance">J. A. Stargardt (dealers) (5 April 2022, lot 148)</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="../repo/repo_399.xml">J. A. Stargardt</repository>
+                        <collection>5 Apr 2022</collection>
+                        <idno># 148</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                    <placeName>Down</placeName>
+                    <date notBefore="1872-10-01" notAfter="1882-04-19">[after 30 Sept 1872]</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_9433.xml">Wheatley, H. B.</persName>
+                </correspAction>
+            </correspDesc><abstract>
+                <p>Requesting two books by Lionel Smith Beale.</p>
+            </abstract>
+        </profileDesc>
+        <revisionDesc> 
+            <change when="2022-11-03" status="OnlineEditionOnly"/>
+            <change when="2022-11-03" status="transcribed">Transcribed by <name xml:id="raclarkson">NAME</name></change>
+            <change when="2022-11-16" status="footnoted">Footnoted <name xml:id="sevans">Sam Evans</name></change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName><hi rend="italic">From Mr. C. Darwin, Down, Beckenham.</hi></placeName>
+                    </opener>
+                    <div type="transcription"> 
+                            <p>Please be so good as to send me Dr Beale’s works—Bioplasm and Protoplasma<ref target="#foot.f2"/> […]</p>
+                    </div>
+                </div>
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">0.1 <hi rend="italic">Mr.</hi>] <hi rend="italic">altered from</hi> ‘<hi rend="italic">Mrs.</hi>’</note>
+                </div>
+
+                
+                
+            </div>
+                         
+                         
+                         <div type="footnotes">
+                <note xml:id="foot.f1">The date is established by the fact that the preface of <ref target="../nameregs/nameregs_342.xml">Lionel Smith Beale</ref>’s book <hi rend="italic">Bioplasm</hi> is dated September 1872. Wheatley was de facto librarian at the Royal Society (<ref target="../bibliographies/bibl_5933.xml"><hi rend="italic">ODNB</hi></ref>).</note>
+                <note xml:id="foot.f2"><hi rend="italic">Bioplasm</hi> (<ref target="../bibliographies/bibl_9946.xml">Beale 1872</ref>) and <hi rend="italic">Protoplasm</hi> (<ref target="../bibliographies/bibl_9945.xml">Beale 1870</ref>).</note>
+                 <note xml:id="foot.f3">This item is known only from a description in a sale catalogue; according to the catalogue, the original postcard is complete, and is addressed to ‘The Librarian | Royal Society | Burlington House’.</note>
+            </div>
+        
+        </body>
+    </text>
+</TEI>

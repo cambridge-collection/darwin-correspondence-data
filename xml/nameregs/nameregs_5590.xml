@@ -2,16 +2,22 @@
 <?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-5590" status="released">
     <persName>
-        <forename>Anna</forename>
-        <surname>Edye</surname>
+        <forename>Annie</forename>
+        <choice>
+            <seg><surname notBefore="1841" notAfter="1868">Edye</surname></seg>
+            <seg><surname notBefore="1868" notAfter="1898">Weale</surname></seg>
+        </choice>
     </persName>
     
     <note type="dates"><date>1841–98</date></note>
-    
+    <sex value="F"/>
     <note type="biography">
-        <p>Resident of Cape Colony, South Africa. Married James Philip Mansel Weale on 10 July 1868.</p></note>
+        <p>Daughter of William Mills Edye and his wife Maria, born in Fort Peddie, Grahamstown, Cape Colony, South Africa. Married James Philip Mansel Weale at Fort Peddie on 9 July 1868. Died in South Africa.</p></note>
     <note type="sources">
-        <p>Jonathan Auld, <hi rend="italic">The Aulds of Tizzana</hi> 3 May 2007, 〈http://www.tizzana.com.au/familyhistory/auld-p/index.htm〉, (accessed 30 May 2007).</p>
+        <p>Jonathan Auld, <hi rend="italic">The Aulds of Tizzana</hi> 3 May 2007, 〈http://www.tizzana.com.au/familyhistory/auld-p/index.htm〉, (accessed 30 May 2007)</p>
+        <p><hi rend="italic">South Africa, Church of the Province of South Africa, parish registers, 1801–2004</hi> (familysearch.org, accessed 4 October 2022)</p>
+        <p><hi rend="italic">South Africa, civil marriage records, 1840–1973</hi> (familysearch.org, accessed 4 October 2022)</p>
+        <p><hi rend="italic">South Africa, Cape Province, probate records of the Master of the High Court, 1834–1989</hi> (familysearch.org, accessed 4 October 2022)</p>
     </note>
     <note type="volume">16</note>
 </person>

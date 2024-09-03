@@ -64,7 +64,18 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2019-04-30" status="footnoted">Footnoted by <name xml:id="fjn26">Francis Neary</name></change>
+        <change when="2019-05-28" status="reviewed">Reviewed by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2019-06-20" status="editorResponseCompleted">Editor response by <name sameAs="#fjn26">Francis Neary</name></change>
+        <change when="2020-09-22" status="exportToCUDL">Exported to CUDL by <name sameAs="#mjhawkins">Michael Hawkins</name></change>
+        <change when="2022-01-11" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00104-000-00279_files/8/0_0.jpg" width="2604px" height="4086px"/>
@@ -91,6 +102,32 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Royal Gardens Kew</hi></placeName>
+                    <date>Sept. 24/80.</date>
+                    <salute>Dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>The De Candolles ♂ &amp; ♀ are here &amp; the ♂ wants very much to visit you &amp; see your Laboratory!— What am I to say to him?.— They came here today &amp; we have arranged dinner parties for them on Saturday &amp; Tuesday—so I suppose Monday would be a possible day for him, or Wednesday.<ref target="#foot.f1"/> I know he goes back next week.</p>
+                    <p>The Grays stay into next week then go to Spain, then to Paris for A. G. to work for a fortnight— we shall join them late in December for a trip to Rome &amp; Naples.<ref target="#foot.f2"/></p>
+<p>Ever aff Yrs | J D Hooker</p> 
+                </div>
+            </div>
+
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_813.xml">Alphonse de Candolle</ref> and <ref target="../nameregs/nameregs_7208.xml">Jeanne-Victoire-Laure de Candolle</ref>; <ref target="../nameregs/nameregs_813.xml" resp="#mjhawkins">Alphonse de Candolle</ref> visited Down on Monday 27 September 1880 (see <ref target="./DCP-LETT-6400.xml">letter from Asa Gray, 30 September 18[80]</ref>).</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_1957.xml">Asa Gray</ref> planned to visit herbaria in Europe to research volume 2 of his synoptical flora of North America (<ref target="../bibliographies/bibl_3057.xml">A. Gray 1878–84</ref>). He and his wife, <ref target="../nameregs/nameregs_1960.xml">Jane Loring Gray</ref>, spent the autumn of 1880 in Spain and France, winter at the Royal Botanic Gardens, Kew, spring 1881 in Italy, and summer at Kew, returning home in October 1881. Hooker and his wife <ref target="../nameregs/nameregs_2355.xml">Hyacinth Hooker</ref> joined them for a tour of Italy in early March 1881. (<ref target="../bibliographies/bibl_3066.xml">J. L. Gray ed. 1893</ref>, 2: 701 and 714.)</note>
+           
+        </div>
+    
+    </body>
     </text>
 </TEI>

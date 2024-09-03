@@ -58,7 +58,19 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2018-09-25" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2018-12-10" status="reviewed">Reviewed by <name xml:id="fjn26">Francis Neary</name></change>
+        <change when="2019-01-08" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2019-05-27" status="finalProofreadCompleted"/>
+        <change when="2019-05-27" status="copyedited"/>
+        <change when="2022-01-11" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-01-11" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00601_files/8/0_0.jpg" width="3074px" height="5397px"/>
@@ -115,6 +127,34 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Royal College of Surgeons of England. | Lincoln’s Inn Field, | (W.C.)</hi></placeName>
+                    <date>16<hi rend="superscript">th</hi> <hi rend="print">day of</hi> Feb. <hi rend="print">18</hi>80</date>
+                    <salute>My dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I send by this post addressed to your father a copy of the Catalogue of Human osteology of which I was speaking, which he might like just to spend a few minutes in looking at, but not more<ref target="#foot.f1"/>—and Hunter’s Memoranda on Vegetation, which may interest you, although I find that the experiments on the growth of beans during rotation are not recorded there, but in the 5<hi rend="superscript">th</hi>. volume of the Catalogue of the ‘Physiological Series of Comparative Anatomy’ p. 10—of which I have not a copy to spare, but you will find it in most of the libraries.<ref target="#foot.f2"/> They are also to be found in Hunter’s work “on the Blood’.<ref target="#foot.f3"/></p>
+<p>We enjoyed our visit to Down exceedingly, and I was particularly glad to find your father so well.<ref target="#foot.f4"/></p>
+<p>Please give our united kind regards to him and to your mother and many thanks for the pleasure they have given us</p>
+<p>Believe me | Yours very truly | W. H. Flower</p> 
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD’s copy of the first part of Flower’s <hi rend="italic">Catalogue of the specimens illustrating the osteology and dentition of vertebrated animals, recent and extinct, contained in the museum of the Royal College of Surgeons of England</hi> (<ref target="../bibliographies/bibl_10948.xml">Flower 1879</ref>), on human osteology, is in the Darwin Library–Down.</note>
+            <note xml:id="foot.f2">Flower sent the 1860 edition of <ref target="../nameregs/nameregs_2458.xml">John Hunter</ref>’s <hi rend="italic">Memoranda on vegetation</hi> (<ref target="../bibliographies/bibl_10949.xml">Hunter 1860</ref>), which had been copied from a manuscript notebook of Hunter’s loaned to the Royal College of Surgeons (<hi rend="italic">ibid.</hi>, p.  iii). The copy in the Darwin Library–CUL has annotations by both CD and <ref target="../nameregs/nameregs_1222.xml" resp="#mjhawkins">Francis Darwin</ref>. The fifth volume of the <hi rend="italic">Descriptive and illustrated catalogue of the physiological series of comparative anatomy contained in the museum of the Royal College of Surgeons in London</hi> (<ref target="../bibliographies/bibl_6759.xml">Royal College of Surgeons 1833–40</ref>) was subtitled ‘Products of generation’ and began with a section on plants. Hunter’s experiments with beans are described in <hi rend="italic">ibid.</hi> 5: 11–12.</note>
+            <note xml:id="foot.f3">The description of the bean experiments in Hunter’s <hi rend="italic">Treatise on the blood, inflammation, and gun-shot wounds</hi> (<ref target="../bibliographies/bibl_10950.xml">Hunter 1794</ref>, pp. 237–8) is the same as that in <ref target="../bibliographies/bibl_6759.xml">Royal College of Surgeons 1833–40</ref> (see n. 2, above).</note>
+            <note xml:id="foot.f4">According to <ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242), Flower and his wife, <ref target="../nameregs/nameregs_7907.xml">Georgiana Rosetta Flower</ref>, visited Down from 14 to 16 February 1880.</note>
+        </div> 
+     
+    </body>
     </text>
 </TEI>

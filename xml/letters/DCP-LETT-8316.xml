@@ -30,7 +30,7 @@
             </relatedItem>
         </notesStmt>
         <sourceDesc>
-            <bibl type="provenance">Natural History Museum, Library and Archives (Gen. Lib. Günther 44)</bibl>
+            <bibl type="provenance">Natural History Museum, Library and Archives (General Library Günther 44)</bibl>
             <msDesc>
                 <msIdentifier>
                     <repository key="../repo/repo_288.xml">NHM</repository>
@@ -78,7 +78,20 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="footnoted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="reviewed">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="editorResponseCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="finalProofreadCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="copyedited">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2017-01-14" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2017-01-14" type="footnotes" status="released">Footnotes cleared for online release</change>
+    <change when="2022-08-16">Automatic links added to bibliographical references in footnotes by <name xml:id="automat">Michael Hawkins</name>.</change>
+    </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00096-000-00254_files/8/0_0.jpg" width="4652px" height="6304px"/>
@@ -135,7 +148,7 @@
 <p>P.S. 2<hi rend="superscript">d</hi>. When I saw not very long ago G. R. Gray, he was very well.—<ref target="#foot.f4"/> What caused his death?</p> 
                 </div>
             </div>
-        <div type="enclosure" subtype="letter">
+        <div type="enclosure" subtype="letter" xml:id="encl.1">
       
           <opener>
                     <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>

@@ -61,7 +61,19 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2020-11-02" status="footnoted">Footnoted by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2021-01-04" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2020-01-04" status="editorResponseCompleted">Editor response by <name sameAs="#pswhite">Paul White</name></change>
+        <change when="2021-04-06" status="finalProofreadCompleted">Final proofread by <name xml:id="raclarkson">Rosy Clarkson</name></change>
+        <change when="2022-03-13">Links to letter transcriptions added by <name xml:id="automat">Michael Hawkins</name>.</change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="landscape" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00001-000-00351_files/8/0_0.jpg" width="3107px" height="2605px"/>
@@ -78,6 +90,34 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">From Mr. C. Darwin, Down, Beckenham.</hi></placeName>
+                    <date>Nov. 25<hi rend="superscript">th</hi></date>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>You said that you had been so busy lately that you had not read Nature— Be sure read p. 81 of last Nature—<ref target="#foot.f2"/> It is superb &amp; has made me awfully proud.</p>
+<p>C. D.</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 <hi rend="italic">Mr.</hi>] <hi rend="italic">altered from</hi> ‘<hi rend="italic">Mrs.</hi>’</note>
+                
+            </div>
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by reference to <hi rend="italic">Nature</hi> (see n. 2, below).</note>
+            <note xml:id="foot.f2">George had been at Down from 11 to 13 November 1881 (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242) and <ref target="" resp="#automat">letter from Emma Darwin to George Howard Darwin, [16 November 1881]</ref> (DAR 210.3: 31)). The issue of <hi rend="italic">Nature</hi> contained a lecture by <ref target="../nameregs/nameregs_262.xml">Robert Stawell Ball</ref> praising George’s contribution to tidal theory: ‘The great theory itself is chiefly the work of one man. You are all familiar with the name he bears. The discoverer of tidal evolution is Mr G. H. Darwin, Fellow of Trinity College, Cambridge’ (<hi rend="italic">Nature</hi>, 24 November 1881, p. 81). See also <ref target="./DCP-LETT-13197.xml">letter to G. H. Darwin, 8 June [1881].</ref></note>
+            
+            
+        </div>
+    
+    </body>
     </text>
 </TEI>

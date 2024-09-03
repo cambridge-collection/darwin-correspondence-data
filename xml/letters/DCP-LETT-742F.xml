@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-742F">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">Letter to C. A. Wood   16 March [1844]</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Darwin Correspondence Project</authority>
+                <publisher>Cambridge University Press</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <idno type="lognum">22140</idno>
+                
+                
+                <date when="2016">2016</date>
+            <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-742F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-742F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-742F.xml</ref>.</licence></availability>
+</publicationStmt>
+            <notesStmt>
+                <note type="endorsement" subtype="letter">‘Received Mar 18 1844’</note>
+                <note type="physdesc" n="ALS">4 pp</note>
+                
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="provenance">The National Archive (TNA CO 78/10)</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="../repo/repo_285.xml">The National Archives</repository>
+                        
+                        <collection>CO</collection>
+                        <idno>78/10</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                    <placeName>Down</placeName>
+                    <date when="1844-03-16">16 Mar [1844]</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="../nameregs/nameregs_5220.xml">Wood, C. A.</persName>
+                </correspAction>
+            </correspDesc>
+           <abstract>
+                <p>Gives information on the climate around the Falkland Islands and directs Wood to write to Captain Sulivan.</p>
+            </abstract>
+        </profileDesc>
+        <revisionDesc> 
+            <change when="2023-03-13" status="OnlineEditionOnly"/>
+            <change when="2023-03-13" status="transcribed">Transcribed by <name xml:id="elsmith">Liz Smith</name></change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName>Down Bromley Kent</placeName>
+                        <date>March 16<hi rend="superscript">th</hi>.</date>
+                        <salute>My dear Wood</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>I received your note of the 5<hi rend="superscript">th</hi>. only yesterday: I presume the Porter did not forward it to me, as I generally attend the council of the Geolog. Soc. every fortnight, but did not last meeting owing to being unwell. I am sorry to say that I can give you scarcely any information on the points you require; the distance between the two Ports must be at least 30 sea miles, &amp; with the frequent westerly winds difficult to get regularly from Port William to Port Louis. There is moreover a nasty point to touble in going either way in rough weather; &amp; one boat went through to have been in immense daner then.— Nevertheless on an indented coast &amp; with the winds generally more or less off shore I should think the difficulty for long together would seldom be great in passing from one to the other place. The climate is very stormy, but from the Beagle being there twice during only March, I believe we overrated the badness of the climate.— I am positively assured of good authority that the climate is dry &amp; Patagonian durin gsummer; but considering the immense quantity of Peat &amp; the general quantity of the vegetation (like that on a Scotch Mountain) there is almost more than I can believe.—</p>
+                        <p>I presume you cannot wait long for information, otherwise I sh<hi rend="superscript">d</hi> strongly advise you to write to Captn Sulivan<ref target="#foot.f1"/> (through Capt Beaufort)<ref target="#foot.f2"/> as I think he knows more of the Falklands than any other person  He is very clever &amp; <hi rend="underline">enquiring</hi> &amp; now on the spot.. An appearance of levity &amp; great powers of “talk” (for conersation w<hi rend="superscript">d</hi> be too complimentary) have caused him to be underrated, even, I think by FitzRoy.—<ref target="#foot.f3"/> I fear the latter will have a place trying to any man’s patience &amp; temper.</p> 
+                        <p>I wish I had it in my power to give you better information on this or any other point— &amp; pray believe | sincerely yours | Charles Darwin</p>
+                    </div>
+                </div>
+
+                
+               
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">1.00 unwell.] <hi rend="italic">before del five lines illeg</hi></note>
+                    <note xml:id="tnote.n2">1.00 sea] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n3">1.00 only] <hi rend="italic">interl</hi></note>
+                    <note xml:id="tnote.n4">2.00 now] <hi rend="italic">interl</hi></note>
+                </div>
+
+                
+            </div>
+ 
+  
+            
+            
+ 
+  
+            
+            
+ 
+  
+            
+            <div type="footnotes">
+                <note xml:id="foot.f1"><persName key="../nameregs/nameregs_4614.xml">Bartholomew James Sulivan.</persName></note>
+                <note xml:id="foot.f2"><persName key="../nameregs/nameregs_348.xml">Francis Beaufort</persName>.</note>
+                <note xml:id="foot.f3"><persName key="../nameregs/nameregs_1650.xml">Robert FitzRoy</persName>.</note>
+            </div>
+         
+        
+         
+        </body>
+    </text>
+</TEI>

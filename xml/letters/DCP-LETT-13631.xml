@@ -63,7 +63,18 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2021-02-08" status="footnoted">Footnoted by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2021-03-09" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2021-03-18" status="editorResponseCompleted">Editor response by <name sameAs="#pswhite">Paul White</name></change>
+        <change when="2021-10-28" status="finalProofreadCompleted">Final proofreading by <name xml:id="raclarkson">Rosy Clarkson</name></change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00001-000-00353_files/8/0_0.jpg" width="3201px" height="5628px"/>
@@ -90,6 +101,38 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>Jan 21 1882</date>
+                    <salute>My dear George,</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>As soon as you have 5 minutes to spare, read what follows. Kowalevsky writes “I have a great service to beg of you, is it not possible to have for a few days the paper of your son George about the moon, I could not get it in London as it is out of print, if your son has some spare copies I will feel most obliged if he may spare one for me”.<ref target="#foot.f1"/></p>
+                    <p>If you can do so, I also should be particularly obliged. He is now Prof of Geology at Moskow and no doubt his wife will be able to explain your paper to him.<ref target="#foot.f2"/> His address is</p> 
+<figure type="diagram"> 
+<p>11 Rue de la Tour des Dames</p>
+<p>Paris</p> </figure> 
+                    <p>where he will remain for some days. If you cannot spare a copy let me have the reference to send him.</p>
+                    <p> I hope you are not utterly dead with your work. | Yours affectly | Ch. Darwin</p> 
+                </div>
+            </div>
+           
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_2751.xml">Vladimir Onufrievich Kovalevsky</ref> had requested the paper in his letter to CD of <ref target="./DCP-LETT-13624.xml">18 January [1882]</ref>. The paper was probably <ref target="../bibliographies/bibl_10873.xml">G. H. Darwin 1879b</ref>.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_2750.xml">Sofia Vasilyevna Kovalevskaya</ref> was interested in George’s work on the rotation of a viscous or elastic body (see <hi rend="italic">Correspondence</hi> vol. 28, <ref target="./DCP-LETT-12902.xml">letter to G. H. Darwin, 9 December [1880]</ref> and n. 3).</note>
+            
+        </div>
+    
+    </body>
     </text>
 </TEI>

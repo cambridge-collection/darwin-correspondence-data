@@ -26,7 +26,7 @@
             <note type="physdesc" n="ALS">1p</note>
         </notesStmt>
         <sourceDesc>
-            <bibl type="provenance">John Wilson (dealer) (n.d.)</bibl>
+            <bibl type="provenance">John Wilson (dealer) (no date)</bibl>
             <msDesc>
                 <msIdentifier>
                     <repository key="../repo/repo_441.xml">Wilson, John</repository>
@@ -61,9 +61,48 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2021-04-27" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2021-05-10" status="reviewed">Reviewed by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2021-05-12" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2121-12-07" status="finalProofreadCompleted">Final proof read by <name xml:id="raclarkson">Rosy Clarkson</name></change>
+        <change when="2022-02-02" status="copyedited">by Samantha Evans and entered by Shelley Innes</change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi> | (<hi rend="print">Railway Station | Orpington. S.E.R.</hi>)</placeName>
+                    <date>March 29<hi rend="superscript">th</hi> 1882</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I cannot answer your questions; nor do I suppose that anyone could do so.— Earth worms are hermaphrodite, but two must unite &amp; both produce eggs.—<ref target="#foot.f1"/></p>
+                    <p>I have seen hundreds coupled, early in the morning &amp; occasionally through the night.— I believe in the spring, but cannot positively remember.</p>
+                    <p>I remain | yours faithfully | Ch. Darwin</p>
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 (<hi rend="italic">Railway … S.E.R.</hi>)] <hi rend="italic">parentheses added</hi> </note>
+            </div>
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The letter to which this is a reply has not been found. CD had not discussed reproduction in <ref target="../bibliographies/bibl_2241.xml"><hi rend="italic">Earthworms</hi></ref>. For more on earthworms’ reproductive organs, see <ref target="../bibliographies/bibl_11453.xml">Lankester 1864–5</ref>. </note>   
+        </div>   
+       
+    </body>
     </text>
 </TEI>

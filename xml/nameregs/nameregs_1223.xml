@@ -3,14 +3,16 @@
 <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-1223" status="released">
     <persName>
         <forename>Francis</forename>
-        <forename>Rhodes</forename>
-        <surname>Darwin</surname>
+        <choice>
+            <seg><surname notBefore="1825" notAfter="1850">Rhodes</surname></seg>
+            <seg><surname notBefore="1850" notAfter="1920">Darwin</surname></seg>
+        </choice>
     </persName>
     
     <note type="dates"><date>1825–1920</date></note>
     <sex value="M"/>
     <note type="biography">
-        <p>Born Francis Rhodes; married Charlotte Maria Cooper Darwin in 1849. Assumed the name Darwin in 1850 after inheriting the estate of his brother-in-law, Robert Alvey Darwin. Resided at Creskeld Hall, Yorkshire, and Elston Hall, Nottinghamshire. JP for Nottinghamshire and Yorkshire, a role in which he was very active.</p></note>
+        <p>Born Francis Rhodes; married Charlotte Maria Cooper Darwin in 1849. Assumed the name Darwin instead of Rhodes in 1850 after inheriting the estate of his brother-in-law, Robert Alvey Darwin. Resided at Creskeld Hall, Yorkshire, and Elston Hall, Nottinghamshire. JP for Nottinghamshire and Yorkshire, a role in which he was very active.</p></note>
     <note type="sources">
         <p><ref target="../bibliographies/bibl_144.xml"><hi rend="italic">Alum. Cantab</hi></ref>.</p>
     </note>
@@ -23,4 +25,5 @@
         <term type="place">Nottinghamshire</term>
         <term type="p">Magistrate</term>
     </note>
+    
 </person>

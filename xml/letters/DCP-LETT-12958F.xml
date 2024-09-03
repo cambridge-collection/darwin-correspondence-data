@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_math.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-LETT-12958F">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="main_title">To Walter White   31 December 1880</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Darwin Correspondence Project</authority>
+                <publisher>Cambridge University Press</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <idno type="lognum">22129</idno>
+                
+                
+                <date when="2016">2016</date>
+            <availability xml:id="rights" status="restricted"><licence target="http://creativecommons.org/licenses/by-nc-nd/4.0/">DCP-LETT-12958F by <ref target="https://www.darwinproject.ac.uk">The Darwin Correspondence Project</ref> is licensed under a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</ref>. Based on a work at <ref target="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-12958F.xml">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-12958F.xml</ref>.</licence></availability>
+</publicationStmt>
+            <notesStmt>
+                <note type="physdesc" n="ALS">ip</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="provenance">J. A. Stargardt (dealers) (5 April 2022, lot 147)</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="../repo/repo_399.xml">J. A. Stargardt</repository>
+                        <collection>5 Apr 2022</collection>
+                        <idno># 147</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="../nameregs/nameregs_1.xml">Darwin, C. R.</persName>
+                    <placeName>Down</placeName>
+                    <date when="1880-12-31">231 Dec 1880</date>
+                </correspAction>
+                <correspAction type="received"><persName key="../nameregs/nameregs_5102.xml">White, Walter</persName>
+                </correspAction>
+            </correspDesc>
+            <abstract>
+                <p>Sending a Royal Society certificate of candidacy for his son Francis.</p>
+            </abstract>
+            
+        </profileDesc>
+        <revisionDesc> 
+            <change when="2022-11-03" status="OnlineEditionOnly"/>
+            <change when="2022-11-03" status="transcribed">Transcribed by <name xml:id="raclarkson">Rosy Clarkson</name></change>
+            <change when="2022-11-23" status="footnoted">Footnoted <name xml:id="sevans">Sam Evans</name></change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName><hi rend="print">Down, | Beckenham, Kent.</hi> | (<hi rend="print">Railway Station | Orpington. S.E.R.</hi>)</placeName>
+                        <date>Dec. 31<hi rend="superscript">st</hi> 1880</date>
+                        <salute>My dear Sir</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>Will you be so good as to suspend the enclosed certificate for my son Francis in due form.—<ref target="#foot.f1"/></p>
+                        <p>Yours faithfully | Ch. Darwin</p>
+                    </div>
+                </div>
+               
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">0.1 (<hi rend="print">Railway … S.E.R.</hi>)] <hi rend="italic">parentheses added</hi></note>
+            </div>
+                
+            </div>
+            
+            
+            
+            
+            
+            <div type="footnotes">
+                <note xml:id="foot.f1"><ref target="../nameregs/nameregs_1222.xml">Francis Darwin</ref> was elected a fellow of the Royal Society of London in 1882; his certificate is in the Royal Society archives, EC/1882/09.</note>
+                </div>
+        
+        </body>
+    </text>
+</TEI>

@@ -58,7 +58,19 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2018-03-14" status="footnoted">Footnoted by <name xml:id="sevans">Sam Evans</name></change>
+        <change when="2018-06-08" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2018-07-16" status="editorResponseCompleted">Ed response by <name sameAs="#sevans">Sam Evans</name></change>
+        <change when="2018-09-21" status="finalProofreadCompleted"/>
+        <change when="2018-09-21" status="copyedited"/>
+        <change when="2021-10-17" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2021-10-17" type="footnotes" status="released">Footnotes cleared for online release</change>
+    </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-01573_files/8/0_0.jpg" width="2644px" height="4591px"/>
@@ -85,6 +97,34 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>1 St Mary’s Terrace | Paddington W</placeName>
+                    <date>Dec 20/79</date>
+                    <salute>Dear M<hi rend="superscript">r</hi>. Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Thank you so very much for all the trouble you have taken— I suppose it is hopeless, &amp; indeed I have always feared that M<hi rend="superscript">r</hi>. Wallace’s want of worldly caution might injure him, though he would be a most valuable man in the right place—<ref target="#foot.f1"/></p>
+<p>Except for the trouble it has given you I cannot regret that I made the attempt if only to know that nothing is possible.</p>
+<p>I hear of you from time to time when I meet M<hi rend="superscript">r</hi>. Wedgwood<ref target="#foot.f2"/> &amp; was glad to hear that you are keeping well—</p>
+<p>With very many thanks | Yours sincerely | Arabella B Buckley.</p> 
+                </div>
+            </div>
+
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had written to Buckley to tell her that he did not think it would be possible to secure a government pension for <ref target="../nameregs/nameregs_4935.xml" resp="#mjhawkins">Alfred Russel Wallace</ref> (<ref target="./DCP-LETT-12365.xml">letter to A. B. Buckley, 19 December 1879</ref>).</note>
+            <note xml:id="foot.f2">Probably <ref target="../nameregs/nameregs_5019.xml" resp="#mjhawkins">Hensleigh Wedgwood</ref>, CD’s brother-in-law, who lived in London.</note>
+        </div>
+    
+    </body>
     </text>
 </TEI>

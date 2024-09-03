@@ -2,18 +2,23 @@
 <?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-6443" status="released">
     <persName>
-        <forename>Olivia</forename>
-        <surname>Bennet</surname>
+        <forename type="preferred">Olivia</forename>
+        <choice>
+            <seg><surname notBefore="1830" notAfter="1850">Montagu</surname></seg>
+            <seg><surname notBefore="1850" notAfter="1922">Bennet</surname></seg>
+        </choice>
     </persName>
     <persName type="additional" subtype="title">countess of Tankerville</persName>
     
-    <note type="dates"><date>1830/1–1922</date></note>
-    
+    <note type="dates"><date>1830–1922</date></note>
+    <sex value="F"/>
     <note type="biography">
-        <p>Daughter of the sixth duke of Manchester. Married Charles Augustus Bennet in 1850.</p></note>
+        <p>Daughter of George Montagu, the sixth duke of Manchester, and his first wife Millicent Bernard-Sparrow. Married Charles Augustus Bennet, Lord Ossulston (sixth earl of Tankerville from 1859), in 1850.</p></note>
     <note type="sources">
-        <p><ref target="../bibliographies/bibl_1096.xml" resp="#mjhawkins"><hi rend="italic">Burke’s peerage</hi></ref> 1999, <hi rend="italic">The Times</hi></p>
-        <p>17 February 1922, p. 13.</p>
+        <p><ref target="../bibliographies/bibl_1096.xml" resp="#mjhawkins"><hi rend="italic">Burke’s peerage</hi></ref> 1999</p>
+        <p><hi rend="italic">London Church of England parish registers</hi> P89/MRY1/031 (Ancestry.com, accessed 30 September 2022)</p>
+            <p><hi rend="italic">The Times</hi>, 17 February 1922, p. 13.</p>
     </note>
     <note type="volume">15</note>
+    
 </person>

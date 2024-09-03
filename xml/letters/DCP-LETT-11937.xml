@@ -58,7 +58,20 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2017-09-01" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2017-12-18" status="reviewed"> Reviewed by <name xml:id="pas">Anne Secord</name></change>
+        <change when="2018-01-09" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2018-07-18" status="finalProofreadCompleted"/>
+        <change when="2018-07-18" status="copyedited"/>
+        <change when="2021-10-17" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2021-10-17" type="footnotes" status="released">Footnotes cleared for online release</change>
+        <change when="2022-08-16">Automatic links added to bibliographical references in footnotes by <name xml:id="automat">Michael Hawkins</name>.</change>
+    </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00099-000-00220_files/8/0_0.jpg" width="2973px" height="5356px"/>
@@ -75,6 +88,32 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Geological Society, | Burlington House, W.</hi></placeName>
+                    <date>15 March 1879</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>My letter of yesterday will be a sufficient answer to your inquiry whether I will translate M. Krause’s biography of Erasmus Darwin,— I shall be very happy to do so, &amp; in fact it will suit me better to have it later than at present.—<ref target="#foot.f1"/> I sent the Kosmos by book post.—<ref target="#foot.f2"/></p>
+<p>Believe me | Yours very truly | W. S. Dallas <lb resp="#mjhawkins"/></p>
+<p rend="left">C. Darwin Esq</p> 
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">See <ref target="./DCP-LETT-11935.xml">letter from W. S. Dallas, 14 March 1879</ref>. CD had evidently written to warn Dallas that the translation would be delayed by <ref target="../nameregs/nameregs_2758.xml">Ernst Krause</ref>’s work on the original text; his letter has not been found. Krause’s ‘Erasmus Darwin’ was published in <hi rend="italic">Kosmos</hi> in February 1879 (<ref target="../bibliographies/bibl_10668.xml">Krause 1879a</ref>). </note>
+            <note xml:id="foot.f2">CD had sent Dallas his copy of the issue of <hi rend="italic">Kosmos</hi> including Krause 1879a.</note>
+        </div>    
+        
+    </body>
     </text>
 </TEI>

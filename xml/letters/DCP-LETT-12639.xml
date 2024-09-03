@@ -62,7 +62,17 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2019-03-14" status="footnoted">Footnoted by <name xml:id="fjn26">Francis Neary</name></change>
+        <change when="2019-04-03" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2019-04-05" status="editorResponseCompleted">Editor response by <name sameAs="#fjn26">Francis Neary</name></change>
+        <change when="2022-01-11" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-01-11" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00765_files/8/0_0.jpg" width="3541px" height="6016px"/>
@@ -89,6 +99,36 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent. | Railway Station | Orpington. S.E.R.</hi></placeName>
+                    <date>June 18<hi rend="superscript">th</hi> 1880.</date>
+                    <salute>My dear William</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>As the Printers have not sent me proof-sheets, I have been arranging my notes about worms, &amp; I want your help on one point.— Possibly before the autumn you may wish to take some one to Beaulieu Abbey, or if not w<hi rend="superscript">d</hi> you be so good as to go there in the early autumn, when the worms work most.<ref target="#foot.f1"/></p>
+                    <p>What I want is a packet of castings from above the tiles in the square cleared hole; for I find in my notes the clearest statement that the minute fragments of <hi rend="underline">brick</hi> in the castings were rounded, as if by attrition in the muscular gizzard of the worms.<ref target="#foot.f2"/> Now I very much wish to examine under the microscope more of such particles of brick, tile, slate or any other artificial object, which could hardly have been worn except in the worm’s gizzard. Will you help me &amp; keep this in mind.</p>
+                    <p>Love to Sara<ref target="#foot.f3"/> | Your affect. Father | C. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">2.1 above] <hi rend="italic">interl</hi> </note>
+                <note xml:id="tnote.n2">2.4 such] <hi rend="italic">after del</hi> ‘these castings,’ </note>
+            </div>
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD was awaiting the proof-sheets of <ref target="../bibliographies/bibl_5637.xml"><hi rend="italic">Movement in plants</hi></ref>; see <ref target="./DCP-LETT-12593.xml">letter to J. V. Carus, 28 April 1880</ref>. William had examined the buried pavement at Beaulieu Abbey in Hampshire on 5 January 1872 and CD had visited on 22 June 1877 (<ref target="../bibliographies/bibl_2241.xml"><hi rend="italic">Earthworms</hi></ref>, pp. 193–7); see also <hi rend="italic">Correspondence</hi> vol. 24, Supplement, <ref target="./DCP-LETT-8141F.xml">letter from W. E. Darwin, [4 January 1872]</ref>, and <hi rend="italic">Correspondence</hi> vol. 25, <ref target="./DCP-LETT-10995.xml">letter to Francis Darwin, [10 June 1877]</ref>. William’s notes on furrows on a slope at Beaulieu, made in January 1872, are in DAR 63: 77–8.</note> 
+            <note xml:id="foot.f2">CD’s notes on the concretions in castings from Beaulieu, dated 20 January 1881, are in DAR 64.1: 81.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_1240.xml">Sara Darwin</ref>.</note>
+        </div>
+    
+    </body>
     </text>
 </TEI>

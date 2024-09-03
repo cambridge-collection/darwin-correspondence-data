@@ -62,7 +62,19 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2018-04-27" status="footnoted">Footnoted by <name xml:id="pas">Anne Secord</name></change>
+        <change when="2018-06-15" status="reviewed">Reviewed by <name xml:id="fjn26">Francis Neary</name></change>
+        <change when="2018-06-19" status="editorResponseCompleted">Editor response by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2018-08-29" status="finalProofreadCompleted">Proofread by Alison Pearn. Corrections entered by Anne Secord.</change>
+        <change when="2018-08-29" status="copyedited">Copyedited by Samantha Evans. Corrections entered by Anne Secord.</change>
+        <change when="2021-10-17" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2021-10-17" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00099-000-00226_files/8/0_0.jpg" width="2932px" height="5435px"/>
@@ -89,6 +101,35 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Geological Society, | Burlington House, W.</hi></placeName>
+                    <date>8 May 1879</date>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>D<hi rend="superscript">r</hi>. Krauss in his letter to me says he is unaccustomed to what he calls “das Englischschreiben” &amp; asks me to look to the orthography of his English quotations.—<ref target="#foot.f1"/> On looking a little further into his MS. last night, after sending off my letter to you, I found that it is not only the orthography that is defective, but that he every now &amp; then omits important words.— The principal work quoted from, I think, is Miss Seward’s life of D<hi rend="superscript">r</hi>. Darwin,— have you a copy of this? &amp; could you oblige me with the loan of it for the time while this translation is in progress—<ref target="#foot.f2"/> I don’t know where I can get it, or I would not trouble you.</p>
+<p>Believe me | Yours very truly | W. S. Dallas <lb resp="#mjhawkins"/></p>
+<p rend="left">C. Darwin Esq.</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1"><hi rend="italic">Das Englischschreiben</hi>: English writing (German); <ref target="../nameregs/nameregs_2758.xml">Ernst Krause</ref> meant the standard script of the English language, commonly known as Latin script.</note>
+            <note xml:id="foot.f2">Dallas was translating Krause’s revised version of his work on Erasmus Darwin, CD’s grandfather (<ref target="../bibliographies/bibl_10668.xml">Krause 1879a</ref>), for publication as part of <ref target="../bibliographies/bibl_2365.xml"><hi rend="italic">Erasmus Darwin</hi></ref>. CD’s copy of <ref target="../nameregs/nameregs_4303.xml">Anna Seward’s</ref> memoir of <ref target="../nameregs/nameregs_1219.xml">Erasmus Darwin</ref> (<ref target="../bibliographies/bibl_7126.xml">Seward 1804</ref>) is in the Darwin Library–Down.
+            </note>
+            </div>
+        
+        </body>
     </text>
 </TEI>

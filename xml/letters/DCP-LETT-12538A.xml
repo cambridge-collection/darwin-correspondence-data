@@ -26,7 +26,7 @@
             <note type="physdesc" n="ALS">1p</note>
         </notesStmt>
         <sourceDesc>
-            <bibl type="provenance">Bromley Historic Collections, Bromley Central Library (P123/25/2)</bibl>
+            <bibl type="provenance">Bromley Historic Collections, Bromley Central Library (P/123/25/2)</bibl>
             <msDesc>
                 <msIdentifier>
                     <repository key="../repo/repo_66.xml">Bromley</repository>
@@ -58,9 +58,49 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2018-11-21" status="footnoted">Footnoted by <name xml:id="fjn26">Francis Neary</name></change>
+        <change when="2018-11-26" status="reviewed">Reviewed by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2019-01-11" status="editorResponseCompleted">Editor response by <name sameAs="#fjn26">Francis Neary</name></change>
+        <change when="2022-01-11" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-01-11" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Downe.</placeName>
+                    <date>March 19.1880.</date>
+                    <seg type="supplemental">C. R. Darwin Esq<hi rend="superscript">re</hi>.</seg>
+                    <salute>Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I beg hereby to tender my resignation as a Member of the Downe Schools’ Committee as from the 2 <hi rend="italic">[</hi>0<hi rend="italic">]</hi> inst.<ref target="#foot.f1"/></p>
+<p>I will forward a cheque for the balance in hand, with the Books &amp;c, if you will let me know to whom they should be sent.</p>
+<p>I am, Sir, | Your obedient Servant, | G. S. Ffinden</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">Ffinden was vicar of Down and had been chairman of the Down School Committee. The Darwins had previously been involved in a series of disputes with Ffinden, including one over Ffinden’s objection to the use of the Down schoolroom as a reading room for working men in the evenings; see <hi rend="italic">Correspondence</hi> vol. 23, <ref target="./DCP-LETT-9975.xml">letter to J. B. Innes, 10 May [1875]</ref> and n. 6. Ffinden’s resignation from the committee had been prompted by <ref target="../nameregs/nameregs_1222.xml">Francis Darwin</ref>, now serving on the committee, seeking the election of a new chairman, to whom Ffinden refused to be subordinate; see <ref target="../bibliographies/bibl_5565.xml">Moore 1985</ref>, p. 472.</note>
+        </div>
+    
+    </body>
     </text>
 </TEI>

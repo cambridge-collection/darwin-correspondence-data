@@ -60,7 +60,19 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2019-03-27" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2019-04-17" status="reviewed">Reviewed by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2019-04-25" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2019-07-08" status="finalProofreadCompleted"/>
+        <change when="2019-07-08" status="copyedited"/>
+        <change when="2022-01-11" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-01-11" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00202-000-00312_files/8/0_0.jpg" width="5350px" height="7302px"/>
@@ -72,6 +84,32 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I beg leave to acknowledge the receipt of your courteous letter in which you announce that the Kon. Natuurkund. Vereeniging in N.-I. has conferred on to me the distinguished honour of being a corresponding m; &amp; for this h. I return my very sincere thanks<ref target="#foot.f2"/></p>
+                    <p>I have the hr. to remain | Sir | Your obliged &amp; obed sevt | Charles Darwin</p>
+                    <p>To the | President</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.1 in] <hi rend="italic">after del</hi> ‘together’ </note>
+                <note xml:id="tnote.n2">1.2 that] <hi rend="italic">after del</hi> ‘to me’ </note>
+            </div>
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter and the <ref target="./DCP-LETT-12656.xml">letter from C. L. van der Burg and H. Cretier, 15 July 1880</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-12656.xml">letter from C. L. van der Burg and H. Cretier, 15 July 1880</ref> and n. 2. CD had been elected a corresponding member of the Koninklijke Natuurkundige Vereeniging in Nederlandsch-Indië (Royal Scientific Society in the Dutch East Indies).</note> 
+        </div>
+    
+    </body>
     </text>
 </TEI>

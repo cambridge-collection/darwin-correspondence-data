@@ -60,7 +60,17 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2020-01-06" status="footnoted">Footnoted by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2020-04-15" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2020-04-30" status="editorResponseCompleted">Editor response by <name sameAs="#pswhite">Paul White</name></change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00202-000-00023_files/8/0_0.jpg" width="2840px" height="5028px"/>
@@ -87,6 +97,31 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>13 Newman S<hi rend="superscript">t</hi>. W.</placeName>
+                    <date>9. 8. 81.</date>
+                    <salute>My dear Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I venture to ask your acceptance of a copy of my book on your works.<ref target="#foot.f1"/> If I have carried the reasoning upon your facts to stages further than perhaps you would yourself admit is just, I hope I may be forgiven on account of the deep love I bear to all your labors &amp; the enthusiasm with which they have inspired<ref target="#foot.f2"/></p>
+<p>Yours faithfully | Edward B. Aveling.</p> 
+                </div>
+            </div>
+
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1"><hi rend="italic">The student’s Darwin</hi> (<ref target="../bibliographies/bibl_11125.xml">Aveling 1881</ref>).</note>
+            <note xml:id="foot.f2">CD had declined Aveling’s offer to dedicate the book to him, and had questioned the usefulness of Aveling’s arguments against Christianity and theism (see <hi rend="italic">Correspondence</hi> vol. 28, <ref target="./DCP-LETT-12754.xml">letter from E. B. Aveling, 12 October 1880</ref>, and <ref target="./DCP-LETT-12757.xml">letter to E. B. Aveling, 13 October 1880</ref>).</note>
+        </div>
+    
+    </body>
     </text>
 </TEI>

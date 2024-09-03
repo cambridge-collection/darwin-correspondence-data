@@ -24,7 +24,7 @@
             <note type="physdesc" n="ALS">4pp</note>
         </notesStmt>
         <sourceDesc>
-            <bibl type="provenance">Kinnordy MS (private collection); sold at Sotheby’s (dealers) (9–10 July 2018, lot 375)</bibl>
+            <bibl type="provenance">Kinnordy MS (private collection) (Sold at Sotheby’s (dealers), 9–10 July 2018, lot 375)</bibl>
                 <msDesc>
                     <msIdentifier>
                         <repository key="../repo/repo_219.xml">Kinnordy</repository>
@@ -46,9 +46,56 @@
                 <p>Thanks for <hi rend="italic">Life, letters and journals of Sir Charles Lyell, Bart.</hi> (K. M. Lyell ed. 1881), but he has already ordered a copy. Can he send the ordered copy to her to give to another, or can he send it on her behalf?</p>
             </abstract>
         </profileDesc>
-        
+        <revisionDesc>
+            <change when="2018-06-19" status="transcribed">Transcribed by <name xml:id="raclarkson">Rosy Clarkson</name></change>
+            <change when="2018-06-21" status="initialProofCompleted">1st proofread by <name xml:id="sevans">Sam Evans</name></change>
+            <change when="2018-10-04" status="secondProofCompleted">Proofread by <name xml:id="ampearn">Alison Pearn</name></change>
+            <change when="2020-09-28" status="footnoted">Footnoted by <name xml:id="pswhite">Paul White</name></change>
+            <change when="2020-12-16" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+            <change when="2020-01-04" status="editorResponseCompleted">Editor response by <name sameAs="#pswhite">Paul White</name></change>
+            <change when="2021-03-29" status="finalProofreadCompleted">Final proofread by <name sameAs="#raclarkson">Rosy Clarkson</name></change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <text>
-        <body><div><!--Transcription has not been cleared for release--></div></body>
+        <body>
+            
+            <div type="letter">
+                <div type="text">
+                    <opener>
+                        <placeName><hi rend="print">Down, | Beckenham, Kent.</hi> | (<hi rend="print">Railway Station | Orpington. S.E.R.</hi>)</placeName>
+                        <date>Nov. 20— 1881</date>
+                        <salute>My dear M<hi rend="superscript">rs</hi> Lyell</salute>
+                    </opener>
+                    <div type="transcription">
+                        <p>Your most kind present arrived last night &amp; I am greatly obliged for it.<ref target="#foot.f1"/> But as it never occurred to me that you would give me so large &amp; valuable a work, I have ordered a copy, as I was very anxious to begin reading the memoirs of my old master, to whom I am so deeply indebted under a scientific point of view.<ref target="#foot.f2"/> The ordered copy has not yet arrived, but no doubt soon will, probably tomorrow, &amp; it will be a sin to keep two copies in the house.</p>
+                        <p>You must know many persons to whom you would like to send a copy; &amp; shall I not send you the one ordered, for you to transmit to whom you may think fit? Or if you like to send me a slip of paper to paste in, &amp; give me any address, I will despatch the parcel by rail, as this may save you a little trouble.—</p>
+                        <p>The work appears very handsome, &amp; again thanking you I remain | Dear M<hi rend="superscript">rs</hi>. Lyell | Yours sincerely | Charles Darwin</p>
+                    </div>
+                </div>
+                
+                
+                <div type="tnotes">
+                    <note xml:id="tnote.n1">0.1 (<hi rend="print">Railway … S.E.R.</hi>)] <hi rend="italic">parentheses added</hi></note>
+                <note xml:id="tnote.n2">1.5 , probably tomorrow,] <hi rend="italic">interl</hi></note>
+                <note xml:id="tnote.n3">1.6 a sin] ‘a’ <hi rend="italic">interl</hi></note>
+            </div>
+                
+                
+                
+            </div>
+            
+            
+            <div type="footnotes">
+                <note xml:id="foot.f1"><hi rend="italic">Life, letters and journals of Sir Charles Lyell, Bart.</hi> (<ref target="../bibliographies/bibl_5038.xml">K. M. Lyell ed. 1881</ref>). CD had been consulted about the selection of letters for the volumes; see <hi rend="italic">Correspondence</hi> vol. 26, <ref target="./DCP-LETT-11431.xml">letter from J. D. Hooker, 18 March 1878</ref>.</note>
+                <note xml:id="foot.f2">CD often noted the influence of Lyell’s <hi rend="italic">Principles of geology</hi> on his early geological work and his species theory, as well as Lyell’s personal support and mentorship (see, for example, <ref target="../bibliographies/bibl_6562.xml">‘Recollections’</ref>, pp. 387, 390–1, 399–401, 411–12; see also <ref target="../bibliographies/bibl_11513.xml">Sponsel 2018</ref>).</note>
+            </div>
+   
+            
+        
+   
+            
+        </body>
     </text>
 </TEI>

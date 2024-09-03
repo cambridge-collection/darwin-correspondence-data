@@ -52,9 +52,55 @@
             <p>Thanks for essay.</p>
         </abstract>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2019-02-07" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2019-04-17" status="reviewed">Reviewed by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2019-04-25" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2019-07-08" status="finalProofreadCompleted"/>
+        <change when="2019-07-08" status="copyedited"/>
+        <change when="2022-01-11" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-01-11" type="footnotes" status="released">Footnotes cleared for online release</change>
+        <change when="2024-01-11">CUL document images added by <name xml:id="did">Digital Innovation and Development, CUL</name>.</change>
+    </revisionDesc>
     </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00145-000-00032_files/8/0_0.jpg" width="4902px" height="7695px" resp="#did"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00145-000-00032_files/11/1_1.jpg" width="4902px" height="7695px" resp="#did"/>
+        <surface n="32" xml:id="i32">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00145-000-00032.jpg" width="4902px" height="7695px" resp="#did"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00145-000-00032_files/8/0_0.jpg" width="4902px" height="7695px" resp="#did"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00145-000-00032.dzi" width="4902px" height="7695px" resp="#did"/>
+        </surface>
+    </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down | etc. etc.</placeName>
+                    <date>July 1. 1880.</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am much obliged to you for your kindness in having sent me your Essay &amp; Poem with notes.—<ref target="#foot.f1"/> I beg you also to give my best thanks to D<hi rend="superscript">r</hi>. Meliarakis for the honour which he has done me by publishing the account of my life &amp; works—<ref target="#foot.f2"/></p>
+<p>I remain, Dear Sir | Yours very faithfully | Charles Darwin.</p> 
+                </div>
+            </div>
+
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">Heldreich sent an offprint of his article ‘Beiträge zur Kentniss des Vaterlandes und der geographischen Verbreitung der Rosskastanie, des Nussbaums und der Buche’ (Contributions to the understanding of the native range and geographical distribution of the horse chestnut, walnut and beech; <ref target="../bibliographies/bibl_11045.xml">Heldreich 1879</ref>). CD’s copy is in the Darwin Pamphlet Collection–CUL. The poem was probably <hi rend="italic">Musinitza: eine Idylle vom Korax</hi> (<ref target="../bibliographies/bibl_11330.xml">Heldreich 1880</ref>); no copy has been found in the Darwin Library–CUL or Down.</note>
+            <note xml:id="foot.f2"><ref target="../nameregs/nameregs_7985.xml">Spyridon Miliarakis</ref> had translated into Greek <ref target="../nameregs/nameregs_3855.xml">William Preyer</ref>’s biographical sketch of CD which had appeared in the special issue of <hi rend="italic">Kosmos</hi> celebrating CD’s seventieth birthday (<ref target="../bibliographies/bibl_10691.xml">Preyer 1879</ref>; <ref target="../bibliographies/bibl_9160.xml">Miliarakis trans. 1880</ref>).</note>
+        </div>
+    
+    </body>
     </text>
 </TEI>

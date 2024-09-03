@@ -28,7 +28,7 @@
             <note type="physdesc">LS 1p &amp; cover</note>
         </notesStmt>
             <sourceDesc>
-                <bibl type="provenance">John Wilson (dealer) (#26009)</bibl>
+                <bibl type="provenance">John Wilson (dealer) (item 26009)</bibl>
                 <msDesc>
                     <msIdentifier>
                         <repository key="../repo/repo_441.xml">John Wilson</repository>
@@ -52,9 +52,56 @@
             <p>Thanks for birthday greetings.</p>
         </abstract>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2017-12-22" status="footnoted">Footnoted by <name xml:id="fjn26">Francis Neary</name></change>
+        <change when="2018-01-19" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2018-03-23" status="editorResponseCompleted">Editor response by <name sameAs="#fjn26">Francis Neary</name></change>
+        <change when="2020-10-30" status="alteredPostPublication">New text proofread by <name xml:id="elsmith">Liz Smith</name></change>
+        <change when="2020-11-04" status="offlineForRe-edit"/>
+        <change when="2020-11-04" status="alteredPostPublication" type="footnotes">n1 changed</change>
+        <change when="2020-11-04" status="alteredPostPublication" type="letter">New transcription</change>
+        <change when="2020-11-04" status="sup-footnoted">Re-footnoted for vol. 30 supp <name xml:id="sevans">Sam Evans</name></change>
+        <change when="2021-07-09" status="sup-reviewed">Reviewed by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2021-10-17" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2021-10-17" type="footnotes" status="released">Footnotes cleared for online release</change>
+        <change when="2022-03-08" status="sup-finalProofreadCompleted">AMP</change>
+        <change when="2022-07-06" status="re-released"/>
+    </revisionDesc>
     </teiHeader>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi><ref target="#foot.f1"/></placeName>
+                    <date>Feb 12 1879</date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I beg leave to return you my sincere thanks for the kind congratulations I have received from you on the occasion of my birthday—<ref target="#foot.f2"/></p>
+                    <p>Dear Sir | yours faithfully | Charles Darwin</p>
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">This letter was previously published in <hi rend="italic">Correspondence</hi> vol. 27 from a description in a Stargardt catalogue. The recipient’s name is supplied from a description of the accompanying envelope. Stargardt gave the name as N. N. Christophe, of Eydtkuhnen in East Prussia (now Chernyshevskoye in Russia); Wilson gave it as Herrn Christophe. Christophe has not been identified.</note>
+            <note xml:id="foot.f2">CD was 70 on 12 February 1879.</note>
+        </div>
+    
+    </body>
     </text>
 </TEI>

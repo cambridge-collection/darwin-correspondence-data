@@ -58,7 +58,19 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2018-04-18" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2018-05-22" status="reviewed">Reviewed by <name xml:id="fjn26">Francis Neary</name></change>
+        <change when="2018-06-04" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2018-08-30" status="finalProofreadCompleted"/>
+        <change when="2018-08-30" status="copyedited"/>
+        <change when="2021-10-17" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2021-10-17" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00099-000-00415_files/8/0_0.jpg" width="2931px" height="5243px"/>
@@ -75,6 +87,40 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">1, Harewood Place, | Hanover Square, | W.</hi></placeName>
+                    <date>July 25, 1879.</date>
+                    <salute>My dear Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I am very sorry that I cannot send you the promised volume— I saw it at the Library of the College of Surgeons and thought it certain that a copy of it would be in the Library of the Medico Chirurgical Society from which I can take-out books. But it appears that their <hi rend="underline">Biographie Médicale</hi> is a very rare book, and the Librarian of the Society has long been trying in vain to get a copy.<ref target="#foot.f1"/></p>
+                    <p>What shall I do? Is there a chance that you or either of your sons will be able to go to the College?<ref target="#foot.f2"/> Flower will in a few minutes get the book to his own room; for the Librarian knows it—<ref target="#foot.f3"/> Or shall I send you an abstract of the biography? My son will think it real happiness to make it for you—<ref target="#foot.f4"/></p>
+<p>Sincerely your’s | James Paget.</p> 
+                </div>
+            </div>
+            <div type="annotations">                
+                <note>1.1 I am ... copy 1.5] ‘(vol. [‘3’ <hi rend="italic">del</hi>] III. 1821’ <hi rend="italic">ink</hi></note>
+                <note>2.1 What ... you— 2.4] ‘W. S. Dallas 21. Alma Sq<hi rend="superscript">r</hi>. N.W’ <hi rend="italic">ink above</hi> ‘Dr Ernst Krause Friedenstrasse 10— II. Berlin’<ref target="#foot.f5"/> <hi rend="italic">ink del pencil</hi></note>
+                <note><hi rend="italic">Top of letter</hi>: ‘Abstract’ <hi rend="italic">blue crayon</hi></note>
+            </div>
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">No letter to <ref target="../nameregs/nameregs_3643.xml" resp="#mjhawkins">James Paget</ref> on this subject has been found, but see the <ref target="./DCP-LETT-12156.xml">letter to James Paget, 14 July 1879</ref>. CD was working on a biography of his grandfather <ref target="../nameregs/nameregs_1219.xml">Erasmus Darwin</ref>, to be published with <ref target="../nameregs/nameregs_2758.xml">Ernst Krause</ref>’s essay on his scientific works (<ref target="../bibliographies/bibl_2365.xml"><hi rend="italic">Erasmus Darwin</hi></ref>). A biography of <ref target="../nameregs/nameregs_1219.xml">Erasmus Darwin</ref> was published in  <ref target="../bibliographies/bibl_10912.xml"><hi rend="italic">Biographie médicale </hi></ref> 3: 384–93.</note>
+            <note xml:id="foot.f2">The <ref target="../nameregs/nameregs_4102.xml" resp="#mjhawkins">Royal College of Surgeons of England</ref> had premises at Lincoln’s Inn Fields, London. Paget probably refers to <ref target="../nameregs/nameregs_1224.xml">George Howard Darwin</ref> and <ref target="../nameregs/nameregs_1222.xml">Francis Darwin</ref>.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_1670.xml">William Henry Flower</ref> was curator of the Hunterian Museum at the Royal College of Surgeons. The librarian was <ref target="../nameregs/nameregs_8598.xml">John Chatto</ref>.</note>
+            <note xml:id="foot.f4">Paget probably refers to his youngest son, <ref target="../nameregs/nameregs_8596.xml">Stephen Paget</ref>, who was a student at St Bartholomew’s Hospital medical school (<hi rend="italic">ODNB</hi>).</note>
+            <note xml:id="foot.f5"><ref target="../nameregs/nameregs_1179.xml">William Sweetland Dallas</ref> was translating <ref target="../nameregs/nameregs_2758.xml">Ernst Krause</ref>’s essay for <ref target="../bibliographies/bibl_2365.xml"><hi rend="italic">Erasmus Darwin</hi></ref>; it was a revised version of <ref target="../bibliographies/bibl_10668.xml">Krause 1879a</ref>.</note>       
+        </div>
+    
+    </body>
     </text>
 </TEI>

@@ -28,7 +28,7 @@
             <relatedItem type="copy" subtype="CUL"><bibl>CUL DAR 249: 121</bibl></relatedItem>
         </notesStmt>
         <sourceDesc>
-            <bibl type="provenance">John Wilson (dealer) (catalogue 68 1990)</bibl>
+            <bibl type="provenance">John Wilson (dealer) (Catalogue 68, 1990)</bibl>
             <msDesc>
                 <msIdentifier>
                     <repository key="../repo/repo_441.xml">Wilson, John</repository>
@@ -57,9 +57,54 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2017-02-13" status="footnoted">Footnoted by <name xml:id="sevans">Sam Evans</name></change>
+        <change when="2017-02-27" status="reviewed">Reviewed by <name xml:id="psw">PW </name></change>
+        <change when="2017-03-06" status="editorResponseCompleted">Editor response by <name sameAs="#sevans">Sam Evans</name></change>
+        <change when="2020-05-21" status="sup-footnoted">Footnoted <name sameAs="#sevans">Sam Evans</name></change>
+        <change when="2021-06-30" status="sup-reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2021-08-26" status="sup-finalProofreadCompleted">Proofread for vol. 30 supplement by <name xml:id="ampearn">Alison Pearn</name></change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi></placeName>
+                    <date>Jan 28 187<hi rend="italic">[</hi>3<hi rend="italic">]</hi></date>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <div type="transcription">                   
+<p>I am glad that you have appended the notes to your translation, &amp; am much pleased that the original interested you.<ref target="#foot.f2"/></p>
+<p>Many thanks for your kindness in having sent me an abstract of your notes.<ref target="#foot.f3"/></p>
+<p>Whenever a new English edit. is required, which will not be soon, as 9000 copies have been printed, I will carefully reconsider your notes.<ref target="#foot.f4"/> I fear, however, that I shall have difficulty in seeing in England some of the articles to which you refer. I sincerely hope that your translation may be successful, &amp; pray accept my thanks for all your kindness.</p>
+<p>Believe me | dear Sir | yours very faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is confirmed by the reference to <ref target="../bibliographies/bibl_3400.xml">Hartogh Heijs van Zouteveen trans. 1873</ref> (see n. 2, below). This letter has been transcribed from a photocopy. The year in the letter appears to have been altered from 1872 to 1873.</note>
+            <note xml:id="foot.f2">Hartogh Heijs van Zouteveen had translated <ref target="../bibliographies/bibl_2400.xml"><hi rend="italic">Expression</hi></ref> into Dutch (Hartogh Heijs van Zouteveen trans. 1873).</note>
+            <note xml:id="foot.f3">For the notes, see <hi rend="italic">Correspondence</hi> vol. 21, <ref target="./DCP-LETT-8712.xml">letter from Hermanus Hartogh Heijs van Zouteveen, [1873?]</ref>. This letter should now be dated [before 28 January 1873].</note>
+            <note xml:id="foot.f4">A <ref target="../bibliographies/bibl_2401.xml">second edition of <hi rend="italic">Expression</hi></ref> was produced by <ref target="../nameregs/nameregs_1222.xml">Francis Darwin</ref> in 1890.</note>
+        </div>
+    
+    </body>
     </text>
 </TEI>

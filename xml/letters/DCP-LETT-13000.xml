@@ -58,7 +58,17 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2019-08-28" status="footnoted">Footnoted by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2019-11-07" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2019-12-12" status="editorResponseCompleted">Editor response by <name sameAs="#pswhite">Paul White</name></change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00202-000-00318_files/8/0_0.jpg" width="2910px" height="5061px"/>
@@ -85,6 +95,35 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>19 Grosvenor St. W</placeName>
+                    <date>10<hi rend="superscript">th</hi> Jan<hi rend="superscript">y</hi>. 1881</date>
+                    <salute>Dear M<hi rend="superscript">r</hi>. Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I hope that should you be the least unwell you will simply tear this letter up &amp; think no more about it. Should however you be quite well, I thought you perhaps would not mind giving me one line of introduction to Sir Joseph Fayrer, should you know him as I thought you probably would.<ref target="#foot.f1"/> Perhaps in that case you would not mind saying that you are an old friend of our family—<ref target="#foot.f2"/> I ask this as I am applying for a vacancy at the Charing Cross Hosp<hi rend="superscript">t</hi>. with which Sir Joseph is connected</p>
+<p>Hoping that I am not troubling you too much, | Believe me | Y<hi rend="superscript">rs</hi>. very truly | Montagu Lubbock. <lb resp="#mjhawkins"/></p>
+<p rend="left">C. Darwin Esq |Downe</p> 
+                </div>
+            </div>
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_1603.xml">Joseph Fayrer</ref> was consulting physician and governor to Charing Cross Hospital, London (<ref target="../bibliographies/bibl_11265.xml">Fayrer 1900</ref>, p. 426); he had provided cobra venom for CD’s work on insectivorous plants (see <hi rend="italic">Correspondence</hi> vol. 22).</note>
+            <note xml:id="foot.f2">The Darwins had become friends and neighbours of the Lubbock family on moving to Down (see <hi rend="italic">Correspondence</hi> vol. 2, <ref target="./DCP-LETT-715.xml">letter to W. D. Fox, [20 November 1843]</ref>).</note>
+      
+            
+        </div>
+    
+    </body>
     </text>
 </TEI>

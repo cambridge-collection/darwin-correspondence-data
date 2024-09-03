@@ -62,7 +62,17 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2019-04-30" status="footnoted">Footnoted by <name xml:id="fjn26">Francis Neary</name></change>
+        <change when="2019-05-28" status="reviewed">Reviewed by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2019-06-19" status="editorResponseCompleted">Editor response by <name sameAs="#fjn26">Francis Neary</name></change>
+        <change when="2022-01-11" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-01-11" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="landscape" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00210-00006-000-00773_files/8/0_0.jpg" width="5434px" height="5279px"/>
@@ -79,6 +89,33 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Down.]</placeName>
+                    <salute>My dear W.</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>Do not trouble yourself about Beaulieu Abbey; for I have found your packet of washed castings &amp; under a high power the bits of brick do not appear rounded.— If I hereafter find that there are <hi rend="underline">generally</hi> little stones in the gizzards of worms, then I sh<hi rend="superscript">d</hi>. be very glad to examine some castings from Beaulieu, but not otherwise. So do nothing unless you hear from me again.<ref target="#foot.f2"/></p>
+<p>yours affect. | C. Darwin <lb resp="#mjhawkins"/></p>
+                    <p rend="left">Sept 10<hi rend="superscript">th</hi>.— | W.E. Darwin Esq</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.2 under] <hi rend="italic">after del</hi> ‘with’ </note>
+            </div>
+
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The year is established by the relationship between this letter and the <ref target="./DCP-LETT-12639.xml">letter to W. E. Darwin, 18 June 1880</ref>.</note>
+            <note xml:id="foot.f2">In his letter of <ref target="./DCP-LETT-12639.xml">18 June 1880</ref>, CD had asked William to visit Beaulieu Abbey in Hampshire to collect a packet of worm-castings so that CD could investigate whether fragments of brick in the castings were rounded by the action of the worm’s gizzard. For CD’s report on the fragments in castings collected from the nave at Beaulieu, see <ref target="../bibliographies/bibl_2241.xml"><hi rend="italic">Earthworms</hi></ref>, pp. 254–5.</note>
+        </div>
+    
+    </body>
     </text>
 </TEI>

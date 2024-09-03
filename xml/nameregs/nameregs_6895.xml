@@ -2,20 +2,23 @@
 <?xml-model href="../schema/identified-entities.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DCP-IDENT-6895" status="released">
     <persName>
-        <forename type="preferred" resp="#mjhawkins">Josephine</forename>
+        <forename>Josephine</forename>
         <forename>Mary</forename>
         <forename>Alice</forename>
         <surname>Boehm</surname>
     </persName>
-    
+    <persName type="additional" subtype="preferred">Effie</persName>
     <note type="dates"><date>1862–1926</date></note>
-    
+    <sex value="F"/>
     <note type="biography">
-        <p>Daughter of Joseph Edgar Boehm. Married Conrad Herapath in 1885.</p></note>
+        <p>Daughter of Joseph Edgar Boehm and his wife, Fanny Boteler. Also known as Effie Josephine Alice, and signed herself as Effie in the marriage register. Married Conrad Herapath (1855/6–1907) in 1885.</p></note>
     <note type="sources">
-        <p><ref target="../bibliographies/bibl_9153.xml" resp="#mjhawkins"><hi rend="italic">BMD</hi></ref> (<hi rend="italic">Birth index</hi></p>
-        <p><hi rend="italic">Marriage index</hi></p>
-        <p><hi rend="italic">Death index</hi>), <ref target="../bibliographies/bibl_1914.xml" resp="#mjhawkins"><hi rend="italic">Debrett’s illustrated peerage</hi></ref> 1900.</p>
+        <p><ref target="../bibliographies/bibl_9153.xml" resp="#mjhawkins"><hi rend="italic">BMD</hi></ref> (<hi rend="italic">Birth index, Marriage index, Death index</hi>)</p>
+            <p><ref target="../bibliographies/bibl_1914.xml" resp="#mjhawkins"><hi rend="italic">Debrett’s illustrated peerage</hi></ref> 1900</p>
+        <p><hi rend="italic">England &amp; Wales, national probate calendar</hi> (<hi rend="italic">index of wills and administrations</hi>), <hi rend="italic">1858–1995</hi> (Ancestry.com, accessed 24 October 2022)</p>
+        <p><hi rend="italic">London Church of England parish registers</hi> P84/PET1/004 (Ancestry.com, accessed 24 October 2022)</p>
     </note>
     <note type="volume">21</note>
+    
+    
 </person>

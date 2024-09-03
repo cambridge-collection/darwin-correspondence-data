@@ -60,7 +60,19 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2018-02-23" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2018-05-22" status="reviewed">Reviewed by <name xml:id="fjn26">Francis Neary</name></change>
+        <change when="2018-05-25" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2018-08-23" status="finalProofreadCompleted"/>
+        <change when="2018-08-23" status="copyedited"/>
+        <change when="2021-10-17" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2021-10-17" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00099-000-00341_files/8/0_0.jpg" width="2945px" height="5211px"/>
@@ -87,6 +99,32 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Fern, | Buxton.</hi></placeName>
+                    <date>July 11 | 1879—</date>
+                    <salute>My dear Cousin</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>The Books, &amp;c which it has been my privilege to lend to you, have reached me safely this day; I have also to acknowledge your kind letter—<ref target="#foot.f1"/> It is a matter of very sincere gratification to me to think that I have been able in the smallest degree to help you in your work, &amp; let me thank you beforehand for the copy of the book which you generously promise to give me—<ref target="#foot.f2"/> I need not say that I look forward with pleasure to the possession— Your son George has again added to my former obligation to him, by sending me a fourth consignment of old family Records of the deepest interest, indeed from the papers which he has sent me, &amp; from those also which I have received from you my knowledge of the Darwins of former times is vastly increased.<ref target="#foot.f3"/></p>
+<p>With best regards to you &amp; to your family believe me my dear Cousin | ever sincerely yours | Reginald Darwin</p> 
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">Reginald had lent Erasmus Darwin’s Commonplace book (Down House MS) and other items for CD’s research for <ref target="../bibliographies/bibl_2365.xml"><hi rend="italic">Erasmus Darwin</hi></ref>. See <ref target="./DCP-LETT-12139.xml">letter to Reginald Darwin, 8 July 1879</ref>.</note>
+            <note xml:id="foot.f2">See <ref target="./DCP-LETT-12139.xml">letter to Reginald Darwin, 8 July 1879</ref> and n. 3.</note>
+            <note xml:id="foot.f3"><ref target="../nameregs/nameregs_1224.xml">George Howard Darwin</ref> had been researching Darwin family history (see letters from G. H. Darwin, <ref target="./DCP-LETT-12116.xml">24 June 1879</ref> and <ref target="./DCP-LETT-12145.xml">10 July 1879</ref>). CD had sent Reginald letters from Reginald’s father, <ref target="../nameregs/nameregs_1221.xml">Francis Sacheverel Darwin</ref>, to CD’s father, <ref target="../nameregs/nameregs_1234.xml">Robert Waring Darwin</ref> (<ref target="./DCP-LETT-11997.xml">letter to Reginald Darwin, 16 April 1879</ref>).</note>  
+        </div>
+    
+    </body>
     </text>
 </TEI>

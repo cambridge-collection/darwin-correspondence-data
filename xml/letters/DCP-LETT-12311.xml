@@ -56,7 +56,19 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2018-03-19" status="footnoted">Footnoted by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2018-06-27" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2018-07-05" status="editorResponseCompleted"><name sameAs="#pswhite">Paul White</name></change>
+        <change when="2018-08-13" status="finalProofreadCompleted"/>
+        <change when="2018-09-11" status="copyedited"/>
+        <change when="2021-10-17" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2021-10-17" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00099-000-00384_files/8/0_0.jpg" width="2675px" height="4643px"/>
@@ -83,6 +95,35 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">1, Chesham Place, | Brighton.</hi></placeName>
+                    <date>12—Nov—1879—</date>
+                    <salute>Dear M<hi rend="superscript">r</hi>. Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>It is <hi rend="doubleUnderline">very</hi> kind of you to send me the life of D<hi rend="superscript">r</hi>. Darwin—<ref target="#foot.f1"/> I admire it greatly, it is <hi rend="doubleUnderline">very</hi> interesting &amp; full of valuable information— He was a striking character &amp; shone especially in an age when such men were scarce—</p>
+                    <p>I had used in my early life to hear much of him from my Father D<hi rend="superscript">r</hi> Fox who was a co-temporary with him &amp; very intimate with him—<ref target="#foot.f2"/> I shall always value highly the memoir you have given me—</p>
+<p>Your’s very much obliged, &amp; faithfully | Douglas Fox <lb resp="#mjhawkins"/></p>
+<p rend="left">C. Darwin Esqre</p> 
+                </div>
+            </div>
+
+            
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">Fox’s name does not appear on the presentation list for <hi rend="italic">Erasmus Darwin</hi>.</note> 
+            <note xml:id="foot.f2">Fox had recounted some anecdotes about Erasmus Darwin that he had been told by his father, <ref target="../nameregs/nameregs_1701.xml">Francis Fox</ref> (see <ref target="./DCP-LETT-12093.xml">letter from Douglas Fox to W. de W. Abney, 7 June 1879</ref>). </note> 
+        </div> 
+     
+    </body>
     </text>
 </TEI>

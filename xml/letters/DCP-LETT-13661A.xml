@@ -60,7 +60,20 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2016-11-11">Facsimile information added by <name sameAs="#mjhawkins">Michael Hawkins</name></change>
+        <change when="2021-01-18" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2021-03-09" status="reviewed">Reviewed by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2021-03-16" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2022-01-05" status="finalProofreadCompleted">Proofread by <name xml:id="elsmith">Liz Smith</name></change>
+        <change when="2022-01-26" status="copyedited">by Samantha Evans and entered by Shelley Innes</change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00185-000-00353_files/8/0_0.jpg" width="3523px" height="6132px"/>
@@ -72,6 +85,32 @@
         </surface>
 </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Down, | Beckenham, Kent.</hi> | (<hi rend="print">Railway Station | Orpington. S.E.R.</hi>)</placeName>
+                    <date>Feb 4<hi rend="superscript">th</hi> 1882</date>
+                    <salute>My dear M<hi rend="superscript">r</hi>. Vines</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>In two or three days I shall put together my notes about the action of C. of Ammonia on roots, &amp; tell you this as it would vex me much not to use any information which you might be willing to communicate to me.<ref target="#foot.f1"/> But the probability is great that your multifarious work has prevented you from making any observations, &amp; in this case do not let me add to the trouble which I have already caused you by answering this note. I will understand silence to mean that you have nothing to communicate. </p><p>Believe me | Yours very faithfully | Ch. Darwin</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">0.1 (<hi rend="italic">Railway … S.E.R.</hi>)] <hi rend="italic">parentheses added</hi> </note>
+                <note xml:id="tnote.n2">1.6 note.] <hi rend="italic">interl above point</hi> </note>
+            </div>
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">Vines had hoped to make observations on the granular cells in roots that resulted from the application of carbonate of ammonia (ammonium carbonate; (NH<hi rend="subscript">4</hi>)<hi rend="subscript">2</hi>CO<hi rend="subscript">3</hi>); see <ref target="../bibliographies/bibl_1581.xml"><hi rend="italic">Correspondence</hi></ref> vol. 29, <ref target="./DCP-LETT-13509.xml">letter from S. H. Vines, 24 November [1881]</ref>. CD’s paper, <ref target="../bibliographies/bibl_11483.xml">‘Action of carbonate of ammonia on roots’</ref>, was read at the Linnean Society on 16 March 1882.</note>
+        </div>
+    
+    </body>
     </text>
 </TEI>

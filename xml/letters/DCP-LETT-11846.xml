@@ -62,7 +62,19 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2017-05-23" status="footnoted">Footnoted by <name xml:id="sevans">Sam Evans</name></change>
+        <change when="2017-08-15" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2017-08-31" status="editorResponseCompleted"/>
+        <change when="2018-05-24" status="finalProofreadCompleted">Proofread by <name xml:id="elsmith">Liz Smith</name></change>
+        <change when="2018-05-24" status="copyedited">Copy-edited by <name sameAs="#sevans">Sam Evans</name></change>
+        <change when="2021-10-17" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2021-10-17" type="footnotes" status="released">Footnotes cleared for online release</change>
+    </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00160-000-00374_files/8/0_0.jpg" width="3085px" height="5264px"/>
@@ -79,6 +91,31 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Royal Geographical Society | 1, Savile Row, | Burlington Gardens, | W.</hi></placeName>
+                    <date>Jan 25 1879</date>
+                    <salute>My dear Mr Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>Mr Galton &amp; other men of high esteem in the Royal have suggested to me the propriety of going in for the Fellowship, under the new Rules.<ref target="#foot.f1"/></p>
+<p>Of course it is impossible to decline such a chance, if there is one for me. Are you quite free to propose me? It is possible you may hesitate on the ground that you have already proposed a number of men this year; if so do not think I shall be hurt if I am told to wait another year</p>
+<p>Yours sincerely | H W Bates</p> 
+                </div>
+            </div>
+
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_1797.xml" resp="#mjhawkins">Francis Galton</ref>. In November 1878, <ref target="../nameregs/nameregs_2357.xml" resp="#mjhawkins">Joseph Dalton Hooker</ref>, the president of the <ref target="../nameregs/nameregs_4110.xml" resp="#mjhawkins">Royal Society of London</ref>, had announced a reduction of fees for new fellows, the entrance fee of £10 being abolished and the annual fee being reduced from £4 to £3 (<hi rend="italic">Record of the Royal Society of London</hi>, p. 100; <hi rend="italic">Proceedings of the Royal Society of London</hi> 28 (1878–9): 47).</note>
+        </div>
+    
+    </body>
     </text>
 </TEI>

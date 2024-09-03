@@ -52,9 +52,57 @@
             <p>Thanks TLB for the collection of his writings.</p>
         </abstract>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2020-06-02" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2020-10-10" status="reviewed"><name xml:id="pswhite">Paul White</name></change>
+        <change when="2020-08-20" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2021-04-20" status="finalProofreadCompleted"/>
+        <change when="2021-04-20" status="copyedited">by Samantha Evans and entered by Shelley Innes</change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        <change when="2024-01-11">CUL document images added by <name xml:id="did">Digital Innovation and Development, CUL</name>.</change>
+    </revisionDesc>
     </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00143-000-00326_files/8/0_0.jpg" width="4239px" height="7088px" resp="#did"/>
+        <graphic decls="#preview-tile-zoomed" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00143-000-00326_files/11/1_1.jpg" width="4239px" height="7088px" resp="#did"/>
+        <surface n="326" xml:id="i326">
+            <graphic decls="#downloadImageRights #download" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00143-000-00326.jpg" width="4239px" height="7088px" resp="#did"/>
+            <graphic decls="#thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00143-000-00326_files/8/0_0.jpg" width="4239px" height="7088px" resp="#did"/>
+            <graphic decls="#display" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00143-000-00326.dzi" width="4239px" height="7088px" resp="#did"/>
+        </surface>
+    </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down | Beckenham Kent</placeName>
+                    <date>Oct 11<hi rend="superscript">th</hi>./81</date>
+                    <salute>My dear D<hi rend="superscript">r</hi>. Brunton</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I thank you much for so kindly sending me a whole collection of your writings— I feel altogether unworthy of them, excepting in so far as the subjects which you discuss yourself interest me, notwithstanding my ignorance<ref target="#foot.f1"/></p>
+<p>Believe me | yours very faithfully | Ch. Darwin</p>
+<p>I have just published a little book wh. I fear will hardly interest you, but I will send a copy by this post—<ref target="#foot.f2"/></p>
+                </div>
+            </div>
+
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">There is an article written by Brunton and a colleague, <ref target="../nameregs/nameregs_1603.xml">Joseph Fayrer</ref>, in the Darwin Pamphlet Collection–CUL (<ref target="../bibliographies/bibl_1010.xml">Brunton and Fayrer 1873–4</ref>), but CD had received it in 1874 (see <hi rend="italic">Correspondence</hi> vol. 22, <ref target="./DCP-LETT-9514.xml">letter from Joseph Fayrer, 25 June 1874</ref>). No other work by Brunton has been found in the Darwin Libraries at CUL or Down.</note>
+            <note xml:id="foot.f2">CD sent a copy of <ref target="../bibliographies/bibl_2241.xml"><hi rend="italic">Earthworms</hi></ref>, which was published on 10 October 1881 (<ref target="../bibliographies/bibl_2661.xml">Freeman 1977</ref>).</note>  
+        </div>   
+       
+    </body>
     </text>
 </TEI>

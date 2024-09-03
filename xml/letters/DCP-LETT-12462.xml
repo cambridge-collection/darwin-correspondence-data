@@ -63,7 +63,20 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2018-08-02" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2018-12-18" status="reviewed">Reviewed by <name xml:id="fjn26">Francis Neary</name></change>
+        <change when="2019-01-07" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2019-05-23" status="finalProofreadCompleted"/>
+        <change when="2019-05-23" status="copyedited"/>
+        <change when="2022-01-11" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-01-11" type="footnotes" status="released">Footnotes cleared for online release</change>
+        <change when="2022-08-16">Automatic links added to bibliographical references in footnotes by <name xml:id="automat">Michael Hawkins</name>.</change>
+    </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00099-000-00285_files/8/0_0.jpg" width="2985px" height="5291px"/>
@@ -90,6 +103,34 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName><hi rend="print">Geological Society, | Burlington House, W.</hi></placeName>
+                    <date>5 Feb<hi rend="superscript">y</hi>. 1880</date>
+                    <salute>My dear M<hi rend="superscript">r</hi>. Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I have no doubt you are quite right in abstaining from replying to Butler, &amp; as you who are so much more aggrieved than I am let him alone, I think I may do so too.—<ref target="#foot.f1"/> If Krause would reply to him it would be the most satisfactory thing, for although by a judicious use of the pronoun “he” in the last paragraph of his letter M<hi rend="superscript">r</hi>. Butler manages to leave his readers in doubt whether he charges Krause or me with having made unacknowledged use of his work, the reference must properly be to Krause.—<ref target="#foot.f2"/></p>
+<p>The latter gentleman no doubt is acquainted with Butler’s work, which, indeed, he criticized in some of the MS. parts translated by me but not printed.—<ref target="#foot.f3"/></p>
+<p>If you will send me the MS. of M<hi rend="superscript">r</hi>. Francis Darwin’s lecture I will look through it to see whether it will suit me for Pop. Sci. Review but I am afraid I shall be unable to put it with the next (April) number.—<ref target="#foot.f4"/> I am very much obliged to you &amp; to him for the kind offer of it.—</p>
+<p>Believe me | Yours very truly | W. S. Dallas</p> 
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">CD had recently decided not to respond to allegations concerning <ref target="../bibliographies/bibl_2365.xml"><hi rend="italic">Erasmus Darwin</hi></ref> made by <ref target="../nameregs/nameregs_774.xml">Samuel Butler</ref> in a letter to the <hi rend="italic">Athenæum</hi> (see <ref target="./DCP-LETT-12458.xml">letter to T. H. Huxley, 4 February [1880]</ref>; for Butler’s letter, see the <ref target="./DCP-LETT-12445.xml">letter to H. E. Litchfield, 1 February [1880]</ref>, enclosure 1). CD’s letter to Dallas has not been found.</note>
+            <note xml:id="foot.f2">In his letter to the <hi rend="italic">Athenæum</hi>, Butler compared the original essay by <ref target="../nameregs/nameregs_2758.xml">Ernst Krause</ref> (<ref target="../bibliographies/bibl_10668.xml">Krause 1879a</ref>) with the version in <hi rend="italic">Erasmus Darwin</hi>, and suggested that some of the new material made critical reference to <ref target="../bibliographies/bibl_10523.xml">Butler 1879</ref> without acknowledging its target. Butler also criticised the reviews of <ref target="../bibliographies/bibl_10523.xml" resp="#automat" cert="low">Butler 1879</ref> and <hi rend="italic">Erasmus Darwin</hi> in <hi rend="italic">Popular Science Review</hi>, the journal edited by Dallas.</note>
+            <note xml:id="foot.f3">A substantial amount of Krause’s revised essay for <hi rend="italic">Erasmus Darwin</hi> was deleted because it covered subjects already discussed by CD in his preliminary notice (see <hi rend="italic">Correspondence</hi> vol 27, <ref target="./DCP-LETT-12192.xml">letter to Ernst Krause, 13 August 1879</ref>).</note>
+            <note xml:id="foot.f4">Dallas published <ref target="../nameregs/nameregs_1222.xml">Francis Darwin</ref>’s lecture on climbing plants in the July 1880 issue of <hi rend="italic">Popular Science Review</hi> (<ref target="../bibliographies/bibl_10936.xml">F. Darwin 1880c</ref>). The lecture was given by Francis to the Sunday Lecture Society at St George’s Hall, London, on 25 January 1880 (<ref target="../nameregs/nameregs_1218.xml" resp="#mjhawkins">Emma Darwin’s</ref> diary (DAR 242); for more on the Sunday Lecture Society, see <ref target="../bibliographies/bibl_8636.xml">Barton 2014</ref>, pp. 199–206).</note>
+        </div>
+    
+    </body>
     </text>
 </TEI>

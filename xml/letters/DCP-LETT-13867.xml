@@ -23,15 +23,14 @@
             <biblScope unit="vol" n="30">30-Supplement</biblScope>
         </seriesStmt>
         <notesStmt>
-            <note type="description">Incomplete<ref target="#foot.f3"/></note>
             <note type="physdesc" n="ALS">* 1p</note>
         </notesStmt>
         <sourceDesc>
-            <bibl type="provenance">Christie’s, London (dealers) (24 October 1979)</bibl>
+            <bibl type="provenance">Daniel V. Grossman (private collection)</bibl>
             <msDesc>
                 <msIdentifier>
-                    <repository key="../repo/repo_88.xml">Christie’s</repository>
-                    <collection>24 Oct 1979</collection>
+                    <repository key="../repo/repo_695.xml">Grossman, Daniel V.</repository>
+                    <collection>(private collection)</collection>
                 </msIdentifier>
             </msDesc>
         </sourceDesc>
@@ -84,9 +83,45 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2018-10-09" status="footnoted">Footnoted by <name xml:id="sevans">Sam Evans</name></change>
+            <change when="2020-05-05" status="sup-footnoted">Footnoted by <name sameAs="#sevans">Sam Evans</name></change>
+        <change when="2021-11-01" status="sup-reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2021-11-04" status="sup-finalProofreadCompleted">Proofread by <name xml:id="elsmith">Liz Smith</name></change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        <change when="2022-10-14" type="letter" status="alteredPostPublication">Catalogue description replaced with transcription from original. Former provenance Christie’s, London (dealers) (24 October 1979) </change>
+        </revisionDesc>
     </teiHeader>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Down</placeName>
+                    <date>Aug 7.</date>
+                    <salute>My dear Lord</salute>
+                </opener>
+                <div type="transcription">              
+<p>I am extremely much obliged for your note. Few things would have given me more pleasure than the ride which you propose, but I am so very subject to headaches, that I am really afraid of any exertion:<ref target="#foot.f2"/></p>
+                    <p>&amp; with very sincere thanks to your Lordship, I beg to remain | your's truly obliged | Charles Darwin</p>
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The beginning of the date range is established from the fact that CD moved to Down House, Kent, in September 1842 (<hi rend="italic">Correspondence</hi> vol. 2, Appendix II); he may have given up riding after a fall in April 1869 (<hi rend="italic">Correspondence</hi> vol. 17, <ref target="./DCP-LETT-6706.xml">letter to A. R. Wallace, 14 April 1869</ref> and n. 12).</note>
+            <note xml:id="foot.f2">The letter may have been written to <ref target="../nameregs/nameregs_4066.xml">Robert Monsey Rolfe</ref> (Lord Cranworth) or <ref target="../nameregs/nameregs_4521.xml">Philip Henry Stanhope</ref> (Lord Stanhope), both of whom had country seats near Down. For CD’s relationship with Stanhope, see ‘Recollections’, p. 361. CD’s doctor ordered him to ride daily in 1866 (<hi rend="italic">Correspondence</hi> vol. 14, <ref target="./DCP-LETT-5225.xml">letter to George Bentham, 1 October 1866</ref>).</note>
+        </div>
+    
+    </body>
     </text>
 </TEI>

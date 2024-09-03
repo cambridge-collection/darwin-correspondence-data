@@ -61,7 +61,18 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2020-10-29" status="footnoted">Footnoted by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2020-12-17" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2020-01-04" status="editorResponseCompleted">Editor response by <name sameAs="#pswhite">Paul White</name></change>
+        <change when="2021-03-30" status="finalProofreadCompleted">Final proofread by <name xml:id="raclarkson">Rosy Clarkson</name></change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00202-000-00323_files/8/0_0.jpg" width="2960px" height="4931px"/>
@@ -73,6 +84,42 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>[Down.]</placeName>
+                    <salute>My dear Sir</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>I am sorry to say that I have given so strong a testimonial to D<hi rend="superscript">r</hi>. Ray L. &amp; expressed so strong a wish for his success, that it would stultify me to give another.<ref target="#foot.f2"/> I assure you that it pains me to refuse your request; but it may be doubted whether a testimonial from me w<hi rend="superscript">d</hi> be of any value unless the electors are evolutionists, which is not very probable.—</p> 
+                </div>
+            </div>
+            <div type="tnotes">
+                <note xml:id="tnote.n1">1.1 &amp; … success, 1.2] <hi rend="italic">interl</hi></note>
+                <note xml:id="tnote.n2">1.2 stultify] <hi rend="italic">after del</hi> ‘stultf’</note>
+                <note xml:id="tnote.n3">1.3 assure] <hi rend="italic">after del</hi> ‘can’</note>
+                <note xml:id="tnote.n4">1.3 pains] <hi rend="italic">above del</hi> ‘vexes’</note>
+                <note xml:id="tnote.n5">1.3 may be] <hi rend="italic">del and stet below del</hi> ‘can may hardly be’</note>
+                <note xml:id="tnote.n6">1.3 whether] <hi rend="italic">above del</hi> ‘that’, <hi rend="italic">above del</hi> ‘how far’</note>
+                <note xml:id="tnote.n7">1.4 any value] <hi rend="italic">above del</hi> ‘valueless’; ‘less’ <hi rend="italic">added to</hi> ‘value’</note>
+                <note xml:id="tnote.n8">1.4 unless … evolutionists,] <hi rend="italic">after del</hi> ‘*any elector [<hi rend="italic">above del</hi> ‘anyone’]’</note>
+                <note xml:id="tnote.n9">1.4 unless … evolutionists,] <hi rend="italic">above del</hi> ‘who is not evolutionist; &amp; I’</note>
+                <note xml:id="tnote.n10">1.4 which] <hi rend="italic">after del</hi> ‘imagine that’</note>
+            </div>
+            
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">The date is established by the relationship between this letter and the <ref target="./DCP-LETT-13499.xml">letter from W. C. McIntosh, 21 November 1881</ref>.</note>
+            <note xml:id="foot.f2">CD had written a letter of support for <ref target="../nameregs/nameregs_2814.xml">Edwin Ray Lankester</ref>’s candidacy for the chair of natural history at <ref target="../nameregs/nameregs_1454.xml" resp="#mjhawkins">Edinburgh University</ref> (see <ref target="./DCP-LETT-13446.xml">letter to E. R. Lankester, 31 October 1881</ref>).</note>
+            
+        </div>
+    
+    </body>
     </text>
 </TEI>

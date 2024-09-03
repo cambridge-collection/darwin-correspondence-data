@@ -58,7 +58,18 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2021-02-18" status="footnoted">Footnoted by <name xml:id="pas">Anne Secord</name></change>
+        <change when="2021-04-07" status="reviewed">Reviewed by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2021-04-09" status="editorResponseCompleted">Editor response by <name sameAs="#pas">Anne Secord</name></change>
+        <change when="2022-02-24" status="copyedited">Copyedited by Samantha Evans. Corrections entered by Anne Secord.</change>
+        <change when="2022-07-05" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-07-05" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00164-000-00466_files/8/0_0.jpg" width="3217px" height="5440px"/>
@@ -85,6 +96,33 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>53 Wimpole St</placeName>
+                    <date>2 April 1882</date>
+                    <salute>Dear Mr Darwin</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I am sorry to say I have not yet succeded in getting you some Cobra poison here, but do not yet despair of doing so.<ref target="#foot.f1"/></p>
+<p>Meanwhile, a letter is on its way to Bengal to Mr Vincent Richards, Civil Surgeon of Goalundo in Bengal asking him to send you some by post direct, so that it will reach you within the space of time required to reply to a letter. Mr Richards who formerly worked with me in India is now carrying on some investigations in snake poisons and will I hope have what you want ready to send.<ref target="#foot.f2"/></p>
+<p>If I get any here it shall be sent to you at once.</p>
+<p>Yours very truly | J Fayrer—</p> 
+                </div>
+            </div>
+
+            
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">In a letter of <ref target="./DCP-LETT-13750.xml">30 March 1882</ref>, CD had asked Fayrer, an expert on snake venom, for some cobra poison.</note>
+            <note xml:id="foot.f2">Both <ref target="../nameregs/nameregs_9238.xml">Richards</ref> and Fayrer had been members of the Indian Snake Poison Commission and carried out research on snake venom (<ref target="../bibliographies/bibl_11605.xml"><hi rend="italic">Report of the commission on snake-poisoning</hi> 1874</ref>). Richards worked for the Indian Medical Service as had Fayrer prior to his departure from India in 1871 (<ref target="../bibliographies/bibl_11606.xml">Bhaumik 2018</ref>). Goalundo, Bengal, is now Goalundo Ghat, Bangladesh.</note>
+           </div>
+    
+    </body>
     </text>
 </TEI>

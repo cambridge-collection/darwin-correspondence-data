@@ -57,7 +57,17 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2018-11-21" status="footnoted">Footnoted by <name xml:id="fjn26">Francis Neary</name></change>
+        <change when="2018-11-26" status="reviewed">Reviewed by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2019-01-11" status="editorResponseCompleted">Editor response by <name sameAs="#fjn26">Francis Neary</name></change>
+        <change when="2022-01-11" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-01-11" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00201-000-00037_files/8/0_0.jpg" width="4000px" height="5404px"/>
@@ -74,6 +84,28 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <salute>Respected Sir,</salute>
+                </opener>
+                <div type="transcription">
+                     
+                    <p>Your letter to me acknowledging the reception of the little book I sent you has been beautifully framed and hangs in the fire proof gallery of the Kentucky State House at Frankfort where it may be read for centuries after we are gone to that unknown land.<ref target="#foot.f1"/> We have all your writings in our great Public Library at Louisville of which I am a trustee. No answer requested.</p>
+<p>Kindly and sincerely, | C. C. Graham, M.D. <lb resp="#mjhawkins"/></p>
+<p rend="left">Louisville, Ky. | March 28<hi rend="superscript">th</hi>., 1880.</p> 
+                </div>
+            </div>
+
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1"><ref target="../nameregs/nameregs_1941.xml">Graham</ref> had sent a book (possibly <ref target="../bibliographies/bibl_10170.xml">Graham 1869</ref>) with his letter of <ref target="./DCP-LETT-10821.xml">30 January 1877</ref> (<hi rend="italic">Correspondence</hi> vol. 25). No letter from CD to Graham has been found.</note>
+        </div>
+    
+    </body>
     </text>
 </TEI>

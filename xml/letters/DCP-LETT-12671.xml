@@ -57,7 +57,19 @@
             </keywords>
         </textClass>
     </profileDesc>
-    
+    <revisionDesc>
+        <change when="2016-07-12" status="transcribed">Transcribed by <name xml:id="dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="initialProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12" status="secondProofCompleted">Transcribed by <name sameAs="#dcp">Darwin Correspondence Project</name></change>
+        <change when="2016-07-12">Converted to TEI P5 by <name xml:id="mjhawkins">Michael Hawkins</name></change>
+        <change when="2019-04-12" status="footnoted">Footnoted by <name xml:id="sainnes">Shelley Innes</name></change>
+        <change when="2019-04-17" status="reviewed">Reviewed by <name xml:id="pswhite">Paul White</name></change>
+        <change when="2019-04-29" status="editorResponseCompleted">Editor response by <name sameAs="#sainnes">Shelley Innes</name></change>
+        <change when="2019-07-09" status="finalProofreadCompleted"/>
+        <change when="2019-07-09" status="copyedited"/>
+        <change when="2022-01-11" type="letter" status="released">Transcription cleared for online release</change>
+        <change when="2022-01-11" type="footnotes" status="released">Footnotes cleared for online release</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic decls="#document-thumbnail" rend="portrait" url="https://images.lib.cam.ac.uk/content/images/MS-DAR-00202-000-00324_files/8/0_0.jpg" width="2917px" height="4978px"/>
@@ -84,6 +96,30 @@
         </surface>
     </facsimile>
     <text>
-    <body><div><!--Transcription has not been cleared for release--></div></body>
+    <body>
+        
+        <div type="letter">
+            <div type="text">
+                <opener>
+                    <placeName>Yale College | New Haven Ct.</placeName>
+                    <date>July 28<hi rend="superscript">th</hi>. 1880.</date>
+                    <salute>Dear Mr. Darwin,</salute>
+                </opener>
+                <div type="transcription">
+                     
+<p>I send you today a copy of my Memoir on the <hi rend="underline">Odontornithes</hi>, the plates of which I had the pleasure of showing you two years ago.<ref target="#foot.f1"/> I trust you may find in the volumes some new facts in confirmation of your own work, which has changed the whole course of scientific investigation.</p>
+<p>I remain | with high respect, | very truly yours, | O. C. Marsh. <lb resp="#mjhawkins"/></p>
+<p rend="left">Charles Darwin Esq F.R.S. &amp;c.</p> 
+                </div>
+            </div>
+
+        </div>
+        
+        
+        <div type="footnotes">
+            <note xml:id="foot.f1">Marsh had visited CD on 9 July 1878 (<hi rend="italic">Correspondence</hi> vol. 26, <ref target="./DCP-LETT-11597F.xml">letter from W. E. Darwin, 10 July [1878]</ref>). CD’s copy of <hi rend="italic">Odontornithes: a monograph on the extinct toothed birds of North America</hi> (<ref target="../bibliographies/bibl_11066.xml">Marsh 1880</ref>) has not been found.</note>  
+        </div>
+    
+    </body>
     </text>
 </TEI>
